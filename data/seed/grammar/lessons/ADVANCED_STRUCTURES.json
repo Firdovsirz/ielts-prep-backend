@@ -1,0 +1,91 @@
+{
+  "task_type": "GRAMMAR_LESSON",
+  "source_url": "",
+  "licence": "Original content",
+  "content": {
+    "area": "ADVANCED_STRUCTURES",
+    "title": "Advanced structures: reported speech, inversion, clefts and participle clauses",
+    "summary": "Band 8 requires a wide range of structures used flexibly, with most sentences error-free, and a few well-placed advanced structures are what make that range visible to the examiner. Control is everything: one accurate inversion or cleft sentence impresses, whereas a forced or faulty one lowers your accuracy score.",
+    "explanation": "### 1. Reported speech\nUseful in Part 2 stories and for reporting other people's views in Task 2.\n- Backshift after a past reporting verb: *\"I **am** tired\"* → *She said (that) she **was** tired* (*will → would, can → could, has done → had done*).\n- No backshift is needed if the fact is still true: *He told me the museum **opens** at nine.*\n- Reported questions use statement order: *She asked **where I lived***, not ✗ *where did I live*.\n- Use precise reporting verbs: *argue, claim, insist, admit, deny, warn*. Patterns: *suggest **that** we leave* / *suggest **leaving*** (never ✗ *suggest to leave*); *tell **someone***; *warn someone **not to***.\n\n### 2. Inversion\nAfter a negative or restrictive expression at the start of a sentence, use **question word order** (auxiliary + subject):\n- ***Not only does** tourism create jobs, **but** it **also** funds conservation.*\n- ***Rarely have** governments faced such a complex challenge.*\n- ***Never before has** information been so easy to access.*\n- ***Only by** investing in education **can** countries reduce inequality.*\n- ***Not until** 2010 **did** sales begin to recover.*\n\nConditional inversion (formal, without *if*):\n- ***Should** you **need** further information, please contact me.* (= if you need)\n- ***Were** the government **to** ban cars, deliveries would suffer.* (= if the government banned)\n- ***Had** we **known**, we **would have** left earlier.* (= if we had known)\n\nUse one inversion per essay at most: it is emphatic and loses force if repeated.\n\n### 3. Cleft sentences\nClefts split a sentence to put one element in focus.\n- **It-cleft:** ***It is** the cost of housing **that** drives young people out of cities.* / ***It was not until** I moved abroad **that** I appreciated my family.*\n- **Wh-cleft:** ***What** concerns me most **is** the lack of green space.* / ***What** the government should do **is** invest in rail.*\n\nClefts are especially natural in Part 3 when you want to stress your main point.\n\n### 4. Participle clauses\nReplace a full clause with a participle for concise, academic sentences:\n- **-ing (active):** ***Living** in a small town, I rarely use public transport.*\n- **-ed (passive):** ***Built** in 1890, the bridge is still in use.*\n- ***Having + past participle*** (earlier action): ***Having analysed** the data, the researchers…*\n\nThe participle's subject must be the subject of the main clause. ✗ *Walking to school, the rain started* — the rain was not walking.\n\n### 5. Fronting\nMoving a phrase to the front adds emphasis or links to the previous sentence: ***Particularly worrying** is the rise in youth unemployment.* / ***Far more significant**, however, was the change after 2010.*",
+    "key_rules": [
+      {
+        "rule": "In reported speech after a past reporting verb, move tenses back unless the fact is still true.",
+        "example": "The minister claimed that the new rail line would halve journey times."
+      },
+      {
+        "rule": "After a fronted negative or restrictive adverbial (Not only, Rarely, Never, Only by, Not until), invert the auxiliary and subject.",
+        "example": "Not only does remote work save commuting time, but it also reduces office costs."
+      },
+      {
+        "rule": "Use Should / Were … to / Had + subject to replace 'if' in formal conditionals.",
+        "example": "Had the council consulted local residents, the project would not have faced such strong opposition."
+      },
+      {
+        "rule": "Use an it-cleft (It is/was … that/who …) to emphasise one element of the sentence.",
+        "example": "It is the lack of affordable childcare that prevents many parents from returning to work."
+      },
+      {
+        "rule": "Use a wh-cleft (What … is/was …) to put your main point at the end, where it has most impact.",
+        "example": "What most people underestimate is how much time they spend on their phones."
+      },
+      {
+        "rule": "A participle clause must share its subject with the main clause.",
+        "example": "Having reviewed the evidence, I believe that the benefits clearly outweigh the drawbacks."
+      }
+    ],
+    "common_mistakes": [
+      {
+        "wrong": "She asked me where did I study.",
+        "right": "She asked me where I studied.",
+        "why": "Reported questions use statement word order, without 'did'."
+      },
+      {
+        "wrong": "Not only tourism creates jobs, but also it protects heritage.",
+        "right": "Not only does tourism create jobs, but it also helps protect heritage.",
+        "why": "A fronted 'Not only' needs inversion (does + subject), and 'also' goes after the subject in the second clause."
+      },
+      {
+        "wrong": "Rarely people have access to such good healthcare.",
+        "right": "Rarely do people have access to such good healthcare.",
+        "why": "A fronted negative adverb requires auxiliary–subject inversion."
+      },
+      {
+        "wrong": "Walking along the beach, the sun began to set.",
+        "right": "As we were walking along the beach, the sun began to set. (or: Walking along the beach, we watched the sun set.)",
+        "why": "The participle must refer to the subject of the main clause; the sun was not walking."
+      },
+      {
+        "wrong": "What I want to say it is that education is important.",
+        "right": "What I want to stress is that education is important.",
+        "why": "In a wh-cleft, the wh-clause is already the subject, so no extra 'it' is needed."
+      },
+      {
+        "wrong": "My teacher suggested me to read more newspapers.",
+        "right": "My teacher suggested that I read more newspapers. (or: suggested reading more newspapers)",
+        "why": "'Suggest' is not followed by object + to-infinitive; use a that-clause or an -ing form."
+      }
+    ],
+    "ielts_examples": [
+      {
+        "context": "WRITING_TASK1",
+        "sentence": "Having peaked at 42% in 2005, the proportion of households using landlines declined steadily for the rest of the period."
+      },
+      {
+        "context": "WRITING_TASK2",
+        "sentence": "Only by making public transport cheaper and more reliable can governments persuade commuters to leave their cars at home."
+      },
+      {
+        "context": "WRITING_TASK2",
+        "sentence": "What is often overlooked in this debate is the role that parents play in shaping children's attitudes to money."
+      },
+      {
+        "context": "SPEAKING_PART2",
+        "sentence": "It wasn't until I started working that I realised how much my grandmother had sacrificed; she once told me she had left school at twelve to look after her brothers."
+      },
+      {
+        "context": "SPEAKING_PART3",
+        "sentence": "Never before have young people had so much information at their fingertips, yet I'm not convinced they're any better informed."
+      }
+    ]
+  }
+}

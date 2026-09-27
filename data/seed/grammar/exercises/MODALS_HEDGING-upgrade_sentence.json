@@ -1,0 +1,123 @@
+{
+  "task_type": "GRAMMAR_EXERCISE",
+  "source_url": "",
+  "licence": "Original content",
+  "content": {
+    "area": "MODALS_HEDGING",
+    "exercise_type": "UPGRADE_SENTENCE",
+    "title": "Hedging: turn over-certain claims into academic claims",
+    "instructions": "Each sentence makes an over-certain or over-generalised claim, which weakens a Task 2 argument or a Speaking Part 3 answer. Rewrite it as a cautious, precise claim using hedging language such as may, might, could, can, tend to, is likely to, appears to, it could be argued that, many / some, in many cases. Keep the main idea.",
+    "items": [
+      {
+        "id": "1",
+        "prompt": "Social media makes teenagers depressed.",
+        "options": [],
+        "accepted_answers": [
+          "Excessive use of social media may contribute to depression in some teenagers."
+        ],
+        "model_answer": "Heavy use of social media appears to be linked to higher rates of anxiety and depression among some teenagers.",
+        "check_mode": "AI",
+        "explanation": "The original presents a causal link as universal fact. 'Appears to be linked' (hedged verb) and 'some teenagers' (limited quantity) show academic caution, and 'heavy use' makes the claim more precise."
+      },
+      {
+        "id": "2",
+        "prompt": "Everyone who works from home is more productive.",
+        "options": [],
+        "accepted_answers": [
+          "Many people who work from home tend to be more productive."
+        ],
+        "model_answer": "Many employees who work from home appear to be more productive, at least in jobs that require long periods of concentration.",
+        "check_mode": "AI",
+        "explanation": "'Everyone' is an over-generalisation that an examiner can easily challenge. Replacing it with 'many', adding 'appear to', and limiting the claim to certain types of job make it defensible."
+      },
+      {
+        "id": "3",
+        "prompt": "Banning cars from city centres will solve the pollution problem.",
+        "options": [],
+        "accepted_answers": [
+          "Banning cars from city centres could significantly reduce air pollution."
+        ],
+        "model_answer": "Banning cars from city centres would be likely to reduce air pollution considerably, although it is unlikely to solve the problem on its own.",
+        "check_mode": "AI",
+        "explanation": "'Will solve' claims certainty about a complex outcome. 'Would be likely to' hedges the prediction, and the 'although' clause acknowledges the limits of the solution, which shows balanced reasoning."
+      },
+      {
+        "id": "4",
+        "prompt": "Rich countries always ignore the needs of poor countries.",
+        "options": [],
+        "accepted_answers": [
+          "Wealthy countries often overlook the needs of poorer nations."
+        ],
+        "model_answer": "Wealthier nations tend to prioritise their own interests, which can sometimes lead them to overlook the needs of developing countries.",
+        "check_mode": "AI",
+        "explanation": "Absolute words such as 'always' and 'never' are rarely accurate. 'Tend to' expresses a general pattern, and 'can sometimes' limits how often it happens."
+      },
+      {
+        "id": "5",
+        "prompt": "Online courses are worse than traditional classes.",
+        "options": [],
+        "accepted_answers": [
+          "Online courses may be less effective than traditional classes for some students."
+        ],
+        "model_answer": "Online courses may be less effective than face-to-face classes for students who lack self-discipline or a quiet place to study.",
+        "check_mode": "AI",
+        "explanation": "'May be' softens the comparison, and a defining relative clause specifies exactly which learners the claim applies to. 'Worse' is also replaced with the more precise 'less effective'."
+      },
+      {
+        "id": "6",
+        "prompt": "The graph proves that people are eating healthier food.",
+        "options": [],
+        "accepted_answers": [
+          "The graph suggests that people's diets became healthier over the period."
+        ],
+        "model_answer": "The data suggests that people's diets may have become healthier over the period shown, as consumption of fresh fruit and vegetables rose steadily.",
+        "check_mode": "AI",
+        "explanation": "A chart shows data; it does not 'prove' anything. Reporting verbs such as 'suggest' and 'indicate', and 'may have become' (modal + perfect infinitive for past speculation), keep the claim accurate."
+      },
+      {
+        "id": "7",
+        "prompt": "Young people don't read books any more.",
+        "options": [],
+        "accepted_answers": [
+          "Young people probably read fewer books than previous generations did."
+        ],
+        "model_answer": "I'd say young people probably read fewer printed books than previous generations did, although many of them read a great deal online.",
+        "check_mode": "AI",
+        "explanation": "In Speaking Part 3, hedges such as 'I'd say', 'probably' and 'I suppose' sound natural and nuanced. The comparison 'fewer … than' is more accurate than the absolute 'don't … any more'."
+      },
+      {
+        "id": "8",
+        "prompt": "Raising the tax on fuel is the only way to reduce traffic.",
+        "options": [],
+        "accepted_answers": [
+          "Raising fuel tax could be one effective way to reduce traffic."
+        ],
+        "model_answer": "Raising fuel taxes could be one of the more effective ways of reducing traffic, although it would probably need to be combined with better public transport.",
+        "check_mode": "AI",
+        "explanation": "'The only way' is an over-statement. 'Could be one of the more effective ways' hedges both the certainty (could) and the scope (one of), and the final clause suggests a balanced solution."
+      },
+      {
+        "id": "9",
+        "prompt": "Robots will replace all human workers in the future.",
+        "options": [],
+        "accepted_answers": [
+          "Automation is likely to replace many routine jobs in the future."
+        ],
+        "model_answer": "Automation is likely to replace a significant number of routine jobs over the coming decades, although it may also create new roles that do not yet exist.",
+        "check_mode": "AI",
+        "explanation": "'Will replace all' makes a certain, universal prediction. 'Is likely to' expresses probability, 'a significant number of routine jobs' limits the scope, and 'may also' introduces a counter-possibility."
+      },
+      {
+        "id": "10",
+        "prompt": "Tourism destroys local cultures.",
+        "options": [],
+        "accepted_answers": [
+          "Mass tourism can damage local cultures in some cases."
+        ],
+        "model_answer": "Mass tourism can, in some cases, erode local traditions, as communities may adapt their customs to suit visitors.",
+        "check_mode": "AI",
+        "explanation": "'Can' expresses possibility rather than certainty, 'in some cases' limits the scope, and 'may' hedges the explanation. 'Erode' is also more precise than 'destroy'. Avoid stacking too many hedges (e.g. 'It could be argued that it can possibly …'), which makes a claim sound empty."
+      }
+    ]
+  }
+}

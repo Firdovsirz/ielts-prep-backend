@@ -1,0 +1,103 @@
+{
+  "task_type": "GRAMMAR_EXERCISE",
+  "source_url": "",
+  "licence": "Original content",
+  "content": {
+    "area": "COMPARISON_TRENDS",
+    "exercise_type": "GAP_FILL",
+    "title": "Language of change and comparison: Task 1 prepositions and forms",
+    "instructions": "Complete each Task 1 sentence. If there is no word in brackets, write ONE preposition or function word. If there is a word in brackets, write the correct form of it (you may need to add another word such as 'the' or an intensifier).",
+    "items": [
+      {
+        "id": "1",
+        "prompt": "Between 2010 and 2015, the price of a litre of petrol rose ___ £1.20 to £1.45.",
+        "options": [],
+        "accepted_answers": ["from"],
+        "model_answer": "Between 2010 and 2015, the price of a litre of petrol rose from £1.20 to £1.45.",
+        "check_mode": "EXACT",
+        "explanation": "'From … to …' gives the starting and finishing values of a change: rose from X to Y."
+      },
+      {
+        "id": "2",
+        "prompt": "Over the decade, the unemployment rate fell ___ three percentage points, from 8% to 5%.",
+        "options": [],
+        "accepted_answers": ["by"],
+        "model_answer": "Over the decade, the unemployment rate fell by three percentage points, from 8% to 5%.",
+        "check_mode": "EXACT",
+        "explanation": "'By' expresses the size of the change (the difference), while 'to' gives the final value. 'Fell to 3%' would mean the rate ended at 3%, which is a different fact."
+      },
+      {
+        "id": "3",
+        "prompt": "The figure for Germany peaked ___ 45% in 2008 before declining steadily.",
+        "options": [],
+        "accepted_answers": ["at"],
+        "model_answer": "The figure for Germany peaked at 45% in 2008 before declining steadily.",
+        "check_mode": "EXACT",
+        "explanation": "'Peak', 'stand', 'level off' and 'stabilise' are followed by 'at + value' because they describe a position, not a movement: peaked at, stood at, levelled off at."
+      },
+      {
+        "id": "4",
+        "prompt": "There was a sharp rise ___ the number of cyclists after the new cycle lanes were opened.",
+        "options": [],
+        "accepted_answers": ["in"],
+        "model_answer": "There was a sharp rise in the number of cyclists after the new cycle lanes were opened.",
+        "check_mode": "EXACT",
+        "explanation": "After nouns of change (a rise, an increase, a fall, a decline), use 'in' before the thing that changes: a rise in the number of cyclists."
+      },
+      {
+        "id": "5",
+        "prompt": "Online sales experienced an increase ___ 20% in the final quarter of the year.",
+        "options": [],
+        "accepted_answers": ["of"],
+        "model_answer": "Online sales experienced an increase of 20% in the final quarter of the year.",
+        "check_mode": "EXACT",
+        "explanation": "After a noun of change, use 'of' before the amount: an increase of 20%, a drop of 3 million. Compare 'an increase in sales' (the thing) and 'an increase of 20%' (the amount)."
+      },
+      {
+        "id": "6",
+        "prompt": "The chart shows a ___ (gradually) increase in the use of renewable energy over the period.",
+        "options": [],
+        "accepted_answers": ["gradual"],
+        "model_answer": "The chart shows a gradual increase in the use of renewable energy over the period.",
+        "check_mode": "EXACT",
+        "explanation": "A noun (increase) is described by an adjective (gradual); a verb is described by an adverb (increased gradually). Alternating between the two patterns adds grammatical range to Task 1 answers."
+      },
+      {
+        "id": "7",
+        "prompt": "After 2015, the number of new car registrations ___ (level) off at around two million a year.",
+        "options": [],
+        "accepted_answers": ["levelled", "leveled"],
+        "model_answer": "After 2015, the number of new car registrations levelled off at around two million a year.",
+        "check_mode": "EXACT",
+        "explanation": "'Level off' is a phrasal verb meaning 'stop rising or falling'. A finished past period needs the past simple, and British spelling doubles the final 'l': levelled (US: leveled)."
+      },
+      {
+        "id": "8",
+        "prompt": "In 2020, Japan had ___ (high) proportion of people aged over 65 of all the countries shown.",
+        "options": [],
+        "accepted_answers": ["the highest"],
+        "model_answer": "In 2020, Japan had the highest proportion of people aged over 65 of all the countries shown.",
+        "check_mode": "EXACT",
+        "explanation": "'Of all the countries' compares one item with the whole group, so a superlative is required. Superlatives always take 'the': the highest, the largest, the most significant."
+      },
+      {
+        "id": "9",
+        "prompt": "Twice ___ many women as men enrolled on nursing courses in 2019.",
+        "options": [],
+        "accepted_answers": ["as"],
+        "model_answer": "Twice as many women as men enrolled on nursing courses in 2019.",
+        "check_mode": "EXACT",
+        "explanation": "Multiples are expressed with 'twice / three times + as many (countable) / as much (uncountable) + as'. Both parts of 'as … as' are needed."
+      },
+      {
+        "id": "10",
+        "prompt": "Coffee consumption per person in Finland was ___ (considerable / high) than in Italy.",
+        "options": [],
+        "accepted_answers": ["considerably higher"],
+        "model_answer": "Coffee consumption per person in Finland was considerably higher than in Italy.",
+        "check_mode": "EXACT",
+        "explanation": "A comparative adjective (higher than) can be modified by an adverb of degree: considerably, significantly, slightly, much, far. The adverb form (considerably), not the adjective (considerable), is required before a comparative."
+      }
+    ]
+  }
+}

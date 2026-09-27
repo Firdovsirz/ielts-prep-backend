@@ -1,0 +1,29 @@
+{
+  "task_type": "WRITING_TASK1_ACADEMIC",
+  "source_url": "",
+  "licence": "Original content",
+  "content": {
+    "chart_type": "PIE",
+    "topic": "Household waste disposal",
+    "prompt": "The pie charts below show the methods used to dispose of household waste in one country in 2000 and 2020.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+    "figure_title": "Methods of household waste disposal, 2000 and 2020",
+    "units": "% of household waste",
+    "x_label": "",
+    "y_label": "",
+    "categories": ["Landfill", "Recycling", "Incineration", "Composting", "Other"],
+    "series": [
+      { "name": "2000", "values": [64, 12, 14, 5, 5] },
+      { "name": "2020", "values": [22, 35, 24, 16, 3] }
+    ],
+    "process_steps": [],
+    "process_is_cycle": false,
+    "maps": [],
+    "key_features": [
+      "Overview: landfill was by far the main method in 2000 but had become only the third most common by 2020, while recycling became the largest method; the country moved away from burying waste towards recovering it.",
+      "The share sent to landfill fell dramatically from nearly two-thirds (64%) to just over a fifth (22%).",
+      "Recycling almost tripled, from 12% to 35%, making it the most common method in 2020.",
+      "Composting more than tripled from 5% to 16%, and incineration rose by ten percentage points to 24%, overtaking landfill.",
+      "Other methods remained minor in both years, falling slightly from 5% to 3%."
+    ]
+  }
+}

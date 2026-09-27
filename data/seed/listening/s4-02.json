@@ -1,0 +1,233 @@
+{
+  "task_type": "LISTENING_SECTION",
+  "source_url": "https://en.wikipedia.org/wiki/Nudge_theory",
+  "licence": "CC BY-SA 4.0 (topic seed only; text is original)",
+  "content": {
+    "section": 4,
+    "title": "Nudges in behavioural economics",
+    "topic": "Behavioural economics: nudge theory",
+    "context_description": "You will hear part of a lecture on the use of nudges in behavioural economics.",
+    "speakers": [
+      {
+        "id": "S1",
+        "name": "Dr Daniel Brooks",
+        "gender": "male",
+        "accent": "american",
+        "role": "Lecturer in behavioural economics"
+      }
+    ],
+    "script": [
+      {
+        "speaker": "S1",
+        "text": "Good afternoon, everyone. In today's lecture I want to look at an idea from behavioural economics that has had an unusually large influence outside universities, and that's the idea of the nudge. I'll start with some background, then look at a few of the main types of nudge and how they've been used, and I'll finish with some of the criticisms that have been raised."
+      },
+      {
+        "speaker": "S1",
+        "text": "To understand why nudges attracted so much attention, we need to go back to the way economists traditionally thought about human behaviour. Classical economic models assumed that people make decisions in a completely logical way. The idea was that before making any choice, whether it's buying a car or taking out a mortgage, a person gathers all the relevant information and weighs it up carefully."
+      },
+      {
+        "speaker": "S1",
+        "text": "Now, this didn't mean economists believed people always went for the cheapest product. Price was just one factor among many, and quality or convenience might matter more. But what these models largely ignored was the effect of habit, emotion and, importantly, other people. From the 1970s onwards, psychologists began to show, through a long series of experiments, that real people regularly depart from this logical ideal, and in ways that are surprisingly predictable."
+      },
+      {
+        "speaker": "S1",
+        "text": "The word nudge itself, though, only became widely known in 2008. That was the year a book with that title, written by an economist and a legal scholar, became an international bestseller. Governments quickly took notice. Two years later, the British government set up a small team to apply these ideas to public policy, and many other countries have since followed its example."
+      },
+      {
+        "speaker": "S1",
+        "text": "So what exactly counts as a nudge? The key point is that a nudge changes the way a choice is presented, but it doesn't take away any options or make any of them more expensive. So a tax on sugary drinks isn't a nudge, because it changes the price, and banning junk food in schools isn't one either. Nudges are often popular with the public, and they're usually cheap to introduce, which is part of their appeal for governments. But neither of those things is part of the definition."
+      },
+      {
+        "speaker": "S1",
+        "text": "Let's move on to the main types of nudge, starting with what's probably the most powerful, the default option. A default is simply what happens if you don't make an active choice. Take workplace pensions. For many years, employees who wanted to join a scheme had to fill in a form, and large numbers never got round to it. When companies switched to automatic enrolment, so that workers were included unless they chose to leave, participation rates jumped, in some cases from around 50 percent to over 90."
+      },
+      {
+        "speaker": "S1",
+        "text": "Why are defaults so effective? One reason is that switching away from them requires effort, even if it only means a phone call or a short form, and people tend to put that off. Another is that many people see the default as a kind of recommendation, as if the experts have already decided what's best. The same principle helps to explain why countries with an opt-out system for organ donation tend to have far more registered donors."
+      },
+      {
+        "speaker": "S1",
+        "text": "The second type of nudge I want to talk about makes use of social norms, in other words, our tendency to follow what other people do. One of the best-known examples comes from the energy industry. In the United States, some electricity companies began printing a comparison on customers' bills, showing how much power the household had used compared with its neighbours. Customers who discovered they were using more than average tended to cut back. Bills that only compared customers with their own figures from the previous year had far less impact."
+      },
+      {
+        "speaker": "S1",
+        "text": "But there was an unexpected problem. Households that were already using less than average sometimes started using more, as if they'd been given permission to relax. The solution turned out to be remarkably simple. The company added a smiley face to the bills of those households, as a small sign of approval, and the increase largely disappeared."
+      },
+      {
+        "speaker": "S1",
+        "text": "A third kind of nudge works by making some options easier to notice than others. Think about a school canteen. In several trials, researchers moved the fruit to the front of the counter, at eye level, and put the desserts somewhere slightly harder to reach. Nothing was banned, and prices stayed the same, but children chose noticeably more fruit."
+      },
+      {
+        "speaker": "S1",
+        "text": "Moving on to the criticisms. Nudges have plenty of supporters, but they've also attracted some serious objections. The first is ethical. Some critics argue that nudging is a form of manipulation, because it influences people without them being fully aware of it. Others say that nudges are paternalistic, meaning that governments are deciding what's good for us, even if we're still free to choose."
+      },
+      {
+        "speaker": "S1",
+        "text": "Supporters reply that every choice has to be presented in some way, so there's no such thing as a completely neutral design. After all, the fruit has to go somewhere in the canteen, so why not put it where children will see it?"
+      },
+      {
+        "speaker": "S1",
+        "text": "The second criticism is about evidence. In the early years, many studies reported very impressive results. More recently, however, researchers have combined the findings of hundreds of trials, and these large reviews suggest that the typical effect of a nudge is much smaller than was first believed. Part of the reason is that studies which found no effect were much harder to get published."
+      },
+      {
+        "speaker": "S1",
+        "text": "So where does that leave us? I think the fair conclusion is that nudges are a useful tool, but not a magic solution. They work best alongside more traditional policies, such as taxes and regulation, rather than as a replacement for them. In next week's seminar, we'll look at a case study from the health sector and think about how you might design a trial to measure whether a nudge is really working."
+      }
+    ],
+    "parts": [
+      {
+        "questions_from": 1,
+        "questions_to": 10,
+        "start_line": 0
+      }
+    ],
+    "question_groups": [
+      {
+        "group_id": "g1",
+        "question_type": "MULTIPLE_CHOICE",
+        "instructions": "Questions 1–3\nChoose the correct letter, A, B or C.",
+        "word_limit": 0,
+        "number_allowed": false,
+        "options": [],
+        "context": "",
+        "table": {
+          "title": "",
+          "columns": [],
+          "rows": []
+        },
+        "flow_steps": [],
+        "diagram": {
+          "title": "",
+          "nodes": [],
+          "edges": []
+        },
+        "map": {
+          "title": "",
+          "features": [],
+          "markers": []
+        },
+        "questions": [
+          {
+            "number": 1,
+            "prompt": "What did traditional economic models assume about people?",
+            "options": [
+              { "key": "A", "text": "They normally choose the cheapest product available." },
+              { "key": "B", "text": "They examine all the available facts before making a decision." },
+              { "key": "C", "text": "They are strongly influenced by the choices of others." }
+            ],
+            "answers": ["B"],
+            "justification_span": "The idea was that before making any choice, whether it's buying a car or taking out a mortgage, a person gathers all the relevant information and weighs it up carefully.",
+            "location": "1"
+          },
+          {
+            "number": 2,
+            "prompt": "According to the lecturer, the word 'nudge' became widely known as a result of",
+            "options": [
+              { "key": "A", "text": "a successful book." },
+              { "key": "B", "text": "a government report." },
+              { "key": "C", "text": "a series of experiments." }
+            ],
+            "answers": ["A"],
+            "justification_span": "That was the year a book with that title, written by an economist and a legal scholar, became an international bestseller.",
+            "location": "3"
+          },
+          {
+            "number": 3,
+            "prompt": "What does the lecturer say is essential for something to be called a nudge?",
+            "options": [
+              { "key": "A", "text": "People must still have the same choices available." },
+              { "key": "B", "text": "It must have the support of the general public." },
+              { "key": "C", "text": "It must cost less than alternative policies." }
+            ],
+            "answers": ["A"],
+            "justification_span": "The key point is that a nudge changes the way a choice is presented, but it doesn't take away any options or make any of them more expensive.",
+            "location": "4"
+          }
+        ]
+      },
+      {
+        "group_id": "g2",
+        "question_type": "NOTE_COMPLETION",
+        "instructions": "Questions 4–10\nComplete the notes below.\nWrite ONE WORD ONLY for each answer.",
+        "word_limit": 1,
+        "number_allowed": false,
+        "options": [],
+        "context": "Types of nudge\n\nDefaults\n• automatic enrolment in workplace {{4}}: participation rose to over 90%\n• people stay with the default because changing it takes {{5}}, and it looks like expert advice\n• also explains high donor numbers in countries with opt-out organ donation\n\nSocial norms\n• energy bills: a household's electricity use compared with that of its {{6}}\n• problem: low users began to use more; solved by adding a {{7}} face\n\nMaking options easy to notice\n• school canteens: fruit displayed at {{8}} level, desserts harder to reach\n\nCriticisms\n• ethical: nudging may be a kind of {{9}}, since people often do not notice it\n• evidence: large reviews show the average effect is {{10}} than early studies suggested",
+        "table": {
+          "title": "",
+          "columns": [],
+          "rows": []
+        },
+        "flow_steps": [],
+        "diagram": {
+          "title": "",
+          "nodes": [],
+          "edges": []
+        },
+        "map": {
+          "title": "",
+          "features": [],
+          "markers": []
+        },
+        "questions": [
+          {
+            "number": 4,
+            "prompt": "",
+            "options": [],
+            "answers": ["pensions", "pension"],
+            "justification_span": "Take workplace pensions.",
+            "location": "5"
+          },
+          {
+            "number": 5,
+            "prompt": "",
+            "options": [],
+            "answers": ["effort"],
+            "justification_span": "One reason is that switching away from them requires effort, even if it only means a phone call or a short form, and people tend to put that off.",
+            "location": "6"
+          },
+          {
+            "number": 6,
+            "prompt": "",
+            "options": [],
+            "answers": ["neighbours", "neighbors"],
+            "justification_span": "In the United States, some electricity companies began printing a comparison on customers' bills, showing how much power the household had used compared with its neighbours.",
+            "location": "7"
+          },
+          {
+            "number": 7,
+            "prompt": "",
+            "options": [],
+            "answers": ["smiley"],
+            "justification_span": "The company added a smiley face to the bills of those households, as a small sign of approval, and the increase largely disappeared.",
+            "location": "8"
+          },
+          {
+            "number": 8,
+            "prompt": "",
+            "options": [],
+            "answers": ["eye"],
+            "justification_span": "In several trials, researchers moved the fruit to the front of the counter, at eye level, and put the desserts somewhere slightly harder to reach.",
+            "location": "9"
+          },
+          {
+            "number": 9,
+            "prompt": "",
+            "options": [],
+            "answers": ["manipulation"],
+            "justification_span": "Some critics argue that nudging is a form of manipulation, because it influences people without them being fully aware of it.",
+            "location": "10"
+          },
+          {
+            "number": 10,
+            "prompt": "",
+            "options": [],
+            "answers": ["smaller"],
+            "justification_span": "More recently, however, researchers have combined the findings of hundreds of trials, and these large reviews suggest that the typical effect of a nudge is much smaller than was first believed.",
+            "location": "12"
+          }
+        ]
+      }
+    ]
+  }
+}

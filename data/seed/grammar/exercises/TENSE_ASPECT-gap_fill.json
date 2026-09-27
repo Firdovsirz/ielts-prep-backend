@@ -1,0 +1,103 @@
+{
+  "task_type": "GRAMMAR_EXERCISE",
+  "source_url": "",
+  "licence": "Original content",
+  "content": {
+    "area": "TENSE_ASPECT",
+    "exercise_type": "GAP_FILL",
+    "title": "Tense and aspect: past data, change up to now and forecasts",
+    "instructions": "Complete each sentence with the correct form of the verb in brackets. Write only the missing words. Before you choose, decide on the time reference: a finished past period, a period that continues up to now, a point before another past point, or a future forecast.",
+    "items": [
+      {
+        "id": "1",
+        "prompt": "Between 2005 and 2015, the number of international students in Canada ___ (rise) from 70,000 to over 200,000.",
+        "options": [],
+        "accepted_answers": ["rose"],
+        "model_answer": "Between 2005 and 2015, the number of international students in Canada rose from 70,000 to over 200,000.",
+        "check_mode": "EXACT",
+        "explanation": "A finished period with stated past dates (between 2005 and 2015) takes the past simple. Most Task 1 charts describe finished past periods, so the past simple is the default tense for the body paragraphs."
+      },
+      {
+        "id": "2",
+        "prompt": "Since 2010, the proportion of households with a broadband connection ___ (increase) steadily, and it is still growing today.",
+        "options": [],
+        "accepted_answers": ["has increased", "has been increasing"],
+        "model_answer": "Since 2010, the proportion of households with a broadband connection has increased steadily, and it is still growing today.",
+        "check_mode": "EXACT",
+        "explanation": "'Since + a point in time' describes a period that starts in the past and continues up to now, so it needs the present perfect (has increased) or the present perfect continuous (has been increasing) to stress an ongoing trend. The past simple cannot be used with 'since' in this way."
+      },
+      {
+        "id": "3",
+        "prompt": "According to the forecast, coal's share of the energy mix ___ (fall) to below 10% by 2040.",
+        "options": [],
+        "accepted_answers": ["will fall", "is going to fall", "is expected to fall", "is projected to fall", "is predicted to fall"],
+        "model_answer": "According to the forecast, coal's share of the energy mix is projected to fall to below 10% by 2040.",
+        "check_mode": "EXACT",
+        "explanation": "Projections in Task 1 describe the future, so use 'will + base verb' or, more academically, 'is expected / projected / predicted to + base verb'. Using the present simple (falls) for a forecast is a common tense error."
+      },
+      {
+        "id": "4",
+        "prompt": "By 2030, the city's population ___ (double) compared with its 2000 level, if current projections are correct.",
+        "options": [],
+        "accepted_answers": ["will have doubled"],
+        "model_answer": "By 2030, the city's population will have doubled compared with its 2000 level, if current projections are correct.",
+        "check_mode": "EXACT",
+        "explanation": "'By + a future time' signals the future perfect (will have + past participle): the change will be complete before that future point. This structure is very useful in the forecast section of a Task 1 line graph."
+      },
+      {
+        "id": "5",
+        "prompt": "When my parents were young, most children ___ (walk) to school, but nowadays a lot of them are driven by their parents.",
+        "options": [],
+        "accepted_answers": ["walked", "used to walk", "would walk"],
+        "model_answer": "When my parents were young, most children used to walk to school, but nowadays a lot of them are driven by their parents.",
+        "check_mode": "EXACT",
+        "explanation": "Past habits can be expressed with the past simple, 'used to + base verb' or 'would + base verb'. 'Used to' is especially natural in Speaking Part 3 when you contrast the past with the present (nowadays …)."
+      },
+      {
+        "id": "6",
+        "prompt": "In recent decades, governments ___ (spend) increasingly large sums on public health campaigns, yet obesity rates continue to rise.",
+        "options": [],
+        "accepted_answers": ["have spent", "have been spending"],
+        "model_answer": "In recent decades, governments have spent increasingly large sums on public health campaigns, yet obesity rates continue to rise.",
+        "check_mode": "EXACT",
+        "explanation": "Time expressions that include the present (in recent decades, over the last few years, so far) take the present perfect. This is a very common way to open a Task 2 background statement."
+      },
+      {
+        "id": "7",
+        "prompt": "By 1990, the car ___ (already / overtake) the train as the most common means of commuting.",
+        "options": [],
+        "accepted_answers": ["had already overtaken"],
+        "model_answer": "By 1990, the car had already overtaken the train as the most common means of commuting.",
+        "check_mode": "EXACT",
+        "explanation": "'By + a past time' requires the past perfect (had + past participle), because the change was complete before that point in the past. Note the position of 'already' between 'had' and the participle."
+      },
+      {
+        "id": "8",
+        "prompt": "Sales of e-books peaked in 2014 and ___ (decline) slightly every year since then.",
+        "options": [],
+        "accepted_answers": ["have declined", "have been declining"],
+        "model_answer": "Sales of e-books peaked in 2014 and have declined slightly every year since then.",
+        "check_mode": "EXACT",
+        "explanation": "The peak is a finished event (past simple: peaked), but 'since then' links the decline to the present, so the second verb must be present perfect. One sentence can legitimately combine two tenses when the time references differ."
+      },
+      {
+        "id": "9",
+        "prompt": "I think people ___ (become) far more dependent on their smartphones over the last ten years.",
+        "options": [],
+        "accepted_answers": ["have become"],
+        "model_answer": "I think people have become far more dependent on their smartphones over the last ten years.",
+        "check_mode": "EXACT",
+        "explanation": "'Over the last ten years' is an unfinished period that reaches the present, so the present perfect is required. In Speaking Part 3, this tense is essential when you talk about how society has changed."
+      },
+      {
+        "id": "10",
+        "prompt": "At present, the number of electric vehicles on Europe's roads ___ (grow) faster than at any time in the past.",
+        "options": [],
+        "accepted_answers": ["is growing"],
+        "model_answer": "At present, the number of electric vehicles on Europe's roads is growing faster than at any time in the past.",
+        "check_mode": "EXACT",
+        "explanation": "A trend that is in progress at the moment of speaking (at present, currently) takes the present continuous. The singular form 'is' agrees with the head noun 'the number'."
+      }
+    ]
+  }
+}

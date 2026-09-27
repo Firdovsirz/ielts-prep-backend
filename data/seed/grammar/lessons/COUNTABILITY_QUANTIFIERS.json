@@ -1,0 +1,91 @@
+{
+  "task_type": "GRAMMAR_LESSON",
+  "source_url": "",
+  "licence": "Original content",
+  "content": {
+    "area": "COUNTABILITY_QUANTIFIERS",
+    "title": "Countable and uncountable nouns, and quantifiers",
+    "summary": "Errors such as 'advices', 'less people' and 'the amount of cars' are small but appear in almost every band 6 script, in both Task 1 and Task 2. Band 7+ candidates choose the right noun form and quantifier automatically, which supports accuracy and makes data descriptions more precise.",
+    "explanation": "### Countable vs uncountable\n**Countable** nouns have a plural and can take *a/an*: *a job – jobs, a study – studies*.\n\n**Uncountable** nouns have no plural and no *a/an*. The IELTS danger list:\n- *information, advice, research, evidence, knowledge, feedback*\n- *equipment, furniture, luggage, machinery, software*\n- *traffic, transport, pollution, accommodation, homework, work (= labour), employment*\n- *money, food, energy, electricity, rubbish, waste*\n- *progress, damage, behaviour, news, leisure*\n\nTo count them, use a unit noun or a countable synonym: *a piece of advice / evidence / equipment*, *a research project* or *a study*, *a job* (not ✗ *a work*).\n\nSome nouns change meaning: *paper* (material) vs *a paper* (a newspaper or an article); *experience* (skill) vs *an experience* (an event); *room* (space) vs *a room*; *time* vs *a time* (an occasion).\n\n### Quantifiers\n- **Plural countable:** *many, few, a few, several, fewer, a (large / small) number of*\n- **Uncountable:** *much, little, a little, less, a (large / small) amount of, a great deal of*\n- **Both:** *a lot of, lots of, plenty of, most, some, any, a large proportion / percentage of*\n\nKey contrasts:\n- ***fewer** people, **fewer** cars* vs ***less** time, **less** money*\n- ***the number of** tourists* vs ***the amount of** waste*\n- *few* (not many — negative) vs *a few* (some — positive); *little* vs *a little* work in the same way\n- *much* is mainly used in questions and negatives; in positive statements prefer *a lot of* or *a great deal of*.\n\n### Task 1 data language\n- *the **number** of visitors* (countable), *the **amount** of energy* (uncountable), *the **quantity** of* (either, formal)\n- *the **proportion / percentage** of households* — followed by a plural or uncountable noun\n- With percentages, the verb agrees with the noun after *of*: *20% of the land **was** forest* / *20% of the students **were** international.*\n\n### Plural forms\n- Consonant + *y* → *-ies*: *country → countries, city → cities*\n- Irregular: *person → people, child → children, woman → women, criterion → criteria, phenomenon → phenomena*\n- *People* is already plural; *peoples* means nations or ethnic groups.\n- Numbers used as adjectives stay singular: *a **ten-year** plan, a **five-star** hotel*, and *two **million** people* (not ✗ *two millions*).\n- *One of the* + plural noun; *each / every* + singular noun.",
+    "key_rules": [
+      {
+        "rule": "Uncountable nouns such as information, advice, research, equipment and traffic have no plural and no a/an.",
+        "example": "The survey provided useful information about how students spend their leisure time."
+      },
+      {
+        "rule": "Use a unit noun or a countable synonym to count an uncountable item.",
+        "example": "One piece of advice I would give is to start revising early."
+      },
+      {
+        "rule": "Use many/few/fewer/a number of with plural countable nouns, and much/little/less/an amount of with uncountable nouns.",
+        "example": "Fewer students took the exam, but they spent less time preparing for it."
+      },
+      {
+        "rule": "In Task 1, use 'the number of' for countable data and 'the amount of' for uncountable data.",
+        "example": "The number of cars rose steadily, as did the amount of fuel consumed."
+      },
+      {
+        "rule": "'A few' and 'a little' are positive; 'few' and 'little' are negative.",
+        "example": "Few residents supported the plan, although a few local businesses welcomed it."
+      },
+      {
+        "rule": "Numbers and number-based adjectives keep the noun singular: two million, a ten-year plan.",
+        "example": "The government has launched a ten-year strategy to plant two million trees."
+      }
+    ],
+    "common_mistakes": [
+      {
+        "wrong": "Teachers should give students more advices about careers.",
+        "right": "Teachers should give students more advice about careers.",
+        "why": "'Advice' is uncountable, so it has no plural form."
+      },
+      {
+        "wrong": "Less people use public transport at weekends.",
+        "right": "Fewer people use public transport at weekends.",
+        "why": "'People' is a plural countable noun, so use 'fewer'."
+      },
+      {
+        "wrong": "The amount of tourists visiting Spain doubled.",
+        "right": "The number of tourists visiting Spain doubled.",
+        "why": "'Tourists' is countable; 'amount' is only for uncountable nouns."
+      },
+      {
+        "wrong": "There are many researches showing that sugar is harmful.",
+        "right": "There are many studies showing that sugar is harmful. (or: There is a great deal of research…)",
+        "why": "'Research' is uncountable; use 'studies' if you need a countable noun."
+      },
+      {
+        "wrong": "The city has a lot of traffics and many pollutions.",
+        "right": "The city has heavy traffic and serious pollution.",
+        "why": "'Traffic' and 'pollution' are uncountable, so they have no plural and cannot follow 'many'."
+      },
+      {
+        "wrong": "Over two millions people live in the capital.",
+        "right": "Over two million people live in the capital.",
+        "why": "After a number, 'million', 'thousand' and 'hundred' stay singular."
+      }
+    ],
+    "ielts_examples": [
+      {
+        "context": "WRITING_TASK1",
+        "sentence": "The amount of electricity generated from wind rose fivefold, while the number of coal-fired power stations fell from 40 to just 12."
+      },
+      {
+        "context": "WRITING_TASK1",
+        "sentence": "A slightly smaller proportion of women than men used the library, and far fewer teenagers than adults borrowed books."
+      },
+      {
+        "context": "WRITING_TASK2",
+        "sentence": "There is a growing body of evidence that children who spend little time outdoors are more likely to become short-sighted."
+      },
+      {
+        "context": "SPEAKING_PART2",
+        "sentence": "My grandfather gave me a valuable piece of advice when I was a teenager: spend less money on things and more on experiences."
+      },
+      {
+        "context": "SPEAKING_PART3",
+        "sentence": "These days people have access to so much information online that there's very little need to memorise facts."
+      }
+    ]
+  }
+}

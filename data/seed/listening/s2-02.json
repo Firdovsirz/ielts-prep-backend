@@ -1,0 +1,194 @@
+{
+  "task_type": "LISTENING_SECTION",
+  "source_url": "",
+  "licence": "Original content",
+  "content": {
+    "section": 2,
+    "title": "Wattle Creek Lantern Festival",
+    "topic": "A community radio preview of a local harbour festival",
+    "context_description": "You will hear a presenter on a local radio station talking about a festival in the town.",
+    "speakers": [
+      {
+        "id": "S1",
+        "name": "Tom Callister",
+        "gender": "male",
+        "accent": "australian",
+        "role": "Presenter on a community radio station"
+      }
+    ],
+    "script": [
+      {
+        "speaker": "S1",
+        "text": "Good morning, and welcome back to What's On, here on Wattle Creek Community Radio. I'm Tom Callister. Now, it's only 2 weeks until the Lantern Festival lights up the harbour again. This is the festival's 12th year, and the organisers are expecting more than 20,000 visitors over the three nights. So this morning I'm going to run through what's happening this year and give you the practical information you'll need."
+      },
+      {
+        "speaker": "S1",
+        "text": "Let's start with the highlight for most people, the lantern parade. It'll follow exactly the same route along the foreshore as always, so no surprises there, and it goes ahead rain or shine. What has changed is the timing. After some complaints from residents last year, the parade will be over by 8.30, rather than carrying on until almost 10 like it used to."
+      },
+      {
+        "speaker": "S1",
+        "text": "Next up, the night market. Now, some newcomers think the market's a new addition, but it's actually been part of the festival for years. The big news is that it's outgrown the car park behind the library, so this year you'll find it in the old goods shed down on the wharf."
+      },
+      {
+        "speaker": "S1",
+        "text": "Something that really is brand new this year is a silent disco on the pier. Everyone gets a set of wireless headphones and dances to the same music, which should keep the neighbours happy. It runs from 9 until midnight on both the Friday and the Saturday. You don't need to book, by the way, because the headphones are handed out on the night, first come, first served."
+      },
+      {
+        "speaker": "S1",
+        "text": "For the kids, there are the lantern-making workshops in the town hall. They used to be drop-in sessions, but they got so crowded last year that you'll now have to reserve a place on the festival website. And don't worry about the cost, because they're still completely free."
+      },
+      {
+        "speaker": "S1",
+        "text": "And of course, the festival finishes on the Sunday night with fireworks over the harbour. People often assume a big local business pays for them, but in fact the whole cost is covered by the council. The only thing to bear in mind is that if the wind is too strong, they'll be called off for safety reasons, so do check the website on the day."
+      },
+      {
+        "speaker": "S1",
+        "text": "OK, now for the practical side of things. The shuttle buses are free again this year, and they run every 15 minutes from 5 pm. In the past they've left from the train station, but because of track works, this year they'll be leaving from the showground instead."
+      },
+      {
+        "speaker": "S1",
+        "text": "If you'd rather drive, there's parking on the grass near the foreshore. It was $10 last year, but I'm told it's gone up to $12 a car for the evening. All the money goes to the surf lifesaving club, though, so it's for a good cause."
+      },
+      {
+        "speaker": "S1",
+        "text": "Now, food and drink. There'll be more than 40 food stalls this year, with everything from dumplings to fish and chips. There'll also be free water fountains all along the foreshore, so there's no need to bring a water bottle. What the organisers are asking is that everyone brings their own cup, because the stalls won't be handing out disposable ones this year."
+      },
+      {
+        "speaker": "S1",
+        "text": "A quick word about safety. If you lose track of your children, head for the lost children tent. Last year it was next to the main stage, which was far too noisy, so this year it'll be beside the lighthouse, where it's much easier to find."
+      },
+      {
+        "speaker": "S1",
+        "text": "And finally, the festival is still looking for volunteers to help set up and run the information stands. You'll need to be 16 or over. Sorry, I tell a lie, it's 18, because some of the shifts finish quite late at night. Volunteers get a free festival T-shirt and a meal for every shift they work."
+      },
+      {
+        "speaker": "S1",
+        "text": "So that's the Lantern Festival. Full details are on the website, and we'll have more on the program in next week's show. If you've got any questions, give us a call on the studio line after 10 o'clock and I'll do my best to answer them. Right, time for some music."
+      }
+    ],
+    "parts": [
+      { "questions_from": 1, "questions_to": 5, "start_line": 0 },
+      { "questions_from": 6, "questions_to": 10, "start_line": 6 }
+    ],
+    "question_groups": [
+      {
+        "group_id": "g1",
+        "question_type": "MATCHING",
+        "instructions": "Questions 1–5\nWhat does the speaker say about each of the following events at this year's festival?\nChoose FIVE answers from the box and write the correct letter, A–G, next to Questions 1–5.",
+        "word_limit": 0,
+        "number_allowed": false,
+        "options": [
+          { "key": "A", "text": "It is paid for by a local company." },
+          { "key": "B", "text": "It will end earlier than in previous years." },
+          { "key": "C", "text": "It may be cancelled because of the weather." },
+          { "key": "D", "text": "It is being held for the first time." },
+          { "key": "E", "text": "It costs more than last year." },
+          { "key": "F", "text": "Places must be reserved in advance." },
+          { "key": "G", "text": "It has moved to a different location." }
+        ],
+        "context": "",
+        "table": { "title": "", "columns": [], "rows": [] },
+        "flow_steps": [],
+        "diagram": { "title": "", "nodes": [], "edges": [] },
+        "map": { "title": "", "features": [], "markers": [] },
+        "questions": [
+          {
+            "number": 1,
+            "prompt": "the lantern parade",
+            "options": [],
+            "answers": ["B"],
+            "justification_span": "After some complaints from residents last year, the parade will be over by 8.30, rather than carrying on until almost 10 like it used to.",
+            "location": "1"
+          },
+          {
+            "number": 2,
+            "prompt": "the night market",
+            "options": [],
+            "answers": ["G"],
+            "justification_span": "The big news is that it's outgrown the car park behind the library, so this year you'll find it in the old goods shed down on the wharf.",
+            "location": "2"
+          },
+          {
+            "number": 3,
+            "prompt": "the silent disco",
+            "options": [],
+            "answers": ["D"],
+            "justification_span": "Something that really is brand new this year is a silent disco on the pier.",
+            "location": "3"
+          },
+          {
+            "number": 4,
+            "prompt": "the lantern-making workshops",
+            "options": [],
+            "answers": ["F"],
+            "justification_span": "They used to be drop-in sessions, but they got so crowded last year that you'll now have to reserve a place on the festival website.",
+            "location": "4"
+          },
+          {
+            "number": 5,
+            "prompt": "the fireworks",
+            "options": [],
+            "answers": ["C"],
+            "justification_span": "The only thing to bear in mind is that if the wind is too strong, they'll be called off for safety reasons, so do check the website on the day.",
+            "location": "5"
+          }
+        ]
+      },
+      {
+        "group_id": "g2",
+        "question_type": "NOTE_COMPLETION",
+        "instructions": "Questions 6–10\nComplete the notes below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+        "word_limit": 1,
+        "number_allowed": true,
+        "options": [],
+        "context": "Wattle Creek Lantern Festival – practical information\n\nTransport\n• Free shuttle buses every 15 minutes from 5 pm\n• Buses leave from the {{6}}\n• Parking near the foreshore: ${{7}} per car for the evening\n\nFood and drink\n• Free water fountains along the foreshore\n• Visitors should bring their own {{8}}\n\nSafety\n• Lost children tent: beside the {{9}}\n\nVolunteers\n• Minimum age: {{10}}\n• Free T-shirt and a meal for every shift",
+        "table": { "title": "", "columns": [], "rows": [] },
+        "flow_steps": [],
+        "diagram": { "title": "", "nodes": [], "edges": [] },
+        "map": { "title": "", "features": [], "markers": [] },
+        "questions": [
+          {
+            "number": 6,
+            "prompt": "",
+            "options": [],
+            "answers": ["showground"],
+            "justification_span": "In the past they've left from the train station, but because of track works, this year they'll be leaving from the showground instead.",
+            "location": "6"
+          },
+          {
+            "number": 7,
+            "prompt": "",
+            "options": [],
+            "answers": ["12"],
+            "justification_span": "It was $10 last year, but I'm told it's gone up to $12 a car for the evening.",
+            "location": "7"
+          },
+          {
+            "number": 8,
+            "prompt": "",
+            "options": [],
+            "answers": ["cup"],
+            "justification_span": "What the organisers are asking is that everyone brings their own cup, because the stalls won't be handing out disposable ones this year.",
+            "location": "8"
+          },
+          {
+            "number": 9,
+            "prompt": "",
+            "options": [],
+            "answers": ["lighthouse"],
+            "justification_span": "Last year it was next to the main stage, which was far too noisy, so this year it'll be beside the lighthouse, where it's much easier to find.",
+            "location": "9"
+          },
+          {
+            "number": 10,
+            "prompt": "",
+            "options": [],
+            "answers": ["18", "eighteen"],
+            "justification_span": "Sorry, I tell a lie, it's 18, because some of the shifts finish quite late at night.",
+            "location": "10"
+          }
+        ]
+      }
+    ]
+  }
+}

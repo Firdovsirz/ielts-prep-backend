@@ -1,0 +1,38 @@
+# Secrets — never commit
+.env
+backend/.env
+frontend/.env
+**/application-local.yml
+
+# Runtime data (DB, generated audio, recordings, fetched sources cache)
+data/db/*
+!data/db/.gitkeep
+data/audio/*
+!data/audio/.gitkeep
+data/recordings/*
+!data/recordings/.gitkeep
+data/sources/cache/
+
+# Java
+backend/target/
+*.class
+.mvn/wrapper/maven-wrapper.jar
+!backend/.mvn/wrapper/maven-wrapper.jar
+
+# Node
+node_modules/
+frontend/dist/
+frontend/coverage/
+*.tsbuildinfo
+
+# IDE / OS
+.idea/
+.vscode/
+*.iml
+.DS_Store
+*.log
+
+# Generated at runtime
+data/.jwt-secret
+data/descriptors/official/
+data/templates/official/

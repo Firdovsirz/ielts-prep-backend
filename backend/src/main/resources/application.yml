@@ -1,0 +1,148 @@
+# Configuration. Secrets come from the environment or a .env file (backend/.env or the repo-root .env),
+# never from this file. See application-example.yml for every option with comments.
+spring:
+  application:
+    name: ielts-prep
+  config:
+    import:
+      # Later imports win: backend/.env overrides the repo-root .env. Real env vars override both.
+      - optional:file:../.env[.properties]
+      - optional:file:.env[.properties]
+  datasource:
+    url: jdbc:h2:file:${ielts.data-dir}/db/ielts;DB_CLOSE_ON_EXIT=FALSE
+    username: sa
+    password: ""
+    hikari:
+      maximum-pool-size: 8
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: none
+    properties:
+      hibernate:
+        jdbc:
+          time_zone: UTC
+  flyway:
+    enabled: true
+    locations: classpath:db/migration
+  servlet:
+    multipart:
+      max-file-size: 50MB
+      max-request-size: 60MB
+  jackson:
+    default-property-inclusion: non_null
+    serialization:
+      write-dates-as-timestamps: false
+  threads:
+    virtual:
+      enabled: true
+
+server:
+  port: ${SERVER_PORT:8080}
+  shutdown: graceful
+  error:
+    include-message: always
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+  endpoint:
+    health:
+      show-details: never
+
+springdoc:
+  api-docs:
+    path: /v3/api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+  default-produces-media-type: application/json
+
+logging:
+  level:
+    com.ieltsprep: INFO
+    org.hibernate.orm.deprecation: WARN
+
+ielts:
+  data-dir: ${IELTS_DATA_DIR:./../data}
+  prompts-dir: ${IELTS_PROMPTS_DIR:./../prompts}
+  # Docker only: bundled defaults copied into an empty data volume on first start.
+  defaults-dir: ${IELTS_DEFAULTS_DIR:}
+  seed-on-startup: ${IELTS_SEED_ON_STARTUP:true}
+  scheduling:
+    enabled: ${IELTS_SCHEDULING_ENABLED:true}
+  admin:
+    email: ${ADMIN_EMAIL:}
+    password: ${ADMIN_PASSWORD:}
+  security:
+    jwt-secret: ${JWT_SECRET:}
+    token-ttl-hours: ${JWT_TTL_HOURS:720}
+    cors-allowed-origins: ${CORS_ALLOWED_ORIGINS:http://localhost:5173}
+  defaults:
+    exam-type: ACADEMIC
+    current-band: 6.5
+    target-band: 8.0
+    test-date: 2026-10-27
+    audio-mode: BROWSER
+  buffer:
+    enabled: ${IELTS_BUFFER_ENABLED:true}
+    min-per-bucket: 5
+    interval-minutes: 30
+    initial-delay-minutes: 2
+  coach:
+    cron: "0 0 7 * * MON"
+  speaking:
+    transcription: ${SPEAKING_TRANSCRIPTION:BROWSER}
+    whisper-url: ${WHISPER_URL:}
+    whisper-api-key: ${WHISPER_API_KEY:}
+    whisper-model: ${WHISPER_MODEL:whisper-1}
+  error-log:
+    resolved-after-pieces: 5
+  fetch:
+    user-agent: "ielts-prep/1.0 (personal study tool; respects robots.txt)"
+    min-delay-ms: 1500
+
+claude:
+  api-key: ${ANTHROPIC_API_KEY:}
+  base-url: ${ANTHROPIC_BASE_URL:}
+  timeout-seconds: 600
+  max-attempts: 4
+  initial-backoff-ms: 2000
+  daily-spend-cap-usd: ${CLAUDE_DAILY_SPEND_CAP_USD:3.00}
+  # Background jobs (buffer top-up, batches, coach) may only use this share of the daily cap so that
+  # interactive grading still works late in the day.
+  background-share: 0.7
+  # Prompt-cache the static prefix (descriptors, templates, question-type specs).
+  cache-ttl: 5m
+  models:
+    generation: ${CLAUDE_MODEL_GENERATION:claude-sonnet-5}
+    verification: ${CLAUDE_MODEL_VERIFICATION:claude-sonnet-5}
+    grading: ${CLAUDE_MODEL_GRADING:claude-sonnet-5}
+    coaching: ${CLAUDE_MODEL_COACHING:claude-sonnet-5}
+    examiner: ${CLAUDE_MODEL_EXAMINER:claude-sonnet-5}
+    fast: ${CLAUDE_MODEL_FAST:claude-haiku-4-5}
+  # output_config.effort per route. Leave blank for models that do not accept it (Haiku 4.5).
+  effort:
+    generation: medium
+    verification: medium
+    grading: high
+    coaching: medium
+    examiner: low
+    fast: ""
+  max-tokens:
+    generation: 32000
+    verification: 16000
+    grading: 24000
+    coaching: 16000
+    examiner: 4000
+    fast: 4000
+  # USD per million tokens. Cache writes cost 1.25x input (5m TTL) or 2x (1h), cache reads 0.1x,
+  # batch requests 50% of both.
+  pricing:
+    "[claude-sonnet-5]": { input: 2.00, output: 10.00, cache-read: 0.20 }
+    "[claude-haiku-4-5]": { input: 1.00, output: 5.00, cache-read: 0.10 }
+    "[claude-haiku-4-5-20251001]": { input: 1.00, output: 5.00, cache-read: 0.10 }
+    "[claude-opus-5]": { input: 5.00, output: 25.00, cache-read: 0.50 }
+    "[claude-opus-5-5]": { input: 4.00, output: 20.00, cache-read: 0.20 }
+    "[claude-fable-5-1]": { input: 10.00, output: 50.00, cache-read: 0.25 }

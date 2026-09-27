@@ -1,0 +1,39 @@
+{
+  "task_type": "SPEAKING_PART1",
+  "source_url": "",
+  "licence": "Original content",
+  "content": {
+    "topics": [
+      {
+        "topic": "Work or studies",
+        "questions": [
+          "Do you work or are you a student?",
+          "What do you like most about your job or your studies?",
+          "Is there anything you find difficult about it?",
+          "Why did you choose this job or this subject?",
+          "Would you like to change your job or your subject in the future? Why/Why not?"
+        ]
+      },
+      {
+        "topic": "Weather",
+        "questions": [
+          "What kind of weather do you like most?",
+          "What is the weather usually like in your country at this time of year?",
+          "Do you ever change your plans because of the weather?",
+          "How often do you check the weather forecast?",
+          "Would you like to live somewhere with a different climate? Why/Why not?"
+        ]
+      },
+      {
+        "topic": "Music",
+        "questions": [
+          "How often do you listen to music?",
+          "What kind of music do you enjoy most?",
+          "Did you learn to play a musical instrument when you were a child?",
+          "Do you prefer listening to music alone or with other people?",
+          "Has your taste in music changed since you were younger?"
+        ]
+      }
+    ]
+  }
+}

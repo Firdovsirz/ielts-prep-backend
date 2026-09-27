@@ -1,0 +1,100 @@
+{
+  "module": "speaking",
+  "duration_minutes": "11–14",
+  "format": "A face-to-face interview (in person or by video call) with one certificated examiner, in three parts. The whole test is recorded. It is the same for Academic and General Training.",
+  "criteria": ["FLUENCY_COHERENCE", "LEXICAL_RESOURCE", "GRAMMATICAL_RANGE_ACCURACY", "PRONUNCIATION"],
+  "parts": [
+    {
+      "number": 1,
+      "name": "Introduction and interview",
+      "minutes": "4–5",
+      "format": "The examiner introduces themselves and checks the candidate's identity, then asks general questions on familiar topics, usually three topic frames of about 3–4 questions each. The first frame is typically about work or studies, home or accommodation, or the candidate's home town; later frames cover everyday topics such as hobbies, food, weather, transport, music or shopping.",
+      "what_it_tests": "Giving opinions and information on everyday topics and common experiences or situations.",
+      "examiner_frame": [
+        "Good morning/afternoon/evening. My name is … . Can you tell me your full name, please?",
+        "Thank you. And what shall I call you?",
+        "And can you tell me where you're from?",
+        "Can I see your identification, please?",
+        "Thank you. That's fine.",
+        "Now, in this first part, I'd like to ask you some questions about yourself.",
+        "Let's talk about what you do. Do you work or are you a student?",
+        "(alternative first frame) Let's talk about your home town or village. / Let's talk about where you live.",
+        "Let's move on to talk about {topic}.",
+        "Now let's talk about {topic}.",
+        "(follow-up prompts where the script allows) Why? / Why not?"
+      ],
+      "question_style": [
+        "Short, direct, personal questions about the present, the past and preferences: 'What kind of … do you like?', 'How often do you …?', 'Did you … when you were a child?', 'Do you prefer … or …?', 'Is there anything you would like to change about …?', 'Would you say …?'",
+        "Questions within a frame move from factual to slightly more reflective (the last question often asks for a comparison, change or opinion).",
+        "Questions are read exactly as scripted; frames are not linked to the Part 2 topic.",
+        "Expected answers: 2–4 natural sentences, i.e. a direct answer plus a reason, example or detail, not one-word replies or long speeches."
+      ]
+    },
+    {
+      "number": 2,
+      "name": "Individual long turn",
+      "minutes": "3–4",
+      "prep_seconds": 60,
+      "talk_seconds": 120,
+      "talk_seconds_min_expected": 60,
+      "format": "The examiner gives the candidate a task card (cue card), paper and a pencil. The candidate has one minute to prepare and may make notes, then speaks for one to two minutes without interruption. The examiner stops the candidate at two minutes and may ask one or two brief rounding-off questions on the same topic.",
+      "what_it_tests": "Speaking at length on a given topic with appropriate language, organising ideas logically, and drawing on personal experience.",
+      "examiner_frame": [
+        "Now, I'm going to give you a topic and I'd like you to talk about it for one to two minutes.",
+        "Before you talk, you'll have one minute to think about what you're going to say.",
+        "You can make some notes if you wish. Do you understand?",
+        "Here's a paper and pencil for making notes, and here's your topic. I'd like you to describe {topic}.",
+        "(after one minute) All right? Remember, you have one to two minutes for this, so don't worry if I stop you. I'll tell you when the time is up. Can you start speaking now, please?",
+        "(at two minutes) Thank you.",
+        "(rounding-off, 1–2 questions, optional) {rounding_off_question}",
+        "Can I have the booklet, paper and pencil back, please?"
+      ],
+      "cue_card_format": "Describe {topic}.\n\nYou should say:\n    {bullet_1}\n    {bullet_2}\n    {bullet_3}\nand explain {explain_point}.\n\nYou will have to talk about the topic for one to two minutes.\nYou have one minute to think about what you're going to say.\nYou can make some notes to help you if you wish.",
+      "cue_card_rules": [
+        "The prompt starts with 'Describe' and names a personal experience, person, place, object, event or activity (e.g. 'Describe a time when…', 'Describe a person who…', 'Describe a place you…', 'Describe something you own which…').",
+        "Exactly three 'You should say:' prompts, usually wh-clauses (who/what/where/when/how), in a natural order for a narrative or description.",
+        "A final 'and explain …' line asks for a reason, feeling or significance (e.g. 'and explain why it is important to you').",
+        "The card contains no questions, and none of the prompts can be answered with yes or no.",
+        "Rounding-off questions are short, closely linked to the talk (e.g. 'Would it be easy to replace?'), and need only a brief answer."
+      ],
+      "question_style": [
+        "One long turn in which the candidate develops a narrative or description: past tenses for experiences, descriptive language, reasons and feelings.",
+        "A strong talk covers all cue points in a coherent order, adds relevant detail and examples, and continues until the examiner stops it at around two minutes."
+      ]
+    },
+    {
+      "number": 3,
+      "name": "Two-way discussion",
+      "minutes": "4–5",
+      "format": "The examiner and candidate discuss more general and abstract issues linked thematically to the Part 2 topic, usually in two sub-themes, going into greater depth where appropriate. The examiner has scripted questions but can adapt them and add follow-ups.",
+      "what_it_tests": "Explaining opinions, analysing, discussing and speculating about issues.",
+      "examiner_frame": [
+        "We've been talking about {part_2_topic}, and I'd like to discuss with you one or two more general questions related to this.",
+        "Let's consider first of all {sub_theme_1}.",
+        "(follow-ups) Why do you think that is? / Can you tell me a little bit more about that? / Do you think that will change in the future? / Some people say … . What do you think?",
+        "Finally, let's talk about {sub_theme_2}.",
+        "Thank you. That is the end of the speaking test."
+      ],
+      "question_style": [
+        "Society-level questions, not personal ones: 'people in your country', 'in general', 'nowadays', 'in the future'.",
+        "Functions required: comparing past and present or different groups; evaluating advantages and disadvantages; explaining causes and effects; speculating about the future; agreeing or disagreeing with a view; suggesting solutions; hypothesising.",
+        "Typical question openings: 'Why do you think…?', 'How has … changed…?', 'Do you think … will …?', 'What are the advantages of…?', 'Is it better to … or …?', 'Should governments…?', 'How important is it that…?'",
+        "Typically 2 sub-themes, with about 4–6 scripted questions in total plus the examiner's own follow-ups.",
+        "Expected answers: an extended turn giving a view, a reason, an example or consequence, and often a qualification or contrast."
+      ]
+    }
+  ],
+  "examiner_behaviour": [
+    "The examiner gives no feedback on the quality of answers and does not say whether an answer is good or correct; responses are neutral ('Thank you', 'OK', or simply the next question). Body language stays neutral and encouraging.",
+    "The examiner follows a script. In Part 1 questions are read as written; if the candidate doesn't understand, the examiner may repeat the question once but will not rephrase it or explain words. If asked what a word means, the examiner does not define it (a candidate may be told to answer however they understand it).",
+    "In Part 1 the examiner may use scripted 'Why?/Why not?' follow-ups, and moves to the next question when an answer is complete or runs long.",
+    "In Part 2 the examiner does not interrupt the long turn, except to stop it at two minutes. If the candidate stops early the examiner may briefly encourage them to continue (e.g. 'Can you tell me anything more about that?') but never supplies content. The topic cannot be changed.",
+    "In Part 3 the examiner has more freedom: they may rephrase or simplify questions, ask follow-up questions, ask the candidate to expand or justify a view, and challenge an opinion.",
+    "The examiner keeps to the timing and will politely interrupt ('Thank you', 'Let's move on…') to keep each part within its time. Being interrupted is normal and is not penalised.",
+    "The candidate may ask for a question to be repeated ('Sorry, could you repeat the question, please?'); this is not penalised in itself.",
+    "The examiner does not assess the candidate's opinions, knowledge or honesty, only their language. Content only matters through relevance and coherence.",
+    "Speech that sounds memorised may lead the examiner to redirect or interrupt with a follow-up, so that spontaneous language can be assessed.",
+    "Examiner language is short, clear and natural. The examiner never lectures, never gives their own opinions at length, and never corrects the candidate's English during the test.",
+    "The candidate is rated on average performance across all three parts using the four equally weighted criteria; no part is scored separately."
+  ]
+}

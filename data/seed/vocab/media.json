@@ -1,0 +1,138 @@
+{
+  "task_type": "VOCAB_WORD_BANK",
+  "source_url": "",
+  "licence": "Original content",
+  "content": {
+    "topic": "media",
+    "words": [
+      {
+        "word": "echo chamber",
+        "part_of_speech": "noun phrase",
+        "definition": "A situation in which people only hear opinions that agree with their own, so their existing beliefs are reinforced.",
+        "example": "Social media algorithms can trap users in echo chambers, making them less tolerant of opposing views.",
+        "collocations": ["trapped in an echo chamber", "an online echo chamber", "create echo chambers"],
+        "cefr": "C1"
+      },
+      {
+        "word": "misinformation",
+        "part_of_speech": "noun",
+        "definition": "False or inaccurate information, whether or not it is spread deliberately.",
+        "example": "The rapid spread of misinformation during health crises can have life-threatening consequences.",
+        "collocations": ["spread misinformation", "combat misinformation", "a wave of misinformation"],
+        "cefr": "C1"
+      },
+      {
+        "word": "sensationalism",
+        "part_of_speech": "noun",
+        "definition": "The presentation of news in a shocking or exciting way in order to attract attention, rather than to inform accurately.",
+        "example": "Sensationalism in news coverage can distort public perceptions of how common violent crime really is.",
+        "collocations": ["media sensationalism", "be accused of sensationalism", "resort to sensationalism"],
+        "cefr": "C2"
+      },
+      {
+        "word": "tabloid",
+        "part_of_speech": "noun",
+        "definition": "A popular newspaper with small pages, short articles and a focus on celebrities, scandal and dramatic stories.",
+        "example": "Tabloids are frequently criticised for intruding into the private lives of public figures and their families.",
+        "collocations": ["the tabloid press", "tabloid journalism", "tabloid headlines"],
+        "cefr": "C1"
+      },
+      {
+        "word": "press freedom",
+        "part_of_speech": "noun phrase",
+        "definition": "The right of journalists and newspapers to report news and express opinions without government control.",
+        "example": "Press freedom is a cornerstone of democracy, allowing journalists to expose wrongdoing by those in power.",
+        "collocations": ["restrictions on press freedom", "defend press freedom", "a threat to press freedom"],
+        "cefr": "C1"
+      },
+      {
+        "word": "scrutiny",
+        "part_of_speech": "noun",
+        "definition": "Careful and detailed examination of something or someone.",
+        "example": "Public figures must accept a certain level of media scrutiny as the price of their influence.",
+        "collocations": ["media scrutiny", "come under scrutiny", "close scrutiny", "public scrutiny"],
+        "cefr": "C1"
+      },
+      {
+        "word": "bias",
+        "part_of_speech": "noun",
+        "definition": "An unfair preference for or against one side, which affects how information is reported or judged.",
+        "example": "Readers should be aware of media bias and consult a range of sources before forming an opinion.",
+        "collocations": ["media bias", "political bias", "accusations of bias"],
+        "cefr": "C1"
+      },
+      {
+        "word": "intrusive",
+        "part_of_speech": "adjective",
+        "definition": "Entering into someone's private life or affairs in an unwelcome way.",
+        "example": "Intrusive advertising that tracks users across websites raises serious ethical concerns.",
+        "collocations": ["intrusive advertising", "highly intrusive", "intrusive questions"],
+        "cefr": "C1"
+      },
+      {
+        "word": "clickbait",
+        "part_of_speech": "noun",
+        "definition": "Online content with an exaggerated or misleading headline designed to make people click on a link.",
+        "example": "The pressure to generate advertising revenue has led some outlets to prioritise clickbait over serious journalism.",
+        "collocations": ["clickbait headlines", "clickbait articles", "fall for clickbait"],
+        "cefr": "C1"
+      },
+      {
+        "word": "outlet",
+        "part_of_speech": "noun",
+        "definition": "An organisation, such as a newspaper, website or broadcaster, that publishes news.",
+        "example": "Traditional news outlets are struggling to compete with the vast amount of free content available online.",
+        "collocations": ["news outlets", "media outlets", "independent outlets"],
+        "cefr": "C1"
+      },
+      {
+        "word": "citizen journalism",
+        "part_of_speech": "noun phrase",
+        "definition": "The collecting and reporting of news by ordinary members of the public, usually online, rather than by professional journalists.",
+        "example": "Citizen journalism, made possible by smartphones, has allowed ordinary people to document events as they unfold.",
+        "collocations": ["the rise of citizen journalism", "a form of citizen journalism", "citizen journalists"],
+        "cefr": "C1"
+      },
+      {
+        "word": "wield",
+        "part_of_speech": "verb",
+        "definition": "To have and use power or influence.",
+        "example": "Social media influencers wield considerable power over young consumers' purchasing decisions.",
+        "collocations": ["wield power", "wield influence", "wield considerable power"],
+        "cefr": "C2"
+      },
+      {
+        "word": "censorship",
+        "part_of_speech": "noun",
+        "definition": "The control of what people are allowed to publish, broadcast or say, usually by removing anything considered unacceptable.",
+        "example": "Online censorship is sometimes justified on the grounds of national security, but it can easily be abused to silence critics.",
+        "collocations": ["state censorship", "strict censorship", "impose censorship", "internet censorship"],
+        "cefr": "C1"
+      },
+      {
+        "word": "impartial",
+        "part_of_speech": "adjective",
+        "definition": "Not supporting any particular side in an argument; fair and neutral.",
+        "example": "Public service broadcasters are expected to provide impartial coverage of elections.",
+        "collocations": ["impartial coverage", "remain impartial", "impartial reporting"],
+        "cefr": "C1"
+      },
+      {
+        "word": "glamorise",
+        "part_of_speech": "verb",
+        "definition": "To make something seem more attractive or exciting than it really is.",
+        "example": "Critics argue that some films and music videos glamorise violence and drug use.",
+        "collocations": ["glamorise violence", "glamorise crime", "glamorise unhealthy lifestyles"],
+        "cefr": "C1"
+      },
+      {
+        "word": "sway",
+        "part_of_speech": "verb",
+        "definition": "To persuade someone to change their opinion or decision.",
+        "example": "Targeted political advertising can sway undecided voters in closely fought elections.",
+        "collocations": ["sway public opinion", "sway voters", "be easily swayed"],
+        "cefr": "C1"
+      }
+    ]
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "task_type": "VOCAB_WORD_BANK",
+  "source_url": "",
+  "licence": "Original content",
+  "content": {
+    "topic": "education",
+    "words": [
+      {
+        "word": "rote learning",
+        "part_of_speech": "noun phrase",
+        "definition": "Learning facts by repeating them until they are memorised, rather than by understanding them.",
+        "example": "Critics argue that an overemphasis on rote learning produces students who can recall facts but struggle to apply them to unfamiliar problems.",
+        "collocations": ["rely on rote learning", "move away from rote learning", "rote learning methods"],
+        "cefr": "C1"
+      },
+      {
+        "word": "critical thinking",
+        "part_of_speech": "noun phrase",
+        "definition": "The ability to analyse information objectively, question assumptions and reach a reasoned judgement.",
+        "example": "Schools should place greater emphasis on critical thinking so that young people can evaluate the claims they encounter online.",
+        "collocations": ["develop critical thinking skills", "foster critical thinking", "encourage critical thinking"],
+        "cefr": "B2"
+      },
+      {
+        "word": "vocational training",
+        "part_of_speech": "noun phrase",
+        "definition": "Practical instruction that prepares people for a particular trade or job, such as plumbing, nursing or engineering.",
+        "example": "Expanding access to vocational training could reduce youth unemployment by giving school leavers the skills that employers actually need.",
+        "collocations": ["provide vocational training", "a vocational training programme", "undergo vocational training", "vocational qualifications"],
+        "cefr": "C1"
+      },
+      {
+        "word": "tertiary education",
+        "part_of_speech": "noun phrase",
+        "definition": "Education at university or college level, which follows secondary school.",
+        "example": "In many developed nations, the proportion of young people entering tertiary education has risen dramatically over the past three decades.",
+        "collocations": ["access to tertiary education", "expand tertiary education", "enter tertiary education"],
+        "cefr": "C1"
+      },
+      {
+        "word": "tuition fees",
+        "part_of_speech": "noun phrase",
+        "definition": "The money that students pay to a university or college for their teaching.",
+        "example": "Abolishing tuition fees would make higher education accessible to talented students from low-income families.",
+        "collocations": ["abolish tuition fees", "raise tuition fees", "pay tuition fees", "cover tuition fees"],
+        "cefr": "B2"
+      },
+      {
+        "word": "attainment",
+        "part_of_speech": "noun",
+        "definition": "The level of success someone reaches, especially in education, usually measured by grades or qualifications.",
+        "example": "Research consistently shows a strong correlation between parental involvement and pupils' academic attainment.",
+        "collocations": ["academic attainment", "educational attainment", "raise attainment", "the attainment gap"],
+        "cefr": "C1"
+      },
+      {
+        "word": "well-rounded",
+        "part_of_speech": "adjective",
+        "definition": "Having a broad range of skills, knowledge and experiences rather than being good at only one thing.",
+        "example": "Sport, music and drama help schools to produce well-rounded individuals rather than mere exam-passers.",
+        "collocations": ["a well-rounded education", "a well-rounded individual", "a well-rounded curriculum"],
+        "cefr": "C1"
+      },
+      {
+        "word": "extracurricular",
+        "part_of_speech": "adjective",
+        "definition": "Describing activities, such as clubs or sports teams, that students do in addition to their normal lessons.",
+        "example": "When budgets are squeezed, extracurricular activities are often the first to be cut, even though they build confidence and teamwork.",
+        "collocations": ["extracurricular activities", "extracurricular clubs", "extracurricular pursuits"],
+        "cefr": "C1"
+      },
+      {
+        "word": "numeracy",
+        "part_of_speech": "noun",
+        "definition": "The ability to understand and work with numbers in everyday situations.",
+        "example": "Employers frequently complain that a significant minority of school leavers lack basic literacy and numeracy.",
+        "collocations": ["literacy and numeracy", "basic numeracy", "numeracy skills", "improve numeracy"],
+        "cefr": "C1"
+      },
+      {
+        "word": "lifelong learning",
+        "part_of_speech": "noun phrase",
+        "definition": "The process of continuing to gain knowledge and skills throughout your life, not only at school or university.",
+        "example": "As automation reshapes the labour market, lifelong learning is no longer a luxury but an economic necessity.",
+        "collocations": ["promote lifelong learning", "a commitment to lifelong learning", "a culture of lifelong learning"],
+        "cefr": "C1"
+      },
+      {
+        "word": "pedagogy",
+        "part_of_speech": "noun",
+        "definition": "The methods and practice of teaching, and the theory behind them.",
+        "example": "Advances in educational technology have prompted a fundamental rethink of traditional pedagogy.",
+        "collocations": ["modern pedagogy", "student-centred pedagogy", "effective pedagogy"],
+        "cefr": "C2"
+      },
+      {
+        "word": "mixed-ability",
+        "part_of_speech": "adjective",
+        "definition": "Describing a class or group that contains students with different levels of ability.",
+        "example": "Proponents of mixed-ability classes argue that weaker pupils benefit from learning alongside more able peers.",
+        "collocations": ["mixed-ability classes", "mixed-ability teaching", "mixed-ability groups"],
+        "cefr": "C1"
+      },
+      {
+        "word": "dropout rate",
+        "part_of_speech": "noun phrase",
+        "definition": "The percentage of students who leave a school or course before completing it.",
+        "example": "The dropout rate among first-year undergraduates tends to rise sharply when financial support is withdrawn.",
+        "collocations": ["a high dropout rate", "reduce the dropout rate", "the university dropout rate"],
+        "cefr": "C1"
+      },
+      {
+        "word": "equip",
+        "part_of_speech": "verb",
+        "definition": "To give someone the skills, knowledge or qualities they need to do something.",
+        "example": "The primary purpose of schooling should be to equip young people with the skills to thrive in adult life.",
+        "collocations": ["equip students with skills", "be ill-equipped to", "be well equipped to cope with"],
+        "cefr": "C1"
+      },
+      {
+        "word": "meritocracy",
+        "part_of_speech": "noun",
+        "definition": "A system in which people succeed because of their ability and effort rather than their wealth or social background.",
+        "example": "Unless access to good schools is equalised, the claim that education creates a meritocracy rings hollow.",
+        "collocations": ["a genuine meritocracy", "the myth of meritocracy", "a true meritocracy"],
+        "cefr": "C2"
+      },
+      {
+        "word": "hands-on",
+        "part_of_speech": "adjective",
+        "definition": "Involving practical experience of doing something rather than just studying it in theory.",
+        "example": "Hands-on experience gained through internships is often valued more highly by employers than a degree alone.",
+        "collocations": ["hands-on experience", "a hands-on approach", "hands-on learning"],
+        "cefr": "B2"
+      },
+      {
+        "word": "standardised testing",
+        "part_of_speech": "noun phrase",
+        "definition": "A system of exams in which all students answer the same questions and are marked in the same way, so that results can be compared.",
+        "example": "An excessive reliance on standardised testing encourages teachers to teach to the test at the expense of genuine understanding.",
+        "collocations": ["high-stakes standardised testing", "reliance on standardised testing", "teach to the test"],
+        "cefr": "C1"
+      }
+    ]
+  }
+}

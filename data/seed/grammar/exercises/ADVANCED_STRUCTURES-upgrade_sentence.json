@@ -1,0 +1,123 @@
+{
+  "task_type": "GRAMMAR_EXERCISE",
+  "source_url": "",
+  "licence": "Original content",
+  "content": {
+    "area": "ADVANCED_STRUCTURES",
+    "exercise_type": "UPGRADE_SENTENCE",
+    "title": "Upgrade to band 8 with advanced structures",
+    "instructions": "Each sentence is accurate but simple (around band 5). Rewrite it using at least one advanced structure — inversion, a cleft sentence, a participle clause, a precise reporting verb or a conditional without 'if' — while keeping the original meaning. Improve the vocabulary too if you can.",
+    "items": [
+      {
+        "id": "1",
+        "prompt": "Many people think technology makes life easier. But it also makes people more stressed.",
+        "options": [],
+        "accepted_answers": [
+          "What many people overlook is that technology, while making life easier, also makes us more stressed."
+        ],
+        "model_answer": "What many people overlook is that technology, while making daily life easier, also adds considerably to our stress levels.",
+        "check_mode": "AI",
+        "explanation": "A wh-cleft ('What many people overlook is…') puts the new, surprising information at the end for emphasis, and the reduced clause 'while making daily life easier' fits the concession into the same sentence. Starting a sentence with 'But' is also too informal for Task 2."
+      },
+      {
+        "id": "2",
+        "prompt": "The number of tourists went up a lot in 2015. This was because a new airport opened.",
+        "options": [],
+        "accepted_answers": [
+          "Following the opening of a new airport, tourist numbers rose sharply in 2015."
+        ],
+        "model_answer": "It was the opening of a new airport that led to a sharp rise in tourist numbers in 2015.",
+        "check_mode": "AI",
+        "explanation": "An it-cleft focuses the reader on the cause. The nominalisation 'the opening of a new airport' and the precise trend phrase 'a sharp rise' replace the informal 'went up a lot' and the separate 'This was because…' sentence."
+      },
+      {
+        "id": "3",
+        "prompt": "Governments should not allow companies to pollute rivers in any situation.",
+        "options": [],
+        "accepted_answers": [
+          "On no account should governments allow companies to pollute rivers."
+        ],
+        "model_answer": "Under no circumstances should governments allow companies to pollute rivers.",
+        "check_mode": "AI",
+        "explanation": "Fronted negative phrases such as 'Under no circumstances' and 'On no account' require subject–auxiliary inversion ('should governments allow'). Use this sparingly — once in an essay is enough to demonstrate range."
+      },
+      {
+        "id": "4",
+        "prompt": "People only understand how important clean air is when they get ill.",
+        "options": [],
+        "accepted_answers": [
+          "It is only when people fall ill that they appreciate the importance of clean air."
+        ],
+        "model_answer": "Only when people fall ill do they realise how important clean air is.",
+        "check_mode": "AI",
+        "explanation": "'Only when' at the front of the sentence triggers inversion in the main clause ('do they realise'); an it-cleft ('It is only when… that…') gives similar emphasis without inversion. 'Fall ill' and 'realise' are also more precise than 'get ill' and 'understand'."
+      },
+      {
+        "id": "5",
+        "prompt": "The government built more bike lanes and after that the number of cyclists increased.",
+        "options": [],
+        "accepted_answers": [
+          "After building more cycle lanes, the government saw a significant rise in the number of cyclists."
+        ],
+        "model_answer": "Having built more cycle lanes, the government saw a marked increase in the number of cyclists.",
+        "check_mode": "AI",
+        "explanation": "A perfect participle clause ('Having built…') shows that one action was completed before another, and its implied subject must be the subject of the main clause (the government). It replaces the simple 'and after that' sequence with a single complex sentence."
+      },
+      {
+        "id": "6",
+        "prompt": "My teacher told me, 'You should read English newspapers every day.'",
+        "options": [],
+        "accepted_answers": [
+          "My teacher recommended that I read English newspapers every day."
+        ],
+        "model_answer": "My teacher advised me to read English newspapers every day.",
+        "check_mode": "AI",
+        "explanation": "Reporting verbs are more precise than 'said' or 'told'. 'Advise' follows the pattern verb + object + to-infinitive ('advised me to read'); 'recommend' takes 'that + subject + base verb' or an -ing form, never 'recommended me to'. An accurate range of reporting verbs is a band-8 feature in Speaking and Task 2."
+      },
+      {
+        "id": "7",
+        "prompt": "Students who study abroad become more independent. They also learn a lot about other cultures.",
+        "options": [],
+        "accepted_answers": [
+          "Not only do students who study abroad become more independent, but they also learn a great deal about other cultures."
+        ],
+        "model_answer": "Not only do students who study abroad become more independent, but they also gain a deeper understanding of other cultures.",
+        "check_mode": "AI",
+        "explanation": "'Not only' at the start of a clause requires inversion ('do students … become'), and 'but … also' completes the structure. It joins two related benefits in one emphatic sentence instead of two short, repetitive ones."
+      },
+      {
+        "id": "8",
+        "prompt": "If more people used public transport, there would be less pollution in cities.",
+        "options": [],
+        "accepted_answers": [
+          "Were more people to switch to public transport, urban air pollution would be considerably lower."
+        ],
+        "model_answer": "Were more people to use public transport, cities would suffer far less pollution.",
+        "check_mode": "AI",
+        "explanation": "In a formal second conditional, 'If + subject + past simple' can become 'Were + subject + to-infinitive', with no 'if'. The result clause keeps 'would'. This inverted form sounds academic and suits the solutions paragraph of a Task 2 essay."
+      },
+      {
+        "id": "9",
+        "prompt": "The report was written by climate scientists. It shows that sea levels are rising faster than expected.",
+        "options": [],
+        "accepted_answers": [
+          "Written by climate scientists, the report shows that sea levels are rising faster than expected."
+        ],
+        "model_answer": "Written by a team of climate scientists, the report shows that sea levels are rising faster than previously expected.",
+        "check_mode": "AI",
+        "explanation": "A past participle clause ('Written by…') replaces the passive sentence and attaches it to the main clause, which must begin with the noun it describes ('the report'). This removes repetition and produces a genuinely complex sentence."
+      },
+      {
+        "id": "10",
+        "prompt": "Housing is very expensive for young people and this worries me a lot.",
+        "options": [],
+        "accepted_answers": [
+          "What concerns me most is that many young people simply cannot afford a home of their own."
+        ],
+        "model_answer": "What worries me most is how unaffordable housing has become for young people.",
+        "check_mode": "AI",
+        "explanation": "In Speaking Part 3, a wh-cleft ('What worries me most is…') is a natural way to highlight your main concern, and the noun clause 'how unaffordable housing has become' adds complexity. It also replaces the vague 'this' and 'a lot'."
+      }
+    ]
+  }
+}

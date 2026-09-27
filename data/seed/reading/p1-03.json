@@ -1,0 +1,340 @@
+{
+  "task_type": "READING_PASSAGE",
+  "source_url": "https://en.wikipedia.org/wiki/Yakhch%C4%81l",
+  "licence": "CC BY-SA 4.0 (topic seed only; passage text is original)",
+  "content": {
+    "title": "Ice from the Desert",
+    "topic": "yakhchāl ice houses of Iran",
+    "difficulty": 1,
+    "cefr": "B2",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "Long before the arrival of electric refrigerators, people living on the edge of the deserts of central Iran had found a way to enjoy ice in the middle of summer. Their solution was the yakhchāl – a Persian word meaning 'ice pit' – a combination of pools, walls and a huge domed store which allowed ice to be made in winter and kept until the hottest months of the year. Some of these structures are thought to date from as early as 400 BCE, and a number of them are still standing today. Ice houses were built in many parts of the world, but most of them simply stored ice that had been cut from frozen lakes or rivers; what made the yakhchāl unusual was that the ice was often produced on the spot. Although most fell out of use during the twentieth century, they have recently attracted fresh attention from architects who are interested in buildings that stay cool without consuming energy."
+      },
+      {
+        "label": "B",
+        "text": "Producing ice in a desert may sound impossible, but the local climate is better suited to it than it first appears. Much of the region lies at high altitude, and on winter nights the temperature often falls below freezing. Just as important is the dryness of the air. With very little water vapour or cloud to trap warmth, heat escapes rapidly from the ground, and from any exposed water, into the night sky. This process, known as radiative cooling, means that a shallow layer of water can freeze even when the surrounding air is a few degrees above zero."
+      },
+      {
+        "label": "C",
+        "text": "The first stage of ice-making took place outside the store itself. Water was brought from a qanat, one of the underground channels that have carried water across the Iranian plateau for thousands of years, and was directed into long, shallow pools. These were rarely more than half a metre deep, and they were usually positioned on the northern side of a massive wall running from east to west. Some of these walls reached ten metres or more in height, and their purpose was to keep the pools in shade throughout the short winter day, so that the sun could not warm the water. On a clear, still night, a sheet of ice would then form on the surface."
+      },
+      {
+        "label": "D",
+        "text": "Early the next morning, before the sun rose above the wall, workers went out onto the pools and broke the ice into blocks. The work had to be finished quickly, as the ice would begin to soften once direct sunlight reached it. These were carried to the store and lowered into a deep pit beneath its dome. The process was repeated night after night throughout the coldest weeks, with each new batch laid on top of the last. To prevent the layers from freezing together into a single mass, and to provide extra insulation, the workers spread straw between them. Once the pit was full, the entrance was sealed until the ice was needed."
+      },
+      {
+        "label": "E",
+        "text": "The store is the most striking part of the yakhchāl. Above ground, it appears as a tall, cone-shaped dome, in some cases as much as eighteen metres high, but most of its storage space lies below ground level, where temperatures are naturally lower. The walls were built with a special mortar known as sarooj, made from sand, clay, lime, ash, goat hair and egg whites. This material resisted both heat and water, and at the base of the dome the walls were often two metres thick. The shape of the dome also helped to keep the interior cool: warm air rose to the top of the building and escaped through a small opening at its peak, while cooler air sank towards the ice."
+      },
+      {
+        "label": "F",
+        "text": "A certain amount of melting was unavoidable, but even this was managed carefully. A narrow trench at the bottom of the pit collected the water that dripped from the ice. In some yakhchāls this water was drained away, while in others it was left to freeze again on cold nights. Some designs also included a wind tower, a tall structure with vents near the top that caught the breeze and directed cooler air down into the building."
+      },
+      {
+        "label": "G",
+        "text": "The ice was put to a variety of uses during the summer months. Wealthy households bought it to cool drinks and to keep food fresh, and it was essential for making traditional desserts such as faloodeh, a dish of thin frozen noodles flavoured with rosewater. Today, with electric freezers found in almost every home, the old stores have lost their original function, but several have been restored as tourist attractions, and engineers are studying their methods as they search for ways of cooling buildings without electricity."
+      }
+    ],
+    "question_groups": [
+      {
+        "group_id": "g1",
+        "question_type": "FLOW_CHART_COMPLETION",
+        "instructions": "Questions 1–5\nComplete the flow-chart below.\nChoose ONE WORD ONLY from the passage for each answer.\nWrite your answers in boxes 1–5 on your answer sheet.",
+        "word_limit": 1,
+        "number_allowed": false,
+        "options": [],
+        "context": "",
+        "table": {
+          "title": "",
+          "columns": [],
+          "rows": []
+        },
+        "flow_steps": [
+          "Water arrives from the desert plateau through an underground channel.",
+          "It is channelled into shallow {{1}} beside a tall wall.",
+          "The wall ensures that the water remains in {{2}} during daylight hours.",
+          "On clear nights, the water loses heat to the {{3}} and freezes.",
+          "In the early morning, workers break up the ice to form {{4}}.",
+          "The ice is stored in layers in an underground pit, separated by {{5}}.",
+          "The entrance is closed until the ice is required in summer."
+        ],
+        "diagram": {
+          "title": "",
+          "nodes": [],
+          "edges": []
+        },
+        "map": {
+          "title": "",
+          "features": [],
+          "markers": []
+        },
+        "questions": [
+          {
+            "number": 1,
+            "prompt": "",
+            "options": [],
+            "answers": [
+              "pools"
+            ],
+            "justification_span": "Water was brought from a qanat, one of the underground channels that have carried water across the Iranian plateau for thousands of years, and was directed into long, shallow pools.",
+            "location": "C"
+          },
+          {
+            "number": 2,
+            "prompt": "",
+            "options": [],
+            "answers": [
+              "shade"
+            ],
+            "justification_span": "Some of these walls reached ten metres or more in height, and their purpose was to keep the pools in shade throughout the short winter day, so that the sun could not warm the water.",
+            "location": "C"
+          },
+          {
+            "number": 3,
+            "prompt": "",
+            "options": [],
+            "answers": [
+              "sky"
+            ],
+            "justification_span": "With very little water vapour or cloud to trap warmth, heat escapes rapidly from the ground, and from any exposed water, into the night sky.",
+            "location": "B"
+          },
+          {
+            "number": 4,
+            "prompt": "",
+            "options": [],
+            "answers": [
+              "blocks"
+            ],
+            "justification_span": "Early the next morning, before the sun rose above the wall, workers went out onto the pools and broke the ice into blocks.",
+            "location": "D"
+          },
+          {
+            "number": 5,
+            "prompt": "",
+            "options": [],
+            "answers": [
+              "straw"
+            ],
+            "justification_span": "To prevent the layers from freezing together into a single mass, and to provide extra insulation, the workers spread straw between them.",
+            "location": "D"
+          }
+        ]
+      },
+      {
+        "group_id": "g2",
+        "question_type": "DIAGRAM_LABEL_COMPLETION",
+        "instructions": "Questions 6–9\nLabel the diagram below.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\nWrite your answers in boxes 6–9 on your answer sheet.",
+        "word_limit": 2,
+        "number_allowed": false,
+        "options": [],
+        "context": "",
+        "table": {
+          "title": "",
+          "columns": [],
+          "rows": []
+        },
+        "flow_steps": [],
+        "diagram": {
+          "title": "Cross-section of a yakhchāl ice store",
+          "nodes": [
+            {
+              "id": "top",
+              "label": "{{6}}",
+              "x": 50,
+              "y": 6
+            },
+            {
+              "id": "dome",
+              "label": "cone-shaped dome",
+              "x": 50,
+              "y": 26
+            },
+            {
+              "id": "walls",
+              "label": "{{7}}",
+              "x": 14,
+              "y": 34
+            },
+            {
+              "id": "tower",
+              "label": "{{8}}",
+              "x": 86,
+              "y": 22
+            },
+            {
+              "id": "entrance",
+              "label": "sealed entrance",
+              "x": 14,
+              "y": 64
+            },
+            {
+              "id": "pit",
+              "label": "underground storage pit",
+              "x": 50,
+              "y": 66
+            },
+            {
+              "id": "trench",
+              "label": "{{9}}",
+              "x": 50,
+              "y": 92
+            }
+          ],
+          "edges": [
+            {
+              "from": "dome",
+              "to": "top",
+              "label": "warm air rises and escapes"
+            },
+            {
+              "from": "walls",
+              "to": "dome",
+              "label": "name of the mortar used for the walls (up to 2 m thick at base)"
+            },
+            {
+              "from": "tower",
+              "to": "pit",
+              "label": "cooler air directed downwards"
+            },
+            {
+              "from": "dome",
+              "to": "pit",
+              "label": ""
+            },
+            {
+              "from": "entrance",
+              "to": "pit",
+              "label": ""
+            },
+            {
+              "from": "pit",
+              "to": "trench",
+              "label": "meltwater collects here"
+            }
+          ]
+        },
+        "map": {
+          "title": "",
+          "features": [],
+          "markers": []
+        },
+        "questions": [
+          {
+            "number": 6,
+            "prompt": "",
+            "options": [],
+            "answers": [
+              "(small) opening",
+              "opening",
+              "small opening"
+            ],
+            "justification_span": "The shape of the dome also helped to keep the interior cool: warm air rose to the top of the building and escaped through a small opening at its peak, while cooler air sank towards the ice.",
+            "location": "E"
+          },
+          {
+            "number": 7,
+            "prompt": "",
+            "options": [],
+            "answers": [
+              "sarooj"
+            ],
+            "justification_span": "The walls were built with a special mortar known as sarooj, made from sand, clay, lime, ash, goat hair and egg whites.",
+            "location": "E"
+          },
+          {
+            "number": 8,
+            "prompt": "",
+            "options": [],
+            "answers": [
+              "wind tower"
+            ],
+            "justification_span": "Some designs also included a wind tower, a tall structure with vents near the top that caught the breeze and directed cooler air down into the building.",
+            "location": "F"
+          },
+          {
+            "number": 9,
+            "prompt": "",
+            "options": [],
+            "answers": [
+              "(narrow) trench",
+              "trench",
+              "narrow trench"
+            ],
+            "justification_span": "A narrow trench at the bottom of the pit collected the water that dripped from the ice.",
+            "location": "F"
+          }
+        ]
+      },
+      {
+        "group_id": "g3",
+        "question_type": "TRUE_FALSE_NOT_GIVEN",
+        "instructions": "Questions 10–13\nDo the following statements agree with the information given in Reading Passage 1?\nIn boxes 10–13 on your answer sheet, write\nTRUE if the statement agrees with the information\nFALSE if the statement contradicts the information\nNOT GIVEN if there is no information on this",
+        "word_limit": 0,
+        "number_allowed": false,
+        "options": [],
+        "context": "",
+        "table": {
+          "title": "",
+          "columns": [],
+          "rows": []
+        },
+        "flow_steps": [],
+        "diagram": {
+          "title": "",
+          "nodes": [],
+          "edges": []
+        },
+        "map": {
+          "title": "",
+          "features": [],
+          "markers": []
+        },
+        "questions": [
+          {
+            "number": 10,
+            "prompt": "The earliest yakhchāls may have been built more than two thousand years ago.",
+            "options": [],
+            "answers": [
+              "TRUE"
+            ],
+            "justification_span": "Some of these structures are thought to date from as early as 400 BCE, and a number of them are still standing today.",
+            "location": "A"
+          },
+          {
+            "number": 11,
+            "prompt": "Water in the pools could only freeze if the air temperature dropped below zero.",
+            "options": [],
+            "answers": [
+              "FALSE"
+            ],
+            "justification_span": "This process, known as radiative cooling, means that a shallow layer of water can freeze even when the surrounding air is a few degrees above zero.",
+            "location": "B"
+          },
+          {
+            "number": 12,
+            "prompt": "Sarooj was also commonly used to construct ordinary houses in the region.",
+            "options": [],
+            "answers": [
+              "NOT GIVEN"
+            ],
+            "justification_span": "The walls were built with a special mortar known as sarooj, made from sand, clay, lime, ash, goat hair and egg whites.",
+            "location": "E"
+          },
+          {
+            "number": 13,
+            "prompt": "Researchers are examining how yakhchāls work in order to develop cooling methods that do not need power.",
+            "options": [],
+            "answers": [
+              "TRUE"
+            ],
+            "justification_span": "Today, with electric freezers found in almost every home, the old stores have lost their original function, but several have been restored as tourist attractions, and engineers are studying their methods as they search for ways of cooling buildings without electricity.",
+            "location": "G"
+          }
+        ]
+      }
+    ]
+  }
+}

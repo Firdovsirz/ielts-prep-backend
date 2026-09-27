@@ -1,0 +1,138 @@
+{
+  "task_type": "VOCAB_WORD_BANK",
+  "source_url": "",
+  "licence": "Original content",
+  "content": {
+    "topic": "work",
+    "words": [
+      {
+        "word": "work-life balance",
+        "part_of_speech": "noun phrase",
+        "definition": "A healthy division of your time and energy between your job and your personal life.",
+        "example": "Flexible working arrangements can help employees achieve a healthier work-life balance.",
+        "collocations": ["achieve a work-life balance", "maintain a healthy work-life balance", "a poor work-life balance"],
+        "cefr": "B2"
+      },
+      {
+        "word": "job security",
+        "part_of_speech": "noun phrase",
+        "definition": "The likelihood that you will be able to keep your job for a long time.",
+        "example": "In an era of short-term contracts, job security has become something of a rarity for young graduates.",
+        "collocations": ["a lack of job security", "offer job security", "greater job security"],
+        "cefr": "B2"
+      },
+      {
+        "word": "gig economy",
+        "part_of_speech": "noun phrase",
+        "definition": "A labour market in which people work on short-term or freelance jobs, often arranged through apps, instead of having permanent employment.",
+        "example": "Although the gig economy offers flexibility, it often deprives workers of sick pay, holiday entitlement and pensions.",
+        "collocations": ["the rise of the gig economy", "gig economy workers", "work in the gig economy"],
+        "cefr": "C1"
+      },
+      {
+        "word": "remuneration",
+        "part_of_speech": "noun",
+        "definition": "The money that someone is paid for their work, including salary and other benefits.",
+        "example": "Remuneration in the public sector often fails to reflect the value that nurses and teachers bring to society.",
+        "collocations": ["generous remuneration", "a remuneration package", "fair remuneration"],
+        "cefr": "C2"
+      },
+      {
+        "word": "burnout",
+        "part_of_speech": "noun",
+        "definition": "A state of extreme physical and mental exhaustion caused by working too hard for too long.",
+        "example": "A culture of long hours and constant availability inevitably leads to burnout among employees.",
+        "collocations": ["suffer from burnout", "prevent burnout", "the risk of burnout"],
+        "cefr": "C1"
+      },
+      {
+        "word": "staff turnover",
+        "part_of_speech": "noun phrase",
+        "definition": "The rate at which employees leave an organisation and have to be replaced.",
+        "example": "High staff turnover is costly for companies, which must repeatedly recruit and train new employees.",
+        "collocations": ["high staff turnover", "reduce staff turnover", "the rate of staff turnover"],
+        "cefr": "C1"
+      },
+      {
+        "word": "job satisfaction",
+        "part_of_speech": "noun phrase",
+        "definition": "The feeling of pleasure and fulfilment that people get from their work.",
+        "example": "Studies suggest that job satisfaction depends more on recognition and a sense of purpose than on salary alone.",
+        "collocations": ["high job satisfaction", "derive job satisfaction from", "levels of job satisfaction"],
+        "cefr": "B2"
+      },
+      {
+        "word": "autonomy",
+        "part_of_speech": "noun",
+        "definition": "The freedom to make your own decisions about how you do something, without being controlled by others.",
+        "example": "Giving employees greater autonomy over how they organise their tasks tends to boost both motivation and productivity.",
+        "collocations": ["greater autonomy", "a degree of autonomy", "professional autonomy"],
+        "cefr": "C1"
+      },
+      {
+        "word": "remote working",
+        "part_of_speech": "noun phrase",
+        "definition": "Doing your job from home or another place away from the employer's office.",
+        "example": "The widespread adoption of remote working during the pandemic permanently changed attitudes towards the traditional office.",
+        "collocations": ["embrace remote working", "the shift to remote working", "remote working arrangements"],
+        "cefr": "B2"
+      },
+      {
+        "word": "redundant",
+        "part_of_speech": "adjective",
+        "definition": "Having lost your job because your employer no longer needs your position.",
+        "example": "Thousands of factory workers were made redundant when production was relocated overseas.",
+        "collocations": ["be made redundant", "face being made redundant", "render workers redundant"],
+        "cefr": "C1"
+      },
+      {
+        "word": "upskill",
+        "part_of_speech": "verb",
+        "definition": "To learn new skills, or to train workers in new skills, so that they can do their jobs better or adapt to change.",
+        "example": "Companies should invest in upskilling their workforce rather than simply replacing staff with machines.",
+        "collocations": ["upskill the workforce", "upskill and reskill", "upskilling programmes"],
+        "cefr": "C1"
+      },
+      {
+        "word": "entrepreneurial",
+        "part_of_speech": "adjective",
+        "definition": "Having the qualities, such as creativity and willingness to take risks, that are needed to start new businesses.",
+        "example": "Governments can foster an entrepreneurial culture by offering tax incentives and start-up loans to small businesses.",
+        "collocations": ["entrepreneurial spirit", "entrepreneurial skills", "an entrepreneurial culture"],
+        "cefr": "C1"
+      },
+      {
+        "word": "glass ceiling",
+        "part_of_speech": "noun phrase",
+        "definition": "An unofficial barrier that stops women or minority groups from reaching the most senior positions in an organisation.",
+        "example": "Despite considerable progress, a glass ceiling still prevents many women from reaching board-level positions.",
+        "collocations": ["break through the glass ceiling", "shatter the glass ceiling", "hit a glass ceiling"],
+        "cefr": "C1"
+      },
+      {
+        "word": "labour shortage",
+        "part_of_speech": "noun phrase",
+        "definition": "A situation in which there are not enough workers available to fill the jobs that exist.",
+        "example": "Many European countries face acute labour shortages in sectors such as social care and construction.",
+        "collocations": ["an acute labour shortage", "address labour shortages", "skilled labour shortages"],
+        "cefr": "C1"
+      },
+      {
+        "word": "menial",
+        "part_of_speech": "adjective",
+        "definition": "Describing work that is boring, repetitive, low in status and requires little skill.",
+        "example": "Automation may free workers from menial tasks, allowing them to focus on more creative and rewarding work.",
+        "collocations": ["menial tasks", "menial jobs", "menial labour"],
+        "cefr": "C2"
+      },
+      {
+        "word": "incentive",
+        "part_of_speech": "noun",
+        "definition": "Something, such as money or a reward, that encourages a person to do something or work harder.",
+        "example": "Performance-related bonuses can act as a powerful incentive, but they may also encourage unhealthy competition between colleagues.",
+        "collocations": ["a financial incentive", "provide an incentive", "a strong incentive to"],
+        "cefr": "C1"
+      }
+    ]
+  }
+}

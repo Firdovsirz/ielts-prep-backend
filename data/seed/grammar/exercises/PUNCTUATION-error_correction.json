@@ -1,0 +1,130 @@
+{
+  "task_type": "GRAMMAR_EXERCISE",
+  "source_url": "",
+  "licence": "Original content",
+  "content": {
+    "area": "PUNCTUATION",
+    "exercise_type": "ERROR_CORRECTION",
+    "title": "Sentence boundaries and commas",
+    "instructions": "Each item contains ONE punctuation error: a comma splice, a run-on sentence, a sentence fragment, or a missing or misused comma. Rewrite the item correctly.",
+    "items": [
+      {
+        "id": "1",
+        "prompt": "Many young people move to large cities to find work, this puts pressure on housing and transport.",
+        "options": [],
+        "accepted_answers": [
+          "Many young people move to large cities to find work. This puts pressure on housing and transport.",
+          "Many young people move to large cities to find work; this puts pressure on housing and transport.",
+          "Many young people move to large cities to find work, which puts pressure on housing and transport."
+        ],
+        "model_answer": "Many young people move to large cities to find work, which puts pressure on housing and transport.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "Two independent clauses cannot be joined with only a comma — this is a comma splice. Use a full stop or a semicolon, or turn the second clause into a relative clause ('which puts pressure…')."
+      },
+      {
+        "id": "2",
+        "prompt": "The line graph shows the number of visitors to three museums between 2000 and 2020 the Science Museum was the most popular throughout the period.",
+        "options": [],
+        "accepted_answers": [
+          "The line graph shows the number of visitors to three museums between 2000 and 2020. The Science Museum was the most popular throughout the period.",
+          "The line graph shows the number of visitors to three museums between 2000 and 2020; the Science Museum was the most popular throughout the period."
+        ],
+        "model_answer": "The line graph shows the number of visitors to three museums between 2000 and 2020. The Science Museum was the most popular throughout the period.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "This is a run-on (fused) sentence: two complete sentences with no punctuation between them. End the first sentence after '2020' or separate the clauses with a semicolon."
+      },
+      {
+        "id": "3",
+        "prompt": "Governments should invest more in public transport. Because it reduces both congestion and air pollution.",
+        "options": [],
+        "accepted_answers": [
+          "Governments should invest more in public transport because it reduces both congestion and air pollution.",
+          "Governments should invest more in public transport, as it reduces both congestion and air pollution."
+        ],
+        "model_answer": "Governments should invest more in public transport because it reduces both congestion and air pollution.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "A clause beginning with 'Because' is a subordinate clause and cannot stand alone as a sentence (a fragment). Attach it to the main clause; no comma is needed when 'because' comes second."
+      },
+      {
+        "id": "4",
+        "prompt": "My hometown which is located in the north of the country has changed dramatically over the last decade.",
+        "options": [],
+        "accepted_answers": [
+          "My hometown, which is located in the north of the country, has changed dramatically over the last decade."
+        ],
+        "model_answer": "My hometown, which is located in the north of the country, has changed dramatically over the last decade.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "A non-defining relative clause adds extra information about a noun that is already identified (the speaker has only one hometown), so it must be enclosed by a pair of commas: one before 'which' and one at the end of the clause."
+      },
+      {
+        "id": "5",
+        "prompt": "Students, who work part-time, often achieve lower grades than those who do not.",
+        "options": [],
+        "accepted_answers": [
+          "Students who work part-time often achieve lower grades than those who do not."
+        ],
+        "model_answer": "Students who work part-time often achieve lower grades than those who do not.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "'Who work part-time' is a defining clause: it identifies which students are meant, so it takes no commas. With commas, the sentence would claim that all students work part-time, which contradicts 'those who do not'."
+      },
+      {
+        "id": "6",
+        "prompt": "The number of rail passengers doubled between 2010 and 2020. Which shows that attitudes towards public transport have changed.",
+        "options": [],
+        "accepted_answers": [
+          "The number of rail passengers doubled between 2010 and 2020, which shows that attitudes towards public transport have changed.",
+          "The number of rail passengers doubled between 2010 and 2020. This shows that attitudes towards public transport have changed."
+        ],
+        "model_answer": "The number of rail passengers doubled between 2010 and 2020, which shows that attitudes towards public transport have changed.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "A 'which' clause that comments on the whole previous idea is a relative clause, not a sentence, so it cannot follow a full stop. Join it with a comma, or start a new sentence with 'This shows…'."
+      },
+      {
+        "id": "7",
+        "prompt": "If governments do not act now the effects of climate change will become irreversible.",
+        "options": [],
+        "accepted_answers": [
+          "If governments do not act now, the effects of climate change will become irreversible."
+        ],
+        "model_answer": "If governments do not act now, the effects of climate change will become irreversible.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "When a subordinate clause (if, when, although, because…) comes before the main clause, put a comma at the end of it. Without the comma, 'now the effects' is momentarily misread as one phrase."
+      },
+      {
+        "id": "8",
+        "prompt": "The proportion of elderly people living alone, rose steadily over the period.",
+        "options": [],
+        "accepted_answers": [
+          "The proportion of elderly people living alone rose steadily over the period."
+        ],
+        "model_answer": "The proportion of elderly people living alone rose steadily over the period.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "Never put a single comma between a subject and its verb, however long the subject is. The whole phrase 'The proportion of elderly people living alone' is the subject of 'rose'."
+      },
+      {
+        "id": "9",
+        "prompt": "Fossil fuels are running out, therefore governments must invest in renewable energy.",
+        "options": [],
+        "accepted_answers": [
+          "Fossil fuels are running out; therefore, governments must invest in renewable energy.",
+          "Fossil fuels are running out. Therefore, governments must invest in renewable energy.",
+          "Fossil fuels are running out, so governments must invest in renewable energy."
+        ],
+        "model_answer": "Fossil fuels are running out; therefore, governments must invest in renewable energy.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "'Therefore' is an adverb, not a conjunction, so a comma before it creates a comma splice. Use a semicolon or a full stop before it (with a comma after it), or use the conjunction 'so'."
+      },
+      {
+        "id": "10",
+        "prompt": "Many cities now offer free activities for teenagers. Such as sports clubs, coding workshops and music lessons.",
+        "options": [],
+        "accepted_answers": [
+          "Many cities now offer free activities for teenagers, such as sports clubs, coding workshops and music lessons."
+        ],
+        "model_answer": "Many cities now offer free activities for teenagers, such as sports clubs, coding workshops and music lessons.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "A phrase beginning with 'such as' has no main verb, so on its own it is a fragment. Attach it with a comma to the noun it gives examples of."
+      }
+    ]
+  }
+}

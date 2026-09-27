@@ -1,0 +1,103 @@
+{
+  "task_type": "GRAMMAR_EXERCISE",
+  "source_url": "",
+  "licence": "Original content",
+  "content": {
+    "area": "PASSIVE_VOICE",
+    "exercise_type": "GAP_FILL",
+    "title": "Passive voice: forms across tenses and modals",
+    "instructions": "Complete each sentence with the correct passive form of the verb in brackets. Include any other words given in brackets in the correct position. Pay attention to the time reference and to modal verbs.",
+    "items": [
+      {
+        "id": "1",
+        "prompt": "In the first stage of the process, the cocoa pods ___ (harvest) and the beans are left to ferment for several days.",
+        "options": [],
+        "accepted_answers": ["are harvested"],
+        "model_answer": "In the first stage of the process, the cocoa pods are harvested and the beans are left to ferment for several days.",
+        "check_mode": "EXACT",
+        "explanation": "Process descriptions use the present simple passive: am/is/are + past participle. The subject 'the cocoa pods' is plural, so the auxiliary is 'are'."
+      },
+      {
+        "id": "2",
+        "prompt": "Once the beans ___ (dry), they are transported to the factory in large sacks.",
+        "options": [],
+        "accepted_answers": ["have been dried", "are dried"],
+        "model_answer": "Once the beans have been dried, they are transported to the factory in large sacks.",
+        "check_mode": "EXACT",
+        "explanation": "After 'once' or 'after', the present perfect passive (have been + past participle) stresses that one stage is complete before the next begins; the present simple passive (are dried) is also acceptable."
+      },
+      {
+        "id": "3",
+        "prompt": "Between 1995 and 2005, three new hospitals ___ (build) in the northern suburbs.",
+        "options": [],
+        "accepted_answers": ["were built"],
+        "model_answer": "Between 1995 and 2005, three new hospitals were built in the northern suburbs.",
+        "check_mode": "EXACT",
+        "explanation": "A finished past period on a Task 1 map takes the past simple passive: was/were + past participle. 'Build' is irregular: build – built – built."
+      },
+      {
+        "id": "4",
+        "prompt": "According to the proposal, the car park ___ (replace) by a public garden next year.",
+        "options": [],
+        "accepted_answers": ["will be replaced", "is going to be replaced", "is to be replaced"],
+        "model_answer": "According to the proposal, the car park will be replaced by a public garden next year.",
+        "check_mode": "EXACT",
+        "explanation": "Planned changes take the future passive: will be / is going to be + past participle. 'Is to be replaced' is a formal alternative for official plans."
+      },
+      {
+        "id": "5",
+        "prompt": "At the time of the survey, a new metro line ___ (construct) to connect the airport with the city centre.",
+        "options": [],
+        "accepted_answers": ["was being constructed"],
+        "model_answer": "At the time of the survey, a new metro line was being constructed to connect the airport with the city centre.",
+        "check_mode": "EXACT",
+        "explanation": "An action in progress at a past moment takes the past continuous passive: was/were being + past participle."
+      },
+      {
+        "id": "6",
+        "prompt": "Since 2010, more than 40 million trees ___ (plant) as part of the national reforestation programme.",
+        "options": [],
+        "accepted_answers": ["have been planted"],
+        "model_answer": "Since 2010, more than 40 million trees have been planted as part of the national reforestation programme.",
+        "check_mode": "EXACT",
+        "explanation": "'Since 2010' connects the past to the present, so the present perfect passive is required: have/has been + past participle."
+      },
+      {
+        "id": "7",
+        "prompt": "It ___ (often / argue) that social media has a negative effect on teenagers' mental health.",
+        "options": [],
+        "accepted_answers": ["is often argued"],
+        "model_answer": "It is often argued that social media has a negative effect on teenagers' mental health.",
+        "check_mode": "EXACT",
+        "explanation": "The impersonal passive 'It is + (adverb) + past participle + that …' introduces a common opinion in Task 2. Frequency adverbs such as 'often' and 'widely' go between 'is' and the participle."
+      },
+      {
+        "id": "8",
+        "prompt": "In my view, violent video games ___ (should / not / sell) to children under the age of 16.",
+        "options": [],
+        "accepted_answers": ["should not be sold", "shouldn't be sold"],
+        "model_answer": "In my view, violent video games should not be sold to children under the age of 16.",
+        "check_mode": "EXACT",
+        "explanation": "The modal passive is modal + (not) + be + past participle. The base form 'be' never changes after a modal, so 'should not be sold', not 'should not been sold' or 'should not sold'."
+      },
+      {
+        "id": "9",
+        "prompt": "By the end of the period shown on the map, the old railway station ___ (convert) into a museum.",
+        "options": [],
+        "accepted_answers": ["had been converted"],
+        "model_answer": "By the end of the period shown on the map, the old railway station had been converted into a museum.",
+        "check_mode": "EXACT",
+        "explanation": "'By + a past point' requires the past perfect, and the passive form is had been + past participle: the change was complete before the end of the period."
+      },
+      {
+        "id": "10",
+        "prompt": "These days, smartphones ___ (widely / use) for banking in my country, especially by younger people.",
+        "options": [],
+        "accepted_answers": ["are widely used"],
+        "model_answer": "These days, smartphones are widely used for banking in my country, especially by younger people.",
+        "check_mode": "EXACT",
+        "explanation": "A present general fact about how something is used takes the present simple passive. The agent is included here ('by younger people') because it adds new, relevant information, which is when 'by' is worth keeping."
+      }
+    ]
+  }
+}

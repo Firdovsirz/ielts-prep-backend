@@ -1,0 +1,38 @@
+{
+  "task_type": "SPEAKING_PART1",
+  "source_url": "",
+  "licence": "Original content",
+  "content": {
+    "topics": [
+      {
+        "topic": "Hometown",
+        "questions": [
+          "Where is your hometown?",
+          "What do you like most about your hometown?",
+          "Has your hometown changed much since you were a child?",
+          "Is your hometown a good place for young people to live? Why/Why not?",
+          "Would you like to live there in the future?"
+        ]
+      },
+      {
+        "topic": "Public transport",
+        "questions": [
+          "What kind of public transport do you use most often?",
+          "How do most people travel to work or school where you live?",
+          "Do you think public transport in your town is good value for money?",
+          "What could be done to improve public transport where you live?"
+        ]
+      },
+      {
+        "topic": "Cooking",
+        "questions": [
+          "Do you enjoy cooking? Why/Why not?",
+          "Who does most of the cooking in your family?",
+          "What was the first dish you learned to cook?",
+          "Do you prefer eating at home or eating out?",
+          "Would you like to take a cooking class in the future?"
+        ]
+      }
+    ]
+  }
+}

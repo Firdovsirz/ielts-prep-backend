@@ -1,0 +1,20 @@
+{
+  "task_type": "WRITING_TASK2",
+  "source_url": "",
+  "licence": "Original content",
+  "content": {
+    "essay_type": "DOUBLE_QUESTION",
+    "topic": "family",
+    "subtopic": "Adults choosing to live alone",
+    "statement": "In many countries, a growing number of adults now choose to live alone rather than with family members or friends.",
+    "question": "Why is this happening? Is this a positive or negative development?",
+    "prompt": "In many countries, a growing number of adults now choose to live alone rather than with family members or friends.\n\nWhy is this happening? Is this a positive or negative development?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.\n\nWrite at least 250 words.",
+    "key_features": [
+      "Answers both questions fully, giving each roughly equal weight (typically one body paragraph per question).",
+      "Explains realistic reasons for the trend (e.g. higher incomes and financial independence, marrying later or not at all, moving to cities for work, a desire for privacy, an ageing population).",
+      "Gives a clear evaluation of whether the development is positive, negative or mixed, with a justified overall view.",
+      "Considers consequences for individuals and society (e.g. independence and personal freedom versus loneliness, housing demand and environmental cost).",
+      "Supports points with relevant examples, and the conclusion restates both answers concisely."
+    ]
+  }
+}

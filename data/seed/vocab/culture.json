@@ -1,0 +1,138 @@
+{
+  "task_type": "VOCAB_WORD_BANK",
+  "source_url": "",
+  "licence": "Original content",
+  "content": {
+    "topic": "culture",
+    "words": [
+      {
+        "word": "cultural heritage",
+        "part_of_speech": "noun phrase",
+        "definition": "The traditions, buildings, objects and customs from the past that a society values and wants to keep.",
+        "example": "Governments have a responsibility to preserve cultural heritage for the benefit of future generations.",
+        "collocations": ["preserve cultural heritage", "a rich cultural heritage", "national cultural heritage"],
+        "cefr": "C1"
+      },
+      {
+        "word": "cultural identity",
+        "part_of_speech": "noun phrase",
+        "definition": "The feeling of belonging to a particular group because of shared language, traditions, beliefs or history.",
+        "example": "For many immigrants, food and festivals remain an important way of maintaining their cultural identity.",
+        "collocations": ["a strong sense of cultural identity", "preserve cultural identity", "maintain cultural identity"],
+        "cefr": "C1"
+      },
+      {
+        "word": "assimilate",
+        "part_of_speech": "verb",
+        "definition": "To become part of a new society by adopting its customs and way of life, often while losing your own.",
+        "example": "Immigrants may feel under pressure to assimilate, abandoning customs that are central to their sense of self.",
+        "collocations": ["assimilate into", "fully assimilate", "pressure to assimilate"],
+        "cefr": "C2"
+      },
+      {
+        "word": "indigenous",
+        "part_of_speech": "adjective",
+        "definition": "Belonging to or originating in a particular place, especially describing the people who lived there first.",
+        "example": "Indigenous communities often possess detailed ecological knowledge that has been passed down orally for centuries.",
+        "collocations": ["indigenous peoples", "indigenous communities", "indigenous languages"],
+        "cefr": "C1"
+      },
+      {
+        "word": "multiculturalism",
+        "part_of_speech": "noun",
+        "definition": "The belief or policy that different cultural groups in a society should be accepted and allowed to keep their own traditions.",
+        "example": "Supporters of multiculturalism argue that diversity enriches society, while critics fear it may weaken shared values.",
+        "collocations": ["embrace multiculturalism", "a policy of multiculturalism", "a commitment to multiculturalism"],
+        "cefr": "C1"
+      },
+      {
+        "word": "arts funding",
+        "part_of_speech": "noun phrase",
+        "definition": "Money, especially from the government, that is given to support theatres, museums, artists and other cultural activities.",
+        "example": "In times of economic hardship, arts funding is often the first casualty of budget cuts.",
+        "collocations": ["cuts to arts funding", "public arts funding", "justify arts funding"],
+        "cefr": "C1"
+      },
+      {
+        "word": "intangible",
+        "part_of_speech": "adjective",
+        "definition": "Not physical and impossible to touch, but still real and valuable.",
+        "example": "Traditional crafts, music and storytelling form part of a nation's intangible heritage.",
+        "collocations": ["intangible heritage", "intangible benefits", "intangible value"],
+        "cefr": "C2"
+      },
+      {
+        "word": "time-honoured",
+        "part_of_speech": "adjective",
+        "definition": "Respected and followed because it has existed for a very long time.",
+        "example": "Time-honoured customs such as large family meals are gradually giving way to more individualistic lifestyles.",
+        "collocations": ["a time-honoured tradition", "a time-honoured practice", "a time-honoured custom"],
+        "cefr": "C2"
+      },
+      {
+        "word": "cosmopolitan",
+        "part_of_speech": "adjective",
+        "definition": "Containing people and influences from many different countries and cultures.",
+        "example": "Cosmopolitan cities benefit from a remarkable diversity of cuisines, languages and ideas.",
+        "collocations": ["a cosmopolitan city", "a cosmopolitan outlook", "a cosmopolitan atmosphere"],
+        "cefr": "C1"
+      },
+      {
+        "word": "mainstream",
+        "part_of_speech": "noun",
+        "definition": "The ideas, styles and activities that are accepted by or popular with most people.",
+        "example": "Genres of music that were once considered niche have firmly entered the global mainstream thanks to streaming platforms.",
+        "collocations": ["enter the mainstream", "mainstream culture", "outside the mainstream"],
+        "cefr": "C1"
+      },
+      {
+        "word": "cultural exchange",
+        "part_of_speech": "noun phrase",
+        "definition": "The sharing of ideas, traditions and experiences between people from different countries or cultures.",
+        "example": "Student exchange schemes promote cultural exchange and foster mutual understanding between nations.",
+        "collocations": ["promote cultural exchange", "a cultural exchange programme", "a vehicle for cultural exchange"],
+        "cefr": "C1"
+      },
+      {
+        "word": "commodification",
+        "part_of_speech": "noun",
+        "definition": "The process of treating something, such as culture or tradition, as a product that can be bought and sold.",
+        "example": "Mass tourism can lead to the commodification of local traditions, which end up being staged purely for visitors.",
+        "collocations": ["the commodification of culture", "the commodification of tradition", "resist commodification"],
+        "cefr": "C2"
+      },
+      {
+        "word": "cultural appropriation",
+        "part_of_speech": "noun phrase",
+        "definition": "The use of customs, symbols or styles from a culture that is not your own, especially without understanding or respect.",
+        "example": "Debates about cultural appropriation raise difficult questions about who has the right to use symbols from another culture.",
+        "collocations": ["accusations of cultural appropriation", "be accused of cultural appropriation", "the debate over cultural appropriation"],
+        "cefr": "C2"
+      },
+      {
+        "word": "artefact",
+        "part_of_speech": "noun",
+        "definition": "An object made by people, especially one that is historically or culturally interesting.",
+        "example": "There is growing pressure on Western museums to return artefacts that were taken during the colonial era.",
+        "collocations": ["historical artefacts", "cultural artefacts", "return artefacts"],
+        "cefr": "C1"
+      },
+      {
+        "word": "revive",
+        "part_of_speech": "verb",
+        "definition": "To make something become active, popular or successful again.",
+        "example": "Community festivals can help revive interest in traditional music among younger generations.",
+        "collocations": ["revive interest in", "revive a tradition", "attempt to revive"],
+        "cefr": "C1"
+      },
+      {
+        "word": "erode",
+        "part_of_speech": "verb",
+        "definition": "To gradually weaken or destroy something over a period of time.",
+        "example": "Some linguists fear that the dominance of English online is gradually eroding linguistic diversity.",
+        "collocations": ["erode traditional values", "gradually erode", "erode a sense of identity"],
+        "cefr": "C1"
+      }
+    ]
+  }
+}

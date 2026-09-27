@@ -1,0 +1,427 @@
+{
+  "task_type": "LISTENING_SECTION",
+  "source_url": "",
+  "licence": "Original content",
+  "content": {
+    "section": 3,
+    "title": "A dining hall food waste study",
+    "topic": "Research methods: measuring plate waste in a university dining hall",
+    "context_description": "You will hear two students, Maya and Tane, discussing their research project on food waste in the university dining hall with their tutor, Dr Fraser.",
+    "speakers": [
+      {
+        "id": "S1",
+        "name": "Dr Fraser",
+        "gender": "male",
+        "accent": "scottish",
+        "role": "Tutor"
+      },
+      {
+        "id": "S2",
+        "name": "Maya",
+        "gender": "female",
+        "accent": "american",
+        "role": "Student"
+      },
+      {
+        "id": "S3",
+        "name": "Tane",
+        "gender": "male",
+        "accent": "new_zealand",
+        "role": "Student"
+      }
+    ],
+    "script": [
+      {
+        "speaker": "S1",
+        "text": "Come in, Maya, Tane. Have a seat. So, this is our first meeting about your project on food waste in the dining hall. Before we get into the method, remind me why you chose this topic."
+      },
+      {
+        "speaker": "S2",
+        "text": "Well, we both work part-time in the dining hall, and we were honestly shocked by how much food gets scraped into the bins every lunchtime. So it came from something we'd seen with our own eyes."
+      },
+      {
+        "speaker": "S1",
+        "text": "I see. And I suppose you thought the data would be fairly easy to collect?"
+      },
+      {
+        "speaker": "S3",
+        "text": "Ha, not at all. We knew it would be a lot of work. For me, it's more that I want to work in sustainability consulting after I graduate, and this is exactly the kind of study those firms carry out."
+      },
+      {
+        "speaker": "S1",
+        "text": "Good. Now, you said in your proposal that there's been very little research on this. I'd question that, actually."
+      },
+      {
+        "speaker": "S2",
+        "text": "Yes, we realised that once we started reading. There are dozens of studies from school canteens, so we've taken that sentence out."
+      },
+      {
+        "speaker": "S1",
+        "text": "Sensible. And is the university keen on the project? Cutting costs, that sort of thing?"
+      },
+      {
+        "speaker": "S3",
+        "text": "Nobody's mentioned costs to us, to be honest. The catering staff just seem curious about the results."
+      },
+      {
+        "speaker": "S1",
+        "text": "Right. Now, you ran a small pilot study last week. How did it go?"
+      },
+      {
+        "speaker": "S2",
+        "text": "Mostly well. We were worried people would refuse to hand over their trays, but almost everyone was happy to take part."
+      },
+      {
+        "speaker": "S3",
+        "text": "The real problem was the weighing. We'd planned to scrape each plate into a container and weigh it, but it took far longer than we'd expected, and a queue built up behind us."
+      },
+      {
+        "speaker": "S1",
+        "text": "And the dining hall's very crowded at that time, isn't it?"
+      },
+      {
+        "speaker": "S2",
+        "text": "It is busy, but that didn't really cause any trouble. The other issue was our questions. Quite a few people weren't sure what we meant by a portion, so we got some very strange answers."
+      },
+      {
+        "speaker": "S1",
+        "text": "Did you have any difficulty working out what had actually been served that day?"
+      },
+      {
+        "speaker": "S3",
+        "text": "No, that was easy. The kitchen puts the full menu online every morning."
+      },
+      {
+        "speaker": "S1",
+        "text": "OK, so let's go through your revised method step by step. What comes first?"
+      },
+      {
+        "speaker": "S2",
+        "text": "Before anything else, we need written permission from the catering manager, Mrs Doyle. We assumed the Students' Union would deal with that, but it turns out they have no say over the dining hall."
+      },
+      {
+        "speaker": "S1",
+        "text": "And how long will you be collecting data for?"
+      },
+      {
+        "speaker": "S3",
+        "text": "Every weekday lunchtime for 2 weeks. I suggested we could just count the items left on each plate, but Maya pointed out that doesn't work for things like soup or rice."
+      },
+      {
+        "speaker": "S2",
+        "text": "So we've dropped the weighing altogether. Instead, we'll take a photograph of every tray as it reaches the return point. It only takes a second, so there's no queue."
+      },
+      {
+        "speaker": "S1",
+        "text": "Then how do you turn a picture into a number?"
+      },
+      {
+        "speaker": "S3",
+        "text": "Afterwards, we'll look at each one and rate how much is left on a 5-point scale, where 1 means the plate is almost clean and 5 means it's hardly been touched."
+      },
+      {
+        "speaker": "S1",
+        "text": "Mm, wouldn't a percentage be more precise?"
+      },
+      {
+        "speaker": "S2",
+        "text": "In theory, but when we tried it on some practice photos, Tane and I gave the same plate completely different figures. The scale is much more consistent."
+      },
+      {
+        "speaker": "S1",
+        "text": "Good. Make sure you explain that decision in your methods chapter, because markers like to see why a method was changed."
+      },
+      {
+        "speaker": "S3",
+        "text": "We will. We've kept notes on everything we tried during the pilot."
+      },
+      {
+        "speaker": "S1",
+        "text": "Fair enough. And the questions for students?"
+      },
+      {
+        "speaker": "S3",
+        "text": "We've reworded them and cut them down to 4. We were going to hand out paper forms at the exit, but now we'll ask them on a tablet, so the answers go straight into our spreadsheet."
+      },
+      {
+        "speaker": "S1",
+        "text": "Excellent. Will you talk to the catering manager in more detail as well?"
+      },
+      {
+        "speaker": "S2",
+        "text": "Only briefly, because she's so busy. The people we really want to interview are the chefs, since they're the ones who decide how big the portions are."
+      },
+      {
+        "speaker": "S1",
+        "text": "Will they have time for that? Kitchens are hectic places at lunchtime."
+      },
+      {
+        "speaker": "S3",
+        "text": "Mrs Doyle says they're usually free for half an hour after the lunch service, so we've pencilled in 3 short sessions."
+      },
+      {
+        "speaker": "S1",
+        "text": "Makes sense. And finally, how will you share your findings? A written report?"
+      },
+      {
+        "speaker": "S3",
+        "text": "That was the original idea, but the department is holding a research fair at the end of term, so we'll put everything on a poster instead. More people will actually see it that way."
+      },
+      {
+        "speaker": "S1",
+        "text": "Good thinking. Let's meet again once Mrs Doyle has signed off."
+      },
+      {
+        "speaker": "S2",
+        "text": "Thanks, Dr Fraser. We'll email you next week."
+      }
+    ],
+    "parts": [
+      {
+        "questions_from": 1,
+        "questions_to": 4,
+        "start_line": 0
+      },
+      {
+        "questions_from": 5,
+        "questions_to": 10,
+        "start_line": 15
+      }
+    ],
+    "question_groups": [
+      {
+        "group_id": "g1",
+        "question_type": "MULTIPLE_CHOICE_MULTI",
+        "instructions": "Questions 1 and 2\nChoose TWO letters, A–E.",
+        "word_limit": 0,
+        "number_allowed": false,
+        "options": [
+          {
+            "key": "A",
+            "text": "It is based on a problem they had personally observed."
+          },
+          {
+            "key": "B",
+            "text": "Very little research has been done on it."
+          },
+          {
+            "key": "C",
+            "text": "The data would be simple to gather."
+          },
+          {
+            "key": "D",
+            "text": "The university hopes to save money."
+          },
+          {
+            "key": "E",
+            "text": "It is relevant to a career one of them is planning."
+          }
+        ],
+        "context": "",
+        "table": {
+          "title": "",
+          "columns": [],
+          "rows": []
+        },
+        "flow_steps": [],
+        "diagram": {
+          "title": "",
+          "nodes": [],
+          "edges": []
+        },
+        "map": {
+          "title": "",
+          "features": [],
+          "markers": []
+        },
+        "questions": [
+          {
+            "number": 1,
+            "prompt": "Which TWO reasons do the students give for choosing their research topic?",
+            "options": [],
+            "answers": [
+              "A"
+            ],
+            "justification_span": "So it came from something we'd seen with our own eyes.",
+            "location": "1"
+          },
+          {
+            "number": 2,
+            "prompt": "Which TWO reasons do the students give for choosing their research topic?",
+            "options": [],
+            "answers": [
+              "E"
+            ],
+            "justification_span": "For me, it's more that I want to work in sustainability consulting after I graduate, and this is exactly the kind of study those firms carry out.",
+            "location": "3"
+          }
+        ]
+      },
+      {
+        "group_id": "g2",
+        "question_type": "MULTIPLE_CHOICE_MULTI",
+        "instructions": "Questions 3 and 4\nChoose TWO letters, A–E.",
+        "word_limit": 0,
+        "number_allowed": false,
+        "options": [
+          {
+            "key": "A",
+            "text": "Some students were unwilling to take part."
+          },
+          {
+            "key": "B",
+            "text": "Measuring the waste took too long."
+          },
+          {
+            "key": "C",
+            "text": "It was hard to find out what food had been served."
+          },
+          {
+            "key": "D",
+            "text": "The dining hall was too crowded to work in."
+          },
+          {
+            "key": "E",
+            "text": "Some students misunderstood a question."
+          }
+        ],
+        "context": "",
+        "table": {
+          "title": "",
+          "columns": [],
+          "rows": []
+        },
+        "flow_steps": [],
+        "diagram": {
+          "title": "",
+          "nodes": [],
+          "edges": []
+        },
+        "map": {
+          "title": "",
+          "features": [],
+          "markers": []
+        },
+        "questions": [
+          {
+            "number": 3,
+            "prompt": "Which TWO problems did the students have during their pilot study?",
+            "options": [],
+            "answers": [
+              "B"
+            ],
+            "justification_span": "We'd planned to scrape each plate into a container and weigh it, but it took far longer than we'd expected, and a queue built up behind us.",
+            "location": "10"
+          },
+          {
+            "number": 4,
+            "prompt": "Which TWO problems did the students have during their pilot study?",
+            "options": [],
+            "answers": [
+              "E"
+            ],
+            "justification_span": "Quite a few people weren't sure what we meant by a portion, so we got some very strange answers.",
+            "location": "12"
+          }
+        ]
+      },
+      {
+        "group_id": "g3",
+        "question_type": "FLOW_CHART_COMPLETION",
+        "instructions": "Questions 5–10\nComplete the flow-chart below.\nWrite ONE WORD ONLY for each answer.\n\nDining hall food waste study: revised method",
+        "word_limit": 1,
+        "number_allowed": false,
+        "options": [],
+        "context": "",
+        "table": {
+          "title": "",
+          "columns": [],
+          "rows": []
+        },
+        "flow_steps": [
+          "Obtain written {{5}} from the catering manager",
+          "Collect data every weekday lunchtime for 2 weeks",
+          "Take a {{6}} of every tray at the return point",
+          "Score the waste on each tray on a 5-point {{7}}",
+          "Ask departing students 4 questions using a {{8}}",
+          "Interview the {{9}} about portion sizes",
+          "Present the results on a {{10}} at the end-of-term research fair"
+        ],
+        "diagram": {
+          "title": "",
+          "nodes": [],
+          "edges": []
+        },
+        "map": {
+          "title": "",
+          "features": [],
+          "markers": []
+        },
+        "questions": [
+          {
+            "number": 5,
+            "prompt": "",
+            "options": [],
+            "answers": [
+              "permission"
+            ],
+            "justification_span": "Before anything else, we need written permission from the catering manager, Mrs Doyle.",
+            "location": "16"
+          },
+          {
+            "number": 6,
+            "prompt": "",
+            "options": [],
+            "answers": [
+              "photograph",
+              "photo",
+              "picture"
+            ],
+            "justification_span": "Instead, we'll take a photograph of every tray as it reaches the return point.",
+            "location": "19"
+          },
+          {
+            "number": 7,
+            "prompt": "",
+            "options": [],
+            "answers": [
+              "scale"
+            ],
+            "justification_span": "Afterwards, we'll look at each one and rate how much is left on a 5-point scale, where 1 means the plate is almost clean and 5 means it's hardly been touched.",
+            "location": "21"
+          },
+          {
+            "number": 8,
+            "prompt": "",
+            "options": [],
+            "answers": [
+              "tablet"
+            ],
+            "justification_span": "We were going to hand out paper forms at the exit, but now we'll ask them on a tablet, so the answers go straight into our spreadsheet.",
+            "location": "27"
+          },
+          {
+            "number": 9,
+            "prompt": "",
+            "options": [],
+            "answers": [
+              "chefs"
+            ],
+            "justification_span": "The people we really want to interview are the chefs, since they're the ones who decide how big the portions are.",
+            "location": "29"
+          },
+          {
+            "number": 10,
+            "prompt": "",
+            "options": [],
+            "answers": [
+              "poster"
+            ],
+            "justification_span": "That was the original idea, but the department is holding a research fair at the end of term, so we'll put everything on a poster instead.",
+            "location": "33"
+          }
+        ]
+      }
+    ]
+  }
+}

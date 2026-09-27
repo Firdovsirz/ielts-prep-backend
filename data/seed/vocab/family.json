@@ -1,0 +1,146 @@
+{
+  "task_type": "VOCAB_WORD_BANK",
+  "source_url": "",
+  "licence": "Original content",
+  "content": {
+    "topic": "family",
+    "words": [
+      {
+        "word": "nuclear family",
+        "part_of_speech": "noun phrase",
+        "definition": "A family consisting of two parents and their children, without other relatives living with them.",
+        "example": "In many Western countries, the nuclear family has largely replaced the extended family as the norm.",
+        "collocations": ["the traditional nuclear family", "the nuclear family unit", "the decline of the nuclear family"],
+        "cefr": "C1"
+      },
+      {
+        "word": "extended family",
+        "part_of_speech": "noun phrase",
+        "definition": "A family that includes grandparents, aunts, uncles and cousins as well as parents and children.",
+        "example": "In cultures where the extended family lives under one roof, grandparents often play a central role in raising children.",
+        "collocations": ["the extended family network", "live with your extended family", "support from the extended family"],
+        "cefr": "B2"
+      },
+      {
+        "word": "upbringing",
+        "part_of_speech": "noun",
+        "definition": "The way in which a child is cared for and taught how to behave while growing up.",
+        "example": "A person's upbringing has a profound influence on their values and attitudes later in life.",
+        "collocations": ["a strict upbringing", "a sheltered upbringing", "a privileged upbringing"],
+        "cefr": "C1"
+      },
+      {
+        "word": "sibling",
+        "part_of_speech": "noun",
+        "definition": "A brother or sister.",
+        "example": "A certain amount of sibling rivalry is natural and may even help children develop negotiation skills.",
+        "collocations": ["sibling rivalry", "older siblings", "sibling relationships"],
+        "cefr": "C1"
+      },
+      {
+        "word": "dual-income",
+        "part_of_speech": "adjective",
+        "definition": "Describing a household in which both partners have paid jobs.",
+        "example": "In dual-income households, finding time for regular family meals can be a genuine challenge.",
+        "collocations": ["a dual-income household", "dual-income families", "dual-income couples"],
+        "cefr": "C1"
+      },
+      {
+        "word": "breadwinner",
+        "part_of_speech": "noun",
+        "definition": "The member of a family who earns the money that the family needs to live.",
+        "example": "The traditional model of the father as the sole breadwinner is increasingly outdated.",
+        "collocations": ["the sole breadwinner", "the main breadwinner", "the family breadwinner"],
+        "cefr": "C1"
+      },
+      {
+        "word": "generation gap",
+        "part_of_speech": "noun phrase",
+        "definition": "The difference in attitudes, values and behaviour between older and younger people.",
+        "example": "Rapid technological change has arguably widened the generation gap between parents and teenagers.",
+        "collocations": ["bridge the generation gap", "widen the generation gap", "the generation gap between"],
+        "cefr": "B2"
+      },
+      {
+        "word": "childcare",
+        "part_of_speech": "noun",
+        "definition": "The care of children by nurseries or childminders while their parents are at work.",
+        "example": "A lack of affordable childcare forces many parents, particularly mothers, to leave the workforce.",
+        "collocations": ["affordable childcare", "childcare provision", "childcare costs"],
+        "cefr": "B2"
+      },
+      {
+        "word": "parental leave",
+        "part_of_speech": "noun phrase",
+        "definition": "Time off work that a mother or father is allowed to take to look after a new baby or young child.",
+        "example": "Offering fathers generous parental leave can encourage a more equal division of domestic responsibilities.",
+        "collocations": ["paid parental leave", "take parental leave", "shared parental leave"],
+        "cefr": "C1"
+      },
+      {
+        "word": "overprotective",
+        "part_of_speech": "adjective",
+        "definition": "Too eager to protect someone, especially a child, so that they are prevented from gaining experience.",
+        "example": "Overprotective parents may inadvertently deny their children the chance to learn from their own mistakes.",
+        "collocations": ["overprotective parents", "become overprotective", "overprotective of their children"],
+        "cefr": "C1"
+      },
+      {
+        "word": "resilience",
+        "part_of_speech": "noun",
+        "definition": "The ability to recover quickly from difficulties and cope with setbacks.",
+        "example": "Allowing children to experience small failures helps them to build resilience.",
+        "collocations": ["build resilience", "emotional resilience", "develop resilience"],
+        "cefr": "C1"
+      },
+      {
+        "word": "role model",
+        "part_of_speech": "noun phrase",
+        "definition": "A person whose behaviour others, especially young people, admire and copy.",
+        "example": "Parents are their children's first and most influential role models, whether they intend to be or not.",
+        "collocations": ["a positive role model", "act as a role model", "serve as a role model"],
+        "cefr": "B2"
+      },
+      {
+        "word": "filial",
+        "part_of_speech": "adjective",
+        "definition": "Relating to the duties and feelings of a son or daughter towards their parents.",
+        "example": "In many Asian cultures, caring for elderly parents is regarded as a filial duty rather than a personal choice.",
+        "collocations": ["filial duty", "filial piety", "filial obligation"],
+        "cefr": "C2"
+      },
+      {
+        "word": "residential care",
+        "part_of_speech": "noun phrase",
+        "definition": "Care provided in a home where elderly or vulnerable people live and receive help from trained staff.",
+        "example": "As families become more geographically dispersed, a growing number of elderly people are moving into residential care.",
+        "collocations": ["move into residential care", "the cost of residential care", "long-term residential care"],
+        "cefr": "C1"
+      },
+      {
+        "word": "instil",
+        "part_of_speech": "verb",
+        "definition": "To gradually establish a quality, feeling or idea in someone's mind.",
+        "example": "Parents should instil a sense of responsibility in their children from an early age.",
+        "collocations": ["instil values", "instil discipline", "instil a sense of"],
+        "cefr": "C2"
+      },
+      {
+        "word": "single-parent",
+        "part_of_speech": "adjective",
+        "definition": "Describing a family or home in which only one parent looks after the children.",
+        "example": "Single-parent families are statistically more likely to experience financial hardship.",
+        "collocations": ["single-parent families", "a single-parent household", "raised in a single-parent home"],
+        "cefr": "B2"
+      },
+      {
+        "word": "cohabitation",
+        "part_of_speech": "noun",
+        "definition": "The situation of two people living together as a couple without being married.",
+        "example": "Rising rates of cohabitation reflect profound changes in attitudes towards marriage.",
+        "collocations": ["a rise in cohabitation", "cohabitation before marriage", "rates of cohabitation"],
+        "cefr": "C2"
+      }
+    ]
+  }
+}

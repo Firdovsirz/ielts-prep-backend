@@ -1,0 +1,146 @@
+{
+  "task_type": "VOCAB_WORD_BANK",
+  "source_url": "",
+  "licence": "Original content",
+  "content": {
+    "topic": "society",
+    "words": [
+      {
+        "word": "social cohesion",
+        "part_of_speech": "noun phrase",
+        "definition": "The bonds and shared values that make people in a society feel connected and willing to cooperate.",
+        "example": "Community centres and public parks play a vital role in fostering social cohesion in diverse neighbourhoods.",
+        "collocations": ["promote social cohesion", "undermine social cohesion", "strengthen social cohesion"],
+        "cefr": "C1"
+      },
+      {
+        "word": "marginalised",
+        "part_of_speech": "adjective",
+        "definition": "Treated as unimportant and pushed to the edge of society, with little power or influence.",
+        "example": "Public libraries provide marginalised groups with free access to information and the internet.",
+        "collocations": ["marginalised groups", "marginalised communities", "socially marginalised"],
+        "cefr": "C1"
+      },
+      {
+        "word": "income inequality",
+        "part_of_speech": "noun phrase",
+        "definition": "The unequal distribution of income between the richest and poorest people in a society.",
+        "example": "Widening income inequality can fuel resentment and erode public trust in democratic institutions.",
+        "collocations": ["widening income inequality", "reduce income inequality", "extreme income inequality"],
+        "cefr": "C1"
+      },
+      {
+        "word": "disparity",
+        "part_of_speech": "noun",
+        "definition": "A large and often unfair difference between two or more things or groups.",
+        "example": "There remains a stark disparity between the life chances of children born in affluent and disadvantaged areas.",
+        "collocations": ["a stark disparity", "regional disparities", "a growing disparity between"],
+        "cefr": "C2"
+      },
+      {
+        "word": "deprived",
+        "part_of_speech": "adjective",
+        "definition": "Without enough money, education, housing or other things that are necessary for a decent life.",
+        "example": "Children from deprived backgrounds are statistically less likely to go on to university.",
+        "collocations": ["deprived areas", "deprived backgrounds", "socially deprived"],
+        "cefr": "C1"
+      },
+      {
+        "word": "social mobility",
+        "part_of_speech": "noun phrase",
+        "definition": "The ability of people to move to a different, usually higher, social or economic position than their parents.",
+        "example": "Free, high-quality education is widely regarded as the most effective engine of social mobility.",
+        "collocations": ["upward social mobility", "promote social mobility", "low social mobility"],
+        "cefr": "C1"
+      },
+      {
+        "word": "ageing population",
+        "part_of_speech": "noun phrase",
+        "definition": "A population in which the proportion of older people is increasing.",
+        "example": "An ageing population means that a shrinking workforce must support a growing number of retirees.",
+        "collocations": ["a rapidly ageing population", "the challenges of an ageing population", "cope with an ageing population"],
+        "cefr": "C1"
+      },
+      {
+        "word": "welfare state",
+        "part_of_speech": "noun phrase",
+        "definition": "A system in which the government pays for services such as healthcare, pensions and support for unemployed people.",
+        "example": "Critics claim that an overly generous welfare state can discourage some people from seeking employment.",
+        "collocations": ["the modern welfare state", "dismantle the welfare state", "fund the welfare state"],
+        "cefr": "C1"
+      },
+      {
+        "word": "homelessness",
+        "part_of_speech": "noun",
+        "definition": "The situation of having no permanent place to live.",
+        "example": "Soaring rents have contributed to a sharp increase in homelessness in major cities.",
+        "collocations": ["tackle homelessness", "rising homelessness", "the root causes of homelessness"],
+        "cefr": "B2"
+      },
+      {
+        "word": "gender pay gap",
+        "part_of_speech": "noun phrase",
+        "definition": "The difference between the average earnings of men and women.",
+        "example": "Several countries now require large firms to publish salary data in an effort to expose and narrow the gender pay gap.",
+        "collocations": ["close the gender pay gap", "narrow the gender pay gap", "a persistent gender pay gap"],
+        "cefr": "C1"
+      },
+      {
+        "word": "prejudice",
+        "part_of_speech": "noun",
+        "definition": "An unfair opinion or feeling about a person or group, formed without knowledge or reason.",
+        "example": "Education is one of the most powerful tools for challenging prejudice and the stereotypes that sustain it.",
+        "collocations": ["deep-rooted prejudice", "racial prejudice", "overcome prejudice", "prejudice against"],
+        "cefr": "C1"
+      },
+      {
+        "word": "integrate",
+        "part_of_speech": "verb",
+        "definition": "To become, or help someone become, fully accepted as part of a group or society.",
+        "example": "Free language classes are essential in helping immigrants integrate into their host society.",
+        "collocations": ["integrate into society", "fully integrate", "integrate newcomers"],
+        "cefr": "C1"
+      },
+      {
+        "word": "consumerism",
+        "part_of_speech": "noun",
+        "definition": "A way of life or set of values that places great importance on buying and owning goods.",
+        "example": "Some sociologists argue that rampant consumerism has left people materially richer but no happier.",
+        "collocations": ["rampant consumerism", "a culture of consumerism", "the rise of consumerism"],
+        "cefr": "C2"
+      },
+      {
+        "word": "civic",
+        "part_of_speech": "adjective",
+        "definition": "Relating to the duties and activities of people as members of their community or town.",
+        "example": "Encouraging young people to volunteer can foster a stronger sense of civic responsibility.",
+        "collocations": ["civic responsibility", "civic duty", "civic engagement", "civic pride"],
+        "cefr": "C1"
+      },
+      {
+        "word": "vulnerable",
+        "part_of_speech": "adjective",
+        "definition": "Easily harmed physically, emotionally or financially, and therefore in need of protection.",
+        "example": "The state has a duty to protect the most vulnerable members of society, such as the elderly and the disabled.",
+        "collocations": ["vulnerable groups", "the most vulnerable", "particularly vulnerable to"],
+        "cefr": "B2"
+      },
+      {
+        "word": "gentrification",
+        "part_of_speech": "noun",
+        "definition": "The process by which wealthier people move into a poorer area, improving it but raising prices so that existing residents can no longer afford to live there.",
+        "example": "While gentrification can revitalise run-down neighbourhoods, it often forces long-standing residents out of the area.",
+        "collocations": ["rapid gentrification", "the effects of gentrification", "resist gentrification"],
+        "cefr": "C2"
+      },
+      {
+        "word": "affluent",
+        "part_of_speech": "adjective",
+        "definition": "Wealthy, with a comfortable standard of living.",
+        "example": "In affluent societies, loneliness has arguably become a more pressing problem than material poverty.",
+        "collocations": ["affluent areas", "affluent societies", "increasingly affluent"],
+        "cefr": "C1"
+      }
+    ]
+  }
+}

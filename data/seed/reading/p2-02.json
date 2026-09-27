@@ -1,0 +1,312 @@
+{
+  "task_type": "READING_PASSAGE",
+  "source_url": "https://en.wikipedia.org/wiki/Agrivoltaics",
+  "licence": "CC BY-SA 4.0 (topic seed only; passage text is original)",
+  "content": {
+    "title": "Farming in the Shade of Solar Panels",
+    "topic": "agrivoltaics",
+    "difficulty": 2,
+    "cefr": "C1",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "As countries race to expand renewable electricity, one resource is becoming increasingly contested: land. Large solar farms need extensive, open, gently sloping sites, which are often precisely the fields most valued for growing food. In many regions, plans to cover farmland with photovoltaic panels have met resistance from rural communities anxious about the loss of productive land. One proposed solution, known as agrivoltaics, is to use the same ground for both purposes at once, mounting panels high enough, or far enough apart, for crops to grow or animals to graze beneath and between them."
+      },
+      {
+        "label": "B",
+        "text": "The concept is older than might be supposed. In the early 1980s two German physicists, Adolf Goetzberger and Armin Zastrow, suggested raising solar collectors several metres above fields so that potatoes could be cultivated underneath, and calculated that, with suitable spacing, enough light would reach the ground for the crop to thrive. At the time, however, solar panels were far too expensive for the scheme to be commercially attractive, and the idea was not put into practice for more than two decades."
+      },
+      {
+        "label": "C",
+        "text": "It was in Japan that the idea was first applied on working farms. In 2004 an engineer, Akira Nagashima, built a prototype in which narrow panels were arranged in widely spaced rows on a light metal frame, so that only part of the field was shaded at any moment. Nagashima reasoned that most plants cannot use all the sunlight that falls on them on a bright day, and that the surplus could be diverted to electricity generation without harming the harvest. Because his structure was cheap to assemble and easy to dismantle, it encouraged Japanese farmers to adopt what became known as 'solar sharing', and the government later permitted such installations on farmland on condition that crop yields remained at least 80 per cent of normal levels."
+      },
+      {
+        "label": "D",
+        "text": "A way of judging whether such systems genuinely make better use of land was proposed in 2011 by Christian Dupraz and colleagues at INRA, the French national agricultural research institute. They borrowed a measure from agroforestry, the land equivalent ratio, which compares the output of a combined system with the area that would be required to produce the same quantities of food and energy on separate plots. Their modelling suggested that a well-designed agrivoltaic system could make land between 35 and 73 per cent more productive. Dupraz stressed, though, that these figures were theoretical and would need to be confirmed by measurements in the field."
+      },
+      {
+        "label": "E",
+        "text": "Field trials have since produced a more varied picture. At Heggelbach, near Lake Constance in southern Germany, the Fraunhofer Institute for Solar Energy Systems ran a pilot installation above a farm growing wheat, potatoes, celeriac and clover grass. In the first year, yields under the panels were generally lower than on an unshaded control plot, although the combined output of food and electricity still exceeded what the land could have produced by either use alone. In the exceptionally hot, dry summer that followed, however, the partial shade proved beneficial, and several crops yielded more than those grown in full sun."
+      },
+      {
+        "label": "F",
+        "text": "Research in arid regions has been more consistently encouraging. At the University of Arizona, a team led by Greg Barron-Gafford grew tomatoes and chilli peppers beneath panels and found that some of these crops produced considerably more fruit than in open plots, while requiring less irrigation, because shade reduced evaporation from the soil. The plants, in turn, released moisture that cooled the panels above them, and cooler panels convert sunlight into electricity more efficiently. In Oregon, meanwhile, Chad Higgins and his colleagues at Oregon State University found that pasture beneath a solar array produced considerably more grass late in the season than open pasture nearby. Higgins went on to calculate that converting less than one per cent of the world's farmland to agrivoltaic use could, in principle, meet the entire global demand for electricity."
+      },
+      {
+        "label": "G",
+        "text": "Not every specialist shares this enthusiasm. Agronomists point out that crops which need intense light, such as maize, are likely to suffer under significant shading, and that tall steel structures can obstruct the large machinery used on modern arable farms. Building panels high enough for tractors to pass beneath them also costs considerably more than installing a conventional ground-mounted solar farm. Some farmers' organisations have also warned that landowners may be tempted to prioritise electricity, which offers a guaranteed income, over the less predictable returns from agriculture."
+      },
+      {
+        "label": "H",
+        "text": "What seems clear is that agrivoltaics is not a single technology but a family of designs whose success depends on local conditions. In hot, dry regions, shade may be an advantage in itself; in cooler, cloudier places, the benefits are likely to be smaller and to depend on choosing shade-tolerant crops. Researchers increasingly argue that the question is not whether solar power and farming can coexist, but where, and in what form, the combination makes the most sense."
+      }
+    ],
+    "question_groups": [
+      {
+        "group_id": "g1",
+        "question_type": "MATCHING_FEATURES",
+        "instructions": "Questions 1–5\nLook at the following findings (Questions 1–5) and the list of researchers and organisations below.\nMatch each finding with the correct researcher or organisation, A–E.\nNB You may use any letter more than once.",
+        "word_limit": 0,
+        "number_allowed": false,
+        "options": [
+          {
+            "key": "A",
+            "text": "Akira Nagashima"
+          },
+          {
+            "key": "B",
+            "text": "Christian Dupraz"
+          },
+          {
+            "key": "C",
+            "text": "Fraunhofer Institute for Solar Energy Systems"
+          },
+          {
+            "key": "D",
+            "text": "Greg Barron-Gafford"
+          },
+          {
+            "key": "E",
+            "text": "Chad Higgins"
+          }
+        ],
+        "context": "",
+        "table": {
+          "title": "",
+          "columns": [],
+          "rows": []
+        },
+        "flow_steps": [],
+        "diagram": {
+          "title": "",
+          "nodes": [],
+          "edges": []
+        },
+        "map": {
+          "title": "",
+          "features": [],
+          "markers": []
+        },
+        "questions": [
+          {
+            "number": 1,
+            "prompt": "Only a small proportion of agricultural land would be needed to supply all the world's electricity.",
+            "options": [],
+            "answers": [
+              "E"
+            ],
+            "justification_span": "Higgins went on to calculate that converting less than one per cent of the world's farmland to agrivoltaic use could, in principle, meet the entire global demand for electricity.",
+            "location": "F"
+          },
+          {
+            "number": 2,
+            "prompt": "Crops can help solar panels to generate power more efficiently.",
+            "options": [],
+            "answers": [
+              "D"
+            ],
+            "justification_span": "The plants, in turn, released moisture that cooled the panels above them, and cooler panels convert sunlight into electricity more efficiently.",
+            "location": "F"
+          },
+          {
+            "number": 3,
+            "prompt": "Plants are unable to benefit from all of the light that reaches them in sunny conditions.",
+            "options": [],
+            "answers": [
+              "A"
+            ],
+            "justification_span": "Nagashima reasoned that most plants cannot use all the sunlight that falls on them on a bright day, and that the surplus could be diverted to electricity generation without harming the harvest.",
+            "location": "C"
+          },
+          {
+            "number": 4,
+            "prompt": "Shade from panels improved some harvests in a year when the weather was unusually hot.",
+            "options": [],
+            "answers": [
+              "C"
+            ],
+            "justification_span": "In the exceptionally hot, dry summer that followed, however, the partial shade proved beneficial, and several crops yielded more than those grown in full sun.",
+            "location": "E"
+          },
+          {
+            "number": 5,
+            "prompt": "Crops grown beneath panels may need less water to be supplied to them.",
+            "options": [],
+            "answers": [
+              "D"
+            ],
+            "justification_span": "At the University of Arizona, a team led by Greg Barron-Gafford grew tomatoes and chilli peppers beneath panels and found that some of these crops produced considerably more fruit than in open plots, while requiring less irrigation, because shade reduced evaporation from the soil.",
+            "location": "F"
+          }
+        ]
+      },
+      {
+        "group_id": "g2",
+        "question_type": "SUMMARY_COMPLETION",
+        "instructions": "Questions 6–10\nComplete the summary using the list of words, A–H, below.",
+        "word_limit": 0,
+        "number_allowed": false,
+        "options": [
+          {
+            "key": "A",
+            "text": "generous"
+          },
+          {
+            "key": "B",
+            "text": "light"
+          },
+          {
+            "key": "C",
+            "text": "circumstances"
+          },
+          {
+            "key": "D",
+            "text": "machinery"
+          },
+          {
+            "key": "E",
+            "text": "water"
+          },
+          {
+            "key": "F",
+            "text": "reliable"
+          },
+          {
+            "key": "G",
+            "text": "animals"
+          },
+          {
+            "key": "H",
+            "text": "cost"
+          }
+        ],
+        "context": "Doubts about agrivoltaics\n\nCritics of agrivoltaics note that crops which require a great deal of {{6}} are likely to be harmed by shading, and that tall structures can get in the way of the farm {{7}} that is used on large arable holdings. Raising panels so that vehicles can pass underneath also increases the {{8}} of an installation in comparison with a standard solar farm. In addition, there are fears that landowners will favour producing power, since it provides a more {{9}} source of income than farming does. Overall, how well an agrivoltaic system performs appears to depend on local {{10}}.",
+        "table": {
+          "title": "",
+          "columns": [],
+          "rows": []
+        },
+        "flow_steps": [],
+        "diagram": {
+          "title": "",
+          "nodes": [],
+          "edges": []
+        },
+        "map": {
+          "title": "",
+          "features": [],
+          "markers": []
+        },
+        "questions": [
+          {
+            "number": 6,
+            "prompt": "",
+            "options": [],
+            "answers": [
+              "B"
+            ],
+            "justification_span": "Agronomists point out that crops which need intense light, such as maize, are likely to suffer under significant shading, and that tall steel structures can obstruct the large machinery used on modern arable farms.",
+            "location": "G"
+          },
+          {
+            "number": 7,
+            "prompt": "",
+            "options": [],
+            "answers": [
+              "D"
+            ],
+            "justification_span": "Agronomists point out that crops which need intense light, such as maize, are likely to suffer under significant shading, and that tall steel structures can obstruct the large machinery used on modern arable farms.",
+            "location": "G"
+          },
+          {
+            "number": 8,
+            "prompt": "",
+            "options": [],
+            "answers": [
+              "H"
+            ],
+            "justification_span": "Building panels high enough for tractors to pass beneath them also costs considerably more than installing a conventional ground-mounted solar farm.",
+            "location": "G"
+          },
+          {
+            "number": 9,
+            "prompt": "",
+            "options": [],
+            "answers": [
+              "F"
+            ],
+            "justification_span": "Some farmers' organisations have also warned that landowners may be tempted to prioritise electricity, which offers a guaranteed income, over the less predictable returns from agriculture.",
+            "location": "G"
+          },
+          {
+            "number": 10,
+            "prompt": "",
+            "options": [],
+            "answers": [
+              "C"
+            ],
+            "justification_span": "What seems clear is that agrivoltaics is not a single technology but a family of designs whose success depends on local conditions.",
+            "location": "H"
+          }
+        ]
+      },
+      {
+        "group_id": "g3",
+        "question_type": "TRUE_FALSE_NOT_GIVEN",
+        "instructions": "Questions 11–13\nDo the following statements agree with the information given in the passage?\nWrite\nTRUE if the statement agrees with the information\nFALSE if the statement contradicts the information\nNOT GIVEN if there is no information on this",
+        "word_limit": 0,
+        "number_allowed": false,
+        "options": [],
+        "context": "",
+        "table": {
+          "title": "",
+          "columns": [],
+          "rows": []
+        },
+        "flow_steps": [],
+        "diagram": {
+          "title": "",
+          "nodes": [],
+          "edges": []
+        },
+        "map": {
+          "title": "",
+          "features": [],
+          "markers": []
+        },
+        "questions": [
+          {
+            "number": 11,
+            "prompt": "Goetzberger and Zastrow's idea was tried out on farmland within a few years of being proposed.",
+            "options": [],
+            "answers": [
+              "FALSE"
+            ],
+            "justification_span": "At the time, however, solar panels were far too expensive for the scheme to be commercially attractive, and the idea was not put into practice for more than two decades.",
+            "location": "B"
+          },
+          {
+            "number": 12,
+            "prompt": "Nagashima's design has since been taken up by farmers in several countries outside Japan.",
+            "options": [],
+            "answers": [
+              "NOT GIVEN"
+            ],
+            "justification_span": "Because his structure was cheap to assemble and easy to dismantle, it encouraged Japanese farmers to adopt what became known as 'solar sharing', and the government later permitted such installations on farmland on condition that crop yields remained at least 80 per cent of normal levels.",
+            "location": "C"
+          },
+          {
+            "number": 13,
+            "prompt": "During the first year of the Heggelbach trial, crops beneath the panels mostly produced smaller harvests than those in the open.",
+            "options": [],
+            "answers": [
+              "TRUE"
+            ],
+            "justification_span": "In the first year, yields under the panels were generally lower than on an unshaded control plot, although the combined output of food and electricity still exceeded what the land could have produced by either use alone.",
+            "location": "E"
+          }
+        ]
+      }
+    ]
+  }
+}

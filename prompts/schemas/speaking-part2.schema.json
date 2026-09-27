@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "speaking-part2",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "topic",
+    "theme",
+    "cue_card",
+    "rounding_off_questions"
+  ],
+  "properties": {
+    "topic": {
+      "type": "string"
+    },
+    "theme": {
+      "type": "string",
+      "description": "Broader theme shared with the matching Part 3 discussion."
+    },
+    "cue_card": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "prompt",
+        "bullets",
+        "explain"
+      ],
+      "properties": {
+        "prompt": {
+          "type": "string",
+          "description": "e.g. \"Describe a time when you helped someone.\""
+        },
+        "bullets": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Exactly three \"You should say:\" bullets."
+        },
+        "explain": {
+          "type": "string",
+          "description": "Final line starting \"and explain …\"."
+        }
+      }
+    },
+    "rounding_off_questions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "1–2 short follow-up questions the examiner may ask after the long turn."
+    }
+  }
+}

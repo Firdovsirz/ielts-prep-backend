@@ -1,0 +1,382 @@
+{
+  "task_type": "LISTENING_SECTION",
+  "source_url": "",
+  "licence": "Original content",
+  "content": {
+    "section": 1,
+    "title": "Arranging a Homestay",
+    "topic": "Homestay accommodation for an exchange student",
+    "context_description": "You will hear a student from Canada phoning a homestay agency in Bristol about his accommodation for an exchange semester.",
+    "speakers": [
+      {
+        "id": "S1",
+        "name": "Rachel",
+        "gender": "female",
+        "accent": "british",
+        "role": "Homestay agency coordinator"
+      },
+      {
+        "id": "S2",
+        "name": "Ryan",
+        "gender": "male",
+        "accent": "canadian",
+        "role": "Exchange student"
+      }
+    ],
+    "script": [
+      {
+        "speaker": "S1",
+        "text": "Good morning, Westgate Homestays, Rachel speaking. How can I help?"
+      },
+      {
+        "speaker": "S2",
+        "text": "Oh, hi. My name's Ryan. I'm coming over from Canada in January to do an exchange semester at the university, and I've applied for a homestay with you."
+      },
+      {
+        "speaker": "S1",
+        "text": "Ah yes, hello Ryan. Let me just find your file. Right, here we are."
+      },
+      {
+        "speaker": "S2",
+        "text": "Great. I filled in the online application and paid the deposit last week, but some of the questions were a bit confusing, so I thought I'd call and go through the details."
+      },
+      {
+        "speaker": "S1",
+        "text": "Of course, that's no problem. So, first of all, it says here you'll be staying for 12 weeks. Is that right?"
+      },
+      {
+        "speaker": "S2",
+        "text": "Ah, no, that's changed, actually. They've added a research project at the end of the course, so it's 16 weeks now."
+      },
+      {
+        "speaker": "S1",
+        "text": "16 weeks, OK, I'll update that. Now, you left the allergies section blank. Do you have any allergies we should know about?"
+      },
+      {
+        "speaker": "S2",
+        "text": "Oh, yes, sorry. I'm allergic to cats. Dogs are absolutely fine, though. We've got 2 at home."
+      },
+      {
+        "speaker": "S1",
+        "text": "Right, so no cats. Now, most of our families are within an hour of the university by bus. How far would you be happy to travel?"
+      },
+      {
+        "speaker": "S2",
+        "text": "Hmm, an hour sounds like quite a lot. Ideally I'd like to be about 20 minutes away, but I know that might not be possible, so anything up to 40 minutes would be fine."
+      },
+      {
+        "speaker": "S1",
+        "text": "That should be easy enough. Next, meals. We have 2 options. Full board, that's 3 meals a day, is £230 a week. Or you can just have breakfast and an evening meal, and that's £195 a week."
+      },
+      {
+        "speaker": "S2",
+        "text": "I'll be at the university most lunchtimes, so I'll just have breakfast and an evening meal."
+      },
+      {
+        "speaker": "S1",
+        "text": "Most students do. And we like to know about your interests, so we can find a family you'll get on with."
+      },
+      {
+        "speaker": "S2",
+        "text": "Well, I do a lot of hiking back home. I used to play ice hockey too, but I haven't for a couple of years. These days I'm more into photography, mostly landscapes and old buildings."
+      },
+      {
+        "speaker": "S1",
+        "text": "Bristol's great for that. Now, finally, documents. Before we can confirm a family, we need a copy of one more thing."
+      },
+      {
+        "speaker": "S2",
+        "text": "Is it my visa? Because I'm still waiting to hear about that."
+      },
+      {
+        "speaker": "S1",
+        "text": "No, not the visa. It's your insurance certificate. We just need a copy of that before you arrive."
+      },
+      {
+        "speaker": "S2",
+        "text": "OK, no problem. I'll email it over this week."
+      },
+      {
+        "speaker": "S1",
+        "text": "Great. Actually, I think I've already got a family in mind for you, the Pembertons. They've hosted lots of students, and they're only 25 minutes from the university by bus."
+      },
+      {
+        "speaker": "S2",
+        "text": "Oh, that sounds perfect. What's their house like?"
+      },
+      {
+        "speaker": "S1",
+        "text": "It's a big Victorian house near a park. Usually their students stay in the garden flat at the bottom of the house, which has its own entrance, but they're having it redone this winter. And the downstairs bedroom's taken, because Mrs Pemberton's mother lives with them now."
+      },
+      {
+        "speaker": "S2",
+        "text": "So where would I be?"
+      },
+      {
+        "speaker": "S1",
+        "text": "In the loft room, right at the top of the house. It's a bit smaller, but it's got a lovely view across the city."
+      },
+      {
+        "speaker": "S2",
+        "text": "Sounds great. Are there any house rules I should know about?"
+      },
+      {
+        "speaker": "S1",
+        "text": "They're very relaxed. Mrs Pemberton does everyone's washing once a week, so you don't need to worry about laundry. And they don't mind what time you come home. But they do ask you to send a text if you won't be back for dinner, so they don't cook for you."
+      },
+      {
+        "speaker": "S2",
+        "text": "That's fair enough. And how do I get there from the airport? My flight gets in quite late, at about 11 at night."
+      },
+      {
+        "speaker": "S1",
+        "text": "Normally Mr Pemberton would pick you up, but he's away for work that week. There is an airport bus, but it stops running at 10, so that's no good. So we'll book a taxi for you, and it's included in your placement fee."
+      },
+      {
+        "speaker": "S2",
+        "text": "Oh, brilliant. Is there anything else I need to do before I come?"
+      },
+      {
+        "speaker": "S1",
+        "text": "Well, you've paid the deposit already, so that's done. And we don't need a photo, because we've got the one from your application. But the family would really love it if you emailed them a short introduction about yourself, so they can get to know you a bit before you arrive."
+      },
+      {
+        "speaker": "S2",
+        "text": "Of course, I can do that. Could you send me their email address?"
+      },
+      {
+        "speaker": "S1",
+        "text": "Yes, I'll send you all their details this afternoon."
+      },
+      {
+        "speaker": "S2",
+        "text": "That's great. Thanks so much for your help, Rachel."
+      },
+      {
+        "speaker": "S1",
+        "text": "You're welcome, Ryan. Bye for now."
+      }
+    ],
+    "parts": [
+      {
+        "questions_from": 1,
+        "questions_to": 6,
+        "start_line": 0
+      },
+      {
+        "questions_from": 7,
+        "questions_to": 10,
+        "start_line": 18
+      }
+    ],
+    "question_groups": [
+      {
+        "group_id": "g1",
+        "question_type": "NOTE_COMPLETION",
+        "instructions": "Questions 1–6\nComplete the notes below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+        "word_limit": 1,
+        "number_allowed": true,
+        "options": [],
+        "context": "HOMESTAY APPLICATION: CHANGES AND EXTRA DETAILS\nStudent: Ryan, exchange student from Canada\nLength of stay: {{1}} weeks\nAllergic to: {{2}}\nMaximum travel time to university: {{3}} minutes\nMeals: breakfast and evening meal only, {{4}} per week\nInterests: hiking and {{5}}\nMust send a copy of his {{6}} certificate before arrival",
+        "table": {
+          "title": "",
+          "columns": [],
+          "rows": []
+        },
+        "flow_steps": [],
+        "diagram": {
+          "title": "",
+          "nodes": [],
+          "edges": []
+        },
+        "map": {
+          "title": "",
+          "features": [],
+          "markers": []
+        },
+        "questions": [
+          {
+            "number": 1,
+            "prompt": "",
+            "options": [],
+            "answers": [
+              "16"
+            ],
+            "justification_span": "They've added a research project at the end of the course, so it's 16 weeks now.",
+            "location": "5"
+          },
+          {
+            "number": 2,
+            "prompt": "",
+            "options": [],
+            "answers": [
+              "cats"
+            ],
+            "justification_span": "I'm allergic to cats.",
+            "location": "7"
+          },
+          {
+            "number": 3,
+            "prompt": "",
+            "options": [],
+            "answers": [
+              "40"
+            ],
+            "justification_span": "Ideally I'd like to be about 20 minutes away, but I know that might not be possible, so anything up to 40 minutes would be fine.",
+            "location": "9"
+          },
+          {
+            "number": 4,
+            "prompt": "",
+            "options": [],
+            "answers": [
+              "£195",
+              "195"
+            ],
+            "justification_span": "Or you can just have breakfast and an evening meal, and that's £195 a week.",
+            "location": "10"
+          },
+          {
+            "number": 5,
+            "prompt": "",
+            "options": [],
+            "answers": [
+              "photography"
+            ],
+            "justification_span": "These days I'm more into photography, mostly landscapes and old buildings.",
+            "location": "13"
+          },
+          {
+            "number": 6,
+            "prompt": "",
+            "options": [],
+            "answers": [
+              "insurance"
+            ],
+            "justification_span": "It's your insurance certificate.",
+            "location": "16"
+          }
+        ]
+      },
+      {
+        "group_id": "g2",
+        "question_type": "MULTIPLE_CHOICE",
+        "instructions": "Questions 7–10\nChoose the correct letter, A, B or C.",
+        "word_limit": 0,
+        "number_allowed": false,
+        "options": [],
+        "context": "",
+        "table": {
+          "title": "",
+          "columns": [],
+          "rows": []
+        },
+        "flow_steps": [],
+        "diagram": {
+          "title": "",
+          "nodes": [],
+          "edges": []
+        },
+        "map": {
+          "title": "",
+          "features": [],
+          "markers": []
+        },
+        "questions": [
+          {
+            "number": 7,
+            "prompt": "Where in the Pembertons' house will Ryan sleep?",
+            "options": [
+              {
+                "key": "A",
+                "text": "in a garden flat with its own entrance"
+              },
+              {
+                "key": "B",
+                "text": "in a bedroom on the ground floor"
+              },
+              {
+                "key": "C",
+                "text": "in a room at the top of the house"
+              }
+            ],
+            "answers": [
+              "C"
+            ],
+            "justification_span": "In the loft room, right at the top of the house.",
+            "location": "22"
+          },
+          {
+            "number": 8,
+            "prompt": "What do the Pembertons ask Ryan to do?",
+            "options": [
+              {
+                "key": "A",
+                "text": "do his own washing"
+              },
+              {
+                "key": "B",
+                "text": "come home by a fixed time"
+              },
+              {
+                "key": "C",
+                "text": "tell them when he will miss dinner"
+              }
+            ],
+            "answers": [
+              "C"
+            ],
+            "justification_span": "But they do ask you to send a text if you won't be back for dinner, so they don't cook for you.",
+            "location": "24"
+          },
+          {
+            "number": 9,
+            "prompt": "How will Ryan travel from the airport to the house?",
+            "options": [
+              {
+                "key": "A",
+                "text": "Mr Pemberton will collect him."
+              },
+              {
+                "key": "B",
+                "text": "He will take the airport bus."
+              },
+              {
+                "key": "C",
+                "text": "The agency will arrange a taxi."
+              }
+            ],
+            "answers": [
+              "C"
+            ],
+            "justification_span": "So we'll book a taxi for you, and it's included in your placement fee.",
+            "location": "26"
+          },
+          {
+            "number": 10,
+            "prompt": "What does Rachel say Ryan should do before he arrives?",
+            "options": [
+              {
+                "key": "A",
+                "text": "pay a deposit"
+              },
+              {
+                "key": "B",
+                "text": "send a photograph of himself"
+              },
+              {
+                "key": "C",
+                "text": "write to the host family"
+              }
+            ],
+            "answers": [
+              "C"
+            ],
+            "justification_span": "But the family would really love it if you emailed them a short introduction about yourself, so they can get to know you a bit before you arrive.",
+            "location": "28"
+          }
+        ]
+      }
+    ]
+  }
+}

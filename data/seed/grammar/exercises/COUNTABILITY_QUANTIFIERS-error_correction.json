@@ -1,0 +1,127 @@
+{
+  "task_type": "GRAMMAR_EXERCISE",
+  "source_url": "",
+  "licence": "Original content",
+  "content": {
+    "area": "COUNTABILITY_QUANTIFIERS",
+    "exercise_type": "ERROR_CORRECTION",
+    "title": "Common countability and quantifier errors",
+    "instructions": "Each sentence contains ONE error with a countable or uncountable noun, a plural form or a quantifier. Rewrite the whole sentence correctly.",
+    "items": [
+      {
+        "id": "1",
+        "prompt": "The internet gives students access to a vast amount of informations.",
+        "options": [],
+        "accepted_answers": [
+          "The internet gives students access to a vast amount of information."
+        ],
+        "model_answer": "The internet gives students access to a vast amount of information.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "'Information' is uncountable, so it never takes a plural -s. 'A vast amount of' is correct because it is used with uncountable nouns."
+      },
+      {
+        "id": "2",
+        "prompt": "Scientists have carried out many researches into the effects of social media on sleep.",
+        "options": [],
+        "accepted_answers": [
+          "Scientists have carried out a great deal of research into the effects of social media on sleep.",
+          "Scientists have carried out a lot of research into the effects of social media on sleep.",
+          "Scientists have carried out extensive research into the effects of social media on sleep.",
+          "Scientists have carried out many studies into the effects of social media on sleep."
+        ],
+        "model_answer": "Scientists have carried out a great deal of research into the effects of social media on sleep.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "'Research' is uncountable, so it cannot be plural or follow 'many'. Use an uncountable quantifier (a great deal of, a lot of, extensive) or switch to a countable noun such as 'studies'."
+      },
+      {
+        "id": "3",
+        "prompt": "In 2020, less people used public transport than in any previous year.",
+        "options": [],
+        "accepted_answers": [
+          "In 2020, fewer people used public transport than in any previous year."
+        ],
+        "model_answer": "In 2020, fewer people used public transport than in any previous year.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "'People' is a plural countable noun, so the comparative quantifier is 'fewer'. 'Less' is for uncountable nouns (less traffic, less time)."
+      },
+      {
+        "id": "4",
+        "prompt": "A large amount of students now choose to study abroad for their degree.",
+        "options": [],
+        "accepted_answers": [
+          "A large number of students now choose to study abroad for their degree."
+        ],
+        "model_answer": "A large number of students now choose to study abroad for their degree.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "'Students' is plural countable, so use 'a large number of' (with a plural verb). 'A large amount of' is for uncountable nouns: a large amount of money."
+      },
+      {
+        "id": "5",
+        "prompt": "Parents often give their children advices about choosing a career.",
+        "options": [],
+        "accepted_answers": [
+          "Parents often give their children advice about choosing a career."
+        ],
+        "model_answer": "Parents often give their children advice about choosing a career.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "'Advice' is uncountable: no plural -s and no 'an'. To count it, say 'a piece of advice' or 'some advice'. (The verb 'advise' is spelt with an s.)"
+      },
+      {
+        "id": "6",
+        "prompt": "Many peoples believe that the government should ban junk food advertising.",
+        "options": [],
+        "accepted_answers": [
+          "Many people believe that the government should ban junk food advertising."
+        ],
+        "model_answer": "Many people believe that the government should ban junk food advertising.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "'People' is already the plural of 'person'. 'Peoples' exists only in the sense of nations or ethnic groups (the indigenous peoples of South America)."
+      },
+      {
+        "id": "7",
+        "prompt": "The amount of cars on the roads has doubled since 1990.",
+        "options": [],
+        "accepted_answers": [
+          "The number of cars on the roads has doubled since 1990."
+        ],
+        "model_answer": "The number of cars on the roads has doubled since 1990.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "'Cars' is a plural countable noun, so use 'the number of'. 'The amount of' is only for uncountable nouns (the amount of traffic, the amount of fuel)."
+      },
+      {
+        "id": "8",
+        "prompt": "Young people today have much more opportunities to travel than their parents did.",
+        "options": [],
+        "accepted_answers": [
+          "Young people today have many more opportunities to travel than their parents did.",
+          "Young people today have far more opportunities to travel than their parents did."
+        ],
+        "model_answer": "Young people today have many more opportunities to travel than their parents did.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "Before a plural countable noun, the comparative quantifier is 'many more' (many more opportunities); 'much more' is for uncountable nouns (much more freedom). 'Far more' works with both."
+      },
+      {
+        "id": "9",
+        "prompt": "Rural schools often lack basic equipments such as computers and science kits.",
+        "options": [],
+        "accepted_answers": [
+          "Rural schools often lack basic equipment such as computers and science kits."
+        ],
+        "model_answer": "Rural schools often lack basic equipment such as computers and science kits.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "'Equipment' is uncountable and has no plural form. To count individual items, use 'pieces of equipment' or name the items."
+      },
+      {
+        "id": "10",
+        "prompt": "Pollution is one of the most serious problem facing modern cities.",
+        "options": [],
+        "accepted_answers": [
+          "Pollution is one of the most serious problems facing modern cities."
+        ],
+        "model_answer": "Pollution is one of the most serious problems facing modern cities.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "'One of the + superlative' is always followed by a plural noun, because it means one item from a larger group (one of the most serious problems)."
+      }
+    ]
+  }
+}

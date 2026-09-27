@@ -1,0 +1,79 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "grammar-diagnostic-question",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "area",
+    "level",
+    "prompt",
+    "options",
+    "answer",
+    "explanation"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Stable id, e.g. \"TENSE_ASPECT-2a\"."
+    },
+    "area": {
+      "type": "string",
+      "enum": [
+        "TENSE_ASPECT",
+        "AGREEMENT_ARTICLES",
+        "COMPLEX_SENTENCES",
+        "CONDITIONALS",
+        "PASSIVE_VOICE",
+        "MODALS_HEDGING",
+        "COMPARISON_TRENDS",
+        "COHESION_LINKING",
+        "ADVANCED_STRUCTURES",
+        "PREPOSITIONS_PHRASAL",
+        "PUNCTUATION",
+        "COUNTABILITY_QUANTIFIERS",
+        "WORD_FORMATION"
+      ]
+    },
+    "level": {
+      "type": "integer",
+      "enum": [
+        1,
+        2,
+        3
+      ],
+      "description": "1 = band 5–6, 2 = band 6.5–7, 3 = band 7.5–9."
+    },
+    "prompt": {
+      "type": "string",
+      "description": "Sentence with a ___ gap, or \"Which sentence is correct?\""
+    },
+    "options": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "key",
+          "text"
+        ],
+        "properties": {
+          "key": {
+            "type": "string"
+          },
+          "text": {
+            "type": "string"
+          }
+        }
+      },
+      "description": "Exactly four options A–D."
+    },
+    "answer": {
+      "type": "string",
+      "description": "Correct option key."
+    },
+    "explanation": {
+      "type": "string"
+    }
+  }
+}

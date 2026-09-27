@@ -1,0 +1,49 @@
+{
+  "task_type": "GRAMMAR_EXERCISE",
+  "source_url": "",
+  "licence": "Original content",
+  "content": {
+    "area": "CONDITIONALS",
+    "exercise_type": "FREE_WRITING",
+    "title": "Conditionals and hypothetical language: Part 3 and Task 2 answers",
+    "instructions": "Answer each task in the number of sentences given, using the conditional or hypothetical structures named in the task. Write as you would speak in Speaking Part 3 or write in a Task 2 essay: develop the idea, don't just repeat the structure.",
+    "items": [
+      {
+        "id": "1",
+        "prompt": "Speaking Part 3: 'What would happen if cars were banned from city centres?' Answer in 3–4 sentences, using at least two second-conditional clauses.",
+        "options": [],
+        "accepted_answers": [],
+        "model_answer": "If cars were banned from city centres, the most immediate change would be a dramatic improvement in air quality, which would particularly benefit people with asthma. Local shops might lose some trade at first if customers couldn't drive in, but if public transport were improved at the same time, I think footfall would recover fairly quickly. In the long run, city centres would probably become far more pleasant places to spend time in, rather than just places to pass through.",
+        "check_mode": "AI",
+        "explanation": "The question describes an imaginary situation, so the answer should stay in the second conditional throughout: If + past simple (were banned, couldn't drive, were improved), would / might + base verb. Mixing in 'will' would wrongly make the ban sound real and likely."
+      },
+      {
+        "id": "2",
+        "prompt": "Task 2: Some countries chose not to invest in renewable energy in the early 2000s. Write 2–3 sentences about what would have been different if they had, using one third conditional and one mixed conditional (past cause, present result).",
+        "options": [],
+        "accepted_answers": [],
+        "model_answer": "If these countries had invested in renewable energy in the early 2000s, they would not have been so exposed to the sharp rises in fossil fuel prices over the following two decades. Moreover, if they had built up their wind and solar capacity back then, their energy bills would be considerably lower today and their emissions targets would now be well within reach.",
+        "check_mode": "AI",
+        "explanation": "The third conditional (If + past perfect, would have + past participle) describes an unreal past result. The mixed conditional keeps the past perfect in the if-clause but uses 'would + base verb' for a present result, signalled by 'today' and 'now'."
+      },
+      {
+        "id": "3",
+        "prompt": "Speaking Part 3: 'Is there anything about the education system in your country that you would like to change?' Answer in 3 sentences, using 'I wish …', 'If only …' and 'It's (high) time …'.",
+        "options": [],
+        "accepted_answers": [],
+        "model_answer": "To be honest, I wish schools in my country placed more emphasis on critical thinking rather than on memorising facts for exams. If only classes were smaller, teachers could give each student far more individual feedback. I also think it's high time the government recognised that creativity matters just as much as test scores.",
+        "check_mode": "AI",
+        "explanation": "'I wish', 'If only' and 'It's high time' all use a past tense (placed, were, recognised) to talk about the present. This 'past for unreality' pattern is a clear marker of grammatical range in Speaking."
+      },
+      {
+        "id": "4",
+        "prompt": "Task 2: 'Should the state pay for all university education?' Write 2–3 sentences stating the conditions under which you would support free tuition, using at least two of 'provided that', 'as long as' and 'unless'.",
+        "options": [],
+        "accepted_answers": [],
+        "model_answer": "I would support free university tuition provided that it was funded through a fair, progressive tax system rather than by cutting other public services. However, unless graduates were expected to work in the country for a certain number of years, the state might simply be subsidising a brain drain. As long as such safeguards were in place, free tuition would, in my view, be a sound long-term investment.",
+        "check_mode": "AI",
+        "explanation": "'Provided that' and 'as long as' mean 'only if', and 'unless' means 'if … not'. Because the writer is discussing a hypothetical policy, the conditions take the past simple and the results take 'would' or 'might'. With a real, likely policy you would use the present simple and 'will'."
+      }
+    ]
+  }
+}

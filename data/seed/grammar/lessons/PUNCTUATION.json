@@ -1,0 +1,95 @@
+{
+  "task_type": "GRAMMAR_LESSON",
+  "source_url": "",
+  "licence": "Original content",
+  "content": {
+    "area": "PUNCTUATION",
+    "title": "Punctuation and sentence boundaries",
+    "summary": "Punctuation is assessed under Grammatical Range & Accuracy in Writing, and faulty sentence boundaries — comma splices, run-ons and fragments — are a classic reason why a script with good vocabulary stays at band 6. Band 7 requires good control of grammar and punctuation, and band 8 allows only very occasional errors, so clean sentence boundaries are a quick win.",
+    "explanation": "### The three boundary errors\n**1. Comma splice** — two complete sentences joined only by a comma.\n- ✗ *Many students work part-time, this affects their grades.*\n\n**2. Run-on (fused) sentence** — two sentences with no punctuation at all, or a long chain of *and… and… so…*\n- ✗ *Many students work part-time this affects their grades.*\n\n**3. Fragment** — a dependent clause or phrase punctuated as a full sentence.\n- ✗ *Because rents are high.* ✗ *For example, the rise in obesity.* ✗ *Which is a serious problem.*\n\n### Four ways to fix a splice or run-on\n1. **Full stop:** *…work part-time. This affects their grades.*\n2. **Semicolon** (closely related ideas): *…work part-time; this affects their grades.*\n3. **Comma + and / but / so / yet / or:** *…work part-time, **so** their grades suffer.*\n4. **Subordination:** ***Because** many students work part-time, their grades suffer.*\n\n*However, therefore* and *moreover* are adverbs, not joiners, so they need a full stop or semicolon before them.\n\n### Commas that matter\n- **After an introductory clause or phrase:** *If taxes rise, consumption falls.* / *In 2010, sales peaked.*\n- **No comma** when the subordinate clause comes second: *Consumption falls if taxes rise.*\n- **Around non-defining relative clauses:** *Paris, which attracts millions of tourists, is…* — but **no commas** with defining clauses: *Tourists who visit Paris…*\n- **Before *which*** referring to a whole clause: *Prices rose, which reduced demand.*\n- **Never between a subject and its verb**, however long the subject: ✗ *The main reason for this trend, is cost.*\n\n### Apostrophes\n- Possession: *the government**'s** policy* (singular), *students**'** needs* (plural ending in -s), *children**'s** health* (irregular plural).\n- **its** = belonging to it; **it's** = it is. ✗ *The company increased it's profits.*\n- No apostrophe for plurals or decades: *the 1990s, CEOs*.\n- Avoid contractions (*don't, can't, it's*) in Task 1 and Task 2.\n\n### Capital letters\nCapitalise nationalities and languages (*English, Japanese*), countries, days and months, and the pronoun *I* — but not seasons (*in summer*) or school subjects (*studying economics*), except languages.\n\n### Proofreading routine\nFor each sentence, ask:\n1. Does it have a subject and a finite verb?\n2. Does it stand alone, or is it a *because / which / although* fragment?\n3. Are two main clauses joined only by a comma?\n4. Is there a comma between the subject and the verb?",
+    "key_rules": [
+      {
+        "rule": "Never join two independent clauses with only a comma.",
+        "example": "Air travel is cheap. It is, however, highly polluting."
+      },
+      {
+        "rule": "Link two independent clauses with a full stop, a semicolon, a comma + and/but/so, or a subordinating conjunction.",
+        "example": "Air travel has become cheaper, so more families now fly abroad every year."
+      },
+      {
+        "rule": "Every sentence needs a main clause; attach because/which/although clauses to one.",
+        "example": "Many graduates move to the capital because salaries there are much higher."
+      },
+      {
+        "rule": "Use a comma after an introductory clause or phrase, but not when the subordinate clause comes second.",
+        "example": "Although the policy was popular, it was abandoned. It was abandoned although it was popular."
+      },
+      {
+        "rule": "Put commas around non-defining relative clauses and none around defining ones.",
+        "example": "The Amazon, which spans nine countries, is shrinking. Forests that are cleared for farming rarely recover."
+      },
+      {
+        "rule": "Never put a comma between a subject and its verb, however long the subject is.",
+        "example": "The main reason for the decline in cinema attendance is the rise of streaming services."
+      },
+      {
+        "rule": "Use 'its' for possession and 'it's' only for 'it is', and never use an apostrophe to make a plural.",
+        "example": "The city is proud of its public parks, most of which date from the 1890s."
+      }
+    ],
+    "common_mistakes": [
+      {
+        "wrong": "Technology has many benefits, it also has drawbacks.",
+        "right": "Technology has many benefits, but it also has drawbacks.",
+        "why": "This is a comma splice: two full sentences need a conjunction, a semicolon or a full stop."
+      },
+      {
+        "wrong": "Many people move to cities. Because there are more jobs.",
+        "right": "Many people move to cities because there are more jobs.",
+        "why": "A 'because' clause on its own is a fragment; attach it to the main clause."
+      },
+      {
+        "wrong": "The number of people who use public transport in big cities, has increased.",
+        "right": "The number of people who use public transport in big cities has increased.",
+        "why": "However long the subject is, there is no comma between it and its verb."
+      },
+      {
+        "wrong": "Young people spend too much time online and they do not exercise and this causes health problems so governments should act.",
+        "right": "Young people spend too much time online and do not exercise enough. This causes health problems, so governments should act.",
+        "why": "A run-on chain of 'and… and… so' loses control; split it into separate sentences."
+      },
+      {
+        "wrong": "The company doubled it's profits in the 1990's.",
+        "right": "The company doubled its profits in the 1990s.",
+        "why": "Possessive 'its' has no apostrophe, and decades take no apostrophe either."
+      },
+      {
+        "wrong": "Most students in my country study english in the Summer.",
+        "right": "Most students in my country study English in the summer.",
+        "why": "Languages take a capital letter; seasons do not."
+      }
+    ],
+    "ielts_examples": [
+      {
+        "context": "WRITING_TASK1",
+        "sentence": "In 1990, coal generated over half of the country's electricity; by 2020, however, its share had fallen to just 12%."
+      },
+      {
+        "context": "WRITING_TASK1",
+        "sentence": "The old warehouse, which stood beside the river, was converted into flats, and a footbridge was built to link them to the station."
+      },
+      {
+        "context": "WRITING_TASK2",
+        "sentence": "Although fast food is cheap and convenient, its long-term cost to public health systems is considerable."
+      },
+      {
+        "context": "WRITING_TASK2",
+        "sentence": "Public libraries remain valuable; they offer free internet access, quiet study space and, crucially, a sense of community."
+      },
+      {
+        "context": "WRITING_TASK2",
+        "sentence": "Children who grow up bilingual tend to adapt more easily to new environments, which gives them a clear advantage in an increasingly global job market."
+      }
+    ]
+  }
+}

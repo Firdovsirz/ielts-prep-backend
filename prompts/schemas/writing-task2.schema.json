@@ -1,0 +1,67 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "writing-task2",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "essay_type",
+    "topic",
+    "subtopic",
+    "statement",
+    "question",
+    "prompt",
+    "key_features"
+  ],
+  "properties": {
+    "essay_type": {
+      "type": "string",
+      "enum": [
+        "OPINION",
+        "DISCUSSION",
+        "ADVANTAGES_DISADVANTAGES",
+        "PROBLEM_SOLUTION",
+        "DOUBLE_QUESTION"
+      ]
+    },
+    "topic": {
+      "type": "string",
+      "enum": [
+        "education",
+        "environment",
+        "technology",
+        "health",
+        "work",
+        "society",
+        "government",
+        "crime",
+        "culture",
+        "family",
+        "media",
+        "globalisation",
+        "transport"
+      ]
+    },
+    "subtopic": {
+      "type": "string"
+    },
+    "statement": {
+      "type": "string",
+      "description": "The background statement(s) of the prompt."
+    },
+    "question": {
+      "type": "string",
+      "description": "The task instruction, e.g. \"To what extent do you agree or disagree?\""
+    },
+    "prompt": {
+      "type": "string",
+      "description": "Full wording: statement + question + \"Give reasons for your answer and include any relevant examples from your own knowledge or experience. Write at least 250 words.\""
+    },
+    "key_features": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "What a fully-addressed response must do (for the grader)."
+    }
+  }
+}

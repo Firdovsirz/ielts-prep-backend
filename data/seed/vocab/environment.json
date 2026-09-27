@@ -1,0 +1,146 @@
+{
+  "task_type": "VOCAB_WORD_BANK",
+  "source_url": "",
+  "licence": "Original content",
+  "content": {
+    "topic": "environment",
+    "words": [
+      {
+        "word": "carbon footprint",
+        "part_of_speech": "noun phrase",
+        "definition": "The total amount of greenhouse gases, especially carbon dioxide, produced by a person, organisation or activity.",
+        "example": "Individuals can significantly reduce their carbon footprint by flying less and eating less red meat.",
+        "collocations": ["reduce your carbon footprint", "a large carbon footprint", "offset a carbon footprint"],
+        "cefr": "B2"
+      },
+      {
+        "word": "mitigate",
+        "part_of_speech": "verb",
+        "definition": "To make something harmful or unpleasant less severe or serious.",
+        "example": "Governments must act decisively to mitigate the effects of climate change on vulnerable coastal communities.",
+        "collocations": ["mitigate the impact of", "mitigate the risks", "mitigate climate change"],
+        "cefr": "C1"
+      },
+      {
+        "word": "biodiversity loss",
+        "part_of_speech": "noun phrase",
+        "definition": "A decline in the number and variety of plant and animal species in a place or on Earth as a whole.",
+        "example": "The clearing of tropical rainforests for agriculture is one of the principal drivers of biodiversity loss worldwide.",
+        "collocations": ["halt biodiversity loss", "accelerate biodiversity loss", "the drivers of biodiversity loss"],
+        "cefr": "C1"
+      },
+      {
+        "word": "renewable",
+        "part_of_speech": "adjective",
+        "definition": "Describing energy or resources that come from natural sources, such as wind or sunlight, which are not used up.",
+        "example": "Investing in renewable energy not only cuts emissions but also creates thousands of skilled jobs.",
+        "collocations": ["renewable energy", "renewable sources", "renewable resources"],
+        "cefr": "B2"
+      },
+      {
+        "word": "exacerbate",
+        "part_of_speech": "verb",
+        "definition": "To make a problem or bad situation worse.",
+        "example": "Rapid, poorly planned urbanisation has exacerbated air pollution in many developing cities.",
+        "collocations": ["exacerbate the problem", "exacerbate tensions", "further exacerbate"],
+        "cefr": "C2"
+      },
+      {
+        "word": "phase out",
+        "part_of_speech": "phrasal verb",
+        "definition": "To stop using or producing something gradually, in planned stages.",
+        "example": "Several countries have pledged to phase out new petrol and diesel cars within the next decade.",
+        "collocations": ["phase out fossil fuels", "gradually phase out", "phase out coal-fired power stations"],
+        "cefr": "C1"
+      },
+      {
+        "word": "deforestation",
+        "part_of_speech": "noun",
+        "definition": "The cutting down or burning of large areas of forest.",
+        "example": "Deforestation driven by cattle ranching and palm oil production releases vast quantities of stored carbon into the atmosphere.",
+        "collocations": ["large-scale deforestation", "combat deforestation", "rates of deforestation"],
+        "cefr": "C1"
+      },
+      {
+        "word": "unsustainable",
+        "part_of_speech": "adjective",
+        "definition": "Unable to continue at the same level or rate without causing serious damage or running out.",
+        "example": "Current levels of consumption in wealthy nations are simply unsustainable if every country is to enjoy a similar standard of living.",
+        "collocations": ["environmentally unsustainable", "unsustainable levels of", "unsustainable practices"],
+        "cefr": "C1"
+      },
+      {
+        "word": "curb",
+        "part_of_speech": "verb",
+        "definition": "To control or limit something that is harmful or undesirable.",
+        "example": "Stricter regulations are needed to curb emissions from heavy industry and aviation.",
+        "collocations": ["curb emissions", "curb consumption", "curb the growth of"],
+        "cefr": "C1"
+      },
+      {
+        "word": "ecosystem",
+        "part_of_speech": "noun",
+        "definition": "All the living things in a particular area, together with the environment they depend on and interact with.",
+        "example": "Plastic waste poses a severe threat to marine ecosystems, entangling wildlife and entering the food chain.",
+        "collocations": ["a fragile ecosystem", "marine ecosystems", "disrupt an ecosystem"],
+        "cefr": "C1"
+      },
+      {
+        "word": "irreversible",
+        "part_of_speech": "adjective",
+        "definition": "Impossible to change back to how it was before.",
+        "example": "Scientists warn that some of the damage to the polar ice sheets may already be irreversible.",
+        "collocations": ["irreversible damage", "irreversible decline", "irreversible consequences"],
+        "cefr": "C1"
+      },
+      {
+        "word": "carbon tax",
+        "part_of_speech": "noun phrase",
+        "definition": "A tax on fuels and products according to the amount of carbon dioxide they release.",
+        "example": "Although a carbon tax may raise living costs in the short term, it forces polluters to pay for the damage they cause.",
+        "collocations": ["impose a carbon tax", "introduce a carbon tax", "levy a carbon tax"],
+        "cefr": "C1"
+      },
+      {
+        "word": "depletion",
+        "part_of_speech": "noun",
+        "definition": "A reduction in the amount of something, so that very little of it remains.",
+        "example": "The depletion of groundwater reserves threatens food security in several arid regions.",
+        "collocations": ["resource depletion", "ozone depletion", "the depletion of natural resources", "rapid depletion"],
+        "cefr": "C1"
+      },
+      {
+        "word": "conservation",
+        "part_of_speech": "noun",
+        "definition": "The protection of plants, animals, natural areas and resources from damage or destruction.",
+        "example": "Conservation efforts are often underfunded, particularly in the developing countries that are home to most of the world's species.",
+        "collocations": ["conservation efforts", "wildlife conservation", "energy conservation"],
+        "cefr": "B2"
+      },
+      {
+        "word": "the brink of extinction",
+        "part_of_speech": "noun phrase",
+        "definition": "The point at which a species is very close to dying out completely.",
+        "example": "Poaching and habitat destruction have pushed many large mammals to the brink of extinction.",
+        "collocations": ["on the brink of extinction", "push to the brink of extinction", "bring back from the brink of extinction"],
+        "cefr": "C1"
+      },
+      {
+        "word": "single-use plastics",
+        "part_of_speech": "noun phrase",
+        "definition": "Plastic items, such as straws and carrier bags, that are designed to be used once and then thrown away.",
+        "example": "Banning single-use plastics is a relatively painless way to reduce the volume of waste entering the oceans.",
+        "collocations": ["ban single-use plastics", "cut down on single-use plastics", "phase out single-use plastics"],
+        "cefr": "B2"
+      },
+      {
+        "word": "environmental degradation",
+        "part_of_speech": "noun phrase",
+        "definition": "The gradual damage to the natural environment through pollution, overuse of resources or destruction of habitats.",
+        "example": "Environmental degradation disproportionately affects the poorest communities, who depend most directly on the land and water around them.",
+        "collocations": ["cause environmental degradation", "widespread environmental degradation", "reverse environmental degradation"],
+        "cefr": "C1"
+      }
+    ]
+  }
+}

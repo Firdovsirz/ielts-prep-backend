@@ -1,0 +1,322 @@
+{
+  "task_type": "READING_PASSAGE",
+  "source_url": "https://en.wikipedia.org/wiki/Tulip_mania",
+  "licence": "CC BY-SA 4.0 (topic seed only; passage text is original)",
+  "content": {
+    "title": "Reconsidering Tulip Mania",
+    "topic": "tulip mania and financial speculation",
+    "difficulty": 2,
+    "cefr": "C1",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "Few episodes in economic history are retold as often as the Dutch tulip mania of the 1630s. In the familiar version, ordinary citizens of the Netherlands became so obsessed with tulip bulbs that they exchanged houses, land and life savings for a single flower, until prices collapsed in February 1637, leaving thousands ruined and the national economy in disarray. The story has become a standard warning in discussions of speculation, invoked whenever share prices or new kinds of asset seem to rise beyond reason. Yet the more closely historians have examined the surviving evidence, the less the familiar version seems to hold up, and I would argue that its enduring popularity tells us more about later generations than about the Dutch Republic itself."
+      },
+      {
+        "label": "B",
+        "text": "Some elements of the story are not in dispute. Tulips, introduced to western Europe from the Ottoman Empire in the sixteenth century, had become luxury goods by the early seventeenth, prized by wealthy collectors for their intense colours. The most admired varieties displayed dramatic streaks and feathered patterns, which we now know were caused by a virus spread by aphids. Because the infection weakened the plants, these 'broken' tulips multiplied slowly, and their scarcity kept prices high. It is also clear that during the winter of 1636–37 prices for some bulbs rose extraordinarily fast before falling abruptly, and that trading effectively ceased within a matter of days."
+      },
+      {
+        "label": "C",
+        "text": "Much of what is widely believed beyond this, however, rests on shaky foundations. The most influential account was written not by a contemporary but by the Scottish journalist Charles Mackay, whose popular book on 'extraordinary popular delusions' appeared in 1841, two centuries after the event. Mackay drew heavily on moralising pamphlets published in 1637, which were written to condemn speculation rather than to record it accurately. Stories that have been repeated ever since, such as that of a sailor who mistook a costly bulb for an onion and ate it with his herring, derive from these sources and cannot be verified. It is regrettable that such anecdotes have so often been presented as fact in textbooks."
+      },
+      {
+        "label": "D",
+        "text": "The most thorough modern study, by the historian Anne Goldgar, examined notarial records, court documents and private papers from the period. She found no convincing evidence of widespread financial ruin: not a single documented bankruptcy that could be directly attributed to the tulip trade, and none of the suicides that later writers described. Those involved were mostly prosperous merchants and skilled craftsmen rather than the chimney sweeps and labourers of popular legend, and most could absorb their losses. What the collapse damaged, Goldgar argued, was less people's wealth than their confidence in shared judgements of value and in the honour of their trading partners."
+      },
+      {
+        "label": "E",
+        "text": "The nature of the trade also helps to explain why the damage was limited. Bulbs remain underground for much of the year, so from the autumn onwards buyers typically signed contracts to purchase bulbs at a fixed price when they were lifted the following summer. Much of the frantic dealing of that winter took place in taverns, where such agreements were made with little or no money changing hands. When prices fell, many buyers simply refused to honour their contracts, and courts proved unwilling to enforce what they regarded as gambling debts. Eventually, local authorities allowed buyers to cancel agreements by paying a small fraction of the original price. In economic terms, therefore, much of the wealth that appeared to vanish had never really existed."
+      },
+      {
+        "label": "F",
+        "text": "Some economists have gone further and questioned whether the episode was irrational at all. Peter Garber has pointed out that sharp falls in the price of rare bulbs were normal once a variety became more widely available, and that similar patterns can still be observed in the modern flower trade. Others have suggested that an outbreak of plague in Haarlem at the time may have made traders more willing to take risks. Such explanations are plausible, though in my view none fully accounts for the speed of the price rise in the final weeks, which does suggest that expectations of further gains had, for a brief period, become detached from any realistic assessment of value."
+      },
+      {
+        "label": "G",
+        "text": "Why, then, has the exaggerated version survived? Part of the answer lies in its usefulness. A vivid tale of folly is more memorable than a careful account of futures contracts and municipal regulations, and commentators seeking to warn against a new financial fashion naturally reach for the most dramatic precedent available. The tulip story is also conveniently distant: it allows modern readers to observe irrational behaviour without recognising it in themselves. None of this means that speculative bubbles are imaginary; later crises have caused real and widespread hardship. But if the tulip episode is to serve as a lesson, it should perhaps be one about how easily a good story can triumph over the evidence."
+      }
+    ],
+    "question_groups": [
+      {
+        "group_id": "g1",
+        "question_type": "YES_NO_NOT_GIVEN",
+        "instructions": "Questions 1–5\nDo the following statements agree with the claims of the writer in the passage?\nWrite\nYES if the statement agrees with the claims of the writer\nNO if the statement contradicts the claims of the writer\nNOT GIVEN if it is impossible to say what the writer thinks about this",
+        "word_limit": 0,
+        "number_allowed": false,
+        "options": [],
+        "context": "",
+        "table": {
+          "title": "",
+          "columns": [],
+          "rows": []
+        },
+        "flow_steps": [],
+        "diagram": {
+          "title": "",
+          "nodes": [],
+          "edges": []
+        },
+        "map": {
+          "title": "",
+          "features": [],
+          "markers": []
+        },
+        "questions": [
+          {
+            "number": 1,
+            "prompt": "The continued popularity of the conventional story of tulip mania is more revealing about those who have retold it than about the period it describes.",
+            "options": [],
+            "answers": [
+              "YES"
+            ],
+            "justification_span": "Yet the more closely historians have examined the surviving evidence, the less the familiar version seems to hold up, and I would argue that its enduring popularity tells us more about later generations than about the Dutch Republic itself.",
+            "location": "A"
+          },
+          {
+            "number": 2,
+            "prompt": "Textbooks have been right to present anecdotes such as the story of the sailor as factual.",
+            "options": [],
+            "answers": [
+              "NO"
+            ],
+            "justification_span": "It is regrettable that such anecdotes have so often been presented as fact in textbooks.",
+            "location": "C"
+          },
+          {
+            "number": 3,
+            "prompt": "Goldgar was the first historian to examine court records relating to the tulip trade.",
+            "options": [],
+            "answers": [
+              "NOT GIVEN"
+            ],
+            "justification_span": "The most thorough modern study, by the historian Anne Goldgar, examined notarial records, court documents and private papers from the period.",
+            "location": "D"
+          },
+          {
+            "number": 4,
+            "prompt": "A large part of the money supposedly lost when tulip prices fell had only ever existed on paper.",
+            "options": [],
+            "answers": [
+              "YES"
+            ],
+            "justification_span": "In economic terms, therefore, much of the wealth that appeared to vanish had never really existed.",
+            "location": "E"
+          },
+          {
+            "number": 5,
+            "prompt": "The explanations put forward by Garber and others provide a complete account of how quickly prices rose shortly before the collapse.",
+            "options": [],
+            "answers": [
+              "NO"
+            ],
+            "justification_span": "Such explanations are plausible, though in my view none fully accounts for the speed of the price rise in the final weeks, which does suggest that expectations of further gains had, for a brief period, become detached from any realistic assessment of value.",
+            "location": "F"
+          }
+        ]
+      },
+      {
+        "group_id": "g2",
+        "question_type": "SUMMARY_COMPLETION",
+        "instructions": "Questions 6–9\nComplete the summary below.\nChoose ONE WORD ONLY from the passage for each answer.",
+        "word_limit": 1,
+        "number_allowed": false,
+        "options": [],
+        "context": "The Dutch tulip trade\n\nBy the early 1600s, tulips had become luxury items in western Europe. The varieties that collectors admired most had streaked petals, a feature caused by a {{6}} carried by insects. Since the affected plants were weakened and reproduced slowly, their {{7}} ensured that prices stayed high. In the winter of 1636–37, most deals involved contracts for bulbs that would be delivered the following summer, and many of these were agreed in {{8}}, often without any money being paid. When prices dropped, the courts would not enforce such contracts, which they considered to be {{9}} debts.",
+        "table": {
+          "title": "",
+          "columns": [],
+          "rows": []
+        },
+        "flow_steps": [],
+        "diagram": {
+          "title": "",
+          "nodes": [],
+          "edges": []
+        },
+        "map": {
+          "title": "",
+          "features": [],
+          "markers": []
+        },
+        "questions": [
+          {
+            "number": 6,
+            "prompt": "",
+            "options": [],
+            "answers": [
+              "virus"
+            ],
+            "justification_span": "The most admired varieties displayed dramatic streaks and feathered patterns, which we now know were caused by a virus spread by aphids.",
+            "location": "B"
+          },
+          {
+            "number": 7,
+            "prompt": "",
+            "options": [],
+            "answers": [
+              "scarcity"
+            ],
+            "justification_span": "Because the infection weakened the plants, these 'broken' tulips multiplied slowly, and their scarcity kept prices high.",
+            "location": "B"
+          },
+          {
+            "number": 8,
+            "prompt": "",
+            "options": [],
+            "answers": [
+              "taverns"
+            ],
+            "justification_span": "Much of the frantic dealing of that winter took place in taverns, where such agreements were made with little or no money changing hands.",
+            "location": "E"
+          },
+          {
+            "number": 9,
+            "prompt": "",
+            "options": [],
+            "answers": [
+              "gambling"
+            ],
+            "justification_span": "When prices fell, many buyers simply refused to honour their contracts, and courts proved unwilling to enforce what they regarded as gambling debts.",
+            "location": "E"
+          }
+        ]
+      },
+      {
+        "group_id": "g3",
+        "question_type": "MULTIPLE_CHOICE",
+        "instructions": "Questions 10–13\nChoose the correct letter, A, B, C or D.",
+        "word_limit": 0,
+        "number_allowed": false,
+        "options": [],
+        "context": "",
+        "table": {
+          "title": "",
+          "columns": [],
+          "rows": []
+        },
+        "flow_steps": [],
+        "diagram": {
+          "title": "",
+          "nodes": [],
+          "edges": []
+        },
+        "map": {
+          "title": "",
+          "features": [],
+          "markers": []
+        },
+        "questions": [
+          {
+            "number": 10,
+            "prompt": "What does the writer say about the pamphlets published in 1637?",
+            "options": [
+              {
+                "key": "A",
+                "text": "They were written by people who had lost money in the tulip trade."
+              },
+              {
+                "key": "B",
+                "text": "They were intended to criticise speculation rather than to describe it faithfully."
+              },
+              {
+                "key": "C",
+                "text": "They were the first publications to use the term 'tulip mania'."
+              },
+              {
+                "key": "D",
+                "text": "They were largely forgotten until Mackay drew attention to them."
+              }
+            ],
+            "answers": [
+              "B"
+            ],
+            "justification_span": "Mackay drew heavily on moralising pamphlets published in 1637, which were written to condemn speculation rather than to record it accurately.",
+            "location": "C"
+          },
+          {
+            "number": 11,
+            "prompt": "According to Goldgar's research, the people who traded in tulips were mainly",
+            "options": [
+              {
+                "key": "A",
+                "text": "labourers hoping to become rich quickly."
+              },
+              {
+                "key": "B",
+                "text": "foreign merchants living in Dutch cities."
+              },
+              {
+                "key": "C",
+                "text": "people wealthy enough to cope with financial losses."
+              },
+              {
+                "key": "D",
+                "text": "professional growers of flowers."
+              }
+            ],
+            "answers": [
+              "C"
+            ],
+            "justification_span": "Those involved were mostly prosperous merchants and skilled craftsmen rather than the chimney sweeps and labourers of popular legend, and most could absorb their losses.",
+            "location": "D"
+          },
+          {
+            "number": 12,
+            "prompt": "What have some people suggested about the outbreak of plague in Haarlem?",
+            "options": [
+              {
+                "key": "A",
+                "text": "It reduced the number of workers available to grow bulbs."
+              },
+              {
+                "key": "B",
+                "text": "It may have encouraged traders to accept greater risks."
+              },
+              {
+                "key": "C",
+                "text": "It was the direct cause of the collapse in tulip prices."
+              },
+              {
+                "key": "D",
+                "text": "It explains why so few traders were financially ruined."
+              }
+            ],
+            "answers": [
+              "B"
+            ],
+            "justification_span": "Others have suggested that an outbreak of plague in Haarlem at the time may have made traders more willing to take risks.",
+            "location": "F"
+          },
+          {
+            "number": 13,
+            "prompt": "What is the writer's main purpose in the final paragraph?",
+            "options": [
+              {
+                "key": "A",
+                "text": "to argue that financial bubbles are largely imaginary"
+              },
+              {
+                "key": "B",
+                "text": "to explain why an inaccurate account has persisted"
+              },
+              {
+                "key": "C",
+                "text": "to recommend that tulip mania should no longer be taught"
+              },
+              {
+                "key": "D",
+                "text": "to compare tulip mania with more recent financial crises"
+              }
+            ],
+            "answers": [
+              "B"
+            ],
+            "justification_span": "Why, then, has the exaggerated version survived?",
+            "location": "G"
+          }
+        ]
+      }
+    ]
+  }
+}

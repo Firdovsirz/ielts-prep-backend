@@ -1,0 +1,245 @@
+{
+  "task_type": "LISTENING_SECTION",
+  "source_url": "",
+  "licence": "Original content",
+  "content": {
+    "section": 2,
+    "title": "Strathmellan Nature Reserve",
+    "topic": "A ranger's welcome talk and map briefing at a nature reserve",
+    "context_description": "You will hear a ranger welcoming a group of visitors to a nature reserve.",
+    "speakers": [
+      {
+        "id": "S1",
+        "name": "Isla Grant",
+        "gender": "female",
+        "accent": "scottish",
+        "role": "Senior ranger at Strathmellan Nature Reserve"
+      }
+    ],
+    "script": [
+      {
+        "speaker": "S1",
+        "text": "Good morning, everyone, and welcome to Strathmellan Nature Reserve. My name's Isla Grant, and I'm the senior ranger here. Before you set off, I'd like to tell you a bit about the reserve, and then I'll show you where everything is on the map."
+      },
+      {
+        "speaker": "S1",
+        "text": "So, a little history first. A lot of visitors assume this land was always farmland, and it's true there were a few sheep grazing on the higher ground. But for most of the last century the site was actually a gravel quarry, and that's why we have so many ponds today. The army did use the fields next door for training, but never the reserve itself."
+      },
+      {
+        "speaker": "S1",
+        "text": "Now, what's new this year? We'd hoped to launch a shuttle bus from the railway station in the summer, but sadly the funding fell through, so that'll have to wait. What we have managed to open is a new bird hide with a ramp and lower windows, so it's fully accessible for wheelchair users. Our evening guided walks are running again as well, but they've been going every summer since 2015."
+      },
+      {
+        "speaker": "S1",
+        "text": "A few rules, then. Dogs are welcome all year round, and they don't need to be on a lead in the woodland, as long as they're under control. Cycling is fine on the main path too, though please give way to walkers. The one strict rule is that from April to July nobody goes into the reedbeds, because that's when the birds are nesting."
+      },
+      {
+        "speaker": "S1",
+        "text": "Oh, and one last thing before we look at the map. In the early years, the profits from our café paid for equipment such as binoculars and tools for the rangers, and the path repairs have always been paid for by the council. These days, though, every penny the café makes goes towards free visits for local schools. So do treat yourselves to a scone on the way out!"
+      },
+      {
+        "speaker": "S1",
+        "text": "Right, if you'd all like to look at your maps. We're in the visitor centre, just inside the main entrance at the bottom of the map, and north is at the top. First of all, the toilets. They aren't inside the visitor centre, I'm afraid, but in the small building immediately to the east of it."
+      },
+      {
+        "speaker": "S1",
+        "text": "The building on the other side, to the west, is our staff office, so please don't wander in there by mistake. OK, from the visitor centre the main path runs straight north through the middle of the reserve. After about 300 metres, you'll come to a crossroads, where a second path crosses the main one."
+      },
+      {
+        "speaker": "S1",
+        "text": "If you turn left at the crossroads and follow that path all the way to the end, you'll find the picnic area. There are tables and a shelter there, so it's a good spot even if it rains."
+      },
+      {
+        "speaker": "S1",
+        "text": "If you turn right at the crossroads instead, the path takes you down to the edge of the lake. And right at the end of it, on the shore, is the pond-dipping platform, where children can catch and study tiny water creatures with a net."
+      },
+      {
+        "speaker": "S1",
+        "text": "Now, if you go straight over the crossroads and keep heading north, you'll see a small building on your right. That's the rangers' store, and it isn't open to the public. The children's play area is directly opposite it, on the left-hand side of the path, just south of the woodland."
+      },
+      {
+        "speaker": "S1",
+        "text": "Next, the new accessible hide I mentioned earlier. Some people expect it to be beside the pond-dipping platform, but it's actually on the north shore of the lake, looking south across the water. It's a lovely quiet spot, and you can often see herons from there."
+      },
+      {
+        "speaker": "S1",
+        "text": "Finally, if you follow the main path all the way to its northern end, you'll come to the viewing tower. It's 12 metres high, and on a clear day you can see right across the valley to the hills."
+      },
+      {
+        "speaker": "S1",
+        "text": "Right, that's everything from me. If you have any questions, I'll be at the desk in the visitor centre until 4.30. Enjoy your visit!"
+      }
+    ],
+    "parts": [
+      { "questions_from": 1, "questions_to": 4, "start_line": 0 },
+      { "questions_from": 5, "questions_to": 10, "start_line": 5 }
+    ],
+    "question_groups": [
+      {
+        "group_id": "g1",
+        "question_type": "MULTIPLE_CHOICE",
+        "instructions": "Questions 1–4\nChoose the correct letter, A, B or C.",
+        "word_limit": 0,
+        "number_allowed": false,
+        "options": [],
+        "context": "",
+        "table": { "title": "", "columns": [], "rows": [] },
+        "flow_steps": [],
+        "diagram": { "title": "", "nodes": [], "edges": [] },
+        "map": { "title": "", "features": [], "markers": [] },
+        "questions": [
+          {
+            "number": 1,
+            "prompt": "Before it became a nature reserve, the site was mainly used for",
+            "options": [
+              { "key": "A", "text": "keeping sheep." },
+              { "key": "B", "text": "extracting gravel." },
+              { "key": "C", "text": "military training." }
+            ],
+            "answers": ["B"],
+            "justification_span": "But for most of the last century the site was actually a gravel quarry, and that's why we have so many ponds today.",
+            "location": "1"
+          },
+          {
+            "number": 2,
+            "prompt": "What is new at the reserve this year?",
+            "options": [
+              { "key": "A", "text": "a hide that wheelchair users can get into" },
+              { "key": "B", "text": "a bus link to the railway station" },
+              { "key": "C", "text": "guided walks in the evening" }
+            ],
+            "answers": ["A"],
+            "justification_span": "What we have managed to open is a new bird hide with a ramp and lower windows, so it's fully accessible for wheelchair users.",
+            "location": "2"
+          },
+          {
+            "number": 3,
+            "prompt": "Between April and July, visitors are not allowed to",
+            "options": [
+              { "key": "A", "text": "cycle on the main path." },
+              { "key": "B", "text": "let dogs off the lead in the woodland." },
+              { "key": "C", "text": "enter the reedbeds." }
+            ],
+            "answers": ["C"],
+            "justification_span": "The one strict rule is that from April to July nobody goes into the reedbeds, because that's when the birds are nesting.",
+            "location": "3"
+          },
+          {
+            "number": 4,
+            "prompt": "Money from the café is now used to",
+            "options": [
+              { "key": "A", "text": "fund trips by local schools." },
+              { "key": "B", "text": "buy equipment for the rangers." },
+              { "key": "C", "text": "maintain the paths." }
+            ],
+            "answers": ["A"],
+            "justification_span": "These days, though, every penny the café makes goes towards free visits for local schools.",
+            "location": "4"
+          }
+        ]
+      },
+      {
+        "group_id": "g2",
+        "question_type": "MAP_LABELLING",
+        "instructions": "Questions 5–10\nLabel the map below.\nWrite the correct letter, A–H, next to Questions 5–10.",
+        "word_limit": 0,
+        "number_allowed": false,
+        "options": [
+          { "key": "A", "text": "A" },
+          { "key": "B", "text": "B" },
+          { "key": "C", "text": "C" },
+          { "key": "D", "text": "D" },
+          { "key": "E", "text": "E" },
+          { "key": "F", "text": "F" },
+          { "key": "G", "text": "G" },
+          { "key": "H", "text": "H" }
+        ],
+        "context": "",
+        "table": { "title": "", "columns": [], "rows": [] },
+        "flow_steps": [],
+        "diagram": { "title": "", "nodes": [], "edges": [] },
+        "map": {
+          "title": "Strathmellan Nature Reserve",
+          "features": [
+            { "label": "", "kind": "path", "x": 48, "y": 10, "w": 4, "h": 85 },
+            { "label": "", "kind": "path", "x": 16, "y": 46, "w": 40, "h": 3 },
+            { "label": "Main entrance", "kind": "entrance", "x": 44, "y": 95, "w": 12, "h": 5 },
+            { "label": "Car park", "kind": "car_park", "x": 4, "y": 84, "w": 20, "h": 12 },
+            { "label": "Visitor centre", "kind": "building", "x": 40, "y": 78, "w": 20, "h": 11 },
+            { "label": "Woodland", "kind": "green", "x": 4, "y": 4, "w": 34, "h": 26 },
+            { "label": "Lake", "kind": "water", "x": 62, "y": 28, "w": 26, "h": 30 },
+            { "label": "Reedbeds", "kind": "green", "x": 62, "y": 62, "w": 26, "h": 12 },
+            { "label": "", "kind": "building", "x": 70, "y": 20, "w": 10, "h": 6 },
+            { "label": "", "kind": "building", "x": 44, "y": 3, "w": 12, "h": 7 },
+            { "label": "", "kind": "other", "x": 32, "y": 34, "w": 12, "h": 8 },
+            { "label": "", "kind": "building", "x": 54, "y": 34, "w": 7, "h": 7 },
+            { "label": "", "kind": "green", "x": 4, "y": 41, "w": 12, "h": 13 },
+            { "label": "", "kind": "other", "x": 56, "y": 44, "w": 6, "h": 8 },
+            { "label": "", "kind": "building", "x": 29, "y": 80, "w": 8, "h": 7 },
+            { "label": "", "kind": "building", "x": 63, "y": 80, "w": 8, "h": 7 }
+          ],
+          "markers": [
+            { "key": "A", "x": 75, "y": 23 },
+            { "key": "B", "x": 50, "y": 6.5 },
+            { "key": "C", "x": 38, "y": 38 },
+            { "key": "D", "x": 57.5, "y": 37.5 },
+            { "key": "E", "x": 10, "y": 47.5 },
+            { "key": "F", "x": 59, "y": 48 },
+            { "key": "G", "x": 33, "y": 83.5 },
+            { "key": "H", "x": 67, "y": 83.5 }
+          ]
+        },
+        "questions": [
+          {
+            "number": 5,
+            "prompt": "Toilets",
+            "options": [],
+            "answers": ["H"],
+            "justification_span": "They aren't inside the visitor centre, I'm afraid, but in the small building immediately to the east of it.",
+            "location": "5"
+          },
+          {
+            "number": 6,
+            "prompt": "Picnic area",
+            "options": [],
+            "answers": ["E"],
+            "justification_span": "If you turn left at the crossroads and follow that path all the way to the end, you'll find the picnic area.",
+            "location": "7"
+          },
+          {
+            "number": 7,
+            "prompt": "Pond-dipping platform",
+            "options": [],
+            "answers": ["F"],
+            "justification_span": "And right at the end of it, on the shore, is the pond-dipping platform, where children can catch and study tiny water creatures with a net.",
+            "location": "8"
+          },
+          {
+            "number": 8,
+            "prompt": "Children's play area",
+            "options": [],
+            "answers": ["C"],
+            "justification_span": "The children's play area is directly opposite it, on the left-hand side of the path, just south of the woodland.",
+            "location": "9"
+          },
+          {
+            "number": 9,
+            "prompt": "New bird hide",
+            "options": [],
+            "answers": ["A"],
+            "justification_span": "Some people expect it to be beside the pond-dipping platform, but it's actually on the north shore of the lake, looking south across the water.",
+            "location": "10"
+          },
+          {
+            "number": 10,
+            "prompt": "Viewing tower",
+            "options": [],
+            "answers": ["B"],
+            "justification_span": "Finally, if you follow the main path all the way to its northern end, you'll come to the viewing tower.",
+            "location": "11"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,392 @@
+{
+  "task_type": "LISTENING_SECTION",
+  "source_url": "",
+  "licence": "Original content",
+  "content": {
+    "section": 3,
+    "title": "Feedback on a museum case study",
+    "topic": "Tourism and museum studies: tutor feedback on a case study report",
+    "context_description": "You will hear a student called Liam talking to his tutor, Dr Walsh, about her feedback on his case study of a small maritime museum.",
+    "speakers": [
+      {
+        "id": "S1",
+        "name": "Dr Walsh",
+        "gender": "female",
+        "accent": "british",
+        "role": "Tutor"
+      },
+      {
+        "id": "S2",
+        "name": "Liam",
+        "gender": "male",
+        "accent": "canadian",
+        "role": "Tourism management student"
+      }
+    ],
+    "script": [
+      {
+        "speaker": "S1",
+        "text": "Come in, Liam. Thanks for coming. I wanted to talk you through my feedback on your case study of the Harbourside Maritime Museum before you do the final draft."
+      },
+      {
+        "speaker": "S2",
+        "text": "Thanks, Dr Walsh. I wasn't sure how it had gone, to be honest."
+      },
+      {
+        "speaker": "S1",
+        "text": "Well, overall it's a good piece of work. Which part of your research do you think worked best?"
+      },
+      {
+        "speaker": "S2",
+        "text": "Um, maybe the visitor survey? I got over 200 responses."
+      },
+      {
+        "speaker": "S1",
+        "text": "The survey was solid, but what really stood out for me were your interviews with the museum staff. Nobody else in the group managed to talk to the people who actually work there, and it gave your analysis real depth."
+      },
+      {
+        "speaker": "S2",
+        "text": "Oh, that's good to hear. I was worried they'd seem a bit informal."
+      },
+      {
+        "speaker": "S1",
+        "text": "Not at all. My main concern is with your sources. You've relied too heavily on one kind of material."
+      },
+      {
+        "speaker": "S2",
+        "text": "Do you mean the newspaper articles? I did use quite a few of those."
+      },
+      {
+        "speaker": "S1",
+        "text": "No, those were fine, and they were fairly balanced. Most of your figures come straight from the museum's own press releases, and of course they're going to present everything in the best possible light."
+      },
+      {
+        "speaker": "S2",
+        "text": "Right, I see. I'll check those figures against the council's tourism data."
+      },
+      {
+        "speaker": "S1",
+        "text": "Good. And there's one more thing to add at the end. A reader from outside museum studies won't know what terms like footfall or dwell time mean."
+      },
+      {
+        "speaker": "S2",
+        "text": "So should I put more of the survey data in the appendix?"
+      },
+      {
+        "speaker": "S1",
+        "text": "The survey questions are already there, and that's enough. What you need is a glossary, just a short one, explaining the technical terms."
+      },
+      {
+        "speaker": "S2",
+        "text": "OK, that makes sense."
+      },
+      {
+        "speaker": "S1",
+        "text": "Now, your recommendations. They're sensible, but at the moment you only say what the museum should do, not when."
+      },
+      {
+        "speaker": "S2",
+        "text": "Should I add the likely cost of each one, then?"
+      },
+      {
+        "speaker": "S1",
+        "text": "I'd avoid that, because you don't have access to their accounts, so any figures would just be guesswork. But you should give a timetable for each recommendation, even a rough one."
+      },
+      {
+        "speaker": "S2",
+        "text": "OK, that's doable. What about the section on visitor numbers? I wasn't sure about the table."
+      },
+      {
+        "speaker": "S1",
+        "text": "The table's accurate, but it's hard to see the trend. You've got figures for 8 years, so I'd present them visually."
+      },
+      {
+        "speaker": "S2",
+        "text": "I did think about a bar chart."
+      },
+      {
+        "speaker": "S1",
+        "text": "You could, but with that many years, a line graph shows the rise much more clearly."
+      },
+      {
+        "speaker": "S2",
+        "text": "Fair enough. And is it too long overall? I know I'm a bit over the word limit."
+      },
+      {
+        "speaker": "S1",
+        "text": "You're about 200 words over. I expect you'll want to shorten the conclusion, but please don't, it's actually quite concise. The literature review is where you can cut, because you summarise several studies that aren't really relevant to small museums."
+      },
+      {
+        "speaker": "S2",
+        "text": "Right, I'll trim that section, then."
+      },
+      {
+        "speaker": "S1",
+        "text": "Now, the heart of the report is your discussion of the changes the museum made. Let's go through them, because I don't agree with everything you've said."
+      },
+      {
+        "speaker": "S2",
+        "text": "OK. Well, the first was the Friday evening openings. I suggested the staff weren't happy about working late."
+      },
+      {
+        "speaker": "S1",
+        "text": "Actually, your own interview notes say they were keen, because they were paid extra for those shifts. The real point is who came. The evening visitors were mostly in their twenties and thirties, which is exactly the group the museum had always struggled to reach."
+      },
+      {
+        "speaker": "S2",
+        "text": "That's true. Then there's free entry for local residents. I said that was the main reason numbers doubled."
+      },
+      {
+        "speaker": "S1",
+        "text": "That's what the museum claims, but local residents are only about 10 percent of visitors. So I think its impact has been exaggerated. It hasn't lost them any money either, by the way, because the town council pays a grant to cover it."
+      },
+      {
+        "speaker": "S2",
+        "text": "OK, I'll tone that down. The smartphone audio guide next. I read on a blog that the tour guides were against it at first."
+      },
+      {
+        "speaker": "S1",
+        "text": "Well, the head guide told you in your interview that they were all in favour, so I'd trust that over a blog. What's worth mentioning is that at least 3 other museums along the coast have since launched almost identical apps."
+      },
+      {
+        "speaker": "S2",
+        "text": "I didn't know that. And finally, the harbour boat trips."
+      },
+      {
+        "speaker": "S1",
+        "text": "They're popular, and they do make a small profit. But they'd be impossible without the retired fishermen who give up their time to run them for free. If those people stopped, the trips would stop too."
+      },
+      {
+        "speaker": "S2",
+        "text": "That's a good point. I'll add something on how risky that is. Thanks, Dr Walsh, this has been really helpful."
+      },
+      {
+        "speaker": "S1",
+        "text": "You're welcome. Send me the final draft by the 14th and I'll take a quick look."
+      }
+    ],
+    "parts": [
+      {
+        "questions_from": 1,
+        "questions_to": 6,
+        "start_line": 0
+      },
+      {
+        "questions_from": 7,
+        "questions_to": 10,
+        "start_line": 24
+      }
+    ],
+    "question_groups": [
+      {
+        "group_id": "g1",
+        "question_type": "SHORT_ANSWER",
+        "instructions": "Questions 1–3\nAnswer the questions below.\nWrite NO MORE THAN TWO WORDS for each answer.",
+        "word_limit": 2,
+        "number_allowed": false,
+        "options": [],
+        "context": "",
+        "table": {
+          "title": "",
+          "columns": [],
+          "rows": []
+        },
+        "flow_steps": [],
+        "diagram": {
+          "title": "",
+          "nodes": [],
+          "edges": []
+        },
+        "map": {
+          "title": "",
+          "features": [],
+          "markers": []
+        },
+        "questions": [
+          {
+            "number": 1,
+            "prompt": "Which part of Liam's research impressed the tutor most?",
+            "options": [],
+            "answers": [
+              "interviews",
+              "staff interviews"
+            ],
+            "justification_span": "The survey was solid, but what really stood out for me were your interviews with the museum staff.",
+            "location": "4"
+          },
+          {
+            "number": 2,
+            "prompt": "What type of source did Liam depend on too much?",
+            "options": [],
+            "answers": [
+              "press releases"
+            ],
+            "justification_span": "Most of your figures come straight from the museum's own press releases, and of course they're going to present everything in the best possible light.",
+            "location": "8"
+          },
+          {
+            "number": 3,
+            "prompt": "What does the tutor want Liam to add at the end of the report?",
+            "options": [],
+            "answers": [
+              "(a) glossary",
+              "short glossary"
+            ],
+            "justification_span": "What you need is a glossary, just a short one, explaining the technical terms.",
+            "location": "12"
+          }
+        ]
+      },
+      {
+        "group_id": "g2",
+        "question_type": "SENTENCE_COMPLETION",
+        "instructions": "Questions 4–6\nComplete the sentences below.\nWrite NO MORE THAN TWO WORDS for each answer.",
+        "word_limit": 2,
+        "number_allowed": false,
+        "options": [],
+        "context": "",
+        "table": {
+          "title": "",
+          "columns": [],
+          "rows": []
+        },
+        "flow_steps": [],
+        "diagram": {
+          "title": "",
+          "nodes": [],
+          "edges": []
+        },
+        "map": {
+          "title": "",
+          "features": [],
+          "markers": []
+        },
+        "questions": [
+          {
+            "number": 4,
+            "prompt": "Liam should include a {{4}} for each of his recommendations.",
+            "options": [],
+            "answers": [
+              "timetable",
+              "rough timetable"
+            ],
+            "justification_span": "But you should give a timetable for each recommendation, even a rough one.",
+            "location": "16"
+          },
+          {
+            "number": 5,
+            "prompt": "The tutor thinks a {{5}} would show the rise in visitor numbers most clearly.",
+            "options": [],
+            "answers": [
+              "line graph"
+            ],
+            "justification_span": "You could, but with that many years, a line graph shows the rise much more clearly.",
+            "location": "20"
+          },
+          {
+            "number": 6,
+            "prompt": "Liam needs to cut about 200 words from his {{6}}.",
+            "options": [],
+            "answers": [
+              "literature review"
+            ],
+            "justification_span": "The literature review is where you can cut, because you summarise several studies that aren't really relevant to small museums.",
+            "location": "22"
+          }
+        ]
+      },
+      {
+        "group_id": "g3",
+        "question_type": "MATCHING",
+        "instructions": "Questions 7–10\nWhat do Liam and his tutor say about each of the following changes made by the museum?\nChoose FOUR answers from the box and write the correct letter, A–F, next to Questions 7–10.",
+        "word_limit": 0,
+        "number_allowed": false,
+        "options": [
+          {
+            "key": "A",
+            "text": "It attracted younger adults."
+          },
+          {
+            "key": "B",
+            "text": "It cost more than it earned."
+          },
+          {
+            "key": "C",
+            "text": "Other museums have since copied it."
+          },
+          {
+            "key": "D",
+            "text": "Its effect has been overstated."
+          },
+          {
+            "key": "E",
+            "text": "It depends on unpaid helpers."
+          },
+          {
+            "key": "F",
+            "text": "Staff were opposed to it at first."
+          }
+        ],
+        "context": "",
+        "table": {
+          "title": "",
+          "columns": [],
+          "rows": []
+        },
+        "flow_steps": [],
+        "diagram": {
+          "title": "",
+          "nodes": [],
+          "edges": []
+        },
+        "map": {
+          "title": "",
+          "features": [],
+          "markers": []
+        },
+        "questions": [
+          {
+            "number": 7,
+            "prompt": "Friday evening openings",
+            "options": [],
+            "answers": [
+              "A"
+            ],
+            "justification_span": "The evening visitors were mostly in their twenties and thirties, which is exactly the group the museum had always struggled to reach.",
+            "location": "26"
+          },
+          {
+            "number": 8,
+            "prompt": "free entry for local residents",
+            "options": [],
+            "answers": [
+              "D"
+            ],
+            "justification_span": "So I think its impact has been exaggerated.",
+            "location": "28"
+          },
+          {
+            "number": 9,
+            "prompt": "the smartphone audio guide",
+            "options": [],
+            "answers": [
+              "C"
+            ],
+            "justification_span": "What's worth mentioning is that at least 3 other museums along the coast have since launched almost identical apps.",
+            "location": "30"
+          },
+          {
+            "number": 10,
+            "prompt": "the harbour boat trips",
+            "options": [],
+            "answers": [
+              "E"
+            ],
+            "justification_span": "But they'd be impossible without the retired fishermen who give up their time to run them for free.",
+            "location": "32"
+          }
+        ]
+      }
+    ]
+  }
+}

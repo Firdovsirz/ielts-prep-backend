@@ -1,0 +1,91 @@
+{
+  "task_type": "GRAMMAR_LESSON",
+  "source_url": "",
+  "licence": "Original content",
+  "content": {
+    "area": "TENSE_ASPECT",
+    "title": "Tense and aspect: choosing the right time frame",
+    "summary": "Examiners notice tense errors immediately because they distort meaning: a Task 1 report that drifts between past and present, or an essay that uses the past simple for a change that is still happening, reads as band 6. Band 7 needs frequent error-free sentences with a controlled mix of tenses; band 8 needs most sentences error-free, with perfect and continuous forms used naturally rather than avoided.",
+    "explanation": "### Why tense matters in IELTS\nAt band 6 candidates use a range of tenses but slip regularly. At band 7–8 the tense always matches the time frame of the data or idea, and perfect and continuous forms appear wherever they add meaning.\n\n### Past simple vs present perfect\n- **Past simple** = a finished time, stated or clear: *in 2010*, *last year*, *between 1990 and 2000*.\n- **Present perfect** = past up to now, no finished time: *since 2000*, *over the last decade*, *recently*, *so far*.\n- In Task 2 and Part 3, use the present perfect for changes that still matter today: *Remote work **has become** far more common.*\n- Never combine the present perfect with a finished-time phrase: ✗ *has risen in 2015*.\n\n### Task 1: choose one time frame and stay in it\n- **Past data** (e.g. 1990–2020): past simple throughout — *rose, fell, remained, accounted for*.\n- **By + past date**: past perfect — *By 2005, sales **had doubled**.*\n- **Present data** (this year's figures, or a process diagram): present simple.\n- **Mixed charts** (actual figures plus projections): switch tense only where the data changes from actual to forecast, and signal the switch clearly.\n\n### Forecasts\nFuture years on a chart need future forms, not the present simple:\n- *is expected / projected / predicted to + verb* — the safest academic choice\n- *will + verb* — fine for a confident statement\n- *will have + past participle* — a result completed by a future point: *By 2040, the figure **will have reached** 60%.*\n- *is set to / is likely to* — a trend already under way\n\n### Speaking\n- **Part 2 stories:** past simple for the main events, past continuous for background (*I **was working** in a café when…*), past perfect for earlier events (*I **had never seen** snow before*).\n- **Part 3 discussion:** present simple for general truths, present perfect for change up to now, *will / is likely to* for predictions.\n\n### Proofreading checklist\n1. What time does this data or idea refer to?\n2. Is that period finished or still continuing?\n3. Have I kept the same tense for the same time frame?\n4. Does every third-person present verb end in *-s*, and does every *have/has* take a past participle?",
+    "key_rules": [
+      {
+        "rule": "Use the past simple for a finished time period shown in a chart or mentioned in a story.",
+        "example": "Coal accounted for 45% of electricity generation in 2010 but only 28% in 2020."
+      },
+      {
+        "rule": "Use the present perfect for change from the past up to now, with no finished-time expression.",
+        "example": "Online shopping has transformed the way people buy groceries over the past decade."
+      },
+      {
+        "rule": "Use the past perfect with 'by + past date' to show a change completed before that point.",
+        "example": "By 2015, the number of electric cars on the road had risen to over two million."
+      },
+      {
+        "rule": "Use 'is expected/projected to' or 'will' for forecast data, and 'will have + past participle' for a result complete by a future date.",
+        "example": "The urban population is projected to reach 70% by 2050, by which time rural numbers will have fallen sharply."
+      },
+      {
+        "rule": "Keep one time frame per section and change tense only when the time reference changes.",
+        "example": "Sales grew steadily between 2000 and 2020. From 2025 onwards, however, they are forecast to level off."
+      },
+      {
+        "rule": "In Part 2 stories, use the past continuous for background and the past perfect for earlier events.",
+        "example": "I was revising for my final exams when I heard that my brother had won the scholarship."
+      }
+    ],
+    "common_mistakes": [
+      {
+        "wrong": "The number of tourists has increased from 2 million in 2005 to 5 million in 2015.",
+        "right": "The number of tourists increased from 2 million in 2005 to 5 million in 2015.",
+        "why": "The period 2005–2015 is finished, so the present perfect is wrong; use the past simple."
+      },
+      {
+        "wrong": "In 2030, the figure reaches 40%.",
+        "right": "By 2030, the figure is expected to reach 40%.",
+        "why": "Forecast data needs a future form; the present simple makes a prediction sound like an established fact."
+      },
+      {
+        "wrong": "Since 2010, many cities introduced bike-sharing schemes.",
+        "right": "Since 2010, many cities have introduced bike-sharing schemes.",
+        "why": "'Since' links a past point to now, so it needs the present perfect."
+      },
+      {
+        "wrong": "Sales rose steadily until 1995 and then they fall to 20% in 2000.",
+        "right": "Sales rose steadily until 1995 and then fell to 20% in 2000.",
+        "why": "Tense drift: both events are in the past, so keep the past simple throughout."
+      },
+      {
+        "wrong": "I am living in this city since 2018.",
+        "right": "I have lived (or have been living) in this city since 2018.",
+        "why": "A situation that started in the past and continues now needs the present perfect, not the present continuous."
+      },
+      {
+        "wrong": "In recent years, governments have spend huge sums on road building.",
+        "right": "In recent years, governments have spent huge sums on road building.",
+        "why": "After have/has, use the past participle (spent), not the base form."
+      }
+    ],
+    "ielts_examples": [
+      {
+        "context": "WRITING_TASK1",
+        "sentence": "Between 1990 and 2010, the proportion of households with internet access climbed from just 5% to 78%, and by 2020 it had reached almost 95%."
+      },
+      {
+        "context": "WRITING_TASK1",
+        "sentence": "Coal consumption is projected to fall to 15% by 2040, while solar power is expected to overtake natural gas as the main source of electricity."
+      },
+      {
+        "context": "WRITING_TASK2",
+        "sentence": "Over the past two decades, social media has fundamentally changed the way young people form their political opinions."
+      },
+      {
+        "context": "SPEAKING_PART2",
+        "sentence": "I'd been saving up for months, so when the tickets finally went on sale, I bought two straight away."
+      },
+      {
+        "context": "SPEAKING_PART3",
+        "sentence": "The way people commute has already started to change, and within ten years I think many more people will be working from home at least part of the week."
+      }
+    ]
+  }
+}

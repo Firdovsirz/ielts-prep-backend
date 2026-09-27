@@ -1,0 +1,206 @@
+{
+  "task_type": "LISTENING_SECTION",
+  "source_url": "https://en.wikipedia.org/wiki/Kelp_forest",
+  "licence": "CC BY-SA 4.0 (topic seed only; text is original)",
+  "content": {
+    "section": 4,
+    "title": "Kelp forests",
+    "topic": "Marine biology: the ecology of kelp forests",
+    "context_description": "You will hear part of a marine biology lecture about kelp forests.",
+    "speakers": [
+      {
+        "id": "S1",
+        "name": "Dr Fiona Hale",
+        "gender": "female",
+        "accent": "british",
+        "role": "Lecturer in marine biology"
+      }
+    ],
+    "script": [
+      {
+        "speaker": "S1",
+        "text": "Good morning, everyone. Today I want to look at one of the richest habitats in the ocean, and that's the kelp forest. Most of you will have seen kelp washed up on a beach, but that tells you very little about what these forests are like underwater. I'll begin with the biology of kelp itself, then look at the animals that live in kelp forests, and finally I'll turn to the threats they face and what's being done about them."
+      },
+      {
+        "speaker": "S1",
+        "text": "So, first of all, what exactly is kelp? People often call it a plant, but it's actually a type of large brown alga, and it has no flowers, no seeds and no true roots. What it does have is a structure called the holdfast, which anchors it firmly to rocks on the seabed. Unlike a root, though, the holdfast doesn't take in any nutrients at all. Instead, kelp absorbs everything it needs directly from the surrounding water."
+      },
+      {
+        "speaker": "S1",
+        "text": "Growing up from the holdfast is a long, flexible stalk called the stipe, which does much the same job as the trunk of a tree. The leaf-like parts attached to it are known as blades. At the base of many of the blades there are small, gas-filled bladders, and these act as floats. They lift the blades up towards the surface, where they can catch as much sunlight as possible."
+      },
+      {
+        "speaker": "S1",
+        "text": "What's remarkable about some species is how fast they grow. Giant kelp, which is found along the Pacific coast of North America, can grow by up to 50 centimetres in a single day. But kelp is quite fussy about where it lives. It needs clear water and plenty of light, but the single most important factor is temperature, and you'll rarely find kelp forests where the water is warmer than about 20 degrees."
+      },
+      {
+        "speaker": "S1",
+        "text": "Moving on to the wildlife. Ecologists often compare kelp forests to tropical rainforests, because they're made up of distinct layers, each with its own community of animals. At the top is the canopy, formed by the blades spreading out across the surface. This is where you'll find seabirds, and also sea otters."
+      },
+      {
+        "speaker": "S1",
+        "text": "Sea otters dive down to the seabed to feed, but at the surface they do something rather charming. They wrap themselves in strands of kelp so that they don't drift away while they sleep."
+      },
+      {
+        "speaker": "S1",
+        "text": "Below the canopy, among the stipes, is the middle layer, and this is full of fish. Young fish in particular use this layer as a nursery, because larger predators find it hard to swim between the tightly packed stalks. Then, right at the bottom, there's a whole community of crabs, starfish, snails and, most importantly for our story, sea urchins."
+      },
+      {
+        "speaker": "S1",
+        "text": "Now, what's interesting here is the relationship between three of these organisms: the sea otter, the sea urchin and the kelp itself. Urchins graze on kelp, and they're particularly fond of the holdfast. If an urchin chews through a holdfast, the whole kelp comes loose and drifts off. Sea otters, however, eat urchins, so where there are plenty of otters, urchin numbers stay low and the forest survives."
+      },
+      {
+        "speaker": "S1",
+        "text": "For this reason, the sea otter is described as a keystone species. The term is borrowed from architecture, where the keystone is the wedge-shaped stone at the very top of an arch. If you remove it, the whole arch falls down, and in the same way, if you remove a keystone species, the ecosystem around it can collapse."
+      },
+      {
+        "speaker": "S1",
+        "text": "And that's exactly what happened in the 18th and 19th centuries. Sea otters were hunted almost to extinction, not for their meat, but for their fur, which is thicker than that of any other mammal. As the otters disappeared, urchin numbers rose dramatically, and in many places the urchins ate their way through entire forests."
+      },
+      {
+        "speaker": "S1",
+        "text": "Ecologists call what's left behind an urchin barren, which is a stretch of bare rock with hardly any seaweed on it. What's surprising is how long these areas can last. Urchins can survive for years on very little food, so without predators, an area like this can remain almost empty for decades."
+      },
+      {
+        "speaker": "S1",
+        "text": "Moving on now to the threats that kelp forests face today. By far the most serious is ocean warming. Marine heatwaves are becoming more frequent, and a single hot summer can wipe out huge areas of forest. Off the coast of northern California, for example, more than 90 percent of the kelp canopy was lost after a heatwave that began in 2014."
+      },
+      {
+        "speaker": "S1",
+        "text": "The situation there was made worse by disease. At around the same time, a wasting disease killed millions of sunflower starfish, one of the few remaining predators of urchins there. With nothing to control them, the urchins multiplied, and the forests had no chance to recover."
+      },
+      {
+        "speaker": "S1",
+        "text": "A third problem is the quality of coastal water. Soil and fertiliser washed off farms and building sites make the water cloudy, which means less light reaches the kelp."
+      },
+      {
+        "speaker": "S1",
+        "text": "Finally, I want to end on a more positive note by looking at restoration. In several places, teams of volunteer divers have been removing urchins by hand, and where they've done this, young kelp has quickly become established again. Other projects grow kelp on ropes in the laboratory and then transplant it onto the seabed."
+      },
+      {
+        "speaker": "S1",
+        "text": "There's also growing interest in farming kelp commercially. Kelp can be eaten, of course, and it's used in products from toothpaste to ice cream. But what really interests scientists is its potential role in tackling climate change, because as it grows, kelp absorbs carbon, and since it grows so quickly, it can take up a surprisingly large amount."
+      },
+      {
+        "speaker": "S1",
+        "text": "Kelp farms may also help to clean up coastal waters, as they take up some of the nitrogen that drains off farmland. For next week, please read the two articles on kelp restoration on the reading list, and we'll discuss whether these projects can work on a large scale."
+      }
+    ],
+    "parts": [
+      {
+        "questions_from": 1,
+        "questions_to": 10,
+        "start_line": 0
+      }
+    ],
+    "question_groups": [
+      {
+        "group_id": "g1",
+        "question_type": "NOTE_COMPLETION",
+        "instructions": "Questions 1–10\nComplete the notes below.\nWrite ONE WORD ONLY for each answer.",
+        "word_limit": 1,
+        "number_allowed": false,
+        "options": [],
+        "context": "Kelp Forests\n\nBiology of kelp\n• a large brown alga rather than a true plant\n• holdfast: fixes kelp to rocks but, unlike a root, takes up no {{1}}\n• gas-filled bladders on the blades serve as {{2}}\n• giant kelp: can grow up to 50 cm per day\n• most important factor for growth: water {{3}}\n\nLife in the forest\n• canopy: sea otters wrap themselves in kelp while they {{4}}\n• middle layer: acts as a {{5}} for young fish\n• seabed: crabs, starfish, snails and sea urchins\n\nSea otters as a keystone species\n• the word 'keystone' originally comes from {{6}}\n• 18th–19th centuries: otters hunted almost to extinction for their {{7}}\n• urchins then turn forests into bare rock, called an urchin {{8}}\n\nThreats\n• ocean warming, e.g. marine heatwave in northern California from 2014\n• disease killed many starfish\n• run-off from farms and building sites makes the water {{9}}, so less light reaches the kelp\n\nRestoration\n• divers remove urchins by hand; kelp grown on ropes is transplanted\n• kelp farming could help fight climate change by absorbing {{10}}",
+        "table": {
+          "title": "",
+          "columns": [],
+          "rows": []
+        },
+        "flow_steps": [],
+        "diagram": {
+          "title": "",
+          "nodes": [],
+          "edges": []
+        },
+        "map": {
+          "title": "",
+          "features": [],
+          "markers": []
+        },
+        "questions": [
+          {
+            "number": 1,
+            "prompt": "",
+            "options": [],
+            "answers": ["nutrients"],
+            "justification_span": "Unlike a root, though, the holdfast doesn't take in any nutrients at all.",
+            "location": "1"
+          },
+          {
+            "number": 2,
+            "prompt": "",
+            "options": [],
+            "answers": ["floats"],
+            "justification_span": "At the base of many of the blades there are small, gas-filled bladders, and these act as floats.",
+            "location": "2"
+          },
+          {
+            "number": 3,
+            "prompt": "",
+            "options": [],
+            "answers": ["temperature"],
+            "justification_span": "It needs clear water and plenty of light, but the single most important factor is temperature, and you'll rarely find kelp forests where the water is warmer than about 20 degrees.",
+            "location": "3"
+          },
+          {
+            "number": 4,
+            "prompt": "",
+            "options": [],
+            "answers": ["sleep"],
+            "justification_span": "They wrap themselves in strands of kelp so that they don't drift away while they sleep.",
+            "location": "5"
+          },
+          {
+            "number": 5,
+            "prompt": "",
+            "options": [],
+            "answers": ["nursery"],
+            "justification_span": "Young fish in particular use this layer as a nursery, because larger predators find it hard to swim between the tightly packed stalks.",
+            "location": "6"
+          },
+          {
+            "number": 6,
+            "prompt": "",
+            "options": [],
+            "answers": ["architecture"],
+            "justification_span": "The term is borrowed from architecture, where the keystone is the wedge-shaped stone at the very top of an arch.",
+            "location": "8"
+          },
+          {
+            "number": 7,
+            "prompt": "",
+            "options": [],
+            "answers": ["fur"],
+            "justification_span": "Sea otters were hunted almost to extinction, not for their meat, but for their fur, which is thicker than that of any other mammal.",
+            "location": "9"
+          },
+          {
+            "number": 8,
+            "prompt": "",
+            "options": [],
+            "answers": ["barren"],
+            "justification_span": "Ecologists call what's left behind an urchin barren, which is a stretch of bare rock with hardly any seaweed on it.",
+            "location": "10"
+          },
+          {
+            "number": 9,
+            "prompt": "",
+            "options": [],
+            "answers": ["cloudy"],
+            "justification_span": "Soil and fertiliser washed off farms and building sites make the water cloudy, which means less light reaches the kelp.",
+            "location": "13"
+          },
+          {
+            "number": 10,
+            "prompt": "",
+            "options": [],
+            "answers": ["carbon"],
+            "justification_span": "But what really interests scientists is its potential role in tackling climate change, because as it grows, kelp absorbs carbon, and since it grows so quickly, it can take up a surprisingly large amount.",
+            "location": "15"
+          }
+        ]
+      }
+    ]
+  }
+}

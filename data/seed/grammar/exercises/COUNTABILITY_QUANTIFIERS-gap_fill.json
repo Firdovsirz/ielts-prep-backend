@@ -1,0 +1,103 @@
+{
+  "task_type": "GRAMMAR_EXERCISE",
+  "source_url": "",
+  "licence": "Original content",
+  "content": {
+    "area": "COUNTABILITY_QUANTIFIERS",
+    "exercise_type": "GAP_FILL",
+    "title": "Countable and uncountable nouns and quantifiers",
+    "instructions": "Complete each sentence. Where options are given, choose the correct one; otherwise write ONE word. Before you answer, decide whether the noun is countable or uncountable.",
+    "items": [
+      {
+        "id": "1",
+        "prompt": "The number of students who own a laptop has increased, while the ___ of time they spend reading printed books has fallen.",
+        "options": ["number", "amount"],
+        "accepted_answers": ["amount"],
+        "model_answer": "The number of students who own a laptop has increased, while the amount of time they spend reading printed books has fallen.",
+        "check_mode": "EXACT",
+        "explanation": "'Time' is uncountable here, so use 'the amount of'. 'The number of' is only for plural countable nouns (the number of students)."
+      },
+      {
+        "id": "2",
+        "prompt": "In 2020, ___ people travelled by air than in 2019 because of the pandemic.",
+        "options": ["less", "fewer"],
+        "accepted_answers": ["fewer"],
+        "model_answer": "In 2020, fewer people travelled by air than in 2019 because of the pandemic.",
+        "check_mode": "EXACT",
+        "explanation": "'People' is a plural countable noun, so the comparative is 'fewer'. 'Less' goes with uncountable nouns (less traffic, less money). Examiners notice this error in Task 1 comparisons."
+      },
+      {
+        "id": "3",
+        "prompt": "Recent ___ suggests that bilingual children perform better at certain problem-solving tasks.",
+        "options": ["research", "researches", "a research"],
+        "accepted_answers": ["research"],
+        "model_answer": "Recent research suggests that bilingual children perform better at certain problem-solving tasks.",
+        "check_mode": "EXACT",
+        "explanation": "'Research' is uncountable in academic English: no plural -s and no 'a'. To count it, use 'a study / studies' or 'a piece of research'. The verb is singular ('suggests')."
+      },
+      {
+        "id": "4",
+        "prompt": "Tourists can find a great deal of useful ___ about local attractions online.",
+        "options": ["information", "informations", "an information"],
+        "accepted_answers": ["information"],
+        "model_answer": "Tourists can find a great deal of useful information about local attractions online.",
+        "check_mode": "EXACT",
+        "explanation": "'Information' is always uncountable: no -s and no 'an'. It combines with 'a great deal of', 'much' and 'a piece of'. 'Advice', 'knowledge' and 'equipment' behave in the same way."
+      },
+      {
+        "id": "5",
+        "prompt": "I think there's far too ___ traffic in my city centre, especially during the rush hour.",
+        "options": [],
+        "accepted_answers": ["much"],
+        "model_answer": "I think there's far too much traffic in my city centre, especially during the rush hour.",
+        "check_mode": "EXACT",
+        "explanation": "'Traffic' is uncountable, so use 'too much', not 'too many'. In Speaking, 'far too much' adds natural emphasis."
+      },
+      {
+        "id": "6",
+        "prompt": "Only a small ___ of respondents said they were satisfied with the service.",
+        "options": [],
+        "accepted_answers": ["number", "proportion", "percentage", "minority", "fraction"],
+        "model_answer": "Only a small number of respondents said they were satisfied with the service.",
+        "check_mode": "EXACT",
+        "explanation": "'Respondents' is a plural countable noun, so 'a small number of' is correct; 'proportion', 'percentage' and 'minority' also suit survey data. 'A small amount of respondents' is wrong because 'amount' is used with uncountable nouns."
+      },
+      {
+        "id": "7",
+        "prompt": "Many rural schools lack modern laboratory ___, so science lessons are mostly theoretical.",
+        "options": ["equipment", "equipments"],
+        "accepted_answers": ["equipment"],
+        "model_answer": "Many rural schools lack modern laboratory equipment, so science lessons are mostly theoretical.",
+        "check_mode": "EXACT",
+        "explanation": "'Equipment' is uncountable and has no plural form. To count items, say 'pieces of equipment' or name them (microscopes, computers)."
+      },
+      {
+        "id": "8",
+        "prompt": "Air pollution fell in ___ of the three cities; in fact, all three recorded an increase.",
+        "options": [],
+        "accepted_answers": ["none"],
+        "model_answer": "Air pollution fell in none of the three cities; in fact, all three recorded an increase.",
+        "check_mode": "EXACT",
+        "explanation": "'None of' + plural noun means 'zero out of three or more'. For exactly two items, use 'neither of'. The second clause ('all three recorded an increase') shows that the meaning is zero."
+      },
+      {
+        "id": "9",
+        "prompt": "Investment in wind power rose sharply in ___ Denmark and Germany, although Denmark started earlier.",
+        "options": [],
+        "accepted_answers": ["both"],
+        "model_answer": "Investment in wind power rose sharply in both Denmark and Germany, although Denmark started earlier.",
+        "check_mode": "EXACT",
+        "explanation": "'Both … and …' refers to two items together. For two items with a negative meaning, use 'neither … nor …'; for more than two, use 'all (of)'."
+      },
+      {
+        "id": "10",
+        "prompt": "There were very ___ jobs available in the region, so many young people moved to the capital.",
+        "options": [],
+        "accepted_answers": ["few"],
+        "model_answer": "There were very few jobs available in the region, so many young people moved to the capital.",
+        "check_mode": "EXACT",
+        "explanation": "'Jobs' is plural countable, so use '(very) few'. 'Little' is for uncountable nouns (very little work). Note that 'few' is negative in meaning ('not many'), whereas 'a few' means 'some'."
+      }
+    ]
+  }
+}

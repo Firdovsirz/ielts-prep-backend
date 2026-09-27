@@ -1,0 +1,95 @@
+{
+  "task_type": "GRAMMAR_LESSON",
+  "source_url": "",
+  "licence": "Original content",
+  "content": {
+    "area": "COMPARISON_TRENDS",
+    "title": "Comparisons and the language of change",
+    "summary": "Task 1 is largely judged on how accurately you describe and compare data, so trend language and comparatives carry heavy weight for Grammatical Range & Accuracy as well as Task Achievement. Band 6 reports repeat 'increased' and make preposition errors ('increased with 20%'); band 7–8 reports alternate verb and noun structures, use the right preposition every time and make precise comparisons such as 'twice as many as'.",
+    "explanation": "### Trend verbs\n- **Up:** *rise, increase, grow, climb, soar, surge, double, triple*\n- **Down:** *fall, decrease, decline, drop, dip, plunge, plummet, halve*\n- **No change:** *remain stable / steady, stay constant, level off (at), plateau (at), stabilise*\n- **Turning points:** *peak (at), reach a peak of, hit a low of, bottom out (at), fluctuate (between X and Y), recover*\n\nIrregular forms: *rise – rose – risen*, *fall – fell – fallen*, *grow – grew – grown*. *Rise* and *fall* take no object and have no passive (✗ *was risen*).\n\n### Prepositions: the most-tested detail\n- **from … to** — start and end values: *rose **from** 20% **to** 35%*\n- **by** — the size of the change: *rose **by** 15 percentage points*\n- **to** — the new level: *fell **to** 12,000*\n- **at** — a fixed level: *peaked **at** 80%*, *levelled off **at** 50*, *stood **at** 30% in 2000*\n- **of** — after a noun, the amount: *a rise **of** 15%*, *a peak **of** 80%*\n- **in** — after a noun, what changed (and when): *a fall **in** sales **in** 2008*\n- **between … and** — *fluctuated **between** 40 **and** 60*\n\nPut it together: ***a sharp fall of** 30% **in** car sales **in** 2009*.\n\n### Verb pattern or noun pattern?\nAlternate them for range:\n- **Verb + adverb:** *Sales **fell sharply** in 2008.*\n- **There was + adjective + noun:** *There **was a sharp fall of** 30% **in** sales in 2008.*\n- **Time as subject + saw/experienced/witnessed:** *2008 **saw a sharp fall in** sales.*\n\nAdjective → adverb: *sharp → sharply, steady → steadily, gradual → gradually, dramatic → dramatically, slight → slightly, significant → significantly, marginal → marginally*. Adjectives go before nouns; adverbs go after verbs.\n\n### Comparing figures\n- **Comparatives:** *higher than, more popular than*, modified with *far, considerably, slightly, marginally* — never ✗ *more higher*.\n- **Superlatives:** *the largest proportion, the most significant increase, the least popular option*.\n- **Multiples:** *twice **as many** … **as**, three times **as much** … **as**, half **as many** … **as***; or *three times higher than*.\n- **Similarity:** *the same as, just as popular as, similar to*.\n- *As many* for countable data (*cars*), *as much* for uncountable data (*energy*).\n- **Proportions:** *accounted for / made up / comprised 40% of*.\n\n### Make it precise\nCombine structures to pack in data: *At 45%, coal remained the largest source, although its share had almost halved since 1990.* Avoid vague *a lot* and *very much*; give a figure for every change you mention.",
+    "key_rules": [
+      {
+        "rule": "Use 'by' for the amount of change, 'from … to' for the start and end values, and 'at' for a peak or stable level.",
+        "example": "Unemployment rose by three percentage points, from 4% to 7%, before peaking at 8% in 2012."
+      },
+      {
+        "rule": "After a trend noun, use 'of' for the amount and 'in' for the thing that changed.",
+        "example": "There was a sharp fall of 25% in car sales in 2009."
+      },
+      {
+        "rule": "Use adverbs after verbs and adjectives before nouns.",
+        "example": "Exports grew steadily, whereas imports experienced a dramatic decline."
+      },
+      {
+        "rule": "Use 'twice / three times as many (countable) / as much (uncountable) … as' for multiples.",
+        "example": "Men spent twice as much time on video games as women did."
+      },
+      {
+        "rule": "Form comparatives with -er or 'more', never both, and modify them with far, considerably or slightly.",
+        "example": "Rail travel was considerably cheaper than flying but slightly slower than driving."
+      },
+      {
+        "rule": "Use 'the + superlative' and 'the largest proportion/share' to identify the key features in your overview.",
+        "example": "Housing accounted for the largest proportion of household spending in all three years."
+      },
+      {
+        "rule": "Use a time period as the subject with saw / experienced / witnessed + noun for variety.",
+        "example": "The period between 2015 and 2020 saw a dramatic surge in online grocery sales."
+      }
+    ],
+    "common_mistakes": [
+      {
+        "wrong": "The number of tourists increased with 20%.",
+        "right": "The number of tourists increased by 20%.",
+        "why": "The amount of change takes 'by', not 'with'."
+      },
+      {
+        "wrong": "There was a sharp increase of sales in 2010.",
+        "right": "There was a sharp increase in sales in 2010.",
+        "why": "'An increase of' introduces the amount (an increase of 10%); the thing that changed takes 'in'."
+      },
+      {
+        "wrong": "Sales rose dramatical and reached the peak at 500 units.",
+        "right": "Sales rose dramatically and peaked at 500 units. (or: reached a peak of 500 units)",
+        "why": "Use an adverb after a verb, and note the prepositions: 'peaked at' but 'a peak of'."
+      },
+      {
+        "wrong": "Twice more people used buses than trains.",
+        "right": "Twice as many people used buses as trains.",
+        "why": "Multiples use 'twice / three times as many (or much) … as'."
+      },
+      {
+        "wrong": "Coal was more cheaper than gas.",
+        "right": "Coal was cheaper than gas.",
+        "why": "Short adjectives take -er; adding 'more' creates a double comparative."
+      },
+      {
+        "wrong": "The unemployment rate was risen in 2015.",
+        "right": "The unemployment rate rose in 2015.",
+        "why": "'Rise' is intransitive and irregular (rise–rose–risen), so it has no passive form."
+      }
+    ],
+    "ielts_examples": [
+      {
+        "context": "WRITING_TASK1",
+        "sentence": "Online sales rose by 12 percentage points between 2015 and 2020, climbing from 18% to 30% of total retail spending."
+      },
+      {
+        "context": "WRITING_TASK1",
+        "sentence": "The year 2009 saw a sharp fall of 30% in new car registrations, after which the figure recovered steadily."
+      },
+      {
+        "context": "WRITING_TASK1",
+        "sentence": "In 2020, Germany generated almost three times as much solar power as France, although both countries lagged far behind China."
+      },
+      {
+        "context": "WRITING_TASK1",
+        "sentence": "Overall, housing accounted for the largest share of household expenditure, while spending on leisure fluctuated the most."
+      },
+      {
+        "context": "SPEAKING_PART3",
+        "sentence": "House prices in my city have gone up far more quickly than salaries, so young people are much less likely to own a home than their parents were."
+      }
+    ]
+  }
+}

@@ -1,0 +1,245 @@
+{
+  "module": "writing",
+  "variant": "general_training",
+  "duration_minutes": 60,
+  "general_rules": [
+    "Two tasks; both must be completed. Task 2 contributes twice as much as Task 1 to the Writing band.",
+    "Both tasks must be written as full, connected text; notes and bullet points are penalised, and so is plagiarised (copied) text.",
+    "There is no upper word limit. Writing more than the minimum is not penalised, but a long Task 1 costs time needed for Task 2.",
+    "Computer-delivered candidates type both answers, with a live word count on screen."
+  ],
+  "task1": {
+    "minutes": 20,
+    "min_words": 150,
+    "weight": "one third",
+    "target_words": [160, 200],
+    "paper_heading": "WRITING TASK 1",
+    "rubric_template": "You should spend about 20 minutes on this task.\n\n{situation}\n\nWrite a letter to {recipient}. In your letter\n\n• {bullet_1}\n• {bullet_2}\n• {bullet_3}\n\nWrite at least 150 words.\n\nYou do NOT need to write any addresses.\n\nBegin your letter as follows:\n\nDear {salutation},",
+    "rubric_placeholders": {
+      "{situation}": "1–2 sentences setting the scene in the second person, e.g. 'You recently … and …'.",
+      "{recipient}": "who the letter is to, which fixes the register, e.g. 'the manager of the hotel', 'your landlord', 'a friend'.",
+      "{bullet_1}/{bullet_2}/{bullet_3}": "three functions, each starting with an imperative or wh-word, e.g. 'explain why…', 'describe…', 'say what you would like … to do'.",
+      "{salutation}": "normally printed as a dotted line ('……………………') for the candidate to complete; the candidate writes e.g. 'Sir or Madam', 'Mr Brown', 'Sam'."
+    },
+    "task_rules": [
+      "The letter's purpose must be clear from the opening lines (band 7: 'clear purpose').",
+      "All three bullet points must be covered and extended with relevant detail. A missing bullet caps Task Achievement at band 4; a bullet presented but not adequately covered is a band-5 feature.",
+      "Tone must suit the recipient and relationship and stay consistent throughout. Tone that is inappropriate overall caps TA at 4; 'variable and sometimes inappropriate' is band 5.",
+      "Letter format: salutation, logically ordered paragraphs (usually one per bullet point), an appropriate closing phrase and sign-off, and a signature. Addresses and dates are not needed.",
+      "Invent plausible personal details (names, dates, places) freely, but stay within the situation given.",
+      "Do not copy the bullet points as headings or reuse the rubric wording; copied rubric is discounted."
+    ],
+    "expected_structure": [
+      "Salutation matching the register.",
+      "Opening paragraph: state the purpose (formal: 'I am writing to…'; informal: a warm opening line, then the reason for writing).",
+      "Body paragraph 1: bullet point 1, developed with specific detail.",
+      "Body paragraph 2: bullet point 2, developed.",
+      "Body paragraph 3: bullet point 3 (often the request, suggestion or invitation), developed.",
+      "Closing line suited to the purpose (e.g. 'I look forward to hearing from you.' / 'Can't wait to see you!').",
+      "Sign-off and name (full name for formal letters; first name for informal)."
+    ],
+    "common_purposes": ["complaint", "request for information or action", "apology", "invitation (making, accepting or declining)", "thanks", "explanation of a situation or problem", "application or enquiry about a job or course", "suggestion or recommendation", "giving advice or news", "arranging or changing plans"],
+    "letter_types": {
+      "FORMAL": {
+        "when": "Writing to a person or organisation you do not know, or in an official role: a company or hotel manager, customer services, a council, a newspaper editor, an airline, a college admissions office, a prospective employer.",
+        "rubric": "You should spend about 20 minutes on this task.\n\n{situation}\n\nWrite a letter to {recipient}. In your letter\n\n• {bullet_1}\n• {bullet_2}\n• {bullet_3}\n\nWrite at least 150 words.\n\nYou do NOT need to write any addresses.\n\nBegin your letter as follows:\n\nDear ……………………,",
+        "openings": [
+          "Dear Sir or Madam, (name unknown)",
+          "Dear Mr/Ms/Dr {Surname}, (name known, formal relationship)"
+        ],
+        "purpose_openers": [
+          "I am writing to complain about …",
+          "I am writing to enquire about …",
+          "I am writing with regard to …",
+          "I am writing to request …",
+          "I am writing in response to your advertisement in …"
+        ],
+        "closing_lines": [
+          "I look forward to hearing from you.",
+          "I would be grateful for a prompt reply.",
+          "Thank you for your attention to this matter."
+        ],
+        "closings": [
+          "Yours faithfully, (after 'Dear Sir or Madam')",
+          "Yours sincerely, (after 'Dear Mr/Ms {Surname}')"
+        ],
+        "sign_off": "Full name (e.g. 'Anna Kowalska').",
+        "tone_notes": [
+          "Polite, impersonal and precise; no contractions, slang, exclamation marks, emojis or text-speak.",
+          "Indirect, polite requests: 'I would be grateful if you could…', 'Could you please…', 'I would appreciate it if…'.",
+          "Complaints stay firm but courteous: state facts, dates and the effect on you, then the action you expect ('I would like a full refund').",
+          "Prefer formal vocabulary to phrasal verbs where natural ('receive' rather than 'get', 'resolve' rather than 'sort out').",
+          "Consistency matters: one casual line ('Hope you're well!') in a formal complaint is a tone lapse."
+        ]
+      },
+      "SEMI_FORMAL": {
+        "when": "Writing to someone you know by name but in a formal or professional relationship, or someone you don't know personally but who is a neighbour or peer: your manager, a colleague, a teacher or course tutor, your landlord, a neighbour, a club organiser.",
+        "rubric": "You should spend about 20 minutes on this task.\n\n{situation}\n\nWrite a letter to {recipient}. In your letter\n\n• {bullet_1}\n• {bullet_2}\n• {bullet_3}\n\nWrite at least 150 words.\n\nYou do NOT need to write any addresses.\n\nBegin your letter as follows:\n\nDear ……………………,",
+        "openings": [
+          "Dear Mr/Mrs/Ms {Surname},",
+          "Dear {First name}, (a colleague or manager you normally address by first name)"
+        ],
+        "purpose_openers": [
+          "I am writing to let you know that …",
+          "I'm writing to ask whether …",
+          "I wanted to let you know about …",
+          "I am writing about …"
+        ],
+        "closing_lines": [
+          "Please let me know if this would be possible.",
+          "Thank you for your understanding.",
+          "I look forward to hearing from you."
+        ],
+        "closings": [
+          "Yours sincerely,",
+          "Kind regards,",
+          "Best regards,"
+        ],
+        "sign_off": "Full name, or first name if the salutation used the reader's first name.",
+        "tone_notes": [
+          "Polite and respectful but warmer and more personal than a formal letter; occasional contractions are acceptable.",
+          "Requests remain polite and hedged ('Would it be possible to…?', 'I was wondering if…').",
+          "Avoid slang and over-familiar phrases ('Hey!', 'Cheers mate'), and avoid stiff bureaucratic formulas ('Please be informed that…').",
+          "With a neighbour or landlord, be considerate and constructive: acknowledge their position and suggest a solution."
+        ]
+      },
+      "INFORMAL": {
+        "when": "Writing to a friend, relative or someone you know well (the rubric says 'a friend', 'your cousin', 'an English-speaking friend').",
+        "rubric": "You should spend about 20 minutes on this task.\n\n{situation}\n\nWrite a letter to {recipient}. In your letter\n\n• {bullet_1}\n• {bullet_2}\n• {bullet_3}\n\nWrite at least 150 words.\n\nYou do NOT need to write any addresses.\n\nBegin your letter as follows:\n\nDear ……………………,",
+        "openings": [
+          "Dear {First name},"
+        ],
+        "purpose_openers": [
+          "It was great to hear from you!",
+          "I hope you and your family are doing well.",
+          "Sorry I haven't been in touch for so long, but …",
+          "I've got some exciting news!",
+          "I'm writing to ask you a big favour."
+        ],
+        "closing_lines": [
+          "Can't wait to see you!",
+          "Write back soon and let me know what you think.",
+          "Give my love to everyone."
+        ],
+        "closings": [
+          "Best wishes,",
+          "All the best,",
+          "Love,",
+          "Take care,",
+          "See you soon,"
+        ],
+        "sign_off": "First name only.",
+        "tone_notes": [
+          "Friendly, natural and personal: contractions, phrasal verbs, direct questions and some everyday idiom are appropriate.",
+          "Open with a personal line before the purpose, but make the purpose clear within the first paragraph.",
+          "Avoid formal formulas ('I am writing to inform you…', 'Yours faithfully'): they make the tone inappropriate.",
+          "Avoid text-speak, emojis and heavy slang; informal still means well-formed sentences and paragraphs.",
+          "Show the relationship: shared memories, genuine interest in the reader, enthusiasm or sympathy as the situation requires."
+        ]
+      }
+    }
+  },
+  "task2": {
+    "minutes": 40,
+    "min_words": 250,
+    "weight": "two thirds",
+    "target_words": [270, 320],
+    "paper_heading": "WRITING TASK 2",
+    "register": "Semi-formal/neutral discursive essay.",
+    "opening_rubric": "You should spend about 40 minutes on this task.\n\nWrite about the following topic:",
+    "prompt_layout": "{opening_rubric}\n\n{statement}\n\n{question}\n\n{closing_rubric}",
+    "task_rules": [
+      "Same task and assessment as Academic Task 2: formulate and develop a position on a prompt (question or statement).",
+      "General Training topics are of general interest and often closer to everyday life (family, leisure, work, local community, consumer habits, health, education) than Academic prompts, but essays still need abstract reasoning, a clear position and developed support.",
+      "Answer every part of the question; support ideas with explanation and examples (personal experience allowed).",
+      "Conventional structure: introduction, 2–3 body paragraphs, conclusion; no bullet points or headings.",
+      "Copied prompt language is discounted; paraphrase it."
+    ],
+    "essay_types": {
+      "OPINION": {
+        "question_forms": [
+          "To what extent do you agree or disagree?",
+          "Do you agree or disagree?",
+          "What is your opinion?",
+          "Is this a positive or negative development?",
+          "Do you think this is a positive or a negative development?"
+        ],
+        "expected_structure": [
+          "Introduction: paraphrase the statement and give a clear position.",
+          "Body 1: first reason, explained and exemplified.",
+          "Body 2: second reason, or the limits of agreement for a partial position.",
+          "Conclusion: restate the position consistently."
+        ],
+        "task_response_traps": [
+          "No clear position, or a position that shifts.",
+          "Writing about the general topic rather than the specific claim."
+        ]
+      },
+      "DISCUSSION": {
+        "question_forms": [
+          "Discuss both these views and give your own opinion.",
+          "Discuss both views and give your opinion."
+        ],
+        "expected_structure": [
+          "Introduction: paraphrase both views and signal the writer's opinion.",
+          "Body 1: first view with reasons and an example.",
+          "Body 2: second view with reasons and an example.",
+          "Conclusion: summary plus a clear personal opinion."
+        ],
+        "task_response_traps": [
+          "Missing the writer's own opinion (TR max 5).",
+          "Covering one view only superficially."
+        ]
+      },
+      "ADVANTAGES_DISADVANTAGES": {
+        "question_forms": [
+          "What are the advantages and disadvantages of {X}?",
+          "Do the advantages of this outweigh the disadvantages?",
+          "Do the advantages outweigh the disadvantages?"
+        ],
+        "expected_structure": [
+          "Introduction: paraphrase; for 'outweigh' prompts, state which side is greater.",
+          "Body 1: advantages, developed.",
+          "Body 2: disadvantages, developed.",
+          "Conclusion: summarise and, for 'outweigh' prompts, weigh them clearly."
+        ],
+        "task_response_traps": [
+          "Not weighing the two sides when asked whether one outweighs the other."
+        ]
+      },
+      "PROBLEM_SOLUTION": {
+        "question_forms": [
+          "What problems does this cause? What solutions can you suggest?",
+          "What are the causes of this problem? What measures could be taken to solve it?",
+          "Why is this the case? What can be done about it?"
+        ],
+        "expected_structure": [
+          "Introduction: paraphrase the issue and preview the answer.",
+          "Body 1: problems or causes, explained.",
+          "Body 2: matching, practical solutions.",
+          "Conclusion: summary."
+        ],
+        "task_response_traps": [
+          "Confusing causes with effects; solutions that do not match the problems."
+        ]
+      },
+      "DOUBLE_QUESTION": {
+        "question_forms": [
+          "Why is this happening? Is this a positive or negative development?",
+          "What are the reasons for this? What can be done to change it?",
+          "Why do you think this is? What effects does this have on {X}?"
+        ],
+        "expected_structure": [
+          "Introduction: paraphrase and briefly answer both questions.",
+          "Body 1: full answer to question 1.",
+          "Body 2: full answer to question 2.",
+          "Conclusion: restate both answers."
+        ],
+        "task_response_traps": [
+          "Answering only one question in depth (TR max 5)."
+        ]
+      }
+    },
+    "closing_rubric": "Give reasons for your answer and include any relevant examples from your own knowledge or experience.\n\nWrite at least 250 words."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "task_type": "SPEAKING_PART3",
+  "source_url": "",
+  "licence": "Original content",
+  "content": {
+    "theme": "Cities and public spaces",
+    "linked_part2_topic": "A relaxing outdoor place in your area",
+    "questions": [
+      { "sub_topic": "Public spaces", "question": "Why do some cities have more parks and green spaces than others?" },
+      { "sub_topic": "Public spaces", "question": "What are the advantages of having free public spaces in a city?" },
+      { "sub_topic": "Public spaces", "question": "Who should be responsible for looking after public spaces: the government or local residents?" },
+      { "sub_topic": "Public spaces", "question": "How have public spaces in your country changed in recent years?" },
+      { "sub_topic": "Relaxation and modern life", "question": "Why do some people find it difficult to relax nowadays?" },
+      { "sub_topic": "Relaxation and modern life", "question": "Do you think people who live in cities are more stressed than people in the countryside?" },
+      { "sub_topic": "Relaxation and modern life", "question": "Do you think the way people relax will change in the future?" }
+    ]
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "task_type": "GRAMMAR_LESSON",
+  "source_url": "",
+  "licence": "Original content",
+  "content": {
+    "area": "COMPLEX_SENTENCES",
+    "title": "Complex sentences: relative, adverbial and noun clauses",
+    "summary": "Band 6 means a mix of simple and complex sentences with some errors; band 7 requires a variety of complex structures and frequent error-free sentences, and band 8 a wide range used flexibly. Relative, adverbial and noun clauses are the backbone of that range, so controlling them accurately is the fastest route from 6.5 to 7 and above.",
+    "explanation": "### What counts as a complex sentence?\nA complex sentence has a main clause plus at least one **dependent clause**. Examiners reward variety used accurately, not length for its own sake. Three clause types do most of the work.\n\n### 1. Relative clauses\n**Defining** clauses say *which one*: no commas, and *that* is allowed.\n- *Students **who/that work part-time** often have less time for revision.*\n\n**Non-defining** clauses add extra information: commas on both sides, and never *that*.\n- *Tokyo, **which has over 13 million residents**, has an extremely efficient metro.*\n- Use **which** after a comma to comment on a whole clause: *Prices rose sharply, **which led to** a fall in demand.*\n\nAlso useful: *whose* (possession), *where* (place), *when* (time) and quantifier + *of which/whom*: *…five countries, **two of which** saw a decline.*\n\nCommon traps:\n- repeating the pronoun: ✗ *the book which I read **it***\n- using *what* instead of *which/that*: ✗ *the problem what we face*\n- adding commas that change the meaning: *People **who smoke** pay more* ≠ *People, who smoke, pay more.*\n\n### 2. Adverbial (subordinate) clauses\nThese show logical relationships — ideal for Task 2 arguments:\n- **Concession:** *although, even though, while, whereas*\n- **Reason:** *because, since, as*\n- **Condition:** *if, unless, provided that, as long as*\n- **Purpose / result:** *so that, so … that, such … that*\n- **Time:** *when, once, until, as soon as*\n\nRules: a subordinate clause cannot stand alone as a sentence, and *although* never pairs with *but* in the same sentence.\n\n### 3. Noun clauses\nA whole clause acts as the subject or object of the sentence:\n- ***What worries many parents** is screen time.*\n- *It is often argued **that university education should be free**.*\n- *Nobody knows **whether the policy will work**.*\n- *It is unclear **how automation will affect jobs**.*\n\nEmbedded questions use **statement word order**: *I don't know why **it is** so popular*, not ✗ *why is it so popular*.\n\n### Building range deliberately\nIn each Task 2 body paragraph, aim for one relative clause, one concessive or conditional clause and one noun clause. Keep most sentences under about 35 words so that control is not lost — a correct simple sentence scores better than a broken complex one.",
+    "key_rules": [
+      {
+        "rule": "Defining relative clauses take no commas and can use 'that'; non-defining clauses need commas and cannot use 'that'.",
+        "example": "Countries that invest in teacher training tend to perform well. Finland, which recruits its teachers from among its top graduates, is a clear example."
+      },
+      {
+        "rule": "Use 'which' after a comma to comment on the whole previous clause.",
+        "example": "Fuel prices doubled, which forced many airlines to raise their fares."
+      },
+      {
+        "rule": "Do not repeat the subject or object inside a relative clause.",
+        "example": "The policy that the government introduced last year has proved effective."
+      },
+      {
+        "rule": "A subordinate clause needs a main clause; never punctuate it as a separate sentence.",
+        "example": "Although online learning is flexible, it demands a great deal of self-discipline."
+      },
+      {
+        "rule": "Use only one connector for one relationship: 'although' and 'but' do not go together.",
+        "example": "Although the scheme was expensive, it reduced congestion significantly."
+      },
+      {
+        "rule": "Noun clauses and embedded questions use statement word order.",
+        "example": "It is not clear why the figures fell so sharply after 2015."
+      },
+      {
+        "rule": "Use 'quantifier + of which/whom' to combine information concisely.",
+        "example": "The survey covered 2,000 adults, most of whom used public transport daily."
+      }
+    ],
+    "common_mistakes": [
+      {
+        "wrong": "My brother, that lives in London, is a doctor.",
+        "right": "My brother, who lives in London, is a doctor.",
+        "why": "'That' cannot introduce a non-defining relative clause (one set off by commas)."
+      },
+      {
+        "wrong": "Although many people enjoy fast food, but it is unhealthy.",
+        "right": "Although many people enjoy fast food, it is unhealthy.",
+        "why": "'Although' already signals the contrast; adding 'but' creates a double connector."
+      },
+      {
+        "wrong": "Because the cost of living is rising. Many young people live with their parents.",
+        "right": "Because the cost of living is rising, many young people live with their parents.",
+        "why": "A 'because' clause is a fragment on its own; attach it to the main clause with a comma."
+      },
+      {
+        "wrong": "This is the city which I grew up in it.",
+        "right": "This is the city (that) I grew up in. (or: the city where I grew up)",
+        "why": "The relative pronoun already replaces the object, so repeating 'it' is ungrammatical."
+      },
+      {
+        "wrong": "Many people wonder why do governments not spend more on health.",
+        "right": "Many people wonder why governments do not spend more on health.",
+        "why": "Embedded questions use statement word order, with no question inversion."
+      },
+      {
+        "wrong": "People, who smoke, should pay more for health insurance.",
+        "right": "People who smoke should pay more for health insurance.",
+        "why": "The clause defines which people; commas wrongly suggest that all people smoke."
+      }
+    ],
+    "ielts_examples": [
+      {
+        "context": "WRITING_TASK1",
+        "sentence": "The survey covered five countries, three of which recorded a rise in car ownership, with China showing by far the steepest increase."
+      },
+      {
+        "context": "WRITING_TASK2",
+        "sentence": "Although remote work offers greater flexibility, employees who rarely meet colleagues in person may find it harder to build professional networks."
+      },
+      {
+        "context": "WRITING_TASK2",
+        "sentence": "What many critics overlook is that public transport schemes, which are often dismissed as unprofitable, generate substantial indirect savings for the economy."
+      },
+      {
+        "context": "SPEAKING_PART2",
+        "sentence": "The person I'd like to talk about is my former maths teacher, who made a subject I used to hate genuinely interesting."
+      },
+      {
+        "context": "SPEAKING_PART3",
+        "sentence": "I'm not sure whether banning junk-food adverts would work, because children see so much advertising online that it's almost impossible to regulate."
+      }
+    ]
+  }
+}

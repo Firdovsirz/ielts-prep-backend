@@ -1,0 +1,431 @@
+{
+  "task_type": "LISTENING_SECTION",
+  "source_url": "",
+  "licence": "Original content",
+  "content": {
+    "section": 3,
+    "title": "Planning a field trip presentation",
+    "topic": "Environmental science: presenting a salt marsh restoration field trip",
+    "context_description": "You will hear two environmental science students, Kirra and Declan, planning a seminar presentation about a field trip to a salt marsh restoration site.",
+    "speakers": [
+      {
+        "id": "S1",
+        "name": "Kirra",
+        "gender": "female",
+        "accent": "australian",
+        "role": "Environmental science student"
+      },
+      {
+        "id": "S2",
+        "name": "Declan",
+        "gender": "male",
+        "accent": "irish",
+        "role": "Environmental science student"
+      }
+    ],
+    "script": [
+      {
+        "speaker": "S2",
+        "text": "Hi Kirra. Have you got a few minutes to plan our seminar presentation on the field trip? It's due a week on Friday."
+      },
+      {
+        "speaker": "S1",
+        "text": "Sure, Declan. I've got my notes here. So we've definitely settled on the salt marsh at Pelham Creek rather than the mudflats, haven't we?"
+      },
+      {
+        "speaker": "S2",
+        "text": "Yes, though remind me why we picked it. Was it because it's only 20 minutes from campus?"
+      },
+      {
+        "speaker": "S1",
+        "text": "Well, that's handy, but no. And it wasn't about the amount of data either, because the mudflat team collected far more measurements than we did. It's that the marsh is where you can really see how much has changed since the old sea wall was taken down."
+      },
+      {
+        "speaker": "S2",
+        "text": "Right, of course. OK, so how should we start? I was thinking we could open with that short video clip I filmed from the boardwalk."
+      },
+      {
+        "speaker": "S1",
+        "text": "Mm, I'm not sure about that. The speakers in Seminar Room 4 barely work, and it would use up a whole minute. What about starting with a map of the estuary?"
+      },
+      {
+        "speaker": "S2",
+        "text": "Everyone starts with a map, though. How about we just ask the audience something, like, how many of you have ever walked across a salt marsh? It gets people involved straight away."
+      },
+      {
+        "speaker": "S1",
+        "text": "Actually, I like that. Let's go with the question, and the map can come later when we explain where we sampled."
+      },
+      {
+        "speaker": "S2",
+        "text": "Great. Next is the methods section, and that's the part I'm less happy with."
+      },
+      {
+        "speaker": "S1",
+        "text": "Why? Do you think the quadrat sampling will be too technical for people?"
+      },
+      {
+        "speaker": "S2",
+        "text": "Not really, they're all doing the same degree. The trouble is that Dr Okafor went through exactly the same method in last week's lecture, so we'd just be telling everyone what they already know."
+      },
+      {
+        "speaker": "S1",
+        "text": "Fair point. We could cut it down to 1 slide and spend the time on the salinity results instead, since we're confident about those."
+      },
+      {
+        "speaker": "S2",
+        "text": "Good idea. And what about the photos? We took about 60 between us."
+      },
+      {
+        "speaker": "S1",
+        "text": "I was going to print the best ones on a handout so people could look at them closely."
+      },
+      {
+        "speaker": "S2",
+        "text": "Hmm, handouts tend to get left on the desk. And I did wonder if we should go back and retake a few, since some of mine are blurry."
+      },
+      {
+        "speaker": "S1",
+        "text": "There's no need, we've got plenty of sharp ones. What if we put each of the old photos from 2014 next to one of ours on the same slide?"
+      },
+      {
+        "speaker": "S2",
+        "text": "Oh, that's much better. Pairing them up like that makes the change obvious at a glance. Let's do that."
+      },
+      {
+        "speaker": "S1",
+        "text": "Now, the bird survey. I think we should cut that section down."
+      },
+      {
+        "speaker": "S2",
+        "text": "Is that because the counts aren't reliable? We only did them on one morning."
+      },
+      {
+        "speaker": "S1",
+        "text": "No, the ranger checked our numbers and said they were fine. And it's certainly relevant, because the birds coming back is one of the main signs that the restoration is working. It's just that Ana's group is giving their whole talk on bird life at the estuary, so we'd be repeating them."
+      },
+      {
+        "speaker": "S2",
+        "text": "Fair enough. One slide on birds, then, and we'll refer people to their talk."
+      },
+      {
+        "speaker": "S1",
+        "text": "OK. The last thing is the list of sources. Dr Okafor wants us to comment briefly on each one we used."
+      },
+      {
+        "speaker": "S2",
+        "text": "Right. Let's start with the ranger's talk on the first morning. I found it a bit general, to be honest."
+      },
+      {
+        "speaker": "S1",
+        "text": "Really? I thought it was the most useful thing we heard. She was the one who explained how the land was drained for farming in about 1850 and then deliberately flooded again in 2014. Without that, we wouldn't have a background section at all."
+      },
+      {
+        "speaker": "S2",
+        "text": "Fair enough, I'll give you that. What about the council report?"
+      },
+      {
+        "speaker": "S1",
+        "text": "Well, it wasn't hard to find, it's free to download. But it says the marsh has grown by 40 hectares, while the measurements we took from satellite images in class put it at about 25."
+      },
+      {
+        "speaker": "S2",
+        "text": "So we should point out that the figures don't match."
+      },
+      {
+        "speaker": "S1",
+        "text": "Definitely. Then there are the field notes from previous years' trips. Was it Dr Okafor who suggested those?"
+      },
+      {
+        "speaker": "S2",
+        "text": "No, that was Ana. And getting hold of them was a nightmare. They can't be borrowed, and the archive room is only open on Thursday afternoons, so it took us 3 weeks."
+      },
+      {
+        "speaker": "S1",
+        "text": "Mm. Next, the documentary we watched before the trip. I know you liked the filming."
+      },
+      {
+        "speaker": "S2",
+        "text": "The filming was lovely, but none of it would work on our slides, because most of it showed mangrove forests in the tropics. There was hardly anything about marshes like ours, so it was really too broad to help us much."
+      },
+      {
+        "speaker": "S1",
+        "text": "Agreed. And finally, the volunteer group's website. I assumed it would be out of date. Lots of those sites are abandoned after a year or two."
+      },
+      {
+        "speaker": "S2",
+        "text": "So did I. But in fact they'd posted the results of a plant survey only last month. It's more current than the council report."
+      },
+      {
+        "speaker": "S1",
+        "text": "Great. I'll write those comments up tonight, and we can rehearse on Monday."
+      },
+      {
+        "speaker": "S2",
+        "text": "Perfect. See you then."
+      }
+    ],
+    "parts": [
+      {
+        "questions_from": 1,
+        "questions_to": 5,
+        "start_line": 0
+      },
+      {
+        "questions_from": 6,
+        "questions_to": 10,
+        "start_line": 21
+      }
+    ],
+    "question_groups": [
+      {
+        "group_id": "g1",
+        "question_type": "MULTIPLE_CHOICE",
+        "instructions": "Questions 1–5\nChoose the correct letter, A, B or C.",
+        "word_limit": 0,
+        "number_allowed": false,
+        "options": [],
+        "context": "",
+        "table": {
+          "title": "",
+          "columns": [],
+          "rows": []
+        },
+        "flow_steps": [],
+        "diagram": {
+          "title": "",
+          "nodes": [],
+          "edges": []
+        },
+        "map": {
+          "title": "",
+          "features": [],
+          "markers": []
+        },
+        "questions": [
+          {
+            "number": 1,
+            "prompt": "Why did the students choose the salt marsh for their presentation?",
+            "options": [
+              {
+                "key": "A",
+                "text": "It is close to the university."
+              },
+              {
+                "key": "B",
+                "text": "They collected the most data there."
+              },
+              {
+                "key": "C",
+                "text": "The changes there are clearly visible."
+              }
+            ],
+            "answers": [
+              "C"
+            ],
+            "justification_span": "It's that the marsh is where you can really see how much has changed since the old sea wall was taken down.",
+            "location": "3"
+          },
+          {
+            "number": 2,
+            "prompt": "How do the students decide to begin their presentation?",
+            "options": [
+              {
+                "key": "A",
+                "text": "by showing a short film"
+              },
+              {
+                "key": "B",
+                "text": "by asking the audience a question"
+              },
+              {
+                "key": "C",
+                "text": "by displaying a map of the area"
+              }
+            ],
+            "answers": [
+              "B"
+            ],
+            "justification_span": "Let's go with the question, and the map can come later when we explain where we sampled.",
+            "location": "7"
+          },
+          {
+            "number": 3,
+            "prompt": "Declan is unhappy with the methods section because",
+            "options": [
+              {
+                "key": "A",
+                "text": "it may be too technical for the audience."
+              },
+              {
+                "key": "B",
+                "text": "it repeats material from a recent lecture."
+              },
+              {
+                "key": "C",
+                "text": "it relies on results they are unsure about."
+              }
+            ],
+            "answers": [
+              "B"
+            ],
+            "justification_span": "The trouble is that Dr Okafor went through exactly the same method in last week's lecture, so we'd just be telling everyone what they already know.",
+            "location": "10"
+          },
+          {
+            "number": 4,
+            "prompt": "What do the students agree to do with the photographs?",
+            "options": [
+              {
+                "key": "A",
+                "text": "display them alongside older pictures"
+              },
+              {
+                "key": "B",
+                "text": "take some of them again"
+              },
+              {
+                "key": "C",
+                "text": "print them on a handout"
+              }
+            ],
+            "answers": [
+              "A"
+            ],
+            "justification_span": "Pairing them up like that makes the change obvious at a glance.",
+            "location": "16"
+          },
+          {
+            "number": 5,
+            "prompt": "Why do the students decide to shorten the section on birds?",
+            "options": [
+              {
+                "key": "A",
+                "text": "The bird counts may be inaccurate."
+              },
+              {
+                "key": "B",
+                "text": "Another group is covering the subject in detail."
+              },
+              {
+                "key": "C",
+                "text": "Birds are not closely linked to the restoration."
+              }
+            ],
+            "answers": [
+              "B"
+            ],
+            "justification_span": "It's just that Ana's group is giving their whole talk on bird life at the estuary, so we'd be repeating them.",
+            "location": "19"
+          }
+        ]
+      },
+      {
+        "group_id": "g2",
+        "question_type": "MATCHING",
+        "instructions": "Questions 6–10\nWhat comment do the students make about each of the following sources?\nChoose FIVE answers from the box and write the correct letter, A–G, next to Questions 6–10.",
+        "word_limit": 0,
+        "number_allowed": false,
+        "options": [
+          {
+            "key": "A",
+            "text": "It was more recent than they had expected."
+          },
+          {
+            "key": "B",
+            "text": "Its figures did not match those from another source."
+          },
+          {
+            "key": "C",
+            "text": "It was difficult to obtain."
+          },
+          {
+            "key": "D",
+            "text": "It explained the history of the site."
+          },
+          {
+            "key": "E",
+            "text": "It was too general to be useful."
+          },
+          {
+            "key": "F",
+            "text": "It was recommended by their tutor."
+          },
+          {
+            "key": "G",
+            "text": "It provided images they could use."
+          }
+        ],
+        "context": "",
+        "table": {
+          "title": "",
+          "columns": [],
+          "rows": []
+        },
+        "flow_steps": [],
+        "diagram": {
+          "title": "",
+          "nodes": [],
+          "edges": []
+        },
+        "map": {
+          "title": "",
+          "features": [],
+          "markers": []
+        },
+        "questions": [
+          {
+            "number": 6,
+            "prompt": "the ranger's talk",
+            "options": [],
+            "answers": [
+              "D"
+            ],
+            "justification_span": "She was the one who explained how the land was drained for farming in about 1850 and then deliberately flooded again in 2014.",
+            "location": "23"
+          },
+          {
+            "number": 7,
+            "prompt": "the council report",
+            "options": [],
+            "answers": [
+              "B"
+            ],
+            "justification_span": "But it says the marsh has grown by 40 hectares, while the measurements we took from satellite images in class put it at about 25.",
+            "location": "25"
+          },
+          {
+            "number": 8,
+            "prompt": "field notes from earlier student trips",
+            "options": [],
+            "answers": [
+              "C"
+            ],
+            "justification_span": "And getting hold of them was a nightmare.",
+            "location": "28"
+          },
+          {
+            "number": 9,
+            "prompt": "a documentary film",
+            "options": [],
+            "answers": [
+              "E"
+            ],
+            "justification_span": "There was hardly anything about marshes like ours, so it was really too broad to help us much.",
+            "location": "30"
+          },
+          {
+            "number": 10,
+            "prompt": "the volunteer group's website",
+            "options": [],
+            "answers": [
+              "A"
+            ],
+            "justification_span": "But in fact they'd posted the results of a plant survey only last month.",
+            "location": "32"
+          }
+        ]
+      }
+    ]
+  }
+}

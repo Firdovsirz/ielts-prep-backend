@@ -1,0 +1,401 @@
+{
+  "task_type": "READING_PASSAGE",
+  "source_url": "https://en.wikipedia.org/wiki/Stethoscope",
+  "licence": "CC BY-SA 4.0 (topic seed only; passage text is original)",
+  "content": {
+    "title": "Listening to the Body: A Short History of the Stethoscope",
+    "topic": "history of the stethoscope",
+    "difficulty": 1,
+    "cefr": "B2",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "Few objects are as closely linked with the medical profession as the stethoscope. Hung around the neck of a doctor or nurse, it serves almost as a badge of office, and one study has even suggested that patients judge practitioners who carry one to be more trustworthy than those pictured with other medical equipment. Yet this familiar instrument is only about two hundred years old, and its earliest form looked very little like the Y-shaped device of rubber and metal that we recognise today."
+      },
+      {
+        "label": "B",
+        "text": "Before the nineteenth century, a physician who wished to hear the sounds inside a patient's chest had only one option: to press an ear directly against the body. This method had obvious drawbacks. It worked poorly when patients were overweight, it was often unpleasant for both people involved, and it could be considered improper, particularly when the patient was a young woman. It was precisely this situation that confronted the French physician René Laennec at the Necker Hospital in Paris in 1816. Reluctant to place his head on the chest of a young woman who appeared to have heart disease, he recalled a well-known effect: when someone scratches one end of a long wooden beam, a listener with an ear pressed against the other end can hear the sound distinctly. A later, more romantic version of the story claims that he had watched children playing this game in a courtyard, but his own account makes no mention of it. Laennec rolled several sheets of paper into a tight tube, placed one end on the woman's chest and the other against his ear, and was delighted to find that her heartbeat sounded far clearer than it ever had without it."
+      },
+      {
+        "label": "C",
+        "text": "Laennec, who was a skilled woodworker, soon replaced the paper with something more durable. After experimenting with various materials, he settled on a hollow wooden cylinder about 25 centimetres long, which he made himself on a lathe and which could be unscrewed into two sections so that it would fit in a pocket. He named his invention the 'stethoscope', from the Greek words for 'chest' and 'to look at'. Over the next three years he used it to examine hundreds of patients, carefully comparing the sounds he had heard with the damage he later found in the lungs and hearts of those who died, so that he could work out what each type of sound indicated. In 1819 he published his findings in a lengthy book, and for a small additional sum, buyers could obtain a stethoscope along with it."
+      },
+      {
+        "label": "D",
+        "text": "The new technique was not welcomed everywhere at once. Some doctors dismissed the stethoscope as a passing fashion, while others complained that it took a great deal of practice to make sense of the sounds it revealed. Nevertheless, its value in identifying diseases of the lungs, especially tuberculosis, gradually won over most of the profession. Sadly, Laennec himself died of tuberculosis in 1826, at the age of just 45."
+      },
+      {
+        "label": "E",
+        "text": "During the decades that followed, the rigid tube gradually gave way to more convenient designs. In 1840, the English physician Golding Bird described a model with a flexible tube, which meant that the doctor no longer had to bend over the patient so awkwardly. It still had a single earpiece, however. The first instrument designed for both ears was produced in 1851 by the Irish doctor Arthur Leared, and a year later George Cammann, a physician working in New York, refined the idea into a version that could be manufactured in large numbers. Cammann's binaural stethoscope established the basic shape of the instrument; although it has been improved many times since, it has not changed in any fundamental way."
+      },
+      {
+        "label": "F",
+        "text": "The twentieth century brought further refinements. In the 1940s, two American doctors, Maurice Rappaport and Howard Sprague, designed a stethoscope with a chest piece that had two sides: one for listening to the lungs and the other for the heart. Although it was heavy, their model became the standard against which other stethoscopes were judged. In the early 1960s, David Littmann, a professor at Harvard Medical School, introduced a lighter instrument with better acoustics, and his name is still one of the best known in the field. More recently, electronic stethoscopes have appeared that can amplify faint sounds, filter out background noise and even record a heartbeat so that it can be sent to a specialist elsewhere."
+      },
+      {
+        "label": "G",
+        "text": "Not every early design has disappeared, however. Midwives in many parts of the world still use a simple trumpet-shaped instrument, not unlike Laennec's wooden cylinder, to listen to the heartbeat of an unborn baby. Meanwhile, some medical educators are concerned that doctors are becoming less skilled at interpreting what they hear, as they rely increasingly on scans and other imaging technology. Several medical schools have responded by giving students extra training in listening, in the belief that a stethoscope, used by an experienced ear, can still reveal a great deal at almost no cost."
+      }
+    ],
+    "question_groups": [
+      {
+        "group_id": "g1",
+        "question_type": "MATCHING_INFORMATION",
+        "instructions": "Questions 1–4\nReading Passage 1 has seven paragraphs, A–G.\nWhich paragraph contains the following information?\nWrite the correct letter, A–G, in boxes 1–4 on your answer sheet.\nNB You may use any letter more than once.",
+        "word_limit": 0,
+        "number_allowed": false,
+        "options": [
+          {
+            "key": "A",
+            "text": "Paragraph A"
+          },
+          {
+            "key": "B",
+            "text": "Paragraph B"
+          },
+          {
+            "key": "C",
+            "text": "Paragraph C"
+          },
+          {
+            "key": "D",
+            "text": "Paragraph D"
+          },
+          {
+            "key": "E",
+            "text": "Paragraph E"
+          },
+          {
+            "key": "F",
+            "text": "Paragraph F"
+          },
+          {
+            "key": "G",
+            "text": "Paragraph G"
+          }
+        ],
+        "context": "",
+        "table": {
+          "title": "",
+          "columns": [],
+          "rows": []
+        },
+        "flow_steps": [],
+        "diagram": {
+          "title": "",
+          "nodes": [],
+          "edges": []
+        },
+        "map": {
+          "title": "",
+          "features": [],
+          "markers": []
+        },
+        "questions": [
+          {
+            "number": 1,
+            "prompt": "the illness that caused the death of the stethoscope's inventor",
+            "options": [],
+            "answers": [
+              "D"
+            ],
+            "justification_span": "Sadly, Laennec himself died of tuberculosis in 1826, at the age of just 45.",
+            "location": "D"
+          },
+          {
+            "number": 2,
+            "prompt": "a description of how an early instrument was made easy to carry",
+            "options": [],
+            "answers": [
+              "C"
+            ],
+            "justification_span": "After experimenting with various materials, he settled on a hollow wooden cylinder about 25 centimetres long, which he made himself on a lathe and which could be unscrewed into two sections so that it would fit in a pocket.",
+            "location": "C"
+          },
+          {
+            "number": 3,
+            "prompt": "a reference to the effect a stethoscope may have on how patients view medical staff",
+            "options": [],
+            "answers": [
+              "A"
+            ],
+            "justification_span": "Hung around the neck of a doctor or nurse, it serves almost as a badge of office, and one study has even suggested that patients judge practitioners who carry one to be more trustworthy than those pictured with other medical equipment.",
+            "location": "A"
+          },
+          {
+            "number": 4,
+            "prompt": "reasons why some doctors were slow to accept the stethoscope",
+            "options": [],
+            "answers": [
+              "D"
+            ],
+            "justification_span": "Some doctors dismissed the stethoscope as a passing fashion, while others complained that it took a great deal of practice to make sense of the sounds it revealed.",
+            "location": "D"
+          }
+        ]
+      },
+      {
+        "group_id": "g2",
+        "question_type": "TABLE_COMPLETION",
+        "instructions": "Questions 5–9\nComplete the table below.\nChoose NO MORE THAN TWO WORDS AND/OR A NUMBER from the passage for each answer.\nWrite your answers in boxes 5–9 on your answer sheet.",
+        "word_limit": 2,
+        "number_allowed": true,
+        "options": [],
+        "context": "",
+        "table": {
+          "title": "Key stages in the development of the stethoscope",
+          "columns": [
+            "Date",
+            "Person",
+            "Design",
+            "Notes"
+          ],
+          "rows": [
+            [
+              "1816",
+              "René Laennec",
+              "a tube made of rolled {{5}}",
+              "heartbeat much easier to hear than with the ear alone"
+            ],
+            [
+              "{{6}}",
+              "René Laennec",
+              "wooden cylinder described in a long book",
+              "buyers of the book could also purchase the instrument"
+            ],
+            [
+              "1840",
+              "Golding Bird",
+              "flexible tube",
+              "had only one {{7}}"
+            ],
+            [
+              "1851",
+              "{{8}}",
+              "first binaural model",
+              "could be used with both ears"
+            ],
+            [
+              "1852",
+              "George Cammann",
+              "improved binaural model",
+              "suitable for mass production"
+            ],
+            [
+              "1940s",
+              "Rappaport and Sprague",
+              "two-sided chest piece",
+              "became the standard design, despite being {{9}}"
+            ],
+            [
+              "early 1960s",
+              "David Littmann",
+              "lighter model",
+              "improved sound quality"
+            ]
+          ]
+        },
+        "flow_steps": [],
+        "diagram": {
+          "title": "",
+          "nodes": [],
+          "edges": []
+        },
+        "map": {
+          "title": "",
+          "features": [],
+          "markers": []
+        },
+        "questions": [
+          {
+            "number": 5,
+            "prompt": "",
+            "options": [],
+            "answers": [
+              "paper"
+            ],
+            "justification_span": "Laennec rolled several sheets of paper into a tight tube, placed one end on the woman's chest and the other against his ear, and was delighted to find that her heartbeat sounded far clearer than it ever had without it.",
+            "location": "B"
+          },
+          {
+            "number": 6,
+            "prompt": "",
+            "options": [],
+            "answers": [
+              "1819"
+            ],
+            "justification_span": "In 1819 he published his findings in a lengthy book, and for a small additional sum, buyers could obtain a stethoscope along with it.",
+            "location": "C"
+          },
+          {
+            "number": 7,
+            "prompt": "",
+            "options": [],
+            "answers": [
+              "earpiece",
+              "single earpiece"
+            ],
+            "justification_span": "It still had a single earpiece, however.",
+            "location": "E"
+          },
+          {
+            "number": 8,
+            "prompt": "",
+            "options": [],
+            "answers": [
+              "Arthur Leared",
+              "Leared"
+            ],
+            "justification_span": "The first instrument designed for both ears was produced in 1851 by the Irish doctor Arthur Leared, and a year later George Cammann, a physician working in New York, refined the idea into a version that could be manufactured in large numbers.",
+            "location": "E"
+          },
+          {
+            "number": 9,
+            "prompt": "",
+            "options": [],
+            "answers": [
+              "heavy"
+            ],
+            "justification_span": "Although it was heavy, their model became the standard against which other stethoscopes were judged.",
+            "location": "F"
+          }
+        ]
+      },
+      {
+        "group_id": "g3",
+        "question_type": "MULTIPLE_CHOICE",
+        "instructions": "Questions 10–13\nChoose the correct letter, A, B, C or D.\nWrite the correct letter in boxes 10–13 on your answer sheet.",
+        "word_limit": 0,
+        "number_allowed": false,
+        "options": [],
+        "context": "",
+        "table": {
+          "title": "",
+          "columns": [],
+          "rows": []
+        },
+        "flow_steps": [],
+        "diagram": {
+          "title": "",
+          "nodes": [],
+          "edges": []
+        },
+        "map": {
+          "title": "",
+          "features": [],
+          "markers": []
+        },
+        "questions": [
+          {
+            "number": 10,
+            "prompt": "What does the writer say about the traditional method of listening to a patient's chest?",
+            "options": [
+              {
+                "key": "A",
+                "text": "It required a long period of training."
+              },
+              {
+                "key": "B",
+                "text": "It was not effective with every patient."
+              },
+              {
+                "key": "C",
+                "text": "It had been banned in some hospitals."
+              },
+              {
+                "key": "D",
+                "text": "It produced clearer sounds than a tube did."
+              }
+            ],
+            "answers": [
+              "B"
+            ],
+            "justification_span": "It worked poorly when patients were overweight, it was often unpleasant for both people involved, and it could be considered improper, particularly when the patient was a young woman.",
+            "location": "B"
+          },
+          {
+            "number": 11,
+            "prompt": "According to Laennec's own account, his first instrument was inspired by",
+            "options": [
+              {
+                "key": "A",
+                "text": "a device used by people who had difficulty hearing."
+              },
+              {
+                "key": "B",
+                "text": "a game he had seen some children playing."
+              },
+              {
+                "key": "C",
+                "text": "what he knew about how sound travels through wood."
+              },
+              {
+                "key": "D",
+                "text": "a suggestion made by another doctor at the hospital."
+              }
+            ],
+            "answers": [
+              "C"
+            ],
+            "justification_span": "Reluctant to place his head on the chest of a young woman who appeared to have heart disease, he recalled a well-known effect: when someone scratches one end of a long wooden beam, a listener with an ear pressed against the other end can hear the sound distinctly.",
+            "location": "B"
+          },
+          {
+            "number": 12,
+            "prompt": "Laennec examined the organs of patients who had died in order to",
+            "options": [
+              {
+                "key": "A",
+                "text": "check whether his instrument had caused any harm."
+              },
+              {
+                "key": "B",
+                "text": "collect material for teaching his students."
+              },
+              {
+                "key": "C",
+                "text": "discover how tuberculosis was passed on."
+              },
+              {
+                "key": "D",
+                "text": "establish the meaning of the different sounds he had heard."
+              }
+            ],
+            "answers": [
+              "D"
+            ],
+            "justification_span": "Over the next three years he used it to examine hundreds of patients, carefully comparing the sounds he had heard with the damage he later found in the lungs and hearts of those who died, so that he could work out what each type of sound indicated.",
+            "location": "C"
+          },
+          {
+            "number": 13,
+            "prompt": "What concern do some medical educators have?",
+            "options": [
+              {
+                "key": "A",
+                "text": "Doctors are losing the ability to interpret body sounds."
+              },
+              {
+                "key": "B",
+                "text": "Electronic stethoscopes are too costly for many hospitals."
+              },
+              {
+                "key": "C",
+                "text": "Midwives are using instruments that are out of date."
+              },
+              {
+                "key": "D",
+                "text": "Students spend too much time learning to use scans."
+              }
+            ],
+            "answers": [
+              "A"
+            ],
+            "justification_span": "Meanwhile, some medical educators are concerned that doctors are becoming less skilled at interpreting what they hear, as they rely increasingly on scans and other imaging technology.",
+            "location": "G"
+          }
+        ]
+      }
+    ]
+  }
+}

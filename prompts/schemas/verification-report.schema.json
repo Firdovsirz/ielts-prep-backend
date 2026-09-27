@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "verification-report",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["blind_answers", "issues", "verdict", "summary"],
+  "properties": {
+    "blind_answers": {
+      "type": "array",
+      "description": "One entry per question (or exercise item) answered blind, without the key. Empty for review-only items.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "answer", "confidence", "evidence"],
+        "properties": {
+          "id": {"type": "string", "description": "Question number (\"7\") or exercise item id."},
+          "answer": {"type": "string", "description": "Answer in the exact form a candidate must write: option key, TRUE/FALSE/NOT GIVEN, YES/NO/NOT GIVEN, or words copied from the text within the word limit."},
+          "confidence": {"type": "string", "enum": ["high", "medium", "low"]},
+          "evidence": {"type": "string", "description": "Short verbatim quote that supports the answer (for NOT GIVEN, what the text does and does not say)."}
+        }
+      }
+    },
+    "issues": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "severity", "kind", "detail"],
+        "properties": {
+          "id": {"type": "string", "description": "Question number / item id, or \"item\" for whole-item problems."},
+          "severity": {"type": "string", "enum": ["blocker", "minor"], "description": "blocker = a real candidate could dispute the answer, or the item breaks IELTS format/accuracy."},
+          "kind": {"type": "string", "enum": ["AMBIGUOUS", "MULTIPLE_CORRECT", "NO_CORRECT_ANSWER", "ANSWER_LEAKED", "WORD_LIMIT", "ORDER", "RUBRIC", "FORMAT", "FACTUAL_ERROR", "REGISTER", "DIFFICULTY", "SENSITIVE", "OTHER"]},
+          "detail": {"type": "string"}
+        }
+      }
+    },
+    "verdict": {"type": "string", "enum": ["PASS", "FAIL"], "description": "PASS only when there are no blocker issues."},
+    "summary": {"type": "string", "description": "One or two sentences."}
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "description": "Grammar curriculum areas assessed under Grammatical Range & Accuracy, and the error subtypes that the Writing/Speaking graders must use when tagging grammar errors. Every grammar error subtype maps to exactly one area; the Grammar module groups the error log by these subtypes.",
+  "areas": [
+    {
+      "key": "TENSE_ASPECT",
+      "name": "Tense and aspect",
+      "focus": "Present perfect vs past simple, future forms, tense consistency in Task 1 descriptions of past data and forecasts.",
+      "subtypes": ["tense_choice", "present_perfect_vs_past_simple", "tense_consistency", "future_forms", "verb_form"]
+    },
+    {
+      "key": "AGREEMENT_ARTICLES",
+      "name": "Subject–verb agreement and articles",
+      "focus": "a/an/the/zero article (the highest-frequency error for many candidates) and agreement with collective nouns, 'the number of' vs 'a number of', long subjects.",
+      "subtypes": ["subject_verb_agreement", "article_missing", "article_unnecessary", "article_wrong"]
+    },
+    {
+      "key": "COMPLEX_SENTENCES",
+      "name": "Complex sentences",
+      "focus": "Defining and non-defining relative clauses, subordinate (adverbial) clauses, noun clauses.",
+      "subtypes": ["relative_clause", "subordinate_clause", "noun_clause"]
+    },
+    {
+      "key": "CONDITIONALS",
+      "name": "Conditionals and hypothetical language",
+      "focus": "Zero/first/second/third and mixed conditionals; wish, if only, it's time, supposing — for Part 3 and opinion essays.",
+      "subtypes": ["conditional_form", "hypothetical_language"]
+    },
+    {
+      "key": "PASSIVE_VOICE",
+      "name": "Passive voice",
+      "focus": "Passive forms across tenses, especially for Task 1 process diagrams; choosing active vs passive; impersonal passives (it is believed that…).",
+      "subtypes": ["passive_form", "active_passive_choice"]
+    },
+    {
+      "key": "MODALS_HEDGING",
+      "name": "Modals and hedging",
+      "focus": "would, could, might, may, tend to, is likely to, appears to — academic caution and speculation.",
+      "subtypes": ["modal_verb", "hedging"]
+    },
+    {
+      "key": "COMPARISON_TRENDS",
+      "name": "Comparatives, superlatives and language of change",
+      "focus": "rose sharply, a gradual decline, plateaued, peaked at, twice as many as, the largest proportion — Task 1 data language.",
+      "subtypes": ["comparative_superlative", "trend_language"]
+    },
+    {
+      "key": "COHESION_LINKING",
+      "name": "Cohesive devices and linking words",
+      "focus": "Correct meaning and punctuation of linkers, referencing, and avoiding mechanical over-use (a common band-6 trap).",
+      "subtypes": ["linking_word_misuse", "linking_punctuation", "reference_pronoun"]
+    },
+    {
+      "key": "ADVANCED_STRUCTURES",
+      "name": "Reported speech, inversion and cleft sentences",
+      "focus": "Band-8 structures: reported speech, negative/conditional inversion, it-clefts and wh-clefts, fronting, participle clauses.",
+      "subtypes": ["reported_speech", "inversion", "cleft_sentence", "participle_clause"]
+    },
+    {
+      "key": "PREPOSITIONS_PHRASAL",
+      "name": "Prepositions and phrasal verbs",
+      "focus": "Prepositions of time/place/change (by, to, from, at, of), dependent prepositions (responsible for, impact on), phrasal verbs.",
+      "subtypes": ["preposition", "dependent_preposition", "phrasal_verb"]
+    },
+    {
+      "key": "PUNCTUATION",
+      "name": "Punctuation and sentence boundaries",
+      "focus": "Comma splices, run-on sentences, fragments, commas after introductory clauses and around non-defining clauses, apostrophes, capitals.",
+      "subtypes": ["comma_splice", "run_on_sentence", "sentence_fragment", "comma_usage", "apostrophe", "capitalisation"]
+    },
+    {
+      "key": "COUNTABILITY_QUANTIFIERS",
+      "name": "Countable/uncountable nouns and quantifiers",
+      "focus": "information/advice/research/equipment, much vs many, fewer vs less, a large number/amount of, plural forms.",
+      "subtypes": ["countable_uncountable", "quantifier", "plural_form"]
+    },
+    {
+      "key": "WORD_FORMATION",
+      "name": "Word formation",
+      "focus": "Noun/verb/adjective/adverb families (economy, economic, economical, economically), -ing/-ed adjectives, negative prefixes.",
+      "subtypes": ["word_form", "participle_adjective", "prefix_suffix"]
+    }
+  ],
+  "non_grammar_subtypes": {
+    "vocabulary": ["word_choice", "collocation", "register", "spelling", "repetition", "precision", "idiom_misuse"],
+    "coherence": ["paragraphing", "progression", "referencing", "cohesive_device_overuse", "topic_sentence", "overview_placement"],
+    "task": ["overview_missing", "position_unclear", "underdeveloped_idea", "irrelevant_content", "under_length", "data_accuracy", "missing_bullet_point", "tone_register"]
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "task_type": "GRAMMAR_EXERCISE",
+  "source_url": "",
+  "licence": "Original content",
+  "content": {
+    "area": "WORD_FORMATION",
+    "exercise_type": "GAP_FILL",
+    "title": "Word families: choosing the correct form",
+    "instructions": "Complete each sentence with the correct form of the word in CAPITALS in brackets. Write ONE word. First decide which word class the gap needs (noun, verb, adjective or adverb), then check whether the meaning needs a negative prefix.",
+    "items": [
+      {
+        "id": "1",
+        "prompt": "Tourism brings significant ___ (ECONOMY) benefits to coastal towns.",
+        "options": [],
+        "accepted_answers": ["economic"],
+        "model_answer": "Tourism brings significant economic benefits to coastal towns.",
+        "check_mode": "EXACT",
+        "explanation": "An adjective is needed before the noun 'benefits'. 'Economic' means 'relating to the economy'; 'economical' means 'saving money or resources'. They are not interchangeable."
+      },
+      {
+        "id": "2",
+        "prompt": "Buying second-hand clothes is not only environmentally friendly but also very ___ (ECONOMY).",
+        "options": [],
+        "accepted_answers": ["economical"],
+        "model_answer": "Buying second-hand clothes is not only environmentally friendly but also very economical.",
+        "check_mode": "EXACT",
+        "explanation": "After 'very', an adjective is needed, and the meaning here is 'cheap / not wasteful', so the answer is 'economical'. 'Very economic' is wrong because 'economic' is a classifying adjective that cannot be graded."
+      },
+      {
+        "id": "3",
+        "prompt": "Sales of electric vehicles rose ___ (DRAMATIC) between 2019 and 2023.",
+        "options": [],
+        "accepted_answers": ["dramatically"],
+        "model_answer": "Sales of electric vehicles rose dramatically between 2019 and 2023.",
+        "check_mode": "EXACT",
+        "explanation": "An adverb is needed to describe the verb 'rose' (rose dramatically). With a noun, use the adjective instead (a dramatic rise). Band-6 scripts often mix up these two Task 1 patterns."
+      },
+      {
+        "id": "4",
+        "prompt": "Many students find statistics ___ (CONFUSE) when they first start university.",
+        "options": [],
+        "accepted_answers": ["confusing"],
+        "model_answer": "Many students find statistics confusing when they first start university.",
+        "check_mode": "EXACT",
+        "explanation": "-ing adjectives describe the thing that causes the feeling (statistics are confusing); -ed adjectives describe the person who has the feeling (the students are confused)."
+      },
+      {
+        "id": "5",
+        "prompt": "There has been a steady ___ (GROW) in the number of people working from home.",
+        "options": [],
+        "accepted_answers": ["growth"],
+        "model_answer": "There has been a steady growth in the number of people working from home.",
+        "check_mode": "EXACT",
+        "explanation": "After the adjective 'steady', a noun is needed. The noun form of 'grow' is 'growth', not 'grow' or 'growing'. Other Task 1 nouns of change: rise, fall, decline, increase."
+      },
+      {
+        "id": "6",
+        "prompt": "Many parents are ___ (WILLING) to let their children use social media, as they worry about online safety.",
+        "options": [],
+        "accepted_answers": ["unwilling"],
+        "model_answer": "Many parents are unwilling to let their children use social media, as they worry about online safety.",
+        "check_mode": "EXACT",
+        "explanation": "The reason clause ('as they worry about online safety') shows that the meaning is negative, so add the prefix un-. Other common negative prefixes: in- (inadequate), im- (impractical), ir- (irresponsible), dis- (dissatisfied)."
+      },
+      {
+        "id": "7",
+        "prompt": "Employees who work flexible hours often show higher levels of ___ (PRODUCE).",
+        "options": [],
+        "accepted_answers": ["productivity"],
+        "model_answer": "Employees who work flexible hours often show higher levels of productivity.",
+        "check_mode": "EXACT",
+        "explanation": "After 'levels of', a noun is needed, and the meaning is 'how efficiently people work', which is 'productivity'. Compare 'production' (the process or quantity of making goods), 'product' (a thing that is made) and 'productive' (adjective)."
+      },
+      {
+        "id": "8",
+        "prompt": "Youth ___ (EMPLOY) reached a record high of 25% in 2013, leaving one in four young people without work.",
+        "options": [],
+        "accepted_answers": ["unemployment"],
+        "model_answer": "Youth unemployment reached a record high of 25% in 2013, leaving one in four young people without work.",
+        "check_mode": "EXACT",
+        "explanation": "A noun is needed as the subject, and 'without work' shows the negative meaning, so the answer is 'unemployment'. The word family is: employ, employer, employee, employment, unemployed, unemployment."
+      },
+      {
+        "id": "9",
+        "prompt": "It is ___ (RESPONSIBLE) for factories to dump untreated waste into rivers.",
+        "options": [],
+        "accepted_answers": ["irresponsible"],
+        "model_answer": "It is irresponsible for factories to dump untreated waste into rivers.",
+        "check_mode": "EXACT",
+        "explanation": "The context is clearly critical, so the adjective needs a negative prefix. Before words beginning with 'r', the negative prefix is usually ir- (irresponsible, irregular, irrelevant)."
+      },
+      {
+        "id": "10",
+        "prompt": "I was really ___ (SURPRISE) by how quickly my hometown had changed when I went back last year.",
+        "options": [],
+        "accepted_answers": ["surprised"],
+        "model_answer": "I was really surprised by how quickly my hometown had changed when I went back last year.",
+        "check_mode": "EXACT",
+        "explanation": "The speaker is the person who has the feeling, so use the -ed adjective 'surprised'. 'Surprising' describes the thing that causes the feeling (the change was surprising)."
+      }
+    ]
+  }
+}

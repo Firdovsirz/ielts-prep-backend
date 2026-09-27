@@ -1,0 +1,313 @@
+{
+  "module": "listening",
+  "duration_minutes": 30,
+  "transfer_time_minutes_paper": 10,
+  "review_time_minutes_computer": 2,
+  "total_questions": 40,
+  "parts_count": 4,
+  "marking": "1 mark per correct answer; raw score out of 40 is converted to a band (whole or half band). Published reference points: about 16/40 = band 5, 23/40 = band 6, 30/40 = band 7, 35/40 = band 8. The same Listening test is taken by Academic and General Training candidates.",
+  "general_rules": [
+    "Four parts with 10 questions each. Each recording is heard ONCE only.",
+    "Questions come in the same order as the information in the recording.",
+    "Parts 1 and 2 are everyday social situations; Parts 3 and 4 are educational and training situations. Difficulty rises from Part 1 to Part 4.",
+    "A range of accents is used, including British, Australian, New Zealand and North American (regional varieties such as Scottish, Irish or Canadian fall within these). Mix accents across a test; one speaker keeps one accent.",
+    "Paper-based: candidates write on the question paper while listening, then get 10 minutes at the end to transfer answers to the answer sheet. Computer-delivered: answers are typed during the recording, with 2 minutes at the end to review them and no transfer time.",
+    "Before each question block the recording gives a pause to read the questions, and each part ends with a short pause to check answers."
+  ],
+  "recorded_frame": [
+    "Part {n}. You will hear {situation description}.",
+    "First, you have some time to look at Questions {from} to {to}.",
+    "Now listen carefully and answer Questions {from} to {to}.",
+    "Before you hear the rest of the {conversation/talk}, you have some time to look at Questions {from} to {to}.",
+    "Now listen and answer Questions {from} to {to}.",
+    "That is the end of Part {n}. You now have some time to check your answers to Part {n}.",
+    "That is the end of the Listening test. You now have ten minutes to transfer your answers to the Listening answer sheet. (paper-based only)"
+  ],
+  "sections": [
+    {
+      "number": 1,
+      "questions": 10,
+      "question_range": "1–10",
+      "speakers": "2",
+      "context": "Everyday social situation: a conversation between two speakers, usually a transactional exchange (phone or face-to-face), e.g. making travel arrangements, booking accommodation, a course or an event, joining a club, hiring equipment, reporting a lost item, enquiring about a job or service.",
+      "typical_question_types": ["FORM_COMPLETION", "NOTE_COMPLETION", "TABLE_COMPLETION", "MULTIPLE_CHOICE", "SENTENCE_COMPLETION", "SHORT_ANSWER"],
+      "reading_time_seconds": 30,
+      "audio_minutes_approx": [4, 6],
+      "script_words_approx": [600, 850],
+      "format_notes": [
+        "Easiest part; mostly factual detail: names (often spelt out letter by letter), numbers (phone, reference, postcode), dates, times, prices, addresses, days, quantities and simple nouns.",
+        "Usually split into two blocks (e.g. Questions 1–6 and 7–10) with a reading pause before each; occasionally one block of 10.",
+        "A completion task is almost always present; typical limit 'ONE WORD AND/OR A NUMBER'.",
+        "One speaker (e.g. the caller) asks and the other gives information; answers usually come from the information-giver, and the form follows the order of the conversation."
+      ]
+    },
+    {
+      "number": 2,
+      "questions": 10,
+      "question_range": "11–20",
+      "speakers": "1 (one main speaker; sometimes briefly introduced by a second speaker such as a radio presenter)",
+      "context": "Everyday social situation: a monologue, e.g. a talk about local facilities, a guided tour, a radio item about a community event, an orientation talk for new volunteers, members or staff, information about a festival, park or sports centre.",
+      "typical_question_types": ["MULTIPLE_CHOICE", "MAP_LABELLING", "MATCHING", "MULTIPLE_CHOICE_MULTI", "NOTE_COMPLETION", "TABLE_COMPLETION", "SENTENCE_COMPLETION"],
+      "reading_time_seconds": 30,
+      "audio_minutes_approx": [4, 6],
+      "script_words_approx": [650, 850],
+      "format_notes": [
+        "Usually two blocks of different types (e.g. Questions 11–15 multiple choice, 16–20 map labelling).",
+        "Map or plan labelling is most common here: the speaker walks through a site using direction and position language.",
+        "The speaker signposts the stages of the talk ('Let me start with…', 'Moving on to…', 'Finally…')."
+      ]
+    },
+    {
+      "number": 3,
+      "questions": 10,
+      "question_range": "21–30",
+      "speakers": "2 main speakers (occasionally 3, e.g. two students with a tutor)",
+      "context": "Educational or training situation: a conversation, e.g. two students planning an assignment, presentation or research project; a student and tutor discussing feedback, a course choice or fieldwork; trainees evaluating a placement.",
+      "typical_question_types": ["MULTIPLE_CHOICE", "MULTIPLE_CHOICE_MULTI", "MATCHING", "SENTENCE_COMPLETION", "FLOW_CHART_COMPLETION", "NOTE_COMPLETION", "SHORT_ANSWER"],
+      "reading_time_seconds": 30,
+      "audio_minutes_approx": [4, 6],
+      "script_words_approx": [700, 900],
+      "format_notes": [
+        "Questions often target opinions, attitudes, agreement or disagreement, decisions, and what each speaker thinks about something, not just facts.",
+        "Speakers suggest, question, reject and revise ideas, so most options are mentioned and distractors are plentiful.",
+        "Usually two blocks; multiple choice with three options (A–C) and matching (e.g. opinion A–G to each item) are typical."
+      ]
+    },
+    {
+      "number": 4,
+      "questions": 10,
+      "question_range": "31–40",
+      "speakers": "1",
+      "context": "Academic subject: a monologue such as a university lecture or a student's presentation (e.g. a topic in biology, history, psychology, engineering, business or environmental science).",
+      "typical_question_types": ["NOTE_COMPLETION", "SENTENCE_COMPLETION", "SUMMARY_COMPLETION", "TABLE_COMPLETION", "FLOW_CHART_COMPLETION", "MULTIPLE_CHOICE"],
+      "reading_time_seconds": 30,
+      "audio_minutes_approx": [5, 7],
+      "script_words_approx": [750, 950],
+      "format_notes": [
+        "Hardest part: denser academic vocabulary and longer, more complex sentences.",
+        "Usually one continuous talk with no pause in the middle; candidates look at all the questions before it starts (the reading pause may be longer than for other parts).",
+        "Most often a single note-completion block of all 10 questions under sub-headings that mirror the lecture's structure; the limit is often 'ONE WORD ONLY'.",
+        "Answers are usually nouns or noun phrases; the lecture signposts each new sub-topic."
+      ]
+    }
+  ],
+  "rubric_placeholders": {
+    "{from}": "first question number of the block (Part 1: 1–10, Part 2: 11–20, Part 3: 21–30, Part 4: 31–40 in a full test; a standalone practice section may number from 1)",
+    "{to}": "last question number of the block",
+    "{word_limit}": "an item from word_limit_phrases",
+    "{last_letter}": "last option letter",
+    "{count_word}": "how many answers to choose, in capitals, e.g. 'FIVE' or 'TWO'",
+    "{stem_question}": "the matching question line, e.g. 'What does the speaker say about each of the following …?' or 'Which feature does each area have?'",
+    "{map_type}": "'map' or 'plan'"
+  },
+  "word_limit_phrases": [
+    "ONE WORD ONLY",
+    "ONE WORD AND/OR A NUMBER",
+    "NO MORE THAN TWO WORDS",
+    "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+    "NO MORE THAN THREE WORDS AND/OR A NUMBER"
+  ],
+  "answer_conventions": [
+    "Spelling must be correct: a misspelt answer scores 0 (no partial credit). Names spelt out letter by letter in the recording must be copied exactly.",
+    "British and American spellings are both accepted (e.g. colour/color, metre/meter, programme/program).",
+    "Upper or lower case both acceptable; writing all answers in capitals is allowed.",
+    "Numbers may be written as digits or words; digits are recommended. Under 'AND/OR A NUMBER' limits a number does not count as a word.",
+    "Dates, times and prices may be written in any clear standard form (e.g. 15 March / March 15 / 15th March; 7.30 / 7:30 pm; £25 / 25 pounds). A unit or symbol printed next to the gap does not need to be written again.",
+    "Exceeding the word limit makes the answer wrong, even if the correct word is included. Hyphenated words count as one word; contracted forms are not tested.",
+    "Answers must fit the gap grammatically (e.g. singular/plural as heard); words are written as heard, not changed in form.",
+    "In answer keys, optional words appear in brackets and alternatives are separated by a slash; two gaps that ask for a pair of items may be accepted 'in either order'.",
+    "Letter answers (multiple choice, matching, map labelling): write only the letter. MULTIPLE_CHOICE_MULTI letters may be given in either order; each question number is worth one mark.",
+    "Paper-based: answers are first written on the question paper and then copied during the 10-minute transfer; errors made while copying (e.g. spelling) are marked wrong. Computer-delivered: answers are typed directly and there is only a 2-minute review."
+  ],
+  "script_conventions": [
+    "Answers are heard in question order, and each answer is stated clearly once. Leave natural talk (8–20 seconds of speech) between consecutive answers so candidates can write; never put two answers in the same short clause.",
+    "Completion answers are the exact words spoken, while the text around each gap paraphrases the recording (a synonym or restructured sentence), so candidates must listen for meaning, not matching words.",
+    "Distractors: mention a plausible wrong value before the right one and then correct it ('It's on the 13th… no, sorry, the 14th'); give several numbers or times with only one answering the question (old vs new price, adult vs child fee); make every multiple-choice option heard but only one match the question; have one speaker suggest something the other rejects; replace a plan ('we were going to… but in the end…').",
+    "Signposting: monologues (Parts 2 and 4) mark their stages ('First of all…', 'Moving on to…', 'Another important point…', 'To sum up…'); signposting helps candidates keep their place but never gives the answer itself.",
+    "Part 1 realism: the information-giver spells names and unusual words ('That's H-A-R-T-L-E-Y'), reads out phone and reference numbers in groups, confirms details, and uses fillers and back-channelling (right, OK, let me see).",
+    "Part 3 realism: speakers interrupt, agree, disagree, hedge and change their minds; attitude and opinion questions depend on stance markers (I'm not convinced…, that's a fair point, but…).",
+    "Part 4 is a formal but spoken lecture: definitions, examples, causes and effects, research findings and a clear structure that matches the note-completion headings.",
+    "Map and plan scripts use direction language consistently from one stated starting point (the entrance, 'you are here'): opposite, next to, just past, at the far end, turn left, in the corner, beside the car park.",
+    "Scripts must sound natural: contractions, fillers and discourse markers, but no long irrelevant chat. The accent and gender of each speaker are specified for audio generation.",
+    "Recordings are heard once: information needed for an answer must not rely on something mentioned only much earlier, and no answer may be given only by implication."
+  ],
+  "question_types": {
+    "FORM_COMPLETION": {
+      "official_name": "Form completion",
+      "typical_sections": [1],
+      "rubric_template": "Questions {from}–{to}\nComplete the form below.\nWrite {word_limit} for each answer.",
+      "rubric_variants": [],
+      "answer_format": "Words and/or a number as heard, within the word limit.",
+      "follows_text_order": true,
+      "what_it_tests": "Recording factual details a listener would naturally write down (names, addresses, numbers, dates, requirements).",
+      "design_rules": [
+        "A form with a title and labelled fields (e.g. Name, Address, Date of arrival, Special requirements); some fields pre-filled, sometimes one filled in as an example.",
+        "Gaps follow the order of the conversation; include at least one spelt-out name and one number.",
+        "Typical limit: ONE WORD AND/OR A NUMBER."
+      ]
+    },
+    "NOTE_COMPLETION": {
+      "official_name": "Note completion",
+      "typical_sections": [1, 2, 4],
+      "rubric_template": "Questions {from}–{to}\nComplete the notes below.\nWrite {word_limit} for each answer.",
+      "rubric_variants": [],
+      "answer_format": "Words and/or a number as heard, within the word limit.",
+      "follows_text_order": true,
+      "what_it_tests": "Following the main points and how they relate to each other, and writing down key information.",
+      "design_rules": [
+        "Notes have a title, sub-headings and dash/bullet lines in note style (articles and verbs often dropped).",
+        "In Part 4 the sub-headings mirror the lecture's structure; one gap per line at most; usually nouns.",
+        "Paraphrase the surrounding note text; the gap word is said exactly."
+      ]
+    },
+    "TABLE_COMPLETION": {
+      "official_name": "Table completion",
+      "typical_sections": [1, 2, 4],
+      "rubric_template": "Questions {from}–{to}\nComplete the table below.\nWrite {word_limit} for each answer.",
+      "rubric_variants": [],
+      "answer_format": "Words and/or a number as heard, within the word limit.",
+      "follows_text_order": true,
+      "what_it_tests": "Recording information that falls into clear categories (e.g. place / time / price / notes).",
+      "design_rules": [
+        "Columns are categories and rows are items discussed in turn; gaps numbered left-to-right, top-to-bottom, matching the order they are heard.",
+        "Cells are in note style; some filled in to guide the listener."
+      ]
+    },
+    "FLOW_CHART_COMPLETION": {
+      "official_name": "Flow-chart completion",
+      "typical_sections": [3, 4],
+      "rubric_template": "Questions {from}–{to}\nComplete the flow-chart below.\nWrite {word_limit} for each answer.",
+      "rubric_variants": [
+        "Questions {from}–{to}\nComplete the flow-chart below.\nChoose {count_word} answers from the box and write the correct letter, A–{last_letter}, next to Questions {from}–{to}."
+      ],
+      "answer_format": "Words as heard within the word limit, or one letter per gap from a box of options.",
+      "follows_text_order": true,
+      "what_it_tests": "Following the stages of a process or procedure described in the recording.",
+      "design_rules": [
+        "Boxes linked by arrows in process order, with the process described in that order.",
+        "Box variant: more options than gaps (2–3 extra), options paraphrase what is said."
+      ]
+    },
+    "SUMMARY_COMPLETION": {
+      "official_name": "Summary completion",
+      "typical_sections": [3, 4],
+      "rubric_template": "Questions {from}–{to}\nComplete the summary below.\nWrite {word_limit} for each answer.",
+      "rubric_variants": [
+        "Questions {from}–{to}\nComplete the summary below.\nChoose {count_word} answers from the box and write the correct letter, A–{last_letter}, next to Questions {from}–{to}."
+      ],
+      "answer_format": "Words as heard within the word limit, or one letter per gap.",
+      "follows_text_order": true,
+      "what_it_tests": "Understanding the gist and key details of a stretch of speech summarised in continuous prose.",
+      "design_rules": [
+        "A connected paragraph with a title; gaps in the order heard; the summary paraphrases the recording."
+      ]
+    },
+    "SENTENCE_COMPLETION": {
+      "official_name": "Sentence completion",
+      "typical_sections": [1, 3, 4],
+      "rubric_template": "Questions {from}–{to}\nComplete the sentences below.\nWrite {word_limit} for each answer.",
+      "rubric_variants": [],
+      "answer_format": "Words and/or a number as heard, within the word limit.",
+      "follows_text_order": true,
+      "what_it_tests": "Identifying key information, including relationships such as cause and effect.",
+      "design_rules": [
+        "Each sentence summarises one point of the recording with one gap; the completed sentence must be grammatical.",
+        "Typical limits: ONE WORD ONLY or NO MORE THAN TWO WORDS."
+      ]
+    },
+    "MULTIPLE_CHOICE": {
+      "official_name": "Multiple choice (one answer)",
+      "typical_sections": [1, 2, 3, 4],
+      "rubric_template": "Questions {from}–{to}\nChoose the correct letter, A, B or C.",
+      "rubric_variants": [
+        "Questions {from} and {to}\nChoose the correct letter, A, B or C."
+      ],
+      "answer_format": "One letter A–C.",
+      "follows_text_order": true,
+      "what_it_tests": "Detailed understanding of specific points or general understanding of the main points.",
+      "design_rules": [
+        "Three options A–C (Listening uses three, unlike Reading's four); the stem is a question or an unfinished sentence.",
+        "All three options should be mentioned or implied in the recording; only one answers the question. Paraphrase the correct option.",
+        "Usually 3–6 questions per block."
+      ]
+    },
+    "MULTIPLE_CHOICE_MULTI": {
+      "official_name": "Multiple choice (more than one answer)",
+      "typical_sections": [2, 3],
+      "rubric_template": "Questions {from} and {to}\nChoose TWO letters, A–E.",
+      "rubric_variants": [
+        "Questions {from}–{to}\nChoose THREE letters, A–G."
+      ],
+      "answer_format": "One distinct letter per question number; letters accepted in either order.",
+      "follows_text_order": false,
+      "what_it_tests": "Picking out several relevant points from a longer stretch of speech.",
+      "design_rules": [
+        "Stem after the rubric: 'Which TWO … ?'; five options A–E for two answers.",
+        "Every option should be mentioned in the recording; the wrong ones are rejected, used for something else, or not quite what the question asks.",
+        "The pair of question numbers sits in sequence with neighbouring blocks, but the two correct options may be heard in either order."
+      ]
+    },
+    "MATCHING": {
+      "official_name": "Matching",
+      "typical_sections": [2, 3],
+      "rubric_template": "Questions {from}–{to}\n{stem_question}\nChoose {count_word} answers from the box and write the correct letter, A–{last_letter}, next to Questions {from}–{to}.",
+      "rubric_variants": [
+        "Questions {from}–{to}\n{stem_question}\nWrite the correct letter, A, B or C, next to Questions {from}–{to}.\nYou may choose any letter more than once.",
+        "Questions {from}–{to}\n{stem_question}\nChoose your answers from the box and write the correct letter, A–{last_letter}, next to Questions {from}–{to}."
+      ],
+      "answer_format": "One option letter per numbered item.",
+      "follows_text_order": true,
+      "what_it_tests": "Listening for detail, following a conversation, and recognising how facts relate (e.g. which opinion, feature or person goes with each item).",
+      "design_rules": [
+        "Numbered items (e.g. places, people, course options) are discussed in the order listed; options in a box A–G or so.",
+        "'Choose FIVE answers from the box' style: more options than items (2–3 extra), each used once. 'You may choose any letter more than once' style: a short fixed scale (e.g. A He'll definitely do it / B He may do it / C He won't do it).",
+        "Each item's discussion should mention at least one wrong option as a distractor."
+      ]
+    },
+    "MAP_LABELLING": {
+      "official_name": "Plan/map/diagram labelling",
+      "typical_sections": [2],
+      "rubric_template": "Questions {from}–{to}\nLabel the {map_type} below.\nWrite the correct letter, A–{last_letter}, next to Questions {from}–{to}.",
+      "rubric_variants": [
+        "Questions {from}–{to}\nLabel the {map_type} below.\nChoose {count_word} answers from the box and write the correct letters, A–{last_letter}, next to Questions {from}–{to}.",
+        "Questions {from}–{to}\nLabel the {map_type} below.\nWrite {word_limit} for each answer."
+      ],
+      "answer_format": "One letter per place (from letters marked on the map or options in a box), or words as heard for the word-limit variant.",
+      "follows_text_order": true,
+      "what_it_tests": "Understanding a description of a place and how it relates to the visual, and following explanations of where things are and directions.",
+      "design_rules": [
+        "The map/plan shows a clear starting point, some labelled landmarks and more lettered positions than questions (2–3 extra).",
+        "Numbered questions are place names, in the order the speaker describes them.",
+        "Directions are unambiguous from the stated viewpoint; each answer location should be mentioned with a nearby distractor location."
+      ]
+    },
+    "SHORT_ANSWER": {
+      "official_name": "Short-answer questions",
+      "typical_sections": [1, 2, 3],
+      "rubric_template": "Questions {from}–{to}\nAnswer the questions below.\nWrite {word_limit} for each answer.",
+      "rubric_variants": [],
+      "answer_format": "Words and/or a number as heard, within the word limit.",
+      "follows_text_order": true,
+      "what_it_tests": "Listening for concrete facts such as places, prices or times.",
+      "design_rules": [
+        "Wh-questions paraphrasing the recording; one fact per question.",
+        "A question may ask for a list of two or three items, each taking its own question number."
+      ]
+    },
+    "DIAGRAM_LABEL_COMPLETION": {
+      "official_name": "Plan/map/diagram labelling (diagram)",
+      "typical_sections": [2, 4],
+      "rubric_template": "Questions {from}–{to}\nLabel the diagram below.\nWrite {word_limit} for each answer.",
+      "rubric_variants": [
+        "Questions {from}–{to}\nLabel the diagram below.\nChoose {count_word} answers from the box and write the correct letter, A–{last_letter}, next to Questions {from}–{to}."
+      ],
+      "answer_format": "Words as heard within the word limit, or one letter per label from a box of options.",
+      "follows_text_order": true,
+      "what_it_tests": "Understanding a spoken description of a piece of equipment, a structure or a process and relating it to a diagram.",
+      "design_rules": [
+        "The speaker describes the parts in a logical spatial order (top to bottom, input to output) that matches the question order.",
+        "Some parts are already labelled to orient the listener."
+      ]
+    }
+  }
+}

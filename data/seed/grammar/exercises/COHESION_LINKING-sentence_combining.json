@@ -1,0 +1,135 @@
+{
+  "task_type": "GRAMMAR_EXERCISE",
+  "source_url": "",
+  "licence": "Original content",
+  "content": {
+    "area": "COHESION_LINKING",
+    "exercise_type": "SENTENCE_COMBINING",
+    "title": "Combining ideas with accurate linking words",
+    "instructions": "Combine the sentences into ONE sentence using the linker given. Keep the original meaning, change or remove words where necessary, and punctuate the linker correctly. Write the complete new sentence.",
+    "items": [
+      {
+        "id": "1",
+        "prompt": "Online shopping is convenient. It has led to the closure of many high-street shops. Use: 'Although'",
+        "options": [],
+        "accepted_answers": [
+          "Although online shopping is convenient, it has led to the closure of many high-street shops.",
+          "Online shopping has led to the closure of many high-street shops, although it is convenient."
+        ],
+        "model_answer": "Although online shopping is convenient, it has led to the closure of many high-street shops.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "'Although' is a subordinating conjunction that introduces the conceded (less important) idea. When the 'although' clause comes first, put a comma after it, and do not add 'but' to the main clause."
+      },
+      {
+        "id": "2",
+        "prompt": "The price of solar panels fell dramatically. Many households installed them. Use: 'as a result'",
+        "options": [],
+        "accepted_answers": [
+          "The price of solar panels fell dramatically; as a result, many households installed them.",
+          "The price of solar panels fell dramatically and, as a result, many households installed them.",
+          "The price of solar panels fell dramatically, and as a result, many households installed them."
+        ],
+        "model_answer": "The price of solar panels fell dramatically; as a result, many households installed them.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "'As a result' is an adverbial linker, not a conjunction, so it cannot join two clauses with only a comma. Put a semicolon before it and a comma after it, or add the conjunction 'and'."
+      },
+      {
+        "id": "3",
+        "prompt": "Car use in the city declined between 2005 and 2015. Cycling rates more than doubled. Use: 'whereas'",
+        "options": [],
+        "accepted_answers": [
+          "Car use in the city declined between 2005 and 2015, whereas cycling rates more than doubled.",
+          "Whereas car use in the city declined between 2005 and 2015, cycling rates more than doubled."
+        ],
+        "model_answer": "Car use in the city declined between 2005 and 2015, whereas cycling rates more than doubled.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "'Whereas' (like 'while') is a conjunction that contrasts two facts of equal weight, which makes it ideal for Task 1 comparisons. Put a comma before it when it comes in the middle of the sentence."
+      },
+      {
+        "id": "4",
+        "prompt": "Millions of people still lack clean drinking water. Some governments spend billions on space exploration. Use: 'despite the fact that'",
+        "options": [],
+        "accepted_answers": [
+          "Some governments spend billions on space exploration despite the fact that millions of people still lack clean drinking water.",
+          "Despite the fact that millions of people still lack clean drinking water, some governments spend billions on space exploration."
+        ],
+        "model_answer": "Some governments spend billions on space exploration despite the fact that millions of people still lack clean drinking water.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "'Despite' is a preposition, so before a full clause you need 'despite the fact that'. It introduces the fact that makes the main clause surprising: the spending is surprising given the lack of clean water, so the water clause follows 'despite the fact that'."
+      },
+      {
+        "id": "5",
+        "prompt": "Remote working reduces commuting time. It can lead to social isolation. Use: 'While'",
+        "options": [],
+        "accepted_answers": [
+          "While remote working reduces commuting time, it can lead to social isolation.",
+          "While remote working reduces commuting time, it can also lead to social isolation."
+        ],
+        "model_answer": "While remote working reduces commuting time, it can also lead to social isolation.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "At the start of a sentence, 'While' can mean 'although', introducing a concession before the main point. The subordinate clause is followed by a comma, and the pronoun 'it' in the main clause avoids repeating 'remote working'."
+      },
+      {
+        "id": "6",
+        "prompt": "Many schools have introduced healthy lunch menus. Childhood obesity rates remain high. Use: 'nevertheless'",
+        "options": [],
+        "accepted_answers": [
+          "Many schools have introduced healthy lunch menus; nevertheless, childhood obesity rates remain high.",
+          "Many schools have introduced healthy lunch menus, but childhood obesity rates nevertheless remain high."
+        ],
+        "model_answer": "Many schools have introduced healthy lunch menus; nevertheless, childhood obesity rates remain high.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "'Nevertheless' (like 'however' and 'therefore') is an adverb. To keep both ideas in one sentence, put a semicolon before it and a comma after it, or place it inside a clause introduced by 'but'."
+      },
+      {
+        "id": "7",
+        "prompt": "The new metro line has reduced journey times. It has cut air pollution in the city centre. Use: 'In addition to' + -ing",
+        "options": [],
+        "accepted_answers": [
+          "In addition to reducing journey times, the new metro line has cut air pollution in the city centre.",
+          "The new metro line has cut air pollution in the city centre in addition to reducing journey times."
+        ],
+        "model_answer": "In addition to reducing journey times, the new metro line has cut air pollution in the city centre.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "'In addition to' ends in a preposition ('to'), so it takes a noun or an -ing form ('in addition to reducing'), not a base verb or a clause. The implied subject of the -ing form must be the subject of the main clause (the metro line)."
+      },
+      {
+        "id": "8",
+        "prompt": "Tuition fees rose sharply in 2012. Applications to university fell by 8%. Use: 'owing to'",
+        "options": [],
+        "accepted_answers": [
+          "Applications to university fell by 8% owing to the sharp rise in tuition fees in 2012.",
+          "Owing to the sharp rise in tuition fees in 2012, applications to university fell by 8%.",
+          "Owing to a sharp rise in tuition fees in 2012, applications to university fell by 8%."
+        ],
+        "model_answer": "Owing to the sharp rise in tuition fees in 2012, applications to university fell by 8%.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "'Owing to' (like 'due to' and 'because of') must be followed by a noun phrase, so the clause 'tuition fees rose sharply' becomes 'the sharp rise in tuition fees'. This nominalisation is typical of band-7+ academic writing."
+      },
+      {
+        "id": "9",
+        "prompt": "Some countries have raised taxes on sugary drinks. They want to reduce consumption. Use: 'in order to'",
+        "options": [],
+        "accepted_answers": [
+          "Some countries have raised taxes on sugary drinks in order to reduce consumption.",
+          "In order to reduce consumption, some countries have raised taxes on sugary drinks."
+        ],
+        "model_answer": "Some countries have raised taxes on sugary drinks in order to reduce consumption.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "'In order to' + base verb expresses purpose when both clauses have the same subject (the countries). If the subjects were different, you would need 'so that' + clause (e.g. 'so that people drink fewer of them')."
+      },
+      {
+        "id": "10",
+        "prompt": "Cities may not invest more in public transport. In that case, traffic congestion will continue to worsen. Use: 'unless'",
+        "options": [],
+        "accepted_answers": [
+          "Traffic congestion will continue to worsen unless cities invest more in public transport.",
+          "Unless cities invest more in public transport, traffic congestion will continue to worsen."
+        ],
+        "model_answer": "Traffic congestion will continue to worsen unless cities invest more in public transport.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "'Unless' means 'if … not', so the negative disappears: 'unless cities invest', not 'unless cities do not invest'. Use a present tense after 'unless' even for the future, and add a comma only when the 'unless' clause comes first."
+      }
+    ]
+  }
+}

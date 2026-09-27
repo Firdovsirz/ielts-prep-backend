@@ -1,0 +1,192 @@
+{
+  "task_type": "READING_PASSAGE",
+  "source_url": "https://en.wikipedia.org/wiki/Greater_honeyguide",
+  "licence": "CC BY-SA 4.0 (topic seed only; passage text is original)",
+  "content": {
+    "title": "Following the Honeyguide",
+    "topic": "honeyguide birds and human honey-hunters",
+    "difficulty": 1,
+    "cefr": "B2",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "In the dry woodlands of sub-Saharan Africa lives a small, rather plain bird that has formed one of the most remarkable relationships in the natural world. The greater honeyguide, a distant relative of the woodpeckers, is only about 20 centimetres long and weighs around 50 grams. Its brownish upper feathers and pale underside give little hint of anything special, although flashes of white on either side of its tail become conspicuous when it flies. What sets it apart is not its appearance but its habit of leading human beings to the nests of wild bees – a form of cooperation between people and a wild animal that has few, if any, parallels elsewhere."
+      },
+      {
+        "label": "B",
+        "text": "The partnership exists because each side has something the other lacks. Honeyguides are unusual among birds in that they feed on beeswax, as well as on the eggs and grubs that bees raise inside their combs, and their digestive system is able to break the wax down. However, a colony of African honeybees is fiercely defended, and its nest is often hidden inside a hollow tree trunk, so the bird is rarely able to reach the comb without help. Humans, by contrast, can use smoke to calm the insects and axes to cut through the wood, but finding a nest in the first place may take hours of searching. The bird, which appears to know the locations of many colonies within its territory, solves this problem for them."
+      },
+      {
+        "label": "C",
+        "text": "A guiding session usually begins when a honeyguide approaches a group of people and attracts their attention with a persistent chattering call. It then flies ahead in a series of short flights, pausing on branches to check that its followers are keeping up, and continues calling until it reaches the vicinity of a colony. There it falls silent and waits while the honey-hunters locate the exact tree. Once the bees have been subdued and the nest has been opened, the people remove the honey, and the bird is left to feed on the wax that remains. Research carried out among the Boran people of northern Kenya in the 1980s found that following a honeyguide cut the time needed to find a nest by roughly two-thirds."
+      },
+      {
+        "label": "D",
+        "text": "Communication in this relationship travels in both directions. In several regions, honey-hunters have developed special sounds to summon the birds. In northern Mozambique, members of the Yao community use a loud trill followed by a grunt, usually written as 'brrr-hm', while the Hadza of Tanzania rely on a melodious whistle. In 2016, a team led by the zoologist Claire Spottiswoode tested whether the Yao call really made a difference. Walking through the bush with local hunters, the researchers played recordings of the traditional call, of ordinary Yao words and of the call of another bird species. Compared with the other sounds, the traditional call doubled the likelihood of a honeyguide offering to lead the way and more than tripled the chances of the team being shown a bees' nest. Later experiments suggested that honeyguides in each region respond most strongly to the local call, which implies that the birds learn the particular signals used by the people around them."
+      },
+      {
+        "label": "E",
+        "text": "How a honeyguide acquires its guiding skills remains something of a puzzle, because the species does not raise its own young. Like the cuckoo, it is a brood parasite: the female lays her eggs in the nests of other birds, usually species that nest in holes, such as bee-eaters and barbets. Soon after hatching, the honeyguide chick uses a sharp hook at the tip of its bill to kill the host's own nestlings, so that it receives all the food its foster parents bring. As a result, young honeyguides never meet their real parents and cannot learn to guide from them. Scientists suspect that they pick up the behaviour instead by watching other honeyguides, or through their own early encounters with people."
+      },
+      {
+        "label": "F",
+        "text": "The relationship is not always as generous as it is often portrayed. Many African communities have traditions stating that the bird must be rewarded with a share of the comb, and warning that a honeyguide which has been ignored will next time lead the ungrateful hunter to a lion or a poisonous snake. Yet practices vary. Hadza hunters, for example, sometimes burn or bury the leftover wax, reasoning that a hungry bird will be more eager to guide them again. Popular accounts also claim that honeyguides lead honey badgers to bees' nests, but no scientist has ever recorded this happening, and many researchers now doubt that it occurs at all."
+      },
+      {
+        "label": "G",
+        "text": "The future of this ancient partnership is uncertain. In areas close to towns, where sugar can be bought cheaply in shops, fewer people go out searching for wild honey, and in parts of Kenya guiding has become rare or has disappeared entirely. Where the tradition survives, however, it offers biologists a rare opportunity to study how a wild animal and human beings have adjusted to each other over many generations – possibly, some suggest, since the time of our earliest ancestors."
+      }
+    ],
+    "question_groups": [
+      {
+        "group_id": "g1",
+        "question_type": "TRUE_FALSE_NOT_GIVEN",
+        "instructions": "Questions 1–6\nDo the following statements agree with the information given in Reading Passage 1?\nIn boxes 1–6 on your answer sheet, write\nTRUE if the statement agrees with the information\nFALSE if the statement contradicts the information\nNOT GIVEN if there is no information on this",
+        "word_limit": 0,
+        "number_allowed": false,
+        "options": [],
+        "context": "",
+        "table": { "title": "", "columns": [], "rows": [] },
+        "flow_steps": [],
+        "diagram": { "title": "", "nodes": [], "edges": [] },
+        "map": { "title": "", "features": [], "markers": [] },
+        "questions": [
+          {
+            "number": 1,
+            "prompt": "The greater honeyguide is a brightly coloured bird.",
+            "options": [],
+            "answers": ["FALSE"],
+            "justification_span": "In the dry woodlands of sub-Saharan Africa lives a small, rather plain bird that has formed one of the most remarkable relationships in the natural world.",
+            "location": "A"
+          },
+          {
+            "number": 2,
+            "prompt": "Honeyguides are able to digest the wax that bees produce.",
+            "options": [],
+            "answers": ["TRUE"],
+            "justification_span": "Honeyguides are unusual among birds in that they feed on beeswax, as well as on the eggs and grubs that bees raise inside their combs, and their digestive system is able to break the wax down.",
+            "location": "B"
+          },
+          {
+            "number": 3,
+            "prompt": "The study of the Boran showed that nests located with a honeyguide's help contained more honey than other nests.",
+            "options": [],
+            "answers": ["NOT GIVEN"],
+            "justification_span": "Research carried out among the Boran people of northern Kenya in the 1980s found that following a honeyguide cut the time needed to find a nest by roughly two-thirds.",
+            "location": "C"
+          },
+          {
+            "number": 4,
+            "prompt": "Yao and Hadza honey-hunters use the same signal to attract honeyguides.",
+            "options": [],
+            "answers": ["FALSE"],
+            "justification_span": "In northern Mozambique, members of the Yao community use a loud trill followed by a grunt, usually written as 'brrr-hm', while the Hadza of Tanzania rely on a melodious whistle.",
+            "location": "D"
+          },
+          {
+            "number": 5,
+            "prompt": "There is evidence that honeyguides adapt to the signals used by people in their own area.",
+            "options": [],
+            "answers": ["TRUE"],
+            "justification_span": "Later experiments suggested that honeyguides in each region respond most strongly to the local call, which implies that the birds learn the particular signals used by the people around them.",
+            "location": "D"
+          },
+          {
+            "number": 6,
+            "prompt": "Honeyguides prefer to lay their eggs in the nests of bee-eaters rather than in those of barbets.",
+            "options": [],
+            "answers": ["NOT GIVEN"],
+            "justification_span": "Like the cuckoo, it is a brood parasite: the female lays her eggs in the nests of other birds, usually species that nest in holes, such as bee-eaters and barbets.",
+            "location": "E"
+          }
+        ]
+      },
+      {
+        "group_id": "g2",
+        "question_type": "NOTE_COMPLETION",
+        "instructions": "Questions 7–10\nComplete the notes below.\nChoose ONE WORD ONLY from the passage for each answer.\nWrite your answers in boxes 7–10 on your answer sheet.",
+        "word_limit": 1,
+        "number_allowed": false,
+        "options": [],
+        "context": "The greater honeyguide\n\nPhysical features\n• about 20 cm long and weighs around 50 g\n• white markings on both sides of the {{7}} are noticeable in flight\n\nFood\n• beeswax, together with bee eggs and {{8}}\n\nGuiding\n• attracts attention with a chattering call, then makes short flights ahead of its followers\n• hunters make the bees less aggressive using {{9}} before opening the nest\n\nBreeding\n• lays its eggs in other birds' nests\n• the newly hatched chick kills the host's young with a hook on its {{10}}",
+        "table": { "title": "", "columns": [], "rows": [] },
+        "flow_steps": [],
+        "diagram": { "title": "", "nodes": [], "edges": [] },
+        "map": { "title": "", "features": [], "markers": [] },
+        "questions": [
+          {
+            "number": 7,
+            "prompt": "",
+            "options": [],
+            "answers": ["tail"],
+            "justification_span": "Its brownish upper feathers and pale underside give little hint of anything special, although flashes of white on either side of its tail become conspicuous when it flies.",
+            "location": "A"
+          },
+          {
+            "number": 8,
+            "prompt": "",
+            "options": [],
+            "answers": ["grubs"],
+            "justification_span": "Honeyguides are unusual among birds in that they feed on beeswax, as well as on the eggs and grubs that bees raise inside their combs, and their digestive system is able to break the wax down.",
+            "location": "B"
+          },
+          {
+            "number": 9,
+            "prompt": "",
+            "options": [],
+            "answers": ["smoke"],
+            "justification_span": "Humans, by contrast, can use smoke to calm the insects and axes to cut through the wood, but finding a nest in the first place may take hours of searching.",
+            "location": "B"
+          },
+          {
+            "number": 10,
+            "prompt": "",
+            "options": [],
+            "answers": ["bill"],
+            "justification_span": "Soon after hatching, the honeyguide chick uses a sharp hook at the tip of its bill to kill the host's own nestlings, so that it receives all the food its foster parents bring.",
+            "location": "E"
+          }
+        ]
+      },
+      {
+        "group_id": "g3",
+        "question_type": "SHORT_ANSWER",
+        "instructions": "Questions 11–13\nAnswer the questions below.\nChoose NO MORE THAN THREE WORDS from the passage for each answer.\nWrite your answers in boxes 11–13 on your answer sheet.",
+        "word_limit": 3,
+        "number_allowed": false,
+        "options": [],
+        "context": "",
+        "table": { "title": "", "columns": [], "rows": [] },
+        "flow_steps": [],
+        "diagram": { "title": "", "nodes": [], "edges": [] },
+        "map": { "title": "", "features": [], "markers": [] },
+        "questions": [
+          {
+            "number": 11,
+            "prompt": "In what kind of place do African honeybees commonly build their nests?",
+            "options": [],
+            "answers": ["hollow tree trunk", "tree trunk"],
+            "justification_span": "However, a colony of African honeybees is fiercely defended, and its nest is often hidden inside a hollow tree trunk, so the bird is rarely able to reach the comb without help.",
+            "location": "B"
+          },
+          {
+            "number": 12,
+            "prompt": "According to widely told stories that scientists have never confirmed, which animal is also guided to hives by honeyguides?",
+            "options": [],
+            "answers": ["honey badgers", "honey badger", "(the) honey badger"],
+            "justification_span": "Popular accounts also claim that honeyguides lead honey badgers to bees' nests, but no scientist has ever recorded this happening, and many researchers now doubt that it occurs at all.",
+            "location": "F"
+          },
+          {
+            "number": 13,
+            "prompt": "What inexpensive product, available in urban areas, has led to fewer people hunting for wild honey?",
+            "options": [],
+            "answers": ["sugar"],
+            "justification_span": "In areas close to towns, where sugar can be bought cheaply in shops, fewer people go out searching for wild honey, and in parts of Kenya guiding has become rare or has disappeared entirely.",
+            "location": "G"
+          }
+        ]
+      }
+    ]
+  }
+}

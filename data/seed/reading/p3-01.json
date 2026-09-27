@@ -1,0 +1,228 @@
+{
+  "task_type": "READING_PASSAGE",
+  "source_url": "https://en.wikipedia.org/wiki/Poverty_of_the_stimulus",
+  "licence": "CC BY-SA 4.0 (topic seed only; passage text is original)",
+  "content": {
+    "title": "Learning from Too Little? The Poverty-of-the-Stimulus Debate",
+    "topic": "poverty of the stimulus in language acquisition",
+    "difficulty": 3,
+    "cefr": "C2",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "Few arguments in the study of language have proved as durable, or as fiercely contested, as the claim that children acquire their native tongue from evidence too meagre to account for what they eventually know. Its classic formulation, associated with Noam Chomsky from the 1960s onwards, runs roughly as follows. By the age of four or five, a child can produce and understand sentences she has never encountered, and she reliably avoids certain errors that nobody has ever warned her against. The speech she hears, meanwhile, is finite, frequently ungrammatical and almost entirely devoid of explicit correction. If the output so greatly exceeds the input, the reasoning goes, the shortfall must be supplied by the learner herself, in the form of an innate and specifically linguistic endowment usually referred to as Universal Grammar."
+      },
+      {
+        "label": "B",
+        "text": "The example most often used to dramatise the argument concerns the formation of questions. Faced with a sentence such as 'The dog that is barking is hungry', an English-speaking child must work out which of the two instances of 'is' to move to the front. A simple rule – move the first auxiliary verb – would yield the impossible 'Is the dog that barking is hungry?', whereas the correct rule refers not to the linear order of words but to the hierarchical structure of the sentence. Children, it was claimed, never make the first kind of mistake, even though sentences that would reveal the correct rule are so rare in ordinary conversation that a child might reach school age without hearing one. Their knowledge, therefore, could not have been derived from experience."
+      },
+      {
+        "label": "C",
+        "text": "What gave this line of reasoning its persuasive force was less its empirical grounding than its logical shape. It appeared to show not merely that learning was difficult, but that it was impossible without prior constraints. Yet it was precisely the empirical premise that eventually attracted scrutiny, for claims about what children do not hear are, after all, claims about data, and data can be counted. In an influential critique published in 2002, the linguists Geoffrey Pullum and Barbara Scholz searched large collections of written English and found that the supposedly absent sentence types were considerably less rare than had been assumed. Their conclusion was not that nativism was false, but that its most celebrated argument had been asserted far more often than it had been tested."
+      },
+      {
+        "label": "D",
+        "text": "A second challenge came from experimental psychology. In a now-famous study, the psychologist Jenny Saffran and her colleagues exposed eight-month-old infants to a continuous stream of invented syllables, with no pauses or stress to indicate where one 'word' ended and the next began. After only two minutes, the infants could distinguish recurring syllable sequences from sequences that had merely straddled a boundary, apparently by tracking how predictably one syllable followed another. Findings of this kind encouraged a broad family of 'usage-based' accounts, which hold that general-purpose abilities – statistical sensitivity, pattern-finding and the capacity to read other people's communicative intentions – may be sufficient to build a grammar from the bottom up."
+      },
+      {
+        "label": "E",
+        "text": "Defenders of the nativist position have not been silent. They point out that segmenting a stream of syllables is a far cry from mastering the abstract dependencies of syntax, and that statistical learning must itself operate over some prior representation of the input: a learner who registered every conceivable pattern would drown in spurious regularities. Something, in other words, must tell the child which patterns are worth attending to. This reply is more powerful than it is sometimes given credit for. It does, however, concede more ground than its proponents usually acknowledge, since it relocates the dispute from whether learners have innate biases to what those biases are like."
+      },
+      {
+        "label": "F",
+        "text": "It is here, I would suggest, that the debate has been most distorted by its own framing. To ask whether language is 'innate' or 'learned' is to pose a question that no serious participant actually disputes in its stark form. Every usage-based theorist accepts that human infants bring something to the task that kittens do not; every nativist accepts that a child raised in Tokyo will not spontaneously speak Swedish. The productive question is whether the prior knowledge required is specific to language or shared with other cognitive domains, such as vision, memory or social reasoning – and that is a question that neither slogans nor thought experiments can settle."
+      },
+      {
+        "label": "G",
+        "text": "What might settle it is evidence of a more demanding kind than either side has typically supplied: detailed, longitudinal records of what individual children actually hear, paired with computational models explicit enough to show which learning mechanisms, given that input, arrive at adult-like grammars and which do not. Several such projects are now under way, and their early results are instructive chiefly for their modesty. Models equipped with only general learning biases have succeeded on some structures that were once declared unlearnable, while faltering on others. That mixed picture is unlikely to satisfy partisans of either camp, but it is, in my view, a far more honest foundation for a theory of language acquisition than the confident pronouncements that preceded it."
+      }
+    ],
+    "question_groups": [
+      {
+        "group_id": "g1",
+        "question_type": "MATCHING_SENTENCE_ENDINGS",
+        "instructions": "Questions 1–5\nComplete each sentence with the correct ending, A–G, below.\nWrite the correct letter, A–G.",
+        "word_limit": 0,
+        "number_allowed": false,
+        "options": [
+          { "key": "A", "text": "had been more widely repeated than carefully examined." },
+          { "key": "B", "text": "needed pauses or changes in stress to tell where one word ended." },
+          { "key": "C", "text": "would be unable to separate meaningful patterns from accidental ones." },
+          { "key": "D", "text": "could only be explained by a mental capacity dedicated to language." },
+          { "key": "E", "text": "had been refuted by recordings of children's everyday speech." },
+          { "key": "F", "text": "follow a structure-based rule even though they may never have heard sentences that confirm it." },
+          { "key": "G", "text": "could detect regularities in a stream of sound after very brief exposure." }
+        ],
+        "context": "",
+        "table": { "title": "", "columns": [], "rows": [] },
+        "flow_steps": [],
+        "diagram": { "title": "", "nodes": [], "edges": [] },
+        "map": { "title": "", "features": [], "markers": [] },
+        "questions": [
+          {
+            "number": 1,
+            "prompt": "According to the classic argument, the gap between what children know and what they hear",
+            "options": [],
+            "answers": ["D"],
+            "justification_span": "If the output so greatly exceeds the input, the reasoning goes, the shortfall must be supplied by the learner herself, in the form of an innate and specifically linguistic endowment usually referred to as Universal Grammar.",
+            "location": "A"
+          },
+          {
+            "number": 2,
+            "prompt": "The example of question formation was intended to show that children",
+            "options": [],
+            "answers": ["F"],
+            "justification_span": "Children, it was claimed, never make the first kind of mistake, even though sentences that would reveal the correct rule are so rare in ordinary conversation that a child might reach school age without hearing one.",
+            "location": "B"
+          },
+          {
+            "number": 3,
+            "prompt": "Pullum and Scholz concluded that the best-known argument for nativism",
+            "options": [],
+            "answers": ["A"],
+            "justification_span": "Their conclusion was not that nativism was false, but that its most celebrated argument had been asserted far more often than it had been tested.",
+            "location": "C"
+          },
+          {
+            "number": 4,
+            "prompt": "Saffran and her colleagues found that eight-month-old infants",
+            "options": [],
+            "answers": ["G"],
+            "justification_span": "After only two minutes, the infants could distinguish recurring syllable sequences from sequences that had merely straddled a boundary, apparently by tracking how predictably one syllable followed another.",
+            "location": "D"
+          },
+          {
+            "number": 5,
+            "prompt": "Critics of usage-based accounts maintain that a learner with no built-in preferences",
+            "options": [],
+            "answers": ["C"],
+            "justification_span": "a learner who registered every conceivable pattern would drown in spurious regularities.",
+            "location": "E"
+          }
+        ]
+      },
+      {
+        "group_id": "g2",
+        "question_type": "YES_NO_NOT_GIVEN",
+        "instructions": "Questions 6–10\nDo the following statements agree with the claims of the writer in the passage?\nWrite\nYES if the statement agrees with the claims of the writer\nNO if the statement contradicts the claims of the writer\nNOT GIVEN if it is impossible to say what the writer thinks about this",
+        "word_limit": 0,
+        "number_allowed": false,
+        "options": [],
+        "context": "",
+        "table": { "title": "", "columns": [], "rows": [] },
+        "flow_steps": [],
+        "diagram": { "title": "", "nodes": [], "edges": [] },
+        "map": { "title": "", "features": [], "markers": [] },
+        "questions": [
+          {
+            "number": 6,
+            "prompt": "The poverty-of-the-stimulus argument was convincing chiefly because of the evidence on which it rested.",
+            "options": [],
+            "answers": ["NO"],
+            "justification_span": "What gave this line of reasoning its persuasive force was less its empirical grounding than its logical shape.",
+            "location": "C"
+          },
+          {
+            "number": 7,
+            "prompt": "Usage-based accounts now have more support among linguists than nativist ones.",
+            "options": [],
+            "answers": ["NOT GIVEN"],
+            "justification_span": "Findings of this kind encouraged a broad family of 'usage-based' accounts, which hold that general-purpose abilities – statistical sensitivity, pattern-finding and the capacity to read other people's communicative intentions – may be sufficient to build a grammar from the bottom up.",
+            "location": "D"
+          },
+          {
+            "number": 8,
+            "prompt": "The nativist response to research on statistical learning has been unfairly underestimated.",
+            "options": [],
+            "answers": ["YES"],
+            "justification_span": "This reply is more powerful than it is sometimes given credit for.",
+            "location": "E"
+          },
+          {
+            "number": 9,
+            "prompt": "Hypothetical reasoning can establish whether the knowledge children need for language is unique to language.",
+            "options": [],
+            "answers": ["NO"],
+            "justification_span": "The productive question is whether the prior knowledge required is specific to language or shared with other cognitive domains, such as vision, memory or social reasoning – and that is a question that neither slogans nor thought experiments can settle.",
+            "location": "F"
+          },
+          {
+            "number": 10,
+            "prompt": "Neither side of the debate is likely to be entirely content with the latest research findings.",
+            "options": [],
+            "answers": ["YES"],
+            "justification_span": "That mixed picture is unlikely to satisfy partisans of either camp, but it is, in my view, a far more honest foundation for a theory of language acquisition than the confident pronouncements that preceded it.",
+            "location": "G"
+          }
+        ]
+      },
+      {
+        "group_id": "g3",
+        "question_type": "MULTIPLE_CHOICE",
+        "instructions": "Questions 11–14\nChoose the correct letter, A, B, C or D.",
+        "word_limit": 0,
+        "number_allowed": false,
+        "options": [],
+        "context": "",
+        "table": { "title": "", "columns": [], "rows": [] },
+        "flow_steps": [],
+        "diagram": { "title": "", "nodes": [], "edges": [] },
+        "map": { "title": "", "features": [], "markers": [] },
+        "questions": [
+          {
+            "number": 11,
+            "prompt": "Which of the following is presented in paragraph A as part of the classic argument?",
+            "options": [
+              { "key": "A", "text": "Children acquire grammar mainly by imitating the adults around them." },
+              { "key": "B", "text": "The speech available to children is limited and often faulty." },
+              { "key": "C", "text": "Children are usually corrected when they produce ungrammatical sentences." },
+              { "key": "D", "text": "Children understand far more sentences than they are able to produce." }
+            ],
+            "answers": ["B"],
+            "justification_span": "The speech she hears, meanwhile, is finite, frequently ungrammatical and almost entirely devoid of explicit correction.",
+            "location": "A"
+          },
+          {
+            "number": 12,
+            "prompt": "What does the writer suggest about the nativist reply described in paragraph E?",
+            "options": [
+              { "key": "A", "text": "It overlooks the difference between identifying words and acquiring syntax." },
+              { "key": "B", "text": "It has persuaded many usage-based researchers to revise their views." },
+              { "key": "C", "text": "It implicitly accepts that the real issue is the nature of learners' biases, not their existence." },
+              { "key": "D", "text": "It depends on a mistaken view of how statistical learning operates." }
+            ],
+            "answers": ["C"],
+            "justification_span": "It does, however, concede more ground than its proponents usually acknowledge, since it relocates the dispute from whether learners have innate biases to what those biases are like.",
+            "location": "E"
+          },
+          {
+            "number": 13,
+            "prompt": "The writer mentions kittens and a child growing up in Tokyo in order to",
+            "options": [
+              { "key": "A", "text": "demonstrate that the capacity for language is unique to humans." },
+              { "key": "B", "text": "illustrate points that are accepted by both sides of the debate." },
+              { "key": "C", "text": "suggest that environment has a greater influence than biology." },
+              { "key": "D", "text": "show that some languages are acquired more easily than others." }
+            ],
+            "answers": ["B"],
+            "justification_span": "Every usage-based theorist accepts that human infants bring something to the task that kittens do not; every nativist accepts that a child raised in Tokyo will not spontaneously speak Swedish.",
+            "location": "F"
+          },
+          {
+            "number": 14,
+            "prompt": "What is the writer's main purpose in the passage?",
+            "options": [
+              { "key": "A", "text": "to argue that children are born with knowledge specific to language" },
+              { "key": "B", "text": "to show that usage-based theories have now replaced nativism" },
+              { "key": "C", "text": "to assess a long-standing argument and indicate how the issue might be resolved" },
+              { "key": "D", "text": "to trace the development of experimental methods in child language research" }
+            ],
+            "answers": ["C"],
+            "justification_span": "What might settle it is evidence of a more demanding kind than either side has typically supplied: detailed, longitudinal records of what individual children actually hear, paired with computational models explicit enough to show which learning mechanisms, given that input, arrive at adult-like grammars and which do not.",
+            "location": "G"
+          }
+        ]
+      }
+    ]
+  }
+}

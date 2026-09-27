@@ -1,0 +1,142 @@
+{
+  "task_type": "GRAMMAR_EXERCISE",
+  "source_url": "",
+  "licence": "Original content",
+  "content": {
+    "area": "COHESION_LINKING",
+    "exercise_type": "ERROR_CORRECTION",
+    "title": "Linking words: meaning, punctuation and over-use",
+    "instructions": "Each item contains ONE error with a linking word or a reference word: a linker with the wrong meaning, the wrong grammar after a linker, wrong punctuation around a linker, or mechanical over-use. Rewrite the whole item correctly.",
+    "items": [
+      {
+        "id": "1",
+        "prompt": "Many people believe that working from home improves productivity. Therefore, several studies have found that remote employees are often less efficient than office-based staff.",
+        "options": [],
+        "accepted_answers": [
+          "Many people believe that working from home improves productivity. However, several studies have found that remote employees are often less efficient than office-based staff.",
+          "Many people believe that working from home improves productivity. Nevertheless, several studies have found that remote employees are often less efficient than office-based staff.",
+          "Many people believe that working from home improves productivity; however, several studies have found that remote employees are often less efficient than office-based staff."
+        ],
+        "model_answer": "Many people believe that working from home improves productivity. However, several studies have found that remote employees are often less efficient than office-based staff.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "'Therefore' introduces a result or conclusion, but the second sentence contradicts the first, so a contrast linker is needed: 'However,' or 'Nevertheless,'. Always check that the linker's meaning matches the logical relationship between the two ideas — band 7+ requires linkers that are accurate, not just frequent."
+      },
+      {
+        "id": "2",
+        "prompt": "The number of cinema visits fell sharply between 2010 and 2020, however, sales of streaming subscriptions tripled.",
+        "options": [],
+        "accepted_answers": [
+          "The number of cinema visits fell sharply between 2010 and 2020; however, sales of streaming subscriptions tripled.",
+          "The number of cinema visits fell sharply between 2010 and 2020. However, sales of streaming subscriptions tripled."
+        ],
+        "model_answer": "The number of cinema visits fell sharply between 2010 and 2020; however, sales of streaming subscriptions tripled.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "'However' is an adverb, not a conjunction, so it cannot join two independent clauses with commas (this creates a comma splice). Put a semicolon or a full stop before it and a comma after it. If you want a conjunction instead, use 'but' or 'whereas' with a single comma."
+      },
+      {
+        "id": "3",
+        "prompt": "Public transport reduces traffic congestion in city centres. On the other hand, it lowers carbon emissions per passenger.",
+        "options": [],
+        "accepted_answers": [
+          "Public transport reduces traffic congestion in city centres. In addition, it lowers carbon emissions per passenger.",
+          "Public transport reduces traffic congestion in city centres. Furthermore, it lowers carbon emissions per passenger.",
+          "Public transport reduces traffic congestion in city centres. Moreover, it lowers carbon emissions per passenger.",
+          "Public transport reduces traffic congestion in city centres. It also lowers carbon emissions per passenger."
+        ],
+        "model_answer": "Public transport reduces traffic congestion in city centres. In addition, it lowers carbon emissions per passenger.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "'On the other hand' introduces a contrasting point, usually the other side of an argument. Here both sentences describe advantages of public transport, so an adding device is needed: 'In addition', 'Furthermore', 'Moreover' or simply 'It also…'."
+      },
+      {
+        "id": "4",
+        "prompt": "Tourism creates jobs for local people. Moreover, it brings in foreign currency. Moreover, it encourages governments to preserve historic buildings.",
+        "options": [],
+        "accepted_answers": [
+          "Tourism creates jobs for local people and brings in foreign currency. Moreover, it encourages governments to preserve historic buildings.",
+          "Tourism creates jobs for local people. Moreover, it brings in foreign currency. It also encourages governments to preserve historic buildings.",
+          "Tourism creates jobs for local people. Moreover, it brings in foreign currency. In addition, it encourages governments to preserve historic buildings."
+        ],
+        "model_answer": "Tourism creates jobs for local people and brings in foreign currency. Moreover, it encourages governments to preserve historic buildings.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "Starting consecutive sentences with the same linker is mechanical over-use — the band-6 descriptor says cohesive devices 'may be faulty or mechanical'. Join closely related points with 'and', use 'also' inside the sentence, or vary the device so that 'Moreover' introduces only the strongest additional point."
+      },
+      {
+        "id": "5",
+        "prompt": "Despite the government invested heavily in renewable energy, coal still generated 40% of the country's electricity in 2020.",
+        "options": [],
+        "accepted_answers": [
+          "Although the government invested heavily in renewable energy, coal still generated 40% of the country's electricity in 2020.",
+          "Even though the government invested heavily in renewable energy, coal still generated 40% of the country's electricity in 2020.",
+          "Despite the fact that the government invested heavily in renewable energy, coal still generated 40% of the country's electricity in 2020.",
+          "Despite the government's heavy investment in renewable energy, coal still generated 40% of the country's electricity in 2020."
+        ],
+        "model_answer": "Despite the government's heavy investment in renewable energy, coal still generated 40% of the country's electricity in 2020.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "'Despite' and 'in spite of' are prepositions, so they are followed by a noun phrase or an -ing form, not a subject + verb. Either change to a conjunction ('Although / Even though + clause') or keep 'despite' with a noun phrase ('the government's heavy investment') or 'despite the fact that + clause'."
+      },
+      {
+        "id": "6",
+        "prompt": "Car ownership in Germany rose steadily between 1990 and 2010. In contrast, France experienced a steady increase over the same period.",
+        "options": [],
+        "accepted_answers": [
+          "Car ownership in Germany rose steadily between 1990 and 2010. Similarly, France experienced a steady increase over the same period.",
+          "Car ownership in Germany rose steadily between 1990 and 2010. Likewise, France experienced a steady increase over the same period.",
+          "Car ownership in Germany rose steadily between 1990 and 2010. France also experienced a steady increase over the same period."
+        ],
+        "model_answer": "Car ownership in Germany rose steadily between 1990 and 2010. Similarly, France experienced a steady increase over the same period.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "'In contrast' signals a difference, but Germany and France followed the same trend. In Task 1 comparisons, use 'Similarly', 'Likewise' or 'also' for matching trends, and keep 'In contrast', 'By contrast' and 'whereas' for different or opposite trends."
+      },
+      {
+        "id": "7",
+        "prompt": "Many teenagers spend several hours a day playing video games. This can seriously harm its sleep and concentration.",
+        "options": [],
+        "accepted_answers": [
+          "Many teenagers spend several hours a day playing video games. This can seriously harm their sleep and concentration."
+        ],
+        "model_answer": "Many teenagers spend several hours a day playing video games. This can seriously harm their sleep and concentration.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "A reference word must agree with the noun it refers back to. The sleep and concentration belong to 'many teenagers' (plural people), so the possessive must be 'their', not 'its'. Faulty referencing makes the reader search for the antecedent and lowers Coherence and Cohesion."
+      },
+      {
+        "id": "8",
+        "prompt": "Although fast food is cheap and convenient, but it is often high in salt, sugar and fat.",
+        "options": [],
+        "accepted_answers": [
+          "Although fast food is cheap and convenient, it is often high in salt, sugar and fat.",
+          "Fast food is cheap and convenient, but it is often high in salt, sugar and fat."
+        ],
+        "model_answer": "Although fast food is cheap and convenient, it is often high in salt, sugar and fat.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "A contrast is signalled only once per sentence in English. 'Although' already links the two clauses, so adding 'but' creates a double conjunction. Use either 'Although X, Y' or 'X, but Y' — never both."
+      },
+      {
+        "id": "9",
+        "prompt": "Due to the population is ageing, spending on healthcare is expected to rise over the next two decades.",
+        "options": [],
+        "accepted_answers": [
+          "Because the population is ageing, spending on healthcare is expected to rise over the next two decades.",
+          "As the population is ageing, spending on healthcare is expected to rise over the next two decades.",
+          "Due to the ageing population, spending on healthcare is expected to rise over the next two decades.",
+          "Due to the fact that the population is ageing, spending on healthcare is expected to rise over the next two decades."
+        ],
+        "model_answer": "Due to the ageing population, spending on healthcare is expected to rise over the next two decades.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "'Due to', 'owing to' and 'because of' are followed by a noun phrase, not by a subject + verb. Either use a conjunction ('Because / As / Since the population is ageing') or turn the clause into a noun phrase ('the ageing population')."
+      },
+      {
+        "id": "10",
+        "prompt": "In 2000, 60% of households in Japan owned a car. On the contrary, only 25% of households in India did so.",
+        "options": [],
+        "accepted_answers": [
+          "In 2000, 60% of households in Japan owned a car. In contrast, only 25% of households in India did so.",
+          "In 2000, 60% of households in Japan owned a car. By contrast, only 25% of households in India did so.",
+          "In 2000, 60% of households in Japan owned a car, whereas only 25% of households in India did so."
+        ],
+        "model_answer": "In 2000, 60% of households in Japan owned a car. By contrast, only 25% of households in India did so.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "'On the contrary' is used to reject a statement that has just been made ('The policy was not a failure. On the contrary, it was a great success.'). To compare two different sets of data, use 'In contrast', 'By contrast', 'whereas' or 'while'."
+      }
+    ]
+  }
+}

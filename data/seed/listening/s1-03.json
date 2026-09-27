@@ -1,0 +1,346 @@
+{
+  "task_type": "LISTENING_SECTION",
+  "source_url": "",
+  "licence": "Original content",
+  "content": {
+    "section": 1,
+    "title": "Hiring Bikes for a Family Trip",
+    "topic": "Equipment hire for a cycling holiday",
+    "context_description": "You will hear a man phoning a bike hire company in New Zealand to arrange bikes and equipment for a family cycling trip.",
+    "speakers": [
+      {
+        "id": "S1",
+        "name": "Kirsty",
+        "gender": "female",
+        "accent": "new_zealand",
+        "role": "Bike hire shop assistant"
+      },
+      {
+        "id": "S2",
+        "name": "Callum",
+        "gender": "male",
+        "accent": "scottish",
+        "role": "Tourist planning a family cycling trip"
+      }
+    ],
+    "script": [
+      {
+        "speaker": "S1",
+        "text": "Kia ora, Trailhead Cycle Hire, Kirsty speaking. How can I help?"
+      },
+      {
+        "speaker": "S2",
+        "text": "Oh, hello there. I'm hoping to hire some bikes for my family next week. We're planning to ride the Kowhai Valley Trail over 3 days."
+      },
+      {
+        "speaker": "S1",
+        "text": "Great choice, it's a beautiful ride. How many of you are there?"
+      },
+      {
+        "speaker": "S2",
+        "text": "There's me and my wife, and our 2 kids. Our son's 10, and our daughter's just turned 3."
+      },
+      {
+        "speaker": "S1",
+        "text": "Lovely. Well, let's start with the adults. Most people go for our standard mountain bike, which is $45 a day."
+      },
+      {
+        "speaker": "S2",
+        "text": "Right. And what do you get with that?"
+      },
+      {
+        "speaker": "S1",
+        "text": "A helmet and a lock, and there's also a repair kit in a little bag under the seat, in case you get a puncture. We don't supply lights, though, because the trail's closed after dark anyway."
+      },
+      {
+        "speaker": "S2",
+        "text": "OK. My wife's a bit worried about the hills, to be honest. Do you have electric bikes?"
+      },
+      {
+        "speaker": "S1",
+        "text": "We do. They were $80 a day last summer, but we've brought the price down this year, so they're $75 now."
+      },
+      {
+        "speaker": "S2",
+        "text": "And how far will one go before the battery runs out?"
+      },
+      {
+        "speaker": "S1",
+        "text": "Our old ones only managed about 50 kilometres, but the new batteries last for around 80 kilometres, so she'll have no trouble with each day's ride."
+      },
+      {
+        "speaker": "S2",
+        "text": "Perfect. Now, my son's quite a confident rider. What have you got for him?"
+      },
+      {
+        "speaker": "S1",
+        "text": "Our children's bikes are $25 a day, and they're a good size for 8 to 12 year olds. They used to come with a basket on the front, but the kids kept losing things out of them. So now each one comes with a safety flag instead. It's a tall orange one, so everyone can see them coming."
+      },
+      {
+        "speaker": "S2",
+        "text": "Good idea. And my daughter's too young to ride herself. Do you have child seats?"
+      },
+      {
+        "speaker": "S1",
+        "text": "We stopped doing child seats a couple of years ago, but we've got trailers that attach to the back of an adult bike. They're $20 a day. The thing is, we've only got 3 of them. So 24 hours' notice is fine for bikes, but for trailers we ask people to book at least 48 hours in advance."
+      },
+      {
+        "speaker": "S2",
+        "text": "Right, we'll definitely need one of those, so I'd better book everything now."
+      },
+      {
+        "speaker": "S1",
+        "text": "Sure. I'll just take a few details. Can I have your name, please?"
+      },
+      {
+        "speaker": "S2",
+        "text": "Yes, it's Callum Strachan. That's S, T, R, A, C, H, A, N."
+      },
+      {
+        "speaker": "S1",
+        "text": "Thanks, Callum. And when would you like to collect the bikes? We open at 8."
+      },
+      {
+        "speaker": "S2",
+        "text": "We're driving up from Queenstown on Tuesday morning, so I was thinking about 9. Actually, no, the forecast says it'll be really hot in the afternoon, so we'd better start earlier. Could we come at 8.30?"
+      },
+      {
+        "speaker": "S1",
+        "text": "8.30 is fine. I'll have everything ready for you."
+      },
+      {
+        "speaker": "S2",
+        "text": "Great. And the trail finishes in Stonebridge, doesn't it? Do we have to bring the bikes all the way back here?"
+      },
+      {
+        "speaker": "S1",
+        "text": "No, you can leave them at our drop-off point in Stonebridge. It used to be next to the post office, but we've moved, and now we're beside the bakery on the main street."
+      },
+      {
+        "speaker": "S2",
+        "text": "That's handy. And we'll have quite a lot of luggage. Is there any way of getting it to our accommodation each night?"
+      },
+      {
+        "speaker": "S1",
+        "text": "Yes, we can take your bags on to wherever you're staying. It's $15 a bag. Oh, sorry, I'm looking at last year's price list. It's $18 a bag now."
+      },
+      {
+        "speaker": "S2",
+        "text": "That's still very reasonable. We'll do that."
+      },
+      {
+        "speaker": "S1",
+        "text": "Oh, and one more thing. The forecast is dry, so you probably won't need rain jackets, but there isn't much shade on the trail, so make sure you bring plenty of sunscreen."
+      },
+      {
+        "speaker": "S2",
+        "text": "Will do. Thanks very much for your help, Kirsty."
+      },
+      {
+        "speaker": "S1",
+        "text": "No worries, Callum. See you on Tuesday."
+      }
+    ],
+    "parts": [
+      {
+        "questions_from": 1,
+        "questions_to": 5,
+        "start_line": 0
+      },
+      {
+        "questions_from": 6,
+        "questions_to": 10,
+        "start_line": 16
+      }
+    ],
+    "question_groups": [
+      {
+        "group_id": "g1",
+        "question_type": "TABLE_COMPLETION",
+        "instructions": "Questions 1–5\nComplete the table below.\nWrite NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+        "word_limit": 2,
+        "number_allowed": true,
+        "options": [],
+        "context": "",
+        "table": {
+          "title": "Trailhead Cycle Hire: equipment",
+          "columns": [
+            "Equipment",
+            "Price per day",
+            "Details"
+          ],
+          "rows": [
+            [
+              "Standard mountain bike",
+              "$45",
+              "Helmet, lock and {{1}} included"
+            ],
+            [
+              "Electric bike",
+              "{{2}}",
+              "Battery lasts for about {{3}}"
+            ],
+            [
+              "Children's bike",
+              "$25",
+              "Suitable for ages 8–12; comes with a {{4}}"
+            ],
+            [
+              "Child trailer",
+              "$20",
+              "Must be booked at least {{5}} in advance"
+            ]
+          ]
+        },
+        "flow_steps": [],
+        "diagram": {
+          "title": "",
+          "nodes": [],
+          "edges": []
+        },
+        "map": {
+          "title": "",
+          "features": [],
+          "markers": []
+        },
+        "questions": [
+          {
+            "number": 1,
+            "prompt": "",
+            "options": [],
+            "answers": [
+              "repair kit"
+            ],
+            "justification_span": "A helmet and a lock, and there's also a repair kit in a little bag under the seat, in case you get a puncture.",
+            "location": "6"
+          },
+          {
+            "number": 2,
+            "prompt": "",
+            "options": [],
+            "answers": [
+              "$75",
+              "75"
+            ],
+            "justification_span": "They were $80 a day last summer, but we've brought the price down this year, so they're $75 now.",
+            "location": "8"
+          },
+          {
+            "number": 3,
+            "prompt": "",
+            "options": [],
+            "answers": [
+              "80 kilometres",
+              "80 km",
+              "80km",
+              "80 kilometers"
+            ],
+            "justification_span": "Our old ones only managed about 50 kilometres, but the new batteries last for around 80 kilometres",
+            "location": "10"
+          },
+          {
+            "number": 4,
+            "prompt": "",
+            "options": [],
+            "answers": [
+              "(safety) flag"
+            ],
+            "justification_span": "So now each one comes with a safety flag instead.",
+            "location": "12"
+          },
+          {
+            "number": 5,
+            "prompt": "",
+            "options": [],
+            "answers": [
+              "48 hours"
+            ],
+            "justification_span": "So 24 hours' notice is fine for bikes, but for trailers we ask people to book at least 48 hours in advance.",
+            "location": "14"
+          }
+        ]
+      },
+      {
+        "group_id": "g2",
+        "question_type": "NOTE_COMPLETION",
+        "instructions": "Questions 6–10\nComplete the notes below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+        "word_limit": 1,
+        "number_allowed": true,
+        "options": [],
+        "context": "BOOKING DETAILS\nName: Callum {{6}}\nPick-up: Tuesday at {{7}}\nDrop-off point: next to the {{8}} in Stonebridge\nLuggage taken to accommodation each night: {{9}} per bag\nBring: {{10}} (not much shade on the trail)",
+        "table": {
+          "title": "",
+          "columns": [],
+          "rows": []
+        },
+        "flow_steps": [],
+        "diagram": {
+          "title": "",
+          "nodes": [],
+          "edges": []
+        },
+        "map": {
+          "title": "",
+          "features": [],
+          "markers": []
+        },
+        "questions": [
+          {
+            "number": 6,
+            "prompt": "",
+            "options": [],
+            "answers": [
+              "Strachan"
+            ],
+            "justification_span": "That's S, T, R, A, C, H, A, N.",
+            "location": "17"
+          },
+          {
+            "number": 7,
+            "prompt": "",
+            "options": [],
+            "answers": [
+              "8.30",
+              "8:30",
+              "8.30am",
+              "8:30am"
+            ],
+            "justification_span": "Could we come at 8.30?",
+            "location": "19"
+          },
+          {
+            "number": 8,
+            "prompt": "",
+            "options": [],
+            "answers": [
+              "bakery"
+            ],
+            "justification_span": "It used to be next to the post office, but we've moved, and now we're beside the bakery on the main street.",
+            "location": "22"
+          },
+          {
+            "number": 9,
+            "prompt": "",
+            "options": [],
+            "answers": [
+              "$18",
+              "18"
+            ],
+            "justification_span": "It's $18 a bag now.",
+            "location": "24"
+          },
+          {
+            "number": 10,
+            "prompt": "",
+            "options": [],
+            "answers": [
+              "sunscreen"
+            ],
+            "justification_span": "The forecast is dry, so you probably won't need rain jackets, but there isn't much shade on the trail, so make sure you bring plenty of sunscreen.",
+            "location": "26"
+          }
+        ]
+      }
+    ]
+  }
+}

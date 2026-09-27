@@ -1,0 +1,90 @@
+{
+  "source": "IELTS Speaking Band Descriptors and IELTS Speaking Key Assessment Criteria, published by the IELTS partners (British Council, IDP IELTS, Cambridge University Press & Assessment): https://ielts.org/cdn/ielts-guides/ielts-speaking-band-descriptors.pdf and https://ielts.org/cdn/ielts-guides/ielts-speaking-key-assessment-criteria.pdf",
+  "note": "Condensed paraphrase of the public IELTS Speaking band descriptors for grading prompts; not official wording.",
+  "criteria": [
+    {
+      "key": "FLUENCY_COHERENCE",
+      "name": "Fluency and Coherence",
+      "assesses": "Fluency: speaking at a normal rate and with normal continuity and effort, with no excessive interruption from false starts, backtracking, repetition that serves no purpose, or pauses to search for words. Coherence: logical sequencing of spoken sentences; stages of a narrative, discussion or argument clearly marked (with pauses, discourse markers and fillers); relevance to the purpose of each turn; cohesive devices within and between spoken sentences (connectors, pronouns, conjunctions).",
+      "bands": {
+        "9": "Speaks fluently with only very occasional repetition or self-correction. Any hesitation is for planning content, never for finding words or grammar. Speech suits the situation and cohesive features are fully acceptable. Topics are developed fully coherently and extended appropriately.",
+        "8": "Speaks fluently with only very occasional repetition or self-correction. Hesitation is mostly content-related, and only occasionally a search for words or grammar. Topic development is coherent, appropriate and relevant.",
+        "7": "Keeps going and readily produces long turns without noticeable effort. Some hesitation, repetition or self-correction may occur, often mid-sentence, showing difficulty in reaching the right language, but it does not damage coherence. Uses spoken discourse markers, connectives and cohesive features flexibly.",
+        "6": "Is willing to speak at length and can keep going. Hesitation, repetition or self-correction sometimes cause a loss of coherence. A range of discourse markers, connectives and other cohesive features is used, but not always appropriately.",
+        "5": "Usually keeps going, but relies on repetition, self-correction and/or slow speech to do so. Hesitations are often mid-sentence searches for fairly basic words and grammar. Overuses certain discourse markers, connectives and other cohesive features. Simpler language may flow, but more complex speech usually causes disfluency.",
+        "4": "Cannot keep going without noticeable pauses; speech may be slow, with frequent repetition and frequent self-correction. Links simple sentences, but often by repeating the same connectives. Coherence breaks down at times.",
+        "3": "Pauses are frequent and sometimes long while searching for words. Can do little to link simple sentences or go beyond simple answers, and often fails to convey the basic message.",
+        "2": "Pauses at length before almost every word; a few isolated words can be recognised, but virtually no message gets across.",
+        "1": "Essentially no fluency; speech is totally incoherent.",
+        "0": "Did not attend or did not complete the test."
+      }
+    },
+    {
+      "key": "LEXICAL_RESOURCE",
+      "name": "Lexical Resource",
+      "assesses": "Variety of words used; adequacy and appropriacy of vocabulary in terms of accurate naming of things and concepts, style (formal/informal), collocation (including idiomatic expressions) and expressing attitude; ability to paraphrase around vocabulary gaps, with or without noticeable hesitation.",
+      "bands": {
+        "9": "Uses vocabulary with total flexibility and precision in every context. Sustains accurate, idiomatic language throughout.",
+        "8": "Has a wide resource, used readily and flexibly to discuss any topic and convey precise meaning. Uses less common and idiomatic items skilfully, despite occasional inaccuracies in word choice or collocation. Paraphrases effectively whenever needed.",
+        "7": "Uses the resource flexibly to discuss a variety of topics. Shows some ability to use less common and idiomatic items and some awareness of style and collocation, though inappropriacies occur. Paraphrases effectively as needed.",
+        "6": "Has enough vocabulary to discuss topics at length. Some word choices may be inappropriate, but the meaning stays clear. Generally paraphrases successfully.",
+        "5": "Has enough vocabulary to talk about familiar and unfamiliar topics, but with limited flexibility. Attempts paraphrase, but not always successfully.",
+        "4": "Has enough vocabulary for familiar topics, but can convey only basic meaning on unfamiliar ones. Makes frequent errors and inappropriate choices of words. Rarely attempts paraphrase.",
+        "3": "Vocabulary is limited to simple words, used mainly to give personal information; it is inadequate for unfamiliar topics.",
+        "2": "Very limited resource: utterances are isolated words or memorised phrases, and little communication is possible without mime or gesture.",
+        "1": "No resource beyond a few isolated words; no communication is possible.",
+        "0": "Did not attend or did not complete the test."
+      }
+    },
+    {
+      "key": "GRAMMATICAL_RANGE_ACCURACY",
+      "name": "Grammatical Range and Accuracy",
+      "assesses": "Range: length and complexity of spoken sentences; subordinate clauses; complexity of the verb phrase (continuous/perfect aspect, modals, passive); pre- and post-modification of nouns; varied sentence structures for information focus. Accuracy: error density (errors per amount of speech) and the effect of errors on intelligibility and precision.",
+      "bands": {
+        "9": "Structures are precise and accurate at all times, apart from the kind of slips native speakers make in natural speech.",
+        "8": "Uses a wide range of structures flexibly. Most sentences are error-free; occasional inappropriacies and non-systematic errors occur, and a few basic errors may persist.",
+        "7": "Uses a range of structures flexibly, and error-free sentences are frequent. Uses both simple and complex sentences effectively despite some errors; a few basic errors persist.",
+        "6": "Mixes short and complex sentence forms and uses a variety of structures, though only with limited flexibility. Complex structures often contain errors, yet these seldom get in the way of communication.",
+        "5": "Controls basic sentence forms fairly accurately. Complex structures are attempted, but they are limited in range, nearly always contain errors and may force the speaker to reformulate.",
+        "4": "Manages basic sentence forms, and some short utterances are correct. Subordinate clauses seldom appear; turns tend to be short, structures repetitive and errors frequent.",
+        "3": "Attempts basic sentence forms, but grammatical errors are numerous except in what seem to be memorised utterances.",
+        "2": "No evidence of basic sentence forms.",
+        "1": "No rateable language except memorised items.",
+        "0": "Did not attend or did not complete the test."
+      }
+    },
+    {
+      "key": "PRONUNCIATION",
+      "name": "Pronunciation",
+      "assesses": "Accurate, sustained use of phonological features to convey meaning: dividing speech into meaningful chunks; rhythm and stress-timing, and linking sounds (e.g. elision) in connected speech; stress (emphatic/contrastive) and intonation used to add meaning; production of sounds at word and phoneme level (word stress, vowels, consonants) and how much effort the listener needs; overall effect of accent on intelligibility.",
+      "bands": {
+        "9": "Commands the full range of pronunciation features and uses them to express precise or subtle meaning. Connected-speech features are used flexibly from start to finish. The listener understands without any effort, and the accent does not affect intelligibility at all.",
+        "8": "Draws on a wide range of pronunciation features to express precise or subtle meaning. Keeps an appropriate rhythm and varies stress and intonation flexibly over long utterances, with occasional lapses. Is easy to understand throughout, and the accent barely affects intelligibility.",
+        "7": "Shows all the positive features of band 6 and some, but not all, of those of band 8 (for example, appropriate rhythm sustained over longer stretches, flexible stress and intonation, being easily rather than just generally understood).",
+        "6": "Uses a range of phonological features, but control varies. Chunking is generally appropriate, but rhythm may suffer from a lack of stress-timing and/or a rapid speech rate. Uses intonation and stress effectively at times, but not consistently. Individual words or sounds may be mispronounced, causing only occasional lack of clarity; can generally be understood throughout without much effort.",
+        "5": "Shows all the positive features of band 4 and some, but not all, of those of band 6 (for example, chunking that is generally appropriate, some effective stress and intonation, mispronunciations that only sometimes reduce clarity).",
+        "4": "Uses some acceptable phonological features, but the range is limited. Some chunking is acceptable, but overall rhythm lapses frequently. Attempts intonation and stress, with limited control. Words or sounds are frequently mispronounced, reducing clarity; the listener needs some effort, and some stretches of speech may be impossible to understand.",
+        "3": "An in-between band: a mixture of band-2 features and some (not all) of the positive features of band 4.",
+        "2": "Uses few acceptable phonological features (perhaps because the sample is too short). Delivery problems undermine attempts at connected speech; most words and sounds are mispronounced and little meaning is conveyed; often unintelligible.",
+        "1": "Only the odd word or sound can be recognised; no overall meaning comes across and speech is unintelligible.",
+        "0": "Did not attend or did not complete the test."
+      }
+    }
+  ],
+  "examiner_notes": [
+    "Best-fit rule: a candidate must FULLY fit the positive features of a band to be awarded it. If they show most but not all of the band-7 features, the band is 6. Rate each criterion independently as a whole band (0–9).",
+    "Rate the average performance across all three parts, not the best or worst moment. Part 1 shows everyday language; Part 2 shows whether the speaker can sustain a long turn and organise it; Part 3 shows abstract language, speculation, justification and complex structures. Band 7+ in FC, LR and GRA mostly depends on Part 3 evidence.",
+    "Weighting and rounding: the four criteria are weighted equally and their mean is the Speaking band. How IELTS rounds that mean is not published separately; the published OVERALL-band rule (mean of the four skills: .25 rounds up to the next half band, .75 up to the next whole band) is the only official rounding rule. App convention (see data/descriptors/score-conversion.json, used by BandCalculator): Speaking band = mean of the four criteria rounded DOWN to the nearest half band (conservative, not official). When Pronunciation cannot be assessed (transcript only), the mean of the other three is used and the report says so.",
+    "Transcript-only grading, what CAN be judged: LR (range, precision, collocation, idiom, paraphrase, style) and GRA (range of structures, complexity of verb phrases and clauses, error density) can be judged well from an accurate verbatim transcript. So can the coherence side of FC: logical sequencing, relevance, topic development, discourse markers and their appropriacy, overused connectives, and length and extension of turns (short answers vs long turns).",
+    "Transcript-only grading, what CANNOT be judged reliably: Pronunciation needs audio (chunking, rhythm and stress-timing, linking and elision, word and sentence stress, intonation, individual sounds, effect of accent on intelligibility). Without audio or audio-derived measures, do not give a confident Pronunciation band: mark it as not assessable or provisional and say why. The fluency side of FC (speech rate, pause length and position, effortfulness) is only partly visible: use word-level timestamps if available (words per minute, long silent pauses, mid-clause pauses); otherwise infer only from visible hesitation markers and state the limitation.",
+    "Speech-recognition caveats: automatic transcripts often delete fillers (um, er), repetitions, false starts and self-corrections, which makes speech look more fluent than it was. They may also 'repair' grammar the speaker got wrong (missing articles, third-person -s, plural -s, past -ed endings are the least reliable). Conversely, recognition errors can look like vocabulary or grammar mistakes, or be a sign of unclear pronunciation. Do not assess punctuation or spelling at all; sentence boundaries in a transcript are the recogniser's guess. Only penalise an error that is plausibly the speaker's; if a word looks like a mis-recognition, ignore it or flag it.",
+    "Pronunciation bands 7, 5 and 3 are defined as 'in between' bands (all the positive features of the band below plus some, not all, of the band above). An accent is never penalised in itself, only its effect on intelligibility. A very fast speech rate can hurt rhythm and clarity (a band-6 limitation).",
+    "Fluency is not speed: natural pauses to plan content are normal at bands 8–9. Fillers and discourse markers (well, actually, I mean) are acceptable and can mark the stages of a turn, but frequent pauses to find basic words (band 5) or constant self-correction (band 4) lower FC. Asking the examiner to repeat a question is not penalised in itself.",
+    "Part 2 length: the candidate should speak for the full one to two minutes. Stopping well short (e.g. under a minute) gives limited evidence of 'willingness to produce long turns' and topic development, so FC and GRA are hard to rate above 6. Covering the cue-card points is not scored as task achievement (Speaking has no task criterion), but relevance and coherent development count under FC.",
+    "Memorised or rehearsed answers: speech that sounds rehearsed (a perfectly polished, generic answer that doesn't really answer the question, a sudden jump in fluency and idiom compared with the rest of the test) is not reliable evidence and should not be credited as spontaneous range. Bands 2–3 explicitly carve out memorised utterances. Grade the unrehearsed language, especially Part 3 follow-ups.",
+    "Idioms and 'advanced' vocabulary: natural, accurate use of less common and idiomatic items is credited (bands 7–8). Forced, misused or stylistically inappropriate idioms (e.g. proverbs dropped in, very formal written words in casual talk) count as inappropriacies. Successful paraphrase around a gap is positive LR evidence.",
+    "Content is not assessed: opinions do not need to be true, sophisticated or agreeable. Only the language and how coherently and relevantly ideas are developed are rated. Answers that are off-topic or evasive weaken FC (relevance) and give less evidence for LR/GRA.",
+    "Short answers: yes/no or one-sentence answers in Part 1, and brief answers in Part 3, limit the evidence. A candidate who never extends answers rarely gets FC above 5–6 however accurate the language. Good Part 1 answers are 2–4 sentences; good Part 3 answers give a view, a reason and an example or consequence, and often a qualification.",
+    "Grammar in speech: judge it against spoken norms. Ellipsis, verbless answers and informal 'spoken sentences' are acceptable, not errors. Count systematic errors (tense, agreement, articles, word order, question forms) and whether complex forms appear at all: conditionals, relative and noun clauses, passives, modals of speculation, perfect aspect."
+  ]
+}

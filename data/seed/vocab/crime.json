@@ -1,0 +1,138 @@
+{
+  "task_type": "VOCAB_WORD_BANK",
+  "source_url": "",
+  "licence": "Original content",
+  "content": {
+    "topic": "crime",
+    "words": [
+      {
+        "word": "deterrent",
+        "part_of_speech": "noun",
+        "definition": "Something that makes people less likely to do something, for example because they fear the consequences.",
+        "example": "There is little evidence that longer prison sentences act as a more effective deterrent than the certainty of being caught.",
+        "collocations": ["act as a deterrent", "an effective deterrent", "a powerful deterrent"],
+        "cefr": "C1"
+      },
+      {
+        "word": "rehabilitation",
+        "part_of_speech": "noun",
+        "definition": "The process of helping someone, such as a prisoner, to return to a normal, law-abiding life.",
+        "example": "Prisons should prioritise rehabilitation rather than simply punishing inmates.",
+        "collocations": ["rehabilitation programmes", "focus on rehabilitation", "the rehabilitation of prisoners"],
+        "cefr": "C1"
+      },
+      {
+        "word": "reoffend",
+        "part_of_speech": "verb",
+        "definition": "To commit another crime after having been punished for a previous one.",
+        "example": "Inmates who gain qualifications in prison are significantly less likely to reoffend after their release.",
+        "collocations": ["likely to reoffend", "the risk of reoffending", "reoffending rates"],
+        "cefr": "C1"
+      },
+      {
+        "word": "custodial sentence",
+        "part_of_speech": "noun phrase",
+        "definition": "A punishment in which a court sends someone to prison.",
+        "example": "For minor, non-violent offences, community service may be more constructive than a custodial sentence.",
+        "collocations": ["receive a custodial sentence", "impose a custodial sentence", "a non-custodial sentence"],
+        "cefr": "C2"
+      },
+      {
+        "word": "juvenile delinquency",
+        "part_of_speech": "noun phrase",
+        "definition": "Criminal or antisocial behaviour by young people.",
+        "example": "Poverty, poor parenting and a lack of opportunities are frequently cited as factors contributing to juvenile delinquency.",
+        "collocations": ["rising juvenile delinquency", "prevent juvenile delinquency", "the causes of juvenile delinquency"],
+        "cefr": "C2"
+      },
+      {
+        "word": "offender",
+        "part_of_speech": "noun",
+        "definition": "A person who has committed a crime.",
+        "example": "First-time offenders should be given a chance to make amends rather than being sent straight to prison.",
+        "collocations": ["young offenders", "first-time offenders", "repeat offenders", "persistent offenders"],
+        "cefr": "C1"
+      },
+      {
+        "word": "root cause",
+        "part_of_speech": "noun phrase",
+        "definition": "The basic, underlying reason for a problem.",
+        "example": "Harsher sentences treat the symptoms of crime rather than its root causes, such as poverty and addiction.",
+        "collocations": ["address the root causes", "tackle the root causes of crime", "the root cause of the problem"],
+        "cefr": "C1"
+      },
+      {
+        "word": "law-abiding",
+        "part_of_speech": "adjective",
+        "definition": "Obeying the law and behaving in a way that is socially acceptable.",
+        "example": "Most law-abiding citizens are willing to accept some loss of privacy in return for safer streets.",
+        "collocations": ["law-abiding citizens", "otherwise law-abiding", "law-abiding members of society"],
+        "cefr": "C1"
+      },
+      {
+        "word": "cybercrime",
+        "part_of_speech": "noun",
+        "definition": "Crime that is committed using computers or the internet, such as fraud, hacking or identity theft.",
+        "example": "Cybercrime, from identity theft to online fraud, now costs the global economy billions every year.",
+        "collocations": ["combat cybercrime", "victims of cybercrime", "a rise in cybercrime"],
+        "cefr": "C1"
+      },
+      {
+        "word": "petty crime",
+        "part_of_speech": "noun phrase",
+        "definition": "Crime that is not very serious, such as shoplifting or pickpocketing.",
+        "example": "Petty crime such as shoplifting is often driven by economic hardship rather than malice.",
+        "collocations": ["commit petty crime", "a rise in petty crime", "petty crime and vandalism"],
+        "cefr": "C1"
+      },
+      {
+        "word": "capital punishment",
+        "part_of_speech": "noun phrase",
+        "definition": "The legal killing of a person as punishment for a very serious crime; the death penalty.",
+        "example": "Opponents of capital punishment point out that an execution cannot be reversed if new evidence later emerges.",
+        "collocations": ["abolish capital punishment", "the abolition of capital punishment", "reinstate capital punishment"],
+        "cefr": "C1"
+      },
+      {
+        "word": "miscarriage of justice",
+        "part_of_speech": "noun phrase",
+        "definition": "A situation in which a court makes a wrong decision, especially when an innocent person is punished.",
+        "example": "DNA evidence has exposed numerous miscarriages of justice, freeing prisoners who had been wrongly convicted.",
+        "collocations": ["a serious miscarriage of justice", "victims of a miscarriage of justice", "prevent miscarriages of justice"],
+        "cefr": "C2"
+      },
+      {
+        "word": "crack down on",
+        "part_of_speech": "phrasal verb",
+        "definition": "To start dealing with a problem or illegal activity much more strictly.",
+        "example": "The authorities have pledged to crack down on knife crime by increasing police patrols in high-risk areas.",
+        "collocations": ["crack down on crime", "a crackdown on", "a police crackdown"],
+        "cefr": "C1"
+      },
+      {
+        "word": "antisocial behaviour",
+        "part_of_speech": "noun phrase",
+        "definition": "Behaviour, such as vandalism, noise or public drunkenness, that harms or disturbs other people.",
+        "example": "Persistent antisocial behaviour can make residents feel unsafe in their own neighbourhoods.",
+        "collocations": ["tackle antisocial behaviour", "persistent antisocial behaviour", "low-level antisocial behaviour"],
+        "cefr": "C1"
+      },
+      {
+        "word": "incarceration",
+        "part_of_speech": "noun",
+        "definition": "The state of being kept in prison.",
+        "example": "Mass incarceration is extremely costly and does little to make communities safer in the long run.",
+        "collocations": ["mass incarceration", "rates of incarceration", "alternatives to incarceration"],
+        "cefr": "C2"
+      },
+      {
+        "word": "lenient",
+        "part_of_speech": "adjective",
+        "definition": "Less strict or severe in punishing someone than expected or deserved.",
+        "example": "Victims' families often complain that sentences for dangerous driving are far too lenient.",
+        "collocations": ["a lenient sentence", "overly lenient", "a lenient approach"],
+        "cefr": "C1"
+      }
+    ]
+  }
+}

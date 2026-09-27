@@ -1,0 +1,103 @@
+{
+  "task_type": "GRAMMAR_EXERCISE",
+  "source_url": "",
+  "licence": "Original content",
+  "content": {
+    "area": "PREPOSITIONS_PHRASAL",
+    "exercise_type": "GAP_FILL",
+    "title": "Prepositions for describing data and dependent prepositions",
+    "instructions": "Complete each sentence with ONE word (a preposition or particle). Write only the missing word.",
+    "items": [
+      {
+        "id": "1",
+        "prompt": "Between 2010 and 2020, the average house price in the capital rose ___ 45%, from £200,000 to £290,000.",
+        "options": [],
+        "accepted_answers": ["by"],
+        "model_answer": "Between 2010 and 2020, the average house price in the capital rose by 45%, from £200,000 to £290,000.",
+        "check_mode": "EXACT",
+        "explanation": "After a verb of change, 'by' gives the size of the change (rose by 45%). Compare 'rose to' (the final figure) and 'a rise of 45%' (after a noun)."
+      },
+      {
+        "id": "2",
+        "prompt": "Coal's share of electricity generation dropped from 40% ___ just 12% over the period.",
+        "options": [],
+        "accepted_answers": ["to"],
+        "model_answer": "Coal's share of electricity generation dropped from 40% to just 12% over the period.",
+        "check_mode": "EXACT",
+        "explanation": "'From … to …' gives the starting and finishing figures, so 'to' marks the end point. 'By' would give the size of the change instead (dropped by 28 percentage points)."
+      },
+      {
+        "id": "3",
+        "prompt": "Internet usage peaked ___ 92% of the population in 2021 before levelling off.",
+        "options": [],
+        "accepted_answers": ["at"],
+        "model_answer": "Internet usage peaked at 92% of the population in 2021 before levelling off.",
+        "check_mode": "EXACT",
+        "explanation": "Use 'at' with a single point or level: peaked at, stood at, levelled off at, bottomed out at."
+      },
+      {
+        "id": "4",
+        "prompt": "The chart shows a rise ___ 3 million in the number of museum visitors in 2019.",
+        "options": [],
+        "accepted_answers": ["of"],
+        "model_answer": "The chart shows a rise of 3 million in the number of museum visitors in 2019.",
+        "check_mode": "EXACT",
+        "explanation": "After a noun of change (a rise, an increase, a fall, a drop), use 'of' before the amount and 'in' before the thing that changed: 'a rise of 3 million in the number of visitors'."
+      },
+      {
+        "id": "5",
+        "prompt": "Visitor numbers increased steadily ___ 2005 to 2015.",
+        "options": [],
+        "accepted_answers": ["from"],
+        "model_answer": "Visitor numbers increased steadily from 2005 to 2015.",
+        "check_mode": "EXACT",
+        "explanation": "A period is expressed with 'from … to …' or 'between … and …'. Do not mix the two patterns: 'between 2005 to 2015' is incorrect."
+      },
+      {
+        "id": "6",
+        "prompt": "There was a sharp increase ___ the number of international students enrolling at British universities.",
+        "options": [],
+        "accepted_answers": ["in"],
+        "model_answer": "There was a sharp increase in the number of international students enrolling at British universities.",
+        "check_mode": "EXACT",
+        "explanation": "Nouns of change take 'in' before the thing that changed: an increase in, a decline in, a drop in the number of…"
+      },
+      {
+        "id": "7",
+        "prompt": "Renewable sources accounted ___ just 8% of total energy consumption in 1990.",
+        "options": [],
+        "accepted_answers": ["for"],
+        "model_answer": "Renewable sources accounted for just 8% of total energy consumption in 1990.",
+        "check_mode": "EXACT",
+        "explanation": "'Account for' (= make up, represent) is a key Task 1 verb for proportions and always takes 'for': 'Renewables accounted for 8% of the total'."
+      },
+      {
+        "id": "8",
+        "prompt": "Parents are largely responsible ___ shaping their children's attitudes towards money.",
+        "options": [],
+        "accepted_answers": ["for"],
+        "model_answer": "Parents are largely responsible for shaping their children's attitudes towards money.",
+        "check_mode": "EXACT",
+        "explanation": "'Responsible' takes the dependent preposition 'for' + noun or -ing form (responsible for shaping). Learn adjectives together with their prepositions as a single unit."
+      },
+      {
+        "id": "9",
+        "prompt": "Social media has had a profound impact ___ the way teenagers communicate.",
+        "options": [],
+        "accepted_answers": ["on", "upon"],
+        "model_answer": "Social media has had a profound impact on the way teenagers communicate.",
+        "check_mode": "EXACT",
+        "explanation": "The nouns 'impact', 'effect' and 'influence' take 'on' (or the more formal 'upon'): an impact on the way…, not 'impact to' or 'impact in'."
+      },
+      {
+        "id": "10",
+        "prompt": "Governments need to come up ___ innovative solutions to the housing crisis.",
+        "options": [],
+        "accepted_answers": ["with"],
+        "model_answer": "Governments need to come up with innovative solutions to the housing crisis.",
+        "check_mode": "EXACT",
+        "explanation": "'Come up with' (= think of, produce) is a three-part phrasal verb, and every part is needed. Other useful Task 2 examples: cut down on, do away with, put forward."
+      }
+    ]
+  }
+}

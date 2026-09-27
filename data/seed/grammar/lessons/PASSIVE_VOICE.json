@@ -1,0 +1,91 @@
+{
+  "task_type": "GRAMMAR_LESSON",
+  "source_url": "",
+  "licence": "Original content",
+  "content": {
+    "area": "PASSIVE_VOICE",
+    "title": "The passive voice: processes, maps and impersonal statements",
+    "summary": "The passive is essential for Task 1 process diagrams and maps, where the band 7 skill is describing each stage accurately without saying who does it. Band 6 candidates often mis-form passives (a missing 'be' or the wrong participle) or make intransitive verbs passive; band 7–8 writers choose active or passive deliberately and use impersonal passives to sound academic in Task 2.",
+    "explanation": "### Forming the passive\n**be (in the right tense) + past participle.** Only the form of *be* changes:\n- Present simple: *is/are **produced***\n- Present continuous: *is/are being **built***\n- Past simple: *was/were **introduced***\n- Present perfect: *has/have been **replaced***\n- Modals and future: *will be **sent**, can be **recycled**, must be **stored***\n\nOnly **transitive** verbs (verbs with an object) have a passive. *Happen, occur, rise, fall, arrive, remain* cannot be passive: ✗ *The accident was happened.*\n\n### Process diagrams (Task 1)\nIn most processes the agent is unknown or unimportant, so the **present simple passive** is the default:\n- *First, the raw materials **are collected** and **transported** to the factory.*\n- *The mixture **is then heated** to 200°C, after which it **is poured** into moulds.*\n- *Once the bottles **have been cleaned**, they **are filled** and **labelled**.*\n\nTips for a band 7+ process description:\n- Combine the passive with sequencers (*first, next, once, after which, finally*) so sentences are not identical.\n- Use the **active** for natural processes and intransitive verbs: *The water **evaporates**, **rises** and **condenses** into clouds.*\n- Add *by + agent* only when it is useful: *…**are checked by** quality inspectors.*\n- Use reduced clauses to join stages: *The leaves, **picked by hand**, are then dried* / *…before **being packaged**.*\n\n### Maps (Task 1)\nChanges to a place are usually described with the past simple or present perfect passive: *A car park **was built** where the woods used to be, and the old school **has been converted** into flats.*\n\n### Active or passive?\nChoose the passive when:\n- the agent is unknown, obvious or unimportant (*The bridge **was opened** in 1998*);\n- you want to keep the topic at the start of the sentence for smoother cohesion.\n\nChoose the active when the agent matters: *Governments must fund research* is stronger than *Research must be funded*. An essay written mostly in the passive sounds vague and evasive.\n\n### Impersonal passives for Task 2\nThese let you report opinions objectively instead of writing *people say*:\n- ***It is widely believed that** social media harms concentration.*\n- ***It has been argued that** tourism damages local cultures.*\n- *Remote work **is thought to** increase productivity.*\n- *Plastic bottles **are estimated to** take 450 years to decompose.*\n\nTwo patterns: *It + is + past participle + that-clause*, and *Subject + is + past participle + to-infinitive* (*to have + past participle* for the past: *The fire **is said to have started** in the kitchen*).",
+    "key_rules": [
+      {
+        "rule": "Form the passive with be + past participle, changing only 'be' to show the tense.",
+        "example": "The new terminal is being built now and will be opened in 2027."
+      },
+      {
+        "rule": "Use the present simple passive for most stages of a process diagram.",
+        "example": "The grapes are harvested, crushed and then stored in steel tanks for fermentation."
+      },
+      {
+        "rule": "Intransitive verbs such as happen, rise, occur, remain and arrive have no passive form.",
+        "example": "Most accidents occur at junctions rather than on motorways."
+      },
+      {
+        "rule": "Include 'by + agent' only when the agent is new or important information.",
+        "example": "The finished products are inspected by trained technicians before they are packaged."
+      },
+      {
+        "rule": "Use impersonal passives (It is believed that… / X is thought to…) to present views objectively in Task 2.",
+        "example": "It is often claimed that standardised tests fail to measure creativity."
+      },
+      {
+        "rule": "Prefer the active when the doer matters or when the passive would make the sentence vague.",
+        "example": "Parents, not schools, should decide how much screen time their children have."
+      }
+    ],
+    "common_mistakes": [
+      {
+        "wrong": "The clay is dig from the ground and is put into a mixer.",
+        "right": "The clay is dug from the ground and put into a mixer.",
+        "why": "The passive needs the past participle (dug), not the base form; the second 'is' can be dropped because both verbs share it."
+      },
+      {
+        "wrong": "The price of oil was increased sharply in 2008.",
+        "right": "The price of oil increased sharply in 2008.",
+        "why": "In trend descriptions, 'increase' is used intransitively (the price simply went up); the passive wrongly suggests that someone deliberately raised it."
+      },
+      {
+        "wrong": "A serious accident was happened near my house.",
+        "right": "A serious accident happened near my house.",
+        "why": "'Happen' is intransitive and cannot be made passive."
+      },
+      {
+        "wrong": "After that, the bottles are washing and filling with water.",
+        "right": "After that, the bottles are washed and filled with water.",
+        "why": "The bottles receive the action, so use the past participle, not the -ing form."
+      },
+      {
+        "wrong": "It is believe that social media is harmful.",
+        "right": "It is believed that social media is harmful.",
+        "why": "The impersonal passive needs the past participle 'believed'; dropping -ed is a very common slip."
+      },
+      {
+        "wrong": "The land was used for farming, but now a shopping centre has built there.",
+        "right": "The land was used for farming, but now a shopping centre has been built there.",
+        "why": "The present perfect passive needs 'been'; without it, the sentence says the shopping centre built something."
+      }
+    ],
+    "ielts_examples": [
+      {
+        "context": "WRITING_TASK1",
+        "sentence": "Once the cocoa beans have been harvested, they are left to ferment for several days before being dried in the sun."
+      },
+      {
+        "context": "WRITING_TASK1",
+        "sentence": "The recycled glass is crushed into small fragments, which are then melted down at a temperature of around 1,500°C."
+      },
+      {
+        "context": "WRITING_TASK1",
+        "sentence": "Between 1995 and 2015, the fishing village was transformed: the harbour was enlarged and several hotels were built along the coastline."
+      },
+      {
+        "context": "WRITING_TASK2",
+        "sentence": "It is widely believed that compulsory voting strengthens democracy, but this claim has rarely been tested systematically."
+      },
+      {
+        "context": "SPEAKING_PART3",
+        "sentence": "A lot of traditional crafts in my country are no longer being passed down, because young people are expected to go to university instead."
+      }
+    ]
+  }
+}

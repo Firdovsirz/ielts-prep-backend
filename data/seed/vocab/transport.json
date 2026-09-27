@@ -1,0 +1,138 @@
+{
+  "task_type": "VOCAB_WORD_BANK",
+  "source_url": "",
+  "licence": "Original content",
+  "content": {
+    "topic": "transport",
+    "words": [
+      {
+        "word": "traffic congestion",
+        "part_of_speech": "noun phrase",
+        "definition": "A situation in which there are so many vehicles on the roads that traffic moves very slowly.",
+        "example": "Traffic congestion in major cities costs the economy billions in lost working hours each year.",
+        "collocations": ["ease traffic congestion", "chronic traffic congestion", "reduce traffic congestion"],
+        "cefr": "B2"
+      },
+      {
+        "word": "congestion charge",
+        "part_of_speech": "noun phrase",
+        "definition": "A fee that drivers must pay to enter the busiest part of a city, intended to reduce traffic.",
+        "example": "Since the introduction of a congestion charge, traffic levels in some city centres have fallen noticeably.",
+        "collocations": ["introduce a congestion charge", "pay the congestion charge", "a congestion charge zone"],
+        "cefr": "C1"
+      },
+      {
+        "word": "commute",
+        "part_of_speech": "noun",
+        "definition": "The regular journey that someone makes between their home and their place of work.",
+        "example": "A long daily commute can erode both productivity and the time people have for their families.",
+        "collocations": ["a daily commute", "a long commute", "the commute to work"],
+        "cefr": "B2"
+      },
+      {
+        "word": "integrated",
+        "part_of_speech": "adjective",
+        "definition": "Describing a transport system in which different types of transport are connected and work together efficiently.",
+        "example": "An integrated transport network, in which buses and trains share a single ticketing system, encourages people to leave their cars at home.",
+        "collocations": ["an integrated transport system", "integrated ticketing", "fully integrated"],
+        "cefr": "C1"
+      },
+      {
+        "word": "car dependency",
+        "part_of_speech": "noun phrase",
+        "definition": "A situation in which people have to rely on cars because there are no practical alternatives.",
+        "example": "Poorly planned suburbs have fostered car dependency, as many residents have no realistic alternative to driving.",
+        "collocations": ["reduce car dependency", "high levels of car dependency", "a culture of car dependency"],
+        "cefr": "C1"
+      },
+      {
+        "word": "urban sprawl",
+        "part_of_speech": "noun phrase",
+        "definition": "The uncontrolled spread of a city into the surrounding countryside.",
+        "example": "Urban sprawl consumes valuable farmland and lengthens the distances people must travel to work.",
+        "collocations": ["uncontrolled urban sprawl", "curb urban sprawl", "contain urban sprawl"],
+        "cefr": "C1"
+      },
+      {
+        "word": "pedestrianise",
+        "part_of_speech": "verb",
+        "definition": "To close a street or area to vehicles so that only people on foot can use it.",
+        "example": "Pedestrianising city-centre streets can revitalise local businesses and improve air quality.",
+        "collocations": ["pedestrianise the city centre", "a pedestrianised zone", "fully pedestrianised"],
+        "cefr": "C2"
+      },
+      {
+        "word": "exhaust fumes",
+        "part_of_speech": "noun phrase",
+        "definition": "The harmful gases that come out of a vehicle's engine.",
+        "example": "Children living near busy roads are exposed to high levels of exhaust fumes, which can impair lung development.",
+        "collocations": ["toxic exhaust fumes", "inhale exhaust fumes", "vehicle exhaust fumes"],
+        "cefr": "C1"
+      },
+      {
+        "word": "subsidise",
+        "part_of_speech": "verb",
+        "definition": "To pay part of the cost of something so that it becomes cheaper for the people who use it.",
+        "example": "Heavily subsidised rail fares would make public transport a more attractive option for commuters.",
+        "collocations": ["heavily subsidised", "subsidise public transport", "state-subsidised"],
+        "cefr": "C1"
+      },
+      {
+        "word": "high-speed rail",
+        "part_of_speech": "noun phrase",
+        "definition": "A railway system designed for trains that travel much faster than ordinary trains.",
+        "example": "High-speed rail could significantly reduce journey times between regional cities and the capital.",
+        "collocations": ["a high-speed rail link", "a high-speed rail network", "invest in high-speed rail"],
+        "cefr": "B2"
+      },
+      {
+        "word": "short-haul",
+        "part_of_speech": "adjective",
+        "definition": "Describing flights or transport that cover relatively short distances.",
+        "example": "Some European countries have restricted short-haul flights on routes where a train journey of under three hours is available.",
+        "collocations": ["short-haul flights", "short-haul routes", "short-haul travel"],
+        "cefr": "C1"
+      },
+      {
+        "word": "fatality",
+        "part_of_speech": "noun",
+        "definition": "A death caused by an accident, violence or disease.",
+        "example": "Lower speed limits in residential areas have led to a marked reduction in road fatalities.",
+        "collocations": ["road fatalities", "traffic fatalities", "reduce fatalities"],
+        "cefr": "C1"
+      },
+      {
+        "word": "gridlock",
+        "part_of_speech": "noun",
+        "definition": "A situation in which traffic is so heavy that vehicles cannot move at all.",
+        "example": "Without investment in public transport, the city's roads will be reduced to gridlock during the rush hour.",
+        "collocations": ["total gridlock", "cause gridlock", "traffic gridlock"],
+        "cefr": "C1"
+      },
+      {
+        "word": "cycle lane",
+        "part_of_speech": "noun phrase",
+        "definition": "A part of a road or path that is reserved for bicycles.",
+        "example": "Building segregated cycle lanes makes cycling safer and more appealing to cautious riders.",
+        "collocations": ["segregated cycle lanes", "dedicated cycle lanes", "a network of cycle lanes"],
+        "cefr": "B2"
+      },
+      {
+        "word": "zero-emission",
+        "part_of_speech": "adjective",
+        "definition": "Producing no harmful gases from the exhaust while being used.",
+        "example": "Several cities plan to allow only zero-emission vehicles in their centres within the next decade.",
+        "collocations": ["zero-emission vehicles", "zero-emission zones", "zero-emission buses"],
+        "cefr": "C1"
+      },
+      {
+        "word": "car-sharing",
+        "part_of_speech": "noun",
+        "definition": "An arrangement in which people share the use of cars, or travel together in one car, instead of each owning or driving their own.",
+        "example": "Car-sharing schemes allow urban residents to use a vehicle when they need one without the expense of ownership.",
+        "collocations": ["a car-sharing scheme", "car-sharing platforms", "encourage car-sharing"],
+        "cefr": "C1"
+      }
+    ]
+  }
+}

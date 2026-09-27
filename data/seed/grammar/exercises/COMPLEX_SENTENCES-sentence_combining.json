@@ -1,0 +1,137 @@
+{
+  "task_type": "GRAMMAR_EXERCISE",
+  "source_url": "",
+  "licence": "Original content",
+  "content": {
+    "area": "COMPLEX_SENTENCES",
+    "exercise_type": "SENTENCE_COMBINING",
+    "title": "Complex sentences: combining with relative, adverbial and noun clauses",
+    "instructions": "Combine the sentences into ONE sentence using the structure given in brackets. Keep the original meaning, remove any words that become unnecessary, and punctuate carefully (non-defining relative clauses need commas).",
+    "items": [
+      {
+        "id": "1",
+        "prompt": "Norway had the highest proportion of electric car sales in 2020. Its government offers generous tax incentives to buyers. (non-defining relative clause with 'whose')",
+        "options": [],
+        "accepted_answers": [
+          "Norway, whose government offers generous tax incentives to buyers, had the highest proportion of electric car sales in 2020."
+        ],
+        "model_answer": "Norway, whose government offers generous tax incentives to buyers, had the highest proportion of electric car sales in 2020.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "'Whose' replaces a possessive (its, their, his) and links it to the noun before it. Because 'Norway' is already fully identified, the clause is non-defining and must be enclosed in commas."
+      },
+      {
+        "id": "2",
+        "prompt": "Some students study abroad. These students often return with valuable language skills. (defining relative clause with 'who')",
+        "options": [],
+        "accepted_answers": [
+          "Students who study abroad often return with valuable language skills.",
+          "The students who study abroad often return with valuable language skills."
+        ],
+        "model_answer": "Students who study abroad often return with valuable language skills.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "A defining relative clause identifies which people we mean (only those who study abroad), so it takes no commas. Adding commas would wrongly suggest that all students study abroad."
+      },
+      {
+        "id": "3",
+        "prompt": "Many people move to big cities. They want better-paid jobs. (adverbial clause of reason)",
+        "options": [],
+        "accepted_answers": [
+          "Many people move to big cities because they want better-paid jobs.",
+          "Many people move to big cities as they want better-paid jobs.",
+          "As they want better-paid jobs, many people move to big cities.",
+          "Since they want better-paid jobs, many people move to big cities."
+        ],
+        "model_answer": "Many people move to big cities because they want better-paid jobs.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "Reason clauses are introduced by because, as or since. When the subordinate clause comes first, put a comma after it; when it comes second, no comma is usually needed after 'because'."
+      },
+      {
+        "id": "4",
+        "prompt": "Online learning is much cheaper. Many employers still prefer traditional degrees. (concession clause with 'although')",
+        "options": [],
+        "accepted_answers": [
+          "Although online learning is much cheaper, many employers still prefer traditional degrees.",
+          "Many employers still prefer traditional degrees, although online learning is much cheaper."
+        ],
+        "model_answer": "Although online learning is much cheaper, many employers still prefer traditional degrees.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "'Although' introduces a contrast that you concede before making your main point. Never combine it with 'but' in the same sentence ('Although …, but …' is a typical band-5 error)."
+      },
+      {
+        "id": "5",
+        "prompt": "Sales of laptops fell in 2019. Sales of tablets rose in the same year. (contrast clause with 'whereas' or 'while')",
+        "options": [],
+        "accepted_answers": [
+          "Sales of laptops fell in 2019, whereas sales of tablets rose in the same year.",
+          "Sales of laptops fell in 2019, while sales of tablets rose in the same year.",
+          "Whereas sales of laptops fell in 2019, sales of tablets rose in the same year.",
+          "While sales of laptops fell in 2019, sales of tablets rose in the same year."
+        ],
+        "model_answer": "While sales of laptops fell in 2019, sales of tablets rose in the same year.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "'Whereas' and 'while' join two contrasting facts in one sentence, which is ideal for Task 1 comparisons. A comma separates the two clauses in either order."
+      },
+      {
+        "id": "6",
+        "prompt": "The survey was conducted in 2022. It asked 2,000 adults about their reading habits. (non-defining relative clause with 'which')",
+        "options": [],
+        "accepted_answers": [
+          "The survey, which was conducted in 2022, asked 2,000 adults about their reading habits.",
+          "The survey, which asked 2,000 adults about their reading habits, was conducted in 2022."
+        ],
+        "model_answer": "The survey, which was conducted in 2022, asked 2,000 adults about their reading habits.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "A non-defining clause adds extra information about something already identified (the survey). It uses 'which' (never 'that') and is separated from the main clause by a pair of commas."
+      },
+      {
+        "id": "7",
+        "prompt": "Nobody knows the answer to this question. Will remote working remain popular over the next decade? (noun clause with 'whether')",
+        "options": [],
+        "accepted_answers": [
+          "Nobody knows whether remote working will remain popular over the next decade.",
+          "Nobody knows whether or not remote working will remain popular over the next decade."
+        ],
+        "model_answer": "Nobody knows whether remote working will remain popular over the next decade.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "When a yes/no question becomes a noun clause, it is introduced by 'whether' (or 'if') and uses statement word order: subject + verb (remote working will remain), not question order (will remote working remain), and it has no question mark."
+      },
+      {
+        "id": "8",
+        "prompt": "Most tourists visited the coastal region. Hotel prices there were the lowest in the country. (relative clause with 'where')",
+        "options": [],
+        "accepted_answers": [
+          "Most tourists visited the coastal region, where hotel prices were the lowest in the country."
+        ],
+        "model_answer": "Most tourists visited the coastal region, where hotel prices were the lowest in the country.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "'Where' replaces 'there' / 'in that place' and introduces a relative clause about a place. Do not keep 'there' inside the clause ('where hotel prices there were …' repeats the place)."
+      },
+      {
+        "id": "9",
+        "prompt": "The factory closed in 2015. Soon afterwards, unemployment in the town rose sharply. (time clause with 'after' or 'once')",
+        "options": [],
+        "accepted_answers": [
+          "After the factory closed in 2015, unemployment in the town rose sharply.",
+          "Unemployment in the town rose sharply after the factory closed in 2015.",
+          "Once the factory closed in 2015, unemployment in the town rose sharply."
+        ],
+        "model_answer": "After the factory closed in 2015, unemployment in the town rose sharply.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "A time clause (after, once, when, as soon as) shows the sequence of two events in one sentence. Put a comma after the time clause when it comes first."
+      },
+      {
+        "id": "10",
+        "prompt": "Many cities have built cycle lanes. They want more residents to leave their cars at home. (purpose clause with 'so that')",
+        "options": [],
+        "accepted_answers": [
+          "Many cities have built cycle lanes so that more residents will leave their cars at home.",
+          "Many cities have built cycle lanes so that more residents leave their cars at home.",
+          "Many cities have built cycle lanes so that more residents can leave their cars at home."
+        ],
+        "model_answer": "Many cities have built cycle lanes so that more residents will leave their cars at home.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "'So that' introduces a purpose clause with its own subject (more residents), usually followed by will/can/could. Use 'to' or 'in order to' only when the subject of both clauses is the same."
+      }
+    ]
+  }
+}

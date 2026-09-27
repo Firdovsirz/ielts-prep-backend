@@ -1,0 +1,22 @@
+{
+  "task_type": "SPEAKING_PART2",
+  "source_url": "",
+  "licence": "Original content",
+  "content": {
+    "topic": "A useful skill learned outside school",
+    "theme": "Learning and skills",
+    "cue_card": {
+      "prompt": "Describe a useful skill you learned outside school.",
+      "bullets": [
+        "what the skill is",
+        "who taught you or how you learned it",
+        "how long it took you to learn it"
+      ],
+      "explain": "and explain why this skill is useful to you."
+    },
+    "rounding_off_questions": [
+      "Is this a skill that many people in your country have?",
+      "Is there another skill you would like to learn soon?"
+    ]
+  }
+}

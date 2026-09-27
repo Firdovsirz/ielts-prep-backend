@@ -1,0 +1,39 @@
+{
+  "task_type": "SPEAKING_PART1",
+  "source_url": "",
+  "licence": "Original content",
+  "content": {
+    "topics": [
+      {
+        "topic": "Accommodation",
+        "questions": [
+          "Do you live in a house or a flat?",
+          "What do you like most about the place where you live?",
+          "Which room do you spend the most time in? Why?",
+          "Is there anything you would like to change about your home?",
+          "Do you plan to live there for a long time?"
+        ]
+      },
+      {
+        "topic": "Handwriting",
+        "questions": [
+          "Do you write by hand much these days?",
+          "Do you prefer handwriting or typing? Why?",
+          "Is your handwriting easy for other people to read?",
+          "How did you learn to write when you were a child?",
+          "Do you think handwriting will still be important in the future?"
+        ]
+      },
+      {
+        "topic": "Birthdays",
+        "questions": [
+          "How do you usually celebrate your birthday?",
+          "Which birthday from your childhood do you remember best?",
+          "Do people in your country usually give presents on birthdays?",
+          "Do you prefer a big party or a small celebration with close friends?",
+          "Do you think birthdays are more important for children than for adults?"
+        ]
+      }
+    ]
+  }
+}

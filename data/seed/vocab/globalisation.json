@@ -1,0 +1,138 @@
+{
+  "task_type": "VOCAB_WORD_BANK",
+  "source_url": "",
+  "licence": "Original content",
+  "content": {
+    "topic": "globalisation",
+    "words": [
+      {
+        "word": "multinational corporation",
+        "part_of_speech": "noun phrase",
+        "definition": "A large company that operates in several different countries.",
+        "example": "Critics argue that multinational corporations have become so powerful that they can influence the policies of national governments.",
+        "collocations": ["powerful multinational corporations", "regulate multinational corporations", "multinational corporations based in"],
+        "cefr": "C1"
+      },
+      {
+        "word": "outsource",
+        "part_of_speech": "verb",
+        "definition": "To pay another company, often in a different country, to do work that your own company used to do.",
+        "example": "Many Western firms outsource manufacturing to countries where labour costs are considerably lower.",
+        "collocations": ["outsource production", "outsource jobs", "outsource to overseas suppliers"],
+        "cefr": "C1"
+      },
+      {
+        "word": "cultural homogenisation",
+        "part_of_speech": "noun phrase",
+        "definition": "The process by which different cultures become more and more similar, losing their distinctive features.",
+        "example": "The global spread of fast-food chains and Hollywood films has fuelled fears of cultural homogenisation.",
+        "collocations": ["fears of cultural homogenisation", "lead to cultural homogenisation", "resist cultural homogenisation"],
+        "cefr": "C2"
+      },
+      {
+        "word": "free trade",
+        "part_of_speech": "noun phrase",
+        "definition": "International trade that takes place without taxes, limits or other restrictions imposed by governments.",
+        "example": "Advocates of free trade claim that it lowers prices for consumers and stimulates economic growth.",
+        "collocations": ["a free trade agreement", "promote free trade", "barriers to free trade"],
+        "cefr": "B2"
+      },
+      {
+        "word": "tariff",
+        "part_of_speech": "noun",
+        "definition": "A tax that a government charges on goods coming into or leaving the country.",
+        "example": "Imposing tariffs on imported steel may protect domestic jobs but raises costs for manufacturers who rely on it.",
+        "collocations": ["impose tariffs", "lift tariffs", "tariffs on imports"],
+        "cefr": "C1"
+      },
+      {
+        "word": "protectionism",
+        "part_of_speech": "noun",
+        "definition": "The policy of protecting a country's own industries by taxing or limiting foreign goods.",
+        "example": "A return to protectionism could trigger retaliatory trade wars that ultimately harm all the countries involved.",
+        "collocations": ["economic protectionism", "a rise in protectionism", "resort to protectionism"],
+        "cefr": "C2"
+      },
+      {
+        "word": "exploitation",
+        "part_of_speech": "noun",
+        "definition": "The unfair treatment of people, such as paying them very little, in order to profit from their work.",
+        "example": "Consumers have become more aware of the exploitation of garment workers who produce cheap clothing for Western markets.",
+        "collocations": ["the exploitation of workers", "labour exploitation", "economic exploitation"],
+        "cefr": "C1"
+      },
+      {
+        "word": "supply chain",
+        "part_of_speech": "noun phrase",
+        "definition": "The series of companies and processes involved in producing a product and delivering it to customers.",
+        "example": "The pandemic exposed the fragility of global supply chains, leading to shortages of essential goods.",
+        "collocations": ["global supply chains", "disrupt supply chains", "supply chain disruption"],
+        "cefr": "C1"
+      },
+      {
+        "word": "brain drain",
+        "part_of_speech": "noun phrase",
+        "definition": "The movement of highly skilled and educated people from one country to another where they can earn more.",
+        "example": "The brain drain from developing nations deprives them of the doctors and engineers they urgently need.",
+        "collocations": ["suffer from a brain drain", "reverse the brain drain", "the brain drain from"],
+        "cefr": "C1"
+      },
+      {
+        "word": "emerging economy",
+        "part_of_speech": "noun phrase",
+        "definition": "A country whose economy is growing quickly and becoming more industrialised.",
+        "example": "Emerging economies such as India and Vietnam have benefited significantly from foreign investment.",
+        "collocations": ["fast-growing emerging economies", "emerging economies such as", "the rise of emerging economies"],
+        "cefr": "C1"
+      },
+      {
+        "word": "remittances",
+        "part_of_speech": "noun",
+        "definition": "Money that people working abroad send back to their families in their home country.",
+        "example": "Remittances from migrant workers now exceed foreign aid in many developing countries.",
+        "collocations": ["send remittances", "a flow of remittances", "rely on remittances"],
+        "cefr": "C2"
+      },
+      {
+        "word": "interdependence",
+        "part_of_speech": "noun",
+        "definition": "A situation in which countries or groups depend on each other.",
+        "example": "Economic interdependence between nations can act as a powerful disincentive to armed conflict.",
+        "collocations": ["economic interdependence", "growing interdependence", "mutual interdependence"],
+        "cefr": "C2"
+      },
+      {
+        "word": "the global village",
+        "part_of_speech": "noun phrase",
+        "definition": "The idea that the whole world has become like a single community because modern communication connects everyone.",
+        "example": "Thanks to the internet and cheap air travel, the notion of a global village is closer to reality than ever before.",
+        "collocations": ["live in a global village", "the concept of the global village", "citizens of the global village"],
+        "cefr": "C1"
+      },
+      {
+        "word": "a level playing field",
+        "part_of_speech": "idiom",
+        "definition": "A situation that is fair because everyone has the same chances and follows the same rules.",
+        "example": "Developing countries argue that current global trade rules do not provide a level playing field.",
+        "collocations": ["create a level playing field", "ensure a level playing field", "a level playing field for"],
+        "cefr": "C1"
+      },
+      {
+        "word": "reap",
+        "part_of_speech": "verb",
+        "definition": "To receive something good, such as a reward or benefit, as a result of your actions.",
+        "example": "While shareholders have reaped the benefits of globalisation, many low-skilled workers in rich countries have seen their wages stagnate.",
+        "collocations": ["reap the benefits", "reap the rewards", "reap huge profits"],
+        "cefr": "C1"
+      },
+      {
+        "word": "sovereignty",
+        "part_of_speech": "noun",
+        "definition": "The power of a country to govern itself and make its own laws without interference from outside.",
+        "example": "Critics fear that international trade agreements undermine national sovereignty by limiting what elected governments can regulate.",
+        "collocations": ["national sovereignty", "undermine sovereignty", "economic sovereignty"],
+        "cefr": "C2"
+      }
+    ]
+  }
+}

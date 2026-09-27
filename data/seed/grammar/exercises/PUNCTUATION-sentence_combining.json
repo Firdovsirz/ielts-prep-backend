@@ -1,0 +1,127 @@
+{
+  "task_type": "GRAMMAR_EXERCISE",
+  "source_url": "",
+  "licence": "Original content",
+  "content": {
+    "area": "PUNCTUATION",
+    "exercise_type": "SENTENCE_COMBINING",
+    "title": "Joining clauses without comma splices",
+    "instructions": "Join the sentences into ONE correctly punctuated sentence using the punctuation mark, linker or structure given. Change or remove words where necessary and write the complete new sentence.",
+    "items": [
+      {
+        "id": "1",
+        "prompt": "Canada had the highest recycling rate in 2020. Greece had the lowest. Use: a semicolon",
+        "options": [],
+        "accepted_answers": [
+          "Canada had the highest recycling rate in 2020; Greece had the lowest."
+        ],
+        "model_answer": "Canada had the highest recycling rate in 2020; Greece had the lowest.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "A semicolon joins two closely related independent clauses without a linker, which works well for balanced Task 1 contrasts. The word after a semicolon is not capitalised unless it is a proper noun (like 'Greece')."
+      },
+      {
+        "id": "2",
+        "prompt": "Air travel has become much cheaper. More people are taking short holidays abroad. Use: 'as a result'",
+        "options": [],
+        "accepted_answers": [
+          "Air travel has become much cheaper; as a result, more people are taking short holidays abroad."
+        ],
+        "model_answer": "Air travel has become much cheaper; as a result, more people are taking short holidays abroad.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "Adverbial linkers (as a result, therefore, consequently, however) are not conjunctions. To join two clauses with one in a single sentence, put a semicolon before the linker and a comma after it."
+      },
+      {
+        "id": "3",
+        "prompt": "Housing in the city centre is extremely expensive. Many key workers commute from surrounding towns. Use: 'so'",
+        "options": [],
+        "accepted_answers": [
+          "Housing in the city centre is extremely expensive, so many key workers commute from surrounding towns."
+        ],
+        "model_answer": "Housing in the city centre is extremely expensive, so many key workers commute from surrounding towns.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "Coordinating conjunctions (and, but, so, or, yet) can join two independent clauses. Put a comma before the conjunction when the two clauses have different subjects, as here."
+      },
+      {
+        "id": "4",
+        "prompt": "The Amazon rainforest is home to around 10% of the world's known species. It is being destroyed at an alarming rate. Use: ', which …,'",
+        "options": [],
+        "accepted_answers": [
+          "The Amazon rainforest, which is home to around 10% of the world's known species, is being destroyed at an alarming rate."
+        ],
+        "model_answer": "The Amazon rainforest, which is home to around 10% of the world's known species, is being destroyed at an alarming rate.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "The extra information becomes a non-defining relative clause placed inside the main clause and enclosed by two commas. Because 'the Amazon rainforest' is already identified, the commas are compulsory and 'that' cannot replace 'which'."
+      },
+      {
+        "id": "5",
+        "prompt": "Cities invest in cycling infrastructure. Car use usually falls significantly. Use: 'When'",
+        "options": [],
+        "accepted_answers": [
+          "When cities invest in cycling infrastructure, car use usually falls significantly.",
+          "Car use usually falls significantly when cities invest in cycling infrastructure."
+        ],
+        "model_answer": "When cities invest in cycling infrastructure, car use usually falls significantly.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "A subordinate clause at the start of a sentence is followed by a comma. If the 'when' clause comes second, no comma is needed."
+      },
+      {
+        "id": "6",
+        "prompt": "My grandfather worked as a farmer for forty years. He has seen enormous changes in agriculture. Use: ', who …,'",
+        "options": [],
+        "accepted_answers": [
+          "My grandfather, who worked as a farmer for forty years, has seen enormous changes in agriculture."
+        ],
+        "model_answer": "My grandfather, who worked as a farmer for forty years, has seen enormous changes in agriculture.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "'My grandfather' refers to one specific person, so the added information is non-defining and needs a comma on both sides. This is also a natural way to add detail to a Speaking Part 2 or 3 answer."
+      },
+      {
+        "id": "7",
+        "prompt": "The government has two options. It can raise taxes or cut public spending. Use: a colon",
+        "options": [],
+        "accepted_answers": [
+          "The government has two options: it can raise taxes or cut public spending.",
+          "The government has two options: raising taxes or cutting public spending.",
+          "The government has two options: to raise taxes or to cut public spending."
+        ],
+        "model_answer": "The government has two options: it can raise taxes or cut public spending.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "A colon introduces an explanation or list that completes what the first clause promises ('two options'). The part before the colon must be a complete clause, and in British English the word after the colon is normally lower case."
+      },
+      {
+        "id": "8",
+        "prompt": "The weather was poor. The festival attracted a record number of visitors. Use: 'Despite'",
+        "options": [],
+        "accepted_answers": [
+          "Despite the poor weather, the festival attracted a record number of visitors."
+        ],
+        "model_answer": "Despite the poor weather, the festival attracted a record number of visitors.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "An introductory prepositional phrase (Despite…, According to the chart…, In 2020…) is normally followed by a comma. Remember that 'despite' takes a noun phrase ('the poor weather'), not a clause."
+      },
+      {
+        "id": "9",
+        "prompt": "London is the capital of the United Kingdom. It attracts millions of international tourists every year. Use: an appositive ('London, …,')",
+        "options": [],
+        "accepted_answers": [
+          "London, the capital of the United Kingdom, attracts millions of international tourists every year."
+        ],
+        "model_answer": "London, the capital of the United Kingdom, attracts millions of international tourists every year.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "An appositive is a noun phrase that renames the noun before it. When it adds non-essential information, it is enclosed by two commas, like a non-defining relative clause without 'which is'."
+      },
+      {
+        "id": "10",
+        "prompt": "Exports of tea rose by 10%. Exports of coffee fell by 5%. Use: 'while'",
+        "options": [],
+        "accepted_answers": [
+          "Exports of tea rose by 10%, while exports of coffee fell by 5%.",
+          "Exports of tea rose by 10%, whereas exports of coffee fell by 5%."
+        ],
+        "model_answer": "Exports of tea rose by 10%, while exports of coffee fell by 5%.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "'While' (or 'whereas') contrasts two parallel facts. Put a comma before 'while' when it means 'whereas', so that it is not read as 'during the time that'."
+      }
+    ]
+  }
+}

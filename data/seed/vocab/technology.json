@@ -1,0 +1,138 @@
+{
+  "task_type": "VOCAB_WORD_BANK",
+  "source_url": "",
+  "licence": "Original content",
+  "content": {
+    "topic": "technology",
+    "words": [
+      {
+        "word": "automation",
+        "part_of_speech": "noun",
+        "definition": "The use of machines and computers to do work that was previously done by people.",
+        "example": "Automation threatens to displace millions of workers in manufacturing, retail and logistics.",
+        "collocations": ["increasing automation", "the automation of jobs", "job losses due to automation"],
+        "cefr": "C1"
+      },
+      {
+        "word": "obsolete",
+        "part_of_speech": "adjective",
+        "definition": "No longer used or useful because something newer and better has replaced it.",
+        "example": "Many skills that were once highly valued have been rendered obsolete by technological advances.",
+        "collocations": ["become obsolete", "render something obsolete", "largely obsolete"],
+        "cefr": "C1"
+      },
+      {
+        "word": "digital divide",
+        "part_of_speech": "noun phrase",
+        "definition": "The gap between people who have easy access to computers and the internet and people who do not.",
+        "example": "Unless the digital divide is addressed, the shift to online learning will only widen existing educational inequalities.",
+        "collocations": ["bridge the digital divide", "widen the digital divide", "the global digital divide"],
+        "cefr": "C1"
+      },
+      {
+        "word": "cutting-edge",
+        "part_of_speech": "adjective",
+        "definition": "The most modern and advanced of its kind.",
+        "example": "Countries that invest in cutting-edge research tend to attract highly skilled workers and foreign investment.",
+        "collocations": ["cutting-edge technology", "cutting-edge research", "at the cutting edge of"],
+        "cefr": "C1"
+      },
+      {
+        "word": "data privacy",
+        "part_of_speech": "noun phrase",
+        "definition": "The right of people to control how their personal information is collected, stored and used.",
+        "example": "Many users willingly sacrifice their data privacy in exchange for the convenience of free online services.",
+        "collocations": ["concerns over data privacy", "protect data privacy", "data privacy laws"],
+        "cefr": "C1"
+      },
+      {
+        "word": "surveillance",
+        "part_of_speech": "noun",
+        "definition": "The careful watching of people, often by the state or the police, to gather information or prevent crime.",
+        "example": "The widespread use of facial recognition cameras raises serious questions about state surveillance and civil liberties.",
+        "collocations": ["mass surveillance", "state surveillance", "under surveillance", "surveillance cameras"],
+        "cefr": "C1"
+      },
+      {
+        "word": "screen time",
+        "part_of_speech": "noun phrase",
+        "definition": "The amount of time a person spends using a device with a screen, such as a phone, computer or television.",
+        "example": "Paediatricians recommend limiting children's screen time to protect their sleep and concentration.",
+        "collocations": ["limit screen time", "excessive screen time", "reduce screen time"],
+        "cefr": "B2"
+      },
+      {
+        "word": "tech-savvy",
+        "part_of_speech": "adjective",
+        "definition": "Knowing a lot about modern technology and confident in using it.",
+        "example": "While younger generations are generally tech-savvy, many elderly people struggle to access public services that have moved online.",
+        "collocations": ["a tech-savvy generation", "tech-savvy consumers", "increasingly tech-savvy"],
+        "cefr": "C1"
+      },
+      {
+        "word": "disruptive",
+        "part_of_speech": "adjective",
+        "definition": "Describing a new product or technology that completely changes the way an industry works.",
+        "example": "Ride-hailing apps proved highly disruptive to the traditional taxi industry within just a few years.",
+        "collocations": ["disruptive technology", "disruptive innovation", "highly disruptive"],
+        "cefr": "C1"
+      },
+      {
+        "word": "a double-edged sword",
+        "part_of_speech": "idiom",
+        "definition": "Something that has both clear advantages and clear disadvantages.",
+        "example": "Social media is a double-edged sword: it connects people across continents but can also fuel isolation and anxiety.",
+        "collocations": ["prove to be a double-edged sword", "something of a double-edged sword", "very much a double-edged sword"],
+        "cefr": "C1"
+      },
+      {
+        "word": "over-reliance",
+        "part_of_speech": "noun",
+        "definition": "Too much dependence on something, so that you cannot manage without it.",
+        "example": "An over-reliance on satellite navigation may gradually erode people's natural sense of direction.",
+        "collocations": ["an over-reliance on technology", "a growing over-reliance", "reduce over-reliance on"],
+        "cefr": "C1"
+      },
+      {
+        "word": "cybersecurity",
+        "part_of_speech": "noun",
+        "definition": "The protection of computer systems, networks and data from attack, damage or theft.",
+        "example": "As power grids and hospitals move online, investment in cybersecurity has become a matter of national security.",
+        "collocations": ["strengthen cybersecurity", "cybersecurity threats", "cybersecurity measures"],
+        "cefr": "C1"
+      },
+      {
+        "word": "harness",
+        "part_of_speech": "verb",
+        "definition": "To control and use something, such as a resource or an idea, in order to produce benefits.",
+        "example": "If harnessed responsibly, artificial intelligence could transform the diagnosis and treatment of disease.",
+        "collocations": ["harness technology", "harness the potential of", "harness the power of"],
+        "cefr": "C1"
+      },
+      {
+        "word": "in its infancy",
+        "part_of_speech": "fixed phrase",
+        "definition": "At a very early stage of development.",
+        "example": "Although driverless car technology is still in its infancy, it could eventually make roads far safer.",
+        "collocations": ["still in its infancy", "in its relative infancy", "remain in its infancy"],
+        "cefr": "C1"
+      },
+      {
+        "word": "unprecedented",
+        "part_of_speech": "adjective",
+        "definition": "Never having happened or existed before, or never to this degree.",
+        "example": "The internet has given ordinary citizens unprecedented access to information and expertise.",
+        "collocations": ["unprecedented access to", "on an unprecedented scale", "at an unprecedented rate"],
+        "cefr": "C1"
+      },
+      {
+        "word": "ubiquitous",
+        "part_of_speech": "adjective",
+        "definition": "Seeming to be everywhere at the same time; extremely common.",
+        "example": "Smartphones have become so ubiquitous that it is difficult to imagine daily life without them.",
+        "collocations": ["become ubiquitous", "increasingly ubiquitous", "almost ubiquitous"],
+        "cefr": "C2"
+      }
+    ]
+  }
+}

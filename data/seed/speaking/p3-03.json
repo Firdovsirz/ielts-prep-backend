@@ -1,0 +1,18 @@
+{
+  "task_type": "SPEAKING_PART3",
+  "source_url": "",
+  "licence": "Original content",
+  "content": {
+    "theme": "Teamwork and cooperation",
+    "linked_part2_topic": "Working with others to achieve something",
+    "questions": [
+      { "sub_topic": "Teamwork at school and work", "question": "What are the advantages of working in a team rather than alone?" },
+      { "sub_topic": "Teamwork at school and work", "question": "Why do some people find it difficult to work in a team?" },
+      { "sub_topic": "Teamwork at school and work", "question": "What qualities make someone a good team leader?" },
+      { "sub_topic": "Teamwork at school and work", "question": "Should schools give students more group projects? Why/Why not?" },
+      { "sub_topic": "Cooperation in society", "question": "In what ways do people in your community help each other?" },
+      { "sub_topic": "Cooperation in society", "question": "Do you think people are less willing to cooperate with their neighbours than in the past?" },
+      { "sub_topic": "Cooperation in society", "question": "Do you think international cooperation will become more important in the future?" }
+    ]
+  }
+}

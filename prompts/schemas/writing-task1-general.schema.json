@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "writing-task1-general",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "letter_type",
+    "topic",
+    "situation",
+    "recipient",
+    "bullet_points",
+    "prompt",
+    "key_features"
+  ],
+  "properties": {
+    "letter_type": {
+      "type": "string",
+      "enum": [
+        "FORMAL",
+        "SEMI_FORMAL",
+        "INFORMAL"
+      ]
+    },
+    "topic": {
+      "type": "string"
+    },
+    "situation": {
+      "type": "string",
+      "description": "The situation sentence, e.g. \"You recently stayed at a hotel and left a bag behind.\""
+    },
+    "recipient": {
+      "type": "string"
+    },
+    "bullet_points": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Exactly three bullets."
+    },
+    "prompt": {
+      "type": "string",
+      "description": "Full task wording including \"Write a letter to…. In your letter\", the three bullets and \"Write at least 150 words. You do NOT need to write any addresses. Begin your letter as follows: Dear …,\"."
+    },
+    "key_features": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "What a band-8 response must cover (for the grader)."
+    }
+  }
+}

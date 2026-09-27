@@ -1,0 +1,254 @@
+{
+  "task_type": "LISTENING_SECTION",
+  "source_url": "",
+  "licence": "Original content",
+  "content": {
+    "section": 2,
+    "title": "Volunteering at Hollins Park Sports Centre",
+    "topic": "An induction talk for new volunteers at a sports centre",
+    "context_description": "You will hear a volunteer coordinator giving a talk to a group of new volunteers at a sports centre.",
+    "speakers": [
+      {
+        "id": "S1",
+        "name": "Rachel Moss",
+        "gender": "female",
+        "accent": "british",
+        "role": "Volunteer coordinator at Hollins Park Sports Centre"
+      }
+    ],
+    "script": [
+      {
+        "speaker": "S1",
+        "text": "Hello, everyone, and thanks for coming along this evening. I'm Rachel Moss, and I coordinate the volunteer team here at Hollins Park Sports Centre. I know some of you have come straight from work, so I'll try to keep this fairly short, but there are a few important things to cover before you start."
+      },
+      {
+        "speaker": "S1",
+        "text": "First of all, there are two things you need to do before your first shift. You don't need a first aid qualification, because we always have trained staff on duty, although you're very welcome to join our free course in the spring. What you must do is watch a short safety video, which you can do online at home."
+      },
+      {
+        "speaker": "S1",
+        "text": "The other essential thing is to have your photo taken at reception, so that we can print your ID badge. Please don't worry about uniforms, because those are handed out on your first day. And you'll each get a copy of the volunteer handbook, but nobody expects you to read it cover to cover before you start."
+      },
+      {
+        "speaker": "S1",
+        "text": "As for shifts, most of them last 3 hours, and we ask everyone to do at least 2 a month. You'll book your shifts through our app, and if you can't make one, please let us know at least 48 hours in advance, so we can find someone else."
+      },
+      {
+        "speaker": "S1",
+        "text": "So, what do you get in return for your time? I'm afraid we can't cover travel expenses, as the budget simply doesn't allow it, and the free swimming lessons for children are only available to full members. However, all volunteers can use the gym free of charge whenever they're not on duty, and quite a few of the team make the most of that."
+      },
+      {
+        "speaker": "S1",
+        "text": "Some of you may have heard that volunteers get money off in the café. That used to be the case, but sadly it stopped last year. What we can offer is this: once you've been with us for 6 months, I'll happily write you a reference for job or college applications, and lots of our volunteers have found that really useful."
+      },
+      {
+        "speaker": "S1",
+        "text": "Right, let's have a look at the plan of the building, which you should have in front of you. We're in reception, just inside the main entrance at the bottom of the plan. The door immediately to the right of the reception desk, as you face into the building, leads to the staff room. That's where you'll leave your coats and bags when you arrive."
+      },
+      {
+        "speaker": "S1",
+        "text": "The door on the left of reception is my office, so that's where you'll find me if there are any problems. OK, now walk up the main corridor, and the first room on your left is the first aid room. If anyone is hurt, even slightly, they should be brought there straight away."
+      },
+      {
+        "speaker": "S1",
+        "text": "Directly opposite the first aid room, on the other side of the corridor, is the fitness studio. It's used mainly for yoga and dance classes, and you'll often be asked to help set out the mats."
+      },
+      {
+        "speaker": "S1",
+        "text": "Carry on up the corridor and you'll come to a crossroads, where a second corridor runs across the building. If you turn left there and walk all the way to the end, you'll find the crèche, which is the large room in the bottom left-hand corner of the building. Some parents expect it to be next to the pool, but it was moved away from the water for safety reasons."
+      },
+      {
+        "speaker": "S1",
+        "text": "If you turn right at the crossroads instead, the café is at the far end, in the bottom right-hand corner. The door opposite the café, at the end of the sports hall, is the equipment store, but only staff have a key to that one."
+      },
+      {
+        "speaker": "S1",
+        "text": "And finally, the climbing wall. Lots of people assume it's in the sports hall, but it actually has its own room at the very top of the main corridor, between the pool and the sports hall. You'll need extra training before you help out there, so don't worry about it for now."
+      },
+      {
+        "speaker": "S1",
+        "text": "Right, that's the tour on paper. Let's have a 10-minute break, and then I'll show you round in person."
+      }
+    ],
+    "parts": [
+      { "questions_from": 1, "questions_to": 4, "start_line": 0 },
+      { "questions_from": 5, "questions_to": 10, "start_line": 6 }
+    ],
+    "question_groups": [
+      {
+        "group_id": "g1",
+        "question_type": "MULTIPLE_CHOICE_MULTI",
+        "instructions": "Questions 1 and 2\nChoose TWO letters, A–E.\nWhich TWO things must new volunteers do before their first shift?",
+        "word_limit": 0,
+        "number_allowed": false,
+        "options": [
+          { "key": "A", "text": "attend a first aid course" },
+          { "key": "B", "text": "watch a film about safety" },
+          { "key": "C", "text": "collect a uniform" },
+          { "key": "D", "text": "read the volunteer handbook" },
+          { "key": "E", "text": "have a photograph taken for identification" }
+        ],
+        "context": "",
+        "table": { "title": "", "columns": [], "rows": [] },
+        "flow_steps": [],
+        "diagram": { "title": "", "nodes": [], "edges": [] },
+        "map": { "title": "", "features": [], "markers": [] },
+        "questions": [
+          {
+            "number": 1,
+            "prompt": "Which TWO things must new volunteers do before their first shift?",
+            "options": [],
+            "answers": ["B"],
+            "justification_span": "What you must do is watch a short safety video, which you can do online at home.",
+            "location": "1"
+          },
+          {
+            "number": 2,
+            "prompt": "Which TWO things must new volunteers do before their first shift?",
+            "options": [],
+            "answers": ["E"],
+            "justification_span": "The other essential thing is to have your photo taken at reception, so that we can print your ID badge.",
+            "location": "2"
+          }
+        ]
+      },
+      {
+        "group_id": "g2",
+        "question_type": "MULTIPLE_CHOICE_MULTI",
+        "instructions": "Questions 3 and 4\nChoose TWO letters, A–E.\nWhich TWO benefits do volunteers at the centre receive?",
+        "word_limit": 0,
+        "number_allowed": false,
+        "options": [
+          { "key": "A", "text": "help with travel costs" },
+          { "key": "B", "text": "reduced prices in the café" },
+          { "key": "C", "text": "free use of the gym" },
+          { "key": "D", "text": "a reference for future applications" },
+          { "key": "E", "text": "free swimming lessons for their children" }
+        ],
+        "context": "",
+        "table": { "title": "", "columns": [], "rows": [] },
+        "flow_steps": [],
+        "diagram": { "title": "", "nodes": [], "edges": [] },
+        "map": { "title": "", "features": [], "markers": [] },
+        "questions": [
+          {
+            "number": 3,
+            "prompt": "Which TWO benefits do volunteers at the centre receive?",
+            "options": [],
+            "answers": ["C"],
+            "justification_span": "However, all volunteers can use the gym free of charge whenever they're not on duty, and quite a few of the team make the most of that.",
+            "location": "4"
+          },
+          {
+            "number": 4,
+            "prompt": "Which TWO benefits do volunteers at the centre receive?",
+            "options": [],
+            "answers": ["D"],
+            "justification_span": "once you've been with us for 6 months, I'll happily write you a reference for job or college applications, and lots of our volunteers have found that really useful.",
+            "location": "5"
+          }
+        ]
+      },
+      {
+        "group_id": "g3",
+        "question_type": "MAP_LABELLING",
+        "instructions": "Questions 5–10\nLabel the plan below.\nWrite the correct letter, A–H, next to Questions 5–10.",
+        "word_limit": 0,
+        "number_allowed": false,
+        "options": [
+          { "key": "A", "text": "A" },
+          { "key": "B", "text": "B" },
+          { "key": "C", "text": "C" },
+          { "key": "D", "text": "D" },
+          { "key": "E", "text": "E" },
+          { "key": "F", "text": "F" },
+          { "key": "G", "text": "G" },
+          { "key": "H", "text": "H" }
+        ],
+        "context": "",
+        "table": { "title": "", "columns": [], "rows": [] },
+        "flow_steps": [],
+        "diagram": { "title": "", "nodes": [], "edges": [] },
+        "map": {
+          "title": "Hollins Park Sports Centre – ground floor",
+          "features": [
+            { "label": "", "kind": "path", "x": 45, "y": 16, "w": 10, "h": 66 },
+            { "label": "", "kind": "path", "x": 4, "y": 43, "w": 92, "h": 7 },
+            { "label": "Swimming pool", "kind": "water", "x": 4, "y": 4, "w": 38, "h": 35 },
+            { "label": "Sports hall", "kind": "building", "x": 58, "y": 4, "w": 26, "h": 35 },
+            { "label": "Reception", "kind": "building", "x": 38, "y": 82, "w": 24, "h": 10 },
+            { "label": "Main entrance", "kind": "entrance", "x": 44, "y": 93, "w": 12, "h": 6 },
+            { "label": "", "kind": "building", "x": 58, "y": 53, "w": 17, "h": 25 },
+            { "label": "", "kind": "building", "x": 4, "y": 53, "w": 18, "h": 39 },
+            { "label": "", "kind": "building", "x": 87, "y": 4, "w": 9, "h": 35 },
+            { "label": "", "kind": "building", "x": 64, "y": 81, "w": 11, "h": 11 },
+            { "label": "", "kind": "building", "x": 45, "y": 4, "w": 10, "h": 12 },
+            { "label": "", "kind": "building", "x": 25, "y": 81, "w": 11, "h": 11 },
+            { "label": "", "kind": "building", "x": 78, "y": 53, "w": 18, "h": 39 },
+            { "label": "", "kind": "building", "x": 25, "y": 53, "w": 17, "h": 25 }
+          ],
+          "markers": [
+            { "key": "A", "x": 66.5, "y": 65.5 },
+            { "key": "B", "x": 13, "y": 72.5 },
+            { "key": "C", "x": 91.5, "y": 21.5 },
+            { "key": "D", "x": 69.5, "y": 86.5 },
+            { "key": "E", "x": 50, "y": 10 },
+            { "key": "F", "x": 30.5, "y": 86.5 },
+            { "key": "G", "x": 87, "y": 72.5 },
+            { "key": "H", "x": 33.5, "y": 65.5 }
+          ]
+        },
+        "questions": [
+          {
+            "number": 5,
+            "prompt": "Staff room",
+            "options": [],
+            "answers": ["D"],
+            "justification_span": "The door immediately to the right of the reception desk, as you face into the building, leads to the staff room.",
+            "location": "6"
+          },
+          {
+            "number": 6,
+            "prompt": "First aid room",
+            "options": [],
+            "answers": ["H"],
+            "justification_span": "now walk up the main corridor, and the first room on your left is the first aid room.",
+            "location": "7"
+          },
+          {
+            "number": 7,
+            "prompt": "Fitness studio",
+            "options": [],
+            "answers": ["A"],
+            "justification_span": "Directly opposite the first aid room, on the other side of the corridor, is the fitness studio.",
+            "location": "8"
+          },
+          {
+            "number": 8,
+            "prompt": "Crèche",
+            "options": [],
+            "answers": ["B"],
+            "justification_span": "If you turn left there and walk all the way to the end, you'll find the crèche, which is the large room in the bottom left-hand corner of the building.",
+            "location": "9"
+          },
+          {
+            "number": 9,
+            "prompt": "Café",
+            "options": [],
+            "answers": ["G"],
+            "justification_span": "If you turn right at the crossroads instead, the café is at the far end, in the bottom right-hand corner.",
+            "location": "10"
+          },
+          {
+            "number": 10,
+            "prompt": "Climbing wall",
+            "options": [],
+            "answers": ["E"],
+            "justification_span": "but it actually has its own room at the very top of the main corridor, between the pool and the sports hall.",
+            "location": "11"
+          }
+        ]
+      }
+    ]
+  }
+}

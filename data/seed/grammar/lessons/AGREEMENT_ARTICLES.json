@@ -1,0 +1,91 @@
+{
+  "task_type": "GRAMMAR_LESSON",
+  "source_url": "",
+  "licence": "Original content",
+  "content": {
+    "area": "AGREEMENT_ARTICLES",
+    "title": "Articles and subject–verb agreement",
+    "summary": "Article and agreement slips are the most frequent errors in band 6 scripts; each one is small, but ten per essay make it impossible to produce the frequent error-free sentences that band 7 requires. Band 8 candidates make only occasional slips, even with long subjects, collective nouns and tricky phrases such as 'the number of'.",
+    "explanation": "### Articles: a three-question check\nAsk these questions about every noun:\n1. **Is it singular and countable?** Then it needs *a/an/the* (or *my, this, each*…) — never nothing. ✗ *Government should…* ✓ *The government should…*\n2. **Is it specific or already known?** Use **the**: *the graph*, *the figure for 2010*, *the internet*, *the elderly*, superlatives (*the highest*) and noun + *of* phrases (*the proportion of*, *the number of*).\n3. **Is it general, plural or uncountable?** Use **no article**: *Unemployment affects young people.* *Technology changes quickly.*\n\nUse **a/an** for one of many or a first mention: *a significant increase*. Choose by **sound**, not spelling: *an 8% drop*, *an MA*, *a university*, *a one-off payment*.\n\n### Articles in IELTS contexts\n- **Task 1:** *the number of…*, *the percentage of…*, *a sharp rise*, *the lowest point*, *over the period shown*.\n- **Countries:** no article (*Japan, Brazil*), but *the UK*, *the USA*, *the Netherlands*, *the Philippines*.\n- **General statements in Task 2:** plural or uncountable noun with no article. ✗ *The smartphones distract the students.* ✓ *Smartphones distract students.*\n\n### Subject–verb agreement\nFind the **head noun** of the subject and ignore everything between it and the verb:\n- *The number **of cars** on our roads **has** doubled.* (head = *number*)\n- *One of the main reasons **is**…* (head = *one*)\n- *The proportion of students who work part-time **was** higher in 2020.*\n\n### \"The number of\" vs \"a number of\"\n- ***The number of*** + plural noun + **singular** verb: *The number of students **is** rising.*\n- ***A number of*** (= several) + **plural** verb: *A number of students **are** struggling.*\n- Similarly: *the majority of people **believe**…*, but *the majority **is**…* when it means the group as a whole.\n\n### Collective and tricky nouns\n- *Government, family, staff, team, public*: British English allows a singular or plural verb — just be **consistent** within the sentence.\n- *Everyone, each, every, neither of* → singular: *Everyone **has** a phone.*\n- *News, economics, physics* → singular: *The news **is** worrying.*\n- *People, police* → always plural: *The police **are** investigating.*\n- *Data* → *these data are* (formal) or *this data is*; both are accepted.\n\n### Proofreading routine\nUnderline every singular countable noun and check its article; then circle each main verb and trace it back to its head noun.",
+    "key_rules": [
+      {
+        "rule": "A singular countable noun always needs a determiner (a/an/the/my/this…).",
+        "example": "A car is no longer a luxury in most developed countries."
+      },
+      {
+        "rule": "Use 'the' for things that are specific or unique in context, with superlatives, and in 'the + noun + of' phrases.",
+        "example": "The proportion of energy from renewable sources was the highest in Norway."
+      },
+      {
+        "rule": "Use no article with plural and uncountable nouns used in a general sense.",
+        "example": "Education is the key to reducing poverty in developing countries."
+      },
+      {
+        "rule": "The verb agrees with the head noun of the subject, not the nearest noun.",
+        "example": "The quality of public services in rural areas has declined."
+      },
+      {
+        "rule": "'The number of' takes a singular verb; 'a number of' takes a plural verb.",
+        "example": "The number of flights has doubled, and a number of airlines are now expanding their routes."
+      },
+      {
+        "rule": "Each/every/everyone take a singular verb; people and police take a plural verb.",
+        "example": "Each of the three countries shows a different pattern, although in all of them people spend more on housing than on food."
+      }
+    ],
+    "common_mistakes": [
+      {
+        "wrong": "Government should invest more money in public transport.",
+        "right": "The government should invest more money in public transport. (or: Governments should…)",
+        "why": "'Government' is a singular countable noun here, so it needs an article; use the plural 'governments' to speak generally."
+      },
+      {
+        "wrong": "The number of students are increasing every year.",
+        "right": "The number of students is increasing every year.",
+        "why": "The head noun is 'number', which is singular."
+      },
+      {
+        "wrong": "The unemployment is a serious problem in many countries.",
+        "right": "Unemployment is a serious problem in many countries.",
+        "why": "An uncountable noun used in a general sense takes no article."
+      },
+      {
+        "wrong": "There was a 11% increase in exports.",
+        "right": "There was an 11% increase in exports.",
+        "why": "A/an depends on sound: 'eleven' begins with a vowel sound, so use 'an'."
+      },
+      {
+        "wrong": "One of the biggest problem are traffic congestion.",
+        "right": "One of the biggest problems is traffic congestion.",
+        "why": "'One of the' needs a plural noun, and the verb agrees with 'one', which is singular."
+      },
+      {
+        "wrong": "People who lives in cities has less free time.",
+        "right": "People who live in cities have less free time.",
+        "why": "'People' is plural, so both the relative-clause verb and the main verb must be plural."
+      }
+    ],
+    "ielts_examples": [
+      {
+        "context": "WRITING_TASK1",
+        "sentence": "The number of visitors to the museum was highest in August, when it reached a peak of 12,000, whereas the smallest number was recorded in February."
+      },
+      {
+        "context": "WRITING_TASK2",
+        "sentence": "A number of studies suggest that children who read for pleasure perform better across the whole curriculum."
+      },
+      {
+        "context": "WRITING_TASK2",
+        "sentence": "The government has a responsibility to ensure that healthcare remains affordable for the elderly and the unemployed."
+      },
+      {
+        "context": "SPEAKING_PART2",
+        "sentence": "It was a small café in the centre of the old town, and the owner, an elderly woman, made the best coffee I have ever tasted."
+      },
+      {
+        "context": "SPEAKING_PART3",
+        "sentence": "Everyone in my family has a smartphone now, but the way each of us uses it is completely different."
+      }
+    ]
+  }
+}

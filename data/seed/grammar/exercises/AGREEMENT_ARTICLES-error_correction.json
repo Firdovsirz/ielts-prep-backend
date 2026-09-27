@@ -1,0 +1,103 @@
+{
+  "task_type": "GRAMMAR_EXERCISE",
+  "source_url": "",
+  "licence": "Original content",
+  "content": {
+    "area": "AGREEMENT_ARTICLES",
+    "exercise_type": "ERROR_CORRECTION",
+    "title": "Agreement and articles: find and fix the error",
+    "instructions": "Each sentence contains ONE error of subject–verb agreement or article use (a missing, unnecessary or wrong article). Rewrite the whole sentence correctly, changing as little as possible.",
+    "items": [
+      {
+        "id": "1",
+        "prompt": "The number of cars on the roads have doubled since 1990.",
+        "options": [],
+        "accepted_answers": ["The number of cars on the roads has doubled since 1990."],
+        "model_answer": "The number of cars on the roads has doubled since 1990.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "The head of the subject is 'the number', which is singular, so the verb must be singular (has doubled). Do not let the nearest plural noun (cars, roads) decide the verb."
+      },
+      {
+        "id": "2",
+        "prompt": "A number of countries has introduced a tax on sugary drinks in the last decade.",
+        "options": [],
+        "accepted_answers": ["A number of countries have introduced a tax on sugary drinks in the last decade."],
+        "model_answer": "A number of countries have introduced a tax on sugary drinks in the last decade.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "'A number of' means 'several / many', so the real subject is 'countries' and the verb is plural (have introduced). Contrast 'the number of … has', which refers to a single figure."
+      },
+      {
+        "id": "3",
+        "prompt": "The percentage of households that own a dishwasher were highest in Germany.",
+        "options": [],
+        "accepted_answers": ["The percentage of households that own a dishwasher was highest in Germany."],
+        "model_answer": "The percentage of households that own a dishwasher was highest in Germany.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "In a long subject, find the head noun: 'the percentage' (singular). The relative clause 'that own a dishwasher' does not change the agreement, so the verb is 'was'."
+      },
+      {
+        "id": "4",
+        "prompt": "Nowadays almost everyone in big cities own a smartphone, even many elderly people.",
+        "options": [],
+        "accepted_answers": ["Nowadays almost everyone in big cities owns a smartphone, even many elderly people."],
+        "model_answer": "Nowadays almost everyone in big cities owns a smartphone, even many elderly people.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "Indefinite pronouns such as everyone, everybody, someone, nobody and each take a singular verb, even though they refer to many people. In the present simple this means adding -s: everyone owns."
+      },
+      {
+        "id": "5",
+        "prompt": "The information in the table show that spending on healthcare rose in every country.",
+        "options": [],
+        "accepted_answers": ["The information in the table shows that spending on healthcare rose in every country."],
+        "model_answer": "The information in the table shows that spending on healthcare rose in every country.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "'Information' is uncountable and therefore takes a singular verb (shows). The same applies to research, evidence and advice. 'Data' is flexible: both 'the data shows' and the more formal 'the data show' are accepted."
+      },
+      {
+        "id": "6",
+        "prompt": "Unemployment rate in Spain rose to 26% in 2013, the highest level in the European Union.",
+        "options": [],
+        "accepted_answers": ["The unemployment rate in Spain rose to 26% in 2013, the highest level in the European Union."],
+        "model_answer": "The unemployment rate in Spain rose to 26% in 2013, the highest level in the European Union.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "'Rate' is a singular countable noun, and a singular countable noun cannot stand alone. Here it refers to a specific rate (in Spain), so it needs 'the'. Missing articles before singular countable nouns are the most frequent article error in Task 1."
+      },
+      {
+        "id": "7",
+        "prompt": "The pollution is one of the most serious problems facing large cities today.",
+        "options": [],
+        "accepted_answers": ["Pollution is one of the most serious problems facing large cities today."],
+        "model_answer": "Pollution is one of the most serious problems facing large cities today.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "An uncountable noun used in a general sense takes no article. 'The pollution' would only be correct for a specific case, e.g. 'the pollution caused by the new factory'."
+      },
+      {
+        "id": "8",
+        "prompt": "The line graph reveals an unique pattern in the consumption of energy over the period.",
+        "options": [],
+        "accepted_answers": ["The line graph reveals a unique pattern in the consumption of energy over the period."],
+        "model_answer": "The line graph reveals a unique pattern in the consumption of energy over the period.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "'A' or 'an' depends on the first sound, not the first letter. 'Unique' starts with the consonant sound /j/ (you-nique), so it takes 'a'. Compare 'an unusual pattern', where the first sound is a vowel."
+      },
+      {
+        "id": "9",
+        "prompt": "One of the main reasons for rising obesity rates are the popularity of fast food.",
+        "options": [],
+        "accepted_answers": ["One of the main reasons for rising obesity rates is the popularity of fast food."],
+        "model_answer": "One of the main reasons for rising obesity rates is the popularity of fast food.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "The subject is 'one' (of the main reasons), so the verb is singular: 'is'. This long-subject pattern is extremely common in Task 2 introductions and body paragraphs."
+      },
+      {
+        "id": "10",
+        "prompt": "The elderly is often excluded from digital services such as online banking.",
+        "options": [],
+        "accepted_answers": ["The elderly are often excluded from digital services such as online banking."],
+        "model_answer": "The elderly are often excluded from digital services such as online banking.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "'The + adjective' (the elderly, the unemployed, the rich, the young) refers to a whole group of people and always takes a plural verb."
+      }
+    ]
+  }
+}

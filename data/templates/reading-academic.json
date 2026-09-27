@@ -1,0 +1,333 @@
+{
+  "module": "reading",
+  "variant": "academic",
+  "duration_minutes": 60,
+  "total_questions": 40,
+  "transfer_time": "none (answers written directly on the answer sheet within the 60 minutes)",
+  "total_text_words": [2150, 2750],
+  "marking": "1 mark per correct answer; raw score out of 40 is converted to a band (whole or half band). Published Academic reference points: about 15/40 = band 5, 23/40 = band 6, 30/40 = band 7, 35/40 = band 8 (exact conversion varies slightly between test versions).",
+  "text_sources": "Books, journals, magazines, newspapers and online sources written for a non-specialist audience; topics of general interest to undergraduate or postgraduate students. Styles may be narrative, descriptive or discursive/argumentative, and at least one text contains detailed logical argument. Texts may include diagrams, graphs or illustrations. Technical terms come with a simple glossary definition.",
+  "passages": [
+    {
+      "number": 1,
+      "difficulty_level": 1,
+      "questions": 13,
+      "question_range": "1–13",
+      "word_range": [700, 900],
+      "paragraphs": "5–9 paragraphs, labelled A, B, C… when a matching-paragraph task is used",
+      "difficulty": "Most accessible (about CEFR B2). Mainly factual, descriptive or narrative, e.g. the history of an invention, a species or a natural process. Information is mostly explicit and paraphrase is fairly direct.",
+      "typical_sources": "Popular-science magazines, quality newspapers, general-interest non-fiction and educational websites.",
+      "typical_question_types": ["TRUE_FALSE_NOT_GIVEN", "NOTE_COMPLETION", "TABLE_COMPLETION", "SENTENCE_COMPLETION", "FLOW_CHART_COMPLETION", "DIAGRAM_LABEL_COMPLETION", "SHORT_ANSWER", "MULTIPLE_CHOICE"]
+    },
+    {
+      "number": 2,
+      "difficulty_level": 2,
+      "questions": 13,
+      "question_range": "14–26",
+      "word_range": [700, 900],
+      "paragraphs": "5–9 paragraphs, labelled A, B, C… when a matching-paragraph task is used",
+      "difficulty": "Moderate (about CEFR B2–C1). More discursive: describes research, a development or a problem with several viewpoints, named researchers and findings. Paraphrase between the questions and the text is less direct.",
+      "typical_sources": "Science and social-science journalism, reports of research studies, magazine features on technology, business, psychology or the environment.",
+      "typical_question_types": ["MATCHING_HEADINGS", "MATCHING_INFORMATION", "MATCHING_FEATURES", "SUMMARY_COMPLETION", "MULTIPLE_CHOICE_MULTI", "TRUE_FALSE_NOT_GIVEN", "SENTENCE_COMPLETION"]
+    },
+    {
+      "number": 3,
+      "difficulty_level": 3,
+      "questions": 14,
+      "question_range": "27–40",
+      "word_range": [700, 900],
+      "paragraphs": "5–9 paragraphs, labelled A, B, C… when a matching-paragraph task is used",
+      "difficulty": "Hardest (about CEFR C1–C2). Argumentative or discursive, with detailed logical argument and the writer's own views and claims. Abstract vocabulary, complex syntax, hedging, and implicit relationships between ideas.",
+      "typical_sources": "Academic-style essays and opinion pieces for educated general readers, book extracts and review articles (history of ideas, philosophy of science, linguistics, economics, the arts).",
+      "typical_question_types": ["YES_NO_NOT_GIVEN", "MULTIPLE_CHOICE", "MATCHING_SENTENCE_ENDINGS", "SUMMARY_COMPLETION", "MATCHING_FEATURES", "MATCHING_INFORMATION"]
+    }
+  ],
+  "passage_design_rules": [
+    "Each passage carries 2–3 question types (at least two), grouped in consecutive blocks; each block has its own rubric with the question range.",
+    "Question numbers run 1–40 across the test; each passage's questions continue from the previous passage.",
+    "The paper-based booklet says 'You should spend about 20 minutes on Questions 1–13, which are based on Reading Passage 1 below.' (and similarly 'Questions 14–26 … Reading Passage 2', 'Questions 27–40 … Reading Passage 3'). Passages have a title and sometimes a subtitle.",
+    "MATCHING_HEADINGS questions are printed BEFORE the passage; all other question blocks follow it.",
+    "The last question of Passage 3 is often a global question, e.g. 'Which of the following is the most suitable title for Reading Passage 3?' (MULTIPLE_CHOICE A–D).",
+    "Never test the same sentence of the passage twice across different question blocks."
+  ],
+  "delivery_notes": [
+    "Rubric templates below are the paper-based wording. In computer-delivered IELTS the 'Write … in boxes … on your answer sheet' line is replaced by on-screen answer entry (typing, clicking or drag-and-drop), and the rest of the rubric is unchanged.",
+    "Candidates may read the questions and passages in any order; no extra time is given at the end."
+  ],
+  "rubric_placeholders": {
+    "{from}": "first question number of the block, e.g. 1",
+    "{to}": "last question number of the block, e.g. 7",
+    "{passage}": "'Reading Passage 1' / 'Reading Passage 2' / 'Reading Passage 3'",
+    "{word_limit}": "an item from word_limit_phrases, e.g. 'NO MORE THAN TWO WORDS'",
+    "{last_letter}": "last option letter, e.g. G for options A–G",
+    "{last_numeral}": "last heading numeral in lower-case Roman numerals, e.g. viii",
+    "{count_word}": "number written as a word, e.g. 'seven' (paragraphs), 'TWO' / 'THREE' (letters to choose, in capitals)",
+    "{paragraph_list}": "paragraphs to be matched when one is given as an example, e.g. 'A and C–G'",
+    "{features}": "plural name of the option set in MATCHING_FEATURES, e.g. 'researchers', 'countries', 'periods of time'",
+    "{feature}": "singular of {features}, e.g. 'researcher'",
+    "{list_title}": "title of the option box, e.g. 'List of Researchers'",
+    "{views_or_claims}": "'views' or 'claims'"
+  },
+  "word_limit_phrases": [
+    "ONE WORD ONLY",
+    "ONE WORD AND/OR A NUMBER",
+    "NO MORE THAN TWO WORDS",
+    "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+    "NO MORE THAN THREE WORDS",
+    "NO MORE THAN THREE WORDS AND/OR A NUMBER"
+  ],
+  "answer_sheet_conventions": [
+    "Answers are written directly on the answer sheet (in pencil) during the 60 minutes; there is no transfer time. Unanswered questions score 0 and wrong answers lose nothing, so every question should be attempted.",
+    "Spelling must be correct. For 'from the passage' answers, copy the words exactly as spelt in the passage; a misspelt answer is wrong.",
+    "Answers may be written in upper or lower case (writing everything in capitals is acceptable).",
+    "Exceeding the word limit makes the answer wrong even if it contains the right words. 'NO MORE THAN TWO WORDS AND/OR A NUMBER' allows, e.g., 'two words', 'a number', or 'two words and a number'.",
+    "Hyphenated words (e.g. 'check-in', 'well-known') count as one word. Contracted forms (e.g. 'they're') are not tested.",
+    "Numbers may be written as figures (1, 2, 1990) or words (one, two). A number counts as a number, not as a word, under 'AND/OR A NUMBER' limits.",
+    "Completion answers must be words taken from the passage, unchanged in form (no changing a noun to a verb or singular to plural); the gap is designed so that the passage form fits grammatically.",
+    "Articles and other words the key shows in brackets are optional: '(the) harbour' accepts 'harbour' and 'the harbour' (if within the word limit). Alternative correct answers are separated by a slash in the key.",
+    "TRUE / FALSE / NOT GIVEN and YES / NO / NOT GIVEN answers must use the set required by the rubric: writing TRUE for a YES/NO question (or YES for a TRUE/FALSE question) is marked wrong. In this app, require the full words; abbreviations such as T, F, NG are not accepted.",
+    "Letter answers: write only the letter (A, B, C…); for headings, only the lower-case Roman numeral (i, ii, iii…). Writing two answers for one question scores 0.",
+    "MULTIPLE_CHOICE_MULTI ('Choose TWO letters'): each question number carries one mark and the letters may be given in either order.",
+    "Word-bank tasks (summary 'using the list of words, A–…'): write the letter, not the word."
+  ],
+  "question_types": {
+    "MULTIPLE_CHOICE": {
+      "official_name": "Multiple choice (one answer)",
+      "rubric_template": "Questions {from}–{to}\nChoose the correct letter, A, B, C or D.\nWrite the correct letter in boxes {from}–{to} on your answer sheet.",
+      "rubric_variants": [
+        "Questions {from} and {to}\nChoose the correct letter, A, B, C or D.\nWrite the correct letter in boxes {from} and {to} on your answer sheet.",
+        "Question {from}\nChoose the correct letter, A, B, C or D.\nWrite the correct letter in box {from} on your answer sheet."
+      ],
+      "answer_format": "One letter A–D.",
+      "follows_text_order": true,
+      "what_it_tests": "Detailed understanding of specific points, or general understanding of the main points, the writer's purpose or the text as a whole.",
+      "design_rules": [
+        "Four options A–D (Academic Reading always uses four); the stem is a question or an incomplete sentence completed by the options.",
+        "Exactly one option is fully supported by the text; each distractor is plausible: mentioned in the text but not answering the question, true only in part, contradicted by the text, or a common-sense assumption the text doesn't support.",
+        "Paraphrase the stem and the correct option; don't reuse the key sentence's distinctive words in the correct option only (word-matching must not give the answer away).",
+        "Options are of similar length and grammatical form; avoid 'all of the above' and 'none of the above'.",
+        "Questions follow the order of information in the passage; a global question (main purpose / best title) may come last and covers the whole passage.",
+        "Usually 3–6 questions per block."
+      ]
+    },
+    "MULTIPLE_CHOICE_MULTI": {
+      "official_name": "Multiple choice (more than one answer)",
+      "rubric_template": "Questions {from} and {to}\nChoose TWO letters, A–{last_letter}.\nWrite the correct letters in boxes {from} and {to} on your answer sheet.",
+      "rubric_variants": [
+        "Questions {from}–{to}\nChoose THREE letters, A–{last_letter}.\nWrite the correct letters in boxes {from}–{to} on your answer sheet."
+      ],
+      "answer_format": "One distinct letter per question number; together the letters form the set of correct options, accepted in any order.",
+      "follows_text_order": false,
+      "what_it_tests": "Locating and understanding several specific points, e.g. which advantages, reasons or findings the writer mentions.",
+      "design_rules": [
+        "The stem follows the rubric and asks for the set explicitly, e.g. 'Which TWO … are mentioned by the writer?' / 'Which THREE of the following …?'.",
+        "Use 5 options (A–E) for TWO answers; 6–7 options (A–F/G) are also used; use 6–7 options for THREE answers.",
+        "The block sits in sequence with neighbouring questions, but the correct options may come from anywhere in the relevant section and in any order.",
+        "Distractors are things the text mentions in a different role (e.g. a disadvantage when advantages are asked for), claims attributed to someone else, or ideas not stated.",
+        "Each question number is worth one mark, so a TWO-letter block uses two consecutive question numbers."
+      ]
+    },
+    "TRUE_FALSE_NOT_GIVEN": {
+      "official_name": "Identifying information (True/False/Not given)",
+      "rubric_template": "Questions {from}–{to}\nDo the following statements agree with the information given in {passage}?\nIn boxes {from}–{to} on your answer sheet, write\nTRUE if the statement agrees with the information\nFALSE if the statement contradicts the information\nNOT GIVEN if there is no information on this",
+      "rubric_variants": [],
+      "answer_format": "TRUE / FALSE / NOT GIVEN (full words).",
+      "follows_text_order": true,
+      "what_it_tests": "Recognising specific factual information in the text and telling contradiction (FALSE) apart from absence of information (NOT GIVEN), without using outside knowledge.",
+      "design_rules": [
+        "Typically 4–8 statements per block; use each of TRUE, FALSE and NOT GIVEN at least once and avoid long runs of the same answer.",
+        "Statements are factual, not about the writer's opinion (that is YES_NO_NOT_GIVEN), and follow passage order.",
+        "TRUE: a paraphrase of one specific sentence or clause; don't copy wording.",
+        "FALSE: must directly contradict something the text states (e.g. a changed quantity, time, cause, comparative, sequence, or an absolute word such as 'always'/'only'/'first' the text contradicts). Being merely unsupported is NOT GIVEN, not FALSE.",
+        "NOT GIVEN: clearly on the passage's topic and next to a real sentence (share its subject), but the text neither confirms nor denies the specific claim (e.g. adds an unstated reason, a comparison or superlative the text never makes, or a detail about the future). General knowledge must not settle it.",
+        "Each statement tests one idea. Avoid double negatives and statements that are true or false only because of trivial wording.",
+        "Statements are paraphrased; don't put the passage's distinctive words only into the TRUE statements."
+      ]
+    },
+    "YES_NO_NOT_GIVEN": {
+      "official_name": "Identifying writer's views/claims (Yes/No/Not given)",
+      "rubric_template": "Questions {from}–{to}\nDo the following statements agree with the {views_or_claims} of the writer in {passage}?\nIn boxes {from}–{to} on your answer sheet, write\nYES if the statement agrees with the {views_or_claims} of the writer\nNO if the statement contradicts the {views_or_claims} of the writer\nNOT GIVEN if it is impossible to say what the writer thinks about this",
+      "rubric_variants": [],
+      "answer_format": "YES / NO / NOT GIVEN (full words).",
+      "follows_text_order": true,
+      "what_it_tests": "Recognising the writer's opinions, attitudes or claims (including implied stance) and telling contradiction apart from absence of a view.",
+      "design_rules": [
+        "Only use with passages where the writer takes positions (argumentative or discursive texts, typically Passage 3). 'views' suits opinion/evaluation; 'claims' suits assertions of fact the writer makes.",
+        "Typically 4–7 statements; use each answer at least once; statements follow passage order.",
+        "YES/NO depend on the WRITER's stance, not on views the writer reports from other people (a researcher's view the writer disputes → NO if the statement matches the researcher).",
+        "NOT GIVEN: the topic is mentioned but the writer expresses no view on this specific point.",
+        "Look for evaluative language in the text (admittedly, it is doubtful whether, rightly, the real problem is) to anchor YES/NO statements."
+      ]
+    },
+    "MATCHING_INFORMATION": {
+      "official_name": "Matching information",
+      "rubric_template": "Questions {from}–{to}\n{passage} has {count_word} paragraphs, A–{last_letter}.\nWhich paragraph contains the following information?\nWrite the correct letter, A–{last_letter}, in boxes {from}–{to} on your answer sheet.\nNB You may use any letter more than once.",
+      "rubric_variants": [
+        "Questions {from}–{to}\n{passage} has {count_word} sections, A–{last_letter}.\nWhich section contains the following information?\nWrite the correct letter, A–{last_letter}, in boxes {from}–{to} on your answer sheet."
+      ],
+      "answer_format": "One paragraph letter per question.",
+      "follows_text_order": false,
+      "what_it_tests": "Scanning for specific information (a detail, example, reason, description, comparison, summary or explanation) rather than main ideas.",
+      "design_rules": [
+        "Paragraphs must be labelled A, B, C… in the passage.",
+        "Each item names a TYPE of information plus its content, e.g. 'a reference to…', 'an example of…', 'an explanation of why…', 'a comparison between…', 'a description of…', 'a prediction about…'.",
+        "Items are NOT in passage order; not every paragraph needs to be used.",
+        "Add 'NB You may use any letter more than once.' only when at least one paragraph is the answer to two items; omit the NB line otherwise.",
+        "Each item must be locatable in exactly one paragraph; paraphrase so that searching for keywords alone does not work.",
+        "Usually 4–7 items."
+      ]
+    },
+    "MATCHING_HEADINGS": {
+      "official_name": "Matching headings",
+      "rubric_template": "Questions {from}–{to}\n{passage} has {count_word} paragraphs, A–{last_letter}.\nChoose the correct heading for each paragraph from the list of headings below.\nWrite the correct number, i–{last_numeral}, in boxes {from}–{to} on your answer sheet.\n\nList of Headings",
+      "rubric_variants": [
+        "Questions {from}–{to}\n{passage} has {count_word} paragraphs, A–{last_letter}.\nChoose the correct heading for paragraphs {paragraph_list} from the list of headings below.\nWrite the correct number, i–{last_numeral}, in boxes {from}–{to} on your answer sheet.\n\nList of Headings",
+        "Questions {from}–{to}\n{passage} has {count_word} sections, A–{last_letter}.\nChoose the correct heading for each section from the list of headings below.\nWrite the correct number, i–{last_numeral}, in boxes {from}–{to} on your answer sheet.\n\nList of Headings"
+      ],
+      "answer_format": "One lower-case Roman numeral per question (i, ii, iii…).",
+      "follows_text_order": false,
+      "what_it_tests": "Identifying the main idea or general topic of a paragraph or section and telling it apart from supporting detail.",
+      "design_rules": [
+        "Always more headings than paragraphs to be matched (usually 2–3 extra); headings are numbered with lower-case Roman numerals.",
+        "Each heading can be used only once; some headings are never used. Some paragraphs may be left out of the task.",
+        "One paragraph may be matched already as an example ('Example: Paragraph A — iii'); then use the {paragraph_list} rubric variant and don't use that heading again.",
+        "Question stems are just 'Paragraph B', 'Paragraph C'… in passage order; the task is printed before the passage.",
+        "A correct heading summarises the WHOLE paragraph's main idea in paraphrase; distractor headings match a single detail, a keyword or a nearby paragraph's idea.",
+        "Headings are short noun phrases or clauses (about 4–10 words) with no end punctuation."
+      ]
+    },
+    "MATCHING_FEATURES": {
+      "official_name": "Matching features",
+      "rubric_template": "Questions {from}–{to}\nLook at the following statements (Questions {from}–{to}) and the list of {features} below.\nMatch each statement with the correct {feature}, A–{last_letter}.\nWrite the correct letter, A–{last_letter}, in boxes {from}–{to} on your answer sheet.\nNB You may use any letter more than once.\n\n{list_title}",
+      "rubric_variants": [],
+      "answer_format": "One option letter per question.",
+      "follows_text_order": false,
+      "what_it_tests": "Recognising relationships and connections between facts, and which person, period, place or theory a statement, finding or opinion belongs to; skimming and scanning, then close reading.",
+      "design_rules": [
+        "The options (A–E typical; up to about A–J) are features named in the text, such as researchers, organisations, countries, periods, products or theories. List them in the order they first appear in the text.",
+        "Statements are paraphrased findings, claims or descriptions, NOT in passage order.",
+        "Some options may be unused and some used more than once; include the NB line only if an option is used more than once.",
+        "Where a person is mentioned in several places, make sure only one option can match each statement.",
+        "Usually 4–7 statements."
+      ]
+    },
+    "MATCHING_SENTENCE_ENDINGS": {
+      "official_name": "Matching sentence endings",
+      "rubric_template": "Questions {from}–{to}\nComplete each sentence with the correct ending, A–{last_letter}, below.\nWrite the correct letter, A–{last_letter}, in boxes {from}–{to} on your answer sheet.",
+      "rubric_variants": [],
+      "answer_format": "One ending letter per question.",
+      "follows_text_order": true,
+      "what_it_tests": "Understanding main ideas and how parts of a sentence-level proposition fit together (cause and effect, conditions, findings).",
+      "design_rules": [
+        "More endings than beginnings (usually 2–3 extra); each ending is used at most once.",
+        "Sentence beginnings follow passage order; endings are listed in random order.",
+        "Every ending must fit grammatically with every beginning, so that grammar alone can't show the answer.",
+        "Distractor endings reuse passage vocabulary but combine ideas the text does not connect.",
+        "Usually 3–6 beginnings."
+      ]
+    },
+    "SENTENCE_COMPLETION": {
+      "official_name": "Sentence completion",
+      "rubric_template": "Questions {from}–{to}\nComplete the sentences below.\nChoose {word_limit} from the passage for each answer.\nWrite your answers in boxes {from}–{to} on your answer sheet.",
+      "rubric_variants": [],
+      "answer_format": "Word(s) and/or a number copied exactly from the passage, within the word limit.",
+      "follows_text_order": true,
+      "what_it_tests": "Finding detail or specific information and checking that it completes the sentence's meaning and grammar.",
+      "design_rules": [
+        "One gap per sentence; the sentence paraphrases a passage sentence, and the gap is the key content word(s).",
+        "The answer appears verbatim in the passage and fits the gap grammatically without any change of form.",
+        "No answer word may appear elsewhere in its own stem; only one passage phrase can correctly fill the gap.",
+        "Prefer ONE WORD ONLY or NO MORE THAN TWO WORDS; state any number allowance in the word limit.",
+        "Usually 3–6 sentences."
+      ]
+    },
+    "SUMMARY_COMPLETION": {
+      "official_name": "Summary completion",
+      "rubric_template": "Questions {from}–{to}\nComplete the summary below.\nChoose {word_limit} from the passage for each answer.\nWrite your answers in boxes {from}–{to} on your answer sheet.",
+      "rubric_variants": [
+        "Questions {from}–{to}\nComplete the summary using the list of words, A–{last_letter}, below.\nWrite the correct letter, A–{last_letter}, in boxes {from}–{to} on your answer sheet.",
+        "Questions {from}–{to}\nComplete the summary using the list of phrases, A–{last_letter}, below.\nWrite the correct letter, A–{last_letter}, in boxes {from}–{to} on your answer sheet."
+      ],
+      "answer_format": "Words from the passage within the word limit, or (word-bank variant) one letter per gap.",
+      "follows_text_order": false,
+      "what_it_tests": "Understanding details and/or main ideas of one part of the text, including which word class each gap needs.",
+      "design_rules": [
+        "Summarise one section of the passage (not normally the whole text); give the summary a short title.",
+        "Gaps are usually in the order of that section, but order is not guaranteed; all answers come from the same part of the text.",
+        "Words-from-passage variant: answers appear verbatim and fit grammatically; one correct phrase per gap.",
+        "Word-bank variant: more options than gaps (typically 3–6 extra); options are often synonyms rather than the passage's own words; several options should fit each gap grammatically, and distractors share the gaps' word classes.",
+        "Usually 4–7 gaps."
+      ]
+    },
+    "NOTE_COMPLETION": {
+      "official_name": "Note completion",
+      "rubric_template": "Questions {from}–{to}\nComplete the notes below.\nChoose {word_limit} from the passage for each answer.\nWrite your answers in boxes {from}–{to} on your answer sheet.",
+      "rubric_variants": [],
+      "answer_format": "Words and/or numbers from the passage within the word limit.",
+      "follows_text_order": false,
+      "what_it_tests": "Understanding details and how points relate to each other, presented in condensed note form.",
+      "design_rules": [
+        "Notes have a title, sub-headings and bullet/dash lines written in note style (articles and verbs often dropped).",
+        "Answers come from one part of the text; they usually follow its order, but this is not guaranteed.",
+        "Each gap is a key fact (a noun or noun phrase is most common); answers verbatim from the passage.",
+        "Usually 4–8 gaps."
+      ]
+    },
+    "TABLE_COMPLETION": {
+      "official_name": "Table completion",
+      "rubric_template": "Questions {from}–{to}\nComplete the table below.\nChoose {word_limit} from the passage for each answer.\nWrite your answers in boxes {from}–{to} on your answer sheet.",
+      "rubric_variants": [],
+      "answer_format": "Words and/or numbers from the passage within the word limit.",
+      "follows_text_order": false,
+      "what_it_tests": "Understanding details and classifying information into clear categories (e.g. period / development / effect).",
+      "design_rules": [
+        "Use a table only when the text naturally supplies parallel information across categories (columns) for several items (rows).",
+        "Cells are in note style; gaps are spread across rows and columns and numbered left-to-right, top-to-bottom.",
+        "Answers come from one part of the text and may not follow text order.",
+        "Usually 3–6 gaps."
+      ]
+    },
+    "FLOW_CHART_COMPLETION": {
+      "official_name": "Flow-chart completion",
+      "rubric_template": "Questions {from}–{to}\nComplete the flow-chart below.\nChoose {word_limit} from the passage for each answer.\nWrite your answers in boxes {from}–{to} on your answer sheet.",
+      "rubric_variants": [],
+      "answer_format": "Words and/or numbers from the passage within the word limit.",
+      "follows_text_order": false,
+      "what_it_tests": "Following a process, procedure or chain of events described in the text and understanding the sequence.",
+      "design_rules": [
+        "Only for passages that describe a sequence (a manufacturing process, experiment method, historical chain of events, life cycle).",
+        "Boxes/steps are linked by arrows in the true order of the process, which the text may present out of order.",
+        "Each step is a short note-style clause; gaps are key nouns or verbs.",
+        "Usually 3–6 gaps."
+      ]
+    },
+    "DIAGRAM_LABEL_COMPLETION": {
+      "official_name": "Diagram label completion",
+      "rubric_template": "Questions {from}–{to}\nLabel the diagram below.\nChoose {word_limit} from the passage for each answer.\nWrite your answers in boxes {from}–{to} on your answer sheet.",
+      "rubric_variants": [],
+      "answer_format": "Words and/or numbers from the passage within the word limit.",
+      "follows_text_order": false,
+      "what_it_tests": "Understanding a detailed description in the text (a device, structure, building or natural feature) and relating it to a diagram.",
+      "design_rules": [
+        "The passage must describe the physical parts, positions and functions clearly enough for the labels to be found (e.g. 'a chamber beneath the…', 'a pipe connects…').",
+        "Some labels are given to orient the reader; the gaps label parts named in the text.",
+        "Answers come from one part of the text and may not follow text order.",
+        "Usually 3–6 labels."
+      ]
+    },
+    "SHORT_ANSWER": {
+      "official_name": "Short-answer questions",
+      "rubric_template": "Questions {from}–{to}\nAnswer the questions below.\nChoose {word_limit} from the passage for each answer.\nWrite your answers in boxes {from}–{to} on your answer sheet.",
+      "rubric_variants": [],
+      "answer_format": "Words and/or numbers from the passage within the word limit.",
+      "follows_text_order": true,
+      "what_it_tests": "Finding and understanding specific factual details (who, what, which, where, when, how many).",
+      "design_rules": [
+        "Wh-questions that paraphrase the passage; each has one short factual answer.",
+        "Answers are verbatim from the passage; numbers may be written as figures or words.",
+        "Questions follow passage order.",
+        "Usually 3–6 questions; NO MORE THAN THREE WORDS AND/OR A NUMBER is the common limit."
+      ]
+    }
+  }
+}

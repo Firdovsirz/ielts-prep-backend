@@ -1,0 +1,62 @@
+{
+  "task_type": "WRITING_TASK1_ACADEMIC",
+  "source_url": "",
+  "licence": "Original content",
+  "content": {
+    "chart_type": "MAP",
+    "topic": "Redevelopment of a town's riverside area",
+    "prompt": "The maps below show the riverside area of the town of Carrowby in 1990 and today.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+    "figure_title": "Carrowby riverside, 1990 and present day",
+    "units": "",
+    "x_label": "",
+    "y_label": "",
+    "categories": [],
+    "series": [],
+    "process_steps": [],
+    "process_is_cycle": false,
+    "maps": [
+      {
+        "title": "1990",
+        "features": [
+          { "label": "Main Road", "kind": "road", "x": 0, "y": 8, "w": 100, "h": 5 },
+          { "label": "Station Road", "kind": "road", "x": 46, "y": 13, "w": 5, "h": 49 },
+          { "label": "Textile factory", "kind": "building", "x": 6, "y": 18, "w": 30, "h": 22 },
+          { "label": "Warehouses", "kind": "building", "x": 6, "y": 44, "w": 30, "h": 14 },
+          { "label": "Railway goods yard", "kind": "other", "x": 56, "y": 18, "w": 38, "h": 20 },
+          { "label": "Car park", "kind": "car_park", "x": 56, "y": 42, "w": 18, "h": 14 },
+          { "label": "Terraced houses", "kind": "building", "x": 78, "y": 42, "w": 16, "h": 14 },
+          { "label": "River Carr", "kind": "water", "x": 0, "y": 62, "w": 100, "h": 14 },
+          { "label": "Road bridge", "kind": "road", "x": 46, "y": 62, "w": 5, "h": 14 },
+          { "label": "Allotments", "kind": "farmland", "x": 6, "y": 80, "w": 40, "h": 16 },
+          { "label": "Woodland", "kind": "forest", "x": 56, "y": 80, "w": 38, "h": 16 }
+        ]
+      },
+      {
+        "title": "Present day",
+        "features": [
+          { "label": "Main Road", "kind": "road", "x": 0, "y": 8, "w": 100, "h": 5 },
+          { "label": "Station Road", "kind": "road", "x": 46, "y": 13, "w": 5, "h": 49 },
+          { "label": "Apartment blocks", "kind": "building", "x": 6, "y": 18, "w": 30, "h": 14 },
+          { "label": "Riverside park", "kind": "green", "x": 6, "y": 36, "w": 30, "h": 20 },
+          { "label": "Shopping centre", "kind": "building", "x": 56, "y": 18, "w": 38, "h": 20 },
+          { "label": "Multi-storey car park", "kind": "car_park", "x": 56, "y": 42, "w": 18, "h": 14 },
+          { "label": "Terraced houses", "kind": "building", "x": 78, "y": 42, "w": 16, "h": 14 },
+          { "label": "Riverside walkway", "kind": "path", "x": 0, "y": 57, "w": 100, "h": 4 },
+          { "label": "River Carr", "kind": "water", "x": 0, "y": 62, "w": 100, "h": 14 },
+          { "label": "Road bridge", "kind": "road", "x": 46, "y": 62, "w": 5, "h": 14 },
+          { "label": "Footbridge", "kind": "path", "x": 24, "y": 62, "w": 3, "h": 14 },
+          { "label": "Allotments", "kind": "farmland", "x": 6, "y": 80, "w": 18, "h": 16 },
+          { "label": "Primary school", "kind": "building", "x": 28, "y": 80, "w": 18, "h": 16 },
+          { "label": "Woodland", "kind": "forest", "x": 56, "y": 80, "w": 38, "h": 16 }
+        ]
+      }
+    ],
+    "key_features": [
+      "Overview: the riverside has changed from an industrial area into a residential, shopping and leisure district, with better access for pedestrians; all the industrial sites have disappeared, while the road layout, terraced houses and woodland are unchanged.",
+      "West of Station Road, the textile factory has been replaced by apartment blocks and the warehouses by a riverside park.",
+      "East of Station Road, the railway goods yard has become a shopping centre and the surface car park has been rebuilt as a multi-storey car park.",
+      "A walkway now runs along the whole north bank of the River Carr, and a new footbridge crosses the river west of the existing road bridge.",
+      "South of the river, the allotments have been reduced to less than half their original size to make room for a primary school, while the woodland remains."
+    ]
+  }
+}

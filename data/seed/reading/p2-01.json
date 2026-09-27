@@ -1,0 +1,320 @@
+{
+  "task_type": "READING_PASSAGE",
+  "source_url": "https://en.wikipedia.org/wiki/Testing_effect",
+  "licence": "CC BY-SA 4.0 (topic seed only; passage text is original)",
+  "content": {
+    "title": "Learning by Remembering",
+    "topic": "retrieval practice and the testing effect",
+    "difficulty": 2,
+    "cefr": "C1",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "For most of the history of formal education, tests have been regarded as instruments of measurement. A teacher instructs, students study, and an examination reveals how much has been absorbed, much as a thermometer reports the temperature of a room without altering it. Over recent decades, however, research in cognitive psychology has challenged this assumption. The act of retrieving information from memory, it now appears, does not merely reveal what has been learnt; it changes the memory itself, making it more durable and easier to access later. Psychologists call this phenomenon the testing effect, or, more broadly, retrieval practice."
+      },
+      {
+        "label": "B",
+        "text": "The idea is not new. In 1917 the American educational psychologist Arthur Gates asked schoolchildren to study short biographies of famous people. Some pupils spent the whole study period reading, while others spent part of it trying to recite the facts to themselves without looking at the text. Those who devoted a large share of their time to recitation remembered considerably more. Yet for much of the twentieth century this result attracted little interest. Memory researchers were chiefly concerned with how information is first stored, and tests were treated as a neutral window onto that process rather than as a subject of study in their own right."
+      },
+      {
+        "label": "C",
+        "text": "Interest revived in the early 2000s, when Henry Roediger and Jeffrey Karpicke at Washington University in St Louis carried out a series of experiments that are now widely cited. In one, students read short prose passages on scientific topics. Some read each passage four times; others read it once and then tried to write down as much as they could remember on three separate occasions. When the students were assessed five minutes later, those who had simply reread the material performed slightly better. After a delay of one week, however, the position was reversed: those who had practised recall remembered substantially more than those who had spent the same time rereading."
+      },
+      {
+        "label": "D",
+        "text": "What made these findings particularly striking was the students' own view of their learning. Asked to predict how well they would perform, the rereaders were noticeably more confident than those who had been tested. Psychologists attribute this to an illusion of fluency: a text read for the second or third time seems familiar and is processed with ease, and learners mistake this ease for mastery. Recall, by contrast, is effortful and often unsuccessful, so it feels unproductive even when it is doing more good. Surveys consistently show that rereading and highlighting are university students' favoured revision strategies, while self-testing is used far less often, and mainly to check progress rather than as a way of learning."
+      },
+      {
+        "label": "E",
+        "text": "Why retrieval should strengthen memory is still debated. One explanation holds that each successful act of recall reinforces the pathway to a memory, much as walking the same route across a field gradually wears a visible track. Another, the elaborative retrieval account, proposes that searching memory activates related knowledge, so that the target becomes linked to a richer network of associations and can later be reached by several routes. Both accounts are consistent with the observation that retrieval which demands considerable effort tends to produce greater long-term benefits than retrieval that is easy. The psychologist Robert Bjork has described such challenges as 'desirable difficulties': obstacles that slow learning in the short term but improve retention."
+      },
+      {
+        "label": "F",
+        "text": "The benefits are not automatic, however. If a learner fails to retrieve an answer, or retrieves an incorrect one, a test may do little good and can even reinforce the error. The risk is greatest with multiple-choice questions, because the wrong options are designed to look plausible, and a student who selects one may later remember it as true. Studies have found that providing the correct answer shortly after the test largely removes this problem. Feedback also allows learners to gain from items they could not answer at all, since an unsuccessful attempt at recall appears to prepare the mind to absorb the correct information when it is supplied."
+      },
+      {
+        "label": "G",
+        "text": "Whether such laboratory results would hold in real classrooms was, for some time, an open question. To find out, researchers worked with teachers at a middle school in the American Midwest over several years. Pupils took brief quizzes, which did not count towards their grades, on some parts of their science and social studies courses but not on others. In end-of-unit examinations they scored markedly higher on the quizzed material, and the advantage was still evident at the end of the school year. Similar benefits have since been reported in medical training, where short, frequent tests have helped trainee doctors retain what they were taught months earlier."
+      },
+      {
+        "label": "H",
+        "text": "None of this means that more examinations are the answer to educational problems. Critics point out that frequent high-stakes testing can raise anxiety and encourage teachers to focus narrowly on what will be assessed. Advocates of retrieval practice respond that the benefits they describe come from low-stakes activities, such as a few questions at the start of a lesson or flashcards used at home, which carry no penalty for failure. The most useful message from this research may therefore be a simple one: students who close the book and try to recall what they have read are likely to learn more than those who read it again."
+      }
+    ],
+    "question_groups": [
+      {
+        "group_id": "g1",
+        "question_type": "MATCHING_HEADINGS",
+        "instructions": "Questions 1–7\nThe reading passage has eight paragraphs, A–H.\nChoose the correct heading for paragraphs B–H from the list of headings below.\nWrite the correct number, i–x.",
+        "word_limit": 0,
+        "number_allowed": false,
+        "options": [
+          {
+            "key": "i",
+            "text": "The origins of formal examinations"
+          },
+          {
+            "key": "ii",
+            "text": "Competing theories of how the effect works"
+          },
+          {
+            "key": "iii",
+            "text": "An early discovery that was largely neglected"
+          },
+          {
+            "key": "iv",
+            "text": "Evidence from outside the laboratory"
+          },
+          {
+            "key": "v",
+            "text": "Why multiple-choice tests should be replaced"
+          },
+          {
+            "key": "vi",
+            "text": "A result that depended on when memory was tested"
+          },
+          {
+            "key": "vii",
+            "text": "The importance of keeping the stakes low"
+          },
+          {
+            "key": "viii",
+            "text": "Learners' mistaken beliefs about how best to study"
+          },
+          {
+            "key": "ix",
+            "text": "A possible risk and a straightforward remedy"
+          },
+          {
+            "key": "x",
+            "text": "Differences between younger and older learners"
+          }
+        ],
+        "context": "",
+        "table": {
+          "title": "",
+          "columns": [],
+          "rows": []
+        },
+        "flow_steps": [],
+        "diagram": {
+          "title": "",
+          "nodes": [],
+          "edges": []
+        },
+        "map": {
+          "title": "",
+          "features": [],
+          "markers": []
+        },
+        "questions": [
+          {
+            "number": 1,
+            "prompt": "Paragraph B",
+            "options": [],
+            "answers": [
+              "iii"
+            ],
+            "justification_span": "Yet for much of the twentieth century this result attracted little interest.",
+            "location": "B"
+          },
+          {
+            "number": 2,
+            "prompt": "Paragraph C",
+            "options": [],
+            "answers": [
+              "vi"
+            ],
+            "justification_span": "After a delay of one week, however, the position was reversed: those who had practised recall remembered substantially more than those who had spent the same time rereading.",
+            "location": "C"
+          },
+          {
+            "number": 3,
+            "prompt": "Paragraph D",
+            "options": [],
+            "answers": [
+              "viii"
+            ],
+            "justification_span": "Psychologists attribute this to an illusion of fluency: a text read for the second or third time seems familiar and is processed with ease, and learners mistake this ease for mastery.",
+            "location": "D"
+          },
+          {
+            "number": 4,
+            "prompt": "Paragraph E",
+            "options": [],
+            "answers": [
+              "ii"
+            ],
+            "justification_span": "Why retrieval should strengthen memory is still debated.",
+            "location": "E"
+          },
+          {
+            "number": 5,
+            "prompt": "Paragraph F",
+            "options": [],
+            "answers": [
+              "ix"
+            ],
+            "justification_span": "Studies have found that providing the correct answer shortly after the test largely removes this problem.",
+            "location": "F"
+          },
+          {
+            "number": 6,
+            "prompt": "Paragraph G",
+            "options": [],
+            "answers": [
+              "iv"
+            ],
+            "justification_span": "Whether such laboratory results would hold in real classrooms was, for some time, an open question.",
+            "location": "G"
+          },
+          {
+            "number": 7,
+            "prompt": "Paragraph H",
+            "options": [],
+            "answers": [
+              "vii"
+            ],
+            "justification_span": "Advocates of retrieval practice respond that the benefits they describe come from low-stakes activities, such as a few questions at the start of a lesson or flashcards used at home, which carry no penalty for failure.",
+            "location": "H"
+          }
+        ]
+      },
+      {
+        "group_id": "g2",
+        "question_type": "SENTENCE_COMPLETION",
+        "instructions": "Questions 8–11\nComplete the sentences below.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.",
+        "word_limit": 2,
+        "number_allowed": false,
+        "options": [],
+        "context": "",
+        "table": {
+          "title": "",
+          "columns": [],
+          "rows": []
+        },
+        "flow_steps": [],
+        "diagram": {
+          "title": "",
+          "nodes": [],
+          "edges": []
+        },
+        "map": {
+          "title": "",
+          "features": [],
+          "markers": []
+        },
+        "questions": [
+          {
+            "number": 8,
+            "prompt": "In Gates's study, the children who gave much of their study period to {{8}} recalled the most information.",
+            "options": [],
+            "answers": [
+              "recitation"
+            ],
+            "justification_span": "Those who devoted a large share of their time to recitation remembered considerably more.",
+            "location": "B"
+          },
+          {
+            "number": 9,
+            "prompt": "The revision methods that university students prefer are rereading and {{9}}.",
+            "options": [],
+            "answers": [
+              "highlighting"
+            ],
+            "justification_span": "Surveys consistently show that rereading and highlighting are university students' favoured revision strategies, while self-testing is used far less often, and mainly to check progress rather than as a way of learning.",
+            "location": "D"
+          },
+          {
+            "number": 10,
+            "prompt": "Robert Bjork's term for challenges that make learning harder at first but help people to remember in the long run is {{10}}.",
+            "options": [],
+            "answers": [
+              "desirable difficulties"
+            ],
+            "justification_span": "The psychologist Robert Bjork has described such challenges as 'desirable difficulties': obstacles that slow learning in the short term but improve retention.",
+            "location": "E"
+          },
+          {
+            "number": 11,
+            "prompt": "In the middle-school project, pupils' performance in the quizzes had no effect on their {{11}}.",
+            "options": [],
+            "answers": [
+              "grades"
+            ],
+            "justification_span": "Pupils took brief quizzes, which did not count towards their grades, on some parts of their science and social studies courses but not on others.",
+            "location": "G"
+          }
+        ]
+      },
+      {
+        "group_id": "g3",
+        "question_type": "MULTIPLE_CHOICE_MULTI",
+        "instructions": "Questions 12 and 13\nChoose TWO letters, A–E.",
+        "word_limit": 0,
+        "number_allowed": false,
+        "options": [
+          {
+            "key": "A",
+            "text": "It is most effective when the tests carry serious consequences for the learner."
+          },
+          {
+            "key": "B",
+            "text": "Its advantages over other study methods may take time to become apparent."
+          },
+          {
+            "key": "C",
+            "text": "It was first investigated in studies of university students."
+          },
+          {
+            "key": "D",
+            "text": "It can help even when learners are unable to recall an answer, provided that they are then told it."
+          },
+          {
+            "key": "E",
+            "text": "It has been found to work better in science than in social studies."
+          }
+        ],
+        "context": "",
+        "table": {
+          "title": "",
+          "columns": [],
+          "rows": []
+        },
+        "flow_steps": [],
+        "diagram": {
+          "title": "",
+          "nodes": [],
+          "edges": []
+        },
+        "map": {
+          "title": "",
+          "features": [],
+          "markers": []
+        },
+        "questions": [
+          {
+            "number": 12,
+            "prompt": "Which TWO of the following claims about retrieval practice are made in the passage?",
+            "options": [],
+            "answers": [
+              "B"
+            ],
+            "justification_span": "After a delay of one week, however, the position was reversed: those who had practised recall remembered substantially more than those who had spent the same time rereading.",
+            "location": "C"
+          },
+          {
+            "number": 13,
+            "prompt": "Which TWO of the following claims about retrieval practice are made in the passage?",
+            "options": [],
+            "answers": [
+              "D"
+            ],
+            "justification_span": "Feedback also allows learners to gain from items they could not answer at all, since an unsuccessful attempt at recall appears to prepare the mind to absorb the correct information when it is supplied.",
+            "location": "F"
+          }
+        ]
+      }
+    ]
+  }
+}

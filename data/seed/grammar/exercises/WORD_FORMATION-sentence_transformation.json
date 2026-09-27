@@ -1,0 +1,130 @@
+{
+  "task_type": "GRAMMAR_EXERCISE",
+  "source_url": "",
+  "licence": "Original content",
+  "content": {
+    "area": "WORD_FORMATION",
+    "exercise_type": "SENTENCE_TRANSFORMATION",
+    "title": "Changing word class to vary your sentences",
+    "instructions": "Rewrite each sentence using the word form in the cue. Keep the meaning the same and write the complete new sentence.",
+    "items": [
+      {
+        "id": "1",
+        "prompt": "The number of tourists increased significantly in 2019. Use the noun form of 'increase'. Begin: 'There was…'",
+        "options": [],
+        "accepted_answers": [
+          "There was a significant increase in the number of tourists in 2019."
+        ],
+        "model_answer": "There was a significant increase in the number of tourists in 2019.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "In Task 1, switching between verb + adverb (increased significantly) and adjective + noun (a significant increase in) is the easiest way to vary trend language. The adverb becomes an adjective, and the noun takes 'in' before the thing that changed."
+      },
+      {
+        "id": "2",
+        "prompt": "The country's economy grew rapidly in the 1990s. Use the adjective 'economic' and the noun form of 'grow'. Begin: 'The country experienced…'",
+        "options": [],
+        "accepted_answers": [
+          "The country experienced rapid economic growth in the 1990s."
+        ],
+        "model_answer": "The country experienced rapid economic growth in the 1990s.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "'Economic' is the adjective meaning 'related to the economy', and 'growth' is the noun from 'grow'. The adverb 'rapidly' becomes the adjective 'rapid' because it now describes a noun."
+      },
+      {
+        "id": "3",
+        "prompt": "It is essential that governments invest in renewable energy. Use the noun form of 'invest'. Begin: 'Government…'",
+        "options": [],
+        "accepted_answers": [
+          "Government investment in renewable energy is essential."
+        ],
+        "model_answer": "Government investment in renewable energy is essential.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "Nominalisation — turning a verb into a noun — is a key feature of academic style. 'Invest in' becomes 'investment in', and 'government' works as a noun modifier in front of it."
+      },
+      {
+        "id": "4",
+        "prompt": "Many people are concerned that robots will replace human workers. Use the noun form of 'concerned'. Begin: 'There is widespread…'",
+        "options": [],
+        "accepted_answers": [
+          "There is widespread concern that robots will replace human workers."
+        ],
+        "model_answer": "There is widespread concern that robots will replace human workers.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "The noun 'concern' is uncountable here; it combines naturally with 'widespread', 'growing' and 'public' and can be followed by a 'that' clause."
+      },
+      {
+        "id": "5",
+        "prompt": "Obesity has a significant effect on life expectancy. Use the verb 'affect' and the adverb form of 'significant'.",
+        "options": [],
+        "accepted_answers": [
+          "Obesity significantly affects life expectancy.",
+          "Obesity affects life expectancy significantly."
+        ],
+        "model_answer": "Obesity significantly affects life expectancy.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "'Effect' is normally a noun (have an effect on), while 'affect' is the verb, which takes a direct object with no 'on'. The adjective 'significant' becomes the adverb 'significantly' because it now modifies a verb."
+      },
+      {
+        "id": "6",
+        "prompt": "Many young people cannot afford to buy a home in the capital. Use an adjective formed from 'afford' with a negative prefix. Begin: 'Homes in the capital are…'",
+        "options": [],
+        "accepted_answers": [
+          "Homes in the capital are unaffordable for many young people.",
+          "Homes in the capital are unaffordable to many young people."
+        ],
+        "model_answer": "Homes in the capital are unaffordable for many young people.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "The suffix -able forms an adjective (affordable) and the prefix un- makes it negative (unaffordable). The people affected are introduced with 'for' or 'to'."
+      },
+      {
+        "id": "7",
+        "prompt": "The government's decision was a surprise to many citizens. Use an -ed adjective. Begin: 'Many citizens were…'",
+        "options": [],
+        "accepted_answers": [
+          "Many citizens were surprised by the government's decision.",
+          "Many citizens were surprised at the government's decision."
+        ],
+        "model_answer": "Many citizens were surprised by the government's decision.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "The noun 'surprise' becomes the -ed adjective 'surprised', which describes how people feel. It is followed by 'by' or 'at'."
+      },
+      {
+        "id": "8",
+        "prompt": "The weather in my country changes a lot and nobody can predict it. Use an adjective formed from 'predict' with a negative prefix. Begin: 'The weather in my country is…'",
+        "options": [],
+        "accepted_answers": [
+          "The weather in my country is highly unpredictable.",
+          "The weather in my country is very unpredictable.",
+          "The weather in my country is unpredictable."
+        ],
+        "model_answer": "The weather in my country is highly unpredictable.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "'Predict' + -able gives 'predictable', and un- makes it negative. One precise adjective ('highly unpredictable') replaces a whole clause, which sounds more fluent in Speaking."
+      },
+      {
+        "id": "9",
+        "prompt": "Students who live abroad become more independent. Use the noun form of 'independent'. Begin: 'Living abroad helps students…'",
+        "options": [],
+        "accepted_answers": [
+          "Living abroad helps students develop greater independence.",
+          "Living abroad helps students to develop greater independence.",
+          "Living abroad helps students gain independence."
+        ],
+        "model_answer": "Living abroad helps students develop greater independence.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "The noun form of 'independent' is 'independence' (-ent → -ence). As a noun it combines with verbs such as 'develop', 'gain' and 'foster', which gives you more ways to express the idea."
+      },
+      {
+        "id": "10",
+        "prompt": "The government made the visa application process simpler. Use the verb form of 'simple'. Begin: 'The government…'",
+        "options": [],
+        "accepted_answers": [
+          "The government simplified the visa application process."
+        ],
+        "model_answer": "The government simplified the visa application process.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "The suffix -ify turns some adjectives into verbs (simple → simplify, clear → clarify, intense → intensify). One precise verb replaces the longer 'made … simpler'."
+      }
+    ]
+  }
+}

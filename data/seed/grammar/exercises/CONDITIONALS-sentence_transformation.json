@@ -1,0 +1,141 @@
+{
+  "task_type": "GRAMMAR_EXERCISE",
+  "source_url": "",
+  "licence": "Original content",
+  "content": {
+    "area": "CONDITIONALS",
+    "exercise_type": "SENTENCE_TRANSFORMATION",
+    "title": "Conditionals and hypothetical language: rewrite the sentence",
+    "instructions": "Rewrite each sentence following the cue so that the meaning stays the same. Write the complete new sentence. Think about whether the situation is a general truth, a real future possibility, an imaginary present, or an imaginary past.",
+    "items": [
+      {
+        "id": "1",
+        "prompt": "Many people don't recycle because there are too few recycling points in residential areas. Rewrite starting 'If there …'",
+        "options": [],
+        "accepted_answers": [
+          "If there were more recycling points in residential areas, more people would recycle.",
+          "If there were more recycling points in residential areas, many more people would recycle.",
+          "If there weren't so few recycling points in residential areas, more people would recycle."
+        ],
+        "model_answer": "If there were more recycling points in residential areas, more people would recycle.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "An imaginary present situation takes the second conditional: If + past simple, would + base verb. Notice that the negative real situation (too few) becomes a positive hypothetical one (more)."
+      },
+      {
+        "id": "2",
+        "prompt": "The government didn't invest in flood defences, so the town was badly damaged in 2019. Rewrite starting 'If the government …'",
+        "options": [],
+        "accepted_answers": [
+          "If the government had invested in flood defences, the town would not have been badly damaged in 2019.",
+          "If the government had invested in flood defences, the town wouldn't have been badly damaged in 2019.",
+          "If the government had invested in flood defences, the town would not have been so badly damaged in 2019."
+        ],
+        "model_answer": "If the government had invested in flood defences, the town would not have been so badly damaged in 2019.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "An imaginary past situation takes the third conditional: If + past perfect, would have + past participle. Here the main clause is also passive (would not have been damaged)."
+      },
+      {
+        "id": "3",
+        "prompt": "I didn't study economics at university, so I don't really understand these statistics now. Rewrite starting 'If I had …'",
+        "options": [],
+        "accepted_answers": [
+          "If I had studied economics at university, I would understand these statistics now.",
+          "If I had studied economics at university, I would really understand these statistics now.",
+          "If I had studied economics at university, I would understand these statistics better now."
+        ],
+        "model_answer": "If I had studied economics at university, I would understand these statistics now.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "A mixed conditional links an imaginary past cause (If + past perfect) to an imaginary present result (would + base verb). The word 'now' signals that the result is in the present, so 'would have understood' is wrong here."
+      },
+      {
+        "id": "4",
+        "prompt": "Prices rise whenever demand exceeds supply. Rewrite starting 'If …'",
+        "options": [],
+        "accepted_answers": [
+          "If demand exceeds supply, prices rise.",
+          "If demand exceeds supply, prices go up.",
+          "If demand is greater than supply, prices rise."
+        ],
+        "model_answer": "If demand exceeds supply, prices rise.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "General truths and scientific or economic facts take the zero conditional: If + present simple, present simple. 'If' here means 'whenever'."
+      },
+      {
+        "id": "5",
+        "prompt": "Governments must act now, or global temperatures will rise by more than 2°C. Rewrite starting 'Unless …'",
+        "options": [],
+        "accepted_answers": [
+          "Unless governments act now, global temperatures will rise by more than 2°C.",
+          "Unless governments take action now, global temperatures will rise by more than 2°C."
+        ],
+        "model_answer": "Unless governments act now, global temperatures will rise by more than 2°C.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "'Unless' means 'if … not' and is used in the first conditional for a real future possibility: Unless + present simple, will + base verb. Do not add 'will' or a negative in the 'unless' clause."
+      },
+      {
+        "id": "6",
+        "prompt": "I regret that I didn't learn a second language when I was a child. Rewrite starting 'I wish …'",
+        "options": [],
+        "accepted_answers": [
+          "I wish I had learnt a second language when I was a child.",
+          "I wish I had learned a second language when I was a child.",
+          "I wish that I had learnt a second language when I was a child."
+        ],
+        "model_answer": "I wish I had learnt a second language when I was a child.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "To express regret about the past, use 'wish + past perfect'. For a wish about the present, use 'wish + past simple' (I wish I spoke Spanish). This is valuable in Speaking Part 3 when discussing education."
+      },
+      {
+        "id": "7",
+        "prompt": "It's a pity that public transport in my city is so unreliable. Rewrite starting 'If only …'",
+        "options": [],
+        "accepted_answers": [
+          "If only public transport in my city were more reliable.",
+          "If only public transport in my city was more reliable.",
+          "If only public transport in my city weren't so unreliable."
+        ],
+        "model_answer": "If only public transport in my city were more reliable.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "'If only' is a stronger form of 'I wish'. For a present situation it takes the past simple; 'were' is preferred in formal English for all persons, although 'was' is also accepted."
+      },
+      {
+        "id": "8",
+        "prompt": "Governments should start taxing private jets; they have waited far too long. Rewrite starting 'It's high time …'",
+        "options": [],
+        "accepted_answers": [
+          "It's high time governments started taxing private jets.",
+          "It's high time governments taxed private jets.",
+          "It's high time that governments started taxing private jets."
+        ],
+        "model_answer": "It's high time governments started taxing private jets.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "'It's (high) time + subject + past simple' says that something should already have happened. The past tense has present meaning here, as in other hypothetical structures."
+      },
+      {
+        "id": "9",
+        "prompt": "Imagine that all cars were banned from city centres. What would happen to local shops? Rewrite as ONE question starting 'Supposing …'",
+        "options": [],
+        "accepted_answers": [
+          "Supposing all cars were banned from city centres, what would happen to local shops?",
+          "Supposing that all cars were banned from city centres, what would happen to local shops?"
+        ],
+        "model_answer": "Supposing all cars were banned from city centres, what would happen to local shops?",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "'Supposing' (like 'imagine' and 'what if') introduces a hypothetical situation and is followed by the same tenses as a second conditional: past simple in the condition, 'would' in the result."
+      },
+      {
+        "id": "10",
+        "prompt": "Without international aid, the country would not have recovered so quickly after the earthquake. Rewrite starting 'If it …'",
+        "options": [],
+        "accepted_answers": [
+          "If it had not been for international aid, the country would not have recovered so quickly after the earthquake.",
+          "If it hadn't been for international aid, the country would not have recovered so quickly after the earthquake.",
+          "If it hadn't been for international aid, the country wouldn't have recovered so quickly after the earthquake."
+        ],
+        "model_answer": "If it had not been for international aid, the country would not have recovered so quickly after the earthquake.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "'If it had not been for + noun' is a fixed third-conditional expression meaning 'without' in the past. For the present, use 'If it were not for + noun'."
+      }
+    ]
+  }
+}

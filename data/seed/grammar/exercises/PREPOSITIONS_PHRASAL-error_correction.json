@@ -1,0 +1,125 @@
+{
+  "task_type": "GRAMMAR_EXERCISE",
+  "source_url": "",
+  "licence": "Original content",
+  "content": {
+    "area": "PREPOSITIONS_PHRASAL",
+    "exercise_type": "ERROR_CORRECTION",
+    "title": "Preposition errors in writing and speaking",
+    "instructions": "Each sentence contains ONE error with a preposition or phrasal verb: a wrong, missing or unnecessary preposition. Rewrite the whole sentence correctly.",
+    "items": [
+      {
+        "id": "1",
+        "prompt": "The number of car owners in the city increased with 15% between 2000 and 2010.",
+        "options": [],
+        "accepted_answers": [
+          "The number of car owners in the city increased by 15% between 2000 and 2010."
+        ],
+        "model_answer": "The number of car owners in the city increased by 15% between 2000 and 2010.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "After a verb of change, the amount of change is introduced by 'by' (increased by 15%). 'With' is never used for this in English."
+      },
+      {
+        "id": "2",
+        "prompt": "Advertising has a strong influence to children's eating habits.",
+        "options": [],
+        "accepted_answers": [
+          "Advertising has a strong influence on children's eating habits."
+        ],
+        "model_answer": "Advertising has a strong influence on children's eating habits.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "The noun 'influence' takes the dependent preposition 'on', like 'effect on' and 'impact on'."
+      },
+      {
+        "id": "3",
+        "prompt": "I think a lot of teenagers nowadays are addicted with social media.",
+        "options": [],
+        "accepted_answers": [
+          "I think a lot of teenagers nowadays are addicted to social media."
+        ],
+        "model_answer": "I think a lot of teenagers nowadays are addicted to social media.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "'Addicted' takes 'to' (addicted to social media), and so does the noun 'addiction' (an addiction to gaming)."
+      },
+      {
+        "id": "4",
+        "prompt": "The percentage of students who cycled to school rose from 12% until 20% over the decade.",
+        "options": [],
+        "accepted_answers": [
+          "The percentage of students who cycled to school rose from 12% to 20% over the decade."
+        ],
+        "model_answer": "The percentage of students who cycled to school rose from 12% to 20% over the decade.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "With figures, the end point of a change is introduced by 'to' (from 12% to 20%). 'Until' refers only to time (until 2020)."
+      },
+      {
+        "id": "5",
+        "prompt": "In my opinion, governments should focus in improving public healthcare rather than building new stadiums.",
+        "options": [],
+        "accepted_answers": [
+          "In my opinion, governments should focus on improving public healthcare rather than building new stadiums."
+        ],
+        "model_answer": "In my opinion, governments should focus on improving public healthcare rather than building new stadiums.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "'Focus' takes 'on', followed by a noun or an -ing form (focus on improving)."
+      },
+      {
+        "id": "6",
+        "prompt": "The chart gives information of the amount of household waste recycled in four European countries.",
+        "options": [],
+        "accepted_answers": [
+          "The chart gives information about the amount of household waste recycled in four European countries.",
+          "The chart gives information on the amount of household waste recycled in four European countries."
+        ],
+        "model_answer": "The chart gives information about the amount of household waste recycled in four European countries.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "'Information' is followed by 'about' or 'on', not 'of'. This matters because it often appears in the very first sentence of a Task 1 response."
+      },
+      {
+        "id": "7",
+        "prompt": "Some students find it hard to cope up with the pressure of final exams.",
+        "options": [],
+        "accepted_answers": [
+          "Some students find it hard to cope with the pressure of final exams."
+        ],
+        "model_answer": "Some students find it hard to cope with the pressure of final exams.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "The verb is 'cope with'. 'Cope up with' is not standard English; it is a frequent error, probably influenced by phrasal verbs such as 'keep up with'."
+      },
+      {
+        "id": "8",
+        "prompt": "Tourism contributes a lot for the local economy by creating seasonal jobs.",
+        "options": [],
+        "accepted_answers": [
+          "Tourism contributes a lot to the local economy by creating seasonal jobs."
+        ],
+        "model_answer": "Tourism contributes a lot to the local economy by creating seasonal jobs.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "'Contribute' takes 'to' (contribute to the economy), as does the noun 'contribution'."
+      },
+      {
+        "id": "9",
+        "prompt": "Nowadays people discuss about environmental problems much more often than in the past.",
+        "options": [],
+        "accepted_answers": [
+          "Nowadays people discuss environmental problems much more often than in the past."
+        ],
+        "model_answer": "Nowadays people discuss environmental problems much more often than in the past.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "'Discuss' is a transitive verb: it takes a direct object with no preposition. Compare the noun, which does take one: 'a discussion about environmental problems'."
+      },
+      {
+        "id": "10",
+        "prompt": "Sales of the new smartphone reached to a peak of 5,000 units in March.",
+        "options": [],
+        "accepted_answers": [
+          "Sales of the new smartphone reached a peak of 5,000 units in March.",
+          "Sales of the new smartphone peaked at 5,000 units in March."
+        ],
+        "model_answer": "Sales of the new smartphone reached a peak of 5,000 units in March.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "'Reach' is transitive, so it takes a direct object with no 'to': reached a peak, reached 5,000 units. Alternatively, use the verb 'peak at'."
+      }
+    ]
+  }
+}

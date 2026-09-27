@@ -1,0 +1,110 @@
+{
+  "task_type": "GRAMMAR_EXERCISE",
+  "source_url": "",
+  "licence": "Original content",
+  "content": {
+    "area": "TENSE_ASPECT",
+    "exercise_type": "ERROR_CORRECTION",
+    "title": "Tense and aspect: find and fix the error",
+    "instructions": "Each sentence contains ONE error of tense or verb form. Rewrite the whole sentence correctly, changing as little as possible.",
+    "items": [
+      {
+        "id": "1",
+        "prompt": "The number of cinema visits has fallen sharply in 2008 before recovering in the following decade.",
+        "options": [],
+        "accepted_answers": ["The number of cinema visits fell sharply in 2008 before recovering in the following decade."],
+        "model_answer": "The number of cinema visits fell sharply in 2008 before recovering in the following decade.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "The present perfect cannot be used with a finished past time such as 'in 2008'. Use the past simple (fell) for events at a stated past time."
+      },
+      {
+        "id": "2",
+        "prompt": "Since the government introduced the sugar tax, consumption of fizzy drinks fell by almost a third.",
+        "options": [],
+        "accepted_answers": ["Since the government introduced the sugar tax, consumption of fizzy drinks has fallen by almost a third."],
+        "model_answer": "Since the government introduced the sugar tax, consumption of fizzy drinks has fallen by almost a third.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "In a 'since' sentence, the 'since' clause uses the past simple (introduced) for the starting event, but the main clause must use the present perfect (has fallen) because the period runs up to now."
+      },
+      {
+        "id": "3",
+        "prompt": "In 2000, 40% of employees commuted by car, while in 2010 the figure rises to 55%.",
+        "options": [],
+        "accepted_answers": ["In 2000, 40% of employees commuted by car, while in 2010 the figure rose to 55%."],
+        "model_answer": "In 2000, 40% of employees commuted by car, while in 2010 the figure rose to 55%.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "Tense consistency: both years are in the past, so both verbs must be in the past simple. Switching to the present simple (rises) for past data is one of the most frequent Task 1 errors."
+      },
+      {
+        "id": "4",
+        "prompt": "Many young people are relying on social media for news since the pandemic, and I think this trend will continue.",
+        "options": [],
+        "accepted_answers": [
+          "Many young people have relied on social media for news since the pandemic, and I think this trend will continue.",
+          "Many young people have been relying on social media for news since the pandemic, and I think this trend will continue."
+        ],
+        "model_answer": "Many young people have been relying on social media for news since the pandemic, and I think this trend will continue.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "'Since + a past event' requires the present perfect or present perfect continuous, not the present continuous. Use 'have been relying' to emphasise that the habit is ongoing."
+      },
+      {
+        "id": "5",
+        "prompt": "By 2050, the proportion of people aged over 65 will have rise to a quarter of the population.",
+        "options": [],
+        "accepted_answers": ["By 2050, the proportion of people aged over 65 will have risen to a quarter of the population."],
+        "model_answer": "By 2050, the proportion of people aged over 65 will have risen to a quarter of the population.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "The future perfect is 'will have + past participle'. The past participle of 'rise' is 'risen' (rise – rose – risen), not the base form."
+      },
+      {
+        "id": "6",
+        "prompt": "Last year, the government has invested £2 billion in renewable energy projects.",
+        "options": [],
+        "accepted_answers": ["Last year, the government invested £2 billion in renewable energy projects."],
+        "model_answer": "Last year, the government invested £2 billion in renewable energy projects.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "'Last year' is a finished time period, so the past simple is required. The present perfect is used only when no finished time is mentioned or the period continues to now."
+      },
+      {
+        "id": "7",
+        "prompt": "The line graph illustrates how the price of gold has changed between 1990 and 2010.",
+        "options": [],
+        "accepted_answers": ["The line graph illustrates how the price of gold changed between 1990 and 2010."],
+        "model_answer": "The line graph illustrates how the price of gold changed between 1990 and 2010.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "The graph 'illustrates' (present simple, because the graph exists now), but the data belong to a finished period (between 1990 and 2010), so the change itself takes the past simple. This error often appears in the very first sentence of a Task 1 answer."
+      },
+      {
+        "id": "8",
+        "prompt": "According to the projections, annual sales of electric cars reach 20 million by 2030.",
+        "options": [],
+        "accepted_answers": [
+          "According to the projections, annual sales of electric cars will reach 20 million by 2030.",
+          "According to the projections, annual sales of electric cars are expected to reach 20 million by 2030.",
+          "According to the projections, annual sales of electric cars are projected to reach 20 million by 2030."
+        ],
+        "model_answer": "According to the projections, annual sales of electric cars are expected to reach 20 million by 2030.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "Forecasts need a future form: 'will + base verb' or 'be expected / projected / predicted to + base verb'. The present simple is used for timetables, not for predictions about data."
+      },
+      {
+        "id": "9",
+        "prompt": "In the past, people were used to write letters, whereas now they send instant messages.",
+        "options": [],
+        "accepted_answers": ["In the past, people used to write letters, whereas now they send instant messages."],
+        "model_answer": "In the past, people used to write letters, whereas now they send instant messages.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "'Used to + base verb' describes a past habit that no longer happens. 'Be used to + noun/-ing' means 'be accustomed to' and has a different meaning and form. Here there is no 'be'."
+      },
+      {
+        "id": "10",
+        "prompt": "The figure for Japan had remained stable at around 5% throughout the period shown.",
+        "options": [],
+        "accepted_answers": ["The figure for Japan remained stable at around 5% throughout the period shown."],
+        "model_answer": "The figure for Japan remained stable at around 5% throughout the period shown.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "The past perfect is used only for an action completed before another past point (e.g. 'By 2000, it had …'). With no earlier reference point, a simple description of past data uses the past simple. Overusing the past perfect is a typical band-6 habit."
+      }
+    ]
+  }
+}

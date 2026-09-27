@@ -1,0 +1,91 @@
+{
+  "task_type": "GRAMMAR_LESSON",
+  "source_url": "",
+  "licence": "Original content",
+  "content": {
+    "area": "WORD_FORMATION",
+    "title": "Word formation: using the right form of the word",
+    "summary": "Word-form errors ('the economy growth', 'it is very benefit', 'I was very exciting') are a hallmark of band 6 writing and speaking: the vocabulary is there, but the grammar of the word is wrong. Band 7+ candidates control whole word families, which also lets them paraphrase the question and vary their sentence structures — a direct boost to range as well as accuracy.",
+    "explanation": "### Why word form matters\nThe same idea can be expressed with a noun, a verb, an adjective or an adverb. Using the wrong member of the family makes a sentence ungrammatical even when the meaning is clear; using the right one lets you **paraphrase** and **vary structure**:\n- *The **economy** grew rapidly.* → *There was rapid **economic** growth.* → *The country prospered **economically**.*\n\n### Which form fits the slot?\n- **Noun:** after *a/the/this*, an adjective or a preposition — *the **importance** of education*\n- **Adjective:** before a noun, or after *be / become / seem* — *it is **beneficial***\n- **Adverb:** to modify a verb, an adjective or a whole clause — ***significantly** higher*, ***Increasingly**, people…*\n- **Verb:** after a subject or a modal — *technology can **benefit** society*\n\n### Families to know for IELTS\n- *economy – economic – economical – economically – economist*\n- *benefit (n/v) – beneficial – beneficiary*\n- *compete – competition – competitive – competitor*\n- *environment – environmental – environmentally*\n- *society – social – socially – sociable*\n- *succeed – success – successful – successfully*\n- *rely – reliance – reliable – reliability*\n\nWatch the meaning: ***economic*** = related to the economy, ***economical*** = saving money; ***historic*** = important in history, ***historical*** = about the past.\n\n### -ing vs -ed adjectives\n- **-ing** describes the thing that causes the feeling: *The lecture was **boring**.*\n- **-ed** describes the person who feels it: *The students were **bored**.*\n\nPairs to control: *interesting / interested, confusing / confused, tiring / tired, satisfying / satisfied, alarming / alarmed, overwhelming / overwhelmed*. In Speaking Part 2, ✗ *I was very exciting* (instead of *excited*) is one of the most common slips.\n\n### Suffixes that signal the word class\n- **Nouns:** *-tion, -ment, -ness, -ity, -ance / -ence, -ism*\n- **Adjectives:** *-al, -ive, -ous, -ful, -less, -able / -ible*\n- **Verbs:** *-ise, -en, -ify* (British spelling: *organise, prioritise*)\n- **Adverbs:** usually *-ly*\n\n### Negative prefixes\n- ***un-***: *unemployed, unaffordable, unsustainable*\n- ***in- / im- / il- / ir-***: *inefficient, impossible, illegal, irresponsible* (*im-* before *p / m*, *il-* before *l*, *ir-* before *r*)\n- ***dis-***: *disadvantage, disagree*\n- ***mis-*** (= wrongly): *misinformation, misuse*\n- ***over- / under-***: *overcrowded, underfunded*\n\n### Proofreading routine\nFor each key word, ask which slot it is in — noun, verb, adjective or adverb — and check that its ending matches.",
+    "key_rules": [
+      {
+        "rule": "Use an adjective before a noun and after linking verbs such as be, become and seem.",
+        "example": "Renewable energy has become increasingly affordable, which is beneficial for developing economies."
+      },
+      {
+        "rule": "Use an adverb to modify a verb, an adjective or a whole clause.",
+        "example": "Prices rose dramatically in 2022, while wages grew only marginally."
+      },
+      {
+        "rule": "Use -ing adjectives for the cause of a feeling and -ed adjectives for the person who feels it.",
+        "example": "Many residents were alarmed by the surprising rise in burglaries."
+      },
+      {
+        "rule": "Distinguish related forms with different meanings, such as economic/economical and historic/historical.",
+        "example": "The economic crisis forced many families to find more economical ways to heat their homes."
+      },
+      {
+        "rule": "Change the word class to paraphrase the question and vary your structures.",
+        "example": "Many people rely on cars → Society's reliance on cars continues to grow."
+      },
+      {
+        "rule": "Choose the correct negative prefix: im- before p/m, il- before l, ir- before r.",
+        "example": "It is irresponsible, and in many countries illegal, to leave young children unsupervised."
+      }
+    ],
+    "common_mistakes": [
+      {
+        "wrong": "The economy growth of China has been remarkable.",
+        "right": "The economic growth of China has been remarkable. (or: China's economic growth)",
+        "why": "Before the noun 'growth', you need the adjective 'economic', not the noun 'economy'."
+      },
+      {
+        "wrong": "Exercise is very benefit for older people.",
+        "right": "Exercise is very beneficial for older people.",
+        "why": "After 'be', use the adjective 'beneficial', not the noun or verb 'benefit'."
+      },
+      {
+        "wrong": "I was very exciting when I got my results.",
+        "right": "I was very excited when I got my results.",
+        "why": "An -ed adjective describes how a person feels; an -ing adjective describes what causes the feeling."
+      },
+      {
+        "wrong": "The number of cars increased significant in 2010.",
+        "right": "The number of cars increased significantly in 2010.",
+        "why": "An adverb, not an adjective, modifies the verb 'increased'."
+      },
+      {
+        "wrong": "It is unpossible to stop students using their phones in class.",
+        "right": "It is impossible to stop students using their phones in class.",
+        "why": "'Possible' takes the prefix 'im-', which is used before 'p'."
+      },
+      {
+        "wrong": "Parents should encourage the creative of their children.",
+        "right": "Parents should encourage their children's creativity.",
+        "why": "After 'the' or a possessive you need a noun ('creativity'), not the adjective 'creative'."
+      }
+    ],
+    "ielts_examples": [
+      {
+        "context": "WRITING_TASK1",
+        "sentence": "Spending on healthcare rose steadily, whereas investment in education fluctuated considerably throughout the period."
+      },
+      {
+        "context": "WRITING_TASK2",
+        "sentence": "Although nuclear power is economically viable, its environmental risks make it politically controversial in many countries."
+      },
+      {
+        "context": "WRITING_TASK2",
+        "sentence": "An over-reliance on standardised testing may discourage creativity and leave students ill-prepared for an unpredictable job market."
+      },
+      {
+        "context": "SPEAKING_PART2",
+        "sentence": "I was genuinely amazed by how welcoming the local people were, and the whole trip turned out to be far more relaxing than I'd expected."
+      },
+      {
+        "context": "SPEAKING_PART3",
+        "sentence": "I think it's unrealistic to expect teenagers to be responsible with money unless they're taught financial skills from an early age."
+      }
+    ]
+  }
+}

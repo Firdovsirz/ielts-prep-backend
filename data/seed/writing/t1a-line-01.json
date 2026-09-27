@@ -1,0 +1,31 @@
+{
+  "task_type": "WRITING_TASK1_ACADEMIC",
+  "source_url": "",
+  "licence": "Original content",
+  "content": {
+    "chart_type": "LINE",
+    "topic": "Public transport use in a city",
+    "prompt": "The graph below shows the average number of passengers per day using four types of public transport in a European city between 1988 and 2018.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+    "figure_title": "Average daily passengers by type of public transport, 1988–2018",
+    "units": "thousands of passengers per day",
+    "x_label": "Year",
+    "y_label": "Passengers per day (thousands)",
+    "categories": ["1988", "1993", "1998", "2003", "2008", "2013", "2018"],
+    "series": [
+      { "name": "Bus", "values": [120, 128, 135, 130, 118, 105, 92] },
+      { "name": "Underground", "values": [80, 88, 102, 125, 150, 172, 185] },
+      { "name": "Tram", "values": [45, 38, 30, 34, 52, 70, 88] },
+      { "name": "Suburban rail", "values": [60, 62, 63, 65, 66, 67, 69] }
+    ],
+    "process_steps": [],
+    "process_is_cycle": false,
+    "maps": [],
+    "key_features": [
+      "Overview: the underground grew the most and became by far the most used type of transport, while bus use rose and then declined; the tram fell and then recovered strongly, and suburban rail changed very little.",
+      "The underground more than doubled, from 80,000 to 185,000 passengers a day, and overtook the bus between 2003 and 2008.",
+      "Bus use peaked at 135,000 in 1998 and then fell steadily to 92,000 by 2018, below its 1988 level.",
+      "The tram dropped to a low of 30,000 in 1998 and then almost tripled to 88,000, overtaking suburban rail by 2013 and nearly matching the bus by 2018.",
+      "Suburban rail was the most stable series, rising only slightly from 60,000 to 69,000 over the 30 years."
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "task_type": "SPEAKING_PART2",
+  "source_url": "",
+  "licence": "Original content",
+  "content": {
+    "topic": "A relaxing outdoor place in your area",
+    "theme": "Cities and public spaces",
+    "cue_card": {
+      "prompt": "Describe an outdoor place in your area where people go to relax.",
+      "bullets": [
+        "where this place is",
+        "what it looks like",
+        "what people usually do there"
+      ],
+      "explain": "and explain why people find it a relaxing place to spend time."
+    },
+    "rounding_off_questions": [
+      "How often do you go there yourself?",
+      "Would you recommend this place to a visitor?"
+    ]
+  }
+}

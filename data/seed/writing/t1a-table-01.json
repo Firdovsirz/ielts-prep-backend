@@ -1,0 +1,32 @@
+{
+  "task_type": "WRITING_TASK1_ACADEMIC",
+  "source_url": "",
+  "licence": "Original content",
+  "content": {
+    "chart_type": "TABLE",
+    "topic": "Household ownership of technology",
+    "prompt": "The table below shows the percentage of households in one country that owned five types of technology in 1994, 2004, 2014 and 2024.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+    "figure_title": "Households owning selected types of technology (%), 1994–2024",
+    "units": "% of households",
+    "x_label": "",
+    "y_label": "",
+    "categories": ["1994", "2004", "2014", "2024"],
+    "series": [
+      { "name": "Landline telephone", "values": [94, 88, 69, 38] },
+      { "name": "Mobile phone", "values": [15, 71, 93, 97] },
+      { "name": "Desktop computer", "values": [22, 58, 49, 27] },
+      { "name": "Laptop computer", "values": [2, 18, 62, 78] },
+      { "name": "Games console", "values": [18, 35, 41, 44] }
+    ],
+    "process_steps": [],
+    "process_is_cycle": false,
+    "maps": [],
+    "key_features": [
+      "Overview: over the 30 years households shifted from fixed to portable technology; mobile phones and laptops became the most widely owned items, while landlines and, after 2004, desktop computers declined.",
+      "Mobile phone ownership rose from 15% to almost every household (97%), overtaking the landline between 2004 and 2014.",
+      "Landline ownership fell from nearly all households (94%) to just 38% in 2024, with the steepest drop after 2014.",
+      "Desktop computers peaked at 58% in 2004 and then fell back to 27%, while laptops climbed from only 2% to 78%, overtaking desktops by 2014.",
+      "Games consoles showed slow but steady growth, from 18% to 44%, with the smallest changes after 2004."
+    ]
+  }
+}

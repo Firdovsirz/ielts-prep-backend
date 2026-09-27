@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "speaking-part1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "topics"
+  ],
+  "properties": {
+    "topics": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "topic",
+          "questions"
+        ],
+        "properties": {
+          "topic": {
+            "type": "string"
+          },
+          "questions": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "4–5 short personal questions in examiner phrasing."
+          }
+        }
+      },
+      "description": "Exactly three topics; the first is usually work/studies or home/hometown."
+    }
+  }
+}

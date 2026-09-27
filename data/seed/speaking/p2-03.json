@@ -1,0 +1,21 @@
+{
+  "task_type": "SPEAKING_PART2",
+  "source_url": "",
+  "licence": "Original content",
+  "content": {
+    "topic": "Working with others to achieve something",
+    "theme": "Teamwork and cooperation",
+    "cue_card": {
+      "prompt": "Describe a time when you worked with other people to achieve something.",
+      "bullets": [
+        "what you were trying to achieve",
+        "who you worked with",
+        "what each person did"
+      ],
+      "explain": "and explain how you felt about working as part of this group."
+    },
+    "rounding_off_questions": [
+      "Do you usually prefer working alone or in a team?"
+    ]
+  }
+}

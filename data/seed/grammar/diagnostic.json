@@ -1,0 +1,2420 @@
+[
+  {
+    "task_type": "GRAMMAR_DIAGNOSTIC",
+    "source_url": "",
+    "licence": "Original content",
+    "content": {
+      "id": "TENSE_ASPECT-1a",
+      "area": "TENSE_ASPECT",
+      "level": 1,
+      "prompt": "Between 2005 and 2015, the number of international students in Australia ___ steadily.",
+      "options": [
+        {
+          "key": "A",
+          "text": "rose"
+        },
+        {
+          "key": "B",
+          "text": "has risen"
+        },
+        {
+          "key": "C",
+          "text": "is rising"
+        },
+        {
+          "key": "D",
+          "text": "rises"
+        }
+      ],
+      "answer": "A",
+      "explanation": "A finished period in the past (between 2005 and 2015) takes the past simple, not the present perfect. This is the standard tense for describing past data in Task 1."
+    }
+  },
+  {
+    "task_type": "GRAMMAR_DIAGNOSTIC",
+    "source_url": "",
+    "licence": "Original content",
+    "content": {
+      "id": "TENSE_ASPECT-1b",
+      "area": "TENSE_ASPECT",
+      "level": 1,
+      "prompt": "Since 2010, the proportion of households with a broadband connection ___.",
+      "options": [
+        {
+          "key": "A",
+          "text": "more than doubled"
+        },
+        {
+          "key": "B",
+          "text": "has more than doubled"
+        },
+        {
+          "key": "C",
+          "text": "had more than doubled"
+        },
+        {
+          "key": "D",
+          "text": "is more than doubled"
+        }
+      ],
+      "answer": "B",
+      "explanation": "\"Since + a point in time\" links the past to the present, so it needs the present perfect."
+    }
+  },
+  {
+    "task_type": "GRAMMAR_DIAGNOSTIC",
+    "source_url": "",
+    "licence": "Original content",
+    "content": {
+      "id": "TENSE_ASPECT-2a",
+      "area": "TENSE_ASPECT",
+      "level": 2,
+      "prompt": "By the time the new metro line opens in 2030, the city ___ over £4 billion on the project.",
+      "options": [
+        {
+          "key": "A",
+          "text": "will spend"
+        },
+        {
+          "key": "B",
+          "text": "has spent"
+        },
+        {
+          "key": "C",
+          "text": "will have spent"
+        },
+        {
+          "key": "D",
+          "text": "spends"
+        }
+      ],
+      "answer": "C",
+      "explanation": "\"By the time / by + a future point\" describes an action completed before that point, so it takes the future perfect (will have + past participle)."
+    }
+  },
+  {
+    "task_type": "GRAMMAR_DIAGNOSTIC",
+    "source_url": "",
+    "licence": "Original content",
+    "content": {
+      "id": "TENSE_ASPECT-2b",
+      "area": "TENSE_ASPECT",
+      "level": 2,
+      "prompt": "Which sentence is correct?",
+      "options": [
+        {
+          "key": "A",
+          "text": "In 1990, coal generated 60% of the country's electricity, but by 2010 this figure had fallen to 30%."
+        },
+        {
+          "key": "B",
+          "text": "In 1990, coal has generated 60% of the country's electricity, but by 2010 this figure had fallen to 30%."
+        },
+        {
+          "key": "C",
+          "text": "In 1990, coal generated 60% of the country's electricity, but by 2010 this figure has fallen to 30%."
+        },
+        {
+          "key": "D",
+          "text": "In 1990, coal generated 60% of the country's electricity, but by 2010 this figure falls to 30%."
+        }
+      ],
+      "answer": "A",
+      "explanation": "Past data needs past tenses throughout: past simple for a specific past year and past perfect for a change completed \"by\" a later past year. The present perfect and present simple cannot be used with finished past times."
+    }
+  },
+  {
+    "task_type": "GRAMMAR_DIAGNOSTIC",
+    "source_url": "",
+    "licence": "Original content",
+    "content": {
+      "id": "TENSE_ASPECT-3a",
+      "area": "TENSE_ASPECT",
+      "level": 3,
+      "prompt": "When the survey was carried out in 2019, the share of renewables in the energy mix ___ for five consecutive years.",
+      "options": [
+        {
+          "key": "A",
+          "text": "has been increasing"
+        },
+        {
+          "key": "B",
+          "text": "is increasing"
+        },
+        {
+          "key": "C",
+          "text": "had been increasing"
+        },
+        {
+          "key": "D",
+          "text": "has increased"
+        }
+      ],
+      "answer": "C",
+      "explanation": "An ongoing process that continued up to a point in the past (2019) takes the past perfect continuous. Present-anchored forms break tense consistency with the past time frame."
+    }
+  },
+  {
+    "task_type": "GRAMMAR_DIAGNOSTIC",
+    "source_url": "",
+    "licence": "Original content",
+    "content": {
+      "id": "TENSE_ASPECT-3b",
+      "area": "TENSE_ASPECT",
+      "level": 3,
+      "prompt": "This is the first time that the unemployment rate ___ below 4% since records began.",
+      "options": [
+        {
+          "key": "A",
+          "text": "fell"
+        },
+        {
+          "key": "B",
+          "text": "falls"
+        },
+        {
+          "key": "C",
+          "text": "had fallen"
+        },
+        {
+          "key": "D",
+          "text": "has fallen"
+        }
+      ],
+      "answer": "D",
+      "explanation": "\"This is the first time (that)…\" is followed by the present perfect, and \"since records began\" confirms the link to the present. With \"It was the first time\", the past perfect would be used instead."
+    }
+  },
+  {
+    "task_type": "GRAMMAR_DIAGNOSTIC",
+    "source_url": "",
+    "licence": "Original content",
+    "content": {
+      "id": "AGREEMENT_ARTICLES-1a",
+      "area": "AGREEMENT_ARTICLES",
+      "level": 1,
+      "prompt": "___ unemployment is one of the most serious problems facing young people today.",
+      "options": [
+        {
+          "key": "A",
+          "text": "The"
+        },
+        {
+          "key": "B",
+          "text": "An"
+        },
+        {
+          "key": "C",
+          "text": "(no article)"
+        },
+        {
+          "key": "D",
+          "text": "A"
+        }
+      ],
+      "answer": "C",
+      "explanation": "Uncountable abstract nouns used in a general sense take the zero article: \"Unemployment is…\", not \"The unemployment is…\"."
+    }
+  },
+  {
+    "task_type": "GRAMMAR_DIAGNOSTIC",
+    "source_url": "",
+    "licence": "Original content",
+    "content": {
+      "id": "AGREEMENT_ARTICLES-1b",
+      "area": "AGREEMENT_ARTICLES",
+      "level": 1,
+      "prompt": "One of the main reasons for the rise in obesity ___ the popularity of fast food.",
+      "options": [
+        {
+          "key": "A",
+          "text": "are"
+        },
+        {
+          "key": "B",
+          "text": "is"
+        },
+        {
+          "key": "C",
+          "text": "were"
+        },
+        {
+          "key": "D",
+          "text": "have been"
+        }
+      ],
+      "answer": "B",
+      "explanation": "In \"one of the + plural noun\", the head of the subject is \"one\", so the verb is singular. Do not let the nearest plural noun (\"reasons\") decide the verb."
+    }
+  },
+  {
+    "task_type": "GRAMMAR_DIAGNOSTIC",
+    "source_url": "",
+    "licence": "Original content",
+    "content": {
+      "id": "AGREEMENT_ARTICLES-2a",
+      "area": "AGREEMENT_ARTICLES",
+      "level": 2,
+      "prompt": "Which sentence is correct?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The police has been criticised for its slow response to the riots."
+        },
+        {
+          "key": "B",
+          "text": "The police was criticised for their slow response to the riots."
+        },
+        {
+          "key": "C",
+          "text": "The police have been criticised for their slow response to the riots."
+        },
+        {
+          "key": "D",
+          "text": "The police is being criticised for its slow response to the riots."
+        }
+      ],
+      "answer": "C",
+      "explanation": "\"The police\" is a plural collective noun, so it always takes a plural verb and plural pronouns. The same applies to \"people\" and \"cattle\"."
+    }
+  },
+  {
+    "task_type": "GRAMMAR_DIAGNOSTIC",
+    "source_url": "",
+    "licence": "Original content",
+    "content": {
+      "id": "AGREEMENT_ARTICLES-2b",
+      "area": "AGREEMENT_ARTICLES",
+      "level": 2,
+      "prompt": "Which sentence is correct?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The graph shows the percentage of households that owned a car in the UK between 1970 and 2010."
+        },
+        {
+          "key": "B",
+          "text": "The graph shows percentage of households that owned a car in UK between 1970 and 2010."
+        },
+        {
+          "key": "C",
+          "text": "The graph shows the percentage of the households that owned car in the UK between 1970 and 2010."
+        },
+        {
+          "key": "D",
+          "text": "The graph shows the percentage of households that owned the car in the UK between 1970 and 2010."
+        }
+      ],
+      "answer": "A",
+      "explanation": "\"The percentage of\" is specific, so it takes \"the\". A singular countable noun (\"car\") needs an article, and \"a\" is right here because any car is meant. Countries with \"Kingdom/States\" in their name take \"the\"."
+    }
+  },
+  {
+    "task_type": "GRAMMAR_DIAGNOSTIC",
+    "source_url": "",
+    "licence": "Original content",
+    "content": {
+      "id": "AGREEMENT_ARTICLES-3a",
+      "area": "AGREEMENT_ARTICLES",
+      "level": 3,
+      "prompt": "Many economists argue that ___ happiness of a nation cannot be measured by GDP alone.",
+      "options": [
+        {
+          "key": "A",
+          "text": "(no article)"
+        },
+        {
+          "key": "B",
+          "text": "a"
+        },
+        {
+          "key": "C",
+          "text": "an"
+        },
+        {
+          "key": "D",
+          "text": "the"
+        }
+      ],
+      "answer": "D",
+      "explanation": "An abstract noun normally takes the zero article in general statements, but once an of-phrase makes it specific (\"happiness of a nation\") it needs \"the\"."
+    }
+  },
+  {
+    "task_type": "GRAMMAR_DIAGNOSTIC",
+    "source_url": "",
+    "licence": "Original content",
+    "content": {
+      "id": "AGREEMENT_ARTICLES-3b",
+      "area": "AGREEMENT_ARTICLES",
+      "level": 3,
+      "prompt": "Which sentence is correct?",
+      "options": [
+        {
+          "key": "A",
+          "text": "A number of studies has shown that the number of young smokers are falling."
+        },
+        {
+          "key": "B",
+          "text": "A number of studies have shown that the number of young smokers is falling."
+        },
+        {
+          "key": "C",
+          "text": "The number of studies have shown that a number of young smokers is falling."
+        },
+        {
+          "key": "D",
+          "text": "A number of studies have shown that the number of young smokers are falling."
+        }
+      ],
+      "answer": "B",
+      "explanation": "\"A number of\" means \"several\" and takes a plural verb. \"The number of\" refers to one figure and takes a singular verb."
+    }
+  },
+  {
+    "task_type": "GRAMMAR_DIAGNOSTIC",
+    "source_url": "",
+    "licence": "Original content",
+    "content": {
+      "id": "COMPLEX_SENTENCES-1a",
+      "area": "COMPLEX_SENTENCES",
+      "level": 1,
+      "prompt": "People ___ live in rural areas often have limited access to healthcare.",
+      "options": [
+        {
+          "key": "A",
+          "text": "which"
+        },
+        {
+          "key": "B",
+          "text": "whose"
+        },
+        {
+          "key": "C",
+          "text": "what"
+        },
+        {
+          "key": "D",
+          "text": "who"
+        }
+      ],
+      "answer": "D",
+      "explanation": "A defining relative clause about people uses \"who\" (or \"that\"). \"Which\" is for things, and \"what\" cannot introduce a relative clause."
+    }
+  },
+  {
+    "task_type": "GRAMMAR_DIAGNOSTIC",
+    "source_url": "",
+    "licence": "Original content",
+    "content": {
+      "id": "COMPLEX_SENTENCES-1b",
+      "area": "COMPLEX_SENTENCES",
+      "level": 1,
+      "prompt": "Many people now work from home ___ they can spend more time with their families.",
+      "options": [
+        {
+          "key": "A",
+          "text": "in order to"
+        },
+        {
+          "key": "B",
+          "text": "because of"
+        },
+        {
+          "key": "C",
+          "text": "so that"
+        },
+        {
+          "key": "D",
+          "text": "so as"
+        }
+      ],
+      "answer": "C",
+      "explanation": "A purpose clause with its own subject and verb is introduced by \"so that\". \"In order to\" and \"so as to\" take an infinitive, and \"because of\" takes a noun phrase."
+    }
+  },
+  {
+    "task_type": "GRAMMAR_DIAGNOSTIC",
+    "source_url": "",
+    "licence": "Original content",
+    "content": {
+      "id": "COMPLEX_SENTENCES-2a",
+      "area": "COMPLEX_SENTENCES",
+      "level": 2,
+      "prompt": "Which sentence is correct?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It is unclear why has the government not addressed the housing shortage."
+        },
+        {
+          "key": "B",
+          "text": "It is unclear why the government has not addressed the housing shortage."
+        },
+        {
+          "key": "C",
+          "text": "It is unclear why the government has not addressed the housing shortage?"
+        },
+        {
+          "key": "D",
+          "text": "It is unclear that why the government has not addressed the housing shortage."
+        }
+      ],
+      "answer": "B",
+      "explanation": "An embedded question (noun clause) uses statement word order (subject + verb) with no question mark, and it is not combined with \"that\"."
+    }
+  },
+  {
+    "task_type": "GRAMMAR_DIAGNOSTIC",
+    "source_url": "",
+    "licence": "Original content",
+    "content": {
+      "id": "COMPLEX_SENTENCES-2b",
+      "area": "COMPLEX_SENTENCES",
+      "level": 2,
+      "prompt": "My home town, ___ has a population of about 50,000, is famous for its textile industry.",
+      "options": [
+        {
+          "key": "A",
+          "text": "which"
+        },
+        {
+          "key": "B",
+          "text": "that"
+        },
+        {
+          "key": "C",
+          "text": "where"
+        },
+        {
+          "key": "D",
+          "text": "who"
+        }
+      ],
+      "answer": "A",
+      "explanation": "A non-defining relative clause (between commas) about a thing uses \"which\". \"That\" is never used in non-defining clauses, and \"where\" would need its own subject (\"where most people work\")."
+    }
+  },
+  {
+    "task_type": "GRAMMAR_DIAGNOSTIC",
+    "source_url": "",
+    "licence": "Original content",
+    "content": {
+      "id": "COMPLEX_SENTENCES-3a",
+      "area": "COMPLEX_SENTENCES",
+      "level": 3,
+      "prompt": "The extent ___ climate change will affect food production remains uncertain.",
+      "options": [
+        {
+          "key": "A",
+          "text": "which"
+        },
+        {
+          "key": "B",
+          "text": "in which"
+        },
+        {
+          "key": "C",
+          "text": "to which"
+        },
+        {
+          "key": "D",
+          "text": "of which"
+        }
+      ],
+      "answer": "C",
+      "explanation": "The preposition from the underlying phrase moves to the front of the relative clause: \"affect food production to an extent\" becomes \"the extent to which…\"."
+    }
+  },
+  {
+    "task_type": "GRAMMAR_DIAGNOSTIC",
+    "source_url": "",
+    "licence": "Original content",
+    "content": {
+      "id": "COMPLEX_SENTENCES-3b",
+      "area": "COMPLEX_SENTENCES",
+      "level": 3,
+      "prompt": "The survey questioned 2,000 adults, most of ___ said they rarely read printed newspapers.",
+      "options": [
+        {
+          "key": "A",
+          "text": "whom"
+        },
+        {
+          "key": "B",
+          "text": "them"
+        },
+        {
+          "key": "C",
+          "text": "who"
+        },
+        {
+          "key": "D",
+          "text": "which"
+        }
+      ],
+      "answer": "A",
+      "explanation": "After a quantifier + \"of\" in a non-defining relative clause, use \"whom\" for people (\"most of whom\"). \"Most of them\" would create a comma splice, and \"who\" cannot follow a preposition."
+    }
+  },
+  {
+    "task_type": "GRAMMAR_DIAGNOSTIC",
+    "source_url": "",
+    "licence": "Original content",
+    "content": {
+      "id": "CONDITIONALS-1a",
+      "area": "CONDITIONALS",
+      "level": 1,
+      "prompt": "If governments ___ more in public transport, traffic congestion will decrease.",
+      "options": [
+        {
+          "key": "A",
+          "text": "invest"
+        },
+        {
+          "key": "B",
+          "text": "will invest"
+        },
+        {
+          "key": "C",
+          "text": "invested"
+        },
+        {
+          "key": "D",
+          "text": "would invest"
+        }
+      ],
+      "answer": "A",
+      "explanation": "In a first conditional, the if-clause takes the present simple and the main clause takes \"will\". \"Will\" does not go in the if-clause."
+    }
+  },
+  {
+    "task_type": "GRAMMAR_DIAGNOSTIC",
+    "source_url": "",
+    "licence": "Original content",
+    "content": {
+      "id": "CONDITIONALS-1b",
+      "area": "CONDITIONALS",
+      "level": 1,
+      "prompt": "In a free market, if demand for a product ___, its price usually rises.",
+      "options": [
+        {
+          "key": "A",
+          "text": "will increase"
+        },
+        {
+          "key": "B",
+          "text": "would increase"
+        },
+        {
+          "key": "C",
+          "text": "increases"
+        },
+        {
+          "key": "D",
+          "text": "increased"
+        }
+      ],
+      "answer": "C",
+      "explanation": "A zero conditional states a general truth, so both clauses use the present simple."
+    }
+  },
+  {
+    "task_type": "GRAMMAR_DIAGNOSTIC",
+    "source_url": "",
+    "licence": "Original content",
+    "content": {
+      "id": "CONDITIONALS-2a",
+      "area": "CONDITIONALS",
+      "level": 2,
+      "prompt": "If more people ___ from home, city centres would be far less congested.",
+      "options": [
+        {
+          "key": "A",
+          "text": "would work"
+        },
+        {
+          "key": "B",
+          "text": "will work"
+        },
+        {
+          "key": "C",
+          "text": "work"
+        },
+        {
+          "key": "D",
+          "text": "worked"
+        }
+      ],
+      "answer": "D",
+      "explanation": "A second conditional (an imaginary present or future) takes the past simple in the if-clause and \"would\" in the main clause, never \"would\" in both."
+    }
+  },
+  {
+    "task_type": "GRAMMAR_DIAGNOSTIC",
+    "source_url": "",
+    "licence": "Original content",
+    "content": {
+      "id": "CONDITIONALS-2b",
+      "area": "CONDITIONALS",
+      "level": 2,
+      "prompt": "If the city had built more affordable housing in 2010, house prices ___ so sharply in the years that followed.",
+      "options": [
+        {
+          "key": "A",
+          "text": "would not rise"
+        },
+        {
+          "key": "B",
+          "text": "had not risen"
+        },
+        {
+          "key": "C",
+          "text": "will not have risen"
+        },
+        {
+          "key": "D",
+          "text": "would not have risen"
+        }
+      ],
+      "answer": "D",
+      "explanation": "A third conditional (an imaginary past) takes \"had + past participle\" in the if-clause and \"would have + past participle\" in the main clause."
+    }
+  },
+  {
+    "task_type": "GRAMMAR_DIAGNOSTIC",
+    "source_url": "",
+    "licence": "Original content",
+    "content": {
+      "id": "CONDITIONALS-3a",
+      "area": "CONDITIONALS",
+      "level": 3,
+      "prompt": "If the government had invested in renewable energy in the 1990s, the country ___ so dependent on imported gas today.",
+      "options": [
+        {
+          "key": "A",
+          "text": "would not have been"
+        },
+        {
+          "key": "B",
+          "text": "would not be"
+        },
+        {
+          "key": "C",
+          "text": "will not be"
+        },
+        {
+          "key": "D",
+          "text": "had not been"
+        }
+      ],
+      "answer": "B",
+      "explanation": "A mixed conditional joins a past condition (\"had invested\") to a present result (\"today\"), so the main clause takes \"would + base verb\"."
+    }
+  },
+  {
+    "task_type": "GRAMMAR_DIAGNOSTIC",
+    "source_url": "",
+    "licence": "Original content",
+    "content": {
+      "id": "CONDITIONALS-3b",
+      "area": "CONDITIONALS",
+      "level": 3,
+      "prompt": "Which sentence is correct?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It's high time the government invested in flood defences."
+        },
+        {
+          "key": "B",
+          "text": "I wish the government would have acted sooner to protect the rainforest."
+        },
+        {
+          "key": "C",
+          "text": "Supposing the plan would fail, what would the council do then?"
+        },
+        {
+          "key": "D",
+          "text": "If only more people recycle, landfill sites would not be so full."
+        }
+      ],
+      "answer": "A",
+      "explanation": "\"It's (high) time\" is followed by the past simple with present meaning. \"Wish\" about the past takes the past perfect (\"had acted\"), \"supposing\" works like \"if\" and takes no \"would\", and \"if only\" needs a past form (\"recycled\")."
+    }
+  },
+  {
+    "task_type": "GRAMMAR_DIAGNOSTIC",
+    "source_url": "",
+    "licence": "Original content",
+    "content": {
+      "id": "PASSIVE_VOICE-1a",
+      "area": "PASSIVE_VOICE",
+      "level": 1,
+      "prompt": "In the first stage of the process, the raw materials ___ to the factory by lorry.",
+      "options": [
+        {
+          "key": "A",
+          "text": "transport"
+        },
+        {
+          "key": "B",
+          "text": "are transported"
+        },
+        {
+          "key": "C",
+          "text": "are transporting"
+        },
+        {
+          "key": "D",
+          "text": "is transported"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Process descriptions use the present simple passive (am/is/are + past participle) because the action matters more than who does it. The verb agrees with the plural subject \"materials\"."
+    }
+  },
+  {
+    "task_type": "GRAMMAR_DIAGNOSTIC",
+    "source_url": "",
+    "licence": "Original content",
+    "content": {
+      "id": "PASSIVE_VOICE-1b",
+      "area": "PASSIVE_VOICE",
+      "level": 1,
+      "prompt": "The bridge ___ in 1932 and is still used by thousands of commuters every day.",
+      "options": [
+        {
+          "key": "A",
+          "text": "built"
+        },
+        {
+          "key": "B",
+          "text": "has been built"
+        },
+        {
+          "key": "C",
+          "text": "was built"
+        },
+        {
+          "key": "D",
+          "text": "was building"
+        }
+      ],
+      "answer": "C",
+      "explanation": "The bridge received the action, so the passive is needed, and the finished past time (1932) requires the past simple passive: was/were + past participle."
+    }
+  },
+  {
+    "task_type": "GRAMMAR_DIAGNOSTIC",
+    "source_url": "",
+    "licence": "Original content",
+    "content": {
+      "id": "PASSIVE_VOICE-2a",
+      "area": "PASSIVE_VOICE",
+      "level": 2,
+      "prompt": "Several measures ___ in recent years to reduce air pollution in the capital.",
+      "options": [
+        {
+          "key": "A",
+          "text": "have been introduced"
+        },
+        {
+          "key": "B",
+          "text": "have introduced"
+        },
+        {
+          "key": "C",
+          "text": "has been introduced"
+        },
+        {
+          "key": "D",
+          "text": "have been introducing"
+        }
+      ],
+      "answer": "A",
+      "explanation": "The present perfect passive is \"have/has been + past participle\". The measures do not introduce anything themselves, and the plural subject needs \"have\"."
+    }
+  },
+  {
+    "task_type": "GRAMMAR_DIAGNOSTIC",
+    "source_url": "",
+    "licence": "Original content",
+    "content": {
+      "id": "PASSIVE_VOICE-2b",
+      "area": "PASSIVE_VOICE",
+      "level": 2,
+      "prompt": "___ that the new policy will reduce unemployment by 2%.",
+      "options": [
+        {
+          "key": "A",
+          "text": "It expects"
+        },
+        {
+          "key": "B",
+          "text": "It is expected"
+        },
+        {
+          "key": "C",
+          "text": "It is expecting"
+        },
+        {
+          "key": "D",
+          "text": "They are expected"
+        }
+      ],
+      "answer": "B",
+      "explanation": "The impersonal passive \"It is expected/believed/thought that + clause\" presents a view without naming its source. With a personal subject, the pattern changes to \"The policy is expected to…\"."
+    }
+  },
+  {
+    "task_type": "GRAMMAR_DIAGNOSTIC",
+    "source_url": "",
+    "licence": "Original content",
+    "content": {
+      "id": "PASSIVE_VOICE-3a",
+      "area": "PASSIVE_VOICE",
+      "level": 3,
+      "prompt": "The fire, which destroyed much of the old town, ___ by a faulty electrical cable.",
+      "options": [
+        {
+          "key": "A",
+          "text": "is believed to be caused"
+        },
+        {
+          "key": "B",
+          "text": "is believed that it was caused"
+        },
+        {
+          "key": "C",
+          "text": "believes to have been caused"
+        },
+        {
+          "key": "D",
+          "text": "is believed to have been caused"
+        }
+      ],
+      "answer": "D",
+      "explanation": "A personal passive about a past event takes \"subject + is believed + perfect passive infinitive (to have been + past participle)\". \"Is believed that\" only works with the dummy subject \"It\"."
+    }
+  },
+  {
+    "task_type": "GRAMMAR_DIAGNOSTIC",
+    "source_url": "",
+    "licence": "Original content",
+    "content": {
+      "id": "PASSIVE_VOICE-3b",
+      "area": "PASSIVE_VOICE",
+      "level": 3,
+      "prompt": "Which sentence is correct?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The accident occurred because the road had not been gritted."
+        },
+        {
+          "key": "B",
+          "text": "The accident was occurred because the road had not been gritted."
+        },
+        {
+          "key": "C",
+          "text": "The accident occurred because the road had not gritted."
+        },
+        {
+          "key": "D",
+          "text": "The accident was occurred because the road was not gritting."
+        }
+      ],
+      "answer": "A",
+      "explanation": "Intransitive verbs (occur, happen, rise, fall, arrive) have no passive form, but a transitive verb whose subject receives the action (\"the road\" is gritted by someone) must be passive."
+    }
+  },
+  {
+    "task_type": "GRAMMAR_DIAGNOSTIC",
+    "source_url": "",
+    "licence": "Original content",
+    "content": {
+      "id": "MODALS_HEDGING-1a",
+      "area": "MODALS_HEDGING",
+      "level": 1,
+      "prompt": "Young people ___ spend more time online than older generations, although there are many exceptions.",
+      "options": [
+        {
+          "key": "A",
+          "text": "tend"
+        },
+        {
+          "key": "B",
+          "text": "are tend to"
+        },
+        {
+          "key": "C",
+          "text": "tends to"
+        },
+        {
+          "key": "D",
+          "text": "tend to"
+        }
+      ],
+      "answer": "D",
+      "explanation": "\"Tend to + base verb\" is a hedging verb for general tendencies. It is a normal verb, so it takes no \"be\" and agrees with its plural subject."
+    }
+  },
+  {
+    "task_type": "GRAMMAR_DIAGNOSTIC",
+    "source_url": "",
+    "licence": "Original content",
+    "content": {
+      "id": "MODALS_HEDGING-1b",
+      "area": "MODALS_HEDGING",
+      "level": 1,
+      "prompt": "Nobody knows for certain why bee populations have fallen, but pesticides ___ be partly to blame.",
+      "options": [
+        {
+          "key": "A",
+          "text": "may"
+        },
+        {
+          "key": "B",
+          "text": "must"
+        },
+        {
+          "key": "C",
+          "text": "will"
+        },
+        {
+          "key": "D",
+          "text": "should"
+        }
+      ],
+      "answer": "A",
+      "explanation": "\"May/might/could\" express possibility when the evidence is uncertain. \"Must\" and \"will\" signal certainty, which contradicts \"nobody knows for certain\"."
+    }
+  },
+  {
+    "task_type": "GRAMMAR_DIAGNOSTIC",
+    "source_url": "",
+    "licence": "Original content",
+    "content": {
+      "id": "MODALS_HEDGING-2a",
+      "area": "MODALS_HEDGING",
+      "level": 2,
+      "prompt": "International tourism ___ to increase further as air travel becomes cheaper.",
+      "options": [
+        {
+          "key": "A",
+          "text": "likely"
+        },
+        {
+          "key": "B",
+          "text": "is probably"
+        },
+        {
+          "key": "C",
+          "text": "is likely"
+        },
+        {
+          "key": "D",
+          "text": "has likely"
+        }
+      ],
+      "answer": "C",
+      "explanation": "\"Likely\" is an adjective, so the hedging pattern is \"be likely to + base verb\". \"Probably\" is an adverb and cannot take \"to\"."
+    }
+  },
+  {
+    "task_type": "GRAMMAR_DIAGNOSTIC",
+    "source_url": "",
+    "licence": "Original content",
+    "content": {
+      "id": "MODALS_HEDGING-2b",
+      "area": "MODALS_HEDGING",
+      "level": 2,
+      "prompt": "These findings ___ that there is a link between screen time and poor sleep.",
+      "options": [
+        {
+          "key": "A",
+          "text": "would appear suggesting"
+        },
+        {
+          "key": "B",
+          "text": "would appears to suggest"
+        },
+        {
+          "key": "C",
+          "text": "would appear to suggest"
+        },
+        {
+          "key": "D",
+          "text": "are appeared to suggest"
+        }
+      ],
+      "answer": "C",
+      "explanation": "Academic hedging stacks tentative forms: \"would\" + base verb, then \"appear to + base verb\". Modals are followed by the bare infinitive, and \"appear\" has no passive."
+    }
+  },
+  {
+    "task_type": "GRAMMAR_DIAGNOSTIC",
+    "source_url": "",
+    "licence": "Original content",
+    "content": {
+      "id": "MODALS_HEDGING-3a",
+      "area": "MODALS_HEDGING",
+      "level": 3,
+      "prompt": "The settlement appears to have been abandoned suddenly; its inhabitants ___ by a severe drought.",
+      "options": [
+        {
+          "key": "A",
+          "text": "may be driven out"
+        },
+        {
+          "key": "B",
+          "text": "may have been driven out"
+        },
+        {
+          "key": "C",
+          "text": "must drive out"
+        },
+        {
+          "key": "D",
+          "text": "may have driven out"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Speculation about the past uses \"modal + have + past participle\", and since the inhabitants received the action, the passive \"may have been + past participle\" is needed."
+    }
+  },
+  {
+    "task_type": "GRAMMAR_DIAGNOSTIC",
+    "source_url": "",
+    "licence": "Original content",
+    "content": {
+      "id": "MODALS_HEDGING-3b",
+      "area": "MODALS_HEDGING",
+      "level": 3,
+      "prompt": "It is essential that every child ___ access to clean water and basic healthcare.",
+      "options": [
+        {
+          "key": "A",
+          "text": "will have"
+        },
+        {
+          "key": "B",
+          "text": "having"
+        },
+        {
+          "key": "C",
+          "text": "had"
+        },
+        {
+          "key": "D",
+          "text": "have"
+        }
+      ],
+      "answer": "D",
+      "explanation": "After \"essential/vital/important that\" and verbs like recommend or insist, formal English uses the mandative subjunctive (base form for every person) or \"should\" + base verb."
+    }
+  },
+  {
+    "task_type": "GRAMMAR_DIAGNOSTIC",
+    "source_url": "",
+    "licence": "Original content",
+    "content": {
+      "id": "COMPARISON_TRENDS-1a",
+      "area": "COMPARISON_TRENDS",
+      "level": 1,
+      "prompt": "The number of cinema visits rose ___ between 2000 and 2010, before a gradual decline set in.",
+      "options": [
+        {
+          "key": "A",
+          "text": "sharp"
+        },
+        {
+          "key": "B",
+          "text": "sharper"
+        },
+        {
+          "key": "C",
+          "text": "sharply"
+        },
+        {
+          "key": "D",
+          "text": "sharpness"
+        }
+      ],
+      "answer": "C",
+      "explanation": "A verb of change (rose, fell, increased) is modified by an adverb (sharply, steadily), while a noun (a rise, a decline) is modified by an adjective (sharp, gradual)."
+    }
+  },
+  {
+    "task_type": "GRAMMAR_DIAGNOSTIC",
+    "source_url": "",
+    "licence": "Original content",
+    "content": {
+      "id": "COMPARISON_TRENDS-1b",
+      "area": "COMPARISON_TRENDS",
+      "level": 1,
+      "prompt": "In 2008, the unemployment rate ___ 12%, its highest level in twenty years.",
+      "options": [
+        {
+          "key": "A",
+          "text": "peaked"
+        },
+        {
+          "key": "B",
+          "text": "peaked on"
+        },
+        {
+          "key": "C",
+          "text": "peaked at"
+        },
+        {
+          "key": "D",
+          "text": "was peaked at"
+        }
+      ],
+      "answer": "C",
+      "explanation": "\"Peak\" is intransitive and takes \"at\" before the figure: \"peaked at 12%\". It has no passive form."
+    }
+  },
+  {
+    "task_type": "GRAMMAR_DIAGNOSTIC",
+    "source_url": "",
+    "licence": "Original content",
+    "content": {
+      "id": "COMPARISON_TRENDS-2a",
+      "area": "COMPARISON_TRENDS",
+      "level": 2,
+      "prompt": "In 2019, Spain received ___ international tourists as Portugal.",
+      "options": [
+        {
+          "key": "A",
+          "text": "twice as much"
+        },
+        {
+          "key": "B",
+          "text": "twice more"
+        },
+        {
+          "key": "C",
+          "text": "as twice many"
+        },
+        {
+          "key": "D",
+          "text": "twice as many"
+        }
+      ],
+      "answer": "D",
+      "explanation": "Multiples use \"twice / three times + as many/much + noun + as\". \"Many\" is used with plural countable nouns such as \"tourists\"."
+    }
+  },
+  {
+    "task_type": "GRAMMAR_DIAGNOSTIC",
+    "source_url": "",
+    "licence": "Original content",
+    "content": {
+      "id": "COMPARISON_TRENDS-2b",
+      "area": "COMPARISON_TRENDS",
+      "level": 2,
+      "prompt": "Which sentence is correct?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Coal accounted for the most proportion of electricity generation until 2010, after which its share plateaued at about 30%."
+        },
+        {
+          "key": "B",
+          "text": "Coal accounted for the largest proportion of electricity generation until 2010, after which its share plateaued at about 30%."
+        },
+        {
+          "key": "C",
+          "text": "Coal accounted for the largest proportion of electricity generation until 2010, after which its share was plateaued at about 30%."
+        },
+        {
+          "key": "D",
+          "text": "Coal accounted for the largest proportion of electricity generation until 2010, after which its share plateaued on about 30%."
+        }
+      ],
+      "answer": "B",
+      "explanation": "\"Proportion\" is described by size (\"the largest/smallest proportion\"), not \"the most\". \"Plateau\" is intransitive with no passive, and it takes \"at\" before a figure."
+    }
+  },
+  {
+    "task_type": "GRAMMAR_DIAGNOSTIC",
+    "source_url": "",
+    "licence": "Original content",
+    "content": {
+      "id": "COMPARISON_TRENDS-3a",
+      "area": "COMPARISON_TRENDS",
+      "level": 3,
+      "prompt": "The average salary in London is considerably higher than ___ in the rest of the country.",
+      "options": [
+        {
+          "key": "A",
+          "text": "those"
+        },
+        {
+          "key": "B",
+          "text": "that"
+        },
+        {
+          "key": "C",
+          "text": "it"
+        },
+        {
+          "key": "D",
+          "text": "the one's"
+        }
+      ],
+      "answer": "B",
+      "explanation": "To compare like with like, the second item is replaced with \"that of/in\" for a singular noun (\"that in the rest of the country\" = the average salary there), or \"those\" for a plural noun."
+    }
+  },
+  {
+    "task_type": "GRAMMAR_DIAGNOSTIC",
+    "source_url": "",
+    "licence": "Original content",
+    "content": {
+      "id": "COMPARISON_TRENDS-3b",
+      "area": "COMPARISON_TRENDS",
+      "level": 3,
+      "prompt": "Which sentence is correct?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The proportion of students studying abroad was three times as high in 2020 as in 2000."
+        },
+        {
+          "key": "B",
+          "text": "The proportion of students studying abroad was three times as many in 2020 as in 2000."
+        },
+        {
+          "key": "C",
+          "text": "The proportion of students studying abroad was three times as higher in 2020 than in 2000."
+        },
+        {
+          "key": "D",
+          "text": "The proportion of students studying abroad was three times as much high in 2020 as in 2000."
+        }
+      ],
+      "answer": "A",
+      "explanation": "Proportions, rates and percentages are \"high/low\", not \"many/much\". The multiple pattern is \"three times as + base adjective + as\"."
+    }
+  },
+  {
+    "task_type": "GRAMMAR_DIAGNOSTIC",
+    "source_url": "",
+    "licence": "Original content",
+    "content": {
+      "id": "COHESION_LINKING-1a",
+      "area": "COHESION_LINKING",
+      "level": 1,
+      "prompt": "Many people enjoy the excitement of living in a big city. ___, the high cost of living puts others off.",
+      "options": [
+        {
+          "key": "A",
+          "text": "However"
+        },
+        {
+          "key": "B",
+          "text": "Moreover"
+        },
+        {
+          "key": "C",
+          "text": "Therefore"
+        },
+        {
+          "key": "D",
+          "text": "For example"
+        }
+      ],
+      "answer": "A",
+      "explanation": "\"However\" signals contrast between two sentences. \"Moreover\" adds a similar point, \"therefore\" introduces a result, and \"for example\" introduces an illustration."
+    }
+  },
+  {
+    "task_type": "GRAMMAR_DIAGNOSTIC",
+    "source_url": "",
+    "licence": "Original content",
+    "content": {
+      "id": "COHESION_LINKING-1b",
+      "area": "COHESION_LINKING",
+      "level": 1,
+      "prompt": "___ the heavy rain, thousands of people attended the outdoor concert.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Although"
+        },
+        {
+          "key": "B",
+          "text": "Despite of"
+        },
+        {
+          "key": "C",
+          "text": "However"
+        },
+        {
+          "key": "D",
+          "text": "Despite"
+        }
+      ],
+      "answer": "D",
+      "explanation": "\"Despite\" (or \"in spite of\") is a preposition followed by a noun phrase and never takes \"of\". \"Although\" needs a full clause, and \"however\" links separate sentences."
+    }
+  },
+  {
+    "task_type": "GRAMMAR_DIAGNOSTIC",
+    "source_url": "",
+    "licence": "Original content",
+    "content": {
+      "id": "COHESION_LINKING-2a",
+      "area": "COHESION_LINKING",
+      "level": 2,
+      "prompt": "Which sentence is correct?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Prices rose sharply, however, demand remained strong."
+        },
+        {
+          "key": "B",
+          "text": "Prices rose sharply; however, demand remained strong."
+        },
+        {
+          "key": "C",
+          "text": "Prices rose sharply however demand remained strong."
+        },
+        {
+          "key": "D",
+          "text": "Prices rose sharply, however demand remained strong."
+        }
+      ],
+      "answer": "B",
+      "explanation": "\"However\" is an adverb, not a conjunction, so it cannot join two clauses with a comma. Use a semicolon or full stop before it and a comma after it."
+    }
+  },
+  {
+    "task_type": "GRAMMAR_DIAGNOSTIC",
+    "source_url": "",
+    "licence": "Original content",
+    "content": {
+      "id": "COHESION_LINKING-2b",
+      "area": "COHESION_LINKING",
+      "level": 2,
+      "prompt": "Many cities have introduced congestion charges. ___ has reduced traffic in central areas by up to 30%.",
+      "options": [
+        {
+          "key": "A",
+          "text": "It's"
+        },
+        {
+          "key": "B",
+          "text": "These"
+        },
+        {
+          "key": "C",
+          "text": "This measure"
+        },
+        {
+          "key": "D",
+          "text": "Which"
+        }
+      ],
+      "answer": "C",
+      "explanation": "Reference back to the previous idea with \"this + summary noun\" (this measure, this trend) and make it agree with the verb. \"Which\" cannot begin a new sentence as a subject."
+    }
+  },
+  {
+    "task_type": "GRAMMAR_DIAGNOSTIC",
+    "source_url": "",
+    "licence": "Original content",
+    "content": {
+      "id": "COHESION_LINKING-3a",
+      "area": "COHESION_LINKING",
+      "level": 3,
+      "prompt": "Governments can either tax sugary drinks or subsidise healthy food; ___ would probably have a more immediate effect on consumption.",
+      "options": [
+        {
+          "key": "A",
+          "text": "the formers"
+        },
+        {
+          "key": "B",
+          "text": "the former"
+        },
+        {
+          "key": "C",
+          "text": "former"
+        },
+        {
+          "key": "D",
+          "text": "the formal"
+        }
+      ],
+      "answer": "B",
+      "explanation": "\"The former\" (the first of two) and \"the latter\" (the second) always take \"the\" and never add a plural -s."
+    }
+  },
+  {
+    "task_type": "GRAMMAR_DIAGNOSTIC",
+    "source_url": "",
+    "licence": "Original content",
+    "content": {
+      "id": "COHESION_LINKING-3b",
+      "area": "COHESION_LINKING",
+      "level": 3,
+      "prompt": "Which sentence is correct?",
+      "options": [
+        {
+          "key": "A",
+          "text": "In 1990 most workers commuted by car. Whereas by 2020 the majority used public transport."
+        },
+        {
+          "key": "B",
+          "text": "In 1990 most workers commuted by car, on the other hand by 2020 the majority used public transport."
+        },
+        {
+          "key": "C",
+          "text": "In 1990 most workers commuted by car, whereas by 2020 the majority used public transport."
+        },
+        {
+          "key": "D",
+          "text": "In 1990 most workers commuted by car, in contrast, by 2020 the majority used public transport."
+        }
+      ],
+      "answer": "C",
+      "explanation": "\"Whereas\" is a subordinating conjunction, so it joins two clauses in one sentence, while \"on the other hand\" and \"in contrast\" are adverbials. The adverbials need a new sentence or a semicolon; after a comma they create a comma splice."
+    }
+  },
+  {
+    "task_type": "GRAMMAR_DIAGNOSTIC",
+    "source_url": "",
+    "licence": "Original content",
+    "content": {
+      "id": "ADVANCED_STRUCTURES-1a",
+      "area": "ADVANCED_STRUCTURES",
+      "level": 1,
+      "prompt": "In the interview, the minister said that the government ___ taxes the following year.",
+      "options": [
+        {
+          "key": "A",
+          "text": "will raise"
+        },
+        {
+          "key": "B",
+          "text": "would raise"
+        },
+        {
+          "key": "C",
+          "text": "would raised"
+        },
+        {
+          "key": "D",
+          "text": "raises"
+        }
+      ],
+      "answer": "B",
+      "explanation": "In reported speech after a past reporting verb, \"will\" usually backshifts to \"would\", and time words shift too (\"next year\" becomes \"the following year\")."
+    }
+  },
+  {
+    "task_type": "GRAMMAR_DIAGNOSTIC",
+    "source_url": "",
+    "licence": "Original content",
+    "content": {
+      "id": "ADVANCED_STRUCTURES-1b",
+      "area": "ADVANCED_STRUCTURES",
+      "level": 1,
+      "prompt": "The examiner asked me where ___.",
+      "options": [
+        {
+          "key": "A",
+          "text": "I grew up"
+        },
+        {
+          "key": "B",
+          "text": "did I grow up"
+        },
+        {
+          "key": "C",
+          "text": "do I grow up"
+        },
+        {
+          "key": "D",
+          "text": "grew I up"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Reported questions use statement word order (subject + verb) and drop the auxiliary \"do/does/did\"."
+    }
+  },
+  {
+    "task_type": "GRAMMAR_DIAGNOSTIC",
+    "source_url": "",
+    "licence": "Original content",
+    "content": {
+      "id": "ADVANCED_STRUCTURES-2a",
+      "area": "ADVANCED_STRUCTURES",
+      "level": 2,
+      "prompt": "___ in 1889, the Eiffel Tower was originally intended to be a temporary structure.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Building"
+        },
+        {
+          "key": "B",
+          "text": "Built"
+        },
+        {
+          "key": "C",
+          "text": "Having built"
+        },
+        {
+          "key": "D",
+          "text": "It was built"
+        }
+      ],
+      "answer": "B",
+      "explanation": "A past participle clause has a passive meaning and must share the subject of the main clause: the tower was built. \"Having built\" would mean the tower built something."
+    }
+  },
+  {
+    "task_type": "GRAMMAR_DIAGNOSTIC",
+    "source_url": "",
+    "licence": "Original content",
+    "content": {
+      "id": "ADVANCED_STRUCTURES-2b",
+      "area": "ADVANCED_STRUCTURES",
+      "level": 2,
+      "prompt": "It was not until the 1990s ___ the internet became widely available to the public.",
+      "options": [
+        {
+          "key": "A",
+          "text": "when"
+        },
+        {
+          "key": "B",
+          "text": "which"
+        },
+        {
+          "key": "C",
+          "text": "since"
+        },
+        {
+          "key": "D",
+          "text": "that"
+        }
+      ],
+      "answer": "D",
+      "explanation": "An it-cleft always uses \"that\" to introduce the rest of the sentence: \"It was not until + time + that…\"."
+    }
+  },
+  {
+    "task_type": "GRAMMAR_DIAGNOSTIC",
+    "source_url": "",
+    "licence": "Original content",
+    "content": {
+      "id": "ADVANCED_STRUCTURES-3a",
+      "area": "ADVANCED_STRUCTURES",
+      "level": 3,
+      "prompt": "Only when the full costs became clear ___ the scale of the problem.",
+      "options": [
+        {
+          "key": "A",
+          "text": "the council realised"
+        },
+        {
+          "key": "B",
+          "text": "the council did realise"
+        },
+        {
+          "key": "C",
+          "text": "did the council realise"
+        },
+        {
+          "key": "D",
+          "text": "realised the council"
+        }
+      ],
+      "answer": "C",
+      "explanation": "After a fronted \"Only when/after/if…\" clause, the main clause is inverted with an auxiliary: \"did + subject + base verb\"."
+    }
+  },
+  {
+    "task_type": "GRAMMAR_DIAGNOSTIC",
+    "source_url": "",
+    "licence": "Original content",
+    "content": {
+      "id": "ADVANCED_STRUCTURES-3b",
+      "area": "ADVANCED_STRUCTURES",
+      "level": 3,
+      "prompt": "Which sentence is correct?",
+      "options": [
+        {
+          "key": "A",
+          "text": "What surprised researchers most were the speed of the change."
+        },
+        {
+          "key": "B",
+          "text": "If had the government acted sooner, the crisis could have been avoided."
+        },
+        {
+          "key": "C",
+          "text": "Of particular concern are the sharp rise in youth unemployment."
+        },
+        {
+          "key": "D",
+          "text": "Hardly had the results been published when other researchers began to question them."
+        }
+      ],
+      "answer": "D",
+      "explanation": "\"Hardly had + subject + past participle… when\" is the correct negative inversion. A wh-cleft or a fronted phrase takes its verb from the singular noun that follows (\"was the speed\", \"is the sharp rise\"), and conditional inversion drops \"if\" (\"Had the government acted…\")."
+    }
+  },
+  {
+    "task_type": "GRAMMAR_DIAGNOSTIC",
+    "source_url": "",
+    "licence": "Original content",
+    "content": {
+      "id": "PREPOSITIONS_PHRASAL-1a",
+      "area": "PREPOSITIONS_PHRASAL",
+      "level": 1,
+      "prompt": "The average house price rose ___ 15% between 2019 and 2022, from £200,000 to £230,000.",
+      "options": [
+        {
+          "key": "A",
+          "text": "to"
+        },
+        {
+          "key": "B",
+          "text": "with"
+        },
+        {
+          "key": "C",
+          "text": "by"
+        },
+        {
+          "key": "D",
+          "text": "at"
+        }
+      ],
+      "answer": "C",
+      "explanation": "\"By\" gives the size of a change (rose by 15%), \"to\" gives the final level (rose to £230,000) and \"at\" gives a level at one point (stood at)."
+    }
+  },
+  {
+    "task_type": "GRAMMAR_DIAGNOSTIC",
+    "source_url": "",
+    "licence": "Original content",
+    "content": {
+      "id": "PREPOSITIONS_PHRASAL-1b",
+      "area": "PREPOSITIONS_PHRASAL",
+      "level": 1,
+      "prompt": "Social media has had a huge impact ___ the way young people communicate.",
+      "options": [
+        {
+          "key": "A",
+          "text": "to"
+        },
+        {
+          "key": "B",
+          "text": "in"
+        },
+        {
+          "key": "C",
+          "text": "for"
+        },
+        {
+          "key": "D",
+          "text": "on"
+        }
+      ],
+      "answer": "D",
+      "explanation": "The dependent preposition after the noun \"impact\" (like \"effect\" and \"influence\") is \"on\"."
+    }
+  },
+  {
+    "task_type": "GRAMMAR_DIAGNOSTIC",
+    "source_url": "",
+    "licence": "Original content",
+    "content": {
+      "id": "PREPOSITIONS_PHRASAL-2a",
+      "area": "PREPOSITIONS_PHRASAL",
+      "level": 2,
+      "prompt": "Which sentence is correct?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The number of visitors stood at 2 million in 2010 and rose by 500,000 to 2.5 million in 2015."
+        },
+        {
+          "key": "B",
+          "text": "The number of visitors stood on 2 million in 2010 and rose with 500,000 to 2.5 million in 2015."
+        },
+        {
+          "key": "C",
+          "text": "The number of visitors stood at 2 million on 2010 and rose by 500,000 until 2.5 million in 2015."
+        },
+        {
+          "key": "D",
+          "text": "The number of visitors stood at 2 million in 2010 and rose of 500,000 to 2.5 million at 2015."
+        }
+      ],
+      "answer": "A",
+      "explanation": "Task 1 data takes \"stood at\" for a level, \"by\" for the amount of change, \"to\" for the end point and \"in\" before a year."
+    }
+  },
+  {
+    "task_type": "GRAMMAR_DIAGNOSTIC",
+    "source_url": "",
+    "licence": "Original content",
+    "content": {
+      "id": "PREPOSITIONS_PHRASAL-2b",
+      "area": "PREPOSITIONS_PHRASAL",
+      "level": 2,
+      "prompt": "Many manufacturing companies are ___ staff because of falling demand.",
+      "options": [
+        {
+          "key": "A",
+          "text": "laying out"
+        },
+        {
+          "key": "B",
+          "text": "setting off"
+        },
+        {
+          "key": "C",
+          "text": "taking over"
+        },
+        {
+          "key": "D",
+          "text": "laying off"
+        }
+      ],
+      "answer": "D",
+      "explanation": "The phrasal verb \"lay off\" means to dismiss workers because there is not enough work. \"Lay out\" means arrange, \"set off\" means start a journey and \"take over\" means gain control."
+    }
+  },
+  {
+    "task_type": "GRAMMAR_DIAGNOSTIC",
+    "source_url": "",
+    "licence": "Original content",
+    "content": {
+      "id": "PREPOSITIONS_PHRASAL-3a",
+      "area": "PREPOSITIONS_PHRASAL",
+      "level": 3,
+      "prompt": "Which sentence is correct?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The report emphasises on the need for greater investment in rural schools."
+        },
+        {
+          "key": "B",
+          "text": "The report emphasises the need for greater investment in rural schools."
+        },
+        {
+          "key": "C",
+          "text": "The report emphasises about the need for greater investment in rural schools."
+        },
+        {
+          "key": "D",
+          "text": "The report places emphasis the need for greater investment in rural schools."
+        }
+      ],
+      "answer": "B",
+      "explanation": "The verb \"emphasise\" is transitive and takes no preposition, but the noun takes \"on\" (\"place emphasis on\"). \"Discuss\" and \"affect\" work the same way."
+    }
+  },
+  {
+    "task_type": "GRAMMAR_DIAGNOSTIC",
+    "source_url": "",
+    "licence": "Original content",
+    "content": {
+      "id": "PREPOSITIONS_PHRASAL-3b",
+      "area": "PREPOSITIONS_PHRASAL",
+      "level": 3,
+      "prompt": "Critics claim that the government has ___ to pressure from the oil industry by weakening its emissions targets.",
+      "options": [
+        {
+          "key": "A",
+          "text": "given up"
+        },
+        {
+          "key": "B",
+          "text": "given out"
+        },
+        {
+          "key": "C",
+          "text": "given in"
+        },
+        {
+          "key": "D",
+          "text": "given away"
+        }
+      ],
+      "answer": "C",
+      "explanation": "The three-part phrasal verb \"give in to\" means to stop resisting pressure or demands. \"Give up\" means stop trying, \"give out\" means distribute or fail, and \"give away\" means donate or reveal."
+    }
+  },
+  {
+    "task_type": "GRAMMAR_DIAGNOSTIC",
+    "source_url": "",
+    "licence": "Original content",
+    "content": {
+      "id": "PUNCTUATION-1a",
+      "area": "PUNCTUATION",
+      "level": 1,
+      "prompt": "Which sentence is correct?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The companys' profits fell, and it's share price dropped sharply."
+        },
+        {
+          "key": "B",
+          "text": "The company's profits fell, and it's share price dropped sharply."
+        },
+        {
+          "key": "C",
+          "text": "The company's profits fell, and its share price dropped sharply."
+        },
+        {
+          "key": "D",
+          "text": "The companies profits fell, and its share price dropped sharply."
+        }
+      ],
+      "answer": "C",
+      "explanation": "A singular possessive noun takes 's (the company's), while the possessive pronoun \"its\" has no apostrophe. \"It's\" always means \"it is\" or \"it has\"."
+    }
+  },
+  {
+    "task_type": "GRAMMAR_DIAGNOSTIC",
+    "source_url": "",
+    "licence": "Original content",
+    "content": {
+      "id": "PUNCTUATION-1b",
+      "area": "PUNCTUATION",
+      "level": 1,
+      "prompt": "Which sentence is correct?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Most students in the UK learn French or Spanish at secondary school."
+        },
+        {
+          "key": "B",
+          "text": "Most students in the uk learn french or spanish at secondary school."
+        },
+        {
+          "key": "C",
+          "text": "Most Students in the UK learn French or Spanish at Secondary School."
+        },
+        {
+          "key": "D",
+          "text": "Most students in the UK learn french or spanish at secondary school."
+        }
+      ],
+      "answer": "A",
+      "explanation": "Capital letters go on proper nouns, including countries, languages and nationalities, but not on common nouns such as \"students\" or \"secondary school\"."
+    }
+  },
+  {
+    "task_type": "GRAMMAR_DIAGNOSTIC",
+    "source_url": "",
+    "licence": "Original content",
+    "content": {
+      "id": "PUNCTUATION-2a",
+      "area": "PUNCTUATION",
+      "level": 2,
+      "prompt": "Which sentence is correct?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Many people cannot afford to buy a home, this is why renting is increasingly common."
+        },
+        {
+          "key": "B",
+          "text": "Many people cannot afford to buy a home. This is why renting is increasingly common."
+        },
+        {
+          "key": "C",
+          "text": "Many people cannot afford to buy a home this is why renting is increasingly common."
+        },
+        {
+          "key": "D",
+          "text": "Many people cannot afford to buy a home, which is why, renting is increasingly common."
+        }
+      ],
+      "answer": "B",
+      "explanation": "Two independent clauses cannot be joined by a comma alone (comma splice) or by nothing (run-on sentence). Use a full stop, a semicolon or a conjunction."
+    }
+  },
+  {
+    "task_type": "GRAMMAR_DIAGNOSTIC",
+    "source_url": "",
+    "licence": "Original content",
+    "content": {
+      "id": "PUNCTUATION-2b",
+      "area": "PUNCTUATION",
+      "level": 2,
+      "prompt": "Which sentence is correct?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Although the policy was popular. It failed to reduce crime."
+        },
+        {
+          "key": "B",
+          "text": "Although the policy was popular it failed, to reduce crime."
+        },
+        {
+          "key": "C",
+          "text": "Although, the policy was popular, it failed to reduce crime."
+        },
+        {
+          "key": "D",
+          "text": "Although the policy was popular, it failed to reduce crime."
+        }
+      ],
+      "answer": "D",
+      "explanation": "A subordinate clause beginning with \"although\" cannot stand alone as a sentence (fragment). When it comes first, it is followed by a comma, with no comma directly after \"although\"."
+    }
+  },
+  {
+    "task_type": "GRAMMAR_DIAGNOSTIC",
+    "source_url": "",
+    "licence": "Original content",
+    "content": {
+      "id": "PUNCTUATION-3a",
+      "area": "PUNCTUATION",
+      "level": 3,
+      "prompt": "Which sentence is correct?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The Amazon rainforest, which covers much of Brazil, is often called the lungs of the planet."
+        },
+        {
+          "key": "B",
+          "text": "The Amazon rainforest which covers much of Brazil is often called the lungs of the planet."
+        },
+        {
+          "key": "C",
+          "text": "The Amazon rainforest, that covers much of Brazil, is often called the lungs of the planet."
+        },
+        {
+          "key": "D",
+          "text": "The Amazon rainforest, which covers much of Brazil is often called the lungs of the planet."
+        }
+      ],
+      "answer": "A",
+      "explanation": "A non-defining relative clause adds extra information about a unique noun, so it needs a comma at both ends and uses \"which/who\", never \"that\"."
+    }
+  },
+  {
+    "task_type": "GRAMMAR_DIAGNOSTIC",
+    "source_url": "",
+    "licence": "Original content",
+    "content": {
+      "id": "PUNCTUATION-3b",
+      "area": "PUNCTUATION",
+      "level": 3,
+      "prompt": "Which sentence is correct?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Those who argue that the internet has made people less sociable, often overlook its benefits."
+        },
+        {
+          "key": "B",
+          "text": "Those, who argue that the internet has made people less sociable, often overlook its benefits."
+        },
+        {
+          "key": "C",
+          "text": "Those who argue that the internet has made people less sociable often overlook its benefits."
+        },
+        {
+          "key": "D",
+          "text": "Those who argue, that the internet has made people less sociable often overlook its benefits."
+        }
+      ],
+      "answer": "C",
+      "explanation": "Never put a comma between a subject and its verb, however long the subject is. A defining relative clause and a that-clause object are not separated by commas."
+    }
+  },
+  {
+    "task_type": "GRAMMAR_DIAGNOSTIC",
+    "source_url": "",
+    "licence": "Original content",
+    "content": {
+      "id": "COUNTABILITY_QUANTIFIERS-1a",
+      "area": "COUNTABILITY_QUANTIFIERS",
+      "level": 1,
+      "prompt": "My teacher gave me some useful ___ about how to prepare for the exam.",
+      "options": [
+        {
+          "key": "A",
+          "text": "advice"
+        },
+        {
+          "key": "B",
+          "text": "advices"
+        },
+        {
+          "key": "C",
+          "text": "an advice"
+        },
+        {
+          "key": "D",
+          "text": "advise"
+        }
+      ],
+      "answer": "A",
+      "explanation": "\"Advice\" is uncountable, so it has no plural and takes no \"a/an\". Use \"a piece of advice\" for one item. \"Advise\" is the verb."
+    }
+  },
+  {
+    "task_type": "GRAMMAR_DIAGNOSTIC",
+    "source_url": "",
+    "licence": "Original content",
+    "content": {
+      "id": "COUNTABILITY_QUANTIFIERS-1b",
+      "area": "COUNTABILITY_QUANTIFIERS",
+      "level": 1,
+      "prompt": "There are not ___ job opportunities for young people in rural areas.",
+      "options": [
+        {
+          "key": "A",
+          "text": "many"
+        },
+        {
+          "key": "B",
+          "text": "much"
+        },
+        {
+          "key": "C",
+          "text": "a lot"
+        },
+        {
+          "key": "D",
+          "text": "a little"
+        }
+      ],
+      "answer": "A",
+      "explanation": "\"Many\" is used with plural countable nouns (opportunities) and \"much\" with uncountable nouns. \"A lot\" needs \"of\" before a noun."
+    }
+  },
+  {
+    "task_type": "GRAMMAR_DIAGNOSTIC",
+    "source_url": "",
+    "licence": "Original content",
+    "content": {
+      "id": "COUNTABILITY_QUANTIFIERS-2a",
+      "area": "COUNTABILITY_QUANTIFIERS",
+      "level": 2,
+      "prompt": "Nowadays, ___ people buy printed newspapers than they did twenty years ago.",
+      "options": [
+        {
+          "key": "A",
+          "text": "less"
+        },
+        {
+          "key": "B",
+          "text": "fewer"
+        },
+        {
+          "key": "C",
+          "text": "lesser"
+        },
+        {
+          "key": "D",
+          "text": "little"
+        }
+      ],
+      "answer": "B",
+      "explanation": "In formal writing, \"fewer\" is used with plural countable nouns (fewer people) and \"less\" with uncountable nouns (less money)."
+    }
+  },
+  {
+    "task_type": "GRAMMAR_DIAGNOSTIC",
+    "source_url": "",
+    "licence": "Original content",
+    "content": {
+      "id": "COUNTABILITY_QUANTIFIERS-2b",
+      "area": "COUNTABILITY_QUANTIFIERS",
+      "level": 2,
+      "prompt": "A large ___ of research has been carried out into the effects of social media on teenagers.",
+      "options": [
+        {
+          "key": "A",
+          "text": "number"
+        },
+        {
+          "key": "B",
+          "text": "amount"
+        },
+        {
+          "key": "C",
+          "text": "many"
+        },
+        {
+          "key": "D",
+          "text": "numbers"
+        }
+      ],
+      "answer": "B",
+      "explanation": "\"Research\" is uncountable, so it takes \"a large amount of\". \"A large number of\" is used with plural countable nouns (a large number of studies)."
+    }
+  },
+  {
+    "task_type": "GRAMMAR_DIAGNOSTIC",
+    "source_url": "",
+    "licence": "Original content",
+    "content": {
+      "id": "COUNTABILITY_QUANTIFIERS-3a",
+      "area": "COUNTABILITY_QUANTIFIERS",
+      "level": 3,
+      "prompt": "Although the scheme was widely advertised, ___ people applied, so it was eventually abandoned.",
+      "options": [
+        {
+          "key": "A",
+          "text": "a few"
+        },
+        {
+          "key": "B",
+          "text": "little"
+        },
+        {
+          "key": "C",
+          "text": "a little"
+        },
+        {
+          "key": "D",
+          "text": "few"
+        }
+      ],
+      "answer": "D",
+      "explanation": "\"Few\" (without \"a\") is negative and means \"not many\", which fits a scheme that was abandoned. \"A few\" is positive and means \"some\". \"Little/a little\" go with uncountable nouns."
+    }
+  },
+  {
+    "task_type": "GRAMMAR_DIAGNOSTIC",
+    "source_url": "",
+    "licence": "Original content",
+    "content": {
+      "id": "COUNTABILITY_QUANTIFIERS-3b",
+      "area": "COUNTABILITY_QUANTIFIERS",
+      "level": 3,
+      "prompt": "Which sentence is correct?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Scientists have not yet explained these phenomenons, partly because of a lack of equipments."
+        },
+        {
+          "key": "B",
+          "text": "Scientists have not yet explained this phenomena, partly because of a lack of equipment."
+        },
+        {
+          "key": "C",
+          "text": "Scientists have not yet explained these phenomena, partly because of a lack of equipments."
+        },
+        {
+          "key": "D",
+          "text": "Scientists have not yet explained these phenomena, partly because of a lack of equipment."
+        }
+      ],
+      "answer": "D",
+      "explanation": "\"Phenomenon\" has the irregular Greek plural \"phenomena\" (like criterion/criteria). \"Equipment\" is uncountable and never takes -s."
+    }
+  },
+  {
+    "task_type": "GRAMMAR_DIAGNOSTIC",
+    "source_url": "",
+    "licence": "Original content",
+    "content": {
+      "id": "WORD_FORMATION-1a",
+      "area": "WORD_FORMATION",
+      "level": 1,
+      "prompt": "I found the documentary about climate change really ___.",
+      "options": [
+        {
+          "key": "A",
+          "text": "interested"
+        },
+        {
+          "key": "B",
+          "text": "interesting"
+        },
+        {
+          "key": "C",
+          "text": "interest"
+        },
+        {
+          "key": "D",
+          "text": "interestingly"
+        }
+      ],
+      "answer": "B",
+      "explanation": "An -ing adjective describes the thing that causes the feeling (the documentary is interesting). An -ed adjective describes the person who has the feeling (I was interested)."
+    }
+  },
+  {
+    "task_type": "GRAMMAR_DIAGNOSTIC",
+    "source_url": "",
+    "licence": "Original content",
+    "content": {
+      "id": "WORD_FORMATION-1b",
+      "area": "WORD_FORMATION",
+      "level": 1,
+      "prompt": "The ___ of the new motorway took nearly five years.",
+      "options": [
+        {
+          "key": "A",
+          "text": "construction"
+        },
+        {
+          "key": "B",
+          "text": "construct"
+        },
+        {
+          "key": "C",
+          "text": "constructive"
+        },
+        {
+          "key": "D",
+          "text": "constructed"
+        }
+      ],
+      "answer": "A",
+      "explanation": "After \"the\" and before \"of\", a noun is needed. \"Construction\" is the noun form of the verb \"construct\", and \"constructive\" is an adjective meaning helpful."
+    }
+  },
+  {
+    "task_type": "GRAMMAR_DIAGNOSTIC",
+    "source_url": "",
+    "licence": "Original content",
+    "content": {
+      "id": "WORD_FORMATION-2a",
+      "area": "WORD_FORMATION",
+      "level": 2,
+      "prompt": "It is ___ to expect all students to reach the same standard by the age of sixteen.",
+      "options": [
+        {
+          "key": "A",
+          "text": "irrealistic"
+        },
+        {
+          "key": "B",
+          "text": "inrealistic"
+        },
+        {
+          "key": "C",
+          "text": "disrealistic"
+        },
+        {
+          "key": "D",
+          "text": "unrealistic"
+        }
+      ],
+      "answer": "D",
+      "explanation": "Negative prefixes are fixed by the word: realistic becomes unrealistic. \"Ir-\" is used before r in Latin-based words such as \"irrelevant\", but \"realistic\" takes \"un-\"."
+    }
+  },
+  {
+    "task_type": "GRAMMAR_DIAGNOSTIC",
+    "source_url": "",
+    "licence": "Original content",
+    "content": {
+      "id": "WORD_FORMATION-2b",
+      "area": "WORD_FORMATION",
+      "level": 2,
+      "prompt": "Many people remain ___ about the government's ability to solve the housing crisis.",
+      "options": [
+        {
+          "key": "A",
+          "text": "scepticism"
+        },
+        {
+          "key": "B",
+          "text": "sceptic"
+        },
+        {
+          "key": "C",
+          "text": "sceptically"
+        },
+        {
+          "key": "D",
+          "text": "sceptical"
+        }
+      ],
+      "answer": "D",
+      "explanation": "After a linking verb such as remain, be or seem, an adjective is needed. \"Scepticism\" is the abstract noun, \"sceptic\" is a person and \"sceptically\" is the adverb."
+    }
+  },
+  {
+    "task_type": "GRAMMAR_DIAGNOSTIC",
+    "source_url": "",
+    "licence": "Original content",
+    "content": {
+      "id": "WORD_FORMATION-3a",
+      "area": "WORD_FORMATION",
+      "level": 3,
+      "prompt": "Car-sharing is a more ___ way of commuting than driving alone, as it significantly reduces fuel costs.",
+      "options": [
+        {
+          "key": "A",
+          "text": "economic"
+        },
+        {
+          "key": "B",
+          "text": "economical"
+        },
+        {
+          "key": "C",
+          "text": "economy"
+        },
+        {
+          "key": "D",
+          "text": "economically"
+        }
+      ],
+      "answer": "B",
+      "explanation": "\"Economical\" means saving money or resources, while \"economic\" means relating to the economy (economic growth). An adjective is needed before the noun \"way\"."
+    }
+  },
+  {
+    "task_type": "GRAMMAR_DIAGNOSTIC",
+    "source_url": "",
+    "licence": "Original content",
+    "content": {
+      "id": "WORD_FORMATION-3b",
+      "area": "WORD_FORMATION",
+      "level": 3,
+      "prompt": "Which sentence is correct?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The government's response was widely seen as inadequate and economically damaging."
+        },
+        {
+          "key": "B",
+          "text": "The government's response was widely seen as unadequate and economically damaging."
+        },
+        {
+          "key": "C",
+          "text": "The government's response was widely seen as inadequate and economical damaging."
+        },
+        {
+          "key": "D",
+          "text": "The government's response was widely seen as inadequately and economic damaging."
+        }
+      ],
+      "answer": "A",
+      "explanation": "\"Adequate\" takes the prefix \"in-\" (inadequate), and an adjective (\"damaging\") is modified by an adverb (\"economically\"), not by another adjective."
+    }
+  }
+]

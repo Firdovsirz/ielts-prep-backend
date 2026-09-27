@@ -1,0 +1,27 @@
+{
+  "source": "Indicative raw-score-to-band tables widely published by IELTS partners and preparation publishers. IELTS adjusts conversions slightly per test version; these are the tables the app uses (BandCalculator.java) and are kept identical by BandCalculatorTest.",
+  "listening": [
+    {"min": 39, "band": 9.0}, {"min": 37, "band": 8.5}, {"min": 35, "band": 8.0}, {"min": 32, "band": 7.5},
+    {"min": 30, "band": 7.0}, {"min": 26, "band": 6.5}, {"min": 23, "band": 6.0}, {"min": 18, "band": 5.5},
+    {"min": 16, "band": 5.0}, {"min": 13, "band": 4.5}, {"min": 10, "band": 4.0}, {"min": 8, "band": 3.5},
+    {"min": 6, "band": 3.0}, {"min": 4, "band": 2.5}, {"min": 2, "band": 2.0}, {"min": 1, "band": 1.0},
+    {"min": 0, "band": 0.0}
+  ],
+  "reading_academic": [
+    {"min": 39, "band": 9.0}, {"min": 37, "band": 8.5}, {"min": 35, "band": 8.0}, {"min": 33, "band": 7.5},
+    {"min": 30, "band": 7.0}, {"min": 27, "band": 6.5}, {"min": 23, "band": 6.0}, {"min": 19, "band": 5.5},
+    {"min": 15, "band": 5.0}, {"min": 13, "band": 4.5}, {"min": 10, "band": 4.0}, {"min": 8, "band": 3.5},
+    {"min": 6, "band": 3.0}, {"min": 4, "band": 2.5}, {"min": 2, "band": 2.0}, {"min": 1, "band": 1.0},
+    {"min": 0, "band": 0.0}
+  ],
+  "reading_general": [
+    {"min": 40, "band": 9.0}, {"min": 39, "band": 8.5}, {"min": 37, "band": 8.0}, {"min": 36, "band": 7.5},
+    {"min": 34, "band": 7.0}, {"min": 32, "band": 6.5}, {"min": 30, "band": 6.0}, {"min": 27, "band": 5.5},
+    {"min": 23, "band": 5.0}, {"min": 19, "band": 4.5}, {"min": 15, "band": 4.0}, {"min": 12, "band": 3.5},
+    {"min": 9, "band": 3.0}, {"min": 6, "band": 2.5}, {"min": 3, "band": 2.0}, {"min": 1, "band": 1.0},
+    {"min": 0, "band": 0.0}
+  ],
+  "overall_rounding": "Mean of Listening, Reading, Writing and Speaking bands, rounded to the nearest half band. A mean ending in .25 rounds up to .5; a mean ending in .75 rounds up to the next whole band (e.g. 6.25 → 6.5, 6.75 → 7.0, 6.125 → 6.0, 6.625 → 6.5).",
+  "writing": "Task band = mean of the four criteria rounded down to the nearest half band (conservative convention). Module band = (Task 1 + 2 × Task 2) / 3, rounded to the nearest half band.",
+  "speaking": "Band = mean of the four criteria rounded down to the nearest half band. When Pronunciation cannot be assessed (transcript only) the mean of the other three is used and the report says so."
+}

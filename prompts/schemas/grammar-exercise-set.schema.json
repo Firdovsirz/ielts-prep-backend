@@ -1,0 +1,108 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "grammar-exercise-set",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "area",
+    "exercise_type",
+    "title",
+    "instructions",
+    "items"
+  ],
+  "properties": {
+    "area": {
+      "type": "string",
+      "enum": [
+        "TENSE_ASPECT",
+        "AGREEMENT_ARTICLES",
+        "COMPLEX_SENTENCES",
+        "CONDITIONALS",
+        "PASSIVE_VOICE",
+        "MODALS_HEDGING",
+        "COMPARISON_TRENDS",
+        "COHESION_LINKING",
+        "ADVANCED_STRUCTURES",
+        "PREPOSITIONS_PHRASAL",
+        "PUNCTUATION",
+        "COUNTABILITY_QUANTIFIERS",
+        "WORD_FORMATION"
+      ]
+    },
+    "exercise_type": {
+      "type": "string",
+      "enum": [
+        "GAP_FILL",
+        "ERROR_CORRECTION",
+        "SENTENCE_TRANSFORMATION",
+        "SENTENCE_COMBINING",
+        "UPGRADE_SENTENCE",
+        "FREE_WRITING"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "instructions": {
+      "type": "string"
+    },
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "prompt",
+          "options",
+          "accepted_answers",
+          "model_answer",
+          "check_mode",
+          "explanation"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "\"1\", \"2\"…"
+          },
+          "prompt": {
+            "type": "string",
+            "description": "What the candidate sees: a sentence with ___ gap, a sentence containing exactly one error, an original sentence plus transformation cue, sentences to combine, a band-5 sentence to upgrade, or a free-writing task."
+          },
+          "options": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Choices for gap-fill when multiple choice; empty for open answers."
+          },
+          "accepted_answers": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "GAP_FILL: the word(s) for the gap. Other types: full corrected/target sentences. May be empty for FREE_WRITING."
+          },
+          "model_answer": {
+            "type": "string",
+            "description": "Best answer shown after submission."
+          },
+          "check_mode": {
+            "type": "string",
+            "enum": [
+              "EXACT",
+              "EXACT_OR_AI",
+              "AI"
+            ],
+            "description": "EXACT for closed gap-fills; EXACT_OR_AI when several phrasings are valid; AI for upgrade/free-writing."
+          },
+          "explanation": {
+            "type": "string",
+            "description": "Why, referencing the rule."
+          }
+        }
+      },
+      "description": "6–10 items (3–4 for FREE_WRITING)."
+    }
+  }
+}

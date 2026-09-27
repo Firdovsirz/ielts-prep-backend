@@ -1,0 +1,130 @@
+{
+  "task_type": "GRAMMAR_EXERCISE",
+  "source_url": "",
+  "licence": "Original content",
+  "content": {
+    "area": "PASSIVE_VOICE",
+    "exercise_type": "SENTENCE_TRANSFORMATION",
+    "title": "Passive voice: processes, maps and impersonal statements",
+    "instructions": "Rewrite each sentence following the cue. Leave out the agent (by …) when it is obvious or unimportant, as you would in a Task 1 process or map description. Write the complete new sentence.",
+    "items": [
+      {
+        "id": "1",
+        "prompt": "First, workers pick the tea leaves by hand. (Use the passive and leave out the agent.)",
+        "options": [],
+        "accepted_answers": [
+          "First, the tea leaves are picked by hand.",
+          "First, tea leaves are picked by hand."
+        ],
+        "model_answer": "First, the tea leaves are picked by hand.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "Process diagrams focus on what happens to the product, not on who does it, so the present simple passive (am/is/are + past participle) is the standard choice. 'Workers' is obvious and can be omitted; 'by hand' describes the method, not the agent, so it stays."
+      },
+      {
+        "id": "2",
+        "prompt": "After the plant has sorted the bottles by colour, it melts them down. (Use the passive in both clauses.)",
+        "options": [],
+        "accepted_answers": [
+          "After the bottles have been sorted by colour, they are melted down.",
+          "After being sorted by colour, the bottles are melted down.",
+          "After the bottles are sorted by colour, they are melted down."
+        ],
+        "model_answer": "After the bottles have been sorted by colour, they are melted down.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "The present perfect passive (have been + past participle) shows that one stage is complete before the next begins. Linking stages with after / once / when in this way is a clear sign of range in a Task 1 process answer."
+      },
+      {
+        "id": "3",
+        "prompt": "Once the clay has been shaped, a kiln fires it at 1,000°C. (Use the passive in the second clause.)",
+        "options": [],
+        "accepted_answers": [
+          "Once the clay has been shaped, it is fired in a kiln at 1,000°C.",
+          "Once the clay has been shaped, it is fired at 1,000°C in a kiln."
+        ],
+        "model_answer": "Once the clay has been shaped, it is fired in a kiln at 1,000°C.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "The object of the active verb (it = the clay) becomes the subject of the passive verb (is fired). A machine or place is usually expressed with 'in' or 'using' rather than 'by' in process descriptions."
+      },
+      {
+        "id": "4",
+        "prompt": "Finally, the manufacturer packages the finished product and transports it to supermarkets. (Use the passive.)",
+        "options": [],
+        "accepted_answers": [
+          "Finally, the finished product is packaged and transported to supermarkets.",
+          "Finally, the finished product is packaged and then transported to supermarkets."
+        ],
+        "model_answer": "Finally, the finished product is packaged and transported to supermarkets.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "When two passive verbs share the same subject, 'is' does not need to be repeated: 'is packaged and transported'. This keeps the final stage of a process concise."
+      },
+      {
+        "id": "5",
+        "prompt": "Between 1990 and 2010, developers demolished the old factory and built a shopping centre in its place. (Use the passive.)",
+        "options": [],
+        "accepted_answers": [
+          "Between 1990 and 2010, the old factory was demolished and a shopping centre was built in its place.",
+          "Between 1990 and 2010, the old factory was demolished and replaced by a shopping centre."
+        ],
+        "model_answer": "Between 1990 and 2010, the old factory was demolished and a shopping centre was built in its place.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "Map comparisons describe changes to buildings and places over a finished period, so they use the past simple passive (was/were + past participle). Because the two clauses have different subjects, 'was' must be repeated."
+      },
+      {
+        "id": "6",
+        "prompt": "According to the plan, the council will convert the old warehouse into apartments. (Use the passive and leave out the agent.)",
+        "options": [],
+        "accepted_answers": [
+          "According to the plan, the old warehouse will be converted into apartments.",
+          "According to the plan, the old warehouse is going to be converted into apartments."
+        ],
+        "model_answer": "According to the plan, the old warehouse will be converted into apartments.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "For proposed changes on a Task 1 map, use the future passive: will be + past participle. The agent (the council) is unimportant, so it is left out."
+      },
+      {
+        "id": "7",
+        "prompt": "People widely accept that regular exercise reduces the risk of heart disease. Rewrite starting 'It is …'",
+        "options": [],
+        "accepted_answers": [
+          "It is widely accepted that regular exercise reduces the risk of heart disease."
+        ],
+        "model_answer": "It is widely accepted that regular exercise reduces the risk of heart disease.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "The impersonal passive 'It is + past participle + that-clause' (It is believed / argued / widely accepted that …) presents a general view objectively, which suits a formal Task 2 essay better than 'People say …'."
+      },
+      {
+        "id": "8",
+        "prompt": "Scientists expect that sea levels will rise by at least 30 cm this century. Rewrite starting 'Sea levels are …'",
+        "options": [],
+        "accepted_answers": [
+          "Sea levels are expected to rise by at least 30 cm this century."
+        ],
+        "model_answer": "Sea levels are expected to rise by at least 30 cm this century.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "In the personal passive, the subject of the that-clause becomes the subject of the sentence, followed by 'be + past participle + to-infinitive': are expected to rise. The same pattern works with 'is thought to', 'is said to' and 'is believed to'."
+      },
+      {
+        "id": "9",
+        "prompt": "Historians think that the first petrol-powered cars were produced in Germany in the 1880s. Rewrite starting 'The first petrol-powered cars are …'",
+        "options": [],
+        "accepted_answers": [
+          "The first petrol-powered cars are thought to have been produced in Germany in the 1880s."
+        ],
+        "model_answer": "The first petrol-powered cars are thought to have been produced in Germany in the 1880s.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "When the belief is present but the event is past, use the perfect infinitive: are thought + to have been produced. The passive infinitive 'to have been + past participle' is needed because the cars did not produce themselves."
+      },
+      {
+        "id": "10",
+        "prompt": "Someone should inform students about the risks of taking out large loans. (Use the passive with the modal verb.)",
+        "options": [],
+        "accepted_answers": [
+          "Students should be informed about the risks of taking out large loans."
+        ],
+        "model_answer": "Students should be informed about the risks of taking out large loans.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "The modal passive is modal + be + past participle (should be informed, must be taught, could be reduced). It is very useful in Task 2 for recommendations when the agent is vague (someone, people, they)."
+      }
+    ]
+  }
+}

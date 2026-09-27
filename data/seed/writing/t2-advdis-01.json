@@ -1,0 +1,20 @@
+{
+  "task_type": "WRITING_TASK2",
+  "source_url": "",
+  "licence": "Original content",
+  "content": {
+    "essay_type": "ADVANTAGES_DISADVANTAGES",
+    "topic": "technology",
+    "subtopic": "Replacement of cash by digital payments",
+    "statement": "In many countries, cash is rapidly being replaced by card and mobile phone payments.",
+    "question": "Do the advantages of this development outweigh the disadvantages?",
+    "prompt": "In many countries, cash is rapidly being replaced by card and mobile phone payments.\n\nDo the advantages of this development outweigh the disadvantages?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.\n\nWrite at least 250 words.",
+    "key_features": [
+      "Explains the main advantages (e.g. speed and convenience, less risk of theft, automatic records of spending, less tax evasion and money laundering).",
+      "Explains the main disadvantages (e.g. exclusion of elderly or low-income people without bank accounts or smartphones, loss of privacy, dependence on technology that can fail, easier overspending, online fraud).",
+      "Answers the 'outweigh' question directly with a clear judgement, stated in the introduction and repeated in the conclusion.",
+      "Weighs the two sides against each other rather than simply listing them, explaining why one side matters more.",
+      "Supports ideas with relevant, specific examples."
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "speaking-part3",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "theme",
+    "linked_part2_topic",
+    "questions"
+  ],
+  "properties": {
+    "theme": {
+      "type": "string"
+    },
+    "linked_part2_topic": {
+      "type": "string"
+    },
+    "questions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "sub_topic",
+          "question"
+        ],
+        "properties": {
+          "sub_topic": {
+            "type": "string"
+          },
+          "question": {
+            "type": "string",
+            "description": "Abstract discussion question in examiner phrasing."
+          }
+        }
+      },
+      "description": "6–8 questions across two sub-topics."
+    }
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "task_type": "GRAMMAR_EXERCISE",
+  "source_url": "",
+  "licence": "Original content",
+  "content": {
+    "area": "ADVANCED_STRUCTURES",
+    "exercise_type": "SENTENCE_TRANSFORMATION",
+    "title": "Band-8 transformations: inversion, clefts, reported speech and participle clauses",
+    "instructions": "Rewrite each sentence using the structure in the cue. Keep the meaning as close as possible to the original and write the complete new sentence.",
+    "items": [
+      {
+        "id": "1",
+        "prompt": "The new policy reduced unemployment and it also increased tax revenue. Begin: 'Not only…'",
+        "options": [],
+        "accepted_answers": [
+          "Not only did the new policy reduce unemployment, but it also increased tax revenue.",
+          "Not only did the new policy reduce unemployment but it also increased tax revenue.",
+          "Not only did the new policy reduce unemployment, but it increased tax revenue as well."
+        ],
+        "model_answer": "Not only did the new policy reduce unemployment, but it also increased tax revenue.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "When 'Not only' begins a clause, the subject and auxiliary are inverted as in a question. With a past simple verb, add 'did' and use the base form: 'Not only did the new policy reduce…'. The second clause usually contains 'but … also'."
+      },
+      {
+        "id": "2",
+        "prompt": "Governments rarely consider the long-term environmental cost of building new airports. Begin: 'Rarely…'",
+        "options": [],
+        "accepted_answers": [
+          "Rarely do governments consider the long-term environmental cost of building new airports."
+        ],
+        "model_answer": "Rarely do governments consider the long-term environmental cost of building new airports.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "Negative and restrictive adverbs (rarely, seldom, never, little, hardly ever) trigger subject–auxiliary inversion when they are moved to the front for emphasis. With a present simple verb, add 'do/does': 'Rarely do governments consider…'."
+      },
+      {
+        "id": "3",
+        "prompt": "People will change their eating habits only when healthy food becomes cheaper. Begin: 'Only when…'",
+        "options": [],
+        "accepted_answers": [
+          "Only when healthy food becomes cheaper will people change their eating habits."
+        ],
+        "model_answer": "Only when healthy food becomes cheaper will people change their eating habits.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "After 'Only when / Only if / Only after', the inversion happens in the MAIN clause, not in the time clause: 'Only when healthy food becomes cheaper will people change…'. The time clause keeps the present tense even though it refers to the future."
+      },
+      {
+        "id": "4",
+        "prompt": "If the government had invested in flood defences earlier, the damage would have been far less severe. Begin: 'Had…'",
+        "options": [],
+        "accepted_answers": [
+          "Had the government invested in flood defences earlier, the damage would have been far less severe."
+        ],
+        "model_answer": "Had the government invested in flood defences earlier, the damage would have been far less severe.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "In a formal third conditional, 'if' can be dropped and 'had' moved in front of the subject: 'Had the government invested…'. The result clause does not change. The same pattern works with 'Should' (first conditional) and 'Were … to' (second conditional)."
+      },
+      {
+        "id": "5",
+        "prompt": "Young people need practical financial education more than anything else. Use a cleft sentence beginning 'What…'",
+        "options": [],
+        "accepted_answers": [
+          "What young people need more than anything else is practical financial education.",
+          "What young people need most is practical financial education."
+        ],
+        "model_answer": "What young people need more than anything else is practical financial education.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "A wh-cleft (What + subject + verb + is + focus) moves the key information to the end of the sentence, where it receives the most emphasis. The 'what' clause counts as singular, so it is followed by 'is'."
+      },
+      {
+        "id": "6",
+        "prompt": "The invention of the smartphone changed the way we communicate. Use a cleft sentence beginning 'It was…'",
+        "options": [],
+        "accepted_answers": [
+          "It was the invention of the smartphone that changed the way we communicate.",
+          "It was the invention of the smartphone which changed the way we communicate."
+        ],
+        "model_answer": "It was the invention of the smartphone that changed the way we communicate.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "An it-cleft (It is/was + focus + that…) highlights one element of the sentence — here, the cause of the change. Use 'It was' for a past event and follow the focused phrase with 'that' (or 'which/who')."
+      },
+      {
+        "id": "7",
+        "prompt": "The minister said, 'We will cut carbon emissions by 40% within the next ten years.' Begin: 'The minister promised that…'",
+        "options": [],
+        "accepted_answers": [
+          "The minister promised that the government would cut carbon emissions by 40% within the next ten years.",
+          "The minister promised that the government would cut carbon emissions by 40% within the following ten years.",
+          "The minister promised that they would cut carbon emissions by 40% within the next ten years."
+        ],
+        "model_answer": "The minister promised that the government would cut carbon emissions by 40% within the following ten years.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "After a past reporting verb, 'will' normally backshifts to 'would', and pronouns change to fit the reporter's viewpoint ('we' → 'the government / they'). Time expressions may shift ('the next ten years' → 'the following ten years'). Precise reporting verbs such as 'promise', 'claim' or 'warn' are more informative than 'say'."
+      },
+      {
+        "id": "8",
+        "prompt": "A student asked the lecturer, 'Why do so many graduates struggle to find work?' Begin: 'A student asked the lecturer why…'",
+        "options": [],
+        "accepted_answers": [
+          "A student asked the lecturer why so many graduates struggled to find work.",
+          "A student asked the lecturer why so many graduates struggle to find work."
+        ],
+        "model_answer": "A student asked the lecturer why so many graduates struggled to find work.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "Reported questions use statement word order (subject before verb) and drop the auxiliary 'do': 'why so many graduates struggled', not 'why did so many graduates struggle'. There is no question mark. Backshift is usual, but the present is acceptable when the situation is still true."
+      },
+      {
+        "id": "9",
+        "prompt": "Because many rural residents lack reliable internet access, they cannot benefit from online education. Use a participle clause beginning 'Lacking…'",
+        "options": [],
+        "accepted_answers": [
+          "Lacking reliable internet access, many rural residents cannot benefit from online education."
+        ],
+        "model_answer": "Lacking reliable internet access, many rural residents cannot benefit from online education.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "A present participle clause can replace an adverbial clause of reason when both clauses share the same subject: drop 'because' and the subject, and use the -ing form. The subject of the main clause must be the one doing the action ('many rural residents'), otherwise the participle 'dangles'."
+      },
+      {
+        "id": "10",
+        "prompt": "The report was published in 2023, and it revealed a sharp rise in youth unemployment. Use a participle clause beginning 'Published…'",
+        "options": [],
+        "accepted_answers": [
+          "Published in 2023, the report revealed a sharp rise in youth unemployment."
+        ],
+        "model_answer": "Published in 2023, the report revealed a sharp rise in youth unemployment.",
+        "check_mode": "EXACT_OR_AI",
+        "explanation": "A past participle clause replaces a passive clause ('The report was published…'). It must describe the subject of the main clause, which comes immediately after the comma: 'Published in 2023, the report…'."
+      }
+    ]
+  }
+}

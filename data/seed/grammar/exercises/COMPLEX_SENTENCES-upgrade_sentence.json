@@ -1,0 +1,112 @@
+{
+  "task_type": "GRAMMAR_EXERCISE",
+  "source_url": "",
+  "licence": "Original content",
+  "content": {
+    "area": "COMPLEX_SENTENCES",
+    "exercise_type": "UPGRADE_SENTENCE",
+    "title": "Complex sentences: upgrade band-5 writing to band 7–8",
+    "instructions": "Each prompt is written at about band 5: short, simple sentences joined by 'and', 'but' or 'so'. Rewrite it as ONE well-controlled complex sentence (or two at most) using relative, adverbial or noun clauses. Keep the original meaning; you may improve vocabulary as well.",
+    "items": [
+      {
+        "id": "1",
+        "prompt": "The graph shows car sales. Car sales went up until 2008. Then they went down a lot.",
+        "options": [],
+        "accepted_answers": [
+          "The graph shows that car sales rose steadily until 2008, when they fell sharply."
+        ],
+        "model_answer": "The graph shows that car sales rose steadily until 2008, after which they fell sharply.",
+        "check_mode": "AI",
+        "explanation": "A noun clause (shows that …) turns the chart description into one sentence, and a relative clause with 'when' or 'after which' links the turning point to what followed, avoiding the repetitive subject 'car sales … they'."
+      },
+      {
+        "id": "2",
+        "prompt": "Some people think university should be free. This is because education helps everyone.",
+        "options": [],
+        "accepted_answers": [
+          "Some people argue that university should be free because education benefits society as a whole."
+        ],
+        "model_answer": "Some people argue that university education should be free of charge because a well-educated population benefits society as a whole.",
+        "check_mode": "AI",
+        "explanation": "A noun clause (argue that …) reports the opinion, and an adverbial clause of reason (because …) replaces the separate 'This is because' sentence, which examiners often see as a band-5 pattern."
+      },
+      {
+        "id": "3",
+        "prompt": "I like living in a big city. There are many things to do. But it is very expensive.",
+        "options": [],
+        "accepted_answers": [
+          "Although living in a big city is very expensive, I enjoy it because there is always something to do."
+        ],
+        "model_answer": "Although city life can be extremely expensive, I really enjoy it because there's always something going on, whether it's a concert, an exhibition or just a new restaurant to try.",
+        "check_mode": "AI",
+        "explanation": "An 'although' clause of concession replaces 'But', and a 'because' clause gives the reason, so the Speaking Part 3 answer becomes one fluent, complex sentence. Never use 'although' and 'but' together."
+      },
+      {
+        "id": "4",
+        "prompt": "Many old people live alone. They often feel lonely. The government should help them.",
+        "options": [],
+        "accepted_answers": [
+          "Elderly people who live alone often feel lonely, so the government should do more to support them."
+        ],
+        "model_answer": "Elderly people who live alone often suffer from loneliness, which is why the government should provide more community support for them.",
+        "check_mode": "AI",
+        "explanation": "A defining relative clause (who live alone) identifies the group without a separate sentence, and 'which is why' is a sentence-relative clause that links the problem to the solution."
+      },
+      {
+        "id": "5",
+        "prompt": "Tourism brings a lot of money. It also damages the environment. This is a big problem.",
+        "options": [],
+        "accepted_answers": [
+          "While tourism brings considerable economic benefits, it also damages the environment, which is a serious problem."
+        ],
+        "model_answer": "While tourism brings considerable economic benefits, it also causes significant environmental damage, which presents a serious dilemma for many coastal communities.",
+        "check_mode": "AI",
+        "explanation": "A contrast clause (While …) balances the two sides in one sentence, and a non-defining relative clause with 'which' comments on the whole idea instead of starting a new sentence with 'This'."
+      },
+      {
+        "id": "6",
+        "prompt": "The factory is in the south of the town. It produces paper. It employs 500 people.",
+        "options": [],
+        "accepted_answers": [
+          "The factory, which is in the south of the town and produces paper, employs 500 people."
+        ],
+        "model_answer": "The paper factory, which is located in the south of the town, employs 500 people.",
+        "check_mode": "AI",
+        "explanation": "Three short sentences about the same noun can be merged with a non-defining relative clause (which is located …) placed between commas, keeping the most important fact (employs 500 people) in the main clause."
+      },
+      {
+        "id": "7",
+        "prompt": "Children play computer games a lot. So they do not do exercise. So they become overweight.",
+        "options": [],
+        "accepted_answers": [
+          "Because children who play computer games a lot do little exercise, they often become overweight."
+        ],
+        "model_answer": "Children who spend long hours playing computer games tend to take little physical exercise, which makes them more likely to become overweight.",
+        "check_mode": "AI",
+        "explanation": "Repeating 'So … So …' creates a chain of simple sentences. A defining relative clause (who spend long hours …) and a 'which' clause expressing the result show the cause-and-effect relationship far more precisely."
+      },
+      {
+        "id": "8",
+        "prompt": "People eat a lot of fast food. The reason is they are busy.",
+        "options": [],
+        "accepted_answers": [
+          "The main reason why people eat so much fast food is that they are very busy."
+        ],
+        "model_answer": "The main reason why so many people rely on fast food is that they lead increasingly busy lives.",
+        "check_mode": "AI",
+        "explanation": "The pattern 'The reason why … is that …' uses two clauses: a relative clause after 'reason' and a noun clause after 'is'. Avoid 'The reason is because …', which is redundant."
+      },
+      {
+        "id": "9",
+        "prompt": "Some people say technology makes us lonely. I don't agree. We can talk to our friends online.",
+        "options": [],
+        "accepted_answers": [
+          "Although some people claim that technology makes us lonely, I disagree because it allows us to talk to our friends online."
+        ],
+        "model_answer": "Although some people claim that technology has made us more isolated, I would argue that it actually allows us to stay in touch with friends whom we would otherwise rarely see.",
+        "check_mode": "AI",
+        "explanation": "This version combines three clause types: a concession clause (Although …), two noun clauses (claim that …, argue that …) and a defining relative clause (friends whom we would otherwise rarely see). This is the range examiners look for at band 7 and above."
+      }
+    ]
+  }
+}

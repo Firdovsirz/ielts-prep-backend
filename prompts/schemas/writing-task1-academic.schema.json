@@ -1,0 +1,189 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "writing-task1-academic",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "chart_type",
+    "topic",
+    "prompt",
+    "figure_title",
+    "units",
+    "x_label",
+    "y_label",
+    "categories",
+    "series",
+    "process_steps",
+    "process_is_cycle",
+    "maps",
+    "key_features"
+  ],
+  "properties": {
+    "chart_type": {
+      "type": "string",
+      "enum": [
+        "LINE",
+        "BAR",
+        "PIE",
+        "TABLE",
+        "PROCESS",
+        "MAP"
+      ]
+    },
+    "topic": {
+      "type": "string"
+    },
+    "prompt": {
+      "type": "string",
+      "description": "Full task wording, ending with \"Summarise the information by selecting and reporting the main features, and make comparisons where relevant.\" (processes/maps use the standard variant)."
+    },
+    "figure_title": {
+      "type": "string"
+    },
+    "units": {
+      "type": "string",
+      "description": "Unit of measurement, e.g. \"% of households\", \"millions of tonnes\". Empty for PROCESS/MAP."
+    },
+    "x_label": {
+      "type": "string"
+    },
+    "y_label": {
+      "type": "string"
+    },
+    "categories": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "LINE/BAR: x-axis labels. PIE: slice labels. TABLE: column headers (excluding the row-label column). Empty for PROCESS/MAP."
+    },
+    "series": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "name",
+          "values"
+        ],
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "Series/row/pie name"
+          },
+          "values": {
+            "type": "array",
+            "items": {
+              "type": "number"
+            },
+            "description": "One value per category."
+          }
+        }
+      },
+      "description": "LINE/BAR: one per line/bar group. PIE: one per pie (1–3 pies). TABLE: one per row. Empty for PROCESS/MAP."
+    },
+    "process_steps": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "step",
+          "label",
+          "description"
+        ],
+        "properties": {
+          "step": {
+            "type": "integer"
+          },
+          "label": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          }
+        }
+      },
+      "description": "PROCESS only."
+    },
+    "process_is_cycle": {
+      "type": "boolean",
+      "description": "PROCESS only: true when the process loops back."
+    },
+    "maps": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "title",
+          "features"
+        ],
+        "properties": {
+          "title": {
+            "type": "string",
+            "description": "e.g. \"1995\" or \"Present day\""
+          },
+          "features": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "label",
+                "kind",
+                "x",
+                "y",
+                "w",
+                "h"
+              ],
+              "properties": {
+                "label": {
+                  "type": "string"
+                },
+                "kind": {
+                  "type": "string",
+                  "enum": [
+                    "building",
+                    "road",
+                    "path",
+                    "water",
+                    "green",
+                    "car_park",
+                    "farmland",
+                    "forest",
+                    "other"
+                  ]
+                },
+                "x": {
+                  "type": "number",
+                  "description": "0–100"
+                },
+                "y": {
+                  "type": "number",
+                  "description": "0–100"
+                },
+                "w": {
+                  "type": "number",
+                  "description": "0–100"
+                },
+                "h": {
+                  "type": "number",
+                  "description": "0–100"
+                }
+              }
+            }
+          }
+        }
+      },
+      "description": "MAP only: exactly two maps (before/after or present/planned)."
+    },
+    "key_features": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "3–6 main features/overview points a band-8 answer must report (for the grader, never shown before submission)."
+    }
+  }
+}

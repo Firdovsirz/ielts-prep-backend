@@ -1,0 +1,103 @@
+{
+  "task_type": "GRAMMAR_EXERCISE",
+  "source_url": "",
+  "licence": "Original content",
+  "content": {
+    "area": "AGREEMENT_ARTICLES",
+    "exercise_type": "GAP_FILL",
+    "title": "Articles: a, an, the or no article",
+    "instructions": "Complete each sentence with a, an, the or - (a hyphen, meaning no article). Write only the article, or '-' if no article is needed.",
+    "items": [
+      {
+        "id": "1",
+        "prompt": "In recent years, ___ number of students choosing to study abroad has increased dramatically.",
+        "options": [],
+        "accepted_answers": ["the"],
+        "model_answer": "In recent years, the number of students choosing to study abroad has increased dramatically.",
+        "check_mode": "EXACT",
+        "explanation": "'The number of + plural noun' refers to a specific figure and takes a singular verb (has increased). Compare 'a number of' (= several), which takes a plural verb: 'A number of students have complained.'"
+      },
+      {
+        "id": "2",
+        "prompt": "In my opinion, ___ education is the most powerful tool for reducing poverty in developing countries.",
+        "options": [],
+        "accepted_answers": ["-", "no article", "zero", "zero article"],
+        "model_answer": "In my opinion, education is the most powerful tool for reducing poverty in developing countries.",
+        "check_mode": "EXACT",
+        "explanation": "Uncountable abstract nouns used in a general sense (education, pollution, technology, crime) take no article. Use 'the' only when the noun is made specific, e.g. 'the education of girls in rural areas'."
+      },
+      {
+        "id": "3",
+        "prompt": "The figure rose to 45% in 2010, which represented ___ increase of almost ten percentage points.",
+        "options": [],
+        "accepted_answers": ["an"],
+        "model_answer": "The figure rose to 45% in 2010, which represented an increase of almost ten percentage points.",
+        "check_mode": "EXACT",
+        "explanation": "A singular countable noun mentioned for the first time needs a/an. 'An' is used before a vowel sound: an increase, an overall rise, an eightfold jump."
+      },
+      {
+        "id": "4",
+        "prompt": "Rice remained ___ most popular staple food in the region throughout the period.",
+        "options": [],
+        "accepted_answers": ["the"],
+        "model_answer": "Rice remained the most popular staple food in the region throughout the period.",
+        "check_mode": "EXACT",
+        "explanation": "Superlatives (the most popular, the highest, the largest proportion) always take 'the', because only one item can be at the top."
+      },
+      {
+        "id": "5",
+        "prompt": "Having ___ university degree no longer guarantees a well-paid job in many countries.",
+        "options": [],
+        "accepted_answers": ["a"],
+        "model_answer": "Having a university degree no longer guarantees a well-paid job in many countries.",
+        "check_mode": "EXACT",
+        "explanation": "The choice between 'a' and 'an' depends on sound, not spelling. 'University' begins with a /j/ sound (you-niversity), so it takes 'a', like 'a European country' and 'a one-off payment'."
+      },
+      {
+        "id": "6",
+        "prompt": "The chart shows the percentage of students who travel to school by ___ bus in three different cities.",
+        "options": [],
+        "accepted_answers": ["-", "no article", "zero", "zero article"],
+        "model_answer": "The chart shows the percentage of students who travel to school by bus in three different cities.",
+        "check_mode": "EXACT",
+        "explanation": "The fixed pattern 'by + means of transport' (by bus, by car, by train, by bicycle) takes no article. Compare 'on the bus' or 'in a car', which do use an article."
+      },
+      {
+        "id": "7",
+        "prompt": "Governments should do far more to protect ___ environment from industrial pollution.",
+        "options": [],
+        "accepted_answers": ["the"],
+        "model_answer": "Governments should do far more to protect the environment from industrial pollution.",
+        "check_mode": "EXACT",
+        "explanation": "Some nouns refer to something unique that everyone knows and take 'the': the environment, the internet, the economy, the government (of a country), the countryside."
+      },
+      {
+        "id": "8",
+        "prompt": "In most developed countries, ___ women now make up almost half of the workforce.",
+        "options": [],
+        "accepted_answers": ["-", "no article", "zero", "zero article"],
+        "model_answer": "In most developed countries, women now make up almost half of the workforce.",
+        "check_mode": "EXACT",
+        "explanation": "Plural countable nouns used for a whole group in general (women, children, young people, cars) take no article. 'The women' would refer to a particular group already identified."
+      },
+      {
+        "id": "9",
+        "prompt": "I think people who live in ___ countryside often find it harder to access good healthcare.",
+        "options": [],
+        "accepted_answers": ["the"],
+        "model_answer": "I think people who live in the countryside often find it harder to access good healthcare.",
+        "check_mode": "EXACT",
+        "explanation": "'The countryside', like 'the city', 'the coast' and 'the seaside', is used with 'the' when we mean that type of place in general. This is very common in Speaking Part 3 answers about urban and rural life."
+      },
+      {
+        "id": "10",
+        "prompt": "Only ___ small minority of respondents said that they used public transport every day.",
+        "options": [],
+        "accepted_answers": ["a"],
+        "model_answer": "Only a small minority of respondents said that they used public transport every day.",
+        "check_mode": "EXACT",
+        "explanation": "Fixed quantity expressions take the indefinite article: a small minority, a large majority, a third, a quarter, a significant proportion. 'Small' begins with a consonant sound, so 'a' is used."
+      }
+    ]
+  }
+}

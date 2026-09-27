@@ -1,0 +1,262 @@
+{
+  "module": "writing",
+  "variant": "academic",
+  "duration_minutes": 60,
+  "general_rules": [
+    "Two tasks; both must be completed. Task 2 contributes twice as much as Task 1 to the Writing band.",
+    "Both tasks must be written as full, connected text; notes and bullet points are penalised, and so is plagiarised (copied) text.",
+    "Write in an academic or semi-formal/neutral style.",
+    "There is no upper word limit. Writing more than the minimum is not penalised, but a long Task 1 costs time needed for Task 2.",
+    "Computer-delivered candidates type both answers, with a live word count on screen. Paper candidates write on the answer booklet."
+  ],
+  "task1": {
+    "minutes": 20,
+    "min_words": 150,
+    "weight": "one third",
+    "target_words": [160, 200],
+    "paper_heading": "WRITING TASK 1",
+    "rubric_frame": "You should spend about 20 minutes on this task.\n\n{figure_sentence}\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.\n\nWrite at least 150 words.",
+    "closing_sentence": "Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+    "task_rules": [
+      "An information-transfer task: describe only what the visual shows. Give no causes, speculation, recommendations or personal opinion beyond the data.",
+      "Select the key features (highest/lowest, biggest changes, main trends, exceptions) and support them with accurate figures and units; do not list every number.",
+      "A clear overview of the main trends, differences or stages is required for band 7+ (an attempted overview for band 6).",
+      "Paraphrase the prompt in the introduction; copied rubric is discounted.",
+      "Group information logically into paragraphs (commonly: introduction, overview, two body paragraphs).",
+      "Tense follows the data: past years → past simple; projections → future/predictive forms ('is expected to'); no time reference → present simple.",
+      "Tasks may combine two figures (e.g. a line graph and a pie chart, or a table and a bar chart); the overview then covers both and the body links them."
+    ],
+    "figure_types": {
+      "LINE": {
+        "rubric": "You should spend about 20 minutes on this task.\n\nThe graph below shows {description}.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.\n\nWrite at least 150 words.",
+        "rubric_openers": ["The graph below shows …", "The line graph below shows …", "The graph below gives information about …"],
+        "expected_structure": [
+          "Introduction (1–2 sentences): paraphrase what is measured, the units, the categories/places and the time period.",
+          "Overview (2–3 sentences, few or no figures): the overall direction of each main line, the most striking change, which is highest/lowest over the period, and any crossover.",
+          "Body 1: detailed description of one group of lines (or the first part of the period), with figures at key points (start, peaks, troughs, end) and comparisons.",
+          "Body 2: the remaining lines (or the later period, including any projections), again with figures and comparisons.",
+          "No separate conclusion is needed; any final summary must restate the overview, not add opinion."
+        ],
+        "key_language": [
+          "Upward: rise, increase, grow, climb, go up, surge, soar, rocket; a rise/increase/growth in …",
+          "Downward: fall, decline, decrease, drop, dip, plummet, slump; a fall/decline/drop in …",
+          "No change / variation: remain stable/steady/constant, level off, plateau, stabilise, fluctuate (around), show little change",
+          "Extremes: peak at, reach a high of, hit a low of, bottom out at, reach a peak of",
+          "Degree and speed: sharply, dramatically, significantly, considerably, steadily, gradually, moderately, slightly, marginally",
+          "Comparison: overtake, surpass, exceed, twice/three times as high as, the gap between X and Y widened/narrowed, in contrast, whereas, while",
+          "Approximation: approximately, roughly, around, just over/under, nearly, almost, well over",
+          "Time: over the period, between 1990 and 2010, from … to …, by 2020, in the following decade, thereafter, throughout the period",
+          "Projections: is projected/expected/predicted/forecast to rise; is likely to"
+        ]
+      },
+      "BAR": {
+        "rubric": "You should spend about 20 minutes on this task.\n\nThe chart below shows {description}.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.\n\nWrite at least 150 words.",
+        "rubric_openers": ["The chart below shows …", "The bar chart below shows …", "The bar chart below gives information about …"],
+        "expected_structure": [
+          "Introduction: paraphrase the measure, units, categories, groups and time(s).",
+          "Overview: the largest and smallest categories and the overall pattern; if the bars cover several years, the main trend(s) over time.",
+          "Body 1: compare one set of bars (e.g. the highest categories, or one group/year) with figures.",
+          "Body 2: compare the remaining categories or the other group/year, highlighting notable contrasts or exceptions.",
+          "Organise by comparison, not bar by bar in reading order."
+        ],
+        "key_language": [
+          "Ranking: the highest/largest proportion, followed by, ranked second, the lowest figure was for …",
+          "Comparison: X was higher than Y, X was almost double Y, compared with, in comparison, by contrast, similarly, the same proportion as, respectively",
+          "Figures: the figure for X stood at …, X accounted for …, X reached …",
+          "Difference: exceeded by …, the difference between X and Y was …, significantly/slightly more than",
+          "Change over time (when years are shown): use LINE trend language"
+        ]
+      },
+      "PIE": {
+        "rubric": "You should spend about 20 minutes on this task.\n\nThe pie charts below show {description}.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.\n\nWrite at least 150 words.",
+        "rubric_openers": ["The pie chart below shows …", "The pie charts below show …", "The charts below give information about …"],
+        "expected_structure": [
+          "Introduction: paraphrase what the whole represents, the categories and the time(s) or places.",
+          "Overview: the dominant and smallest segments; for several pies, the main shifts in share between them.",
+          "Body 1: the largest segments (or the first pie) with percentages and comparisons.",
+          "Body 2: the smaller segments (or the second pie / the changes between pies).",
+          "Remember that pie charts show proportions of a whole: describe shares, not absolute amounts, unless totals are given."
+        ],
+        "key_language": [
+          "Share: account for, make up, comprise, constitute, represent, form",
+          "Fractions and proportions: a quarter, a third, just under half, the majority, a minority, a small fraction, the remainder, the rest",
+          "Largest/smallest: the largest segment/share, the second largest, the smallest proportion",
+          "Change between pies: the share of X rose from … to …, X's proportion doubled/halved, X overtook Y as the main …",
+          "Accuracy: exactly, precisely, roughly, just over"
+        ]
+      },
+      "TABLE": {
+        "rubric": "You should spend about 20 minutes on this task.\n\nThe table below gives information about {description}.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.\n\nWrite at least 150 words.",
+        "rubric_openers": ["The table below shows …", "The table below gives information about …", "The table below compares …"],
+        "expected_structure": [
+          "Introduction: paraphrase the variables (rows and columns), units and time/place.",
+          "Overview: the most significant patterns: the highest and lowest items, general trends across columns, notable exceptions.",
+          "Body 1: one logical group (e.g. the top-ranked rows, or one variable) with selected figures.",
+          "Body 2: another group or variable, with contrasts.",
+          "Select and group; don't turn every cell into a sentence."
+        ],
+        "key_language": [
+          "The figure for X was …, X stood at …, X recorded the highest …",
+          "Respectively (for paired figures), whereas, while, by contrast, in comparison",
+          "Ranking: ranked first, came second, the lowest was …",
+          "Proportion and multiples: twice as many, a third of, the vast majority",
+          "Trend language when columns are years"
+        ]
+      },
+      "PROCESS": {
+        "rubric": "You should spend about 20 minutes on this task.\n\nThe diagram below shows {description}.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.\n\nWrite at least 150 words.",
+        "rubric_openers": ["The diagram below shows the process by which …", "The diagram below shows how … is produced/made.", "The diagram below shows the stages in …", "The diagram below shows the life cycle of …"],
+        "expected_structure": [
+          "Introduction: paraphrase what process is shown.",
+          "Overview: the number of stages, the start and end points, and whether it is a linear (manufacturing) or cyclical (natural) process.",
+          "Body 1: the first half of the stages in order, with the materials, equipment and conditions shown.",
+          "Body 2: the remaining stages to the end product (or back to the start of the cycle).",
+          "Mention every stage shown; describe it using the diagram's labels, but paraphrase them and build them into connected sentences."
+        ],
+        "key_language": [
+          "Present simple passive: is harvested, is transported to, is crushed, is heated to, is filtered, is mixed with, is packaged, is delivered",
+          "Sequencers: first/initially/to begin with, at the first stage, next, then, subsequently, after that, following this, once X has been …, after which, before being …, finally, in the final stage",
+          "Purpose and result: in order to, so that, which results in, producing, to form",
+          "Cycle: the cycle then begins again, the process repeats",
+          "Active verbs for natural stages: the larvae hatch, the water evaporates, the eggs develop into …"
+        ]
+      },
+      "MAP": {
+        "rubric": "You should spend about 20 minutes on this task.\n\nThe maps below show {description}.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.\n\nWrite at least 150 words.",
+        "rubric_openers": ["The maps below show the changes to … between … and …", "The maps below show … in … and the present day.", "The plans below show …", "The map below shows two possible sites for …"],
+        "expected_structure": [
+          "Introduction: paraphrase the place, time points (or proposed sites) and what is compared.",
+          "Overview: the overall nature of the change (e.g. more residential and modern, green space lost, transport improved), plus what stayed the same.",
+          "Body 1: changes in one area or of one type (e.g. buildings or housing), with locations.",
+          "Body 2: other changes (e.g. roads, facilities, green areas), with locations.",
+          "For two proposed sites: compare the sites' locations and features instead of changes over time."
+        ],
+        "key_language": [
+          "Past passive for change: was demolished, was replaced by, was converted into, was extended, was expanded, was constructed/built, was relocated, was cleared, was added, was turned into",
+          "Unchanged: remained unchanged, was retained, still stands",
+          "Location: to the north/south-east of, in the north-west corner, adjacent to, next to, opposite, alongside, across from, on the site of, at the edge of, in the centre of, beside the river",
+          "Overall description: the area became more urbanised/developed, underwent significant redevelopment, was transformed",
+          "Plans or future: will be built, is to be converted, is planned to be"
+        ]
+      }
+    }
+  },
+  "task2": {
+    "minutes": 40,
+    "min_words": 250,
+    "weight": "two thirds",
+    "target_words": [270, 320],
+    "paper_heading": "WRITING TASK 2",
+    "opening_rubric": "You should spend about 40 minutes on this task.\n\nWrite about the following topic:",
+    "prompt_layout": "{opening_rubric}\n\n{statement}\n\n{question}\n\n{closing_rubric}",
+    "task_rules": [
+      "The candidate must formulate and develop a position on a given prompt (a question or statement) about a topic of general interest suited to university entrants.",
+      "Answer every part of the question; the specific aspect asked, not the general topic.",
+      "Support ideas with explanation, evidence and examples (personal experience is allowed).",
+      "Four or five paragraphs is the conventional structure: introduction, 2–3 body paragraphs, conclusion.",
+      "Copied prompt language is discounted; paraphrase the statement in the introduction."
+    ],
+    "essay_types": {
+      "OPINION": {
+        "question_forms": [
+          "To what extent do you agree or disagree?",
+          "Do you agree or disagree?",
+          "To what extent do you agree or disagree with this opinion?",
+          "To what extent do you agree or disagree with this statement?",
+          "What is your opinion?",
+          "Is this a positive or negative development?",
+          "Do you think this is a positive or a negative development?"
+        ],
+        "expected_structure": [
+          "Introduction: paraphrase the statement and state a clear position (agree / disagree / partly agree, and to what extent).",
+          "Body 1: first main reason for the position, explained and supported with an example or consequence.",
+          "Body 2: second main reason; or, for partial agreement, the aspect the writer disagrees with, explained.",
+          "Optional body 3: acknowledge the opposing view and rebut it.",
+          "Conclusion: restate the position consistently and summarise the main reasons."
+        ],
+        "task_response_traps": [
+          "Discussing both sides without ever committing to a position (TR ≤ 6 because the position/conclusions are unclear).",
+          "Changing position between the introduction and the conclusion.",
+          "'To what extent' means the degree of agreement must be clear; partial agreement is fine if explicit."
+        ]
+      },
+      "DISCUSSION": {
+        "question_forms": [
+          "Discuss both these views and give your own opinion.",
+          "Discuss both views and give your opinion.",
+          "Discuss both these views and state your own opinion."
+        ],
+        "expected_structure": [
+          "Introduction: paraphrase the two views and signal the writer's own opinion (or say it will be given).",
+          "Body 1: the first view, with reasons and an example, presented fairly.",
+          "Body 2: the second view, with reasons and an example; often the view the writer supports.",
+          "Conclusion: summarise both views and state the writer's own opinion clearly (it may favour one view or combine both)."
+        ],
+        "task_response_traps": [
+          "Omitting the writer's own opinion ('main parts incompletely addressed' → TR max 5).",
+          "Discussing only one of the two views in any depth.",
+          "Giving an opinion that contradicts the body paragraphs."
+        ]
+      },
+      "ADVANTAGES_DISADVANTAGES": {
+        "question_forms": [
+          "What are the advantages and disadvantages of {X}?",
+          "Do the advantages of this outweigh the disadvantages?",
+          "Do the advantages outweigh the disadvantages?",
+          "Do the benefits of this outweigh the drawbacks?",
+          "Do the advantages of {X} outweigh the disadvantages?"
+        ],
+        "expected_structure": [
+          "Introduction: paraphrase the situation; for 'outweigh' prompts, state which side the writer considers greater.",
+          "Body 1: main advantages (1–2), explained with examples.",
+          "Body 2: main disadvantages (1–2), explained with examples.",
+          "Conclusion: summarise; for 'outweigh' prompts, confirm clearly which side is greater and why."
+        ],
+        "task_response_traps": [
+          "For 'outweigh' prompts, listing pros and cons without weighing them (position unclear).",
+          "Discussing general advantages of a topic instead of the specific development in the prompt."
+        ]
+      },
+      "PROBLEM_SOLUTION": {
+        "question_forms": [
+          "What problems does this cause? What solutions can you suggest?",
+          "What problems might this cause? How could these problems be solved?",
+          "What are the causes of this problem? What measures could be taken to solve it?",
+          "What are the reasons for this? What can be done to solve this problem?",
+          "Why is this the case? What can be done about it?"
+        ],
+        "expected_structure": [
+          "Introduction: paraphrase the issue and preview problems/causes and solutions.",
+          "Body 1: 2 problems or causes, each explained with consequences or examples.",
+          "Body 2: solutions that clearly match the problems/causes given, with who should act and how.",
+          "Conclusion: summarise the main causes/problems and the most effective solutions."
+        ],
+        "task_response_traps": [
+          "Writing about effects when causes are asked for (or the reverse).",
+          "Solutions that do not address the stated problems, or are vague ('the government should do something').",
+          "Spending almost all the words on one half of the question."
+        ]
+      },
+      "DOUBLE_QUESTION": {
+        "question_forms": [
+          "Why is this happening? Is this a positive or negative development?",
+          "What are the reasons for this? Is this a positive or negative trend?",
+          "Why do you think this is? What effects does this have on {X}?",
+          "Why is this the case? How could {X} be encouraged?",
+          "What are the reasons for this? What can be done to change it?"
+        ],
+        "expected_structure": [
+          "Introduction: paraphrase the situation and give a brief answer to both questions.",
+          "Body 1: a full answer to the first question (2 developed points).",
+          "Body 2: a full answer to the second question (with a clear view where it asks for an evaluation, e.g. positive or negative).",
+          "Conclusion: restate the answers to both questions."
+        ],
+        "task_response_traps": [
+          "Answering one question fully and the other in a sentence (main parts incompletely addressed → TR max 5).",
+          "Treating the prompt as an agree/disagree essay instead of answering the questions asked."
+        ]
+      }
+    },
+    "closing_rubric": "Give reasons for your answer and include any relevant examples from your own knowledge or experience.\n\nWrite at least 250 words."
+  }
+}

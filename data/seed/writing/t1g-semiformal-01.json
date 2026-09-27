@@ -1,0 +1,25 @@
+{
+  "task_type": "WRITING_TASK1_GENERAL",
+  "source_url": "",
+  "licence": "Original content",
+  "content": {
+    "letter_type": "SEMI_FORMAL",
+    "topic": "Requesting a change to working hours",
+    "situation": "You have worked for your company for two years and would like to change your working hours.",
+    "recipient": "your manager",
+    "bullet_points": [
+      "explain why you would like to change your working hours",
+      "say what new working hours you would like",
+      "explain how you will make sure the change does not affect your work"
+    ],
+    "prompt": "You should spend about 20 minutes on this task.\n\nYou have worked for your company for two years and would like to change your working hours.\n\nWrite a letter to your manager. In your letter\n\n• explain why you would like to change your working hours\n• say what new working hours you would like\n• explain how you will make sure the change does not affect your work\n\nWrite at least 150 words.\n\nYou do NOT need to write any addresses.\n\nBegin your letter as follows:\n\nDear …,",
+    "key_features": [
+      "Semi-formal, respectful register suited to a manager the writer knows: addresses them by title and surname (e.g. 'Dear Mr Patel'), few or no contractions, and closes with 'Yours sincerely' or 'Kind regards'.",
+      "States the request clearly in the opening paragraph.",
+      "Gives a genuine, specific reason for the change (e.g. a new childcare arrangement, a part-time course, a long commute).",
+      "Proposes precise new hours and days (e.g. 7.30 a.m. to 3.30 p.m., Monday to Friday) rather than a vague request.",
+      "Offers concrete reassurance that work will not suffer (e.g. staying reachable by email, handing over tasks to a named colleague, suggesting a trial period and review).",
+      "Logical paragraphing, at least 150 words, and a polite closing that invites a meeting or reply."
+    ]
+  }
+}

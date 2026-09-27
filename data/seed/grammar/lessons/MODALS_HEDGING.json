@@ -1,0 +1,91 @@
+{
+  "task_type": "GRAMMAR_LESSON",
+  "source_url": "",
+  "licence": "Original content",
+  "content": {
+    "area": "MODALS_HEDGING",
+    "title": "Modals and hedging: sounding cautious and precise",
+    "summary": "Band 7 and 8 writers qualify their claims instead of over-generalising, and accurate hedging is one of the clearest signs of academic control in Task 2 and Speaking Part 3. Band 6 candidates tend to write absolute statements ('Technology makes people lonely') or mis-form modals ('can to', 'might caused'); precise modals improve both your grammar score and the strength of your argument.",
+    "explanation": "### Why hedge?\nIELTS essay questions are debatable, so sweeping claims such as *All teenagers are addicted to their phones* weaken your position. Hedging shows you understand the limits of your evidence — and it naturally adds grammatical range.\n\n### Modal verbs: the form\n- Modal + **base verb**, with no *to* and no *-s*: *It **may cause**…* — not ✗ *may causes* or ✗ *can to cause*.\n- Speculating about the past: modal + **have + past participle**: *The decline **might have been caused** by…*\n- Two modals never go together: use *be able to* / *have to* after a modal: *will **be able to***, *might **have to***.\n\n### Degrees of certainty\nFrom strongest to weakest:\n- **will / must** — near certainty: *This **will** increase costs.*\n- **should / is likely to** — probable: *Prices **are likely to** fall.*\n- **may / could** — possible: *Longer hours **may** reduce productivity.*\n- **might** — a weaker possibility\n- **can't / couldn't** — logically impossible: *That **can't** be the only reason.*\n\n*Can* describes what is generally possible (*Social media **can** be addictive* = it sometimes is); *may/might/could* speculate about a particular case.\n\n### Hedging beyond modals\n- **Verbs:** *tend to, appear to, seem to* — *Younger voters **tend to** favour online campaigns.*\n- **Adjectives:** *is likely / unlikely to, it is possible that*\n- **Adverbs:** *arguably, generally, possibly, to some extent, in most cases*\n- **Quantifiers:** *many, most, a significant proportion of* instead of *all* or *everyone*\n- **Impersonal openers:** *It could be argued that…*, *There is some evidence that…*\n\n### Would, could and should for arguments\n- ***would*** — the hypothetical result of a proposal: *A sugar tax **would** reduce consumption.*\n- ***could*** — a possible option: *Schools **could** offer more vocational courses.*\n- ***should / ought to*** — a recommendation: *Governments **should** prioritise public health.*\n- In Part 3: *I **would say** that…*, *I**'d imagine**…*, *It **might** depend on…*\n\n### Task 1 caution\nTask 1 describes data; do not speculate about causes. Hedge only for approximations and forecasts: *approximately, just under, is projected to*.\n\n### Don't over-hedge\nOne hedge per claim is enough. *It might possibly perhaps be true that…* sounds evasive. Keep your main position clear in the introduction and conclusion; hedge the supporting claims, not your thesis.",
+    "key_rules": [
+      {
+        "rule": "A modal verb is followed by the base verb, with no 'to' and no third-person -s.",
+        "example": "Automation may replace many routine office jobs within a generation."
+      },
+      {
+        "rule": "Use modal + have + past participle to speculate or make deductions about the past.",
+        "example": "The drop in visitor numbers could have been caused by the rise in air fares."
+      },
+      {
+        "rule": "Match the modal to your level of certainty: will/must > should/is likely to > may/could > might.",
+        "example": "Electric cars are likely to become cheaper, although charging networks may remain inadequate in rural areas."
+      },
+      {
+        "rule": "Use tend to / appear to / seem to to generalise cautiously.",
+        "example": "People who live alone tend to eat more processed food."
+      },
+      {
+        "rule": "Replace absolute quantifiers (all, everyone, always) with qualified ones (many, most, often).",
+        "example": "Many young people now rely on social media as their main source of news."
+      },
+      {
+        "rule": "Use would for the hypothetical result of a proposal and should for a recommendation.",
+        "example": "A four-day week would improve employees' well-being, so companies should at least trial it."
+      }
+    ],
+    "common_mistakes": [
+      {
+        "wrong": "This can to reduce traffic in city centres.",
+        "right": "This can reduce traffic in city centres.",
+        "why": "Modal verbs take the base verb without 'to'."
+      },
+      {
+        "wrong": "Technology makes people lonely.",
+        "right": "Heavy use of technology can make some people feel isolated.",
+        "why": "An absolute claim is easy to challenge; hedging with 'can' and 'some' makes the argument more precise and academic."
+      },
+      {
+        "wrong": "The fall in sales might caused by the new competitor.",
+        "right": "The fall in sales might have been caused by the new competitor.",
+        "why": "Speculation about the past needs modal + have + past participle, and here the verb must also be passive."
+      },
+      {
+        "wrong": "He must be at home yesterday.",
+        "right": "He must have been at home yesterday.",
+        "why": "A deduction about the past needs 'must have + past participle'."
+      },
+      {
+        "wrong": "In the future, people will can work from anywhere.",
+        "right": "In the future, people will be able to work from anywhere.",
+        "why": "Two modals cannot be combined; use 'be able to' after 'will'."
+      },
+      {
+        "wrong": "It might possibly perhaps be a good idea to ban cars from city centres.",
+        "right": "It might be a good idea to ban cars from city centres.",
+        "why": "Stacking hedges sounds evasive; one hedge per claim is enough."
+      }
+    ],
+    "ielts_examples": [
+      {
+        "context": "WRITING_TASK2",
+        "sentence": "Although a ban on junk-food advertising is unlikely to solve childhood obesity on its own, it could form part of a broader public-health strategy."
+      },
+      {
+        "context": "WRITING_TASK2",
+        "sentence": "Students who work part-time tend to develop stronger time-management skills, although long shifts may well affect their academic performance."
+      },
+      {
+        "context": "SPEAKING_PART2",
+        "sentence": "Looking back, I should have booked the tickets earlier, because by the time I tried, the cheapest seats must already have sold out."
+      },
+      {
+        "context": "SPEAKING_PART3",
+        "sentence": "I'd imagine that most people in my country would support the idea, but older generations might find it harder to adapt."
+      },
+      {
+        "context": "SPEAKING_PART3",
+        "sentence": "It can't be easy for teachers to hold students' attention when they're competing with smartphones all day."
+      }
+    ]
+  }
+}

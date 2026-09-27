@@ -1,0 +1,25 @@
+{
+  "task_type": "WRITING_TASK1_GENERAL",
+  "source_url": "",
+  "licence": "Original content",
+  "content": {
+    "letter_type": "FORMAL",
+    "topic": "Reduced library opening hours",
+    "situation": "The public library near your home has announced that it will reduce its opening hours from next month.",
+    "recipient": "the library manager",
+    "bullet_points": [
+      "explain how you use the library",
+      "describe the problems the new opening hours will cause for you",
+      "suggest what the library could do instead"
+    ],
+    "prompt": "You should spend about 20 minutes on this task.\n\nThe public library near your home has announced that it will reduce its opening hours from next month.\n\nWrite a letter to the library manager. In your letter\n\n• explain how you use the library\n• describe the problems the new opening hours will cause for you\n• suggest what the library could do instead\n\nWrite at least 150 words.\n\nYou do NOT need to write any addresses.\n\nBegin your letter as follows:\n\nDear Sir or Madam,",
+    "key_features": [
+      "Formal register throughout: no contractions, slang or overly emotional language; polite but firm tone.",
+      "Opening paragraph states the purpose clearly (concern about the planned reduction in opening hours).",
+      "Explains specifically how and when the writer uses the library (e.g. studying in the evenings, borrowing books for children, using the computers or study rooms).",
+      "Describes concrete problems the new hours will cause, clearly linked to the writer's own routine or commitments.",
+      "Makes at least one realistic, well-explained alternative (e.g. closing on the quietest weekday mornings instead, using volunteers, self-service opening at weekends).",
+      "Logical paragraphing, at least 150 words, and an appropriate close for 'Dear Sir or Madam' ('Yours faithfully' followed by a full name)."
+    ]
+  }
+}

@@ -1,0 +1,311 @@
+{
+  "module": "reading",
+  "variant": "general_training",
+  "duration_minutes": 60,
+  "total_questions": 40,
+  "transfer_time": "none (answers written directly on the answer sheet within the 60 minutes)",
+  "total_text_words": [2150, 2375],
+  "marking": "1 mark per correct answer; raw score out of 40 is converted to a band (whole or half band). General Training needs more correct answers than Academic for the same band. Published GT reference points: about 15/40 = band 4, 23/40 = band 5, 30/40 = band 6, 35/40 = band 7 (exact conversion varies slightly between test versions).",
+  "text_sources": "Notices, advertisements, timetables, leaflets, brochures, guides, company handbooks, official documents, newspapers, magazines, books and online sources: texts a person living in an English-speaking country meets in daily life and at work. The three sections get harder in turn.",
+  "passages": [
+    {
+      "number": 1,
+      "section_name": "Section 1 (social survival)",
+      "difficulty_level": 1,
+      "questions": 14,
+      "question_range": "1–14",
+      "texts": "2–3 short texts, or several shorter texts (e.g. 4–7 advertisements or notices labelled A, B, C…) on one everyday theme",
+      "word_range": [500, 750],
+      "difficulty": "Most accessible (about CEFR B1–B2). Factual, practical information in short, clearly laid-out texts; the reader picks out key details such as prices, times, conditions and eligibility.",
+      "typical_sources": "Advertisements for courses, services or accommodation; notices; timetables; leaflets and brochures (e.g. from a museum, gym, library or tour operator); product instructions; public information from local councils.",
+      "typical_question_types": ["MATCHING_INFORMATION", "TRUE_FALSE_NOT_GIVEN", "SHORT_ANSWER", "SENTENCE_COMPLETION", "NOTE_COMPLETION", "MULTIPLE_CHOICE"]
+    },
+    {
+      "number": 2,
+      "section_name": "Section 2 (workplace survival)",
+      "difficulty_level": 2,
+      "questions": 13,
+      "question_range": "15–27",
+      "texts": "2 texts on work-related topics",
+      "word_range": [650, 850],
+      "difficulty": "Moderate (about CEFR B2). Semi-formal workplace texts with procedures, conditions, rights and responsibilities; more paraphrase and more detail to process.",
+      "typical_sources": "Job descriptions and advertisements; employment contracts and terms; staff handbooks and workplace policies (health and safety, leave, dress code); staff development and training materials; guidance on applying for jobs or writing a CV.",
+      "typical_question_types": ["SENTENCE_COMPLETION", "NOTE_COMPLETION", "SUMMARY_COMPLETION", "MATCHING_HEADINGS", "MATCHING_INFORMATION", "SHORT_ANSWER", "FLOW_CHART_COMPLETION", "TABLE_COMPLETION"]
+    },
+    {
+      "number": 3,
+      "section_name": "Section 3 (general reading)",
+      "difficulty_level": 3,
+      "questions": 13,
+      "question_range": "28–40",
+      "texts": "1 long text of general interest",
+      "word_range": [750, 950],
+      "difficulty": "Hardest (about CEFR B2–C1). A longer, more complex text, usually descriptive and narrative, with more complex structures and vocabulary than Sections 1–2. It is comparable to an easier Academic passage.",
+      "typical_sources": "Feature articles from newspapers and magazines, book extracts and online articles on history, nature, science, technology, society or biography.",
+      "typical_question_types": ["MATCHING_HEADINGS", "MULTIPLE_CHOICE", "TRUE_FALSE_NOT_GIVEN", "MATCHING_FEATURES", "SUMMARY_COMPLETION", "FLOW_CHART_COMPLETION", "SENTENCE_COMPLETION", "DIAGRAM_LABEL_COMPLETION"]
+    }
+  ],
+  "passage_design_rules": [
+    "Each section carries 2–3 question types (at least two), in consecutive blocks, each with its own rubric and question range. Section 1 blocks often refer to different short texts, e.g. Questions 1–7 on texts A–E and Questions 8–14 on a separate notice.",
+    "Question numbers run 1–40 across the test.",
+    "In multi-text sections, short texts carry letters (A, B, C…) or headings/titles, and the rubric names the text type, e.g. 'Look at the five advertisements, A–E.'",
+    "Section 3 may have a title and labelled paragraphs A, B, C… when a paragraph-matching task is used; MATCHING_HEADINGS questions are printed before the text.",
+    "General Training texts refer to the reader's own life and work ('you', 'staff', 'applicants'); keep them realistic and practical, not academic."
+  ],
+  "delivery_notes": [
+    "Rubric templates below are the paper-based wording. In computer-delivered IELTS the 'Write … in boxes … on your answer sheet' line is replaced by on-screen answer entry, and the rest of the rubric is unchanged.",
+    "GT rubrics refer to 'the text' (e.g. 'the text on page 2', 'the text below'), not to 'Reading Passage 1'. Completion rubrics say 'from the text'."
+  ],
+  "rubric_placeholders": {
+    "{from}": "first question number of the block",
+    "{to}": "last question number of the block",
+    "{passage}": "how the text is referred to: 'the text', 'the text on page 2', 'the text below'",
+    "{text_ref}": "the same text reference used as the subject of a sentence, e.g. 'The text' / 'The text on page 5'",
+    "{texts}": "plural text type for multi-text matching, e.g. 'advertisements', 'notices', 'course descriptions', 'reviews'",
+    "{text}": "singular of {texts}, e.g. 'advertisement'",
+    "{location}": "optional placement phrase for multi-text tasks, e.g. 'on the following page' or 'below' (omit it and its preceding comma if not needed)",
+    "{word_limit}": "an item from word_limit_phrases",
+    "{last_letter}": "last option letter",
+    "{last_numeral}": "last heading numeral in lower-case Roman numerals",
+    "{count_word}": "number written as a word, e.g. 'five' (texts/paragraphs), 'TWO' / 'THREE' (letters to choose, in capitals)",
+    "{paragraph_list}": "paragraphs to be matched when one is given as an example, e.g. 'A, B and D–G'",
+    "{features}": "plural name of the option set in MATCHING_FEATURES, e.g. 'companies', 'countries'",
+    "{feature}": "singular of {features}",
+    "{list_title}": "title of the option box, e.g. 'List of Countries'",
+    "{views_or_claims}": "'views' or 'claims'"
+  },
+  "word_limit_phrases": [
+    "ONE WORD ONLY",
+    "ONE WORD AND/OR A NUMBER",
+    "NO MORE THAN TWO WORDS",
+    "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+    "NO MORE THAN THREE WORDS",
+    "NO MORE THAN THREE WORDS AND/OR A NUMBER"
+  ],
+  "answer_sheet_conventions": [
+    "Answers are written directly on the answer sheet (in pencil) during the 60 minutes; there is no transfer time. Unanswered questions score 0 and wrong answers lose nothing.",
+    "Spelling must be correct; for 'from the text' answers copy the words exactly as spelt in the text. Official guidance warns that marks are lost for incorrect spelling and grammar, so the answer must also fit the gap grammatically.",
+    "Answers may be written in upper or lower case (all capitals is acceptable).",
+    "Exceeding the word limit makes the answer wrong even if it contains the right words.",
+    "Hyphenated words count as one word; contracted forms are not tested.",
+    "Numbers may be written as figures or words; under 'AND/OR A NUMBER' limits a number is counted separately from words. Prices, times and dates may be written in any clear standard form (e.g. £25 / 25 pounds; 7.30 / 7:30).",
+    "Completion answers must be words from the text, unchanged in form.",
+    "Words the key shows in brackets are optional; alternative correct answers are separated by a slash.",
+    "TRUE / FALSE / NOT GIVEN answers must use exactly that set (not YES/NO). In this app, require the full words; abbreviations are not accepted.",
+    "Letter answers: write only the letter; for headings, only the lower-case Roman numeral. Two answers for one question score 0.",
+    "MULTIPLE_CHOICE_MULTI: each question number carries one mark and the letters may be given in either order."
+  ],
+  "question_types": {
+    "MULTIPLE_CHOICE": {
+      "official_name": "Multiple choice (one answer)",
+      "frequency_in_gt": "common (mainly Section 3)",
+      "rubric_template": "Questions {from}–{to}\nChoose the correct letter, A, B, C or D.\nWrite the correct letter in boxes {from}–{to} on your answer sheet.",
+      "rubric_variants": [
+        "Questions {from} and {to}\nChoose the correct letter, A, B, C or D.\nWrite the correct letter in boxes {from} and {to} on your answer sheet."
+      ],
+      "answer_format": "One letter A–D.",
+      "follows_text_order": true,
+      "what_it_tests": "Detailed understanding of specific points or general understanding of the main points.",
+      "design_rules": [
+        "Four options A–D; one fully supported by the text, three plausible distractors that use nearby text.",
+        "Paraphrase the stem and the correct option; options of similar length and form.",
+        "Questions follow text order; usually 3–5 per block."
+      ]
+    },
+    "MULTIPLE_CHOICE_MULTI": {
+      "official_name": "Multiple choice (more than one answer)",
+      "frequency_in_gt": "occasional",
+      "rubric_template": "Questions {from} and {to}\nChoose TWO letters, A–{last_letter}.\nWrite the correct letters in boxes {from} and {to} on your answer sheet.",
+      "rubric_variants": [
+        "Questions {from}–{to}\nChoose THREE letters, A–{last_letter}.\nWrite the correct letters in boxes {from}–{to} on your answer sheet."
+      ],
+      "answer_format": "One distinct letter per question number; any order.",
+      "follows_text_order": false,
+      "what_it_tests": "Locating several specific points, e.g. which services, conditions or benefits a text mentions.",
+      "design_rules": [
+        "Stem follows the rubric, e.g. 'Which TWO things must new employees do before their first day?'",
+        "5 options for TWO answers (A–E), 6–7 for THREE; distractors mentioned in the text in a different role or not stated.",
+        "Each question number is worth one mark."
+      ]
+    },
+    "TRUE_FALSE_NOT_GIVEN": {
+      "official_name": "Identifying information (True/False/Not given)",
+      "frequency_in_gt": "very common (all sections)",
+      "rubric_template": "Questions {from}–{to}\nDo the following statements agree with the information given in {passage}?\nIn boxes {from}–{to} on your answer sheet, write\nTRUE if the statement agrees with the information\nFALSE if the statement contradicts the information\nNOT GIVEN if there is no information on this",
+      "rubric_variants": [],
+      "answer_format": "TRUE / FALSE / NOT GIVEN (full words).",
+      "follows_text_order": true,
+      "what_it_tests": "Recognising specific information and telling contradiction apart from absence of information.",
+      "design_rules": [
+        "Typically 5–8 statements; use each answer at least once; follow text order.",
+        "FALSE must contradict a specific stated detail (price, time, condition, eligibility, 'free'/'only'/'must'); NOT GIVEN is on-topic but not stated either way.",
+        "In practical texts, NOT GIVEN often adds a plausible extra condition or service the text never mentions."
+      ]
+    },
+    "YES_NO_NOT_GIVEN": {
+      "official_name": "Identifying writer's views/claims (Yes/No/Not given)",
+      "frequency_in_gt": "rare (not in the official General Training task-type list; use only with a Section 3 text that clearly expresses the writer's views)",
+      "rubric_template": "Questions {from}–{to}\nDo the following statements agree with the {views_or_claims} of the writer in {passage}?\nIn boxes {from}–{to} on your answer sheet, write\nYES if the statement agrees with the {views_or_claims} of the writer\nNO if the statement contradicts the {views_or_claims} of the writer\nNOT GIVEN if it is impossible to say what the writer thinks about this",
+      "rubric_variants": [],
+      "answer_format": "YES / NO / NOT GIVEN (full words).",
+      "follows_text_order": true,
+      "what_it_tests": "Recognising the writer's opinions or claims.",
+      "design_rules": [
+        "Prefer TRUE_FALSE_NOT_GIVEN for General Training; if used, the text must contain clear evaluative statements by the writer.",
+        "Use each answer at least once; follow text order."
+      ]
+    },
+    "MATCHING_INFORMATION": {
+      "official_name": "Matching information",
+      "frequency_in_gt": "very common (Section 1 across short texts; Sections 2–3 across paragraphs)",
+      "rubric_template": "Questions {from}–{to}\nLook at the {count_word} {texts}, A–{last_letter}, {location}.\nWhich {text} mentions the following?\nWrite the correct letter, A–{last_letter}, in boxes {from}–{to} on your answer sheet.\nNB You may use any letter more than once.",
+      "rubric_variants": [
+        "Questions {from}–{to}\nLook at the {count_word} {texts}, A–{last_letter}, {location}.\nFor which {text} are the following statements true?\nWrite the correct letter, A–{last_letter}, in boxes {from}–{to} on your answer sheet.\nNB You may use any letter more than once.",
+        "Questions {from}–{to}\n{text_ref} has {count_word} paragraphs, A–{last_letter}.\nWhich paragraph contains the following information?\nWrite the correct letter, A–{last_letter}, in boxes {from}–{to} on your answer sheet.\nNB You may use any letter more than once."
+      ],
+      "answer_format": "One text or paragraph letter per question.",
+      "follows_text_order": false,
+      "what_it_tests": "Scanning several short texts (or the paragraphs of one text) for specific information.",
+      "design_rules": [
+        "{location} is optional placement text such as 'on the following page' or 'below'; drop it (and its comma) if not needed.",
+        "Multi-text version: 4–7 short texts of the same type (e.g. five gym advertisements) whose details overlap, so that each item needs careful checking; 6–8 items is typical in Section 1.",
+        "Items are paraphrased features ('offers a discount for students', 'is only open at weekends'); some texts are used more than once, so include the NB line when that happens.",
+        "Each item must match exactly one text; check that no second text also satisfies it."
+      ]
+    },
+    "MATCHING_HEADINGS": {
+      "official_name": "Matching headings",
+      "frequency_in_gt": "common (Sections 2–3)",
+      "rubric_template": "Questions {from}–{to}\n{text_ref} has {count_word} paragraphs, A–{last_letter}.\nChoose the correct heading for each paragraph from the list of headings below.\nWrite the correct number, i–{last_numeral}, in boxes {from}–{to} on your answer sheet.\n\nList of Headings",
+      "rubric_variants": [
+        "Questions {from}–{to}\n{text_ref} has {count_word} paragraphs, A–{last_letter}.\nChoose the correct heading for paragraphs {paragraph_list} from the list of headings below.\nWrite the correct number, i–{last_numeral}, in boxes {from}–{to} on your answer sheet.\n\nList of Headings",
+        "Questions {from}–{to}\n{text_ref} has {count_word} sections, A–{last_letter}.\nChoose the correct heading for each section from the list of headings below.\nWrite the correct number, i–{last_numeral}, in boxes {from}–{to} on your answer sheet.\n\nList of Headings"
+      ],
+      "answer_format": "One lower-case Roman numeral per question.",
+      "follows_text_order": false,
+      "what_it_tests": "Identifying the main idea of each paragraph or section.",
+      "design_rules": [
+        "More headings than paragraphs (2–3 extra); each heading used at most once; an example may be given (then use the {paragraph_list} variant).",
+        "In Section 2 the 'paragraphs' are often sections of a workplace guide (e.g. 'Preparing for the interview'); headings summarise each section's purpose.",
+        "Distractor headings match a detail or keyword rather than the main idea."
+      ]
+    },
+    "MATCHING_FEATURES": {
+      "official_name": "Matching features",
+      "frequency_in_gt": "common",
+      "rubric_template": "Questions {from}–{to}\nLook at the following statements (Questions {from}–{to}) and the list of {features} below.\nMatch each statement with the correct {feature}, A–{last_letter}.\nWrite the correct letter, A–{last_letter}, in boxes {from}–{to} on your answer sheet.\nNB You may use any letter more than once.\n\n{list_title}",
+      "rubric_variants": [],
+      "answer_format": "One option letter per question.",
+      "follows_text_order": false,
+      "what_it_tests": "Recognising relationships between facts in the text, e.g. which company, place, person or period a statement refers to.",
+      "design_rules": [
+        "Options (A–E typical, up to about A–J) are features named in the text, listed in order of first appearance.",
+        "Statements are paraphrased and not in text order; include the NB line only if an option is used more than once.",
+        "Each statement must match exactly one option."
+      ]
+    },
+    "MATCHING_SENTENCE_ENDINGS": {
+      "official_name": "Matching sentence endings",
+      "frequency_in_gt": "rare (not in the official General Training task-type list; use sparingly, Section 3 only)",
+      "rubric_template": "Questions {from}–{to}\nComplete each sentence with the correct ending, A–{last_letter}, below.\nWrite the correct letter, A–{last_letter}, in boxes {from}–{to} on your answer sheet.",
+      "rubric_variants": [],
+      "answer_format": "One ending letter per question.",
+      "follows_text_order": true,
+      "what_it_tests": "Understanding main ideas and how they connect.",
+      "design_rules": [
+        "More endings than beginnings (2–3 extra); beginnings follow text order; every ending grammatically compatible with every beginning."
+      ]
+    },
+    "SENTENCE_COMPLETION": {
+      "official_name": "Sentence completion",
+      "frequency_in_gt": "very common",
+      "rubric_template": "Questions {from}–{to}\nComplete the sentences below.\nChoose {word_limit} from the text for each answer.\nWrite your answers in boxes {from}–{to} on your answer sheet.",
+      "rubric_variants": [],
+      "answer_format": "Word(s) and/or a number copied exactly from the text, within the word limit.",
+      "follows_text_order": true,
+      "what_it_tests": "Finding specific details (requirements, deadlines, locations, documents, conditions).",
+      "design_rules": [
+        "One gap per sentence; answers verbatim from the text and grammatically fitting; one correct phrase per gap.",
+        "Follow text order; usually 3–7 sentences."
+      ]
+    },
+    "SUMMARY_COMPLETION": {
+      "official_name": "Summary completion",
+      "frequency_in_gt": "common (Sections 2–3)",
+      "rubric_template": "Questions {from}–{to}\nComplete the summary below.\nChoose {word_limit} from the text for each answer.\nWrite your answers in boxes {from}–{to} on your answer sheet.",
+      "rubric_variants": [
+        "Questions {from}–{to}\nComplete the summary using the list of words, A–{last_letter}, below.\nWrite the correct letter, A–{last_letter}, in boxes {from}–{to} on your answer sheet."
+      ],
+      "answer_format": "Words from the text within the word limit, or one letter per gap (word-bank variant).",
+      "follows_text_order": false,
+      "what_it_tests": "Understanding details and/or main ideas of one part of the text.",
+      "design_rules": [
+        "Summarise one section of the text; give the summary a title.",
+        "Word-bank variant: 3–6 more options than gaps, options grammatically plausible in several gaps.",
+        "Usually 4–7 gaps."
+      ]
+    },
+    "NOTE_COMPLETION": {
+      "official_name": "Note completion",
+      "frequency_in_gt": "very common",
+      "rubric_template": "Questions {from}–{to}\nComplete the notes below.\nChoose {word_limit} from the text for each answer.\nWrite your answers in boxes {from}–{to} on your answer sheet.",
+      "rubric_variants": [],
+      "answer_format": "Words and/or numbers from the text within the word limit.",
+      "follows_text_order": false,
+      "what_it_tests": "Picking out key practical details and presenting them in note form.",
+      "design_rules": [
+        "Notes with a title, sub-headings and dash/bullet lines in note style.",
+        "Answers from one part of the text, usually but not necessarily in order; 4–8 gaps."
+      ]
+    },
+    "TABLE_COMPLETION": {
+      "official_name": "Table completion",
+      "frequency_in_gt": "common (Sections 1–2)",
+      "rubric_template": "Questions {from}–{to}\nComplete the table below.\nChoose {word_limit} from the text for each answer.\nWrite your answers in boxes {from}–{to} on your answer sheet.",
+      "rubric_variants": [],
+      "answer_format": "Words and/or numbers from the text within the word limit.",
+      "follows_text_order": false,
+      "what_it_tests": "Classifying practical information into categories (e.g. course / day / cost / what to bring).",
+      "design_rules": [
+        "Use only when the text supplies parallel information for several items; cells in note style; gaps numbered left-to-right, top-to-bottom; 3–6 gaps."
+      ]
+    },
+    "FLOW_CHART_COMPLETION": {
+      "official_name": "Flow-chart completion",
+      "frequency_in_gt": "occasional (procedures in Section 2, processes in Section 3)",
+      "rubric_template": "Questions {from}–{to}\nComplete the flow-chart below.\nChoose {word_limit} from the text for each answer.\nWrite your answers in boxes {from}–{to} on your answer sheet.",
+      "rubric_variants": [],
+      "answer_format": "Words and/or numbers from the text within the word limit.",
+      "follows_text_order": false,
+      "what_it_tests": "Following a procedure or process (e.g. how to apply for leave, how a product is made).",
+      "design_rules": [
+        "Only for texts that describe a sequence; steps in true process order, linked by arrows; 3–8 gaps."
+      ]
+    },
+    "DIAGRAM_LABEL_COMPLETION": {
+      "official_name": "Diagram label completion",
+      "frequency_in_gt": "occasional (Section 3)",
+      "rubric_template": "Questions {from}–{to}\nLabel the diagram below.\nChoose {word_limit} from the text for each answer.\nWrite your answers in boxes {from}–{to} on your answer sheet.",
+      "rubric_variants": [],
+      "answer_format": "Words and/or numbers from the text within the word limit.",
+      "follows_text_order": false,
+      "what_it_tests": "Relating a detailed description of an object, building or device to a diagram.",
+      "design_rules": [
+        "The text must describe parts and positions clearly; some labels given to orient the reader; 3–6 gaps."
+      ]
+    },
+    "SHORT_ANSWER": {
+      "official_name": "Short-answer questions",
+      "frequency_in_gt": "very common (Sections 1–2)",
+      "rubric_template": "Questions {from}–{to}\nAnswer the questions below.\nChoose {word_limit} from the text for each answer.\nWrite your answers in boxes {from}–{to} on your answer sheet.",
+      "rubric_variants": [],
+      "answer_format": "Words and/or numbers from the text within the word limit.",
+      "follows_text_order": true,
+      "what_it_tests": "Finding specific factual details such as places, prices, times, documents or people to contact.",
+      "design_rules": [
+        "Wh-questions paraphrasing the text, one short factual answer each, in text order; 3–7 questions.",
+        "NO MORE THAN THREE WORDS AND/OR A NUMBER is the common limit."
+      ]
+    }
+  }
+}

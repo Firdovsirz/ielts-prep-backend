@@ -1,0 +1,103 @@
+{
+  "task_type": "GRAMMAR_EXERCISE",
+  "source_url": "",
+  "licence": "Original content",
+  "content": {
+    "area": "MODALS_HEDGING",
+    "exercise_type": "GAP_FILL",
+    "title": "Modals and hedging: expressing degrees of certainty",
+    "instructions": "Complete each sentence with a modal verb or hedging expression that matches the meaning in brackets, followed by the correct form of the verb given. For example: (possibly / rise) → may rise. Where the word in brackets is itself a modal or hedging word (would, could, tend, likely, appear), build your answer around it.",
+    "items": [
+      {
+        "id": "1",
+        "prompt": "The rise in sales in 2015 ___ (possibly / be) the result of a successful advertising campaign, although the chart gives no reasons.",
+        "options": [],
+        "accepted_answers": ["may have been", "might have been", "could have been"],
+        "model_answer": "The rise in sales in 2015 may have been the result of a successful advertising campaign, although the chart gives no reasons.",
+        "check_mode": "EXACT",
+        "explanation": "To speculate about the past, use may / might / could + have + past participle. 'Could be' or 'may be' would wrongly refer to the present."
+      },
+      {
+        "id": "2",
+        "prompt": "The decline in newspaper sales ___ (impossible / be) due to rising prices alone, since prices barely changed during the period.",
+        "options": [],
+        "accepted_answers": ["cannot have been", "can't have been", "could not have been", "couldn't have been"],
+        "model_answer": "The decline in newspaper sales cannot have been due to rising prices alone, since prices barely changed during the period.",
+        "check_mode": "EXACT",
+        "explanation": "For a confident negative deduction about the past, use can't / cannot / couldn't + have + past participle. Note that 'mustn't have been' is not used for deduction."
+      },
+      {
+        "id": "3",
+        "prompt": "The sharp fall in visitor numbers in 2020 ___ (almost certain / cause) by travel restrictions during the pandemic.",
+        "options": [],
+        "accepted_answers": ["must have been caused", "was almost certainly caused"],
+        "model_answer": "The sharp fall in visitor numbers in 2020 must have been caused by travel restrictions during the pandemic.",
+        "check_mode": "EXACT",
+        "explanation": "A confident positive deduction about the past uses must + have + past participle; here the passive form is needed (must have been caused). 'Was almost certainly caused' expresses the same degree of certainty with an adverb."
+      },
+      {
+        "id": "4",
+        "prompt": "It ___ (could / argue) that free public transport would benefit low-income families most.",
+        "options": [],
+        "accepted_answers": ["could be argued"],
+        "model_answer": "It could be argued that free public transport would benefit low-income families most.",
+        "check_mode": "EXACT",
+        "explanation": "'It could be argued that …' is a modal passive (modal + be + past participle) that introduces a view tentatively. It is ideal for presenting an opposing opinion in Task 2 before you evaluate it."
+      },
+      {
+        "id": "5",
+        "prompt": "Rising house prices ___ (likely / discourage) young people from moving to the capital in the coming years.",
+        "options": [],
+        "accepted_answers": ["are likely to discourage", "will probably discourage"],
+        "model_answer": "Rising house prices are likely to discourage young people from moving to the capital in the coming years.",
+        "check_mode": "EXACT",
+        "explanation": "'Be likely to + base verb' expresses a probable future outcome and is more cautious than 'will'. Remember that 'likely' is an adjective, so it needs the verb 'be' (are likely to), not 'likely discourage'."
+      },
+      {
+        "id": "6",
+        "prompt": "Older people ___ (tend / be) more cautious about sharing personal data online than teenagers.",
+        "options": [],
+        "accepted_answers": ["tend to be"],
+        "model_answer": "Older people tend to be more cautious about sharing personal data online than teenagers.",
+        "check_mode": "EXACT",
+        "explanation": "'Tend to + base verb' describes a general pattern without claiming it is true of every individual. It is one of the most useful hedges for generalisations about groups in Task 2 and Speaking Part 3."
+      },
+      {
+        "id": "7",
+        "prompt": "The government ___ (appear / underestimate) the cost of the new high-speed rail line, which is now twice the original budget.",
+        "options": [],
+        "accepted_answers": ["appears to have underestimated", "seems to have underestimated"],
+        "model_answer": "The government appears to have underestimated the cost of the new high-speed rail line, which is now twice the original budget.",
+        "check_mode": "EXACT",
+        "explanation": "'Appear / seem + perfect infinitive (to have + past participle)' hedges a claim about something that happened in the past. The verb agrees with the singular subject: the government appears."
+      },
+      {
+        "id": "8",
+        "prompt": "I ___ (would / not / say) that technology has made us lazier, but it has certainly changed our daily habits.",
+        "options": [],
+        "accepted_answers": ["would not say", "wouldn't say"],
+        "model_answer": "I wouldn't say that technology has made us lazier, but it has certainly changed our daily habits.",
+        "check_mode": "EXACT",
+        "explanation": "'Would' softens an opinion. 'I wouldn't say that …' sounds more polite and more natural in Speaking Part 3 than a blunt 'I don't think …' or 'That's wrong'."
+      },
+      {
+        "id": "9",
+        "prompt": "In the future, more professionals ___ (possibly / choose) to work remotely from rural areas.",
+        "options": [],
+        "accepted_answers": ["may choose", "might choose", "could choose", "may well choose"],
+        "model_answer": "In the future, more professionals may well choose to work remotely from rural areas.",
+        "check_mode": "EXACT",
+        "explanation": "May / might / could + base verb express future possibility. Adding 'well' (may well, might well) signals a fairly strong possibility while still hedging the prediction."
+      },
+      {
+        "id": "10",
+        "prompt": "In my view, governments ___ (advisable / invest) far more in mental health services for young people.",
+        "options": [],
+        "accepted_answers": ["should invest", "ought to invest"],
+        "model_answer": "In my view, governments should invest far more in mental health services for young people.",
+        "check_mode": "EXACT",
+        "explanation": "'Should' and 'ought to' + base verb make a recommendation. They are stronger than 'could' but less forceful than 'must', which makes them the usual choice for solutions in a Task 2 essay."
+      }
+    ]
+  }
+}

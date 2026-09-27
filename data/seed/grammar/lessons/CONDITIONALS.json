@@ -1,0 +1,91 @@
+{
+  "task_type": "GRAMMAR_LESSON",
+  "source_url": "",
+  "licence": "Original content",
+  "content": {
+    "area": "CONDITIONALS",
+    "title": "Conditionals and hypothetical language",
+    "summary": "Conditionals let you speculate, propose solutions and weigh up consequences — exactly what Task 2 and Speaking Part 3 ask you to do. Band 6 candidates often break the tense sequence ('if people will…', 'if I would have…') or never go beyond the first conditional; band 7–8 candidates move easily between real, unreal and mixed conditionals and use wish, if only and it's time accurately.",
+    "explanation": "### The four core patterns\n- **Zero** — *if + present, present* — general truths: *If demand **rises**, prices **go** up.*\n- **First** — *if + present, will/may/can + verb* — real, likely future: *If the tax **is introduced**, fewer people **will buy** sugary drinks.*\n- **Second** — *if + past simple, would/could/might + verb* — unreal or unlikely present/future: *If public transport **were** free, car use **would fall**.*\n- **Third** — *if + had + past participle, would have + past participle* — unreal past: *If the city **had built** a metro in the 1990s, congestion **would not have become** so severe.*\n\nGolden rule: **no *will* or *would* in the if-clause.**\n\n### Mixed conditionals\nMix time frames when a past condition has a present result, or a present situation explains a past result:\n- *If I **had studied** harder at school, I **would be** a doctor now.* (past → present)\n- *If she **were** more confident, she **would have applied** for the job.* (present → past)\n\n### Choosing the type in Task 2\nYour choice signals how realistic an idea is. Use the **first conditional** for a policy you are recommending and the **second** for something unlikely or purely hypothetical. Writing every proposal in the second conditional can make your own solutions sound unrealistic.\n\n### Alternatives to *if*\n- ***unless*** (= if not): *Unless governments act, emissions will keep rising.*\n- ***provided (that) / as long as*** — a condition you insist on: *Homework is useful **provided that** it is marked.*\n- ***supposing / imagine*** — hypotheses, especially in Part 3: *Supposing cars were banned from city centres, how would deliveries work?*\n- ***otherwise*** (a new sentence or after a semicolon): *Governments must invest now; otherwise, costs will rise.*\n- ***in case*** = as a precaution: *Take an umbrella **in case** it rains.*\n\n### Wish, if only and it's time\n- Present regret → past simple: *I **wish** I **had** more free time.*\n- Past regret → past perfect: ***If only** I **had started** preparing earlier.*\n- Annoyance or a desired change → *would*: *I wish people **wouldn't** drop litter.*\n- *It's (high) time + subject + past simple*: *It's high time governments **took** climate change seriously.*\n\n### Register tips\n- In formal writing, use *were* for all persons: *If I **were** in charge…*, *if the price **were** lower…*\n- Conditionals are ideal for Part 3 speculation: *If I had to choose, I'd say…*\n- Inverted forms (*Had the government acted…*, *Should you need…*) are covered in the advanced structures lesson.",
+    "key_rules": [
+      {
+        "rule": "Never use will or would in the if-clause of a conditional.",
+        "example": "If the government raises fuel taxes, more people will switch to public transport."
+      },
+      {
+        "rule": "Second conditional: if + past simple, then would/could/might + base verb for unreal or unlikely situations.",
+        "example": "If university were free for everyone, the number of applicants would rise dramatically."
+      },
+      {
+        "rule": "Third conditional: if + had + past participle, then would have + past participle for an unreal past.",
+        "example": "If the factory had been built further from the river, the pollution could have been avoided."
+      },
+      {
+        "rule": "A mixed conditional links a past condition to a present result.",
+        "example": "If the city had invested in cycle lanes a decade ago, the air would be much cleaner today."
+      },
+      {
+        "rule": "Use 'unless', 'provided that' and 'as long as' as precise alternatives to 'if'.",
+        "example": "Online courses can be highly effective provided that learners receive regular feedback."
+      },
+      {
+        "rule": "After wish, if only and it's time, move the verb one tense back.",
+        "example": "It's time schools taught financial skills as part of the core curriculum."
+      }
+    ],
+    "common_mistakes": [
+      {
+        "wrong": "If people will recycle more, there will be less waste.",
+        "right": "If people recycle more, there will be less waste.",
+        "why": "The if-clause uses the present simple for future meaning; 'will' belongs only in the result clause."
+      },
+      {
+        "wrong": "If I would have more time, I would travel more.",
+        "right": "If I had more time, I would travel more.",
+        "why": "The second conditional needs the past simple in the if-clause, not 'would'."
+      },
+      {
+        "wrong": "If I had known about the test, I would prepare better.",
+        "right": "If I had known about the test, I would have prepared better.",
+        "why": "An unreal past result needs 'would have + past participle'."
+      },
+      {
+        "wrong": "I wish I can speak English fluently.",
+        "right": "I wish I could speak English fluently.",
+        "why": "After 'wish' about the present, move the verb back one tense (can → could)."
+      },
+      {
+        "wrong": "Unless the government doesn't act, the problem will get worse.",
+        "right": "Unless the government acts, the problem will get worse.",
+        "why": "'Unless' already means 'if not', so a negative verb creates a double negative."
+      },
+      {
+        "wrong": "It's time we start thinking about the environment.",
+        "right": "It's time we started thinking about the environment.",
+        "why": "'It's time + subject' is followed by the past simple, even though the meaning is present."
+      }
+    ],
+    "ielts_examples": [
+      {
+        "context": "WRITING_TASK2",
+        "sentence": "If governments offered tax incentives to companies that hire older workers, the pressure on pension systems would ease considerably."
+      },
+      {
+        "context": "WRITING_TASK2",
+        "sentence": "Unless stricter regulations are introduced, the amount of plastic entering the oceans will continue to grow."
+      },
+      {
+        "context": "SPEAKING_PART2",
+        "sentence": "If I hadn't taken that part-time job at university, I would never have met my closest friend, and I probably wouldn't be working in marketing now."
+      },
+      {
+        "context": "SPEAKING_PART3",
+        "sentence": "Supposing every city banned private cars from its centre, I think people would adapt more quickly than we might expect."
+      },
+      {
+        "context": "SPEAKING_PART3",
+        "sentence": "It's high time we stopped criticising young people for spending time online, because that's simply where their social lives are now."
+      }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "vocab-word-bank",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "topic",
+    "words"
+  ],
+  "properties": {
+    "topic": {
+      "type": "string"
+    },
+    "words": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "word",
+          "part_of_speech",
+          "definition",
+          "example",
+          "collocations",
+          "cefr"
+        ],
+        "properties": {
+          "word": {
+            "type": "string",
+            "description": "Headword or fixed phrase."
+          },
+          "part_of_speech": {
+            "type": "string"
+          },
+          "definition": {
+            "type": "string",
+            "description": "Learner-friendly definition."
+          },
+          "example": {
+            "type": "string",
+            "description": "IELTS-style example sentence (Task 2 or Speaking Part 3 register)."
+          },
+          "collocations": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "2–4 common collocations."
+          },
+          "cefr": {
+            "type": "string",
+            "enum": [
+              "B1",
+              "B2",
+              "C1",
+              "C2"
+            ]
+          }
+        }
+      },
+      "description": "12–20 items."
+    }
+  }
+}

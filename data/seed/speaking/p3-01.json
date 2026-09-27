@@ -1,0 +1,19 @@
+{
+  "task_type": "SPEAKING_PART3",
+  "source_url": "",
+  "licence": "Original content",
+  "content": {
+    "theme": "Learning and skills",
+    "linked_part2_topic": "A useful skill learned outside school",
+    "questions": [
+      { "sub_topic": "Learning practical skills", "question": "What practical skills do you think every child should learn?" },
+      { "sub_topic": "Learning practical skills", "question": "Why do some people find it hard to learn new skills as adults?" },
+      { "sub_topic": "Learning practical skills", "question": "Do you think people learn skills better from online videos or from a teacher? Why?" },
+      { "sub_topic": "Learning practical skills", "question": "What are the advantages of learning a skill in a group rather than alone?" },
+      { "sub_topic": "Skills and the workplace", "question": "Which skills do employers value most nowadays?" },
+      { "sub_topic": "Skills and the workplace", "question": "Should companies pay for their employees to learn new skills? Why/Why not?" },
+      { "sub_topic": "Skills and the workplace", "question": "Do you think the skills people need for work will change in the future?" },
+      { "sub_topic": "Skills and the workplace", "question": "Why do some people decide to change careers later in life?" }
+    ]
+  }
+}

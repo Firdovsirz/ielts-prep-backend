@@ -1,0 +1,49 @@
+{
+  "task_type": "GRAMMAR_EXERCISE",
+  "source_url": "",
+  "licence": "Original content",
+  "content": {
+    "area": "COMPARISON_TRENDS",
+    "exercise_type": "FREE_WRITING",
+    "title": "Describing mini-datasets: trends and comparisons",
+    "instructions": "Describe each mini-dataset in 2–3 sentences, as you would in the body of a Task 1 report. Include at least one comparison (comparative, superlative, whereas/while, or a multiple such as 'twice as …') and accurate trend language with the correct prepositions. Report the data only: do not give reasons or opinions.",
+    "items": [
+      {
+        "id": "1",
+        "prompt": "Average monthly rent for a one-bedroom flat in the city centre. London: 2010 £1,100; 2015 £1,500; 2020 £1,650. Berlin: 2010 £450; 2015 £700; 2020 £1,050. Describe the data in 2–3 sentences.",
+        "options": [],
+        "accepted_answers": [],
+        "model_answer": "Between 2010 and 2020, the average rent for a one-bedroom city-centre flat rose in both cities, but the increase was far steeper in Berlin, where rents more than doubled from £450 to £1,050. In London, rents climbed by £400 to £1,500 in the first five years before growing more slowly to £1,650 in 2020. Nevertheless, London remained considerably more expensive throughout, with rents there well over twice as high as those in Berlin in 2010.",
+        "check_mode": "AI",
+        "explanation": "The model combines 'rose from … to', 'climbed by' (the size of the change) and 'more than doubled' for trends, and uses 'far steeper', 'considerably more expensive' and 'twice as high as' for comparison. All figures are reported accurately and no reasons are given."
+      },
+      {
+        "id": "2",
+        "prompt": "Percentage of adults who cycle to work at least once a week, 2012 and 2022. Amsterdam: 38% → 41%. Copenhagen: 29% → 45%. Paris: 3% → 11%. Rome: 2% → 2%. Describe the data in 2–3 sentences.",
+        "options": [],
+        "accepted_answers": [],
+        "model_answer": "In 2012, Amsterdam had the highest proportion of adults cycling to work, at 38%, but by 2022 it had been overtaken by Copenhagen, where the figure rose sharply from 29% to 45%. Paris saw the most dramatic relative growth, with the percentage almost quadrupling from 3% to 11%, whereas the figure for Rome remained unchanged at a mere 2%.",
+        "check_mode": "AI",
+        "explanation": "The superlative (the highest proportion) and 'overtaken by' describe changes in ranking; 'almost quadrupling' expresses a multiple precisely (3% → 11%); and 'whereas' contrasts a rising figure with a stable one. 'At 38%' and 'remained unchanged at 2%' use 'at' for a fixed value."
+      },
+      {
+        "id": "3",
+        "prompt": "Global smartphone sales (millions of units): 2008: 140; 2011: 470; 2014: 1,250; 2017: 1,540; 2020: 1,350. Describe the data in 2–3 sentences.",
+        "options": [],
+        "accepted_answers": [],
+        "model_answer": "Global smartphone sales rose dramatically from 140 million units in 2008 to 1.25 billion in 2014, an almost ninefold increase. Growth then slowed considerably, with sales peaking at approximately 1.54 billion in 2017 before falling back to 1.35 billion in 2020.",
+        "check_mode": "AI",
+        "explanation": "The answer groups the data into two phases (rapid growth, then slowdown and decline) rather than listing every year. 'Peaking at' and 'falling back to' are accurate trend phrases, and 'an almost ninefold increase' summarises the scale of change in a noun phrase."
+      },
+      {
+        "id": "4",
+        "prompt": "Share of electricity generated from coal and from renewable sources in one European country (%). 2000: coal 60, renewables 8. 2010: coal 48, renewables 18. 2020: coal 25, renewables 40. Describe the data in 2–3 sentences.",
+        "options": [],
+        "accepted_answers": [],
+        "model_answer": "In 2000, coal accounted for 60% of the country's electricity, whereas renewable sources provided just 8%. Over the next two decades, the share of coal more than halved to 25%, while that of renewables increased fivefold, overtaking coal at some point after 2010 and reaching 40% by 2020.",
+        "check_mode": "AI",
+        "explanation": "'Accounted for' introduces a proportion, 'more than halved' and 'increased fivefold' express changes as multiples, and 'that of renewables' avoids repeating 'the share'. The crossover is described carefully ('at some point after 2010') because the exact year is not shown in the data."
+      }
+    ]
+  }
+}

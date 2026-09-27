@@ -1,0 +1,117 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "grammar-lesson",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "area",
+    "title",
+    "summary",
+    "explanation",
+    "key_rules",
+    "common_mistakes",
+    "ielts_examples"
+  ],
+  "properties": {
+    "area": {
+      "type": "string",
+      "enum": [
+        "TENSE_ASPECT",
+        "AGREEMENT_ARTICLES",
+        "COMPLEX_SENTENCES",
+        "CONDITIONALS",
+        "PASSIVE_VOICE",
+        "MODALS_HEDGING",
+        "COMPARISON_TRENDS",
+        "COHESION_LINKING",
+        "ADVANCED_STRUCTURES",
+        "PREPOSITIONS_PHRASAL",
+        "PUNCTUATION",
+        "COUNTABILITY_QUANTIFIERS",
+        "WORD_FORMATION"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "summary": {
+      "type": "string",
+      "description": "2–3 sentence plain-English overview of why this matters for Grammatical Range & Accuracy."
+    },
+    "explanation": {
+      "type": "string",
+      "description": "Plain-English explanation in Markdown (headings, short lists). 250–450 words."
+    },
+    "key_rules": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "rule",
+          "example"
+        ],
+        "properties": {
+          "rule": {
+            "type": "string"
+          },
+          "example": {
+            "type": "string"
+          }
+        }
+      },
+      "description": "4–7 rules."
+    },
+    "common_mistakes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "wrong",
+          "right",
+          "why"
+        ],
+        "properties": {
+          "wrong": {
+            "type": "string"
+          },
+          "right": {
+            "type": "string"
+          },
+          "why": {
+            "type": "string"
+          }
+        }
+      },
+      "description": "4–6 typical candidate errors."
+    },
+    "ielts_examples": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "context",
+          "sentence"
+        ],
+        "properties": {
+          "context": {
+            "type": "string",
+            "enum": [
+              "WRITING_TASK1",
+              "WRITING_TASK2",
+              "SPEAKING_PART3",
+              "SPEAKING_PART2"
+            ]
+          },
+          "sentence": {
+            "type": "string",
+            "description": "Band 7+ sentence using the structure."
+          }
+        }
+      },
+      "description": "4–6 examples."
+    }
+  }
+}

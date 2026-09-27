@@ -1,0 +1,138 @@
+{
+  "task_type": "VOCAB_WORD_BANK",
+  "source_url": "",
+  "licence": "Original content",
+  "content": {
+    "topic": "government",
+    "words": [
+      {
+        "word": "legislation",
+        "part_of_speech": "noun",
+        "definition": "A law or set of laws made by a parliament or government.",
+        "example": "Legislation alone cannot change deep-rooted attitudes, but it can set clear standards of acceptable behaviour.",
+        "collocations": ["introduce legislation", "pass legislation", "tougher legislation", "under current legislation"],
+        "cefr": "C1"
+      },
+      {
+        "word": "regulate",
+        "part_of_speech": "verb",
+        "definition": "To control an activity or industry by means of rules and laws.",
+        "example": "Many argue that governments should strictly regulate the advertising of unhealthy food to children.",
+        "collocations": ["strictly regulate", "tightly regulated", "regulate the industry"],
+        "cefr": "C1"
+      },
+      {
+        "word": "allocate",
+        "part_of_speech": "verb",
+        "definition": "To officially give an amount of money, time or resources to be used for a particular purpose.",
+        "example": "Governments must decide how to allocate limited funds between healthcare, education and defence.",
+        "collocations": ["allocate funds", "allocate resources", "allocate a budget to"],
+        "cefr": "C1"
+      },
+      {
+        "word": "public spending",
+        "part_of_speech": "noun phrase",
+        "definition": "The money that a government spends on services such as schools, hospitals and roads.",
+        "example": "Cuts in public spending tend to hit the poorest communities hardest.",
+        "collocations": ["cuts in public spending", "increase public spending", "public spending on education"],
+        "cefr": "B2"
+      },
+      {
+        "word": "taxpayers' money",
+        "part_of_speech": "noun phrase",
+        "definition": "Money that a government collects through taxes and spends on behalf of the public.",
+        "example": "Building a new national stadium with taxpayers' money is difficult to justify when hospitals are underfunded.",
+        "collocations": ["waste taxpayers' money", "funded by taxpayers' money", "a misuse of taxpayers' money"],
+        "cefr": "C1"
+      },
+      {
+        "word": "accountable",
+        "part_of_speech": "adjective",
+        "definition": "Responsible for your decisions and actions, and expected to explain them to others.",
+        "example": "A free press is essential to hold politicians accountable for the decisions they make.",
+        "collocations": ["hold someone accountable", "publicly accountable", "accountable to voters"],
+        "cefr": "C1"
+      },
+      {
+        "word": "transparency",
+        "part_of_speech": "noun",
+        "definition": "Openness about how decisions are made and how money is spent, so that the public can see and judge them.",
+        "example": "Greater transparency in how public contracts are awarded would reduce the scope for corruption.",
+        "collocations": ["greater transparency", "a lack of transparency", "transparency and accountability"],
+        "cefr": "C1"
+      },
+      {
+        "word": "red tape",
+        "part_of_speech": "noun phrase",
+        "definition": "Official rules and procedures that seem unnecessary and cause delay.",
+        "example": "Excessive red tape discourages entrepreneurs from starting small businesses.",
+        "collocations": ["cut red tape", "bureaucratic red tape", "mired in red tape"],
+        "cefr": "C1"
+      },
+      {
+        "word": "intervention",
+        "part_of_speech": "noun",
+        "definition": "Action taken by a government or authority to change or control a situation.",
+        "example": "Some economists argue that state intervention in the housing market is the only way to make homes affordable again.",
+        "collocations": ["state intervention", "government intervention", "minimal intervention"],
+        "cefr": "C1"
+      },
+      {
+        "word": "the nanny state",
+        "part_of_speech": "noun phrase",
+        "definition": "A disapproving name for a government that is seen as trying to control people's personal choices too much.",
+        "example": "Opponents of the tax on sugary drinks dismissed it as yet another example of the nanny state.",
+        "collocations": ["an example of the nanny state", "accuse the government of creating a nanny state", "nanny-state policies"],
+        "cefr": "C2"
+      },
+      {
+        "word": "infrastructure",
+        "part_of_speech": "noun",
+        "definition": "The basic systems and structures that a country needs to function, such as roads, power supplies and communications.",
+        "example": "Investment in infrastructure, such as roads, railways and broadband, is vital for long-term economic growth.",
+        "collocations": ["invest in infrastructure", "crumbling infrastructure", "public infrastructure"],
+        "cefr": "C1"
+      },
+      {
+        "word": "incentivise",
+        "part_of_speech": "verb",
+        "definition": "To encourage people to do something by offering them a reward or benefit.",
+        "example": "The government could incentivise the switch to electric vehicles by offering tax breaks to buyers.",
+        "collocations": ["incentivise investment", "financially incentivise", "incentivise people to"],
+        "cefr": "C1"
+      },
+      {
+        "word": "implement",
+        "part_of_speech": "verb",
+        "definition": "To put a plan, decision or policy into action.",
+        "example": "Well-intentioned policies often fail not because they are flawed but because they are poorly implemented.",
+        "collocations": ["implement a policy", "implement measures", "effectively implement"],
+        "cefr": "C1"
+      },
+      {
+        "word": "prioritise",
+        "part_of_speech": "verb",
+        "definition": "To decide which of several things is most important and deal with it first.",
+        "example": "Governments should prioritise long-term investment over short-term, vote-winning policies.",
+        "collocations": ["prioritise spending on", "prioritise the needs of", "clearly prioritise"],
+        "cefr": "C1"
+      },
+      {
+        "word": "electorate",
+        "part_of_speech": "noun",
+        "definition": "All the people in a country or area who have the right to vote.",
+        "example": "Politicians are often reluctant to introduce necessary but unpopular measures that might alienate the electorate.",
+        "collocations": ["alienate the electorate", "appeal to the electorate", "the wider electorate"],
+        "cefr": "C1"
+      },
+      {
+        "word": "curtail",
+        "part_of_speech": "verb",
+        "definition": "To limit or reduce something, especially a right or freedom.",
+        "example": "Emergency powers must not be used to curtail civil liberties indefinitely.",
+        "collocations": ["curtail freedom", "curtail civil liberties", "severely curtail"],
+        "cefr": "C2"
+      }
+    ]
+  }
+}

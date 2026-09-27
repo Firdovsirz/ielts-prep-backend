@@ -1,0 +1,36 @@
+{
+  "task_type": "WRITING_TASK1_ACADEMIC",
+  "source_url": "",
+  "licence": "Original content",
+  "content": {
+    "chart_type": "PROCESS",
+    "topic": "Producing knitting yarn from wool",
+    "prompt": "The diagram below shows how sheep's wool is processed to make knitting yarn.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+    "figure_title": "From fleece to knitting yarn",
+    "units": "",
+    "x_label": "",
+    "y_label": "",
+    "categories": [],
+    "series": [],
+    "process_steps": [
+      { "step": 1, "label": "Shearing", "description": "Sheep are sheared once a year in spring, and each fleece is removed in a single piece." },
+      { "step": 2, "label": "Sorting and grading", "description": "Workers sort the fleeces by hand according to fibre length, fineness and colour." },
+      { "step": 3, "label": "Scouring", "description": "The wool is washed in tanks of warm water and detergent to remove grease, dirt and plant matter." },
+      { "step": 4, "label": "Drying", "description": "The clean wool is passed through hot-air dryers." },
+      { "step": 5, "label": "Carding", "description": "Rollers covered in fine wire teeth separate and straighten the fibres, which are then formed into a loose rope called a sliver." },
+      { "step": 6, "label": "Spinning", "description": "The sliver is stretched and twisted on spinning machines to produce a single strand of yarn." },
+      { "step": 7, "label": "Plying", "description": "Two or more single strands are twisted together to make a thicker, stronger yarn." },
+      { "step": 8, "label": "Dyeing", "description": "The yarn is coloured in heated dye vats, then rinsed and dried again." },
+      { "step": 9, "label": "Winding and packing", "description": "The finished yarn is wound into balls, labelled and packed for delivery to shops." }
+    ],
+    "process_is_cycle": false,
+    "maps": [],
+    "key_features": [
+      "Overview: the process is linear, with nine stages that turn raw fleece on the farm into packaged yarn ready for sale.",
+      "The stages fall into three phases: preparing the raw wool (shearing, sorting, scouring and drying), making the yarn (carding, spinning and plying) and finishing (dyeing, winding and packing).",
+      "Early stages clean the wool: after hand-sorting by length, fineness and colour, it is washed in warm water and detergent and then dried with hot air.",
+      "Carding produces a sliver, which is spun into a single strand; strands are then plied together to make stronger yarn.",
+      "The yarn is dyed and dried a second time before being wound into balls, labelled and packed for shops."
+    ]
+  }
+}

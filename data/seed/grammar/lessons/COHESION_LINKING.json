@@ -1,0 +1,91 @@
+{
+  "task_type": "GRAMMAR_LESSON",
+  "source_url": "",
+  "licence": "Original content",
+  "content": {
+    "area": "COHESION_LINKING",
+    "title": "Cohesive devices: linking accurately without over-using them",
+    "summary": "At band 6, cohesive devices are used but can be faulty or mechanical, and a linker that breaks the sentence structure (such as a comma before 'however') also counts as a grammar error. Band 7 uses a range of devices appropriately with only some over- or under-use, and band 8 manages cohesion so smoothly that the linking hardly draws attention to itself.",
+    "explanation": "### The band 6 trap: mechanical linking\nMany candidates start almost every sentence with a linker: *Firstly… Moreover… Furthermore… In addition… However… Therefore…* Examiners call this **mechanical**. A band 7–8 essay uses fewer, better-chosen linkers and lets ideas connect through **referencing** and **logical order**.\n\nRule of thumb: a sentence-initial linker in no more than one sentence in three, and never the same linker twice in one paragraph.\n\n### Punctuating However, Moreover and Therefore\n*However, moreover, furthermore, therefore, consequently, nevertheless* and *in addition* are **adverbs**, not conjunctions, so they cannot join two clauses with a comma.\n- ✗ *Cars are convenient, however they pollute the air.* (comma splice)\n- ✓ *Cars are convenient. However, they pollute the air.*\n- ✓ *Cars are convenient; however, they pollute the air.*\n- ✓ *Cars are convenient. They do, however, pollute the air.* (mid-sentence, between commas)\n- *Therefore* often sits mid-clause with no commas: *It is **therefore** essential to…*\n\nConjunctions behave differently:\n- **Coordinators** (*and, but, so, yet*) join two clauses in one sentence, usually with a comma before: *Cars are convenient, **but** they pollute the air.*\n- **Subordinators** (*although, while, whereas, because*) take a comma after the clause when it comes first: ***Although** cars are convenient, they pollute the air.*\n\n### Choose the right meaning\n- **Addition** — *moreover, furthermore, in addition, what is more*: only for another point supporting the **same** argument.\n- **Contrast** — *however, nevertheless* (a counterpoint); *on the other hand* (the opposing side); *in contrast / by contrast* (comparing two different things).\n- **Result** — *therefore, consequently, as a result*.\n- **Example** — *for example, for instance* + clause; *such as* + noun phrase only.\n\nFrequent misuses: *on the contrary* for simple contrast (it means \"the opposite is true\"); *besides* in formal essays; *in conclusion* inside a body paragraph.\n\n### Referencing: the band 7 alternative\nLink ideas by pointing back instead of adding another linker:\n- **this / these + summary noun**: *…fares have doubled. **This increase** has…*\n- **such + noun**: ***Such policies** are costly.*\n- **pronouns** (*it, they, them*) — each must have one clear antecedent\n- **the former / the latter**, **do so**, **one / ones**\n\nA bare *this* or *it* is a common error: if a reader could ask \"this what?\", add a noun.",
+    "key_rules": [
+      {
+        "rule": "However, moreover and therefore are adverbs: put them after a full stop or semicolon, followed by a comma.",
+        "example": "Tuition fees have risen sharply; however, applications have not fallen."
+      },
+      {
+        "rule": "Coordinating conjunctions (and, but, so, yet) join two clauses in one sentence, usually with a comma before them.",
+        "example": "The scheme was popular, but it proved too expensive to maintain."
+      },
+      {
+        "rule": "Use moreover/furthermore only to add a point that supports the same argument.",
+        "example": "Cycling reduces emissions. Moreover, it improves commuters' physical health."
+      },
+      {
+        "rule": "Use 'on the other hand' to introduce the opposing side and 'in contrast' to compare two different things.",
+        "example": "Japan's population is shrinking. In contrast, India's is still growing rapidly."
+      },
+      {
+        "rule": "Use 'this/these + summary noun' to refer back to a whole idea instead of adding another linker.",
+        "example": "Many firms now allow remote work. This shift has reduced demand for city-centre office space."
+      },
+      {
+        "rule": "Limit sentence-initial linkers and vary their position within the sentence.",
+        "example": "Public transport in rural areas is, however, still badly underfunded."
+      }
+    ],
+    "common_mistakes": [
+      {
+        "wrong": "Online learning is flexible, however it requires self-discipline.",
+        "right": "Online learning is flexible. However, it requires self-discipline.",
+        "why": "'However' cannot join two independent clauses after a comma; use a full stop or semicolon before it and a comma after it."
+      },
+      {
+        "wrong": "Firstly, cars are expensive. Moreover, cars cause pollution. Furthermore, cars cause accidents.",
+        "right": "Cars are expensive to run and a major source of pollution, and they also cause thousands of accidents every year.",
+        "why": "Stacking linkers is mechanical; combining related ideas and using 'also' reads far more naturally."
+      },
+      {
+        "wrong": "Some people prefer city life. On the contrary, others prefer the countryside.",
+        "right": "Some people prefer city life. Others, however, prefer the countryside.",
+        "why": "'On the contrary' rejects a previous statement as untrue; it does not introduce a different group's view."
+      },
+      {
+        "wrong": "Exercise improves health. Moreover, many people do not have time for it.",
+        "right": "Exercise improves health. However, many people do not have time for it.",
+        "why": "'Moreover' adds a supporting point, but this sentence introduces a contrast."
+      },
+      {
+        "wrong": "Governments should fund libraries and museums. It will help young people.",
+        "right": "Governments should fund libraries and museums. This investment would particularly benefit young people.",
+        "why": "'It' has no clear singular antecedent; 'this + noun' makes the reference precise."
+      },
+      {
+        "wrong": "Technology can solve many problems, such as it can improve healthcare.",
+        "right": "Technology can solve many problems; for example, it can improve access to healthcare.",
+        "why": "'Such as' must be followed by a noun phrase, not a clause; use 'for example' with a full clause."
+      }
+    ],
+    "ielts_examples": [
+      {
+        "context": "WRITING_TASK1",
+        "sentence": "Coal use fell steadily throughout the period, whereas renewable energy followed the opposite pattern, and by 2018 its share had overtaken that of nuclear power."
+      },
+      {
+        "context": "WRITING_TASK2",
+        "sentence": "Congestion charges have cut traffic in several European capitals. This success, however, depends heavily on the availability of affordable public transport."
+      },
+      {
+        "context": "WRITING_TASK2",
+        "sentence": "Tourism brings much-needed revenue to remote regions; nevertheless, without careful regulation, it can erode the very culture that attracts visitors."
+      },
+      {
+        "context": "WRITING_TASK2",
+        "sentence": "Admittedly, a longer school day would place extra pressure on teachers. Such concerns, however, could be addressed by hiring additional support staff."
+      },
+      {
+        "context": "SPEAKING_PART3",
+        "sentence": "Most people my age shop online, but that doesn't mean local markets have disappeared — if anything, they've become a kind of weekend social activity."
+      }
+    ]
+  }
+}

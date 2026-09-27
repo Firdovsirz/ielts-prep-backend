@@ -1,0 +1,208 @@
+{
+  "task_type": "READING_PASSAGE",
+  "source_url": "https://en.wikipedia.org/wiki/Hygiene_hypothesis",
+  "licence": "CC BY-SA 4.0 (topic seed only; passage text is original)",
+  "content": {
+    "title": "Too Clean for Our Own Good? Rethinking the Hygiene Hypothesis",
+    "topic": "the hygiene hypothesis and allergic disease",
+    "difficulty": 3,
+    "cefr": "C1",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "In 1989 the epidemiologist David Strachan published a short paper that would go on to shape three decades of research into allergic disease. Examining data from a large cohort of British children, he noticed that those with several older siblings were noticeably less likely to develop hay fever and eczema than first-born or only children. Strachan speculated that infections picked up in early childhood, passed on by older brothers and sisters, might somehow protect against allergy, and that the rising prevalence of such conditions in wealthy countries might reflect fewer children per household, better domestic facilities and more rigorous personal hygiene. The idea, which came to be known as the hygiene hypothesis, was elegant, intuitive and, as it turned out, only partly right."
+      },
+      {
+        "label": "B",
+        "text": "The immunological rationale seemed, at first, to fall neatly into place. From the late 1980s, immunologists had distinguished two broad classes of helper T cells: one geared primarily towards fighting viruses and bacteria, the other involved in defence against parasites and in the kind of response that underlies allergy. If early infections stimulated the first pathway, it was reasoned, they might hold the second in check, so that a childhood with too few infections would leave the allergic pathway unrestrained. The account was attractive precisely because it connected an epidemiological pattern to a cellular mechanism. It began to unravel, however, when researchers observed that autoimmune conditions such as type 1 diabetes and multiple sclerosis, which are driven largely by the supposedly protective pathway, had been rising in the same populations, and over the same period, as allergies."
+      },
+      {
+        "label": "C",
+        "text": "A further difficulty concerned the infections themselves. When investigators looked for a protective effect of common childhood illnesses, the results were inconsistent: some studies found one, many did not, and certain viral infections in infancy appeared, if anything, to increase the risk of asthma. Nor did the timeline fit well. The great improvements in sanitation and water supply that curbed the most lethal infections were largely complete in wealthy countries decades before allergy rates began their steep climb. Whatever had been protecting earlier generations, it seemed unlikely to be the familiar diseases of the nursery."
+      },
+      {
+        "label": "D",
+        "text": "It was in response to such anomalies that the immunologist Graham Rook proposed what he called the 'old friends' hypothesis in the early 2000s. Rook argued that the crucial exposures were not the crowd infections that spread through dense human populations, most of which evolved relatively recently, but organisms that had accompanied humans throughout their evolutionary history: harmless environmental bacteria in soil and untreated water, certain gut-dwelling worms, and the microbes carried by other people and by animals. Because the immune system evolved in constant contact with these organisms, it came to depend on them, Rook suggested, for the signals that establish tolerance. Deprived of them, the regulatory mechanisms that normally restrain inappropriate immune responses fail to develop properly."
+      },
+      {
+        "label": "E",
+        "text": "Several strands of evidence lend this reformulation support. Children raised on traditional farms, where they are exposed from infancy to livestock, animal feed and unprocessed milk, have repeatedly been found to have markedly lower rates of asthma and allergy than other rural children. A frequently cited comparison of two farming communities in the United States, similar in genetic ancestry and way of life but differing in agricultural practice, found asthma to be several times more common in the community that used modern industrialised methods than in the one that still kept animals close to its homes. Studies of migrants, meanwhile, suggest that the risk of allergic disease rises the longer people live in an urbanised environment, which argues against a purely genetic explanation."
+      },
+      {
+        "label": "F",
+        "text": "It is here that the popular version of the hypothesis becomes seriously misleading. Because the word 'hygiene' appears in its name, it is widely assumed that household cleanliness – washing hands, cleaning kitchens, bathing children – is to blame for the rise in allergy. There is little evidence that this is so. The organisms that appear to matter are, for the most part, not those removed by domestic cleaning, and the practices that do reduce exposure to them, such as urban living, antibiotic use and caesarean birth, have little to do with personal hygiene. Indeed, the confusion is potentially hazardous: abandoning handwashing would do nothing to restore contact with beneficial microbes while substantially increasing the risk of genuinely dangerous infections. For this reason, a number of researchers have argued that the term itself should be retired."
+      },
+      {
+        "label": "G",
+        "text": "My own view is that they are right, although renaming alone will not resolve the deeper uncertainties. Much of the supporting evidence is observational, and farm environments differ from urban ones in countless ways besides their microbial content, from diet to air quality. Attempts to translate the theory into treatment have so far produced mixed results: trials in which patients were deliberately infected with intestinal worms, for example, have generally failed to deliver consistent benefits. What the evidence does support is a more modest conclusion – that the immune system requires appropriate microbial input in early life – and research is now focused on identifying which exposures matter, at what age, and whether they can be safely reproduced. Until those questions are answered, the most responsible advice to parents is not to abandon cleanliness but to target it."
+      }
+    ],
+    "question_groups": [
+      {
+        "group_id": "g1",
+        "question_type": "MATCHING_INFORMATION",
+        "instructions": "Questions 1–4\nThe reading passage has seven paragraphs, A–G.\nWhich paragraph contains the following information?\nWrite the correct letter, A–G.\nNB You may use any letter more than once.",
+        "word_limit": 0,
+        "number_allowed": false,
+        "options": [
+          { "key": "A", "text": "Paragraph A" },
+          { "key": "B", "text": "Paragraph B" },
+          { "key": "C", "text": "Paragraph C" },
+          { "key": "D", "text": "Paragraph D" },
+          { "key": "E", "text": "Paragraph E" },
+          { "key": "F", "text": "Paragraph F" },
+          { "key": "G", "text": "Paragraph G" }
+        ],
+        "context": "",
+        "table": { "title": "", "columns": [], "rows": [] },
+        "flow_steps": [],
+        "diagram": { "title": "", "nodes": [], "edges": [] },
+        "map": { "title": "", "features": [], "markers": [] },
+        "questions": [
+          {
+            "number": 1,
+            "prompt": "a comparison of two groups that shared a similar background but differed in how they worked",
+            "options": [],
+            "answers": ["E"],
+            "justification_span": "A frequently cited comparison of two farming communities in the United States, similar in genetic ancestry and way of life but differing in agricultural practice, found asthma to be several times more common in the community that used modern industrialised methods than in the one that still kept animals close to its homes.",
+            "location": "E"
+          },
+          {
+            "number": 2,
+            "prompt": "the reason why an explanation based on types of immune cell came to be doubted",
+            "options": [],
+            "answers": ["B"],
+            "justification_span": "It began to unravel, however, when researchers observed that autoimmune conditions such as type 1 diabetes and multiple sclerosis, which are driven largely by the supposedly protective pathway, had been rising in the same populations, and over the same period, as allergies.",
+            "location": "B"
+          },
+          {
+            "number": 3,
+            "prompt": "a reference to efforts to turn the theory into a form of therapy",
+            "options": [],
+            "answers": ["G"],
+            "justification_span": "Attempts to translate the theory into treatment have so far produced mixed results: trials in which patients were deliberately infected with intestinal worms, for example, have generally failed to deliver consistent benefits.",
+            "location": "G"
+          },
+          {
+            "number": 4,
+            "prompt": "a claim that some infectious diseases are relatively new in human history",
+            "options": [],
+            "answers": ["D"],
+            "justification_span": "Rook argued that the crucial exposures were not the crowd infections that spread through dense human populations, most of which evolved relatively recently",
+            "location": "D"
+          }
+        ]
+      },
+      {
+        "group_id": "g2",
+        "question_type": "YES_NO_NOT_GIVEN",
+        "instructions": "Questions 5–9\nDo the following statements agree with the claims of the writer in the passage?\nWrite\nYES if the statement agrees with the claims of the writer\nNO if the statement contradicts the claims of the writer\nNOT GIVEN if it is impossible to say what the writer thinks about this",
+        "word_limit": 0,
+        "number_allowed": false,
+        "options": [],
+        "context": "",
+        "table": { "title": "", "columns": [], "rows": [] },
+        "flow_steps": [],
+        "diagram": { "title": "", "nodes": [], "edges": [] },
+        "map": { "title": "", "features": [], "markers": [] },
+        "questions": [
+          {
+            "number": 5,
+            "prompt": "Strachan's original explanation has been fully confirmed by later research.",
+            "options": [],
+            "answers": ["NO"],
+            "justification_span": "The idea, which came to be known as the hygiene hypothesis, was elegant, intuitive and, as it turned out, only partly right.",
+            "location": "A"
+          },
+          {
+            "number": 6,
+            "prompt": "Rook's hypothesis was initially treated with scepticism by most immunologists.",
+            "options": [],
+            "answers": ["NOT GIVEN"],
+            "justification_span": "It was in response to such anomalies that the immunologist Graham Rook proposed what he called the 'old friends' hypothesis in the early 2000s.",
+            "location": "D"
+          },
+          {
+            "number": 7,
+            "prompt": "Research on people who have relocated suggests that allergy cannot be explained by inheritance alone.",
+            "options": [],
+            "answers": ["YES"],
+            "justification_span": "Studies of migrants, meanwhile, suggest that the risk of allergic disease rises the longer people live in an urbanised environment, which argues against a purely genetic explanation.",
+            "location": "E"
+          },
+          {
+            "number": 8,
+            "prompt": "Cleaning routines in the home are largely responsible for the growth in allergic conditions.",
+            "options": [],
+            "answers": ["NO"],
+            "justification_span": "Because the word 'hygiene' appears in its name, it is widely assumed that household cleanliness – washing hands, cleaning kitchens, bathing children – is to blame for the rise in allergy. There is little evidence that this is so.",
+            "location": "F"
+          },
+          {
+            "number": 9,
+            "prompt": "Features of farm life unrelated to microbes may partly account for the results of farm studies.",
+            "options": [],
+            "answers": ["YES"],
+            "justification_span": "Much of the supporting evidence is observational, and farm environments differ from urban ones in countless ways besides their microbial content, from diet to air quality.",
+            "location": "G"
+          }
+        ]
+      },
+      {
+        "group_id": "g3",
+        "question_type": "SENTENCE_COMPLETION",
+        "instructions": "Questions 10–14\nComplete the sentences below.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.",
+        "word_limit": 2,
+        "number_allowed": false,
+        "options": [],
+        "context": "",
+        "table": { "title": "", "columns": [], "rows": [] },
+        "flow_steps": [],
+        "diagram": { "title": "", "nodes": [], "edges": [] },
+        "map": { "title": "", "features": [], "markers": [] },
+        "questions": [
+          {
+            "number": 10,
+            "prompt": "Strachan's data suggested that children with a number of {{10}} were at lower risk of certain allergic conditions.",
+            "options": [],
+            "answers": ["older siblings"],
+            "justification_span": "Examining data from a large cohort of British children, he noticed that those with several older siblings were noticeably less likely to develop hay fever and eczema than first-born or only children.",
+            "location": "A"
+          },
+          {
+            "number": 11,
+            "prompt": "Major advances in public sanitation and {{11}} had largely been achieved in rich countries long before allergies became far more widespread.",
+            "options": [],
+            "answers": ["water supply"],
+            "justification_span": "The great improvements in sanitation and water supply that curbed the most lethal infections were largely complete in wealthy countries decades before allergy rates began their steep climb.",
+            "location": "C"
+          },
+          {
+            "number": 12,
+            "prompt": "According to Rook, without contact with 'old friends', the body's {{12}} do not mature and so cannot hold back unsuitable immune reactions.",
+            "options": [],
+            "answers": ["regulatory mechanisms"],
+            "justification_span": "Deprived of them, the regulatory mechanisms that normally restrain inappropriate immune responses fail to develop properly.",
+            "location": "D"
+          },
+          {
+            "number": 13,
+            "prompt": "Children growing up on traditional farms encounter livestock, fodder and {{13}} from their earliest years.",
+            "options": [],
+            "answers": ["unprocessed milk"],
+            "justification_span": "Children raised on traditional farms, where they are exposed from infancy to livestock, animal feed and unprocessed milk, have repeatedly been found to have markedly lower rates of asthma and allergy than other rural children.",
+            "location": "E"
+          },
+          {
+            "number": 14,
+            "prompt": "Factors that genuinely reduce contact with helpful microbes include city life, the use of antibiotics and {{14}}.",
+            "options": [],
+            "answers": ["caesarean birth", "cesarean birth"],
+            "justification_span": "The organisms that appear to matter are, for the most part, not those removed by domestic cleaning, and the practices that do reduce exposure to them, such as urban living, antibiotic use and caesarean birth, have little to do with personal hygiene.",
+            "location": "F"
+          }
+        ]
+      }
+    ]
+  }
+}

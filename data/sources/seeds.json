@@ -1,0 +1,1142 @@
+{
+  "seeds": [
+    {
+      "id": "wiki-montessori-education",
+      "title": "Montessori education",
+      "url": "https://en.wikipedia.org/wiki/Montessori_education",
+      "licence": "CC BY-SA 4.0",
+      "provider": "wikipedia",
+      "topic": "education",
+      "modules": [
+        "reading",
+        "listening"
+      ],
+      "summary": "How Maria Montessori's child-led method began, how its classrooms work, and what research says about its outcomes."
+    },
+    {
+      "id": "wiki-distance-education",
+      "title": "Distance education",
+      "url": "https://en.wikipedia.org/wiki/Distance_education",
+      "licence": "CC BY-SA 4.0",
+      "provider": "wikipedia",
+      "topic": "education",
+      "modules": [
+        "reading",
+        "listening"
+      ],
+      "summary": "The evolution of learning at a distance from correspondence courses and radio schools to online universities and MOOCs."
+    },
+    {
+      "id": "wiki-bilingual-education",
+      "title": "Bilingual education",
+      "url": "https://en.wikipedia.org/wiki/Bilingual_education",
+      "licence": "CC BY-SA 4.0",
+      "provider": "wikipedia",
+      "topic": "education",
+      "modules": [
+        "reading",
+        "listening"
+      ],
+      "summary": "Different models of teaching in two languages and the debate over their effects on literacy and achievement."
+    },
+    {
+      "id": "wiki-spaced-repetition",
+      "title": "Spaced repetition",
+      "url": "https://en.wikipedia.org/wiki/Spaced_repetition",
+      "licence": "CC BY-SA 4.0",
+      "provider": "wikipedia",
+      "topic": "education",
+      "modules": [
+        "reading",
+        "listening"
+      ],
+      "summary": "The memory research behind reviewing material at increasing intervals and its use in modern study tools."
+    },
+    {
+      "id": "wiki-urban-heat-island",
+      "title": "Urban heat island",
+      "url": "https://en.wikipedia.org/wiki/Urban_heat_island",
+      "licence": "CC BY-SA 4.0",
+      "provider": "wikipedia",
+      "topic": "environment",
+      "modules": [
+        "reading",
+        "listening"
+      ],
+      "summary": "Why cities are warmer than the surrounding countryside and how green roofs, trees and reflective surfaces can reduce the effect."
+    },
+    {
+      "id": "wiki-coral-bleaching",
+      "title": "Coral bleaching",
+      "url": "https://en.wikipedia.org/wiki/Coral_bleaching",
+      "licence": "CC BY-SA 4.0",
+      "provider": "wikipedia",
+      "topic": "environment",
+      "modules": [
+        "reading",
+        "listening"
+      ],
+      "summary": "What happens to coral reefs when ocean temperatures rise, and the prospects for reef recovery and protection."
+    },
+    {
+      "id": "wiki-desertification",
+      "title": "Desertification",
+      "url": "https://en.wikipedia.org/wiki/Desertification",
+      "licence": "CC BY-SA 4.0",
+      "provider": "wikipedia",
+      "topic": "environment",
+      "modules": [
+        "reading",
+        "listening"
+      ],
+      "summary": "The natural and human causes of land degradation in drylands and projects such as the Great Green Wall designed to halt it."
+    },
+    {
+      "id": "wiki-rewilding",
+      "title": "Rewilding",
+      "url": "https://en.wikipedia.org/wiki/Rewilding",
+      "licence": "CC BY-SA 4.0",
+      "provider": "wikipedia",
+      "topic": "environment",
+      "modules": [
+        "reading",
+        "listening"
+      ],
+      "summary": "The idea of restoring ecosystems by reintroducing species such as wolves and beavers, and the controversy it provokes."
+    },
+    {
+      "id": "wiki-printing-press",
+      "title": "Printing press",
+      "url": "https://en.wikipedia.org/wiki/Printing_press",
+      "licence": "CC BY-SA 4.0",
+      "provider": "wikipedia",
+      "topic": "technology",
+      "modules": [
+        "reading",
+        "listening"
+      ],
+      "summary": "Gutenberg's movable-type press and its long-term effects on literacy, science and religion in Europe."
+    },
+    {
+      "id": "wiki-optical-telegraph",
+      "title": "Optical telegraph",
+      "url": "https://en.wikipedia.org/wiki/Optical_telegraph",
+      "licence": "CC BY-SA 4.0",
+      "provider": "wikipedia",
+      "topic": "technology",
+      "modules": [
+        "reading",
+        "listening"
+      ],
+      "summary": "The semaphore towers of eighteenth-century France that sent messages across the country before the electric telegraph."
+    },
+    {
+      "id": "wiki-3d-printing",
+      "title": "3D printing",
+      "url": "https://en.wikipedia.org/wiki/3D_printing",
+      "licence": "CC BY-SA 4.0",
+      "provider": "wikipedia",
+      "topic": "technology",
+      "modules": [
+        "reading",
+        "listening"
+      ],
+      "summary": "How additive manufacturing works and its applications in medicine, construction and small-scale production."
+    },
+    {
+      "id": "wiki-vertical-farming",
+      "title": "Vertical farming",
+      "url": "https://en.wikipedia.org/wiki/Vertical_farming",
+      "licence": "CC BY-SA 4.0",
+      "provider": "wikipedia",
+      "topic": "technology",
+      "modules": [
+        "reading",
+        "listening"
+      ],
+      "summary": "Growing crops in stacked indoor layers under artificial light, and whether it can feed growing cities sustainably."
+    },
+    {
+      "id": "wiki-marine-chronometer",
+      "title": "Marine chronometer",
+      "url": "https://en.wikipedia.org/wiki/Marine_chronometer",
+      "licence": "CC BY-SA 4.0",
+      "provider": "wikipedia",
+      "topic": "technology",
+      "modules": [
+        "reading",
+        "listening"
+      ],
+      "summary": "The search for a clock accurate enough at sea to solve the longitude problem, and John Harrison's solution."
+    },
+    {
+      "id": "wiki-placebo",
+      "title": "Placebo",
+      "url": "https://en.wikipedia.org/wiki/Placebo",
+      "licence": "CC BY-SA 4.0",
+      "provider": "wikipedia",
+      "topic": "health",
+      "modules": [
+        "reading",
+        "listening"
+      ],
+      "summary": "Why inactive treatments can make patients feel better, and how placebos are used in clinical trials."
+    },
+    {
+      "id": "wiki-antimicrobial-resistance",
+      "title": "Antimicrobial resistance",
+      "url": "https://en.wikipedia.org/wiki/Antimicrobial_resistance",
+      "licence": "CC BY-SA 4.0",
+      "provider": "wikipedia",
+      "topic": "health",
+      "modules": [
+        "reading",
+        "listening"
+      ],
+      "summary": "How bacteria evolve resistance to antibiotics and the global measures proposed to slow the problem."
+    },
+    {
+      "id": "wiki-1854-broad-street-cholera-outbreak",
+      "title": "1854 Broad Street cholera outbreak",
+      "url": "https://en.wikipedia.org/wiki/1854_Broad_Street_cholera_outbreak",
+      "licence": "CC BY-SA 4.0",
+      "provider": "wikipedia",
+      "topic": "health",
+      "modules": [
+        "reading",
+        "listening"
+      ],
+      "summary": "How John Snow mapped cholera deaths in London and helped establish the science of epidemiology."
+    },
+    {
+      "id": "wiki-sleep-deprivation",
+      "title": "Sleep deprivation",
+      "url": "https://en.wikipedia.org/wiki/Sleep_deprivation",
+      "licence": "CC BY-SA 4.0",
+      "provider": "wikipedia",
+      "topic": "health",
+      "modules": [
+        "reading",
+        "listening"
+      ],
+      "summary": "The effects of insufficient sleep on memory, mood and physical health, and why modern lifestyles reduce sleep."
+    },
+    {
+      "id": "wiki-sugary-drink-tax",
+      "title": "Sugary drink tax",
+      "url": "https://en.wikipedia.org/wiki/Sugary_drink_tax",
+      "licence": "CC BY-SA 4.0",
+      "provider": "wikipedia",
+      "topic": "health",
+      "modules": [
+        "reading",
+        "listening"
+      ],
+      "summary": "Taxes on sweetened drinks introduced by various countries and the evidence on whether they reduce consumption."
+    },
+    {
+      "id": "wiki-four-day-workweek",
+      "title": "Four-day workweek",
+      "url": "https://en.wikipedia.org/wiki/Four-day_workweek",
+      "licence": "CC BY-SA 4.0",
+      "provider": "wikipedia",
+      "topic": "work",
+      "modules": [
+        "reading",
+        "listening"
+      ],
+      "summary": "Trials of a shorter working week and their reported effects on productivity, well-being and business costs."
+    },
+    {
+      "id": "wiki-remote-work",
+      "title": "Remote work",
+      "url": "https://en.wikipedia.org/wiki/Remote_work",
+      "licence": "CC BY-SA 4.0",
+      "provider": "wikipedia",
+      "topic": "work",
+      "modules": [
+        "reading",
+        "listening"
+      ],
+      "summary": "The rise of working from home, the technologies that enabled it, and its effects on employees, firms and cities."
+    },
+    {
+      "id": "wiki-luddites",
+      "title": "Luddites",
+      "url": "https://en.wikipedia.org/wiki/Luddites",
+      "licence": "CC BY-SA 4.0",
+      "provider": "wikipedia",
+      "topic": "work",
+      "modules": [
+        "reading",
+        "listening"
+      ],
+      "summary": "The nineteenth-century textile workers who destroyed machinery, and what their protest reveals about automation and jobs."
+    },
+    {
+      "id": "wiki-scientific-management",
+      "title": "Scientific management",
+      "url": "https://en.wikipedia.org/wiki/Scientific_management",
+      "licence": "CC BY-SA 4.0",
+      "provider": "wikipedia",
+      "topic": "work",
+      "modules": [
+        "reading",
+        "listening"
+      ],
+      "summary": "Frederick Taylor's time-and-motion studies and their lasting influence on factories and modern management."
+    },
+    {
+      "id": "wiki-population-ageing",
+      "title": "Population ageing",
+      "url": "https://en.wikipedia.org/wiki/Population_ageing",
+      "licence": "CC BY-SA 4.0",
+      "provider": "wikipedia",
+      "topic": "society",
+      "modules": [
+        "reading",
+        "listening"
+      ],
+      "summary": "Why populations are growing older and how pensions, healthcare and the workforce are adapting."
+    },
+    {
+      "id": "wiki-gentrification",
+      "title": "Gentrification",
+      "url": "https://en.wikipedia.org/wiki/Gentrification",
+      "licence": "CC BY-SA 4.0",
+      "provider": "wikipedia",
+      "topic": "society",
+      "modules": [
+        "reading",
+        "listening"
+      ],
+      "summary": "How wealthier residents change older neighbourhoods, and the debate over renewal versus displacement."
+    },
+    {
+      "id": "wiki-garden-city-movement",
+      "title": "Garden city movement",
+      "url": "https://en.wikipedia.org/wiki/Garden_city_movement",
+      "licence": "CC BY-SA 4.0",
+      "provider": "wikipedia",
+      "topic": "society",
+      "modules": [
+        "reading",
+        "listening"
+      ],
+      "summary": "Ebenezer Howard's plan for self-contained towns combining the benefits of city and countryside, and the towns it inspired."
+    },
+    {
+      "id": "wiki-happiness-economics",
+      "title": "Happiness economics",
+      "url": "https://en.wikipedia.org/wiki/Happiness_economics",
+      "licence": "CC BY-SA 4.0",
+      "provider": "wikipedia",
+      "topic": "society",
+      "modules": [
+        "reading",
+        "listening"
+      ],
+      "summary": "How economists measure well-being, and whether higher income makes people happier."
+    },
+    {
+      "id": "wiki-universal-basic-income",
+      "title": "Universal basic income",
+      "url": "https://en.wikipedia.org/wiki/Universal_basic_income",
+      "licence": "CC BY-SA 4.0",
+      "provider": "wikipedia",
+      "topic": "government",
+      "modules": [
+        "reading",
+        "listening"
+      ],
+      "summary": "The idea of an unconditional regular payment to every citizen and the results of pilot schemes around the world."
+    },
+    {
+      "id": "wiki-compulsory-voting",
+      "title": "Compulsory voting",
+      "url": "https://en.wikipedia.org/wiki/Compulsory_voting",
+      "licence": "CC BY-SA 4.0",
+      "provider": "wikipedia",
+      "topic": "government",
+      "modules": [
+        "reading",
+        "listening"
+      ],
+      "summary": "Countries that require citizens to vote, how the rule is enforced, and arguments for and against it."
+    },
+    {
+      "id": "wiki-tragedy-of-the-commons",
+      "title": "Tragedy of the commons",
+      "url": "https://en.wikipedia.org/wiki/Tragedy_of_the_commons",
+      "licence": "CC BY-SA 4.0",
+      "provider": "wikipedia",
+      "topic": "government",
+      "modules": [
+        "reading",
+        "listening"
+      ],
+      "summary": "Why shared resources such as fisheries tend to be overused, and how regulation or community management can prevent it."
+    },
+    {
+      "id": "wiki-restorative-justice",
+      "title": "Restorative justice",
+      "url": "https://en.wikipedia.org/wiki/Restorative_justice",
+      "licence": "CC BY-SA 4.0",
+      "provider": "wikipedia",
+      "topic": "crime",
+      "modules": [
+        "reading",
+        "listening"
+      ],
+      "summary": "An approach to crime that brings offenders and victims together, and evidence on its effect on reoffending."
+    },
+    {
+      "id": "wiki-broken-windows-theory",
+      "title": "Broken windows theory",
+      "url": "https://en.wikipedia.org/wiki/Broken_windows_theory",
+      "licence": "CC BY-SA 4.0",
+      "provider": "wikipedia",
+      "topic": "crime",
+      "modules": [
+        "reading",
+        "listening"
+      ],
+      "summary": "The theory that visible disorder encourages crime, its application to policing in New York, and its critics."
+    },
+    {
+      "id": "wiki-forensic-science",
+      "title": "Forensic science",
+      "url": "https://en.wikipedia.org/wiki/Forensic_science",
+      "licence": "CC BY-SA 4.0",
+      "provider": "wikipedia",
+      "topic": "crime",
+      "modules": [
+        "reading",
+        "listening"
+      ],
+      "summary": "How scientific methods from fingerprinting to DNA analysis became central to criminal investigation."
+    },
+    {
+      "id": "wiki-crime-prevention-through-environmental-design",
+      "title": "Crime prevention through environmental design",
+      "url": "https://en.wikipedia.org/wiki/Crime_prevention_through_environmental_design",
+      "licence": "CC BY-SA 4.0",
+      "provider": "wikipedia",
+      "topic": "crime",
+      "modules": [
+        "reading",
+        "listening"
+      ],
+      "summary": "How the design of streets, lighting and buildings can discourage crime."
+    },
+    {
+      "id": "wiki-endangered-language",
+      "title": "Endangered language",
+      "url": "https://en.wikipedia.org/wiki/Endangered_language",
+      "licence": "CC BY-SA 4.0",
+      "provider": "wikipedia",
+      "topic": "culture",
+      "modules": [
+        "reading",
+        "listening"
+      ],
+      "summary": "Why languages die out, how many are at risk, and projects to document and revive them."
+    },
+    {
+      "id": "wiki-terracotta-army",
+      "title": "Terracotta Army",
+      "url": "https://en.wikipedia.org/wiki/Terracotta_Army",
+      "licence": "CC BY-SA 4.0",
+      "provider": "wikipedia",
+      "topic": "culture",
+      "modules": [
+        "reading",
+        "listening"
+      ],
+      "summary": "The discovery of thousands of clay soldiers buried with China's first emperor and what they reveal about his empire."
+    },
+    {
+      "id": "wiki-overtourism",
+      "title": "Overtourism",
+      "url": "https://en.wikipedia.org/wiki/Overtourism",
+      "licence": "CC BY-SA 4.0",
+      "provider": "wikipedia",
+      "topic": "culture",
+      "modules": [
+        "reading",
+        "listening"
+      ],
+      "summary": "The effects of mass tourism on cities such as Venice and Barcelona, and measures to manage visitor numbers."
+    },
+    {
+      "id": "wiki-history-of-tea",
+      "title": "History of tea",
+      "url": "https://en.wikipedia.org/wiki/History_of_tea",
+      "licence": "CC BY-SA 4.0",
+      "provider": "wikipedia",
+      "topic": "culture",
+      "modules": [
+        "reading",
+        "listening"
+      ],
+      "summary": "How tea spread from China to Japan, Britain and the rest of the world, shaping trade and social customs."
+    },
+    {
+      "id": "wiki-extended-family",
+      "title": "Extended family",
+      "url": "https://en.wikipedia.org/wiki/Extended_family",
+      "licence": "CC BY-SA 4.0",
+      "provider": "wikipedia",
+      "topic": "family",
+      "modules": [
+        "reading",
+        "listening"
+      ],
+      "summary": "Families in which several generations live together, how they differ across cultures, and why they are changing."
+    },
+    {
+      "id": "wiki-attachment-theory",
+      "title": "Attachment theory",
+      "url": "https://en.wikipedia.org/wiki/Attachment_theory",
+      "licence": "CC BY-SA 4.0",
+      "provider": "wikipedia",
+      "topic": "family",
+      "modules": [
+        "reading",
+        "listening"
+      ],
+      "summary": "John Bowlby's theory of the bond between infants and carers, and research on its long-term effects."
+    },
+    {
+      "id": "wiki-parental-leave",
+      "title": "Parental leave",
+      "url": "https://en.wikipedia.org/wiki/Parental_leave",
+      "licence": "CC BY-SA 4.0",
+      "provider": "wikipedia",
+      "topic": "family",
+      "modules": [
+        "reading",
+        "listening"
+      ],
+      "summary": "Paid leave for new parents in different countries and its effects on children, parents and gender equality."
+    },
+    {
+      "id": "wiki-fake-news",
+      "title": "Fake news",
+      "url": "https://en.wikipedia.org/wiki/Fake_news",
+      "licence": "CC BY-SA 4.0",
+      "provider": "wikipedia",
+      "topic": "media",
+      "modules": [
+        "reading",
+        "listening"
+      ],
+      "summary": "The history of false news from pamphlets to social media, and the methods used to detect and counter it."
+    },
+    {
+      "id": "wiki-filter-bubble",
+      "title": "Filter bubble",
+      "url": "https://en.wikipedia.org/wiki/Filter_bubble",
+      "licence": "CC BY-SA 4.0",
+      "provider": "wikipedia",
+      "topic": "media",
+      "modules": [
+        "reading",
+        "listening"
+      ],
+      "summary": "How personalised algorithms may limit the range of views people encounter online, and research questioning the idea."
+    },
+    {
+      "id": "wiki-advertising-to-children",
+      "title": "Advertising to children",
+      "url": "https://en.wikipedia.org/wiki/Advertising_to_children",
+      "licence": "CC BY-SA 4.0",
+      "provider": "wikipedia",
+      "topic": "media",
+      "modules": [
+        "reading",
+        "listening"
+      ],
+      "summary": "How advertisers target young audiences, the psychological concerns involved, and national restrictions."
+    },
+    {
+      "id": "wiki-the-war-of-the-worlds-1938-radio-drama",
+      "title": "The War of the Worlds (1938 radio drama)",
+      "url": "https://en.wikipedia.org/wiki/The_War_of_the_Worlds_(1938_radio_drama)",
+      "licence": "CC BY-SA 4.0",
+      "provider": "wikipedia",
+      "topic": "media",
+      "modules": [
+        "reading",
+        "listening"
+      ],
+      "summary": "The famous radio broadcast said to have caused panic, and what historians now believe about the audience reaction."
+    },
+    {
+      "id": "wiki-containerization",
+      "title": "Containerization",
+      "url": "https://en.wikipedia.org/wiki/Containerization",
+      "licence": "CC BY-SA 4.0",
+      "provider": "wikipedia",
+      "topic": "globalisation",
+      "modules": [
+        "reading",
+        "listening"
+      ],
+      "summary": "How the standard shipping container transformed ports, cut transport costs and made global trade possible."
+    },
+    {
+      "id": "wiki-fair-trade",
+      "title": "Fair trade",
+      "url": "https://en.wikipedia.org/wiki/Fair_trade",
+      "licence": "CC BY-SA 4.0",
+      "provider": "wikipedia",
+      "topic": "globalisation",
+      "modules": [
+        "reading",
+        "listening"
+      ],
+      "summary": "The fair trade movement, how certification works, and debates about its benefits to producers in developing countries."
+    },
+    {
+      "id": "wiki-english-as-a-lingua-franca",
+      "title": "English as a lingua franca",
+      "url": "https://en.wikipedia.org/wiki/English_as_a_lingua_franca",
+      "licence": "CC BY-SA 4.0",
+      "provider": "wikipedia",
+      "topic": "globalisation",
+      "modules": [
+        "reading",
+        "listening"
+      ],
+      "summary": "The use of English as a shared language between non-native speakers in business, science and travel."
+    },
+    {
+      "id": "wiki-silk-road",
+      "title": "Silk Road",
+      "url": "https://en.wikipedia.org/wiki/Silk_Road",
+      "licence": "CC BY-SA 4.0",
+      "provider": "wikipedia",
+      "topic": "globalisation",
+      "modules": [
+        "reading",
+        "listening"
+      ],
+      "summary": "The network of ancient trade routes linking China and the Mediterranean, and the goods, ideas and diseases it carried."
+    },
+    {
+      "id": "wiki-columbian-exchange",
+      "title": "Columbian exchange",
+      "url": "https://en.wikipedia.org/wiki/Columbian_exchange",
+      "licence": "CC BY-SA 4.0",
+      "provider": "wikipedia",
+      "topic": "globalisation",
+      "modules": [
+        "reading",
+        "listening"
+      ],
+      "summary": "The transfer of crops, animals and diseases between the Americas and the rest of the world after 1492."
+    },
+    {
+      "id": "wiki-congestion-pricing",
+      "title": "Congestion pricing",
+      "url": "https://en.wikipedia.org/wiki/Congestion_pricing",
+      "licence": "CC BY-SA 4.0",
+      "provider": "wikipedia",
+      "topic": "transport",
+      "modules": [
+        "reading",
+        "listening"
+      ],
+      "summary": "Charging drivers to enter busy city centres, with evidence from London, Stockholm and Singapore."
+    },
+    {
+      "id": "wiki-high-speed-rail",
+      "title": "High-speed rail",
+      "url": "https://en.wikipedia.org/wiki/High-speed_rail",
+      "licence": "CC BY-SA 4.0",
+      "provider": "wikipedia",
+      "topic": "transport",
+      "modules": [
+        "reading",
+        "listening"
+      ],
+      "summary": "The development of high-speed trains since the Shinkansen and their competition with air travel."
+    },
+    {
+      "id": "wiki-london-underground",
+      "title": "London Underground",
+      "url": "https://en.wikipedia.org/wiki/London_Underground",
+      "licence": "CC BY-SA 4.0",
+      "provider": "wikipedia",
+      "topic": "transport",
+      "modules": [
+        "reading",
+        "listening"
+      ],
+      "summary": "The world's first underground railway, the engineering challenges of building it, and its effect on London's growth."
+    },
+    {
+      "id": "wiki-self-driving-car",
+      "title": "Self-driving car",
+      "url": "https://en.wikipedia.org/wiki/Self-driving_car",
+      "licence": "CC BY-SA 4.0",
+      "provider": "wikipedia",
+      "topic": "transport",
+      "modules": [
+        "reading",
+        "listening"
+      ],
+      "summary": "How autonomous vehicles sense their surroundings, levels of automation, and questions of safety and responsibility."
+    },
+    {
+      "id": "wiki-plate-tectonics",
+      "title": "Plate tectonics",
+      "url": "https://en.wikipedia.org/wiki/Plate_tectonics",
+      "licence": "CC BY-SA 4.0",
+      "provider": "wikipedia",
+      "topic": "science",
+      "modules": [
+        "reading",
+        "listening"
+      ],
+      "summary": "How the theory of moving continents developed from Wegener's continental drift to modern plate tectonics."
+    },
+    {
+      "id": "wiki-exoplanet",
+      "title": "Exoplanet",
+      "url": "https://en.wikipedia.org/wiki/Exoplanet",
+      "licence": "CC BY-SA 4.0",
+      "provider": "wikipedia",
+      "topic": "science",
+      "modules": [
+        "reading",
+        "listening"
+      ],
+      "summary": "The methods astronomers use to detect planets around other stars and the search for potentially habitable worlds."
+    },
+    {
+      "id": "wiki-radiocarbon-dating",
+      "title": "Radiocarbon dating",
+      "url": "https://en.wikipedia.org/wiki/Radiocarbon_dating",
+      "licence": "CC BY-SA 4.0",
+      "provider": "wikipedia",
+      "topic": "science",
+      "modules": [
+        "reading",
+        "listening"
+      ],
+      "summary": "How the decay of carbon-14 is used to date ancient organic material, and the method's limitations."
+    },
+    {
+      "id": "wiki-graphene",
+      "title": "Graphene",
+      "url": "https://en.wikipedia.org/wiki/Graphene",
+      "licence": "CC BY-SA 4.0",
+      "provider": "wikipedia",
+      "topic": "science",
+      "modules": [
+        "reading",
+        "listening"
+      ],
+      "summary": "The discovery of a one-atom-thick form of carbon and its potential uses in electronics and materials."
+    },
+    {
+      "id": "wiki-behavioral-economics",
+      "title": "Behavioral economics",
+      "url": "https://en.wikipedia.org/wiki/Behavioral_economics",
+      "licence": "CC BY-SA 4.0",
+      "provider": "wikipedia",
+      "topic": "science",
+      "modules": [
+        "reading",
+        "listening"
+      ],
+      "summary": "How psychology explains why people make economic decisions that are not strictly rational."
+    },
+    {
+      "id": "wiki-stonehenge",
+      "title": "Stonehenge",
+      "url": "https://en.wikipedia.org/wiki/Stonehenge",
+      "licence": "CC BY-SA 4.0",
+      "provider": "wikipedia",
+      "topic": "history",
+      "modules": [
+        "reading",
+        "listening"
+      ],
+      "summary": "Theories about how and why the prehistoric monument was built, and what archaeology has revealed about its builders."
+    },
+    {
+      "id": "wiki-antikythera-mechanism",
+      "title": "Antikythera mechanism",
+      "url": "https://en.wikipedia.org/wiki/Antikythera_mechanism",
+      "licence": "CC BY-SA 4.0",
+      "provider": "wikipedia",
+      "topic": "history",
+      "modules": [
+        "reading",
+        "listening"
+      ],
+      "summary": "The ancient Greek device recovered from a shipwreck and how researchers reconstructed its astronomical functions."
+    },
+    {
+      "id": "wiki-great-stink",
+      "title": "Great Stink",
+      "url": "https://en.wikipedia.org/wiki/Great_Stink",
+      "licence": "CC BY-SA 4.0",
+      "provider": "wikipedia",
+      "topic": "history",
+      "modules": [
+        "reading",
+        "listening"
+      ],
+      "summary": "The hot summer of 1858 in London that led Joseph Bazalgette to build a modern sewer system."
+    },
+    {
+      "id": "wiki-rosetta-stone",
+      "title": "Rosetta Stone",
+      "url": "https://en.wikipedia.org/wiki/Rosetta_Stone",
+      "licence": "CC BY-SA 4.0",
+      "provider": "wikipedia",
+      "topic": "history",
+      "modules": [
+        "reading",
+        "listening"
+      ],
+      "summary": "The discovery of the inscribed stone and the race to decipher Egyptian hieroglyphs."
+    },
+    {
+      "id": "wiki-roman-concrete",
+      "title": "Roman concrete",
+      "url": "https://en.wikipedia.org/wiki/Roman_concrete",
+      "licence": "CC BY-SA 4.0",
+      "provider": "wikipedia",
+      "topic": "history",
+      "modules": [
+        "reading",
+        "listening"
+      ],
+      "summary": "Why Roman concrete structures have survived for two thousand years and what modern engineers are learning from them."
+    },
+    {
+      "id": "wiki-green-revolution",
+      "title": "Green Revolution",
+      "url": "https://en.wikipedia.org/wiki/Green_Revolution",
+      "licence": "CC BY-SA 4.0",
+      "provider": "wikipedia",
+      "topic": "history",
+      "modules": [
+        "reading",
+        "listening"
+      ],
+      "summary": "The high-yield crops and farming methods that raised food production from the 1960s, and their environmental costs."
+    },
+    {
+      "id": "wiki-bird-migration",
+      "title": "Bird migration",
+      "url": "https://en.wikipedia.org/wiki/Bird_migration",
+      "licence": "CC BY-SA 4.0",
+      "provider": "wikipedia",
+      "topic": "nature",
+      "modules": [
+        "reading",
+        "listening"
+      ],
+      "summary": "How and why birds travel thousands of kilometres each year and the navigation methods they use."
+    },
+    {
+      "id": "wiki-colony-collapse-disorder",
+      "title": "Colony collapse disorder",
+      "url": "https://en.wikipedia.org/wiki/Colony_collapse_disorder",
+      "licence": "CC BY-SA 4.0",
+      "provider": "wikipedia",
+      "topic": "nature",
+      "modules": [
+        "reading",
+        "listening"
+      ],
+      "summary": "The sudden disappearance of honey bee colonies, suspected causes, and the importance of bees for crop pollination."
+    },
+    {
+      "id": "wiki-mycorrhiza",
+      "title": "Mycorrhiza",
+      "url": "https://en.wikipedia.org/wiki/Mycorrhiza",
+      "licence": "CC BY-SA 4.0",
+      "provider": "wikipedia",
+      "topic": "nature",
+      "modules": [
+        "reading",
+        "listening"
+      ],
+      "summary": "The partnership between fungi and plant roots and its role in forest ecosystems and agriculture."
+    },
+    {
+      "id": "wiki-cephalopod-intelligence",
+      "title": "Cephalopod intelligence",
+      "url": "https://en.wikipedia.org/wiki/Cephalopod_intelligence",
+      "licence": "CC BY-SA 4.0",
+      "provider": "wikipedia",
+      "topic": "nature",
+      "modules": [
+        "reading",
+        "listening"
+      ],
+      "summary": "Evidence of problem-solving, learning and camouflage in octopuses, squid and cuttlefish."
+    },
+    {
+      "id": "wiki-mangrove",
+      "title": "Mangrove",
+      "url": "https://en.wikipedia.org/wiki/Mangrove",
+      "licence": "CC BY-SA 4.0",
+      "provider": "wikipedia",
+      "topic": "nature",
+      "modules": [
+        "reading",
+        "listening"
+      ],
+      "summary": "Salt-tolerant coastal forests, the wildlife they support, and their role in protecting coasts from storms."
+    },
+    {
+      "id": "wiki-animal-echolocation",
+      "title": "Animal echolocation",
+      "url": "https://en.wikipedia.org/wiki/Animal_echolocation",
+      "licence": "CC BY-SA 4.0",
+      "provider": "wikipedia",
+      "topic": "nature",
+      "modules": [
+        "reading",
+        "listening"
+      ],
+      "summary": "How bats, dolphins and some birds use sound echoes to navigate and hunt."
+    },
+    {
+      "id": "owid-co2-and-greenhouse-gas-emissions",
+      "title": "CO2 and Greenhouse Gas Emissions",
+      "url": "https://ourworldindata.org/co2-and-greenhouse-gas-emissions",
+      "licence": "CC BY 4.0",
+      "provider": "ourworldindata",
+      "topic": "environment",
+      "modules": [
+        "reading",
+        "listening"
+      ],
+      "summary": "Which countries and sectors produce greenhouse gas emissions and how emissions have changed since the Industrial Revolution."
+    },
+    {
+      "id": "owid-plastic-pollution",
+      "title": "Plastic Pollution",
+      "url": "https://ourworldindata.org/plastic-pollution",
+      "licence": "CC BY 4.0",
+      "provider": "ourworldindata",
+      "topic": "environment",
+      "modules": [
+        "reading",
+        "listening"
+      ],
+      "summary": "Global plastic production, how much is recycled or mismanaged, and where ocean plastic comes from."
+    },
+    {
+      "id": "owid-life-expectancy",
+      "title": "Life Expectancy",
+      "url": "https://ourworldindata.org/life-expectancy",
+      "licence": "CC BY 4.0",
+      "provider": "ourworldindata",
+      "topic": "health",
+      "modules": [
+        "reading",
+        "listening"
+      ],
+      "summary": "How and why life expectancy has risen around the world over the past two centuries."
+    },
+    {
+      "id": "owid-obesity",
+      "title": "Obesity",
+      "url": "https://ourworldindata.org/obesity",
+      "licence": "CC BY 4.0",
+      "provider": "ourworldindata",
+      "topic": "health",
+      "modules": [
+        "reading",
+        "listening"
+      ],
+      "summary": "The rise in obesity rates across countries and age groups and its links to diet and income."
+    },
+    {
+      "id": "owid-urbanization",
+      "title": "Urbanization",
+      "url": "https://ourworldindata.org/urbanization",
+      "licence": "CC BY 4.0",
+      "provider": "ourworldindata",
+      "topic": "society",
+      "modules": [
+        "reading",
+        "listening"
+      ],
+      "summary": "The share of people living in cities over time and projections of future urban growth."
+    },
+    {
+      "id": "owid-fertility-rate",
+      "title": "Fertility Rate",
+      "url": "https://ourworldindata.org/fertility-rate",
+      "licence": "CC BY 4.0",
+      "provider": "ourworldindata",
+      "topic": "family",
+      "modules": [
+        "reading",
+        "listening"
+      ],
+      "summary": "Why the number of children per woman has fallen worldwide and what explains the differences between countries."
+    },
+    {
+      "id": "owid-working-hours",
+      "title": "Working Hours",
+      "url": "https://ourworldindata.org/working-hours",
+      "licence": "CC BY 4.0",
+      "provider": "ourworldindata",
+      "topic": "work",
+      "modules": [
+        "reading",
+        "listening"
+      ],
+      "summary": "How annual working hours have declined in rich countries and how they relate to productivity."
+    },
+    {
+      "id": "owid-trade-and-globalization",
+      "title": "Trade and Globalization",
+      "url": "https://ourworldindata.org/trade-and-globalization",
+      "licence": "CC BY 4.0",
+      "provider": "ourworldindata",
+      "topic": "globalisation",
+      "modules": [
+        "reading",
+        "listening"
+      ],
+      "summary": "The growth of international trade over two centuries and its effects on economies and living standards."
+    },
+    {
+      "id": "owid-global-education",
+      "title": "Global Education",
+      "url": "https://ourworldindata.org/global-education",
+      "licence": "CC BY 4.0",
+      "provider": "ourworldindata",
+      "topic": "education",
+      "modules": [
+        "reading",
+        "listening"
+      ],
+      "summary": "The expansion of schooling worldwide, differences in years of education, and gaps in learning quality."
+    },
+    {
+      "id": "owid-homicides",
+      "title": "Homicides",
+      "url": "https://ourworldindata.org/homicides",
+      "licence": "CC BY 4.0",
+      "provider": "ourworldindata",
+      "topic": "crime",
+      "modules": [
+        "reading",
+        "listening"
+      ],
+      "summary": "Long-term trends in homicide rates and how they vary between countries and regions."
+    },
+    {
+      "id": "arxiv-1602-03837",
+      "title": "Observation of Gravitational Waves from a Binary Black Hole Merger",
+      "url": "https://arxiv.org/abs/1602.03837",
+      "licence": "arXiv.org perpetual non-exclusive licence (abstract metadata CC0)",
+      "provider": "arxiv",
+      "topic": "science",
+      "modules": [
+        "reading"
+      ],
+      "summary": "The first direct detection of gravitational waves and how the LIGO detectors measured such a tiny signal."
+    },
+    {
+      "id": "arxiv-1706-03762",
+      "title": "Attention Is All You Need",
+      "url": "https://arxiv.org/abs/1706.03762",
+      "licence": "arXiv.org perpetual non-exclusive licence (abstract metadata CC0)",
+      "provider": "arxiv",
+      "topic": "technology",
+      "modules": [
+        "reading"
+      ],
+      "summary": "The machine-translation research that introduced the transformer architecture behind modern language technology."
+    },
+    {
+      "id": "arxiv-1906-02243",
+      "title": "Energy and Policy Considerations for Deep Learning in NLP",
+      "url": "https://arxiv.org/abs/1906.02243",
+      "licence": "arXiv.org perpetual non-exclusive licence (abstract metadata CC0)",
+      "provider": "arxiv",
+      "topic": "environment",
+      "modules": [
+        "reading"
+      ],
+      "summary": "The energy use and carbon footprint of training large computer models and recommendations to reduce it."
+    },
+    {
+      "id": "gutenberg-1228",
+      "title": "On the Origin of Species by Means of Natural Selection (Charles Darwin)",
+      "url": "https://www.gutenberg.org/ebooks/1228",
+      "licence": "Public domain (US)",
+      "provider": "gutenberg",
+      "topic": "nature",
+      "modules": [
+        "reading"
+      ],
+      "summary": "The origins of the theory of natural selection and the observations of variation and competition that supported it."
+    },
+    {
+      "id": "gutenberg-14474",
+      "title": "The Chemical History of a Candle (Michael Faraday)",
+      "url": "https://www.gutenberg.org/ebooks/14474",
+      "licence": "Public domain (US)",
+      "provider": "gutenberg",
+      "topic": "science",
+      "modules": [
+        "reading",
+        "listening"
+      ],
+      "summary": "Faraday's famous public lectures explaining combustion through a candle flame, and the tradition of popular science lectures."
+    },
+    {
+      "id": "gutenberg-12439",
+      "title": "Notes on Nursing: What It Is, and What It Is Not (Florence Nightingale)",
+      "url": "https://www.gutenberg.org/ebooks/12439",
+      "licence": "Public domain (US)",
+      "provider": "gutenberg",
+      "topic": "health",
+      "modules": [
+        "reading",
+        "listening"
+      ],
+      "summary": "Florence Nightingale's ideas on ventilation, cleanliness and patient care and their influence on modern nursing."
+    },
+    {
+      "id": "gutenberg-46134",
+      "title": "Garden Cities of To-morrow (Ebenezer Howard)",
+      "url": "https://www.gutenberg.org/ebooks/46134",
+      "licence": "Public domain (US)",
+      "provider": "gutenberg",
+      "topic": "society",
+      "modules": [
+        "reading"
+      ],
+      "summary": "The original proposal for planned garden cities and its influence on twentieth-century urban planning."
+    },
+    {
+      "id": "gutenberg-3300",
+      "title": "An Inquiry into the Nature and Causes of the Wealth of Nations (Adam Smith)",
+      "url": "https://www.gutenberg.org/ebooks/3300",
+      "licence": "Public domain (US)",
+      "provider": "gutenberg",
+      "topic": "work",
+      "modules": [
+        "reading"
+      ],
+      "summary": "Adam Smith's account of the division of labour, illustrated by the pin factory, and its effect on productivity."
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "task_type": "VOCAB_WORD_BANK",
+  "source_url": "",
+  "licence": "Original content",
+  "content": {
+    "topic": "health",
+    "words": [
+      {
+        "word": "sedentary lifestyle",
+        "part_of_speech": "noun phrase",
+        "definition": "A way of life that involves a lot of sitting and very little physical activity.",
+        "example": "The shift towards office-based work has led to increasingly sedentary lifestyles, contributing to obesity and heart disease.",
+        "collocations": ["lead a sedentary lifestyle", "an increasingly sedentary lifestyle", "the risks of a sedentary lifestyle"],
+        "cefr": "C1"
+      },
+      {
+        "word": "preventive",
+        "part_of_speech": "adjective",
+        "definition": "Intended to stop an illness or problem from happening, rather than treating it afterwards.",
+        "example": "Investing in preventive healthcare, such as vaccination and screening, is far more cost-effective than treating advanced disease.",
+        "collocations": ["preventive healthcare", "preventive measures", "preventive medicine"],
+        "cefr": "C1"
+      },
+      {
+        "word": "obesity",
+        "part_of_speech": "noun",
+        "definition": "The condition of being so overweight that it is dangerous to your health.",
+        "example": "Childhood obesity has reached epidemic proportions in many high-income countries.",
+        "collocations": ["childhood obesity", "tackle obesity", "the obesity epidemic", "rising obesity rates"],
+        "cefr": "C1"
+      },
+      {
+        "word": "life expectancy",
+        "part_of_speech": "noun phrase",
+        "definition": "The average number of years that a person is expected to live.",
+        "example": "Improvements in sanitation and nutrition have dramatically increased life expectancy over the past century.",
+        "collocations": ["increase life expectancy", "average life expectancy", "life expectancy at birth"],
+        "cefr": "B2"
+      },
+      {
+        "word": "strain",
+        "part_of_speech": "noun",
+        "definition": "Pressure on a system, organisation or person caused by having too much to deal with.",
+        "example": "An ageing population is placing enormous strain on public health services and the staff who run them.",
+        "collocations": ["place a strain on", "under strain", "financial strain"],
+        "cefr": "C1"
+      },
+      {
+        "word": "chronic",
+        "part_of_speech": "adjective",
+        "definition": "Describing an illness or problem that lasts for a long time or keeps coming back.",
+        "example": "Chronic conditions such as diabetes and heart disease now account for the majority of healthcare spending.",
+        "collocations": ["chronic illness", "chronic conditions", "chronic pain", "chronic stress"],
+        "cefr": "C1"
+      },
+      {
+        "word": "well-being",
+        "part_of_speech": "noun",
+        "definition": "The state of being healthy, comfortable and happy, both physically and mentally.",
+        "example": "Employers are increasingly recognising that staff well-being has a direct impact on productivity.",
+        "collocations": ["mental well-being", "physical and emotional well-being", "promote well-being"],
+        "cefr": "C1"
+      },
+      {
+        "word": "stigma",
+        "part_of_speech": "noun",
+        "definition": "Strong feelings of shame or disapproval that society attaches to a particular condition or group.",
+        "example": "Despite growing awareness, a stigma still surrounds mental illness, discouraging many people from seeking help.",
+        "collocations": ["the stigma attached to", "remove the stigma", "social stigma", "tackle stigma"],
+        "cefr": "C2"
+      },
+      {
+        "word": "susceptible",
+        "part_of_speech": "adjective",
+        "definition": "Easily affected or harmed by something, such as a disease.",
+        "example": "Elderly people are particularly susceptible to respiratory infections during the winter months.",
+        "collocations": ["susceptible to disease", "highly susceptible", "more susceptible to infection"],
+        "cefr": "C1"
+      },
+      {
+        "word": "detrimental",
+        "part_of_speech": "adjective",
+        "definition": "Causing harm or damage.",
+        "example": "Prolonged exposure to air pollution can be detrimental to both physical and cognitive health.",
+        "collocations": ["a detrimental effect on", "detrimental to health", "potentially detrimental"],
+        "cefr": "C1"
+      },
+      {
+        "word": "universal healthcare",
+        "part_of_speech": "noun phrase",
+        "definition": "A system in which every citizen can receive medical treatment, regardless of their income.",
+        "example": "Supporters of universal healthcare argue that access to treatment should never depend on one's ability to pay.",
+        "collocations": ["a universal healthcare system", "access to universal healthcare", "fund universal healthcare"],
+        "cefr": "C1"
+      },
+      {
+        "word": "contain",
+        "part_of_speech": "verb",
+        "definition": "To stop something harmful, such as a disease, from spreading or becoming worse.",
+        "example": "Early testing and contact tracing proved crucial in containing the spread of the virus.",
+        "collocations": ["contain the spread of", "contain an outbreak", "contain the virus"],
+        "cefr": "C1"
+      },
+      {
+        "word": "processed food",
+        "part_of_speech": "noun phrase",
+        "definition": "Food that has been changed by industrial methods, often with added salt, sugar, fat or preservatives.",
+        "example": "Heavily processed food has been linked to a higher risk of heart disease and type 2 diabetes.",
+        "collocations": ["heavily processed food", "ultra-processed food", "the consumption of processed food"],
+        "cefr": "B2"
+      },
+      {
+        "word": "alleviate",
+        "part_of_speech": "verb",
+        "definition": "To make pain, suffering or a problem less severe.",
+        "example": "Expanding community clinics could help alleviate pressure on overcrowded hospital emergency departments.",
+        "collocations": ["alleviate symptoms", "alleviate pressure on", "alleviate suffering"],
+        "cefr": "C2"
+      },
+      {
+        "word": "holistic",
+        "part_of_speech": "adjective",
+        "definition": "Dealing with the whole person or situation, including mind, body and lifestyle, rather than just one part.",
+        "example": "A more holistic approach to healthcare would address patients' diet, sleep and stress levels as well as their symptoms.",
+        "collocations": ["a holistic approach", "a holistic view", "holistic treatment"],
+        "cefr": "C2"
+      },
+      {
+        "word": "immunisation",
+        "part_of_speech": "noun",
+        "definition": "The process of protecting people from a disease, usually by giving them a vaccine.",
+        "example": "Falling immunisation rates have allowed diseases such as measles to return in several European countries.",
+        "collocations": ["an immunisation programme", "immunisation rates", "routine immunisation", "childhood immunisation"],
+        "cefr": "C1"
+      }
+    ]
+  }
+}

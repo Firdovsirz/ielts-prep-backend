@@ -1,0 +1,30 @@
+{
+  "task_type": "WRITING_TASK1_ACADEMIC",
+  "source_url": "",
+  "licence": "Original content",
+  "content": {
+    "chart_type": "BAR",
+    "topic": "Physical activity by age group",
+    "prompt": "The chart below shows the percentage of adults in three age groups in one country who took part in five types of physical activity at least once a month in 2023.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+    "figure_title": "Adults taking part in physical activities at least once a month, by age group, 2023",
+    "units": "% of adults",
+    "x_label": "Type of activity",
+    "y_label": "Percentage of adults",
+    "categories": ["Walking", "Swimming", "Cycling", "Gym and fitness classes", "Team sports"],
+    "series": [
+      { "name": "18–34", "values": [58, 24, 31, 46, 27] },
+      { "name": "35–59", "values": [66, 21, 28, 30, 12] },
+      { "name": "60 and over", "values": [72, 17, 11, 14, 3] }
+    ],
+    "process_steps": [],
+    "process_is_cycle": false,
+    "maps": [],
+    "key_features": [
+      "Overview: walking was the most popular activity in every age group and was the only one whose participation increased with age; all the other activities became less popular in older groups.",
+      "Walking rose from 58% of 18–34-year-olds to 66% of 35–59-year-olds and 72% of those aged 60 and over.",
+      "Gym and fitness classes showed the widest gap: 46% of the youngest group (their second most popular activity) compared with only 14% of the oldest.",
+      "Team sports were the least popular activity overall, falling from 27% to 12% and then to just 3% among the over-60s; cycling also dropped sharply after 59 (28% to 11%).",
+      "Swimming had the most even participation across the age groups, declining only gradually from 24% to 17%."
+    ]
+  }
+}

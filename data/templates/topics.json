@@ -1,0 +1,220 @@
+{
+  "topics": [
+    {
+      "key": "education",
+      "label": "Education",
+      "subtopics": [
+        "university fees and free higher education",
+        "online learning versus classroom teaching",
+        "single-sex schools versus mixed schools",
+        "academic subjects versus vocational training",
+        "studying abroad",
+        "homework and exam pressure on children",
+        "the role of teachers versus technology in the classroom",
+        "compulsory subjects such as music, art and sport",
+        "university education for everyone versus the job market",
+        "gap years before university",
+        "private versus state schools",
+        "lifelong learning and adult education"
+      ]
+    },
+    {
+      "key": "environment",
+      "label": "Environment",
+      "subtopics": [
+        "climate change: individual versus government responsibility",
+        "renewable energy versus fossil fuels",
+        "plastic waste and single-use packaging",
+        "protecting endangered species and zoos",
+        "deforestation and loss of biodiversity",
+        "air pollution in cities",
+        "recycling and consumer habits",
+        "water shortages and conservation",
+        "eco-tourism and the environmental cost of air travel",
+        "carbon taxes and green incentives",
+        "economic growth versus environmental protection"
+      ]
+    },
+    {
+      "key": "technology",
+      "label": "Technology",
+      "subtopics": [
+        "artificial intelligence and automation replacing jobs",
+        "children's screen time and smartphone use",
+        "social media and face-to-face communication",
+        "online privacy and data collection",
+        "space exploration spending",
+        "the digital divide between rich and poor",
+        "reliance on technology and loss of practical skills",
+        "cashless societies and online banking",
+        "robots in the home and workplace",
+        "cybercrime and online security",
+        "video games: harmful or beneficial"
+      ]
+    },
+    {
+      "key": "health",
+      "label": "Health",
+      "subtopics": [
+        "obesity and junk food advertising",
+        "taxes on sugar, tobacco and alcohol",
+        "public versus private healthcare",
+        "preventive medicine versus treatment",
+        "exercise and sedentary lifestyles",
+        "mental health and stress at work",
+        "an ageing population and healthcare costs",
+        "alternative medicine",
+        "government responsibility for public health",
+        "health education in schools",
+        "life expectancy and medical advances"
+      ]
+    },
+    {
+      "key": "work",
+      "label": "Work",
+      "subtopics": [
+        "working from home and remote work",
+        "work-life balance and long working hours",
+        "job satisfaction versus high salary",
+        "self-employment versus working for a company",
+        "retirement age and older workers",
+        "gender equality and the pay gap",
+        "changing careers and job-hopping",
+        "the four-day working week",
+        "unpaid internships and youth unemployment",
+        "the gig economy",
+        "salaries of celebrities, athletes and essential workers"
+      ]
+    },
+    {
+      "key": "society",
+      "label": "Society",
+      "subtopics": [
+        "the gap between rich and poor",
+        "urbanisation and rural depopulation",
+        "housing costs and homelessness",
+        "an ageing population",
+        "immigration and multicultural societies",
+        "volunteering and charity",
+        "consumerism and materialism",
+        "individualism versus community spirit",
+        "equality of opportunity",
+        "the role of older people in society",
+        "happiness and well-being"
+      ]
+    },
+    {
+      "key": "government",
+      "label": "Government",
+      "subtopics": [
+        "government spending priorities: arts, health or defence",
+        "funding for scientific research",
+        "public transport subsidies",
+        "taxation and the welfare state",
+        "foreign aid to developing countries",
+        "compulsory voting",
+        "government control of the economy",
+        "laws on personal behaviour",
+        "public services versus privatisation",
+        "national security versus personal freedom"
+      ]
+    },
+    {
+      "key": "crime",
+      "label": "Crime",
+      "subtopics": [
+        "prison versus rehabilitation and community service",
+        "youth crime and its causes",
+        "the death penalty",
+        "police presence and surveillance cameras",
+        "cybercrime",
+        "harsher punishments as deterrence",
+        "the influence of violent media on crime",
+        "education in prisons",
+        "drink-driving and traffic offences",
+        "crime prevention through social policy"
+      ]
+    },
+    {
+      "key": "culture",
+      "label": "Culture",
+      "subtopics": [
+        "preserving traditional culture and languages",
+        "funding for museums, galleries and the arts",
+        "tourism and its effect on local culture",
+        "historic buildings versus modern architecture",
+        "the decline of reading",
+        "public art and sculpture",
+        "national identity and customs",
+        "festivals and celebrations",
+        "learning a foreign language",
+        "art as a school subject",
+        "the value of history"
+      ]
+    },
+    {
+      "key": "family",
+      "label": "Family",
+      "subtopics": [
+        "parents' role versus schools' role in raising children",
+        "nuclear versus extended families",
+        "working parents and childcare",
+        "caring for elderly parents",
+        "having children later in life",
+        "children's independence and discipline",
+        "family size and birth rates",
+        "the changing roles of men and women in the family",
+        "children's pocket money and responsibility",
+        "time spent together as a family"
+      ]
+    },
+    {
+      "key": "media",
+      "label": "Media",
+      "subtopics": [
+        "advertising aimed at children",
+        "fake news and misinformation",
+        "celebrity culture and role models",
+        "newspapers versus online news",
+        "press freedom and privacy of public figures",
+        "violence on television and in films",
+        "influencers and social media marketing",
+        "government censorship",
+        "international news coverage",
+        "the influence of advertising on consumer choices"
+      ]
+    },
+    {
+      "key": "globalisation",
+      "label": "Globalisation",
+      "subtopics": [
+        "multinational companies and local businesses",
+        "global culture versus national identity",
+        "international trade and free trade agreements",
+        "English as a global language",
+        "brain drain and skilled migration",
+        "international tourism",
+        "outsourcing jobs to developing countries",
+        "global cooperation on problems such as pandemics",
+        "fast fashion and global supply chains",
+        "the spread of Western food and brands"
+      ]
+    },
+    {
+      "key": "transport",
+      "label": "Transport",
+      "subtopics": [
+        "traffic congestion in cities",
+        "public transport versus private cars",
+        "road tolls and congestion charges",
+        "cycling and pedestrian-friendly cities",
+        "air travel and its environmental impact",
+        "electric and self-driving vehicles",
+        "high-speed rail",
+        "commuting times and living far from work",
+        "road safety and speed limits",
+        "investment in roads versus railways"
+      ]
+    }
+  ]
+}

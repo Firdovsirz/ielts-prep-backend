@@ -1,0 +1,346 @@
+{
+  "task_type": "LISTENING_SECTION",
+  "source_url": "",
+  "licence": "Original content",
+  "content": {
+    "section": 1,
+    "title": "Reporting a Lost Bag",
+    "topic": "Lost property on public transport",
+    "context_description": "You will hear a woman phoning the lost property office of a city train service to report a bag she left on a train.",
+    "speakers": [
+      {
+        "id": "S1",
+        "name": "Darren",
+        "gender": "male",
+        "accent": "australian",
+        "role": "Lost property officer"
+      },
+      {
+        "id": "S2",
+        "name": "Claire",
+        "gender": "female",
+        "accent": "irish",
+        "role": "Train passenger reporting a lost bag"
+      }
+    ],
+    "script": [
+      {
+        "speaker": "S1",
+        "text": "Good afternoon, lost property office, Darren speaking. How can I help?"
+      },
+      {
+        "speaker": "S2",
+        "text": "Oh, hello. Um, I left a bag on one of your trains yesterday, and I was wondering if anyone had handed it in."
+      },
+      {
+        "speaker": "S1",
+        "text": "Right. Well, nothing's come in today that matches, I'm afraid. But if I take down some details and a description, we'll get in touch as soon as it turns up. Is that all right?"
+      },
+      {
+        "speaker": "S2",
+        "text": "Yes, that'd be great. Thanks."
+      },
+      {
+        "speaker": "S1",
+        "text": "OK, so first of all, can I have your name?"
+      },
+      {
+        "speaker": "S2",
+        "text": "It's Claire Dunleavy."
+      },
+      {
+        "speaker": "S1",
+        "text": "Is that D, O, N, as in Donald?"
+      },
+      {
+        "speaker": "S2",
+        "text": "No, D, U, N. So it's D, U, N, L, E, A, V, Y."
+      },
+      {
+        "speaker": "S1",
+        "text": "Got it. And your address?"
+      },
+      {
+        "speaker": "S2",
+        "text": "Well, I've just moved, so it's not the Mount Lawley one any more. It's 22 Mill Point Road, South Perth."
+      },
+      {
+        "speaker": "S1",
+        "text": "And what's the postcode there?"
+      },
+      {
+        "speaker": "S2",
+        "text": "Er, I nearly said 6050, but that was my old one. The new one is 6151, that's 6, 1, 5, 1."
+      },
+      {
+        "speaker": "S1",
+        "text": "Lovely. Now, you said you lost the bag yesterday. So that'd be Wednesday the 15th of June?"
+      },
+      {
+        "speaker": "S2",
+        "text": "Oh, sorry, no, I've got my days mixed up. I actually lost it the evening before, on Tuesday, so it was the 14th. I didn't notice it was missing until the next morning."
+      },
+      {
+        "speaker": "S1",
+        "text": "No problem. And roughly what time was the train?"
+      },
+      {
+        "speaker": "S2",
+        "text": "Let me see. I finish work at 5.15, and I usually get the 5.30, but I missed it that day. So it was the 5.45."
+      },
+      {
+        "speaker": "S1",
+        "text": "From the city out to Fremantle?"
+      },
+      {
+        "speaker": "S2",
+        "text": "That's right. I was meeting a friend for dinner down there."
+      },
+      {
+        "speaker": "S1",
+        "text": "And do you remember which part of the train you sat in?"
+      },
+      {
+        "speaker": "S2",
+        "text": "Um, normally I go for the middle carriage, because it stops right by the exit at Fremantle. But it was absolutely packed, so I walked all the way down to the back carriage and found a seat there."
+      },
+      {
+        "speaker": "S1",
+        "text": "OK, that's really helpful. Now I'll need a description of the bag itself, and anything that was inside it."
+      },
+      {
+        "speaker": "S2",
+        "text": "Sure. Well, it isn't a handbag or anything like that. It's a backpack, quite a small one."
+      },
+      {
+        "speaker": "S1",
+        "text": "And what colour is it?"
+      },
+      {
+        "speaker": "S2",
+        "text": "Most people think it's black, but it's actually dark green. It only looks black when the light's not very good."
+      },
+      {
+        "speaker": "S1",
+        "text": "Is there a brand name on it, or anything else that would help us recognise it?"
+      },
+      {
+        "speaker": "S2",
+        "text": "The brand name's pretty much worn off, I'm afraid. And there used to be a keyring on the zip, but that fell off ages ago, so don't put that down. Oh, I know. There's a small Irish flag sewn onto the front pocket. My mum did that for me before I left home."
+      },
+      {
+        "speaker": "S1",
+        "text": "That's perfect, that'll make it easy to spot. And what was in the backpack?"
+      },
+      {
+        "speaker": "S2",
+        "text": "Well, luckily my purse and my phone were in my jacket. But my camera was in there, and a pair of sunglasses, and a paperback I was halfway through."
+      },
+      {
+        "speaker": "S1",
+        "text": "Right. And just for our records, can you give me a rough idea of what it's all worth?"
+      },
+      {
+        "speaker": "S2",
+        "text": "Hmm. The camera was about $400 when I bought it, but that was 3 years ago. And the bag itself was only about $40."
+      },
+      {
+        "speaker": "S1",
+        "text": "So would you say around $440 altogether?"
+      },
+      {
+        "speaker": "S2",
+        "text": "No, I'd say less than that now, because the camera's quite old. Put down $320 for everything."
+      },
+      {
+        "speaker": "S1",
+        "text": "OK, $320. If it's handed in, it'll be sent here to the main office at Perth Station, and you'll need to bring some photo ID to collect it."
+      },
+      {
+        "speaker": "S2",
+        "text": "That's fine. How long do you keep things for?"
+      },
+      {
+        "speaker": "S1",
+        "text": "We hold everything for 3 months. Now, let me just take a mobile number, and I'll text you a reference number so you can check online as well."
+      },
+      {
+        "speaker": "S2",
+        "text": "Great. Thank you so much."
+      }
+    ],
+    "parts": [
+      {
+        "questions_from": 1,
+        "questions_to": 5,
+        "start_line": 0
+      },
+      {
+        "questions_from": 6,
+        "questions_to": 10,
+        "start_line": 20
+      }
+    ],
+    "question_groups": [
+      {
+        "group_id": "g1",
+        "question_type": "FORM_COMPLETION",
+        "instructions": "Questions 1–5\nComplete the form below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+        "word_limit": 1,
+        "number_allowed": true,
+        "options": [],
+        "context": "LOST PROPERTY REPORT\nPassenger details\nName: Claire {{1}}\nAddress: 22 Mill Point Road, South Perth\nPostcode: {{2}}\nJourney details\nDate of journey: {{3}} June\nTrain departure time: {{4}}\nPosition on train: the {{5}} carriage",
+        "table": {
+          "title": "",
+          "columns": [],
+          "rows": []
+        },
+        "flow_steps": [],
+        "diagram": {
+          "title": "",
+          "nodes": [],
+          "edges": []
+        },
+        "map": {
+          "title": "",
+          "features": [],
+          "markers": []
+        },
+        "questions": [
+          {
+            "number": 1,
+            "prompt": "",
+            "options": [],
+            "answers": [
+              "Dunleavy"
+            ],
+            "justification_span": "No, D, U, N. So it's D, U, N, L, E, A, V, Y.",
+            "location": "7"
+          },
+          {
+            "number": 2,
+            "prompt": "",
+            "options": [],
+            "answers": [
+              "6151"
+            ],
+            "justification_span": "The new one is 6151, that's 6, 1, 5, 1.",
+            "location": "11"
+          },
+          {
+            "number": 3,
+            "prompt": "",
+            "options": [],
+            "answers": [
+              "14th",
+              "14"
+            ],
+            "justification_span": "I actually lost it the evening before, on Tuesday, so it was the 14th.",
+            "location": "13"
+          },
+          {
+            "number": 4,
+            "prompt": "",
+            "options": [],
+            "answers": [
+              "5.45",
+              "5:45",
+              "5.45pm",
+              "5:45pm"
+            ],
+            "justification_span": "So it was the 5.45.",
+            "location": "15"
+          },
+          {
+            "number": 5,
+            "prompt": "",
+            "options": [],
+            "answers": [
+              "back"
+            ],
+            "justification_span": "But it was absolutely packed, so I walked all the way down to the back carriage and found a seat there.",
+            "location": "19"
+          }
+        ]
+      },
+      {
+        "group_id": "g2",
+        "question_type": "FORM_COMPLETION",
+        "instructions": "Questions 6–10\nComplete the form below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+        "word_limit": 1,
+        "number_allowed": true,
+        "options": [],
+        "context": "Description of item\nType of bag: {{6}}\nColour: dark {{7}}\nDistinguishing feature: a small {{8}} sewn onto the front pocket\nContents: a {{9}}, a pair of sunglasses and a book\nEstimated total value: {{10}}",
+        "table": {
+          "title": "",
+          "columns": [],
+          "rows": []
+        },
+        "flow_steps": [],
+        "diagram": {
+          "title": "",
+          "nodes": [],
+          "edges": []
+        },
+        "map": {
+          "title": "",
+          "features": [],
+          "markers": []
+        },
+        "questions": [
+          {
+            "number": 6,
+            "prompt": "",
+            "options": [],
+            "answers": [
+              "backpack"
+            ],
+            "justification_span": "It's a backpack, quite a small one.",
+            "location": "21"
+          },
+          {
+            "number": 7,
+            "prompt": "",
+            "options": [],
+            "answers": [
+              "green"
+            ],
+            "justification_span": "Most people think it's black, but it's actually dark green.",
+            "location": "23"
+          },
+          {
+            "number": 8,
+            "prompt": "",
+            "options": [],
+            "answers": [
+              "flag"
+            ],
+            "justification_span": "There's a small Irish flag sewn onto the front pocket.",
+            "location": "25"
+          },
+          {
+            "number": 9,
+            "prompt": "",
+            "options": [],
+            "answers": [
+              "camera"
+            ],
+            "justification_span": "But my camera was in there, and a pair of sunglasses, and a paperback I was halfway through.",
+            "location": "27"
+          },
+          {
+            "number": 10,
+            "prompt": "",
+            "options": [],
+            "answers": [
+              "$320",
+              "320"
+            ],
+            "justification_span": "Put down $320 for everything.",
+            "location": "31"
+          }
+        ]
+      }
+    ]
+  }
+}

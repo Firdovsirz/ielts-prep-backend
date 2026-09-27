@@ -1,0 +1,476 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "listening-section",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "section",
+    "title",
+    "topic",
+    "context_description",
+    "speakers",
+    "script",
+    "parts",
+    "question_groups"
+  ],
+  "properties": {
+    "section": {
+      "type": "integer",
+      "enum": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "topic": {
+      "type": "string"
+    },
+    "context_description": {
+      "type": "string",
+      "description": "What the examiner voice says before the section, e.g. \"You will hear a woman phoning a sports centre to ask about membership.\""
+    },
+    "speakers": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "name",
+          "gender",
+          "accent",
+          "role"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "S1, S2…"
+          },
+          "name": {
+            "type": "string"
+          },
+          "gender": {
+            "type": "string",
+            "enum": [
+              "female",
+              "male"
+            ]
+          },
+          "accent": {
+            "type": "string",
+            "enum": [
+              "british",
+              "australian",
+              "american",
+              "canadian",
+              "new_zealand",
+              "irish",
+              "scottish"
+            ]
+          },
+          "role": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "script": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "speaker",
+          "text"
+        ],
+        "properties": {
+          "speaker": {
+            "type": "string",
+            "description": "Speaker id"
+          },
+          "text": {
+            "type": "string",
+            "description": "One turn. Include natural hesitations (er, um, well), self-corrections and distractors."
+          }
+        }
+      }
+    },
+    "parts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "questions_from",
+          "questions_to",
+          "start_line"
+        ],
+        "properties": {
+          "questions_from": {
+            "type": "integer"
+          },
+          "questions_to": {
+            "type": "integer"
+          },
+          "start_line": {
+            "type": "integer",
+            "description": "0-based index of the first script line of this part."
+          }
+        }
+      },
+      "description": "Split points: the candidate gets reading time before each part."
+    },
+    "question_groups": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "group_id",
+          "question_type",
+          "instructions",
+          "word_limit",
+          "number_allowed",
+          "options",
+          "context",
+          "table",
+          "flow_steps",
+          "diagram",
+          "map",
+          "questions"
+        ],
+        "properties": {
+          "group_id": {
+            "type": "string",
+            "description": "Stable id such as \"g1\"."
+          },
+          "question_type": {
+            "type": "string",
+            "enum": [
+              "MULTIPLE_CHOICE",
+              "MULTIPLE_CHOICE_MULTI",
+              "TRUE_FALSE_NOT_GIVEN",
+              "YES_NO_NOT_GIVEN",
+              "MATCHING_INFORMATION",
+              "MATCHING_HEADINGS",
+              "MATCHING_FEATURES",
+              "MATCHING_SENTENCE_ENDINGS",
+              "SENTENCE_COMPLETION",
+              "SUMMARY_COMPLETION",
+              "NOTE_COMPLETION",
+              "TABLE_COMPLETION",
+              "FLOW_CHART_COMPLETION",
+              "DIAGRAM_LABEL_COMPLETION",
+              "SHORT_ANSWER",
+              "FORM_COMPLETION",
+              "MAP_LABELLING",
+              "MATCHING"
+            ]
+          },
+          "instructions": {
+            "type": "string",
+            "description": "Exact IELTS-style rubric, e.g. \"Complete the sentences below. Choose NO MORE THAN TWO WORDS from the passage for each answer.\" Include the question range, e.g. \"Questions 1–5\"."
+          },
+          "word_limit": {
+            "type": "integer",
+            "description": "Maximum words per answer for completion/short-answer types, 0 when not applicable."
+          },
+          "number_allowed": {
+            "type": "boolean",
+            "description": "True when the rubric says \"AND/OR A NUMBER\"."
+          },
+          "options": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "key",
+                "text"
+              ],
+              "properties": {
+                "key": {
+                  "type": "string",
+                  "description": "Option label exactly as printed: A, B, C… for choices/features/endings; i, ii, iii… for headings; paragraph letters for matching information; words for a word bank use A, B, C… keys."
+                },
+                "text": {
+                  "type": "string",
+                  "description": "Option text."
+                }
+              }
+            },
+            "description": "Shared option list for the group (headings, features, sentence endings, word bank, paragraph letters, MULTIPLE_CHOICE_MULTI choices, map letters). Empty when each question carries its own options or none apply."
+          },
+          "context": {
+            "type": "string",
+            "description": "Text shown around the gaps for SUMMARY/NOTE/FORM/SENTENCE completion: write each gap as {{n}} where n is the question number. Empty string when not used."
+          },
+          "table": {
+            "type": "object",
+            "description": "TABLE_COMPLETION only; otherwise title \"\" and empty arrays.",
+            "additionalProperties": false,
+            "required": [
+              "title",
+              "columns",
+              "rows"
+            ],
+            "properties": {
+              "title": {
+                "type": "string"
+              },
+              "columns": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "rows": {
+                "type": "array",
+                "items": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "description": "Cells may contain {{n}} gaps."
+              }
+            }
+          },
+          "flow_steps": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "FLOW_CHART_COMPLETION only: ordered boxes, gaps as {{n}}. Empty otherwise."
+          },
+          "diagram": {
+            "type": "object",
+            "description": "DIAGRAM_LABEL_COMPLETION only (a labelled schematic rendered as SVG); otherwise empty.",
+            "additionalProperties": false,
+            "required": [
+              "title",
+              "nodes",
+              "edges"
+            ],
+            "properties": {
+              "title": {
+                "type": "string"
+              },
+              "nodes": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": [
+                    "id",
+                    "label",
+                    "x",
+                    "y"
+                  ],
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "label": {
+                      "type": "string",
+                      "description": "Text label, or {{n}} for a gap."
+                    },
+                    "x": {
+                      "type": "number",
+                      "description": "0–100"
+                    },
+                    "y": {
+                      "type": "number",
+                      "description": "0–100"
+                    }
+                  }
+                }
+              },
+              "edges": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": [
+                    "from",
+                    "to",
+                    "label"
+                  ],
+                  "properties": {
+                    "from": {
+                      "type": "string"
+                    },
+                    "to": {
+                      "type": "string"
+                    },
+                    "label": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "map": {
+            "type": "object",
+            "description": "MAP_LABELLING only (plan/map rendered as SVG); otherwise empty.",
+            "additionalProperties": false,
+            "required": [
+              "title",
+              "features",
+              "markers"
+            ],
+            "properties": {
+              "title": {
+                "type": "string"
+              },
+              "features": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": [
+                    "label",
+                    "kind",
+                    "x",
+                    "y",
+                    "w",
+                    "h"
+                  ],
+                  "properties": {
+                    "label": {
+                      "type": "string",
+                      "description": "Printed name, empty for unlabeled buildings."
+                    },
+                    "kind": {
+                      "type": "string",
+                      "enum": [
+                        "building",
+                        "road",
+                        "path",
+                        "water",
+                        "green",
+                        "car_park",
+                        "entrance",
+                        "other"
+                      ]
+                    },
+                    "x": {
+                      "type": "number",
+                      "description": "0–100"
+                    },
+                    "y": {
+                      "type": "number",
+                      "description": "0–100"
+                    },
+                    "w": {
+                      "type": "number",
+                      "description": "0–100"
+                    },
+                    "h": {
+                      "type": "number",
+                      "description": "0–100"
+                    }
+                  }
+                }
+              },
+              "markers": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": [
+                    "key",
+                    "x",
+                    "y"
+                  ],
+                  "properties": {
+                    "key": {
+                      "type": "string",
+                      "description": "Letter shown on the map: A, B, C…"
+                    },
+                    "x": {
+                      "type": "number",
+                      "description": "0–100"
+                    },
+                    "y": {
+                      "type": "number",
+                      "description": "0–100"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "questions": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "number",
+                "prompt",
+                "options",
+                "answers",
+                "justification_span",
+                "location"
+              ],
+              "properties": {
+                "number": {
+                  "type": "integer",
+                  "description": "Question number local to this passage/section, starting at 1 and contiguous across all groups."
+                },
+                "prompt": {
+                  "type": "string",
+                  "description": "Stem shown to the candidate: the statement, question, sentence beginning, paragraph name for headings, or label for form/table/map gaps. Never contains the answer."
+                },
+                "options": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "key",
+                      "text"
+                    ],
+                    "properties": {
+                      "key": {
+                        "type": "string",
+                        "description": "Option label exactly as printed: A, B, C… for choices/features/endings; i, ii, iii… for headings; paragraph letters for matching information; words for a word bank use A, B, C… keys."
+                      },
+                      "text": {
+                        "type": "string",
+                        "description": "Option text."
+                      }
+                    }
+                  },
+                  "description": "Per-question options — only for MULTIPLE_CHOICE (A–D). Empty array otherwise."
+                },
+                "answers": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  },
+                  "description": "Accepted answers. For choice types a single option key (e.g. \"C\", \"iv\", \"TRUE\", \"NOT GIVEN\"). For completion/short answer: the canonical answer first, then any equally acceptable variants; optional words in parentheses e.g. \"(the) harbour\". Must respect word_limit."
+                },
+                "justification_span": {
+                  "type": "string",
+                  "description": "Verbatim sentence (or clause) copied exactly from the passage/script that justifies the answer. For NOT GIVEN, the sentence that comes closest to the topic."
+                },
+                "location": {
+                  "type": "string",
+                  "description": "Reading: the paragraph label containing the justification (e.g. \"C\"). Listening: the 0-based script line index as a string (e.g. \"14\")."
+                }
+              }
+            }
+          }
+        }
+      },
+      "description": "Exactly 10 questions numbered 1–10."
+    }
+  }
+}

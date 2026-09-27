@@ -1,0 +1,224 @@
+{
+  "task_type": "READING_PASSAGE",
+  "source_url": "https://en.wikipedia.org/wiki/Cave_painting",
+  "licence": "CC BY-SA 4.0 (topic seed only; passage text is original)",
+  "content": {
+    "title": "Reading the Walls: The Search for Meaning in Ice Age Cave Art",
+    "topic": "interpretations of Upper Palaeolithic cave art",
+    "difficulty": 3,
+    "cefr": "C1",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "For more than a century, the painted and engraved caves of south-western Europe have posed a question that seems simple and has proved anything but. Why did people living between roughly 40,000 and 12,000 years ago make their way deep underground, often by the light of flickering fat-burning lamps, to cover rock surfaces with images of horses, bison, aurochs and deer? The existence of the images is not in doubt, and their pigments, techniques and dates have been studied with ever greater precision. What remains contested is their purpose, and the history of that contest reveals almost as much about the interpreters as about the artists."
+      },
+      {
+        "label": "B",
+        "text": "The earliest influential answer was that the paintings were a form of hunting magic. The idea, first put forward at the start of the twentieth century and championed for decades by the French priest and prehistorian Henri Breuil, drew on ethnographic reports of ritual practices among hunting peoples in other parts of the world. To depict an animal was, on this view, to gain a measure of power over it, and images of creatures that appeared to have been pierced by spears or arrows seemed to confirm the idea. The theory commanded broad assent for several decades, partly because it fitted comfortably with a picture of prehistoric life as a relentless struggle for food. Its weaknesses became difficult to ignore, however, once excavators began comparing the painted animals with the bones recovered from nearby living sites. In several regions, the species whose remains dominate the food debris are among the least frequently depicted, a mismatch that sits awkwardly with the notion that the images were intended to secure a successful hunt."
+      },
+      {
+        "label": "C",
+        "text": "A very different approach emerged in the 1960s with the work of André Leroi-Gourhan. Rather than interpreting individual images, he surveyed dozens of decorated caves and recorded which animals appeared, in what combinations and in which parts of each cave. His conclusion was that the art was not a random accumulation but a structured system: horses and bison, for instance, tended to dominate central panels, while other species were relegated to entrances, passages and remote recesses. He went on to propose that the principal pairings expressed a fundamental opposition between male and female principles. Few specialists now accept that symbolic scheme, yet his insistence that each cave be treated as an organised whole, and his reliance on systematic counts rather than striking individual examples, permanently changed the discipline."
+      },
+      {
+        "label": "D",
+        "text": "From the 1980s onwards, the South African archaeologist David Lewis-Williams advanced what remains the most ambitious modern theory. Working initially on rock art made by the San peoples of southern Africa, whose recorded testimony links painting to the experiences of ritual specialists in states of trance, he argued that the human nervous system generates a predictable sequence of visual phenomena in altered states of consciousness: first luminous geometric forms such as grids, dots and zigzags, later fully formed images of animals and people. Because comparable forms occur in European caves, he proposed that at least some of that art records the visions of shamans, and that the rock face itself was regarded as a thin membrane between the everyday world and a spirit realm beyond it."
+      },
+      {
+        "label": "E",
+        "text": "The shamanistic hypothesis has attracted both enthusiastic support and sharp criticism. Its critics object that the geometric signs found in European caves bear only a rough resemblance to the forms described in laboratory studies of altered states, that universal features of the nervous system cannot explain why particular cultures painted particular things, and that analogies drawn from a society separated by thousands of kilometres and tens of thousands of years must be handled with great caution. Supporters reply that no interpretation of prehistoric art can dispense with analogy altogether, and that the real question is whether a given analogy is well founded rather than whether one is used at all."
+      },
+      {
+        "label": "F",
+        "text": "More recent research has shifted attention from the meaning of the images to the identity of the people who made them. Hand stencils, produced by blowing pigment around a hand pressed against the rock, offer an unusually direct trace of individual artists. In 2013 the archaeologist Dean Snow compared the relative lengths of the fingers in stencils from caves in France and Spain – proportions that differ, on average, between men and women – and concluded that a large proportion of them had probably been made by women. The finding challenged a long-standing assumption, seldom stated but widely held, that cave art was essentially the work of male hunters, and it has prompted fresh questions about who was permitted to enter these spaces, and why."
+      },
+      {
+        "label": "G",
+        "text": "What, then, should we conclude? It would be convenient to declare one theory correct, but the more persuasive position, in my view, is that the question itself is poorly posed. Cave art was produced over a period several times longer than the whole of recorded history, by many different communities, and it would be remarkable if it had served a single purpose throughout. Some images may well have been bound up with ritual; others may have marked territory, recorded events or instructed the young. The task of the archaeologist is not to uncover the meaning of cave art but to establish, cave by cave and period by period, which interpretations the evidence can actually sustain."
+      }
+    ],
+    "question_groups": [
+      {
+        "group_id": "g1",
+        "question_type": "MATCHING_HEADINGS",
+        "instructions": "Questions 1–6\nThe reading passage has seven paragraphs, A–G.\nChoose the correct heading for paragraphs B–G from the list of headings below.\nWrite the correct number, i–ix.",
+        "word_limit": 0,
+        "number_allowed": false,
+        "options": [
+          { "key": "i", "text": "Why no single explanation is likely to be sufficient" },
+          { "key": "ii", "text": "Differences in artistic technique between regions" },
+          { "key": "iii", "text": "A once-dominant theory weakened by archaeological remains" },
+          { "key": "iv", "text": "Evidence that questions an unspoken belief about the artists" },
+          { "key": "v", "text": "Looking for an overall pattern in the arrangement of images" },
+          { "key": "vi", "text": "A research method that failed to survive critical scrutiny" },
+          { "key": "vii", "text": "Objections to a theory and a defence of its reasoning" },
+          { "key": "viii", "text": "Using evidence from another continent to explain European images" },
+          { "key": "ix", "text": "Improved methods for dating the earliest paintings" }
+        ],
+        "context": "",
+        "table": { "title": "", "columns": [], "rows": [] },
+        "flow_steps": [],
+        "diagram": { "title": "", "nodes": [], "edges": [] },
+        "map": { "title": "", "features": [], "markers": [] },
+        "questions": [
+          {
+            "number": 1,
+            "prompt": "Paragraph B",
+            "options": [],
+            "answers": ["iii"],
+            "justification_span": "Its weaknesses became difficult to ignore, however, once excavators began comparing the painted animals with the bones recovered from nearby living sites.",
+            "location": "B"
+          },
+          {
+            "number": 2,
+            "prompt": "Paragraph C",
+            "options": [],
+            "answers": ["v"],
+            "justification_span": "His conclusion was that the art was not a random accumulation but a structured system: horses and bison, for instance, tended to dominate central panels, while other species were relegated to entrances, passages and remote recesses.",
+            "location": "C"
+          },
+          {
+            "number": 3,
+            "prompt": "Paragraph D",
+            "options": [],
+            "answers": ["viii"],
+            "justification_span": "Because comparable forms occur in European caves, he proposed that at least some of that art records the visions of shamans",
+            "location": "D"
+          },
+          {
+            "number": 4,
+            "prompt": "Paragraph E",
+            "options": [],
+            "answers": ["vii"],
+            "justification_span": "Supporters reply that no interpretation of prehistoric art can dispense with analogy altogether, and that the real question is whether a given analogy is well founded rather than whether one is used at all.",
+            "location": "E"
+          },
+          {
+            "number": 5,
+            "prompt": "Paragraph F",
+            "options": [],
+            "answers": ["iv"],
+            "justification_span": "The finding challenged a long-standing assumption, seldom stated but widely held, that cave art was essentially the work of male hunters, and it has prompted fresh questions about who was permitted to enter these spaces, and why.",
+            "location": "F"
+          },
+          {
+            "number": 6,
+            "prompt": "Paragraph G",
+            "options": [],
+            "answers": ["i"],
+            "justification_span": "Cave art was produced over a period several times longer than the whole of recorded history, by many different communities, and it would be remarkable if it had served a single purpose throughout.",
+            "location": "G"
+          }
+        ]
+      },
+      {
+        "group_id": "g2",
+        "question_type": "MATCHING_FEATURES",
+        "instructions": "Questions 7–10\nLook at the following statements (Questions 7–10) and the list of researchers below.\nMatch each statement with the correct researcher, A–D.\nWrite the correct letter, A–D.\nNB You may use any letter more than once.",
+        "word_limit": 0,
+        "number_allowed": false,
+        "options": [
+          { "key": "A", "text": "Henri Breuil" },
+          { "key": "B", "text": "André Leroi-Gourhan" },
+          { "key": "C", "text": "David Lewis-Williams" },
+          { "key": "D", "text": "Dean Snow" }
+        ],
+        "context": "",
+        "table": { "title": "", "columns": [], "rows": [] },
+        "flow_steps": [],
+        "diagram": { "title": "", "nodes": [], "edges": [] },
+        "map": { "title": "", "features": [], "markers": [] },
+        "questions": [
+          {
+            "number": 7,
+            "prompt": "suggested that the surface of the cave wall was seen as dividing the ordinary world from another one",
+            "options": [],
+            "answers": ["C"],
+            "justification_span": "Because comparable forms occur in European caves, he proposed that at least some of that art records the visions of shamans, and that the rock face itself was regarded as a thin membrane between the everyday world and a spirit realm beyond it.",
+            "location": "D"
+          },
+          {
+            "number": 8,
+            "prompt": "used a physical feature of certain images to draw conclusions about who had made them",
+            "options": [],
+            "answers": ["D"],
+            "justification_span": "In 2013 the archaeologist Dean Snow compared the relative lengths of the fingers in stencils from caves in France and Spain – proportions that differ, on average, between men and women – and concluded that a large proportion of them had probably been made by women.",
+            "location": "F"
+          },
+          {
+            "number": 9,
+            "prompt": "documented the positions that different species occupied within the caves",
+            "options": [],
+            "answers": ["B"],
+            "justification_span": "Rather than interpreting individual images, he surveyed dozens of decorated caves and recorded which animals appeared, in what combinations and in which parts of each cave.",
+            "location": "C"
+          },
+          {
+            "number": 10,
+            "prompt": "claimed that some images derived from what people see in trance-like conditions",
+            "options": [],
+            "answers": ["C"],
+            "justification_span": "Working initially on rock art made by the San peoples of southern Africa, whose recorded testimony links painting to the experiences of ritual specialists in states of trance, he argued that the human nervous system generates a predictable sequence of visual phenomena in altered states of consciousness: first luminous geometric forms such as grids, dots and zigzags, later fully formed images of animals and people.",
+            "location": "D"
+          }
+        ]
+      },
+      {
+        "group_id": "g3",
+        "question_type": "SUMMARY_COMPLETION",
+        "instructions": "Questions 11–14\nComplete the summary using the list of words, A–H, below.\nWrite the correct letter, A–H.",
+        "word_limit": 0,
+        "number_allowed": false,
+        "options": [
+          { "key": "A", "text": "ritual" },
+          { "key": "B", "text": "loosely" },
+          { "key": "C", "text": "measurement" },
+          { "key": "D", "text": "cultural" },
+          { "key": "E", "text": "closely" },
+          { "key": "F", "text": "unchanging" },
+          { "key": "G", "text": "individual" },
+          { "key": "H", "text": "comparison" }
+        ],
+        "context": "Disputes over the meaning of cave art\n\nOpponents of the shamanistic theory argue that the geometric signs in European caves resemble the forms reported in experimental research only {{11}}, and that features common to all human brains cannot account for {{12}} differences in what was depicted. Those who favour the theory respond that some reliance on {{13}} is unavoidable when interpreting prehistoric art. The writer, however, maintains that because cave art was made by many communities over an immense period, it is unlikely to have had one {{14}} purpose.",
+        "table": { "title": "", "columns": [], "rows": [] },
+        "flow_steps": [],
+        "diagram": { "title": "", "nodes": [], "edges": [] },
+        "map": { "title": "", "features": [], "markers": [] },
+        "questions": [
+          {
+            "number": 11,
+            "prompt": "",
+            "options": [],
+            "answers": ["B"],
+            "justification_span": "Its critics object that the geometric signs found in European caves bear only a rough resemblance to the forms described in laboratory studies of altered states",
+            "location": "E"
+          },
+          {
+            "number": 12,
+            "prompt": "",
+            "options": [],
+            "answers": ["D"],
+            "justification_span": "that universal features of the nervous system cannot explain why particular cultures painted particular things",
+            "location": "E"
+          },
+          {
+            "number": 13,
+            "prompt": "",
+            "options": [],
+            "answers": ["H"],
+            "justification_span": "Supporters reply that no interpretation of prehistoric art can dispense with analogy altogether",
+            "location": "E"
+          },
+          {
+            "number": 14,
+            "prompt": "",
+            "options": [],
+            "answers": ["F"],
+            "justification_span": "Cave art was produced over a period several times longer than the whole of recorded history, by many different communities, and it would be remarkable if it had served a single purpose throughout.",
+            "location": "G"
+          }
+        ]
+      }
+    ]
+  }
+}

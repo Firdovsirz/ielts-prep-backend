@@ -1,0 +1,226 @@
+{
+  "task_type": "LISTENING_SECTION",
+  "source_url": "https://en.wikipedia.org/wiki/Roman_concrete",
+  "licence": "CC BY-SA 4.0 (topic seed only; text is original)",
+  "content": {
+    "section": 4,
+    "title": "Roman concrete",
+    "topic": "Materials science: why Roman concrete has lasted so long",
+    "context_description": "You will hear part of a materials science lecture about the concrete used in ancient Rome.",
+    "speakers": [
+      {
+        "id": "S1",
+        "name": "Dr Sarah Lawson",
+        "gender": "female",
+        "accent": "australian",
+        "role": "Lecturer in materials engineering"
+      }
+    ],
+    "script": [
+      {
+        "speaker": "S1",
+        "text": "Good morning, everyone. Today I want to look at a material that has fascinated engineers for a very long time, and that's the concrete used by the ancient Romans. The dome of the Pantheon in Rome is almost 1,900 years old, and it's still the largest dome in the world made of concrete without any steel reinforcement. By contrast, a lot of the concrete we pour today begins to crack and crumble within 50 to 100 years. So what did the Romans know that we don't?"
+      },
+      {
+        "speaker": "S1",
+        "text": "Let's start with the ingredients. The first of these is lime, which the Romans produced by heating limestone in a kiln to around 900 degrees. Lime is essentially the glue that holds the mixture together. On its own, though, it isn't especially strong, and it hardens very slowly, which is where the second ingredient comes in."
+      },
+      {
+        "speaker": "S1",
+        "text": "That second ingredient is volcanic ash. The best-quality ash came from the area around the Bay of Naples, and the Romans named it pozzolana, after the nearby town of Pozzuoli. Builders valued it so highly that they transported it over huge distances. Moving thousands of tonnes of ash by road would have cost a fortune, so instead it was carried by sea, as far as the harbour at Caesarea, in what is now Israel."
+      },
+      {
+        "speaker": "S1",
+        "text": "What makes this ash so special is that it reacts chemically with the lime. The result is a binder that's far stronger than lime alone and, crucially, one that can harden even when it's underwater."
+      },
+      {
+        "speaker": "S1",
+        "text": "The third ingredient is what engineers call the aggregate. These are the larger chunks mixed into the concrete to give it bulk. The Romans often used pieces of volcanic rock, but they also made good use of broken brick, recycled from demolished buildings. What's clever is that they chose their aggregate to suit the job."
+      },
+      {
+        "speaker": "S1",
+        "text": "In the dome of the Pantheon, for example, the builders used heavy stone near the base and a lighter volcanic stone called tuff further up. Right at the top, they switched to pumice, which is so full of air bubbles that it can actually float. This reduced the weight pressing down on the walls below."
+      },
+      {
+        "speaker": "S1",
+        "text": "The final ingredient is water, and this brings us to one of the most exciting discoveries of recent years. When they were building piers and breakwaters, the Romans mixed their concrete with seawater. You'd expect salt water to damage concrete over time, and with modern concrete, that's usually what happens. But researchers studying ancient harbours have found that seawater seeping through the concrete has reacted with the ash to form new crystals, which grow into tiny gaps and actually make the material stronger."
+      },
+      {
+        "speaker": "S1",
+        "text": "Moving on now to another puzzle that scientists have only recently begun to solve. If you look closely at a piece of Roman concrete, you'll see small white lumps of lime scattered through it, some only a few millimetres across. For decades, experts assumed these lumps were the result of careless mixing, or perhaps of low-grade raw materials."
+      },
+      {
+        "speaker": "S1",
+        "text": "However, a team of researchers in the United States has put forward a very different explanation. They believe the Romans added the lime while it was still extremely hot, in a form known as quicklime. This technique, called hot mixing, speeds up the setting process, and it also leaves behind exactly these kinds of lumps."
+      },
+      {
+        "speaker": "S1",
+        "text": "Now, what's interesting here is that the lumps seem to give the concrete the ability to repair itself. When a crack forms and water gets in, some of the lime in the lumps dissolves. It then reacts with carbon dioxide and hardens again, this time as calcium carbonate, which fills the crack and seals it."
+      },
+      {
+        "speaker": "S1",
+        "text": "To test this idea, the team made samples using the hot-mixing method, deliberately cracked them, and then let water run through the cracks. Within 2 weeks, the cracks had closed completely and the samples were watertight. Identical samples made without the lime lumps never healed, and water kept flowing straight through them."
+      },
+      {
+        "speaker": "S1",
+        "text": "So, should we simply go back to building with Roman concrete? Well, not quite. Its main weakness is its relatively low strength, which is why nobody is suggesting we use it for skyscrapers or long highway bridges. It also sets far more slowly than modern concrete, which would add time and cost to building projects."
+      },
+      {
+        "speaker": "S1",
+        "text": "On the other hand, there are real environmental advantages. Modern cement has to be heated to about 1,450 degrees, whereas lime only needs around 900, so producing it requires much less fuel. That matters, because cement manufacturing is responsible for around 8 percent of global carbon dioxide emissions."
+      },
+      {
+        "speaker": "S1",
+        "text": "For that reason, several companies are now experimenting with modern versions of the Roman recipe, especially for structures that need to last for centuries, such as harbour walls and facilities for storing nuclear waste. In the next session, we'll look at some of these projects in more detail, and at the tests engineers use to predict how long a material will last."
+      }
+    ],
+    "parts": [
+      {
+        "questions_from": 1,
+        "questions_to": 10,
+        "start_line": 0
+      }
+    ],
+    "question_groups": [
+      {
+        "group_id": "g1",
+        "question_type": "TABLE_COMPLETION",
+        "instructions": "Questions 1–5\nComplete the table below.\nWrite ONE WORD ONLY for each answer.",
+        "word_limit": 1,
+        "number_allowed": false,
+        "options": [],
+        "context": "",
+        "table": {
+          "title": "Ingredients of Roman concrete",
+          "columns": ["Ingredient", "Details", "Purpose"],
+          "rows": [
+            ["lime", "produced by heating limestone in a {{1}}", "holds the mixture together"],
+            ["volcanic ash", "from the Bay of Naples; transported long distances by {{2}}", "reacts with lime; allows concrete to harden underwater"],
+            ["aggregate", "volcanic rock or recycled {{3}}", "adds bulk; the lightest type, {{4}}, was used at the top of domes"],
+            ["seawater", "used for piers and breakwaters", "reacts with the ash to form new {{5}} that fill small gaps"]
+          ]
+        },
+        "flow_steps": [],
+        "diagram": {
+          "title": "",
+          "nodes": [],
+          "edges": []
+        },
+        "map": {
+          "title": "",
+          "features": [],
+          "markers": []
+        },
+        "questions": [
+          {
+            "number": 1,
+            "prompt": "",
+            "options": [],
+            "answers": ["kiln"],
+            "justification_span": "The first of these is lime, which the Romans produced by heating limestone in a kiln to around 900 degrees.",
+            "location": "1"
+          },
+          {
+            "number": 2,
+            "prompt": "",
+            "options": [],
+            "answers": ["sea"],
+            "justification_span": "Moving thousands of tonnes of ash by road would have cost a fortune, so instead it was carried by sea, as far as the harbour at Caesarea, in what is now Israel.",
+            "location": "2"
+          },
+          {
+            "number": 3,
+            "prompt": "",
+            "options": [],
+            "answers": ["brick", "bricks"],
+            "justification_span": "The Romans often used pieces of volcanic rock, but they also made good use of broken brick, recycled from demolished buildings.",
+            "location": "4"
+          },
+          {
+            "number": 4,
+            "prompt": "",
+            "options": [],
+            "answers": ["pumice"],
+            "justification_span": "Right at the top, they switched to pumice, which is so full of air bubbles that it can actually float.",
+            "location": "5"
+          },
+          {
+            "number": 5,
+            "prompt": "",
+            "options": [],
+            "answers": ["crystals"],
+            "justification_span": "But researchers studying ancient harbours have found that seawater seeping through the concrete has reacted with the ash to form new crystals, which grow into tiny gaps and actually make the material stronger.",
+            "location": "6"
+          }
+        ]
+      },
+      {
+        "group_id": "g2",
+        "question_type": "SUMMARY_COMPLETION",
+        "instructions": "Questions 6–10\nComplete the summary below.\nWrite ONE WORD ONLY for each answer.",
+        "word_limit": 1,
+        "number_allowed": false,
+        "options": [],
+        "context": "Self-healing concrete\n\nSmall white lumps of lime can be seen in Roman concrete. For many years, experts thought these were caused by {{6}} mixing. However, it now seems that the Romans added the lime while it was still very hot, and that the lumps allow the concrete to heal itself. When water gets into a crack, some of the lime {{7}} in the water and then hardens again as calcium carbonate, filling the crack. In one experiment, cracked samples containing these lumps became {{8}} within 2 weeks. Roman concrete does have drawbacks, however. The biggest problem is its limited {{9}}, which rules it out for very tall buildings. On the other hand, lime is produced at a lower temperature than modern cement, so much less {{10}} is needed to make it.",
+        "table": {
+          "title": "",
+          "columns": [],
+          "rows": []
+        },
+        "flow_steps": [],
+        "diagram": {
+          "title": "",
+          "nodes": [],
+          "edges": []
+        },
+        "map": {
+          "title": "",
+          "features": [],
+          "markers": []
+        },
+        "questions": [
+          {
+            "number": 6,
+            "prompt": "",
+            "options": [],
+            "answers": ["careless"],
+            "justification_span": "For decades, experts assumed these lumps were the result of careless mixing, or perhaps of low-grade raw materials.",
+            "location": "7"
+          },
+          {
+            "number": 7,
+            "prompt": "",
+            "options": [],
+            "answers": ["dissolves"],
+            "justification_span": "When a crack forms and water gets in, some of the lime in the lumps dissolves.",
+            "location": "9"
+          },
+          {
+            "number": 8,
+            "prompt": "",
+            "options": [],
+            "answers": ["watertight"],
+            "justification_span": "Within 2 weeks, the cracks had closed completely and the samples were watertight.",
+            "location": "10"
+          },
+          {
+            "number": 9,
+            "prompt": "",
+            "options": [],
+            "answers": ["strength"],
+            "justification_span": "Its main weakness is its relatively low strength, which is why nobody is suggesting we use it for skyscrapers or long highway bridges.",
+            "location": "11"
+          },
+          {
+            "number": 10,
+            "prompt": "",
+            "options": [],
+            "answers": ["fuel"],
+            "justification_span": "Modern cement has to be heated to about 1,450 degrees, whereas lime only needs around 900, so producing it requires much less fuel.",
+            "location": "12"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:ielts-test;DB_CLOSE_DELAY=-1
+ielts:
+  data-dir: ./../data
+  prompts-dir: ./../prompts
+  scheduling:
+    enabled: false
+  buffer:
+    enabled: false
+  admin:
+    email: tester@example.com
+    password: test-password-123
+  security:
+    jwt-secret: test-secret
+claude:
+  api-key: ""

@@ -1,0 +1,95 @@
+{
+  "task_type": "GRAMMAR_LESSON",
+  "source_url": "",
+  "licence": "Original content",
+  "content": {
+    "area": "PREPOSITIONS_PHRASAL",
+    "title": "Prepositions and phrasal verbs",
+    "summary": "Preposition slips are among the most frequent errors at band 6–6.5, often transferred from the first language ('discuss about', 'depend of'). Because prepositions appear in almost every sentence, cutting these errors is one of the quickest ways to reach the frequent error-free sentences of band 7, while well-chosen phrasal verbs add natural fluency in Speaking.",
+    "explanation": "### Prepositions of time\n- **at** + clock times and points: *at 6 p.m., at the end of the period, at the weekend*\n- **on** + days and dates: *on Monday, on 5 May*\n- **in** + months, years, decades and seasons: *in 2015, in the 1990s, in winter*\n- **by** = no later than: *by 2030* (often with *will have reached*)\n- **for** + a length of time; **since** + a starting point: *for ten years / since 2015*\n- **during** + noun; **while** + clause: *during the holidays / while I was studying*\n- **over / throughout** + a period: *over the next decade, throughout the period shown*\n\n### Place and data\n- ***in** the graph / chart / table* for what it shows\n- ***in** the city centre, **on** the outskirts of the town, **at** the station* (a point)\n- Maps: *to the north **of** the lake, next **to**, opposite, adjacent **to***\n\n### Prepositions of change (Task 1)\n- *rose **from** 10% **to** 25%*, *increased **by** 15%*\n- *peaked **at** 80%*, *stood **at** 30%*\n- *a rise **of** 20% **in** exports*\n- *accounted **for** 40% **of** the total*\n\n### Dependent prepositions\nLearn these as fixed chunks — they appear in almost every Task 2 essay:\n- **Nouns:** *impact / effect / influence **on**, reason / demand **for**, solution / access **to**, attitude **towards**, increase **in**, lack **of***\n- **Adjectives:** *responsible **for**, aware **of**, dependent **on**, similar **to**, different **from**, capable **of**, concerned **about**, interested **in***\n- **Verbs:** *depend **on**, focus **on**, contribute **to**, benefit **from**, deal **with**, invest **in**, consist **of**, result **in** (+ effect), result **from** (+ cause)*\n- **No preposition:** *discuss, emphasise, affect, enter, reach, approach, lack* — ✗ *discuss about*, ✗ *emphasise on*, ✗ *reach to*.\n\n### Phrasal verbs\nIn Speaking, phrasal verbs sound natural and fluent: *grow up, bring up (children), give up, come across, catch up with, put off, end up (+ -ing)*.\n\nIn Task 2, prefer a formal single-word verb where one exists:\n- *cut down on* → *reduce*\n- *look into* → *investigate*\n- *come up with* → *devise / propose*\n- *put up with* → *tolerate*\n\nNeutral phrasal verbs such as *carry out* (research), *set up* (a business) and *phase out* are perfectly acceptable in essays.\n\nWord order: with separable phrasal verbs, a pronoun goes in the middle — *turn **it** off*, not ✗ *turn off it*.\n\n*Look forward to*, *object to* and *be used to* end in the preposition *to*, so they are followed by an -ing form: *I look forward to **hearing** from you.*",
+    "key_rules": [
+      {
+        "rule": "Use 'in' for years and months, 'on' for days and dates, and 'at' for times and points.",
+        "example": "The factory opened in 1998, closed on 3 March 2015 and was demolished at the end of that year."
+      },
+      {
+        "rule": "Use 'for' with a length of time and 'since' with a starting point.",
+        "example": "The museum has been closed for two years, since the roof was damaged in a storm."
+      },
+      {
+        "rule": "Learn nouns, adjectives and verbs together with their dependent prepositions.",
+        "example": "Social media has a significant impact on how teenagers view themselves."
+      },
+      {
+        "rule": "Some verbs take a direct object with no preposition: discuss, affect, emphasise, reach, enter.",
+        "example": "This essay will discuss the main causes of youth unemployment."
+      },
+      {
+        "rule": "'Result in' introduces the effect; 'result from' introduces the cause.",
+        "example": "Obesity often results from a poor diet, and it can result in serious heart disease."
+      },
+      {
+        "rule": "In essays, prefer formal single-word verbs to informal phrasal verbs; in Speaking, use phrasal verbs naturally.",
+        "example": "The government has pledged to reduce plastic waste, and several supermarkets have already phased out single-use bags."
+      },
+      {
+        "rule": "With a separable phrasal verb, put a pronoun object between the verb and the particle.",
+        "example": "I kept putting it off until the deadline was only a day away."
+      }
+    ],
+    "common_mistakes": [
+      {
+        "wrong": "We discussed about the problem of traffic.",
+        "right": "We discussed the problem of traffic.",
+        "why": "'Discuss' is transitive and takes a direct object with no preposition."
+      },
+      {
+        "wrong": "It depends of the government's budget.",
+        "right": "It depends on the government's budget.",
+        "why": "'Depend' always takes 'on'; 'of' is a typical first-language transfer error."
+      },
+      {
+        "wrong": "Technology has a big effect to our lives.",
+        "right": "Technology has a big effect on our lives.",
+        "why": "'Effect', 'impact' and 'influence' all take 'on'."
+      },
+      {
+        "wrong": "I have been studying English since five years.",
+        "right": "I have been studying English for five years.",
+        "why": "'For' goes with a length of time; 'since' goes with a starting point."
+      },
+      {
+        "wrong": "The price reached to £50 in 2020.",
+        "right": "The price reached £50 in 2020. (or: rose to £50)",
+        "why": "'Reach' takes a direct object; 'to' is used only after verbs such as 'rise' or 'fall'."
+      },
+      {
+        "wrong": "I'm looking forward to meet you.",
+        "right": "I'm looking forward to meeting you.",
+        "why": "In 'look forward to', 'to' is a preposition, so it is followed by an -ing form."
+      }
+    ],
+    "ielts_examples": [
+      {
+        "context": "WRITING_TASK1",
+        "sentence": "Exports accounted for just under a third of GDP in 2000 but rose to almost half by the end of the period."
+      },
+      {
+        "context": "WRITING_TASK2",
+        "sentence": "Parents who are aware of the risks of social media are better placed to protect their children from its harmful effects."
+      },
+      {
+        "context": "WRITING_TASK2",
+        "sentence": "Rather than relying on fines alone, local authorities should invest in recycling facilities and focus on educating residents."
+      },
+      {
+        "context": "SPEAKING_PART2",
+        "sentence": "I came across the book by chance at a second-hand market, and I ended up reading it in one sitting."
+      },
+      {
+        "context": "SPEAKING_PART3",
+        "sentence": "Young people tend to put off saving for retirement because they're far more concerned about paying their rent."
+      }
+    ]
+  }
+}
