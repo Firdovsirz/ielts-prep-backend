@@ -1,0 +1,26 @@
+# Backend on its own:   cd backend && docker compose up -d --build
+# Reads secrets from the repo-root .env (and backend/.env if present). Data lives in the "ielts-data" volume.
+name: ielts-prep-backend
+
+services:
+  backend:
+    build:
+      context: ..
+      dockerfile: backend/Dockerfile
+    image: ielts-prep-backend:latest
+    env_file:
+      - path: ../.env
+        required: false
+      - path: .env
+        required: false
+    environment:
+      IELTS_DATA_DIR: /data
+    ports:
+      - "${BACKEND_PORT:-8090}:8090"
+    volumes:
+      - ielts-data:/data
+    restart: unless-stopped
+
+volumes:
+  ielts-data:
+    name: ielts-prep-data

@@ -1,0 +1,38 @@
+# Whole app:   docker compose up -d --build     → http://localhost:3000
+# Secrets and settings come from ./.env (copy .env.example). Data persists in the "ielts-prep-data" volume.
+name: ielts-prep
+
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    image: ielts-prep-backend:latest
+    env_file:
+      - path: .env
+        required: false
+    environment:
+      IELTS_DATA_DIR: /data
+      TZ: ${TZ:-UTC}
+    volumes:
+      - ielts-data:/data
+    ports:
+      # API and Swagger UI on the host (localhost only); the frontend reaches it over the compose network.
+      - "127.0.0.1:${BACKEND_PORT:-8090}:8090"
+    restart: unless-stopped
+
+  frontend:
+    build: ./frontend
+    image: ielts-prep-frontend:latest
+    environment:
+      BACKEND_URL: http://backend:8090
+    ports:
+      - "${FRONTEND_PORT:-3000}:80"
+    depends_on:
+      backend:
+        condition: service_healthy
+    restart: unless-stopped
+
+volumes:
+  ielts-data:
+    name: ielts-prep-data

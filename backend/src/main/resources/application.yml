@@ -9,7 +9,8 @@ spring:
       - optional:file:../.env[.properties]
       - optional:file:.env[.properties]
   datasource:
-    url: jdbc:h2:file:${ielts.data-dir}/db/ielts;DB_CLOSE_ON_EXIT=FALSE
+    # AUTO_SERVER lets CLI tasks (make generate / make status) open the database while the app is running.
+    url: jdbc:h2:file:${ielts.data-dir}/db/ielts;AUTO_SERVER=TRUE
     username: sa
     password: ""
     hikari:

@@ -3,6 +3,7 @@ package com.ieltsprep.config;
 import com.ieltsprep.auth.JwtKeyProvider;
 import com.nimbusds.jose.jwk.source.ImmutableSecret;
 import java.util.List;
+import org.springframework.boot.autoconfigure.condition.ConditionalOnWebApplication;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.HttpMethod;
@@ -26,6 +27,7 @@ import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 public class SecurityConfig {
 
     @Bean
+    @ConditionalOnWebApplication // CLI tasks (--task=…) run without a web server
     SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
         http.csrf(csrf -> csrf.disable())
                 .cors(Customizer.withDefaults())

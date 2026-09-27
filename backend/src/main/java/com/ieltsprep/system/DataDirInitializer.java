@@ -1,6 +1,5 @@
 package com.ieltsprep.system;
 
-import com.ieltsprep.config.AppProperties;
 import java.io.IOException;
 import java.io.UncheckedIOException;
 import java.nio.file.Files;
@@ -9,35 +8,40 @@ import java.nio.file.StandardCopyOption;
 import java.util.stream.Stream;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.boot.ApplicationArguments;
-import org.springframework.boot.ApplicationRunner;
-import org.springframework.core.annotation.Order;
-import org.springframework.stereotype.Component;
+import org.springframework.boot.context.event.ApplicationEnvironmentPreparedEvent;
+import org.springframework.context.ApplicationListener;
+import org.springframework.core.Ordered;
+import org.springframework.core.env.ConfigurableEnvironment;
 
 /**
  * Creates the data directory layout and, when IELTS_DEFAULTS_DIR is set (Docker image), copies the bundled
  * templates/descriptors/sources/seed files into an empty data volume. Existing files are never overwritten.
+ * <p>
+ * Runs as soon as the configuration is loaded — before any bean is created — because several beans (the grammar
+ * taxonomy, the AWL list, the seed loader) read these files while the context starts. Registered in
+ * META-INF/spring.factories.
  */
-@Component
-@Order(0)
-public class DataDirInitializer implements ApplicationRunner {
+public class DataDirInitializer implements ApplicationListener<ApplicationEnvironmentPreparedEvent>, Ordered {
 
     private static final Logger log = LoggerFactory.getLogger(DataDirInitializer.class);
 
-    private final AppProperties props;
-
-    public DataDirInitializer(AppProperties props) {
-        this.props = props;
+    @Override
+    public void onApplicationEvent(ApplicationEnvironmentPreparedEvent event) {
+        ConfigurableEnvironment env = event.getEnvironment();
+        Path data = Path.of(env.getProperty("ielts.data-dir", "./../data")).toAbsolutePath().normalize();
+        initialise(data, env.getProperty("ielts.defaults-dir", ""));
     }
 
     @Override
-    public void run(ApplicationArguments args) {
-        Path data = props.dataPath();
+    public int getOrder() {
+        return Ordered.LOWEST_PRECEDENCE; // after the config files have been loaded into the environment
+    }
+
+    public static void initialise(Path data, String defaults) {
         try {
             for (String dir : new String[] {"db", "audio", "recordings", "templates", "descriptors", "sources", "seed"}) {
                 Files.createDirectories(data.resolve(dir));
             }
-            String defaults = props.defaultsDir();
             if (defaults == null || defaults.isBlank()) {
                 return;
             }

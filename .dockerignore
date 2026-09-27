@@ -1,0 +1,19 @@
+# Build context for backend/Dockerfile is the repository root.
+**/.env
+**/.env.*
+!**/.env.example
+.git
+**/node_modules
+**/dist
+**/target
+**/*.log
+data/db
+data/audio
+data/recordings
+data/sources/cache
+data/.jwt-secret
+data/descriptors/official
+data/templates/official
+frontend
+docs
+scripts

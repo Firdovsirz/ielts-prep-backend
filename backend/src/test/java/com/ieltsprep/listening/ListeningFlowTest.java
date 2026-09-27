@@ -39,7 +39,7 @@ class ListeningFlowTest {
                 .andExpect(status().isOk()).andReturn().getResponse().getContentAsString());
         assertThat(s.get("sections")).hasSize(4);
         assertThat(s.get("readingSeconds").asInt()).isEqualTo(30);
-        assertThat(s.get("transferMinutes").asInt()).isEqualTo(10);
+        assertThat(s.get("transferMinutes").asInt()).isEqualTo(2);
         Map<String, String> answers = new HashMap<>();
         int expectedSection = 1;
         for (JsonNode sec : s.get("sections")) {

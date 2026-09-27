@@ -28,6 +28,17 @@ public class SettingsService {
         return repo.findById(ID).orElseGet(this::createDefaults);
     }
 
+    /**
+     * Creates the settings row at start-up (see {@link SettingsBootstrap}) so that the first page load, which fetches
+     * several endpoints in parallel, never races to insert it.
+     */
+    @Transactional
+    public synchronized void ensureExists() {
+        if (!repo.existsById(ID)) {
+            createDefaults();
+        }
+    }
+
     @Transactional
     public UserSettings update(SettingsDto dto) {
         UserSettings s = get();
@@ -77,7 +88,7 @@ public class SettingsService {
         s.setAudioMode(d.audioMode() == null ? AudioMode.BROWSER : d.audioMode());
         s.setSpeechRate(1.0);
         s.setListeningReadingSeconds(30);
-        s.setListeningTransferMinutes(10);
+        s.setListeningTransferMinutes(2); // computer-delivered test; 10 for paper-based (Settings)
         s.setDailyStudyMinutes(90);
         s.setResolvedAfterPieces(props.errorLog() == null ? 5 : props.errorLog().resolvedAfterPieces());
         s.setOnboardingDone(false);
