@@ -80,6 +80,24 @@
         "tags" : [ "Auth" ]
       }
     },
+    "/api/dashboard" : {
+      "get" : {
+        "operationId" : "dashboard",
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/DashboardView"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "tags" : [ "Progress" ]
+      }
+    },
     "/api/errors" : {
       "get" : {
         "operationId" : "list",
@@ -136,6 +154,34 @@
           }
         },
         "tags" : [ "Error log" ]
+      }
+    },
+    "/api/export" : {
+      "get" : {
+        "operationId" : "export",
+        "parameters" : [ {
+          "in" : "query",
+          "name" : "format",
+          "required" : false,
+          "schema" : {
+            "type" : "string",
+            "default" : "json"
+          }
+        } ],
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "type" : "string",
+                  "format" : "byte"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "tags" : [ "Export" ]
       }
     },
     "/api/grammar" : {
@@ -469,6 +515,27 @@
           }
         },
         "tags" : [ "Grammar" ]
+      }
+    },
+    "/api/history" : {
+      "get" : {
+        "operationId" : "history",
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "type" : "array",
+                  "items" : {
+                    "$ref" : "#/components/schemas/HistoryRow"
+                  }
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "tags" : [ "Progress" ]
       }
     },
     "/api/reading/passages" : {
@@ -901,6 +968,94 @@
   },
   "components" : {
     "schemas" : {
+      "Activity" : {
+        "type" : "object",
+        "default" : null,
+        "properties" : {
+          "apiSpendToday" : {
+            "type" : "number",
+            "format" : "double"
+          },
+          "apiSpendWeek" : {
+            "type" : "number",
+            "format" : "double"
+          },
+          "itemsCompleted" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "last28Days" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/components/schemas/DayActivity"
+            }
+          },
+          "longestStreak" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "sessionsCompleted" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "streakDays" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "totalMinutes" : {
+            "type" : "integer",
+            "format" : "int32"
+          }
+        },
+        "required" : [ "apiSpendToday", "apiSpendWeek", "itemsCompleted", "last28Days", "longestStreak", "sessionsCompleted", "streakDays", "totalMinutes" ]
+      },
+      "BandPoint" : {
+        "type" : "object",
+        "default" : null,
+        "properties" : {
+          "at" : {
+            "type" : "string",
+            "format" : "date-time"
+          },
+          "band" : {
+            "type" : "number",
+            "format" : "double"
+          },
+          "estimate" : {
+            "type" : "boolean"
+          },
+          "kind" : {
+            "type" : "string"
+          },
+          "sessionId" : {
+            "type" : "integer",
+            "format" : "int64"
+          }
+        },
+        "required" : [ "at", "band", "estimate", "kind", "sessionId" ]
+      },
+      "BlankStat" : {
+        "type" : "object",
+        "default" : null,
+        "properties" : {
+          "blankRate" : {
+            "type" : "number",
+            "format" : "double"
+          },
+          "blanks" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "label" : {
+            "type" : "string"
+          },
+          "questions" : {
+            "type" : "integer",
+            "format" : "int32"
+          }
+        },
+        "required" : [ "blankRate", "blanks", "label", "questions" ]
+      },
       "ChangePasswordRequest" : {
         "type" : "object",
         "properties" : {
@@ -946,6 +1101,31 @@
         },
         "required" : [ "right", "why", "wrong" ]
       },
+      "CriteriaPoint" : {
+        "type" : "object",
+        "default" : null,
+        "properties" : {
+          "at" : {
+            "type" : "string",
+            "format" : "date-time"
+          },
+          "attemptId" : {
+            "type" : "integer",
+            "format" : "int64"
+          },
+          "bands" : {
+            "type" : "object",
+            "additionalProperties" : {
+              "type" : "integer",
+              "format" : "int32"
+            }
+          },
+          "taskType" : {
+            "type" : "string"
+          }
+        },
+        "required" : [ "at", "attemptId", "bands", "taskType" ]
+      },
       "CriterionBand" : {
         "type" : "object",
         "properties" : {
@@ -973,6 +1153,98 @@
           }
         },
         "required" : [ "band", "criterion", "justification", "strengths", "weaknesses" ]
+      },
+      "DashboardView" : {
+        "type" : "object",
+        "default" : null,
+        "properties" : {
+          "activity" : {
+            "$ref" : "#/components/schemas/Activity"
+          },
+          "bandHistory" : {
+            "type" : "object",
+            "additionalProperties" : {
+              "type" : "array",
+              "items" : {
+                "$ref" : "#/components/schemas/BandPoint"
+              }
+            }
+          },
+          "blanks" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/components/schemas/BlankStat"
+            }
+          },
+          "criteriaHistory" : {
+            "type" : "object",
+            "additionalProperties" : {
+              "type" : "array",
+              "items" : {
+                "$ref" : "#/components/schemas/CriteriaPoint"
+              }
+            }
+          },
+          "current" : {
+            "$ref" : "#/components/schemas/ModuleBands"
+          },
+          "daysToTest" : {
+            "type" : [ "integer", "null" ],
+            "format" : "int32",
+            "default" : ""
+          },
+          "questionTypes" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/components/schemas/QuestionTypeAccuracy"
+            }
+          },
+          "startingBand" : {
+            "type" : "number",
+            "format" : "double"
+          },
+          "targetBand" : {
+            "type" : "number",
+            "format" : "double"
+          },
+          "testDate" : {
+            "type" : [ "string", "null" ],
+            "format" : "date",
+            "default" : ""
+          },
+          "timing" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/components/schemas/TimeStat"
+            }
+          },
+          "topErrors" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/components/schemas/ErrorSubtypeStats"
+            }
+          }
+        },
+        "required" : [ "activity", "bandHistory", "blanks", "criteriaHistory", "current", "daysToTest", "questionTypes", "startingBand", "targetBand", "testDate", "timing", "topErrors" ]
+      },
+      "DayActivity" : {
+        "type" : "object",
+        "default" : null,
+        "properties" : {
+          "date" : {
+            "type" : "string",
+            "format" : "date"
+          },
+          "minutes" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "sessions" : {
+            "type" : "integer",
+            "format" : "int32"
+          }
+        },
+        "required" : [ "date", "minutes", "sessions" ]
       },
       "DiagnosticAnswerRequest" : {
         "type" : "object",
@@ -1706,6 +1978,62 @@
         },
         "required" : [ "status" ]
       },
+      "HistoryRow" : {
+        "type" : "object",
+        "default" : null,
+        "properties" : {
+          "band" : {
+            "type" : [ "number", "null" ],
+            "format" : "double",
+            "default" : ""
+          },
+          "finishedAt" : {
+            "type" : [ "string", "null" ],
+            "format" : "date-time",
+            "default" : ""
+          },
+          "kind" : {
+            "type" : "string"
+          },
+          "maxScore" : {
+            "type" : [ "integer", "null" ],
+            "format" : "int32",
+            "default" : ""
+          },
+          "mode" : {
+            "type" : "string"
+          },
+          "module" : {
+            "type" : "string"
+          },
+          "rawScore" : {
+            "type" : [ "integer", "null" ],
+            "format" : "int32",
+            "default" : ""
+          },
+          "sessionId" : {
+            "type" : "integer",
+            "format" : "int64"
+          },
+          "startedAt" : {
+            "type" : "string",
+            "format" : "date-time"
+          },
+          "status" : {
+            "type" : "string"
+          },
+          "timeUsedSeconds" : {
+            "type" : [ "integer", "null" ],
+            "format" : "int32",
+            "default" : ""
+          },
+          "title" : {
+            "type" : [ "string", "null" ],
+            "default" : ""
+          }
+        },
+        "required" : [ "band", "finishedAt", "kind", "maxScore", "mode", "module", "rawScore", "sessionId", "startedAt", "status", "timeUsedSeconds", "title" ]
+      },
       "IeltsExample" : {
         "type" : "object",
         "properties" : {
@@ -1920,6 +2248,41 @@
         },
         "required" : [ "email", "role" ]
       },
+      "ModuleBands" : {
+        "type" : "object",
+        "default" : null,
+        "properties" : {
+          "listening" : {
+            "type" : [ "number", "null" ],
+            "format" : "double",
+            "default" : ""
+          },
+          "overall" : {
+            "type" : [ "number", "null" ],
+            "format" : "double",
+            "default" : ""
+          },
+          "overallIsEstimate" : {
+            "type" : "boolean"
+          },
+          "reading" : {
+            "type" : [ "number", "null" ],
+            "format" : "double",
+            "default" : ""
+          },
+          "speaking" : {
+            "type" : [ "number", "null" ],
+            "format" : "double",
+            "default" : ""
+          },
+          "writing" : {
+            "type" : [ "number", "null" ],
+            "format" : "double",
+            "default" : ""
+          }
+        },
+        "required" : [ "listening", "overall", "overallIsEstimate", "reading", "speaking", "writing" ]
+      },
       "Paragraph" : {
         "type" : "object",
         "properties" : {
@@ -2088,6 +2451,36 @@
           }
         },
         "required" : [ "blank", "correct", "expected", "given", "group_id", "justification", "location", "note", "number", "question_type" ]
+      },
+      "QuestionTypeAccuracy" : {
+        "type" : "object",
+        "default" : null,
+        "properties" : {
+          "accuracy" : {
+            "type" : "number",
+            "format" : "double"
+          },
+          "correct" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "module" : {
+            "type" : "string"
+          },
+          "questionType" : {
+            "type" : "string"
+          },
+          "recentAccuracy" : {
+            "type" : [ "number", "null" ],
+            "format" : "double",
+            "default" : ""
+          },
+          "total" : {
+            "type" : "integer",
+            "format" : "int32"
+          }
+        },
+        "required" : [ "accuracy", "correct", "module", "questionType", "recentAccuracy", "total" ]
       },
       "ReadingPassage" : {
         "type" : "object",
@@ -2662,6 +3055,29 @@
           }
         },
         "required" : [ "essay_type", "key_features", "prompt", "question", "statement", "subtopic", "topic" ]
+      },
+      "TimeStat" : {
+        "type" : "object",
+        "default" : null,
+        "properties" : {
+          "averageSeconds" : {
+            "type" : [ "number", "null" ],
+            "format" : "double",
+            "default" : ""
+          },
+          "count" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "label" : {
+            "type" : "string"
+          },
+          "limitSeconds" : {
+            "type" : "integer",
+            "format" : "int32"
+          }
+        },
+        "required" : [ "averageSeconds", "count", "label", "limitSeconds" ]
       },
       "TokenResponse" : {
         "type" : "object",
