@@ -20,6 +20,8 @@ public class SystemController {
 
     public record Health(String status) {}
 
+    public record ResetRequest(String confirm) {}
+
     public record InventoryRow(String module, String taskType, String status, long count) {}
 
     public record SystemStatus(
@@ -31,11 +33,22 @@ public class SystemController {
     private final SpendGuard spendGuard;
     private final ClaudeProperties claude;
     private final ItemRepository items;
+    private final ProgressResetService reset;
 
-    public SystemController(SpendGuard spendGuard, ClaudeProperties claude, ItemRepository items) {
+    public SystemController(SpendGuard spendGuard, ClaudeProperties claude, ItemRepository items, ProgressResetService reset) {
         this.spendGuard = spendGuard;
         this.claude = claude;
         this.items = items;
+        this.reset = reset;
+    }
+
+    /** Deletes all practice history. The body must be {"confirm": "RESET"}. */
+    @org.springframework.web.bind.annotation.PostMapping("/reset-progress")
+    public Map<String, Integer> resetProgress(@org.springframework.web.bind.annotation.RequestBody ResetRequest req) {
+        if (req == null || !"RESET".equals(req.confirm())) {
+            throw com.ieltsprep.common.ApiException.badRequest("Type RESET to confirm");
+        }
+        return reset.reset();
     }
 
     @GetMapping("/health")

@@ -1415,6 +1415,38 @@
         "tags" : [ "System" ]
       }
     },
+    "/api/system/reset-progress" : {
+      "post" : {
+        "operationId" : "resetProgress",
+        "requestBody" : {
+          "content" : {
+            "application/json" : {
+              "schema" : {
+                "$ref" : "#/components/schemas/ResetRequest"
+              }
+            }
+          },
+          "required" : true
+        },
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "type" : "object",
+                  "additionalProperties" : {
+                    "type" : "integer",
+                    "format" : "int32"
+                  }
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "tags" : [ "System" ]
+      }
+    },
     "/api/system/spend" : {
       "get" : {
         "operationId" : "spend",
@@ -4695,6 +4727,14 @@
           "timeUsedSeconds" : {
             "type" : "integer",
             "format" : "int32"
+          }
+        }
+      },
+      "ResetRequest" : {
+        "type" : "object",
+        "properties" : {
+          "confirm" : {
+            "type" : "string"
           }
         }
       },
