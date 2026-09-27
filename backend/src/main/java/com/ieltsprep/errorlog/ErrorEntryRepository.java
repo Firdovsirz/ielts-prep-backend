@@ -14,4 +14,8 @@ public interface ErrorEntryRepository extends JpaRepository<ErrorEntry, Long> {
     List<ErrorEntry> findBySubtypeOrderByCreatedAtDesc(String subtype);
 
     List<ErrorEntry> findByTypeOrderByCreatedAtDesc(String type);
+
+    long countByCreatedAtBetween(java.time.Instant from, java.time.Instant to);
+
+    long countByResolvedAtBetween(java.time.Instant from, java.time.Instant to);
 }

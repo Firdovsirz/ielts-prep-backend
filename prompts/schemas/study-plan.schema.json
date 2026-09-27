@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "study-plan",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["focus", "days"],
+  "properties": {
+    "focus": {
+      "type": "string",
+      "description": "Two or three sentences for the top of the plan: the phase, what this week prioritises and why, in the second person."
+    },
+    "days": {
+      "type": "array",
+      "description": "One entry per date in the draft, same dates, in order.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["date", "tasks"],
+        "properties": {
+          "date": {"type": "string", "description": "ISO date (YYYY-MM-DD) copied from the draft."},
+          "tasks": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["action", "variant", "title", "why", "minutes"],
+              "properties": {
+                "action": {
+                  "type": "string",
+                  "enum": [
+                    "READING_PASSAGE", "READING_TEST", "LISTENING_SECTION", "LISTENING_TEST", "WRITING_TASK1",
+                    "WRITING_TASK2", "WRITING_TEST", "SPEAKING_PART", "SPEAKING_TEST", "GRAMMAR_DIAGNOSTIC",
+                    "GRAMMAR_AREA", "GRAMMAR_ERRORS", "VOCAB_REVIEW", "MOCK_TEST", "REVIEW_MISTAKES", "REST"
+                  ]
+                },
+                "variant": {
+                  "type": "string",
+                  "description": "READING_PASSAGE: 1|2|3. LISTENING_SECTION: 1|2|3|4. SPEAKING_PART: PART1|PART2|PART3. GRAMMAR_AREA: an area key from the profile. GRAMMAR_ERRORS: an error subtype from the profile. Otherwise an empty string."
+                },
+                "title": {"type": "string", "description": "Short imperative task title (max ~70 characters)."},
+                "why": {"type": "string", "description": "One sentence linking the task to the candidate's data."},
+                "minutes": {"type": "integer", "description": "Planned minutes (0 for REST)."}
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

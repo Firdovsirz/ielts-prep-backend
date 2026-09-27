@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "coach-report",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["headline", "summary", "band_outlook", "wins", "concerns", "priorities", "encouragement"],
+  "properties": {
+    "headline": {"type": "string", "description": "One-line verdict on the week (max ~90 characters)."},
+    "summary": {
+      "type": "string",
+      "description": "One paragraph (4–6 sentences) on how the week went, citing the numbers: sessions, minutes, bands, error trends, plan completion."
+    },
+    "band_outlook": {
+      "type": "string",
+      "description": "Realistic outlook for the overall band on test day given current bands, trends and days left. Name the band range; no false promises."
+    },
+    "wins": {"type": "array", "items": {"type": "string"}, "description": "1–4 specific things that improved or went well."},
+    "concerns": {"type": "array", "items": {"type": "string"}, "description": "1–4 specific risks, each tied to data."},
+    "priorities": {
+      "type": "array",
+      "description": "Exactly three priorities for next week, most important first.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["module", "title", "detail"],
+        "properties": {
+          "module": {"type": "string", "enum": ["LISTENING", "READING", "WRITING", "SPEAKING", "GRAMMAR", "VOCAB", "GENERAL"]},
+          "title": {"type": "string", "description": "Short imperative (e.g. 'Fix article errors before they cap your GRA')."},
+          "detail": {"type": "string", "description": "Two sentences: what exactly to do in the app and how it moves the band."}
+        }
+      }
+    },
+    "encouragement": {"type": "string", "description": "One or two sentences to close, specific to this week — not generic."}
+  }
+}

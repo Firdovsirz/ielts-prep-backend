@@ -80,6 +80,70 @@
         "tags" : [ "Auth" ]
       }
     },
+    "/api/coach/reports" : {
+      "get" : {
+        "operationId" : "list",
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "type" : "array",
+                  "items" : {
+                    "$ref" : "#/components/schemas/CoachReportView"
+                  }
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "tags" : [ "Coach" ]
+      },
+      "post" : {
+        "operationId" : "generate_1",
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/CoachReportView"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "tags" : [ "Coach" ]
+      }
+    },
+    "/api/coach/reports/{id}" : {
+      "get" : {
+        "operationId" : "get_1",
+        "parameters" : [ {
+          "in" : "path",
+          "name" : "id",
+          "required" : true,
+          "schema" : {
+            "type" : "integer",
+            "format" : "int64"
+          }
+        } ],
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/CoachReportView"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "tags" : [ "Coach" ]
+      }
+    },
     "/api/dashboard" : {
       "get" : {
         "operationId" : "dashboard",
@@ -100,7 +164,7 @@
     },
     "/api/errors" : {
       "get" : {
-        "operationId" : "list",
+        "operationId" : "list_1",
         "parameters" : [ {
           "in" : "query",
           "name" : "subtype",
@@ -676,6 +740,88 @@
           }
         },
         "tags" : [ "Listening" ]
+      }
+    },
+    "/api/plan" : {
+      "get" : {
+        "operationId" : "plan",
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/PlanView"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "tags" : [ "Study plan" ]
+      }
+    },
+    "/api/plan/regenerate" : {
+      "post" : {
+        "operationId" : "regenerate",
+        "parameters" : [ {
+          "in" : "query",
+          "name" : "ai",
+          "required" : false,
+          "schema" : {
+            "type" : "boolean",
+            "default" : true
+          }
+        } ],
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/PlanView"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "tags" : [ "Study plan" ]
+      }
+    },
+    "/api/plan/tasks/{id}/toggle" : {
+      "post" : {
+        "operationId" : "toggle",
+        "parameters" : [ {
+          "in" : "path",
+          "name" : "id",
+          "required" : true,
+          "schema" : {
+            "type" : "integer",
+            "format" : "int64"
+          }
+        } ],
+        "requestBody" : {
+          "content" : {
+            "application/json" : {
+              "schema" : {
+                "$ref" : "#/components/schemas/PlanToggleRequest"
+              }
+            }
+          },
+          "required" : true
+        },
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/PlanTaskView"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "tags" : [ "Study plan" ]
       }
     },
     "/api/reading/passages" : {
@@ -1813,6 +1959,94 @@
           }
         },
         "required" : [ "name", "values" ]
+      },
+      "CoachPriority" : {
+        "type" : "object",
+        "default" : null,
+        "properties" : {
+          "detail" : {
+            "type" : "string"
+          },
+          "module" : {
+            "type" : "string"
+          },
+          "title" : {
+            "type" : "string"
+          }
+        },
+        "required" : [ "detail", "module", "title" ]
+      },
+      "CoachReportContent" : {
+        "type" : "object",
+        "default" : null,
+        "properties" : {
+          "band_outlook" : {
+            "type" : "string"
+          },
+          "concerns" : {
+            "type" : "array",
+            "items" : {
+              "type" : "string"
+            }
+          },
+          "encouragement" : {
+            "type" : "string"
+          },
+          "headline" : {
+            "type" : "string"
+          },
+          "priorities" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/components/schemas/CoachPriority"
+            }
+          },
+          "summary" : {
+            "type" : "string"
+          },
+          "wins" : {
+            "type" : "array",
+            "items" : {
+              "type" : "string"
+            }
+          }
+        },
+        "required" : [ "band_outlook", "concerns", "encouragement", "headline", "priorities", "summary", "wins" ]
+      },
+      "CoachReportView" : {
+        "type" : "object",
+        "default" : null,
+        "properties" : {
+          "content" : {
+            "$ref" : "#/components/schemas/CoachReportContent"
+          },
+          "createdAt" : {
+            "type" : "string",
+            "format" : "date-time"
+          },
+          "generatedBy" : {
+            "type" : "string"
+          },
+          "id" : {
+            "type" : "integer",
+            "format" : "int64"
+          },
+          "stats" : {
+            "$ref" : "#/components/schemas/WeeklyStats"
+          },
+          "trigger" : {
+            "type" : "string"
+          },
+          "weekEnd" : {
+            "type" : "string",
+            "format" : "date"
+          },
+          "weekStart" : {
+            "type" : "string",
+            "format" : "date"
+          }
+        },
+        "required" : [ "content", "createdAt", "generatedBy", "id", "stats", "trigger", "weekEnd", "weekStart" ]
       },
       "CommonMistake" : {
         "type" : "object",
@@ -3477,6 +3711,142 @@
         },
         "required" : [ "question", "sub_topic" ]
       },
+      "PlanDayView" : {
+        "type" : "object",
+        "default" : null,
+        "properties" : {
+          "date" : {
+            "type" : "string",
+            "format" : "date"
+          },
+          "minutesDone" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "minutesPlanned" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "tasks" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/components/schemas/PlanTaskView"
+            }
+          },
+          "testDay" : {
+            "type" : "boolean"
+          },
+          "today" : {
+            "type" : "boolean"
+          }
+        },
+        "required" : [ "date", "minutesDone", "minutesPlanned", "tasks", "testDay", "today" ]
+      },
+      "PlanTaskView" : {
+        "type" : "object",
+        "default" : null,
+        "properties" : {
+          "action" : {
+            "type" : "string"
+          },
+          "date" : {
+            "type" : "string",
+            "format" : "date"
+          },
+          "details" : {
+            "type" : [ "string", "null" ],
+            "default" : ""
+          },
+          "done" : {
+            "type" : "boolean"
+          },
+          "doneAt" : {
+            "type" : [ "string", "null" ],
+            "format" : "date-time",
+            "default" : ""
+          },
+          "id" : {
+            "type" : "integer",
+            "format" : "int64"
+          },
+          "minutes" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "module" : {
+            "type" : "string"
+          },
+          "priority" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "title" : {
+            "type" : "string"
+          },
+          "variant" : {
+            "type" : [ "string", "null" ],
+            "default" : ""
+          }
+        },
+        "required" : [ "action", "date", "details", "done", "doneAt", "id", "minutes", "module", "priority", "title", "variant" ]
+      },
+      "PlanToggleRequest" : {
+        "type" : "object",
+        "default" : null,
+        "properties" : {
+          "done" : {
+            "type" : "boolean"
+          }
+        }
+      },
+      "PlanView" : {
+        "type" : "object",
+        "default" : null,
+        "properties" : {
+          "aiAvailable" : {
+            "type" : "boolean"
+          },
+          "days" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/components/schemas/PlanDayView"
+            }
+          },
+          "daysToTest" : {
+            "type" : [ "integer", "null" ],
+            "format" : "int32",
+            "default" : ""
+          },
+          "focus" : {
+            "type" : [ "string", "null" ],
+            "default" : ""
+          },
+          "generatedAt" : {
+            "type" : [ "string", "null" ],
+            "format" : "date-time",
+            "default" : ""
+          },
+          "phase" : {
+            "type" : "string"
+          },
+          "phaseLabel" : {
+            "type" : "string"
+          },
+          "source" : {
+            "type" : "string"
+          },
+          "testDate" : {
+            "type" : [ "string", "null" ],
+            "format" : "date",
+            "default" : ""
+          },
+          "today" : {
+            "type" : "string",
+            "format" : "date"
+          }
+        },
+        "required" : [ "aiAvailable", "days", "daysToTest", "focus", "generatedAt", "phase", "phaseLabel", "source", "testDate", "today" ]
+      },
       "ProcessStep" : {
         "type" : "object",
         "properties" : {
@@ -4775,6 +5145,243 @@
           }
         },
         "required" : [ "better", "example", "original" ]
+      },
+      "WeeklyAreaStat" : {
+        "type" : "object",
+        "default" : null,
+        "properties" : {
+          "name" : {
+            "type" : "string"
+          },
+          "openErrors" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "proficiency" : {
+            "type" : [ "number", "null" ],
+            "format" : "double",
+            "default" : ""
+          }
+        },
+        "required" : [ "name", "openErrors", "proficiency" ]
+      },
+      "WeeklyErrorTrend" : {
+        "type" : "object",
+        "default" : null,
+        "properties" : {
+          "recent" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "resolved" : {
+            "type" : "boolean"
+          },
+          "subtype" : {
+            "type" : "string"
+          },
+          "total" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "trend" : {
+            "type" : "string"
+          },
+          "type" : {
+            "type" : "string"
+          }
+        },
+        "required" : [ "recent", "resolved", "subtype", "total", "trend", "type" ]
+      },
+      "WeeklyModuleStats" : {
+        "type" : "object",
+        "default" : null,
+        "properties" : {
+          "averageBand" : {
+            "type" : [ "number", "null" ],
+            "format" : "double",
+            "default" : ""
+          },
+          "bestBand" : {
+            "type" : [ "number", "null" ],
+            "format" : "double",
+            "default" : ""
+          },
+          "minutes" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "sessions" : {
+            "type" : "integer",
+            "format" : "int32"
+          }
+        },
+        "required" : [ "averageBand", "bestBand", "minutes", "sessions" ]
+      },
+      "WeeklyPlan" : {
+        "type" : "object",
+        "default" : null,
+        "properties" : {
+          "completion" : {
+            "type" : "number",
+            "format" : "double"
+          },
+          "done" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "tasks" : {
+            "type" : "integer",
+            "format" : "int32"
+          }
+        },
+        "required" : [ "completion", "done", "tasks" ]
+      },
+      "WeeklyStats" : {
+        "type" : "object",
+        "default" : null,
+        "properties" : {
+          "activeDays" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "apiSpendWeek" : {
+            "type" : "number",
+            "format" : "double"
+          },
+          "currentBands" : {
+            "$ref" : "#/components/schemas/ModuleBands"
+          },
+          "daysToTest" : {
+            "type" : [ "integer", "null" ],
+            "format" : "int32",
+            "default" : ""
+          },
+          "errorPatterns" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/components/schemas/WeeklyErrorTrend"
+            }
+          },
+          "errorsLogged" : {
+            "type" : "integer",
+            "format" : "int64"
+          },
+          "errorsResolved" : {
+            "type" : "integer",
+            "format" : "int64"
+          },
+          "minutes" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "modules" : {
+            "type" : "object",
+            "additionalProperties" : {
+              "$ref" : "#/components/schemas/WeeklyModuleStats"
+            }
+          },
+          "plan" : {
+            "$ref" : "#/components/schemas/WeeklyPlan"
+          },
+          "sessions" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "speakingCriteria" : {
+            "type" : "object",
+            "additionalProperties" : {
+              "type" : "number",
+              "format" : "double"
+            }
+          },
+          "streakDays" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "targetBand" : {
+            "type" : "number",
+            "format" : "double"
+          },
+          "vocab" : {
+            "$ref" : "#/components/schemas/WeeklyVocab"
+          },
+          "weakQuestionTypes" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/components/schemas/WeeklyWeakType"
+            }
+          },
+          "weakestGrammarAreas" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/components/schemas/WeeklyAreaStat"
+            }
+          },
+          "weekEnd" : {
+            "type" : "string",
+            "format" : "date"
+          },
+          "weekStart" : {
+            "type" : "string",
+            "format" : "date"
+          },
+          "writingCriteria" : {
+            "type" : "object",
+            "additionalProperties" : {
+              "type" : "number",
+              "format" : "double"
+            }
+          }
+        },
+        "required" : [ "activeDays", "apiSpendWeek", "currentBands", "daysToTest", "errorPatterns", "errorsLogged", "errorsResolved", "minutes", "modules", "plan", "sessions", "speakingCriteria", "streakDays", "targetBand", "vocab", "weakQuestionTypes", "weakestGrammarAreas", "weekEnd", "weekStart", "writingCriteria" ]
+      },
+      "WeeklyVocab" : {
+        "type" : "object",
+        "default" : null,
+        "properties" : {
+          "added" : {
+            "type" : "integer",
+            "format" : "int64"
+          },
+          "due" : {
+            "type" : "integer",
+            "format" : "int64"
+          },
+          "learned" : {
+            "type" : "integer",
+            "format" : "int64"
+          },
+          "reviews" : {
+            "type" : "integer",
+            "format" : "int64"
+          },
+          "total" : {
+            "type" : "integer",
+            "format" : "int64"
+          }
+        },
+        "required" : [ "added", "due", "learned", "reviews", "total" ]
+      },
+      "WeeklyWeakType" : {
+        "type" : "object",
+        "default" : null,
+        "properties" : {
+          "accuracy" : {
+            "type" : "number",
+            "format" : "double"
+          },
+          "module" : {
+            "type" : "string"
+          },
+          "questionType" : {
+            "type" : "string"
+          },
+          "total" : {
+            "type" : "integer",
+            "format" : "int32"
+          }
+        },
+        "required" : [ "accuracy", "module", "questionType", "total" ]
       },
       "WordBankEntry" : {
         "type" : "object",

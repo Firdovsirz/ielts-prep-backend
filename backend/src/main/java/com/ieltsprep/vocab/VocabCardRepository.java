@@ -24,4 +24,6 @@ public interface VocabCardRepository extends JpaRepository<VocabCard, Long> {
     long countBySuspendedFalseAndRepetitions(int repetitions);
 
     long countBySuspendedFalseAndAwlSublistIsNotNull();
+
+    long countByCreatedAtBetween(Instant from, Instant to);
 }
