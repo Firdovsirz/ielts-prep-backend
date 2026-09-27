@@ -16,6 +16,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class SpendGuard {
 
+    @io.swagger.v3.oas.annotations.media.Schema(name = "SpendStatus")
     public record Status(
             BigDecimal spentToday,
             BigDecimal dailyCap,

@@ -1,0 +1,8 @@
+{
+  "description": "News/feature feeds used ONLY as topic ideas for passages and scripts: --task=fetch-sources stores headline + link, never article text.",
+  "feeds": [
+    {"id": "conversation-science", "url": "https://theconversation.com/global/technology/articles.atom"},
+    {"id": "bbc-science", "url": "https://feeds.bbci.co.uk/news/science_and_environment/rss.xml"},
+    {"id": "who-news", "url": "https://www.who.int/rss-feeds/news-english.xml"}
+  ]
+}

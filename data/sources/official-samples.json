@@ -1,0 +1,22 @@
+{
+  "description": "Official free IELTS materials used by --task=fetch-templates as FORMAT references only. The task extracts structure (question types, rubric phrasing, timings, conventions, band descriptors) and never stores test content. Band descriptor text is kept locally in data/descriptors/official/ (gitignored).",
+  "documents": [
+    {"id": "format-listening", "kind": "FORMAT_PAGE", "module": "LISTENING", "url": "https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-listening"},
+    {"id": "format-reading", "kind": "FORMAT_PAGE", "module": "READING", "url": "https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-reading"},
+    {"id": "format-writing", "kind": "FORMAT_PAGE", "module": "WRITING", "url": "https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-writing"},
+    {"id": "format-speaking", "kind": "FORMAT_PAGE", "module": "SPEAKING", "url": "https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-speaking"},
+    {"id": "writing-band-descriptors", "kind": "BAND_DESCRIPTORS", "module": "WRITING", "url": "https://ielts.org/cdn/ielts-guides/ielts-writing-band-descriptors.pdf"},
+    {"id": "speaking-band-descriptors", "kind": "BAND_DESCRIPTORS", "module": "SPEAKING", "url": "https://ielts.org/cdn/ielts-guides/ielts-speaking-band-descriptors.pdf"},
+    {"id": "speaking-sample-tasks", "kind": "SAMPLE_TASK", "module": "SPEAKING", "url": "https://ielts.org/cdn/ielts-downloadable-assets/ielts-sample-tests/ielts-speaking-sample-tasks-2023.pdf"},
+    {"id": "reading-tfng", "kind": "SAMPLE_TASK", "module": "READING", "url": "https://ielts.org/cdn/computer-delivered-sample-tests-academic-reading/ielts-academic-reading-computer-delivered-identifying-information-true-flase-not-given-answer-key.pdf"},
+    {"id": "reading-matching-features", "kind": "SAMPLE_TASK", "module": "READING", "url": "https://ielts.org/cdn/computer-delivered-sample-tests-academic-reading/ielts-academic-reading-computer-delivered-matching-features-answer-key.pdf"},
+    {"id": "reading-sentence-endings", "kind": "SAMPLE_TASK", "module": "READING", "url": "https://ielts.org/cdn/computer-delivered-sample-tests-academic-reading/ielts-academic-reading-computer-delivered-matching-sentence-endings-answer-key.pdf"},
+    {"id": "reading-mc-multi", "kind": "SAMPLE_TASK", "module": "READING", "url": "https://ielts.org/cdn/computer-delivered-sample-tests-academic-reading/ielts-academic-reading-computer-delivered-multiple-choice-more-than-one-answer-answer-key.pdf"},
+    {"id": "reading-summary-list", "kind": "SAMPLE_TASK", "module": "READING", "url": "https://ielts.org/cdn/computer-delivered-sample-tests-academic-reading/ielts-academic-reading-computer-delivered-summary-completion-selecting-from-list-of-words-or-phrases-answer-key.pdf"},
+    {"id": "reading-table", "kind": "SAMPLE_TASK", "module": "READING", "url": "https://ielts.org/cdn/computer-delivered-sample-tests-academic-reading/ielts-academic-reading-computer-delivered-table-completion-answer-key.pdf"},
+    {"id": "listening-map", "kind": "SAMPLE_TASK", "module": "LISTENING", "url": "https://ielts.org/cdn/computer-delivered-sample-tests-listening/ielts-listening-computer-delivered-plan-map-diagram-labelling-answer-key.pdf"},
+    {"id": "listening-flow-chart", "kind": "SAMPLE_TASK", "module": "LISTENING", "url": "https://ielts.org/cdn/computer-delivered-sample-tests-listening/ielts-listening-computer-delivered-flow-chart-completion-answer-key.pdf"},
+    {"id": "listening-note", "kind": "SAMPLE_TASK", "module": "LISTENING", "url": "https://ielts.org/cdn/computer-delivered-sample-tests-listening/ielts-listening-computer-delivered-note-completion-answer-key.pdf"},
+    {"id": "writing-examples", "kind": "SAMPLE_TASK", "module": "WRITING", "url": "https://ielts.org/cdn/computer-delivered-sample-tests-academic-writing/ielts-academic-writing-example-responses-to-parts-1-and-2-with-band-scores-and-examiner-comments.pdf"}
+  ]
+}

@@ -1,0 +1,1045 @@
+{
+  "openapi" : "3.1.0",
+  "info" : {
+    "description" : "Practice generation, grading, progress tracking and study planning.",
+    "title" : "IELTS Prep API",
+    "version" : "1.0.0"
+  },
+  "servers" : [ {
+    "url" : "http://localhost",
+    "description" : "Generated server url"
+  } ],
+  "security" : [ {
+    "bearer" : [ ]
+  } ],
+  "paths" : {
+    "/api/auth/login" : {
+      "post" : {
+        "operationId" : "login",
+        "requestBody" : {
+          "content" : {
+            "application/json" : {
+              "schema" : {
+                "$ref" : "#/components/schemas/LoginRequest"
+              }
+            }
+          },
+          "required" : true
+        },
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/TokenResponse"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "tags" : [ "Auth" ]
+      }
+    },
+    "/api/auth/me" : {
+      "get" : {
+        "operationId" : "me",
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/Me"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "tags" : [ "Auth" ]
+      }
+    },
+    "/api/auth/password" : {
+      "post" : {
+        "operationId" : "changePassword",
+        "requestBody" : {
+          "content" : {
+            "application/json" : {
+              "schema" : {
+                "$ref" : "#/components/schemas/ChangePasswordRequest"
+              }
+            }
+          },
+          "required" : true
+        },
+        "responses" : {
+          "200" : {
+            "description" : "OK"
+          }
+        },
+        "tags" : [ "Auth" ]
+      }
+    },
+    "/api/reading/passages" : {
+      "get" : {
+        "operationId" : "passages",
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "type" : "array",
+                  "items" : {
+                    "$ref" : "#/components/schemas/ReadingPassageSummary"
+                  }
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "tags" : [ "Reading" ]
+      }
+    },
+    "/api/reading/sessions" : {
+      "post" : {
+        "operationId" : "start",
+        "requestBody" : {
+          "content" : {
+            "application/json" : {
+              "schema" : {
+                "$ref" : "#/components/schemas/ReadingStartRequest"
+              }
+            }
+          },
+          "required" : true
+        },
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/ReadingSessionView"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "tags" : [ "Reading" ]
+      }
+    },
+    "/api/reading/sessions/{id}" : {
+      "get" : {
+        "operationId" : "session",
+        "parameters" : [ {
+          "in" : "path",
+          "name" : "id",
+          "required" : true,
+          "schema" : {
+            "type" : "integer",
+            "format" : "int64"
+          }
+        } ],
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/ReadingSessionView"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "tags" : [ "Reading" ]
+      }
+    },
+    "/api/reading/sessions/{id}/result" : {
+      "get" : {
+        "operationId" : "result",
+        "parameters" : [ {
+          "in" : "path",
+          "name" : "id",
+          "required" : true,
+          "schema" : {
+            "type" : "integer",
+            "format" : "int64"
+          }
+        } ],
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/ReadingResultView"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "tags" : [ "Reading" ]
+      }
+    },
+    "/api/reading/sessions/{id}/submit" : {
+      "post" : {
+        "operationId" : "submit",
+        "parameters" : [ {
+          "in" : "path",
+          "name" : "id",
+          "required" : true,
+          "schema" : {
+            "type" : "integer",
+            "format" : "int64"
+          }
+        } ],
+        "requestBody" : {
+          "content" : {
+            "application/json" : {
+              "schema" : {
+                "$ref" : "#/components/schemas/ReadingSubmitRequest"
+              }
+            }
+          },
+          "required" : true
+        },
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/ReadingResultView"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "tags" : [ "Reading" ]
+      }
+    },
+    "/api/system/health" : {
+      "get" : {
+        "operationId" : "health",
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/Health"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "tags" : [ "System" ]
+      }
+    },
+    "/api/system/spend" : {
+      "get" : {
+        "operationId" : "spend",
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/SpendStatus"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "tags" : [ "System" ]
+      }
+    },
+    "/api/system/status" : {
+      "get" : {
+        "operationId" : "status",
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/SystemStatus"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "tags" : [ "System" ]
+      }
+    }
+  },
+  "components" : {
+    "schemas" : {
+      "ChangePasswordRequest" : {
+        "type" : "object",
+        "properties" : {
+          "currentPassword" : {
+            "type" : "string",
+            "minLength" : 1
+          },
+          "newPassword" : {
+            "type" : "string",
+            "minLength" : 1
+          }
+        },
+        "required" : [ "currentPassword", "newPassword" ]
+      },
+      "DiagramEdge" : {
+        "type" : "object",
+        "properties" : {
+          "from" : {
+            "type" : "string"
+          },
+          "label" : {
+            "type" : "string"
+          },
+          "to" : {
+            "type" : "string"
+          }
+        },
+        "required" : [ "from", "label", "to" ]
+      },
+      "DiagramNode" : {
+        "type" : "object",
+        "properties" : {
+          "id" : {
+            "type" : "string"
+          },
+          "label" : {
+            "type" : "string"
+          },
+          "x" : {
+            "type" : "number",
+            "format" : "double"
+          },
+          "y" : {
+            "type" : "number",
+            "format" : "double"
+          }
+        },
+        "required" : [ "id", "label", "x", "y" ]
+      },
+      "DiagramSpec" : {
+        "type" : "object",
+        "properties" : {
+          "edges" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/components/schemas/DiagramEdge"
+            }
+          },
+          "nodes" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/components/schemas/DiagramNode"
+            }
+          },
+          "title" : {
+            "type" : "string"
+          }
+        },
+        "required" : [ "edges", "nodes", "title" ]
+      },
+      "FlaggedWordRequest" : {
+        "type" : "object",
+        "default" : null,
+        "properties" : {
+          "itemId" : {
+            "type" : "integer",
+            "format" : "int64"
+          },
+          "sentence" : {
+            "type" : "string"
+          },
+          "word" : {
+            "type" : "string"
+          }
+        }
+      },
+      "Health" : {
+        "type" : "object",
+        "properties" : {
+          "status" : {
+            "type" : "string"
+          }
+        },
+        "required" : [ "status" ]
+      },
+      "InventoryRow" : {
+        "type" : "object",
+        "properties" : {
+          "count" : {
+            "type" : "integer",
+            "format" : "int64"
+          },
+          "module" : {
+            "type" : "string"
+          },
+          "status" : {
+            "type" : "string"
+          },
+          "taskType" : {
+            "type" : "string"
+          }
+        },
+        "required" : [ "count", "module", "status", "taskType" ]
+      },
+      "LoginRequest" : {
+        "type" : "object",
+        "properties" : {
+          "email" : {
+            "type" : "string",
+            "minLength" : 1
+          },
+          "password" : {
+            "type" : "string",
+            "minLength" : 1
+          }
+        },
+        "required" : [ "email", "password" ]
+      },
+      "MapFeature" : {
+        "type" : "object",
+        "properties" : {
+          "h" : {
+            "type" : "number",
+            "format" : "double"
+          },
+          "kind" : {
+            "type" : "string"
+          },
+          "label" : {
+            "type" : "string"
+          },
+          "w" : {
+            "type" : "number",
+            "format" : "double"
+          },
+          "x" : {
+            "type" : "number",
+            "format" : "double"
+          },
+          "y" : {
+            "type" : "number",
+            "format" : "double"
+          }
+        },
+        "required" : [ "h", "kind", "label", "w", "x", "y" ]
+      },
+      "MapMarker" : {
+        "type" : "object",
+        "properties" : {
+          "key" : {
+            "type" : "string"
+          },
+          "x" : {
+            "type" : "number",
+            "format" : "double"
+          },
+          "y" : {
+            "type" : "number",
+            "format" : "double"
+          }
+        },
+        "required" : [ "key", "x", "y" ]
+      },
+      "MapSpec" : {
+        "type" : "object",
+        "properties" : {
+          "features" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/components/schemas/MapFeature"
+            }
+          },
+          "markers" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/components/schemas/MapMarker"
+            }
+          },
+          "title" : {
+            "type" : "string"
+          }
+        },
+        "required" : [ "features", "markers", "title" ]
+      },
+      "Me" : {
+        "type" : "object",
+        "properties" : {
+          "email" : {
+            "type" : "string"
+          },
+          "role" : {
+            "type" : "string"
+          }
+        },
+        "required" : [ "email", "role" ]
+      },
+      "Paragraph" : {
+        "type" : "object",
+        "properties" : {
+          "label" : {
+            "type" : "string"
+          },
+          "text" : {
+            "type" : "string"
+          }
+        },
+        "required" : [ "label", "text" ]
+      },
+      "Question" : {
+        "type" : "object",
+        "properties" : {
+          "answers" : {
+            "type" : "array",
+            "items" : {
+              "type" : "string"
+            }
+          },
+          "justification_span" : {
+            "type" : "string"
+          },
+          "location" : {
+            "type" : "string"
+          },
+          "number" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "options" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/components/schemas/QuestionOption"
+            }
+          },
+          "prompt" : {
+            "type" : "string"
+          }
+        },
+        "required" : [ "answers", "justification_span", "location", "number", "options", "prompt" ]
+      },
+      "QuestionGroup" : {
+        "type" : "object",
+        "properties" : {
+          "choice" : {
+            "type" : "boolean"
+          },
+          "context" : {
+            "type" : "string"
+          },
+          "diagram" : {
+            "$ref" : "#/components/schemas/DiagramSpec"
+          },
+          "flow_steps" : {
+            "type" : "array",
+            "items" : {
+              "type" : "string"
+            }
+          },
+          "group_id" : {
+            "type" : "string"
+          },
+          "instructions" : {
+            "type" : "string"
+          },
+          "map" : {
+            "$ref" : "#/components/schemas/MapSpec"
+          },
+          "number_allowed" : {
+            "type" : "boolean"
+          },
+          "options" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/components/schemas/QuestionOption"
+            }
+          },
+          "question_type" : {
+            "type" : "string",
+            "enum" : [ "MULTIPLE_CHOICE", "MULTIPLE_CHOICE_MULTI", "TRUE_FALSE_NOT_GIVEN", "YES_NO_NOT_GIVEN", "MATCHING_INFORMATION", "MATCHING_HEADINGS", "MATCHING_FEATURES", "MATCHING_SENTENCE_ENDINGS", "SENTENCE_COMPLETION", "SUMMARY_COMPLETION", "NOTE_COMPLETION", "TABLE_COMPLETION", "FLOW_CHART_COMPLETION", "DIAGRAM_LABEL_COMPLETION", "SHORT_ANSWER", "FORM_COMPLETION", "MAP_LABELLING", "MATCHING" ]
+          },
+          "questions" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/components/schemas/Question"
+            }
+          },
+          "table" : {
+            "$ref" : "#/components/schemas/TableSpec"
+          },
+          "word_limit" : {
+            "type" : "integer",
+            "format" : "int32"
+          }
+        },
+        "required" : [ "choice", "context", "diagram", "flow_steps", "group_id", "instructions", "map", "number_allowed", "options", "question_type", "questions", "table", "word_limit" ]
+      },
+      "QuestionOption" : {
+        "type" : "object",
+        "properties" : {
+          "key" : {
+            "type" : "string"
+          },
+          "text" : {
+            "type" : "string"
+          }
+        },
+        "required" : [ "key", "text" ]
+      },
+      "QuestionResult" : {
+        "type" : "object",
+        "properties" : {
+          "blank" : {
+            "type" : "boolean"
+          },
+          "correct" : {
+            "type" : "boolean"
+          },
+          "expected" : {
+            "type" : "array",
+            "items" : {
+              "type" : "string"
+            }
+          },
+          "given" : {
+            "type" : "string"
+          },
+          "group_id" : {
+            "type" : "string"
+          },
+          "justification" : {
+            "type" : "string"
+          },
+          "location" : {
+            "type" : "string"
+          },
+          "note" : {
+            "type" : [ "string", "null" ],
+            "default" : ""
+          },
+          "number" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "question_type" : {
+            "type" : "string",
+            "enum" : [ "MULTIPLE_CHOICE", "MULTIPLE_CHOICE_MULTI", "TRUE_FALSE_NOT_GIVEN", "YES_NO_NOT_GIVEN", "MATCHING_INFORMATION", "MATCHING_HEADINGS", "MATCHING_FEATURES", "MATCHING_SENTENCE_ENDINGS", "SENTENCE_COMPLETION", "SUMMARY_COMPLETION", "NOTE_COMPLETION", "TABLE_COMPLETION", "FLOW_CHART_COMPLETION", "DIAGRAM_LABEL_COMPLETION", "SHORT_ANSWER", "FORM_COMPLETION", "MAP_LABELLING", "MATCHING" ]
+          }
+        },
+        "required" : [ "blank", "correct", "expected", "given", "group_id", "justification", "location", "note", "number", "question_type" ]
+      },
+      "ReadingPassage" : {
+        "type" : "object",
+        "properties" : {
+          "cefr" : {
+            "type" : "string"
+          },
+          "difficulty" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "paragraphs" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/components/schemas/Paragraph"
+            }
+          },
+          "question_groups" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/components/schemas/QuestionGroup"
+            }
+          },
+          "title" : {
+            "type" : "string"
+          },
+          "topic" : {
+            "type" : "string"
+          }
+        },
+        "required" : [ "cefr", "difficulty", "paragraphs", "question_groups", "title", "topic" ]
+      },
+      "ReadingPassageResult" : {
+        "type" : "object",
+        "default" : null,
+        "properties" : {
+          "attemptId" : {
+            "type" : "integer",
+            "format" : "int64"
+          },
+          "itemId" : {
+            "type" : "integer",
+            "format" : "int64"
+          },
+          "max" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "numberOffset" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "questions" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/components/schemas/QuestionResult"
+            }
+          },
+          "raw" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "secondsSpent" : {
+            "type" : [ "integer", "null" ],
+            "format" : "int32",
+            "default" : ""
+          },
+          "title" : {
+            "type" : "string"
+          }
+        },
+        "required" : [ "attemptId", "itemId", "max", "numberOffset", "questions", "raw", "secondsSpent", "title" ]
+      },
+      "ReadingPassageSummary" : {
+        "type" : "object",
+        "default" : null,
+        "properties" : {
+          "cefr" : {
+            "type" : [ "string", "null" ],
+            "default" : ""
+          },
+          "difficulty" : {
+            "type" : [ "integer", "null" ],
+            "format" : "int32",
+            "default" : ""
+          },
+          "id" : {
+            "type" : "integer",
+            "format" : "int64"
+          },
+          "origin" : {
+            "type" : "string"
+          },
+          "questionTypes" : {
+            "type" : [ "string", "null" ],
+            "default" : ""
+          },
+          "sourceUrl" : {
+            "type" : [ "string", "null" ],
+            "default" : ""
+          },
+          "timesServed" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "title" : {
+            "type" : "string"
+          },
+          "topic" : {
+            "type" : [ "string", "null" ],
+            "default" : ""
+          }
+        },
+        "required" : [ "cefr", "difficulty", "id", "origin", "questionTypes", "sourceUrl", "timesServed", "title", "topic" ]
+      },
+      "ReadingPassageView" : {
+        "type" : "object",
+        "default" : null,
+        "properties" : {
+          "itemId" : {
+            "type" : "integer",
+            "format" : "int64"
+          },
+          "licence" : {
+            "type" : [ "string", "null" ],
+            "default" : ""
+          },
+          "numberOffset" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "passage" : {
+            "$ref" : "#/components/schemas/ReadingPassage"
+          },
+          "questionCount" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "sourceUrl" : {
+            "type" : [ "string", "null" ],
+            "default" : ""
+          }
+        },
+        "required" : [ "itemId", "licence", "numberOffset", "passage", "questionCount", "sourceUrl" ]
+      },
+      "ReadingResultView" : {
+        "type" : "object",
+        "default" : null,
+        "properties" : {
+          "band" : {
+            "type" : "number",
+            "format" : "double"
+          },
+          "bandIsEstimate" : {
+            "type" : "boolean"
+          },
+          "blanks" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "kind" : {
+            "type" : "string",
+            "enum" : [ "READING_TEST", "READING_PASSAGE", "LISTENING_TEST", "LISTENING_SECTION", "WRITING_TASK1", "WRITING_TASK2", "WRITING_TEST", "SPEAKING_TEST", "SPEAKING_PART", "GRAMMAR_DIAGNOSTIC", "GRAMMAR_EXERCISE", "GRAMMAR_ERROR_DRILL", "VOCAB_REVIEW" ]
+          },
+          "maxScore" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "mode" : {
+            "type" : "string",
+            "enum" : [ "PRACTICE", "EXAM" ]
+          },
+          "passageTexts" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/components/schemas/ReadingPassageView"
+            }
+          },
+          "passages" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/components/schemas/ReadingPassageResult"
+            }
+          },
+          "rawScore" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "sessionId" : {
+            "type" : "integer",
+            "format" : "int64"
+          },
+          "submittedAt" : {
+            "type" : "string",
+            "format" : "date-time"
+          },
+          "timeLimitSeconds" : {
+            "type" : [ "integer", "null" ],
+            "format" : "int32",
+            "default" : ""
+          },
+          "timeUsedSeconds" : {
+            "type" : [ "integer", "null" ],
+            "format" : "int32",
+            "default" : ""
+          }
+        },
+        "required" : [ "band", "bandIsEstimate", "blanks", "kind", "maxScore", "mode", "passageTexts", "passages", "rawScore", "sessionId", "submittedAt", "timeLimitSeconds", "timeUsedSeconds" ]
+      },
+      "ReadingSessionView" : {
+        "type" : "object",
+        "default" : null,
+        "properties" : {
+          "kind" : {
+            "type" : "string",
+            "enum" : [ "READING_TEST", "READING_PASSAGE", "LISTENING_TEST", "LISTENING_SECTION", "WRITING_TASK1", "WRITING_TASK2", "WRITING_TEST", "SPEAKING_TEST", "SPEAKING_PART", "GRAMMAR_DIAGNOSTIC", "GRAMMAR_EXERCISE", "GRAMMAR_ERROR_DRILL", "VOCAB_REVIEW" ]
+          },
+          "mode" : {
+            "type" : "string",
+            "enum" : [ "PRACTICE", "EXAM" ]
+          },
+          "passages" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/components/schemas/ReadingPassageView"
+            }
+          },
+          "sessionId" : {
+            "type" : "integer",
+            "format" : "int64"
+          },
+          "startedAt" : {
+            "type" : "string",
+            "format" : "date-time"
+          },
+          "status" : {
+            "type" : "string"
+          },
+          "timeLimitSeconds" : {
+            "type" : [ "integer", "null" ],
+            "format" : "int32",
+            "default" : ""
+          }
+        },
+        "required" : [ "kind", "mode", "passages", "sessionId", "startedAt", "status", "timeLimitSeconds" ]
+      },
+      "ReadingStartRequest" : {
+        "type" : "object",
+        "default" : null,
+        "properties" : {
+          "difficulty" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "itemId" : {
+            "type" : "integer",
+            "format" : "int64"
+          },
+          "mode" : {
+            "type" : "string",
+            "enum" : [ "PRACTICE", "EXAM" ]
+          },
+          "scope" : {
+            "type" : "string",
+            "enum" : [ "TEST", "PASSAGE" ],
+            "default" : null
+          }
+        },
+        "required" : [ "mode", "scope" ]
+      },
+      "ReadingSubmitRequest" : {
+        "type" : "object",
+        "default" : null,
+        "properties" : {
+          "answers" : {
+            "type" : "object",
+            "additionalProperties" : {
+              "type" : "string"
+            }
+          },
+          "flaggedWords" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/components/schemas/FlaggedWordRequest"
+            }
+          },
+          "secondsPerPassage" : {
+            "type" : "object",
+            "additionalProperties" : {
+              "type" : "integer",
+              "format" : "int32"
+            }
+          },
+          "timeUsedSeconds" : {
+            "type" : "integer",
+            "format" : "int32"
+          }
+        }
+      },
+      "SpendStatus" : {
+        "type" : "object",
+        "default" : null,
+        "properties" : {
+          "apiKeyConfigured" : {
+            "type" : "boolean"
+          },
+          "backgroundLimit" : {
+            "type" : "number"
+          },
+          "backgroundPaused" : {
+            "type" : "boolean"
+          },
+          "callsToday" : {
+            "type" : "integer",
+            "format" : "int64"
+          },
+          "capReached" : {
+            "type" : "boolean"
+          },
+          "dailyCap" : {
+            "type" : "number"
+          },
+          "spentLast7Days" : {
+            "type" : "number"
+          },
+          "spentToday" : {
+            "type" : "number"
+          }
+        },
+        "required" : [ "apiKeyConfigured", "backgroundLimit", "backgroundPaused", "callsToday", "capReached", "dailyCap", "spentLast7Days", "spentToday" ]
+      },
+      "SystemStatus" : {
+        "type" : "object",
+        "properties" : {
+          "apiKeyConfigured" : {
+            "type" : "boolean"
+          },
+          "inventory" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/components/schemas/InventoryRow"
+            }
+          },
+          "models" : {
+            "type" : "object",
+            "additionalProperties" : {
+              "type" : "string"
+            }
+          },
+          "spend" : {
+            "$ref" : "#/components/schemas/SpendStatus"
+          }
+        },
+        "required" : [ "apiKeyConfigured", "inventory", "models", "spend" ]
+      },
+      "TableSpec" : {
+        "type" : "object",
+        "properties" : {
+          "columns" : {
+            "type" : "array",
+            "items" : {
+              "type" : "string"
+            }
+          },
+          "rows" : {
+            "type" : "array",
+            "items" : {
+              "type" : "array",
+              "items" : {
+                "type" : "string"
+              }
+            }
+          },
+          "title" : {
+            "type" : "string"
+          }
+        },
+        "required" : [ "columns", "rows", "title" ]
+      },
+      "TokenResponse" : {
+        "type" : "object",
+        "properties" : {
+          "email" : {
+            "type" : "string"
+          },
+          "expiresAt" : {
+            "type" : "string",
+            "format" : "date-time"
+          },
+          "role" : {
+            "type" : "string"
+          },
+          "token" : {
+            "type" : "string"
+          }
+        },
+        "required" : [ "email", "expiresAt", "role", "token" ]
+      }
+    },
+    "securitySchemes" : {
+      "bearer" : {
+        "bearerFormat" : "JWT",
+        "scheme" : "bearer",
+        "type" : "http"
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "templates-extract",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["document_kind", "module", "timings", "question_types", "conventions", "band_descriptor_summary", "notes"],
+  "properties": {
+    "document_kind": {"type": "string", "enum": ["FORMAT_PAGE", "SAMPLE_TASK", "BAND_DESCRIPTORS", "SCORING", "OTHER"]},
+    "module": {"type": "string", "enum": ["LISTENING", "READING", "WRITING", "SPEAKING", "GENERAL"]},
+    "timings": {"type": "array", "items": {"type": "object", "additionalProperties": false, "required": ["part", "detail"], "properties": {"part": {"type": "string"}, "detail": {"type": "string"}}}},
+    "question_types": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["name", "rubric_wording", "answer_format", "notes"],
+        "properties": {
+          "name": {"type": "string"},
+          "rubric_wording": {"type": "string", "description": "Only the generic instruction phrasing (e.g. 'Choose NO MORE THAN TWO WORDS from the passage for each answer.'). Never the questions, passage, script or answers."},
+          "answer_format": {"type": "string"},
+          "notes": {"type": "string"}
+        }
+      }
+    },
+    "conventions": {"type": "array", "items": {"type": "string"}},
+    "band_descriptor_summary": {
+      "type": "array",
+      "items": {"type": "object", "additionalProperties": false, "required": ["criterion", "band", "summary"], "properties": {"criterion": {"type": "string"}, "band": {"type": "string"}, "summary": {"type": "string", "description": "Paraphrased summary of the band's distinguishing features."}}}
+    },
+    "notes": {"type": "string"}
+  }
+}

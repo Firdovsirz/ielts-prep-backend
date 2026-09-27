@@ -51,6 +51,10 @@ public class GenerationService {
     }
 
     public Outcome generate(GenerationRequest request) {
+        return generate(request, MAX_ATTEMPTS);
+    }
+
+    public Outcome generate(GenerationRequest request, int maxAttempts) {
         Blueprint blueprint = registry.get(request.type());
         TaskType type = request.type();
         GenerationPlan plan = blueprint.plan(request);
@@ -58,7 +62,7 @@ public class GenerationService {
         String feedback = request.feedback();
         Object lastContent = null;
 
-        for (int attempt = 1; attempt <= MAX_ATTEMPTS; attempt++) {
+        for (int attempt = 1; attempt <= maxAttempts; attempt++) {
             Map<String, Object> vars = new HashMap<>(plan.vars());
             vars.put("feedback", feedbackBlock(feedback));
             ClaudeCall<?> genCall = ClaudeCall.of(plan.prompt(), vars, type.contentType()).ref("generate " + type + " #" + attempt);
@@ -94,8 +98,8 @@ public class GenerationService {
         }
 
         Item failed = lastContent == null ? null
-                : save(type, lastContent, plan, VerificationStatus.FAILED, String.join("\n", history), MAX_ATTEMPTS);
-        return new Outcome(failed, false, MAX_ATTEMPTS, history);
+                : save(type, lastContent, plan, VerificationStatus.FAILED, String.join("\n", history), maxAttempts);
+        return new Outcome(failed, false, maxAttempts, history);
     }
 
     private Item save(TaskType type, Object content, GenerationPlan plan, VerificationStatus status, String notes, int attempts) {

@@ -209,6 +209,7 @@ public class ClaudeService {
                 .collect(Collectors.joining());
     }
 
+    /** SDK client for the batch gateway (same package). */
     AnthropicClient client() {
         AnthropicClient c = client;
         if (c == null) {

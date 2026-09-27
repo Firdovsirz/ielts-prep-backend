@@ -23,7 +23,7 @@ public final class QuestionMarker {
             boolean blank,
             String justification,
             String location,
-            String note) {}
+            @io.swagger.v3.oas.annotations.media.Schema(nullable = true) String note) {}
 
     private QuestionMarker() {}
 
