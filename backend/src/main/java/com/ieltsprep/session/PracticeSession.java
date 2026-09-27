@@ -49,6 +49,9 @@ public class PracticeSession {
     @Enumerated(EnumType.STRING)
     private SessionStatus status;
 
+    /** Small JSON document of session options (e.g. {"conversational": true}). */
+    private String options;
+
     public List<Long> itemIdList() {
         if (itemIds == null || itemIds.isBlank()) {
             return List.of();

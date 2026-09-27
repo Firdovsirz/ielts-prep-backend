@@ -391,7 +391,7 @@
     },
     "/api/grammar/sessions/{id}" : {
       "get" : {
-        "operationId" : "session_3",
+        "operationId" : "session_4",
         "parameters" : [ {
           "in" : "path",
           "name" : "id",
@@ -418,7 +418,7 @@
     },
     "/api/grammar/sessions/{id}/result" : {
       "get" : {
-        "operationId" : "result_3",
+        "operationId" : "result_4",
         "parameters" : [ {
           "in" : "path",
           "name" : "id",
@@ -561,7 +561,7 @@
     },
     "/api/listening/sessions" : {
       "post" : {
-        "operationId" : "start_2",
+        "operationId" : "start_3",
         "requestBody" : {
           "content" : {
             "application/json" : {
@@ -589,7 +589,7 @@
     },
     "/api/listening/sessions/{id}" : {
       "get" : {
-        "operationId" : "session_2",
+        "operationId" : "session_3",
         "parameters" : [ {
           "in" : "path",
           "name" : "id",
@@ -616,7 +616,7 @@
     },
     "/api/listening/sessions/{id}/result" : {
       "get" : {
-        "operationId" : "result_2",
+        "operationId" : "result_3",
         "parameters" : [ {
           "in" : "path",
           "name" : "id",
@@ -701,7 +701,7 @@
     },
     "/api/reading/sessions" : {
       "post" : {
-        "operationId" : "start_1",
+        "operationId" : "start_2",
         "requestBody" : {
           "content" : {
             "application/json" : {
@@ -729,7 +729,7 @@
     },
     "/api/reading/sessions/{id}" : {
       "get" : {
-        "operationId" : "session_1",
+        "operationId" : "session_2",
         "parameters" : [ {
           "in" : "path",
           "name" : "id",
@@ -756,7 +756,7 @@
     },
     "/api/reading/sessions/{id}/result" : {
       "get" : {
-        "operationId" : "result_1",
+        "operationId" : "result_2",
         "parameters" : [ {
           "in" : "path",
           "name" : "id",
@@ -860,6 +860,277 @@
           }
         },
         "tags" : [ "Settings" ]
+      }
+    },
+    "/api/speaking/attempts/{id}/regrade" : {
+      "post" : {
+        "operationId" : "regrade_1",
+        "parameters" : [ {
+          "in" : "path",
+          "name" : "id",
+          "required" : true,
+          "schema" : {
+            "type" : "integer",
+            "format" : "int64"
+          }
+        } ],
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/SpeakingResultView"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "tags" : [ "Speaking" ]
+      }
+    },
+    "/api/speaking/responses/{id}/audio" : {
+      "get" : {
+        "operationId" : "audio",
+        "parameters" : [ {
+          "in" : "path",
+          "name" : "id",
+          "required" : true,
+          "schema" : {
+            "type" : "integer",
+            "format" : "int64"
+          }
+        } ],
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "type" : "string",
+                  "format" : "binary"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "tags" : [ "Speaking" ]
+      }
+    },
+    "/api/speaking/sessions" : {
+      "post" : {
+        "operationId" : "start_1",
+        "requestBody" : {
+          "content" : {
+            "application/json" : {
+              "schema" : {
+                "$ref" : "#/components/schemas/SpeakingStartRequest"
+              }
+            }
+          },
+          "required" : true
+        },
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/SpeakingSessionView"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "tags" : [ "Speaking" ]
+      }
+    },
+    "/api/speaking/sessions/{id}" : {
+      "get" : {
+        "operationId" : "session_1",
+        "parameters" : [ {
+          "in" : "path",
+          "name" : "id",
+          "required" : true,
+          "schema" : {
+            "type" : "integer",
+            "format" : "int64"
+          }
+        } ],
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/SpeakingSessionView"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "tags" : [ "Speaking" ]
+      }
+    },
+    "/api/speaking/sessions/{id}/examiner" : {
+      "post" : {
+        "operationId" : "next",
+        "parameters" : [ {
+          "in" : "path",
+          "name" : "id",
+          "required" : true,
+          "schema" : {
+            "type" : "integer",
+            "format" : "int64"
+          }
+        } ],
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/ExaminerTurn"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "tags" : [ "Speaking" ]
+      }
+    },
+    "/api/speaking/sessions/{id}/finish" : {
+      "post" : {
+        "operationId" : "finish",
+        "parameters" : [ {
+          "in" : "path",
+          "name" : "id",
+          "required" : true,
+          "schema" : {
+            "type" : "integer",
+            "format" : "int64"
+          }
+        } ],
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/SpeakingResultView"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "tags" : [ "Speaking" ]
+      }
+    },
+    "/api/speaking/sessions/{id}/responses" : {
+      "post" : {
+        "operationId" : "record",
+        "parameters" : [ {
+          "in" : "path",
+          "name" : "id",
+          "required" : true,
+          "schema" : {
+            "type" : "integer",
+            "format" : "int64"
+          }
+        }, {
+          "in" : "query",
+          "name" : "part",
+          "required" : true,
+          "schema" : {
+            "type" : "integer",
+            "format" : "int32"
+          }
+        }, {
+          "in" : "query",
+          "name" : "questionIndex",
+          "required" : true,
+          "schema" : {
+            "type" : "integer",
+            "format" : "int32"
+          }
+        }, {
+          "in" : "query",
+          "name" : "question",
+          "required" : true,
+          "schema" : {
+            "type" : "string"
+          }
+        }, {
+          "in" : "query",
+          "name" : "transcript",
+          "required" : false,
+          "schema" : {
+            "type" : "string"
+          }
+        }, {
+          "in" : "query",
+          "name" : "durationSeconds",
+          "required" : false,
+          "schema" : {
+            "type" : "integer",
+            "format" : "int32"
+          }
+        } ],
+        "requestBody" : {
+          "content" : {
+            "multipart/form-data" : {
+              "schema" : {
+                "type" : "object",
+                "properties" : {
+                  "audio" : {
+                    "type" : "string",
+                    "format" : "binary"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/SpeakingResponseView"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "tags" : [ "Speaking" ]
+      }
+    },
+    "/api/speaking/sessions/{id}/result" : {
+      "get" : {
+        "operationId" : "result_1",
+        "parameters" : [ {
+          "in" : "path",
+          "name" : "id",
+          "required" : true,
+          "schema" : {
+            "type" : "integer",
+            "format" : "int64"
+          }
+        } ],
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/SpeakingResultView"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "tags" : [ "Speaking" ]
       }
     },
     "/api/system/health" : {
@@ -1294,6 +1565,24 @@
         },
         "required" : [ "band", "criterion", "justification", "strengths", "weaknesses" ]
       },
+      "CueCard" : {
+        "type" : "object",
+        "properties" : {
+          "bullets" : {
+            "type" : "array",
+            "items" : {
+              "type" : "string"
+            }
+          },
+          "explain" : {
+            "type" : "string"
+          },
+          "prompt" : {
+            "type" : "string"
+          }
+        },
+        "required" : [ "bullets", "explain", "prompt" ]
+      },
       "DashboardView" : {
         "type" : "object",
         "default" : null,
@@ -1654,6 +1943,45 @@
           }
         },
         "required" : [ "area", "examples", "first_seen", "last_seen", "previous", "recent", "resolved", "score", "subtype", "total", "trend", "type", "unresolved" ]
+      },
+      "ExaminerTurn" : {
+        "type" : "object",
+        "default" : null,
+        "properties" : {
+          "answerSeconds" : {
+            "type" : [ "integer", "null" ],
+            "format" : "int32",
+            "default" : ""
+          },
+          "conversational" : {
+            "type" : "boolean"
+          },
+          "part" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "prepSeconds" : {
+            "type" : [ "integer", "null" ],
+            "format" : "int32",
+            "default" : ""
+          },
+          "questionIndex" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "stage" : {
+            "type" : "string"
+          },
+          "talkSeconds" : {
+            "type" : [ "integer", "null" ],
+            "format" : "int32",
+            "default" : ""
+          },
+          "utterance" : {
+            "type" : "string"
+          }
+        },
+        "required" : [ "answerSeconds", "conversational", "part", "prepSeconds", "questionIndex", "stage", "talkSeconds", "utterance" ]
       },
       "Example" : {
         "type" : "object",
@@ -2695,6 +3023,18 @@
         },
         "required" : [ "email", "role" ]
       },
+      "ModelSpokenAnswer" : {
+        "type" : "object",
+        "properties" : {
+          "answer" : {
+            "type" : "string"
+          },
+          "question" : {
+            "type" : "string"
+          }
+        },
+        "required" : [ "answer", "question" ]
+      },
       "ModuleBands" : {
         "type" : "object",
         "default" : null,
@@ -2741,6 +3081,84 @@
           }
         },
         "required" : [ "label", "text" ]
+      },
+      "Part1" : {
+        "type" : "object",
+        "properties" : {
+          "topics" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/components/schemas/Part1Topic"
+            }
+          }
+        },
+        "required" : [ "topics" ]
+      },
+      "Part1Topic" : {
+        "type" : "object",
+        "properties" : {
+          "questions" : {
+            "type" : "array",
+            "items" : {
+              "type" : "string"
+            }
+          },
+          "topic" : {
+            "type" : "string"
+          }
+        },
+        "required" : [ "questions", "topic" ]
+      },
+      "Part2" : {
+        "type" : "object",
+        "properties" : {
+          "cue_card" : {
+            "$ref" : "#/components/schemas/CueCard"
+          },
+          "rounding_off_questions" : {
+            "type" : "array",
+            "items" : {
+              "type" : "string"
+            }
+          },
+          "theme" : {
+            "type" : "string"
+          },
+          "topic" : {
+            "type" : "string"
+          }
+        },
+        "required" : [ "cue_card", "rounding_off_questions", "theme", "topic" ]
+      },
+      "Part3" : {
+        "type" : "object",
+        "properties" : {
+          "linked_part2_topic" : {
+            "type" : "string"
+          },
+          "questions" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/components/schemas/Part3Question"
+            }
+          },
+          "theme" : {
+            "type" : "string"
+          }
+        },
+        "required" : [ "linked_part2_topic", "questions", "theme" ]
+      },
+      "Part3Question" : {
+        "type" : "object",
+        "properties" : {
+          "question" : {
+            "type" : "string"
+          },
+          "sub_topic" : {
+            "type" : "string"
+          }
+        },
+        "required" : [ "question", "sub_topic" ]
       },
       "ProcessStep" : {
         "type" : "object",
@@ -3311,6 +3729,234 @@
           }
         },
         "required" : [ "accent", "gender", "id", "name", "role" ]
+      },
+      "SpeakingGrade" : {
+        "type" : "object",
+        "properties" : {
+          "criteria" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/components/schemas/CriterionBand"
+            }
+          },
+          "errors" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/components/schemas/TaggedError"
+            }
+          },
+          "improvements" : {
+            "type" : "array",
+            "items" : {
+              "type" : "string"
+            }
+          },
+          "model_answers" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/components/schemas/ModelSpokenAnswer"
+            }
+          },
+          "overall_comment" : {
+            "type" : "string"
+          },
+          "pronunciation_assessable" : {
+            "type" : "boolean"
+          },
+          "vocabulary_upgrades" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/components/schemas/VocabUpgrade"
+            }
+          }
+        },
+        "required" : [ "criteria", "errors", "improvements", "model_answers", "overall_comment", "pronunciation_assessable", "vocabulary_upgrades" ]
+      },
+      "SpeakingPlan" : {
+        "type" : "object",
+        "default" : null,
+        "properties" : {
+          "part1" : {
+            "type" : "null",
+            "$ref" : "#/components/schemas/Part1",
+            "default" : ""
+          },
+          "part2" : {
+            "type" : "null",
+            "$ref" : "#/components/schemas/Part2",
+            "default" : ""
+          },
+          "part3" : {
+            "type" : "null",
+            "$ref" : "#/components/schemas/Part3",
+            "default" : ""
+          }
+        },
+        "required" : [ "part1", "part2", "part3" ]
+      },
+      "SpeakingResponseView" : {
+        "type" : "object",
+        "default" : null,
+        "properties" : {
+          "durationSeconds" : {
+            "type" : [ "integer", "null" ],
+            "format" : "int32",
+            "default" : ""
+          },
+          "hasAudio" : {
+            "type" : "boolean"
+          },
+          "id" : {
+            "type" : "integer",
+            "format" : "int64"
+          },
+          "part" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "question" : {
+            "type" : "string"
+          },
+          "questionIndex" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "transcript" : {
+            "type" : [ "string", "null" ],
+            "default" : ""
+          }
+        },
+        "required" : [ "durationSeconds", "hasAudio", "id", "part", "question", "questionIndex", "transcript" ]
+      },
+      "SpeakingResultView" : {
+        "type" : "object",
+        "default" : null,
+        "properties" : {
+          "attemptId" : {
+            "type" : [ "integer", "null" ],
+            "format" : "int64",
+            "default" : ""
+          },
+          "band" : {
+            "type" : [ "number", "null" ],
+            "format" : "double",
+            "default" : ""
+          },
+          "criteriaBands" : {
+            "type" : [ "object", "null" ],
+            "additionalProperties" : {
+              "type" : "integer",
+              "format" : "int32"
+            },
+            "default" : ""
+          },
+          "error" : {
+            "type" : [ "string", "null" ],
+            "default" : ""
+          },
+          "grade" : {
+            "type" : "null",
+            "$ref" : "#/components/schemas/SpeakingGrade",
+            "default" : ""
+          },
+          "kind" : {
+            "type" : "string",
+            "enum" : [ "READING_TEST", "READING_PASSAGE", "LISTENING_TEST", "LISTENING_SECTION", "WRITING_TASK1", "WRITING_TASK2", "WRITING_TEST", "SPEAKING_TEST", "SPEAKING_PART", "GRAMMAR_DIAGNOSTIC", "GRAMMAR_EXERCISE", "GRAMMAR_ERROR_DRILL", "VOCAB_REVIEW" ]
+          },
+          "mode" : {
+            "type" : "string",
+            "enum" : [ "PRACTICE", "EXAM" ]
+          },
+          "plan" : {
+            "$ref" : "#/components/schemas/SpeakingPlan"
+          },
+          "responses" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/components/schemas/SpeakingResponseView"
+            }
+          },
+          "sessionId" : {
+            "type" : "integer",
+            "format" : "int64"
+          },
+          "status" : {
+            "type" : "string"
+          },
+          "words" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "wordsPerMinute" : {
+            "type" : [ "number", "null" ],
+            "format" : "double",
+            "default" : ""
+          }
+        },
+        "required" : [ "attemptId", "band", "criteriaBands", "error", "grade", "kind", "mode", "plan", "responses", "sessionId", "status", "words", "wordsPerMinute" ]
+      },
+      "SpeakingSessionView" : {
+        "type" : "object",
+        "default" : null,
+        "properties" : {
+          "conversational" : {
+            "type" : "boolean"
+          },
+          "examinerAvailable" : {
+            "type" : "boolean"
+          },
+          "kind" : {
+            "type" : "string",
+            "enum" : [ "READING_TEST", "READING_PASSAGE", "LISTENING_TEST", "LISTENING_SECTION", "WRITING_TASK1", "WRITING_TASK2", "WRITING_TEST", "SPEAKING_TEST", "SPEAKING_PART", "GRAMMAR_DIAGNOSTIC", "GRAMMAR_EXERCISE", "GRAMMAR_ERROR_DRILL", "VOCAB_REVIEW" ]
+          },
+          "mode" : {
+            "type" : "string",
+            "enum" : [ "PRACTICE", "EXAM" ]
+          },
+          "plan" : {
+            "$ref" : "#/components/schemas/SpeakingPlan"
+          },
+          "responses" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/components/schemas/SpeakingResponseView"
+            }
+          },
+          "sessionId" : {
+            "type" : "integer",
+            "format" : "int64"
+          },
+          "startedAt" : {
+            "type" : "string",
+            "format" : "date-time"
+          },
+          "status" : {
+            "type" : "string"
+          },
+          "transcription" : {
+            "type" : "string"
+          }
+        },
+        "required" : [ "conversational", "examinerAvailable", "kind", "mode", "plan", "responses", "sessionId", "startedAt", "status", "transcription" ]
+      },
+      "SpeakingStartRequest" : {
+        "type" : "object",
+        "default" : null,
+        "properties" : {
+          "conversational" : {
+            "type" : "boolean"
+          },
+          "mode" : {
+            "type" : "string",
+            "enum" : [ "PRACTICE", "EXAM" ]
+          },
+          "scope" : {
+            "type" : "string",
+            "enum" : [ "TEST", "PART1", "PART2", "PART3" ],
+            "default" : null
+          }
+        },
+        "required" : [ "mode", "scope" ]
       },
       "SpendStatus" : {
         "type" : "object",

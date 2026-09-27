@@ -13,6 +13,7 @@ public record AppProperties(
         String dataDir,
         String promptsDir,
         String defaultsDir,
+        String recordingsDir,
         boolean seedOnStartup,
         Admin admin,
         Security security,
@@ -49,6 +50,12 @@ public record AppProperties(
 
     public Path dataPath() {
         return Path.of(dataDir).toAbsolutePath().normalize();
+    }
+
+    /** Where Speaking recordings are stored (defaults to data/recordings). */
+    public Path recordingsPath() {
+        return recordingsDir == null || recordingsDir.isBlank() ? dataPath().resolve("recordings")
+                : Path.of(recordingsDir).toAbsolutePath().normalize();
     }
 
     public Path promptsPath() {

@@ -70,6 +70,8 @@ ielts:
   prompts-dir: ${IELTS_PROMPTS_DIR:./../prompts}
   # Docker only: bundled defaults copied into an empty data volume on first start.
   defaults-dir: ${IELTS_DEFAULTS_DIR:}
+  # Speaking recordings; defaults to <data-dir>/recordings
+  recordings-dir: ${IELTS_RECORDINGS_DIR:}
   seed-on-startup: ${IELTS_SEED_ON_STARTUP:true}
   scheduling:
     enabled: ${IELTS_SCHEDULING_ENABLED:true}

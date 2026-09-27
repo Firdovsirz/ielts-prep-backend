@@ -12,7 +12,7 @@ import org.junit.jupiter.api.Test;
 /** Every prompt file parses, names an existing schema and existing context files, and renders into SDK params. */
 class PromptCatalogueTest {
 
-    private final AppProperties app = new AppProperties("./../data", "./../prompts", null, false, null, null, null, null,
+    private final AppProperties app = new AppProperties("./../data", "./../prompts", null, null, false, null, null, null, null,
             null, null, null, null, null);
     private final PromptRepository prompts = new PromptRepository(app);
     private final SchemaRepository schemas = new SchemaRepository(app);

@@ -6,6 +6,7 @@ ielts:
     async: false
   data-dir: ./../data
   prompts-dir: ./../prompts
+  recordings-dir: ./target/test-recordings
   scheduling:
     enabled: false
   buffer:

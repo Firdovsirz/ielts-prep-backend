@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "speaking-examiner-turn",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "utterance",
+    "stage",
+    "reason"
+  ],
+  "properties": {
+    "utterance": {
+      "type": "string",
+      "description": "Exactly what the examiner says next — natural, brief, real IELTS examiner phrasing. One question at a time."
+    },
+    "stage": {
+      "type": "string",
+      "enum": [
+        "PART1",
+        "PART3",
+        "END"
+      ],
+      "description": "The part this utterance belongs to (PART3 to move on from Part 1 only when told Part 1 is complete)."
+    },
+    "reason": {
+      "type": "string",
+      "description": "One short phrase for the log: why this question (planned question, follow-up, transition)."
+    }
+  }
+}

@@ -53,9 +53,13 @@ class DashboardFlowTest {
                 .andReturn().getResponse().getContentAsString());
         assertThat(d.get("targetBand").asDouble()).isGreaterThan(0);
         assertThat(d.at("/bandHistory/READING").size()).isGreaterThanOrEqualTo(2);
-        assertThat(d.at("/bandHistory/READING/0/estimate").asBoolean()).isTrue();
+        JsonNode reading = d.at("/bandHistory/READING");
+        assertThat(reading.get(reading.size() - 1).get("estimate").asBoolean()).isTrue(); // single passages are estimates
         assertThat(d.at("/current/reading").isNull()).isFalse();
-        assertThat(d.at("/current/overall").isNull()).isTrue(); // not all four modules practised yet
+        // the overall band exists only once all four modules have a band (other test classes share this database)
+        boolean allFour = !d.at("/current/listening").isNull() && !d.at("/current/reading").isNull()
+                && !d.at("/current/writing").isNull() && !d.at("/current/speaking").isNull();
+        assertThat(d.at("/current/overall").isNull()).isEqualTo(!allFour);
         assertThat(d.get("questionTypes").size()).isGreaterThan(0);
         assertThat(d.at("/timing/0/label").asText()).isEqualTo("Reading passage");
         assertThat(d.at("/timing/0/averageSeconds").asDouble()).isEqualTo(900.0);
