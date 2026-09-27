@@ -32,7 +32,8 @@ public final class WritingDtos {
 
     @Schema(name = "WritingSessionView")
     public record SessionView(long sessionId, SessionMode mode, SessionKind kind, Instant startedAt,
-            @Schema(nullable = true) Integer timeLimitSeconds, String status, List<TaskView> tasks) {}
+            @Schema(nullable = true) Integer timeLimitSeconds, String status, List<TaskView> tasks,
+            @Schema(nullable = true) Long mockTestId) {}
 
     @Schema(name = "WritingResponseRequest")
     public record ResponseRequest(long itemId, String text, Integer secondsSpent) {}

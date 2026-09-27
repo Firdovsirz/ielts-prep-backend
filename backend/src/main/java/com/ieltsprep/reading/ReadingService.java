@@ -99,7 +99,7 @@ public class ReadingService {
 
     private SessionView view(PracticeSession s) {
         return new SessionView(s.getId(), s.getMode(), s.getKind(), s.getStartedAt(), s.getTimeLimitSeconds(),
-                s.getStatus().name(), passageViews(s));
+                s.getStatus().name(), passageViews(s), s.getMockTestId());
     }
 
     private List<PassageView> passageViews(PracticeSession s) {

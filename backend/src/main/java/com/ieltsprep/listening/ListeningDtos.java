@@ -32,7 +32,8 @@ public final class ListeningDtos {
 
     @Schema(name = "ListeningSessionView")
     public record SessionView(long sessionId, SessionMode mode, SessionKind kind, Instant startedAt, String status,
-            int readingSeconds, int transferMinutes, double speechRate, List<SectionView> sections) {}
+            int readingSeconds, int transferMinutes, double speechRate, List<SectionView> sections,
+            @Schema(nullable = true) Long mockTestId) {}
 
     @Schema(name = "ListeningSubmitRequest")
     public record SubmitRequest(Map<Integer, String> answers, Integer timeUsedSeconds, Map<Long, Integer> replaysPerSection) {}

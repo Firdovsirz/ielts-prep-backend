@@ -82,7 +82,7 @@
     },
     "/api/coach/reports" : {
       "get" : {
-        "operationId" : "list",
+        "operationId" : "list_1",
         "responses" : {
           "200" : {
             "content" : {
@@ -119,7 +119,7 @@
     },
     "/api/coach/reports/{id}" : {
       "get" : {
-        "operationId" : "get_1",
+        "operationId" : "get_2",
         "parameters" : [ {
           "in" : "path",
           "name" : "id",
@@ -164,7 +164,7 @@
     },
     "/api/errors" : {
       "get" : {
-        "operationId" : "list_1",
+        "operationId" : "list_2",
         "parameters" : [ {
           "in" : "query",
           "name" : "subtype",
@@ -625,7 +625,7 @@
     },
     "/api/listening/sessions" : {
       "post" : {
-        "operationId" : "start_3",
+        "operationId" : "start_4",
         "requestBody" : {
           "content" : {
             "application/json" : {
@@ -740,6 +740,124 @@
           }
         },
         "tags" : [ "Listening" ]
+      }
+    },
+    "/api/mock" : {
+      "get" : {
+        "operationId" : "list",
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "type" : "array",
+                  "items" : {
+                    "$ref" : "#/components/schemas/MockSummary"
+                  }
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "tags" : [ "Mock test" ]
+      },
+      "post" : {
+        "operationId" : "start_3",
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/MockView"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "tags" : [ "Mock test" ]
+      }
+    },
+    "/api/mock/{id}" : {
+      "get" : {
+        "operationId" : "get_1",
+        "parameters" : [ {
+          "in" : "path",
+          "name" : "id",
+          "required" : true,
+          "schema" : {
+            "type" : "integer",
+            "format" : "int64"
+          }
+        } ],
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/MockView"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "tags" : [ "Mock test" ]
+      }
+    },
+    "/api/mock/{id}/abandon" : {
+      "post" : {
+        "operationId" : "abandon",
+        "parameters" : [ {
+          "in" : "path",
+          "name" : "id",
+          "required" : true,
+          "schema" : {
+            "type" : "integer",
+            "format" : "int64"
+          }
+        } ],
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/MockView"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "tags" : [ "Mock test" ]
+      }
+    },
+    "/api/mock/{id}/stage" : {
+      "post" : {
+        "operationId" : "startStage",
+        "parameters" : [ {
+          "in" : "path",
+          "name" : "id",
+          "required" : true,
+          "schema" : {
+            "type" : "integer",
+            "format" : "int64"
+          }
+        } ],
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/MockView"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "tags" : [ "Mock test" ]
       }
     },
     "/api/plan" : {
@@ -3356,6 +3474,11 @@
             "type" : "string",
             "enum" : [ "READING_TEST", "READING_PASSAGE", "LISTENING_TEST", "LISTENING_SECTION", "WRITING_TASK1", "WRITING_TASK2", "WRITING_TEST", "SPEAKING_TEST", "SPEAKING_PART", "GRAMMAR_DIAGNOSTIC", "GRAMMAR_EXERCISE", "GRAMMAR_ERROR_DRILL", "VOCAB_REVIEW" ]
           },
+          "mockTestId" : {
+            "type" : [ "integer", "null" ],
+            "format" : "int64",
+            "default" : ""
+          },
           "mode" : {
             "type" : "string",
             "enum" : [ "PRACTICE", "EXAM" ]
@@ -3390,7 +3513,7 @@
             "format" : "int32"
           }
         },
-        "required" : [ "kind", "mode", "readingSeconds", "sections", "sessionId", "speechRate", "startedAt", "status", "transferMinutes" ]
+        "required" : [ "kind", "mockTestId", "mode", "readingSeconds", "sections", "sessionId", "speechRate", "startedAt", "status", "transferMinutes" ]
       },
       "ListeningStartRequest" : {
         "type" : "object",
@@ -3573,6 +3696,235 @@
           }
         },
         "required" : [ "email", "role" ]
+      },
+      "MockQuestionTypeRow" : {
+        "type" : "object",
+        "default" : null,
+        "properties" : {
+          "correct" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "module" : {
+            "type" : "string"
+          },
+          "questionType" : {
+            "type" : "string"
+          },
+          "total" : {
+            "type" : "integer",
+            "format" : "int32"
+          }
+        },
+        "required" : [ "correct", "module", "questionType", "total" ]
+      },
+      "MockReport" : {
+        "type" : "object",
+        "default" : null,
+        "properties" : {
+          "bands" : {
+            "type" : "object",
+            "additionalProperties" : {
+              "type" : "number",
+              "format" : "double"
+            }
+          },
+          "overall" : {
+            "type" : "number",
+            "format" : "double"
+          },
+          "questionTypes" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/components/schemas/MockQuestionTypeRow"
+            }
+          },
+          "speakingCriteria" : {
+            "type" : "object",
+            "additionalProperties" : {
+              "type" : "integer",
+              "format" : "int32"
+            }
+          },
+          "strengths" : {
+            "type" : "array",
+            "items" : {
+              "type" : "string"
+            }
+          },
+          "target" : {
+            "type" : "number",
+            "format" : "double"
+          },
+          "verdict" : {
+            "type" : "string"
+          },
+          "weaknesses" : {
+            "type" : "array",
+            "items" : {
+              "type" : "string"
+            }
+          },
+          "writingCriteria" : {
+            "type" : "object",
+            "additionalProperties" : {
+              "type" : "object",
+              "additionalProperties" : {
+                "type" : "integer",
+                "format" : "int32"
+              }
+            }
+          }
+        },
+        "required" : [ "bands", "overall", "questionTypes", "speakingCriteria", "strengths", "target", "verdict", "weaknesses", "writingCriteria" ]
+      },
+      "MockStageView" : {
+        "type" : "object",
+        "default" : null,
+        "properties" : {
+          "band" : {
+            "type" : [ "number", "null" ],
+            "format" : "double",
+            "default" : ""
+          },
+          "grading" : {
+            "type" : "string"
+          },
+          "label" : {
+            "type" : "string"
+          },
+          "max" : {
+            "type" : [ "integer", "null" ],
+            "format" : "int32",
+            "default" : ""
+          },
+          "minutes" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "module" : {
+            "type" : "string"
+          },
+          "raw" : {
+            "type" : [ "integer", "null" ],
+            "format" : "int32",
+            "default" : ""
+          },
+          "sessionId" : {
+            "type" : [ "integer", "null" ],
+            "format" : "int64",
+            "default" : ""
+          },
+          "state" : {
+            "type" : "string"
+          },
+          "timeUsedSeconds" : {
+            "type" : [ "integer", "null" ],
+            "format" : "int32",
+            "default" : ""
+          }
+        },
+        "required" : [ "band", "grading", "label", "max", "minutes", "module", "raw", "sessionId", "state", "timeUsedSeconds" ]
+      },
+      "MockSummary" : {
+        "type" : "object",
+        "default" : null,
+        "properties" : {
+          "finishedAt" : {
+            "type" : [ "string", "null" ],
+            "format" : "date-time",
+            "default" : ""
+          },
+          "id" : {
+            "type" : "integer",
+            "format" : "int64"
+          },
+          "listening" : {
+            "type" : [ "number", "null" ],
+            "format" : "double",
+            "default" : ""
+          },
+          "overall" : {
+            "type" : [ "number", "null" ],
+            "format" : "double",
+            "default" : ""
+          },
+          "reading" : {
+            "type" : [ "number", "null" ],
+            "format" : "double",
+            "default" : ""
+          },
+          "speaking" : {
+            "type" : [ "number", "null" ],
+            "format" : "double",
+            "default" : ""
+          },
+          "stage" : {
+            "type" : "string"
+          },
+          "startedAt" : {
+            "type" : "string",
+            "format" : "date-time"
+          },
+          "status" : {
+            "type" : "string"
+          },
+          "writing" : {
+            "type" : [ "number", "null" ],
+            "format" : "double",
+            "default" : ""
+          }
+        },
+        "required" : [ "finishedAt", "id", "listening", "overall", "reading", "speaking", "stage", "startedAt", "status", "writing" ]
+      },
+      "MockView" : {
+        "type" : "object",
+        "default" : null,
+        "properties" : {
+          "finishedAt" : {
+            "type" : [ "string", "null" ],
+            "format" : "date-time",
+            "default" : ""
+          },
+          "gradingAvailable" : {
+            "type" : "boolean"
+          },
+          "id" : {
+            "type" : "integer",
+            "format" : "int64"
+          },
+          "overall" : {
+            "type" : [ "number", "null" ],
+            "format" : "double",
+            "default" : ""
+          },
+          "report" : {
+            "type" : "null",
+            "$ref" : "#/components/schemas/MockReport",
+            "default" : ""
+          },
+          "stage" : {
+            "type" : "string"
+          },
+          "stages" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/components/schemas/MockStageView"
+            }
+          },
+          "startedAt" : {
+            "type" : "string",
+            "format" : "date-time"
+          },
+          "status" : {
+            "type" : "string"
+          },
+          "targetBand" : {
+            "type" : "number",
+            "format" : "double"
+          }
+        },
+        "required" : [ "finishedAt", "gradingAvailable", "id", "overall", "report", "stage", "stages", "startedAt", "status", "targetBand" ]
       },
       "ModelSpokenAnswer" : {
         "type" : "object",
@@ -4259,6 +4611,11 @@
             "type" : "string",
             "enum" : [ "READING_TEST", "READING_PASSAGE", "LISTENING_TEST", "LISTENING_SECTION", "WRITING_TASK1", "WRITING_TASK2", "WRITING_TEST", "SPEAKING_TEST", "SPEAKING_PART", "GRAMMAR_DIAGNOSTIC", "GRAMMAR_EXERCISE", "GRAMMAR_ERROR_DRILL", "VOCAB_REVIEW" ]
           },
+          "mockTestId" : {
+            "type" : [ "integer", "null" ],
+            "format" : "int64",
+            "default" : ""
+          },
           "mode" : {
             "type" : "string",
             "enum" : [ "PRACTICE", "EXAM" ]
@@ -4286,7 +4643,7 @@
             "default" : ""
           }
         },
-        "required" : [ "kind", "mode", "passages", "sessionId", "startedAt", "status", "timeLimitSeconds" ]
+        "required" : [ "kind", "mockTestId", "mode", "passages", "sessionId", "startedAt", "status", "timeLimitSeconds" ]
       },
       "ReadingStartRequest" : {
         "type" : "object",
@@ -4605,6 +4962,11 @@
             "type" : "string",
             "enum" : [ "READING_TEST", "READING_PASSAGE", "LISTENING_TEST", "LISTENING_SECTION", "WRITING_TASK1", "WRITING_TASK2", "WRITING_TEST", "SPEAKING_TEST", "SPEAKING_PART", "GRAMMAR_DIAGNOSTIC", "GRAMMAR_EXERCISE", "GRAMMAR_ERROR_DRILL", "VOCAB_REVIEW" ]
           },
+          "mockTestId" : {
+            "type" : [ "integer", "null" ],
+            "format" : "int64",
+            "default" : ""
+          },
           "mode" : {
             "type" : "string",
             "enum" : [ "PRACTICE", "EXAM" ]
@@ -4633,7 +4995,7 @@
             "type" : "string"
           }
         },
-        "required" : [ "conversational", "examinerAvailable", "kind", "mode", "plan", "responses", "sessionId", "startedAt", "status", "transcription" ]
+        "required" : [ "conversational", "examinerAvailable", "kind", "mockTestId", "mode", "plan", "responses", "sessionId", "startedAt", "status", "transcription" ]
       },
       "SpeakingStartRequest" : {
         "type" : "object",
@@ -5679,6 +6041,11 @@
             "type" : "string",
             "enum" : [ "READING_TEST", "READING_PASSAGE", "LISTENING_TEST", "LISTENING_SECTION", "WRITING_TASK1", "WRITING_TASK2", "WRITING_TEST", "SPEAKING_TEST", "SPEAKING_PART", "GRAMMAR_DIAGNOSTIC", "GRAMMAR_EXERCISE", "GRAMMAR_ERROR_DRILL", "VOCAB_REVIEW" ]
           },
+          "mockTestId" : {
+            "type" : [ "integer", "null" ],
+            "format" : "int64",
+            "default" : ""
+          },
           "mode" : {
             "type" : "string",
             "enum" : [ "PRACTICE", "EXAM" ]
@@ -5706,7 +6073,7 @@
             "default" : ""
           }
         },
-        "required" : [ "kind", "mode", "sessionId", "startedAt", "status", "tasks", "timeLimitSeconds" ]
+        "required" : [ "kind", "mockTestId", "mode", "sessionId", "startedAt", "status", "tasks", "timeLimitSeconds" ]
       },
       "WritingStartRequest" : {
         "type" : "object",

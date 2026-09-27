@@ -37,7 +37,8 @@ public final class ReadingDtos {
 
     @Schema(name = "ReadingSessionView")
     public record SessionView(long sessionId, SessionMode mode, SessionKind kind, Instant startedAt,
-            @Schema(nullable = true) Integer timeLimitSeconds, String status, List<PassageView> passages) {}
+            @Schema(nullable = true) Integer timeLimitSeconds, String status, List<PassageView> passages,
+            @Schema(nullable = true) Long mockTestId) {}
 
     /**
      * @param answers           keyed by the question number shown on screen (1–40 in a full test)

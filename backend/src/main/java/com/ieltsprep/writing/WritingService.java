@@ -118,7 +118,7 @@ public class WritingService {
 
     private SessionView view(PracticeSession s) {
         return new SessionView(s.getId(), s.getMode(), s.getKind(), s.getStartedAt(), s.getTimeLimitSeconds(), s.getStatus().name(),
-                tasks(s));
+                tasks(s), s.getMockTestId());
     }
 
     private List<TaskView> tasks(PracticeSession s) {

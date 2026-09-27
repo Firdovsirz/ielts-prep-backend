@@ -25,7 +25,8 @@ public final class SpeakingDtos {
 
     @Schema(name = "SpeakingSessionView")
     public record SessionView(long sessionId, SessionMode mode, SessionKind kind, String status, Instant startedAt, SpeakingPlan plan,
-            boolean conversational, boolean examinerAvailable, String transcription, List<ResponseView> responses) {}
+            boolean conversational, boolean examinerAvailable, String transcription, List<ResponseView> responses,
+            @Schema(nullable = true) Long mockTestId) {}
 
     @Schema(name = "SpeakingResultView")
     public record ResultView(long sessionId, SessionMode mode, SessionKind kind, String status, @Schema(nullable = true) Long attemptId,

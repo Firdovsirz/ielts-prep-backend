@@ -112,7 +112,7 @@ public class SpeakingService {
 
     private SessionView view(PracticeSession s) {
         return new SessionView(s.getId(), s.getMode(), s.getKind(), s.getStatus().name(), s.getStartedAt(), plan(s), conversational(s),
-                claude.isAvailable(), transcription.mode(), responses.findBySessionIdOrderByIdAsc(s.getId()).stream().map(SpeakingService::view).toList());
+                claude.isAvailable(), transcription.mode(), responses.findBySessionIdOrderByIdAsc(s.getId()).stream().map(SpeakingService::view).toList(), s.getMockTestId());
     }
 
     SpeakingPlan plan(PracticeSession s) {

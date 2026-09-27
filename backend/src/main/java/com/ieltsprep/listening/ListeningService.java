@@ -95,7 +95,7 @@ public class ListeningService {
     private SessionView view(PracticeSession s) {
         UserSettings u = settings.get();
         return new SessionView(s.getId(), s.getMode(), s.getKind(), s.getStartedAt(), s.getStatus().name(),
-                u.getListeningReadingSeconds(), u.getListeningTransferMinutes(), u.getSpeechRate(), sectionViews(s));
+                u.getListeningReadingSeconds(), u.getListeningTransferMinutes(), u.getSpeechRate(), sectionViews(s), s.getMockTestId());
     }
 
     private List<SectionView> sectionViews(PracticeSession s) {

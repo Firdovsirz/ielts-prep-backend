@@ -12,10 +12,7 @@ import com.fasterxml.jackson.databind.JsonNode;
 import com.ieltsprep.claude.ClaudeService;
 import com.ieltsprep.common.Json;
 import com.ieltsprep.errorlog.ErrorEntryRepository;
-import com.ieltsprep.grading.GradingModels.CriterionBand;
-import com.ieltsprep.grading.GradingModels.ModelSpokenAnswer;
 import com.ieltsprep.grading.GradingModels.SpeakingGrade;
-import com.ieltsprep.grading.GradingModels.TaggedError;
 import com.ieltsprep.support.IntegrationTest;
 import com.ieltsprep.support.TestAuth;
 import java.util.ArrayList;
@@ -42,14 +39,7 @@ class SpeakingFlowTest {
     }
 
     static SpeakingGrade grade() {
-        return new SpeakingGrade(List.of(
-                new CriterionBand("FLUENCY_COHERENCE", 7, "Speaks at length: \"I usually walk\".", List.of(), List.of()),
-                new CriterionBand("LEXICAL_RESOURCE", 6, "Adequate.", List.of(), List.of()),
-                new CriterionBand("GRAMMATICAL_RANGE_ACCURACY", 6, "Some errors.", List.of(), List.of()),
-                new CriterionBand("PRONUNCIATION", 0, "Not assessed from a transcript.", List.of(), List.of())),
-                false,
-                List.of(new TaggedError("grammar", "tense_choice", "I go there yesterday", "I went there yesterday", "Past time.")),
-                List.of("a", "b", "c"), List.of(), "Solid 6.", List.of(new ModelSpokenAnswer("q", "a")));
+        return com.ieltsprep.support.Fixtures.speakingGrade();
     }
 
     @Test
