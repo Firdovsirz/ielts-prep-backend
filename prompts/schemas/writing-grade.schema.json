@@ -1,0 +1,214 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "writing-grade",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "criteria",
+    "errors",
+    "improvements",
+    "vocabulary_upgrades",
+    "word_count_comment",
+    "overall_comment",
+    "model_answer"
+  ],
+  "properties": {
+    "criteria": {
+      "type": "array",
+      "description": "Exactly four entries: TASK_ACHIEVEMENT (Task 1) or TASK_RESPONSE (Task 2), then COHERENCE_COHESION, LEXICAL_RESOURCE, GRAMMATICAL_RANGE_ACCURACY.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "criterion",
+          "band",
+          "justification",
+          "strengths",
+          "weaknesses"
+        ],
+        "properties": {
+          "criterion": {
+            "type": "string",
+            "enum": [
+              "TASK_ACHIEVEMENT",
+              "TASK_RESPONSE",
+              "COHERENCE_COHESION",
+              "LEXICAL_RESOURCE",
+              "GRAMMATICAL_RANGE_ACCURACY"
+            ]
+          },
+          "band": {
+            "type": "integer",
+            "description": "Whole band 0–9 for this criterion, applying the descriptors strictly (best-fit, checking the band above and below)."
+          },
+          "justification": {
+            "type": "string",
+            "description": "One paragraph explaining the band against the descriptors, quoting the candidate's words in quotation marks."
+          },
+          "strengths": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "weaknesses": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "errors": {
+      "type": "array",
+      "description": "Every error worth fixing (up to ~25), most important first.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "type",
+          "subtype",
+          "original",
+          "correction",
+          "explanation"
+        ],
+        "properties": {
+          "type": {
+            "type": "string",
+            "enum": [
+              "grammar",
+              "vocabulary",
+              "coherence",
+              "task"
+            ]
+          },
+          "subtype": {
+            "type": "string",
+            "enum": [
+              "tense_choice",
+              "present_perfect_vs_past_simple",
+              "tense_consistency",
+              "future_forms",
+              "verb_form",
+              "subject_verb_agreement",
+              "article_missing",
+              "article_unnecessary",
+              "article_wrong",
+              "relative_clause",
+              "subordinate_clause",
+              "noun_clause",
+              "conditional_form",
+              "hypothetical_language",
+              "passive_form",
+              "active_passive_choice",
+              "modal_verb",
+              "hedging",
+              "comparative_superlative",
+              "trend_language",
+              "linking_word_misuse",
+              "linking_punctuation",
+              "reference_pronoun",
+              "reported_speech",
+              "inversion",
+              "cleft_sentence",
+              "participle_clause",
+              "preposition",
+              "dependent_preposition",
+              "phrasal_verb",
+              "comma_splice",
+              "run_on_sentence",
+              "sentence_fragment",
+              "comma_usage",
+              "apostrophe",
+              "capitalisation",
+              "countable_uncountable",
+              "quantifier",
+              "plural_form",
+              "word_form",
+              "participle_adjective",
+              "prefix_suffix",
+              "word_choice",
+              "collocation",
+              "register",
+              "spelling",
+              "repetition",
+              "precision",
+              "idiom_misuse",
+              "paragraphing",
+              "progression",
+              "referencing",
+              "cohesive_device_overuse",
+              "topic_sentence",
+              "overview_placement",
+              "overview_missing",
+              "position_unclear",
+              "underdeveloped_idea",
+              "irrelevant_content",
+              "under_length",
+              "data_accuracy",
+              "missing_bullet_point",
+              "tone_register"
+            ],
+            "description": "Exactly one subtype from data/descriptors/grammar-areas.json matching the type (grammar subtypes for grammar errors, non_grammar_subtypes.<type> otherwise)."
+          },
+          "original": {
+            "type": "string",
+            "description": "The candidate's words copied EXACTLY (verbatim substring of the response/transcript), just long enough to locate the error."
+          },
+          "correction": {
+            "type": "string",
+            "description": "Corrected version of the same excerpt."
+          },
+          "explanation": {
+            "type": "string",
+            "description": "One or two sentences naming the rule or issue."
+          }
+        }
+      }
+    },
+    "improvements": {
+      "type": "array",
+      "description": "Exactly three concrete, specific actions that would raise the band most, referring to this response.",
+      "items": {
+        "type": "string"
+      }
+    },
+    "vocabulary_upgrades": {
+      "type": "array",
+      "description": "3–8 words/phrases from the response with a more precise or less common alternative.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "original",
+          "better",
+          "example"
+        ],
+        "properties": {
+          "original": {
+            "type": "string"
+          },
+          "better": {
+            "type": "string"
+          },
+          "example": {
+            "type": "string",
+            "description": "The candidate's sentence rewritten with the better item."
+          }
+        }
+      }
+    },
+    "word_count_comment": {
+      "type": "string"
+    },
+    "overall_comment": {
+      "type": "string",
+      "description": "Two or three sentences: where the response sits and what separates it from the target band."
+    },
+    "model_answer": {
+      "type": "string",
+      "description": "A complete model answer to the SAME prompt at the requested target band (plain text, paragraphs separated by blank lines)."
+    }
+  }
+}

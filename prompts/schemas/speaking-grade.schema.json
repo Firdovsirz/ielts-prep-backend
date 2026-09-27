@@ -1,0 +1,226 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "speaking-grade",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "criteria",
+    "pronunciation_assessable",
+    "errors",
+    "improvements",
+    "vocabulary_upgrades",
+    "overall_comment",
+    "model_answers"
+  ],
+  "properties": {
+    "criteria": {
+      "type": "array",
+      "description": "FLUENCY_COHERENCE, LEXICAL_RESOURCE, GRAMMATICAL_RANGE_ACCURACY, and PRONUNCIATION (band 0 when not assessable).",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "criterion",
+          "band",
+          "justification",
+          "strengths",
+          "weaknesses"
+        ],
+        "properties": {
+          "criterion": {
+            "type": "string",
+            "enum": [
+              "FLUENCY_COHERENCE",
+              "LEXICAL_RESOURCE",
+              "GRAMMATICAL_RANGE_ACCURACY",
+              "PRONUNCIATION"
+            ]
+          },
+          "band": {
+            "type": "integer",
+            "description": "Whole band 0–9 for this criterion, applying the descriptors strictly (best-fit, checking the band above and below)."
+          },
+          "justification": {
+            "type": "string",
+            "description": "One paragraph explaining the band against the descriptors, quoting the candidate's words in quotation marks."
+          },
+          "strengths": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "weaknesses": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "pronunciation_assessable": {
+      "type": "boolean",
+      "description": "false when only a transcript is available."
+    },
+    "errors": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "type",
+          "subtype",
+          "original",
+          "correction",
+          "explanation"
+        ],
+        "properties": {
+          "type": {
+            "type": "string",
+            "enum": [
+              "grammar",
+              "vocabulary",
+              "coherence",
+              "task"
+            ]
+          },
+          "subtype": {
+            "type": "string",
+            "enum": [
+              "tense_choice",
+              "present_perfect_vs_past_simple",
+              "tense_consistency",
+              "future_forms",
+              "verb_form",
+              "subject_verb_agreement",
+              "article_missing",
+              "article_unnecessary",
+              "article_wrong",
+              "relative_clause",
+              "subordinate_clause",
+              "noun_clause",
+              "conditional_form",
+              "hypothetical_language",
+              "passive_form",
+              "active_passive_choice",
+              "modal_verb",
+              "hedging",
+              "comparative_superlative",
+              "trend_language",
+              "linking_word_misuse",
+              "linking_punctuation",
+              "reference_pronoun",
+              "reported_speech",
+              "inversion",
+              "cleft_sentence",
+              "participle_clause",
+              "preposition",
+              "dependent_preposition",
+              "phrasal_verb",
+              "comma_splice",
+              "run_on_sentence",
+              "sentence_fragment",
+              "comma_usage",
+              "apostrophe",
+              "capitalisation",
+              "countable_uncountable",
+              "quantifier",
+              "plural_form",
+              "word_form",
+              "participle_adjective",
+              "prefix_suffix",
+              "word_choice",
+              "collocation",
+              "register",
+              "spelling",
+              "repetition",
+              "precision",
+              "idiom_misuse",
+              "paragraphing",
+              "progression",
+              "referencing",
+              "cohesive_device_overuse",
+              "topic_sentence",
+              "overview_placement",
+              "overview_missing",
+              "position_unclear",
+              "underdeveloped_idea",
+              "irrelevant_content",
+              "under_length",
+              "data_accuracy",
+              "missing_bullet_point",
+              "tone_register"
+            ],
+            "description": "Exactly one subtype from data/descriptors/grammar-areas.json matching the type (grammar subtypes for grammar errors, non_grammar_subtypes.<type> otherwise)."
+          },
+          "original": {
+            "type": "string",
+            "description": "The candidate's words copied EXACTLY (verbatim substring of the response/transcript), just long enough to locate the error."
+          },
+          "correction": {
+            "type": "string",
+            "description": "Corrected version of the same excerpt."
+          },
+          "explanation": {
+            "type": "string",
+            "description": "One or two sentences naming the rule or issue."
+          }
+        }
+      }
+    },
+    "improvements": {
+      "type": "array",
+      "description": "Exactly three concrete actions.",
+      "items": {
+        "type": "string"
+      }
+    },
+    "vocabulary_upgrades": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "original",
+          "better",
+          "example"
+        ],
+        "properties": {
+          "original": {
+            "type": "string"
+          },
+          "better": {
+            "type": "string"
+          },
+          "example": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "overall_comment": {
+      "type": "string"
+    },
+    "model_answers": {
+      "type": "array",
+      "description": "For up to three of the questions, a natural spoken model answer at the target band.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "question",
+          "answer"
+        ],
+        "properties": {
+          "question": {
+            "type": "string"
+          },
+          "answer": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

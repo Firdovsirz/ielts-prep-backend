@@ -10,7 +10,7 @@ public record SettingsDto(
         ExamType examType,
         @DecimalMin("1.0") @DecimalMax("9.0") BigDecimal currentBand,
         @DecimalMin("1.0") @DecimalMax("9.0") BigDecimal targetBand,
-        LocalDate testDate,
+        @io.swagger.v3.oas.annotations.media.Schema(nullable = true) LocalDate testDate,
         AudioMode audioMode,
         Double speechRate,
         Integer listeningReadingSeconds,

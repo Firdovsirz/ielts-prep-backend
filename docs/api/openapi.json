@@ -80,6 +80,64 @@
         "tags" : [ "Auth" ]
       }
     },
+    "/api/errors" : {
+      "get" : {
+        "operationId" : "list",
+        "parameters" : [ {
+          "in" : "query",
+          "name" : "subtype",
+          "required" : false,
+          "schema" : {
+            "type" : "string"
+          }
+        } ],
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "type" : "array",
+                  "items" : {
+                    "$ref" : "#/components/schemas/ErrorEntryView"
+                  }
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "tags" : [ "Error log" ]
+      }
+    },
+    "/api/errors/summary" : {
+      "get" : {
+        "operationId" : "summary",
+        "parameters" : [ {
+          "in" : "query",
+          "name" : "type",
+          "required" : false,
+          "schema" : {
+            "type" : "string"
+          }
+        } ],
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "type" : "array",
+                  "items" : {
+                    "$ref" : "#/components/schemas/ErrorSubtypeStats"
+                  }
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "tags" : [ "Error log" ]
+      }
+    },
     "/api/reading/passages" : {
       "get" : {
         "operationId" : "passages",
@@ -103,7 +161,7 @@
     },
     "/api/reading/sessions" : {
       "post" : {
-        "operationId" : "start",
+        "operationId" : "start_1",
         "requestBody" : {
           "content" : {
             "application/json" : {
@@ -131,7 +189,7 @@
     },
     "/api/reading/sessions/{id}" : {
       "get" : {
-        "operationId" : "session",
+        "operationId" : "session_1",
         "parameters" : [ {
           "in" : "path",
           "name" : "id",
@@ -158,7 +216,7 @@
     },
     "/api/reading/sessions/{id}/result" : {
       "get" : {
-        "operationId" : "result",
+        "operationId" : "result_1",
         "parameters" : [ {
           "in" : "path",
           "name" : "id",
@@ -185,7 +243,7 @@
     },
     "/api/reading/sessions/{id}/submit" : {
       "post" : {
-        "operationId" : "submit",
+        "operationId" : "submit_1",
         "parameters" : [ {
           "in" : "path",
           "name" : "id",
@@ -218,6 +276,50 @@
           }
         },
         "tags" : [ "Reading" ]
+      }
+    },
+    "/api/settings" : {
+      "get" : {
+        "operationId" : "get",
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/SettingsDto"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "tags" : [ "Settings" ]
+      },
+      "put" : {
+        "operationId" : "update",
+        "requestBody" : {
+          "content" : {
+            "application/json" : {
+              "schema" : {
+                "$ref" : "#/components/schemas/SettingsDto"
+              }
+            }
+          },
+          "required" : true
+        },
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/SettingsDto"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "tags" : [ "Settings" ]
       }
     },
     "/api/system/health" : {
@@ -273,6 +375,195 @@
         },
         "tags" : [ "System" ]
       }
+    },
+    "/api/writing/attempts/{id}/regrade" : {
+      "post" : {
+        "operationId" : "regrade",
+        "parameters" : [ {
+          "in" : "path",
+          "name" : "id",
+          "required" : true,
+          "schema" : {
+            "type" : "integer",
+            "format" : "int64"
+          }
+        } ],
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/WritingResultView"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "tags" : [ "Writing" ]
+      }
+    },
+    "/api/writing/prompts" : {
+      "get" : {
+        "operationId" : "prompts",
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "type" : "array",
+                  "items" : {
+                    "$ref" : "#/components/schemas/WritingPromptSummary"
+                  }
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "tags" : [ "Writing" ]
+      }
+    },
+    "/api/writing/sessions" : {
+      "post" : {
+        "operationId" : "start",
+        "requestBody" : {
+          "content" : {
+            "application/json" : {
+              "schema" : {
+                "$ref" : "#/components/schemas/WritingStartRequest"
+              }
+            }
+          },
+          "required" : true
+        },
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/WritingSessionView"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "tags" : [ "Writing" ]
+      }
+    },
+    "/api/writing/sessions/{id}" : {
+      "get" : {
+        "operationId" : "session",
+        "parameters" : [ {
+          "in" : "path",
+          "name" : "id",
+          "required" : true,
+          "schema" : {
+            "type" : "integer",
+            "format" : "int64"
+          }
+        } ],
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/WritingSessionView"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "tags" : [ "Writing" ]
+      }
+    },
+    "/api/writing/sessions/{id}/result" : {
+      "get" : {
+        "operationId" : "result",
+        "parameters" : [ {
+          "in" : "path",
+          "name" : "id",
+          "required" : true,
+          "schema" : {
+            "type" : "integer",
+            "format" : "int64"
+          }
+        } ],
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/WritingResultView"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "tags" : [ "Writing" ]
+      }
+    },
+    "/api/writing/sessions/{id}/submit" : {
+      "post" : {
+        "operationId" : "submit",
+        "parameters" : [ {
+          "in" : "path",
+          "name" : "id",
+          "required" : true,
+          "schema" : {
+            "type" : "integer",
+            "format" : "int64"
+          }
+        } ],
+        "requestBody" : {
+          "content" : {
+            "application/json" : {
+              "schema" : {
+                "$ref" : "#/components/schemas/WritingSubmitRequest"
+              }
+            }
+          },
+          "required" : true
+        },
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/WritingResultView"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "tags" : [ "Writing" ]
+      }
+    },
+    "/api/writing/topic-coverage" : {
+      "get" : {
+        "operationId" : "topicCoverage",
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "type" : "object",
+                  "additionalProperties" : {
+                    "type" : "integer",
+                    "format" : "int32"
+                  }
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "tags" : [ "Writing" ]
+      }
     }
   },
   "components" : {
@@ -290,6 +581,50 @@
           }
         },
         "required" : [ "currentPassword", "newPassword" ]
+      },
+      "ChartSeries" : {
+        "type" : "object",
+        "properties" : {
+          "name" : {
+            "type" : "string"
+          },
+          "values" : {
+            "type" : "array",
+            "items" : {
+              "type" : "number",
+              "format" : "double"
+            }
+          }
+        },
+        "required" : [ "name", "values" ]
+      },
+      "CriterionBand" : {
+        "type" : "object",
+        "properties" : {
+          "band" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "criterion" : {
+            "type" : "string"
+          },
+          "justification" : {
+            "type" : "string"
+          },
+          "strengths" : {
+            "type" : "array",
+            "items" : {
+              "type" : "string"
+            }
+          },
+          "weaknesses" : {
+            "type" : "array",
+            "items" : {
+              "type" : "string"
+            }
+          }
+        },
+        "required" : [ "band", "criterion", "justification", "strengths", "weaknesses" ]
       },
       "DiagramEdge" : {
         "type" : "object",
@@ -346,6 +681,132 @@
           }
         },
         "required" : [ "edges", "nodes", "title" ]
+      },
+      "ErrorEntryView" : {
+        "type" : "object",
+        "default" : null,
+        "properties" : {
+          "attemptId" : {
+            "type" : "integer",
+            "format" : "int64"
+          },
+          "correction" : {
+            "type" : [ "string", "null" ],
+            "default" : ""
+          },
+          "createdAt" : {
+            "type" : "string",
+            "format" : "date-time"
+          },
+          "explanation" : {
+            "type" : [ "string", "null" ],
+            "default" : ""
+          },
+          "grammarArea" : {
+            "type" : [ "string", "null" ],
+            "default" : ""
+          },
+          "id" : {
+            "type" : "integer",
+            "format" : "int64"
+          },
+          "module" : {
+            "type" : "string"
+          },
+          "original" : {
+            "type" : "string"
+          },
+          "resolvedAt" : {
+            "type" : [ "string", "null" ],
+            "format" : "date-time",
+            "default" : ""
+          },
+          "subtype" : {
+            "type" : "string"
+          },
+          "type" : {
+            "type" : "string"
+          }
+        },
+        "required" : [ "attemptId", "correction", "createdAt", "explanation", "grammarArea", "id", "module", "original", "resolvedAt", "subtype", "type" ]
+      },
+      "ErrorSubtypeStats" : {
+        "type" : "object",
+        "default" : null,
+        "properties" : {
+          "area" : {
+            "type" : [ "string", "null" ],
+            "default" : ""
+          },
+          "examples" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/components/schemas/Example"
+            }
+          },
+          "first_seen" : {
+            "type" : "string",
+            "format" : "date-time"
+          },
+          "last_seen" : {
+            "type" : "string",
+            "format" : "date-time"
+          },
+          "previous" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "recent" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "resolved" : {
+            "type" : "boolean"
+          },
+          "score" : {
+            "type" : "number",
+            "format" : "double"
+          },
+          "subtype" : {
+            "type" : "string"
+          },
+          "total" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "trend" : {
+            "type" : "string",
+            "enum" : [ "NEW", "WORSENING", "IMPROVING", "STABLE", "RESOLVED" ]
+          },
+          "type" : {
+            "type" : "string"
+          },
+          "unresolved" : {
+            "type" : "integer",
+            "format" : "int32"
+          }
+        },
+        "required" : [ "area", "examples", "first_seen", "last_seen", "previous", "recent", "resolved", "score", "subtype", "total", "trend", "type", "unresolved" ]
+      },
+      "Example" : {
+        "type" : "object",
+        "properties" : {
+          "attempt_id" : {
+            "type" : "integer",
+            "format" : "int64"
+          },
+          "correction" : {
+            "type" : "string"
+          },
+          "error_id" : {
+            "type" : "integer",
+            "format" : "int64"
+          },
+          "original" : {
+            "type" : "string"
+          }
+        },
+        "required" : [ "attempt_id", "correction", "error_id", "original" ]
       },
       "FlaggedWordRequest" : {
         "type" : "object",
@@ -406,6 +867,49 @@
         "required" : [ "email", "password" ]
       },
       "MapFeature" : {
+        "type" : "object",
+        "properties" : {
+          "h" : {
+            "type" : "number",
+            "format" : "double"
+          },
+          "kind" : {
+            "type" : "string"
+          },
+          "label" : {
+            "type" : "string"
+          },
+          "w" : {
+            "type" : "number",
+            "format" : "double"
+          },
+          "x" : {
+            "type" : "number",
+            "format" : "double"
+          },
+          "y" : {
+            "type" : "number",
+            "format" : "double"
+          }
+        },
+        "required" : [ "h", "kind", "label", "w", "x", "y" ]
+      },
+      "MapFigure" : {
+        "type" : "object",
+        "properties" : {
+          "features" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/components/schemas/MapFigureFeature"
+            }
+          },
+          "title" : {
+            "type" : "string"
+          }
+        },
+        "required" : [ "features", "title" ]
+      },
+      "MapFigureFeature" : {
         "type" : "object",
         "properties" : {
           "h" : {
@@ -494,6 +998,22 @@
           }
         },
         "required" : [ "label", "text" ]
+      },
+      "ProcessStep" : {
+        "type" : "object",
+        "properties" : {
+          "description" : {
+            "type" : "string"
+          },
+          "label" : {
+            "type" : "string"
+          },
+          "step" : {
+            "type" : "integer",
+            "format" : "int32"
+          }
+        },
+        "required" : [ "description", "label", "step" ]
       },
       "Question" : {
         "type" : "object",
@@ -934,6 +1454,58 @@
           }
         }
       },
+      "SettingsDto" : {
+        "type" : "object",
+        "properties" : {
+          "audioMode" : {
+            "type" : "string",
+            "enum" : [ "BROWSER", "SERVICE" ]
+          },
+          "currentBand" : {
+            "type" : "number",
+            "maximum" : 9.0,
+            "minimum" : 1.0
+          },
+          "dailyStudyMinutes" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "examType" : {
+            "type" : "string",
+            "enum" : [ "ACADEMIC", "GENERAL", "BOTH" ]
+          },
+          "listeningReadingSeconds" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "listeningTransferMinutes" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "onboardingDone" : {
+            "type" : "boolean"
+          },
+          "resolvedAfterPieces" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "speechRate" : {
+            "type" : "number",
+            "format" : "double"
+          },
+          "targetBand" : {
+            "type" : "number",
+            "maximum" : 9.0,
+            "minimum" : 1.0
+          },
+          "testDate" : {
+            "type" : [ "string", "null" ],
+            "format" : "date",
+            "default" : ""
+          }
+        },
+        "required" : [ "audioMode", "currentBand", "dailyStudyMinutes", "examType", "listeningReadingSeconds", "listeningTransferMinutes", "onboardingDone", "resolvedAfterPieces", "speechRate", "targetBand", "testDate" ]
+      },
       "SpendStatus" : {
         "type" : "object",
         "default" : null,
@@ -1014,6 +1586,150 @@
         },
         "required" : [ "columns", "rows", "title" ]
       },
+      "TaggedError" : {
+        "type" : "object",
+        "properties" : {
+          "correction" : {
+            "type" : "string"
+          },
+          "explanation" : {
+            "type" : "string"
+          },
+          "original" : {
+            "type" : "string"
+          },
+          "subtype" : {
+            "type" : "string"
+          },
+          "type" : {
+            "type" : "string"
+          }
+        },
+        "required" : [ "correction", "explanation", "original", "subtype", "type" ]
+      },
+      "Task1Academic" : {
+        "type" : "object",
+        "properties" : {
+          "categories" : {
+            "type" : "array",
+            "items" : {
+              "type" : "string"
+            }
+          },
+          "chart_type" : {
+            "type" : "string"
+          },
+          "figure_title" : {
+            "type" : "string"
+          },
+          "key_features" : {
+            "type" : "array",
+            "items" : {
+              "type" : "string"
+            }
+          },
+          "maps" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/components/schemas/MapFigure"
+            }
+          },
+          "process_is_cycle" : {
+            "type" : "boolean"
+          },
+          "process_steps" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/components/schemas/ProcessStep"
+            }
+          },
+          "prompt" : {
+            "type" : "string"
+          },
+          "series" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/components/schemas/ChartSeries"
+            }
+          },
+          "topic" : {
+            "type" : "string"
+          },
+          "units" : {
+            "type" : "string"
+          },
+          "x_label" : {
+            "type" : "string"
+          },
+          "y_label" : {
+            "type" : "string"
+          }
+        },
+        "required" : [ "categories", "chart_type", "figure_title", "key_features", "maps", "process_is_cycle", "process_steps", "prompt", "series", "topic", "units", "x_label", "y_label" ]
+      },
+      "Task1General" : {
+        "type" : "object",
+        "properties" : {
+          "bullet_points" : {
+            "type" : "array",
+            "items" : {
+              "type" : "string"
+            }
+          },
+          "key_features" : {
+            "type" : "array",
+            "items" : {
+              "type" : "string"
+            }
+          },
+          "letter_type" : {
+            "type" : "string"
+          },
+          "prompt" : {
+            "type" : "string"
+          },
+          "recipient" : {
+            "type" : "string"
+          },
+          "situation" : {
+            "type" : "string"
+          },
+          "topic" : {
+            "type" : "string"
+          }
+        },
+        "required" : [ "bullet_points", "key_features", "letter_type", "prompt", "recipient", "situation", "topic" ]
+      },
+      "Task2" : {
+        "type" : "object",
+        "properties" : {
+          "essay_type" : {
+            "type" : "string"
+          },
+          "key_features" : {
+            "type" : "array",
+            "items" : {
+              "type" : "string"
+            }
+          },
+          "prompt" : {
+            "type" : "string"
+          },
+          "question" : {
+            "type" : "string"
+          },
+          "statement" : {
+            "type" : "string"
+          },
+          "subtopic" : {
+            "type" : "string"
+          },
+          "topic" : {
+            "type" : "string"
+          }
+        },
+        "required" : [ "essay_type", "key_features", "prompt", "question", "statement", "subtopic", "topic" ]
+      },
       "TokenResponse" : {
         "type" : "object",
         "properties" : {
@@ -1032,6 +1748,344 @@
           }
         },
         "required" : [ "email", "expiresAt", "role", "token" ]
+      },
+      "VocabUpgrade" : {
+        "type" : "object",
+        "properties" : {
+          "better" : {
+            "type" : "string"
+          },
+          "example" : {
+            "type" : "string"
+          },
+          "original" : {
+            "type" : "string"
+          }
+        },
+        "required" : [ "better", "example", "original" ]
+      },
+      "WritingAttemptView" : {
+        "type" : "object",
+        "default" : null,
+        "properties" : {
+          "attemptId" : {
+            "type" : "integer",
+            "format" : "int64"
+          },
+          "band" : {
+            "type" : [ "number", "null" ],
+            "format" : "double",
+            "default" : ""
+          },
+          "criteriaBands" : {
+            "type" : [ "object", "null" ],
+            "additionalProperties" : {
+              "type" : "integer",
+              "format" : "int32"
+            },
+            "default" : ""
+          },
+          "error" : {
+            "type" : [ "string", "null" ],
+            "default" : ""
+          },
+          "grade" : {
+            "type" : "null",
+            "$ref" : "#/components/schemas/WritingGrade",
+            "default" : ""
+          },
+          "gradedAt" : {
+            "type" : [ "string", "null" ],
+            "format" : "date-time",
+            "default" : ""
+          },
+          "itemId" : {
+            "type" : "integer",
+            "format" : "int64"
+          },
+          "secondsSpent" : {
+            "type" : [ "integer", "null" ],
+            "format" : "int32",
+            "default" : ""
+          },
+          "status" : {
+            "type" : "string"
+          },
+          "submittedAt" : {
+            "type" : "string",
+            "format" : "date-time"
+          },
+          "task" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "taskType" : {
+            "type" : "string"
+          },
+          "text" : {
+            "type" : "string"
+          },
+          "wordCount" : {
+            "type" : "integer",
+            "format" : "int32"
+          }
+        },
+        "required" : [ "attemptId", "band", "criteriaBands", "error", "grade", "gradedAt", "itemId", "secondsSpent", "status", "submittedAt", "task", "taskType", "text", "wordCount" ]
+      },
+      "WritingGrade" : {
+        "type" : "object",
+        "properties" : {
+          "criteria" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/components/schemas/CriterionBand"
+            }
+          },
+          "errors" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/components/schemas/TaggedError"
+            }
+          },
+          "improvements" : {
+            "type" : "array",
+            "items" : {
+              "type" : "string"
+            }
+          },
+          "model_answer" : {
+            "type" : "string"
+          },
+          "overall_comment" : {
+            "type" : "string"
+          },
+          "vocabulary_upgrades" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/components/schemas/VocabUpgrade"
+            }
+          },
+          "word_count_comment" : {
+            "type" : "string"
+          }
+        },
+        "required" : [ "criteria", "errors", "improvements", "model_answer", "overall_comment", "vocabulary_upgrades", "word_count_comment" ]
+      },
+      "WritingPromptSummary" : {
+        "type" : "object",
+        "default" : null,
+        "properties" : {
+          "id" : {
+            "type" : "integer",
+            "format" : "int64"
+          },
+          "origin" : {
+            "type" : "string"
+          },
+          "taskType" : {
+            "type" : "string"
+          },
+          "timesServed" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "title" : {
+            "type" : [ "string", "null" ],
+            "default" : ""
+          },
+          "topic" : {
+            "type" : [ "string", "null" ],
+            "default" : ""
+          },
+          "variant" : {
+            "type" : [ "string", "null" ],
+            "default" : ""
+          }
+        },
+        "required" : [ "id", "origin", "taskType", "timesServed", "title", "topic", "variant" ]
+      },
+      "WritingResponseRequest" : {
+        "type" : "object",
+        "default" : null,
+        "properties" : {
+          "itemId" : {
+            "type" : "integer",
+            "format" : "int64"
+          },
+          "secondsSpent" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "text" : {
+            "type" : "string"
+          }
+        }
+      },
+      "WritingResultView" : {
+        "type" : "object",
+        "default" : null,
+        "properties" : {
+          "attempts" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/components/schemas/WritingAttemptView"
+            }
+          },
+          "bandIsEstimate" : {
+            "type" : "boolean"
+          },
+          "kind" : {
+            "type" : "string",
+            "enum" : [ "READING_TEST", "READING_PASSAGE", "LISTENING_TEST", "LISTENING_SECTION", "WRITING_TASK1", "WRITING_TASK2", "WRITING_TEST", "SPEAKING_TEST", "SPEAKING_PART", "GRAMMAR_DIAGNOSTIC", "GRAMMAR_EXERCISE", "GRAMMAR_ERROR_DRILL", "VOCAB_REVIEW" ]
+          },
+          "mode" : {
+            "type" : "string",
+            "enum" : [ "PRACTICE", "EXAM" ]
+          },
+          "sessionId" : {
+            "type" : "integer",
+            "format" : "int64"
+          },
+          "status" : {
+            "type" : "string"
+          },
+          "tasks" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/components/schemas/WritingTaskView"
+            }
+          },
+          "timeLimitSeconds" : {
+            "type" : [ "integer", "null" ],
+            "format" : "int32",
+            "default" : ""
+          },
+          "timeUsedSeconds" : {
+            "type" : [ "integer", "null" ],
+            "format" : "int32",
+            "default" : ""
+          },
+          "writingBand" : {
+            "type" : [ "number", "null" ],
+            "format" : "double",
+            "default" : ""
+          }
+        },
+        "required" : [ "attempts", "bandIsEstimate", "kind", "mode", "sessionId", "status", "tasks", "timeLimitSeconds", "timeUsedSeconds", "writingBand" ]
+      },
+      "WritingSessionView" : {
+        "type" : "object",
+        "default" : null,
+        "properties" : {
+          "kind" : {
+            "type" : "string",
+            "enum" : [ "READING_TEST", "READING_PASSAGE", "LISTENING_TEST", "LISTENING_SECTION", "WRITING_TASK1", "WRITING_TASK2", "WRITING_TEST", "SPEAKING_TEST", "SPEAKING_PART", "GRAMMAR_DIAGNOSTIC", "GRAMMAR_EXERCISE", "GRAMMAR_ERROR_DRILL", "VOCAB_REVIEW" ]
+          },
+          "mode" : {
+            "type" : "string",
+            "enum" : [ "PRACTICE", "EXAM" ]
+          },
+          "sessionId" : {
+            "type" : "integer",
+            "format" : "int64"
+          },
+          "startedAt" : {
+            "type" : "string",
+            "format" : "date-time"
+          },
+          "status" : {
+            "type" : "string"
+          },
+          "tasks" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/components/schemas/WritingTaskView"
+            }
+          },
+          "timeLimitSeconds" : {
+            "type" : [ "integer", "null" ],
+            "format" : "int32",
+            "default" : ""
+          }
+        },
+        "required" : [ "kind", "mode", "sessionId", "startedAt", "status", "tasks", "timeLimitSeconds" ]
+      },
+      "WritingStartRequest" : {
+        "type" : "object",
+        "default" : null,
+        "properties" : {
+          "itemId" : {
+            "type" : "integer",
+            "format" : "int64"
+          },
+          "mode" : {
+            "type" : "string",
+            "enum" : [ "PRACTICE", "EXAM" ]
+          },
+          "scope" : {
+            "type" : "string",
+            "enum" : [ "TASK1", "TASK2", "TEST" ],
+            "default" : null
+          }
+        },
+        "required" : [ "mode", "scope" ]
+      },
+      "WritingSubmitRequest" : {
+        "type" : "object",
+        "default" : null,
+        "properties" : {
+          "responses" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/components/schemas/WritingResponseRequest"
+            }
+          },
+          "timeUsedSeconds" : {
+            "type" : "integer",
+            "format" : "int32"
+          }
+        }
+      },
+      "WritingTaskView" : {
+        "type" : "object",
+        "default" : null,
+        "properties" : {
+          "itemId" : {
+            "type" : "integer",
+            "format" : "int64"
+          },
+          "minWords" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "minutes" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "task" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "task1Academic" : {
+            "type" : "null",
+            "$ref" : "#/components/schemas/Task1Academic",
+            "default" : ""
+          },
+          "task1General" : {
+            "type" : "null",
+            "$ref" : "#/components/schemas/Task1General",
+            "default" : ""
+          },
+          "task2" : {
+            "type" : "null",
+            "$ref" : "#/components/schemas/Task2",
+            "default" : ""
+          },
+          "taskType" : {
+            "type" : "string"
+          }
+        },
+        "required" : [ "itemId", "minWords", "minutes", "task", "task1Academic", "task1General", "task2", "taskType" ]
       }
     },
     "securitySchemes" : {
