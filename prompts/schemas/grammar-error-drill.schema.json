@@ -1,0 +1,158 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "grammar-error-drill",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "subtype",
+    "area",
+    "rule",
+    "own_sentence",
+    "own_sentence_corrections",
+    "own_sentence_explanation",
+    "fresh_items"
+  ],
+  "properties": {
+    "subtype": {
+      "type": "string",
+      "enum": [
+        "tense_choice",
+        "present_perfect_vs_past_simple",
+        "tense_consistency",
+        "future_forms",
+        "verb_form",
+        "subject_verb_agreement",
+        "article_missing",
+        "article_unnecessary",
+        "article_wrong",
+        "relative_clause",
+        "subordinate_clause",
+        "noun_clause",
+        "conditional_form",
+        "hypothetical_language",
+        "passive_form",
+        "active_passive_choice",
+        "modal_verb",
+        "hedging",
+        "comparative_superlative",
+        "trend_language",
+        "linking_word_misuse",
+        "linking_punctuation",
+        "reference_pronoun",
+        "reported_speech",
+        "inversion",
+        "cleft_sentence",
+        "participle_clause",
+        "preposition",
+        "dependent_preposition",
+        "phrasal_verb",
+        "comma_splice",
+        "run_on_sentence",
+        "sentence_fragment",
+        "comma_usage",
+        "apostrophe",
+        "capitalisation",
+        "countable_uncountable",
+        "quantifier",
+        "plural_form",
+        "word_form",
+        "participle_adjective",
+        "prefix_suffix"
+      ]
+    },
+    "area": {
+      "type": "string",
+      "enum": [
+        "TENSE_ASPECT",
+        "AGREEMENT_ARTICLES",
+        "COMPLEX_SENTENCES",
+        "CONDITIONALS",
+        "PASSIVE_VOICE",
+        "MODALS_HEDGING",
+        "COMPARISON_TRENDS",
+        "COHESION_LINKING",
+        "ADVANCED_STRUCTURES",
+        "PREPOSITIONS_PHRASAL",
+        "PUNCTUATION",
+        "COUNTABILITY_QUANTIFIERS",
+        "WORD_FORMATION"
+      ]
+    },
+    "rule": {
+      "type": "string",
+      "description": "The rule in plain English, 2–4 sentences, aimed at this candidate's specific mistake."
+    },
+    "own_sentence": {
+      "type": "string",
+      "description": "The candidate's own sentence containing the error, copied exactly as given."
+    },
+    "own_sentence_corrections": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Acceptable corrected versions of the whole sentence (minimal changes)."
+    },
+    "own_sentence_explanation": {
+      "type": "string"
+    },
+    "fresh_items": {
+      "type": "array",
+      "description": "Exactly three NEW items testing the same rule in IELTS contexts (Task 1, Task 2, Speaking Part 3).",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "prompt",
+          "options",
+          "accepted_answers",
+          "model_answer",
+          "check_mode",
+          "explanation"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "\"1\", \"2\"…"
+          },
+          "prompt": {
+            "type": "string",
+            "description": "What the candidate sees: a sentence with ___ gap, a sentence containing exactly one error, an original sentence plus transformation cue, sentences to combine, a band-5 sentence to upgrade, or a free-writing task."
+          },
+          "options": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Choices for gap-fill when multiple choice; empty for open answers."
+          },
+          "accepted_answers": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "GAP_FILL: the word(s) for the gap. Other types: full corrected/target sentences. May be empty for FREE_WRITING."
+          },
+          "model_answer": {
+            "type": "string",
+            "description": "Best answer shown after submission."
+          },
+          "check_mode": {
+            "type": "string",
+            "enum": [
+              "EXACT",
+              "EXACT_OR_AI",
+              "AI"
+            ],
+            "description": "EXACT for closed gap-fills; EXACT_OR_AI when several phrasings are valid; AI for upgrade/free-writing."
+          },
+          "explanation": {
+            "type": "string",
+            "description": "Why, referencing the rule."
+          }
+        }
+      }
+    }
+  }
+}

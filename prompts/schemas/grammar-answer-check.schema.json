@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "grammar-answer-check",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "results"
+  ],
+  "properties": {
+    "results": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "correct",
+          "feedback",
+          "improved_version"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "correct": {
+            "type": "boolean",
+            "description": "true if the answer is grammatically correct AND does what the task asked (uses the target structure, keeps the meaning)."
+          },
+          "feedback": {
+            "type": "string",
+            "description": "One or two sentences: what is right or wrong, naming the rule."
+          },
+          "improved_version": {
+            "type": "string",
+            "description": "The candidate's answer corrected/improved with minimal changes (or the same answer if already correct)."
+          }
+        }
+      }
+    }
+  }
+}

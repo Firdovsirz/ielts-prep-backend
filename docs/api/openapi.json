@@ -138,6 +138,339 @@
         "tags" : [ "Error log" ]
       }
     },
+    "/api/grammar" : {
+      "get" : {
+        "operationId" : "overview",
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/GrammarOverview"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "tags" : [ "Grammar" ]
+      }
+    },
+    "/api/grammar/areas/{area}" : {
+      "get" : {
+        "operationId" : "area",
+        "parameters" : [ {
+          "in" : "path",
+          "name" : "area",
+          "required" : true,
+          "schema" : {
+            "type" : "string"
+          }
+        } ],
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/GrammarAreaDetail"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "tags" : [ "Grammar" ]
+      }
+    },
+    "/api/grammar/areas/{area}/generate" : {
+      "post" : {
+        "operationId" : "generate",
+        "parameters" : [ {
+          "in" : "path",
+          "name" : "area",
+          "required" : true,
+          "schema" : {
+            "type" : "string"
+          }
+        } ],
+        "responses" : {
+          "202" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/GenerationQueued"
+                }
+              }
+            },
+            "description" : "Accepted"
+          }
+        },
+        "tags" : [ "Grammar" ]
+      }
+    },
+    "/api/grammar/diagnostic" : {
+      "post" : {
+        "operationId" : "startDiagnostic",
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/DiagnosticView"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "tags" : [ "Grammar" ]
+      }
+    },
+    "/api/grammar/diagnostic/{id}" : {
+      "get" : {
+        "operationId" : "getDiagnostic",
+        "parameters" : [ {
+          "in" : "path",
+          "name" : "id",
+          "required" : true,
+          "schema" : {
+            "type" : "integer",
+            "format" : "int64"
+          }
+        } ],
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/DiagnosticView"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "tags" : [ "Grammar" ]
+      }
+    },
+    "/api/grammar/diagnostic/{id}/answer" : {
+      "post" : {
+        "operationId" : "answer",
+        "parameters" : [ {
+          "in" : "path",
+          "name" : "id",
+          "required" : true,
+          "schema" : {
+            "type" : "integer",
+            "format" : "int64"
+          }
+        } ],
+        "requestBody" : {
+          "content" : {
+            "application/json" : {
+              "schema" : {
+                "$ref" : "#/components/schemas/DiagnosticAnswerRequest"
+              }
+            }
+          },
+          "required" : true
+        },
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/DiagnosticAnswerResult"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "tags" : [ "Grammar" ]
+      }
+    },
+    "/api/grammar/error-practice/{subtype}/start" : {
+      "post" : {
+        "operationId" : "startDrill",
+        "parameters" : [ {
+          "in" : "path",
+          "name" : "subtype",
+          "required" : true,
+          "schema" : {
+            "type" : "string"
+          }
+        } ],
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/GrammarExerciseSessionView"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "tags" : [ "Grammar" ]
+      }
+    },
+    "/api/grammar/exercises/{itemId}/start" : {
+      "post" : {
+        "operationId" : "startExercise",
+        "parameters" : [ {
+          "in" : "path",
+          "name" : "itemId",
+          "required" : true,
+          "schema" : {
+            "type" : "integer",
+            "format" : "int64"
+          }
+        } ],
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/GrammarExerciseSessionView"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "tags" : [ "Grammar" ]
+      }
+    },
+    "/api/grammar/sessions/{id}" : {
+      "get" : {
+        "operationId" : "session_2",
+        "parameters" : [ {
+          "in" : "path",
+          "name" : "id",
+          "required" : true,
+          "schema" : {
+            "type" : "integer",
+            "format" : "int64"
+          }
+        } ],
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/GrammarExerciseSessionView"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "tags" : [ "Grammar" ]
+      }
+    },
+    "/api/grammar/sessions/{id}/result" : {
+      "get" : {
+        "operationId" : "result_2",
+        "parameters" : [ {
+          "in" : "path",
+          "name" : "id",
+          "required" : true,
+          "schema" : {
+            "type" : "integer",
+            "format" : "int64"
+          }
+        } ],
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/GrammarResultView"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "tags" : [ "Grammar" ]
+      }
+    },
+    "/api/grammar/sessions/{id}/self-assess" : {
+      "post" : {
+        "operationId" : "selfAssess",
+        "parameters" : [ {
+          "in" : "path",
+          "name" : "id",
+          "required" : true,
+          "schema" : {
+            "type" : "integer",
+            "format" : "int64"
+          }
+        } ],
+        "requestBody" : {
+          "content" : {
+            "application/json" : {
+              "schema" : {
+                "$ref" : "#/components/schemas/GrammarSelfAssessRequest"
+              }
+            }
+          },
+          "required" : true
+        },
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/GrammarResultView"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "tags" : [ "Grammar" ]
+      }
+    },
+    "/api/grammar/sessions/{id}/submit" : {
+      "post" : {
+        "operationId" : "submit_2",
+        "parameters" : [ {
+          "in" : "path",
+          "name" : "id",
+          "required" : true,
+          "schema" : {
+            "type" : "integer",
+            "format" : "int64"
+          }
+        } ],
+        "requestBody" : {
+          "content" : {
+            "application/json" : {
+              "schema" : {
+                "$ref" : "#/components/schemas/GrammarSubmitRequest"
+              }
+            }
+          },
+          "required" : true
+        },
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/GrammarResultView"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "tags" : [ "Grammar" ]
+      }
+    },
     "/api/reading/passages" : {
       "get" : {
         "operationId" : "passages",
@@ -598,6 +931,21 @@
         },
         "required" : [ "name", "values" ]
       },
+      "CommonMistake" : {
+        "type" : "object",
+        "properties" : {
+          "right" : {
+            "type" : "string"
+          },
+          "why" : {
+            "type" : "string"
+          },
+          "wrong" : {
+            "type" : "string"
+          }
+        },
+        "required" : [ "right", "why", "wrong" ]
+      },
       "CriterionBand" : {
         "type" : "object",
         "properties" : {
@@ -625,6 +973,113 @@
           }
         },
         "required" : [ "band", "criterion", "justification", "strengths", "weaknesses" ]
+      },
+      "DiagnosticAnswerRequest" : {
+        "type" : "object",
+        "default" : null,
+        "properties" : {
+          "answer" : {
+            "type" : "string"
+          },
+          "questionId" : {
+            "type" : "string"
+          }
+        }
+      },
+      "DiagnosticAnswerResult" : {
+        "type" : "object",
+        "default" : null,
+        "properties" : {
+          "correct" : {
+            "type" : "boolean"
+          },
+          "correctAnswer" : {
+            "type" : "string"
+          },
+          "explanation" : {
+            "type" : "string"
+          },
+          "next" : {
+            "$ref" : "#/components/schemas/DiagnosticView"
+          }
+        },
+        "required" : [ "correct", "correctAnswer", "explanation", "next" ]
+      },
+      "DiagnosticOption" : {
+        "type" : "object",
+        "properties" : {
+          "key" : {
+            "type" : "string"
+          },
+          "text" : {
+            "type" : "string"
+          }
+        },
+        "required" : [ "key", "text" ]
+      },
+      "DiagnosticQuestionView" : {
+        "type" : "object",
+        "default" : null,
+        "properties" : {
+          "area" : {
+            "type" : "string"
+          },
+          "areaName" : {
+            "type" : "string"
+          },
+          "id" : {
+            "type" : "string"
+          },
+          "level" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "options" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/components/schemas/DiagnosticOption"
+            }
+          },
+          "prompt" : {
+            "type" : "string"
+          }
+        },
+        "required" : [ "area", "areaName", "id", "level", "options", "prompt" ]
+      },
+      "DiagnosticView" : {
+        "type" : "object",
+        "default" : null,
+        "properties" : {
+          "asked" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "diagnosticId" : {
+            "type" : "integer",
+            "format" : "int64"
+          },
+          "question" : {
+            "type" : "null",
+            "$ref" : "#/components/schemas/DiagnosticQuestionView",
+            "default" : ""
+          },
+          "scores" : {
+            "type" : [ "object", "null" ],
+            "additionalProperties" : {
+              "type" : "number",
+              "format" : "double"
+            },
+            "default" : ""
+          },
+          "status" : {
+            "type" : "string"
+          },
+          "total" : {
+            "type" : "integer",
+            "format" : "int32"
+          }
+        },
+        "required" : [ "asked", "diagnosticId", "question", "scores", "status", "total" ]
       },
       "DiagramEdge" : {
         "type" : "object",
@@ -808,6 +1263,39 @@
         },
         "required" : [ "attempt_id", "correction", "error_id", "original" ]
       },
+      "ExerciseItem" : {
+        "type" : "object",
+        "properties" : {
+          "accepted_answers" : {
+            "type" : "array",
+            "items" : {
+              "type" : "string"
+            }
+          },
+          "check_mode" : {
+            "type" : "string"
+          },
+          "explanation" : {
+            "type" : "string"
+          },
+          "id" : {
+            "type" : "string"
+          },
+          "model_answer" : {
+            "type" : "string"
+          },
+          "options" : {
+            "type" : "array",
+            "items" : {
+              "type" : "string"
+            }
+          },
+          "prompt" : {
+            "type" : "string"
+          }
+        },
+        "required" : [ "accepted_answers", "check_mode", "explanation", "id", "model_answer", "options", "prompt" ]
+      },
       "FlaggedWordRequest" : {
         "type" : "object",
         "default" : null,
@@ -824,6 +1312,391 @@
           }
         }
       },
+      "GenerationQueued" : {
+        "type" : "object",
+        "properties" : {
+          "message" : {
+            "type" : "string"
+          }
+        },
+        "required" : [ "message" ]
+      },
+      "GrammarAreaDetail" : {
+        "type" : "object",
+        "default" : null,
+        "properties" : {
+          "area" : {
+            "$ref" : "#/components/schemas/GrammarAreaSummary"
+          },
+          "lesson" : {
+            "type" : "null",
+            "$ref" : "#/components/schemas/Lesson",
+            "default" : ""
+          },
+          "recentErrors" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/components/schemas/GrammarErrorExample"
+            }
+          },
+          "sets" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/components/schemas/GrammarExerciseSetSummary"
+            }
+          }
+        },
+        "required" : [ "area", "lesson", "recentErrors", "sets" ]
+      },
+      "GrammarAreaSummary" : {
+        "type" : "object",
+        "default" : null,
+        "properties" : {
+          "accuracy" : {
+            "type" : "number",
+            "format" : "double"
+          },
+          "diagnosticScore" : {
+            "type" : [ "number", "null" ],
+            "format" : "double",
+            "default" : ""
+          },
+          "drillsDone" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "exerciseSets" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "focus" : {
+            "type" : "string"
+          },
+          "key" : {
+            "type" : "string"
+          },
+          "lastTested" : {
+            "type" : [ "string", "null" ],
+            "format" : "date-time",
+            "default" : ""
+          },
+          "lessonItemId" : {
+            "type" : [ "integer", "null" ],
+            "format" : "int64",
+            "default" : ""
+          },
+          "name" : {
+            "type" : "string"
+          },
+          "openErrors" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "proficiency" : {
+            "type" : [ "number", "null" ],
+            "format" : "double",
+            "default" : ""
+          },
+          "questionsAnswered" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "recommended" : {
+            "type" : "boolean"
+          }
+        },
+        "required" : [ "accuracy", "diagnosticScore", "drillsDone", "exerciseSets", "focus", "key", "lastTested", "lessonItemId", "name", "openErrors", "proficiency", "questionsAnswered", "recommended" ]
+      },
+      "GrammarErrorExample" : {
+        "type" : "object",
+        "default" : null,
+        "properties" : {
+          "correction" : {
+            "type" : [ "string", "null" ],
+            "default" : ""
+          },
+          "createdAt" : {
+            "type" : "string",
+            "format" : "date-time"
+          },
+          "errorId" : {
+            "type" : "integer",
+            "format" : "int64"
+          },
+          "explanation" : {
+            "type" : [ "string", "null" ],
+            "default" : ""
+          },
+          "original" : {
+            "type" : "string"
+          },
+          "subtype" : {
+            "type" : "string"
+          }
+        },
+        "required" : [ "correction", "createdAt", "errorId", "explanation", "original", "subtype" ]
+      },
+      "GrammarErrorPracticeRow" : {
+        "type" : "object",
+        "default" : null,
+        "properties" : {
+          "area" : {
+            "type" : [ "string", "null" ],
+            "default" : ""
+          },
+          "areaName" : {
+            "type" : [ "string", "null" ],
+            "default" : ""
+          },
+          "drillReady" : {
+            "type" : "boolean"
+          },
+          "examples" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/components/schemas/Example"
+            }
+          },
+          "lastSeen" : {
+            "type" : "string",
+            "format" : "date-time"
+          },
+          "resolved" : {
+            "type" : "boolean"
+          },
+          "retest" : {
+            "type" : "boolean"
+          },
+          "subtype" : {
+            "type" : "string"
+          },
+          "total" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "trend" : {
+            "type" : "string"
+          },
+          "unresolved" : {
+            "type" : "integer",
+            "format" : "int32"
+          }
+        },
+        "required" : [ "area", "areaName", "drillReady", "examples", "lastSeen", "resolved", "retest", "subtype", "total", "trend", "unresolved" ]
+      },
+      "GrammarExerciseSessionView" : {
+        "type" : "object",
+        "default" : null,
+        "properties" : {
+          "area" : {
+            "type" : "string"
+          },
+          "areaName" : {
+            "type" : "string"
+          },
+          "exerciseType" : {
+            "type" : "string"
+          },
+          "instructions" : {
+            "type" : "string"
+          },
+          "items" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/components/schemas/ExerciseItem"
+            }
+          },
+          "kind" : {
+            "type" : "string"
+          },
+          "ownSentence" : {
+            "type" : [ "string", "null" ],
+            "default" : ""
+          },
+          "sessionId" : {
+            "type" : "integer",
+            "format" : "int64"
+          },
+          "status" : {
+            "type" : "string"
+          },
+          "title" : {
+            "type" : "string"
+          }
+        },
+        "required" : [ "area", "areaName", "exerciseType", "instructions", "items", "kind", "ownSentence", "sessionId", "status", "title" ]
+      },
+      "GrammarExerciseSetSummary" : {
+        "type" : "object",
+        "default" : null,
+        "properties" : {
+          "exerciseType" : {
+            "type" : "string"
+          },
+          "itemCount" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "itemId" : {
+            "type" : "integer",
+            "format" : "int64"
+          },
+          "lastScore" : {
+            "type" : [ "number", "null" ],
+            "format" : "double",
+            "default" : ""
+          },
+          "timesServed" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "title" : {
+            "type" : "string"
+          }
+        },
+        "required" : [ "exerciseType", "itemCount", "itemId", "lastScore", "timesServed", "title" ]
+      },
+      "GrammarItemResult" : {
+        "type" : "object",
+        "default" : null,
+        "properties" : {
+          "acceptedAnswers" : {
+            "type" : "array",
+            "items" : {
+              "type" : "string"
+            }
+          },
+          "correct" : {
+            "type" : [ "boolean", "null" ],
+            "default" : false
+          },
+          "explanation" : {
+            "type" : "string"
+          },
+          "feedback" : {
+            "type" : [ "string", "null" ],
+            "default" : ""
+          },
+          "given" : {
+            "type" : "string"
+          },
+          "id" : {
+            "type" : "string"
+          },
+          "improvedVersion" : {
+            "type" : [ "string", "null" ],
+            "default" : ""
+          },
+          "method" : {
+            "type" : "string"
+          },
+          "modelAnswer" : {
+            "type" : "string"
+          },
+          "prompt" : {
+            "type" : "string"
+          }
+        },
+        "required" : [ "acceptedAnswers", "correct", "explanation", "feedback", "given", "id", "improvedVersion", "method", "modelAnswer", "prompt" ]
+      },
+      "GrammarOverview" : {
+        "type" : "object",
+        "default" : null,
+        "properties" : {
+          "areas" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/components/schemas/GrammarAreaSummary"
+            }
+          },
+          "diagnosticDone" : {
+            "type" : "boolean"
+          },
+          "diagnosticInProgress" : {
+            "type" : [ "integer", "null" ],
+            "format" : "int64",
+            "default" : ""
+          },
+          "errorPatterns" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/components/schemas/GrammarErrorPracticeRow"
+            }
+          }
+        },
+        "required" : [ "areas", "diagnosticDone", "diagnosticInProgress", "errorPatterns" ]
+      },
+      "GrammarResultView" : {
+        "type" : "object",
+        "default" : null,
+        "properties" : {
+          "area" : {
+            "type" : "string"
+          },
+          "areaName" : {
+            "type" : "string"
+          },
+          "items" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/components/schemas/GrammarItemResult"
+            }
+          },
+          "kind" : {
+            "type" : "string"
+          },
+          "max" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "pending" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "proficiency" : {
+            "type" : [ "number", "null" ],
+            "format" : "double",
+            "default" : ""
+          },
+          "rule" : {
+            "type" : [ "string", "null" ],
+            "default" : ""
+          },
+          "score" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "sessionId" : {
+            "type" : "integer",
+            "format" : "int64"
+          }
+        },
+        "required" : [ "area", "areaName", "items", "kind", "max", "pending", "proficiency", "rule", "score", "sessionId" ]
+      },
+      "GrammarSelfAssessRequest" : {
+        "type" : "object",
+        "default" : null,
+        "properties" : {
+          "verdicts" : {
+            "type" : "object",
+            "additionalProperties" : {
+              "type" : "boolean"
+            }
+          }
+        }
+      },
+      "GrammarSubmitRequest" : {
+        "type" : "object",
+        "default" : null,
+        "properties" : {
+          "answers" : {
+            "type" : "object",
+            "additionalProperties" : {
+              "type" : "string"
+            }
+          }
+        }
+      },
       "Health" : {
         "type" : "object",
         "properties" : {
@@ -832,6 +1705,18 @@
           }
         },
         "required" : [ "status" ]
+      },
+      "IeltsExample" : {
+        "type" : "object",
+        "properties" : {
+          "context" : {
+            "type" : "string"
+          },
+          "sentence" : {
+            "type" : "string"
+          }
+        },
+        "required" : [ "context", "sentence" ]
       },
       "InventoryRow" : {
         "type" : "object",
@@ -851,6 +1736,54 @@
           }
         },
         "required" : [ "count", "module", "status", "taskType" ]
+      },
+      "KeyRule" : {
+        "type" : "object",
+        "properties" : {
+          "example" : {
+            "type" : "string"
+          },
+          "rule" : {
+            "type" : "string"
+          }
+        },
+        "required" : [ "example", "rule" ]
+      },
+      "Lesson" : {
+        "type" : "object",
+        "properties" : {
+          "area" : {
+            "type" : "string"
+          },
+          "common_mistakes" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/components/schemas/CommonMistake"
+            }
+          },
+          "explanation" : {
+            "type" : "string"
+          },
+          "ielts_examples" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/components/schemas/IeltsExample"
+            }
+          },
+          "key_rules" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/components/schemas/KeyRule"
+            }
+          },
+          "summary" : {
+            "type" : "string"
+          },
+          "title" : {
+            "type" : "string"
+          }
+        },
+        "required" : [ "area", "common_mistakes", "explanation", "ielts_examples", "key_rules", "summary", "title" ]
       },
       "LoginRequest" : {
         "type" : "object",

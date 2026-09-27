@@ -12,11 +12,8 @@ import com.ieltsprep.claude.ClaudeException;
 import com.ieltsprep.claude.ClaudeService;
 import com.ieltsprep.common.Json;
 import com.ieltsprep.errorlog.ErrorEntryRepository;
-import com.ieltsprep.grading.GradingModels.CriterionBand;
-import com.ieltsprep.grading.GradingModels.TaggedError;
-import com.ieltsprep.grading.GradingModels.VocabUpgrade;
-import com.ieltsprep.grading.GradingModels.WritingGrade;
 import com.ieltsprep.support.IntegrationTest;
+import com.ieltsprep.support.Fixtures;
 import com.ieltsprep.support.TestAuth;
 import java.util.List;
 import java.util.Map;
@@ -34,23 +31,6 @@ class WritingFlowTest {
     @Autowired ErrorEntryRepository errors;
     @MockitoBean ClaudeService claude;
     String auth;
-
-    static final String ESSAY = "Some people believe that working four days is better. In my opinion, this have many benefit "
-            + "for employees and also for companies. Firstly, the workers is more rested and they are more productive.";
-
-    static WritingGrade grade() {
-        return new WritingGrade(
-                List.of(new CriterionBand("TASK_RESPONSE", 6, "Addresses the prompt; \"many benefit\" is underdeveloped.", List.of(), List.of()),
-                        new CriterionBand("COHERENCE_COHESION", 7, "Logical.", List.of(), List.of()),
-                        new CriterionBand("LEXICAL_RESOURCE", 6, "Adequate.", List.of(), List.of()),
-                        new CriterionBand("GRAMMATICAL_RANGE_ACCURACY", 6, "Frequent agreement errors.", List.of(), List.of())),
-                List.of(new TaggedError("grammar", "Subject-Verb Agreement", "this have", "this has", "Singular subject."),
-                        new TaggedError("grammar", "plural_form", "many benefit", "many benefits", "Countable plural."),
-                        new TaggedError("vocabulary", "word_choice", "better", "more beneficial", "Precision.")),
-                List.of("Develop each idea with an example", "Fix agreement", "Vary linkers"),
-                List.of(new VocabUpgrade("many benefit", "numerous advantages", "This has numerous advantages for employees.")),
-                "Under length.", "Solid band 6.", "A model answer…");
-    }
 
     @BeforeEach
     void login() throws Exception {
@@ -88,10 +68,10 @@ class WritingFlowTest {
 
     @Test
     void submittedEssayIsGradedAndErrorsAreLogged() throws Exception {
-        when(claude.call(any())).thenAnswer(inv -> grade());
+        when(claude.call(any())).thenAnswer(inv -> Fixtures.writingGrade());
         long before = errors.count();
 
-        JsonNode result = submit(startTask2(), ESSAY);
+        JsonNode result = submit(startTask2(), Fixtures.ESSAY);
 
         assertThat(result.get("status").asText()).isEqualTo("GRADED");
         JsonNode attempt = result.at("/attempts/0");
@@ -115,11 +95,11 @@ class WritingFlowTest {
     @Test
     void failedGradingCanBeRetried() throws Exception {
         when(claude.call(any())).thenThrow(new ClaudeException("CLAUDE_UNAVAILABLE", "overloaded"));
-        JsonNode failed = submit(startTask2(), ESSAY);
+        JsonNode failed = submit(startTask2(), Fixtures.ESSAY);
         assertThat(failed.get("status").asText()).isEqualTo("FAILED");
         assertThat(failed.at("/attempts/0/error").asText()).contains("overloaded");
 
-        org.mockito.Mockito.doAnswer(inv -> grade()).when(claude).call(any());
+        org.mockito.Mockito.doAnswer(inv -> Fixtures.writingGrade()).when(claude).call(any());
         long attemptId = failed.at("/attempts/0/attemptId").asLong();
         mvc.perform(post("/api/writing/attempts/" + attemptId + "/regrade").header("Authorization", auth)).andExpect(status().isOk());
         long sessionId = failed.get("sessionId").asLong();
