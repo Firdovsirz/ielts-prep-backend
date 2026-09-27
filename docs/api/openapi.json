@@ -186,7 +186,7 @@
     },
     "/api/grammar" : {
       "get" : {
-        "operationId" : "overview",
+        "operationId" : "overview_1",
         "responses" : {
           "200" : {
             "content" : {
@@ -1185,6 +1185,323 @@
           }
         },
         "tags" : [ "System" ]
+      }
+    },
+    "/api/vocab/banks" : {
+      "get" : {
+        "operationId" : "banks",
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "type" : "array",
+                  "items" : {
+                    "$ref" : "#/components/schemas/WordBankSummary"
+                  }
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "tags" : [ "Vocabulary" ]
+      }
+    },
+    "/api/vocab/banks/generate/{topic}" : {
+      "post" : {
+        "operationId" : "generateBank",
+        "parameters" : [ {
+          "in" : "path",
+          "name" : "topic",
+          "required" : true,
+          "schema" : {
+            "type" : "string"
+          }
+        } ],
+        "responses" : {
+          "202" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/Queued"
+                }
+              }
+            },
+            "description" : "Accepted"
+          }
+        },
+        "tags" : [ "Vocabulary" ]
+      }
+    },
+    "/api/vocab/banks/{itemId}" : {
+      "get" : {
+        "operationId" : "bank",
+        "parameters" : [ {
+          "in" : "path",
+          "name" : "itemId",
+          "required" : true,
+          "schema" : {
+            "type" : "integer",
+            "format" : "int64"
+          }
+        } ],
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/WordBankView"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "tags" : [ "Vocabulary" ]
+      }
+    },
+    "/api/vocab/banks/{itemId}/add" : {
+      "post" : {
+        "operationId" : "addBank",
+        "parameters" : [ {
+          "in" : "path",
+          "name" : "itemId",
+          "required" : true,
+          "schema" : {
+            "type" : "integer",
+            "format" : "int64"
+          }
+        } ],
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/VocabAddedResult"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "tags" : [ "Vocabulary" ]
+      }
+    },
+    "/api/vocab/capture" : {
+      "post" : {
+        "operationId" : "capture",
+        "requestBody" : {
+          "content" : {
+            "application/json" : {
+              "schema" : {
+                "$ref" : "#/components/schemas/VocabAddRequest"
+              }
+            }
+          },
+          "required" : true
+        },
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/VocabCaptured"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "tags" : [ "Vocabulary" ]
+      }
+    },
+    "/api/vocab/cards" : {
+      "get" : {
+        "operationId" : "cards",
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "type" : "array",
+                  "items" : {
+                    "$ref" : "#/components/schemas/VocabCardView"
+                  }
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "tags" : [ "Vocabulary" ]
+      },
+      "post" : {
+        "operationId" : "add",
+        "requestBody" : {
+          "content" : {
+            "application/json" : {
+              "schema" : {
+                "$ref" : "#/components/schemas/VocabAddRequest"
+              }
+            }
+          },
+          "required" : true
+        },
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/VocabCardView"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "tags" : [ "Vocabulary" ]
+      }
+    },
+    "/api/vocab/cards/{id}" : {
+      "delete" : {
+        "operationId" : "remove",
+        "parameters" : [ {
+          "in" : "path",
+          "name" : "id",
+          "required" : true,
+          "schema" : {
+            "type" : "integer",
+            "format" : "int64"
+          }
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "OK"
+          }
+        },
+        "tags" : [ "Vocabulary" ]
+      },
+      "put" : {
+        "operationId" : "edit",
+        "parameters" : [ {
+          "in" : "path",
+          "name" : "id",
+          "required" : true,
+          "schema" : {
+            "type" : "integer",
+            "format" : "int64"
+          }
+        } ],
+        "requestBody" : {
+          "content" : {
+            "application/json" : {
+              "schema" : {
+                "$ref" : "#/components/schemas/VocabEditRequest"
+              }
+            }
+          },
+          "required" : true
+        },
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/VocabCardView"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "tags" : [ "Vocabulary" ]
+      }
+    },
+    "/api/vocab/cards/{id}/review" : {
+      "post" : {
+        "operationId" : "review",
+        "parameters" : [ {
+          "in" : "path",
+          "name" : "id",
+          "required" : true,
+          "schema" : {
+            "type" : "integer",
+            "format" : "int64"
+          }
+        } ],
+        "requestBody" : {
+          "content" : {
+            "application/json" : {
+              "schema" : {
+                "$ref" : "#/components/schemas/VocabReviewRequest"
+              }
+            }
+          },
+          "required" : true
+        },
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/VocabCardView"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "tags" : [ "Vocabulary" ]
+      }
+    },
+    "/api/vocab/due" : {
+      "get" : {
+        "operationId" : "due",
+        "parameters" : [ {
+          "in" : "query",
+          "name" : "limit",
+          "required" : false,
+          "schema" : {
+            "type" : "integer",
+            "format" : "int32",
+            "default" : 30
+          }
+        } ],
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "type" : "array",
+                  "items" : {
+                    "$ref" : "#/components/schemas/VocabCardView"
+                  }
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "tags" : [ "Vocabulary" ]
+      }
+    },
+    "/api/vocab/overview" : {
+      "get" : {
+        "operationId" : "overview",
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/VocabOverview"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "tags" : [ "Vocabulary" ]
       }
     },
     "/api/writing/attempts/{id}/regrade" : {
@@ -3347,6 +3664,15 @@
         },
         "required" : [ "accuracy", "correct", "module", "questionType", "recentAccuracy", "total" ]
       },
+      "Queued" : {
+        "type" : "object",
+        "properties" : {
+          "message" : {
+            "type" : "string"
+          }
+        },
+        "required" : [ "message" ]
+      },
       "ReadingPassage" : {
         "type" : "object",
         "properties" : {
@@ -4224,6 +4550,217 @@
         },
         "required" : [ "email", "expiresAt", "role", "token" ]
       },
+      "VocabAddRequest" : {
+        "type" : "object",
+        "default" : null,
+        "properties" : {
+          "sentence" : {
+            "type" : "string"
+          },
+          "source" : {
+            "type" : "string"
+          },
+          "word" : {
+            "type" : "string",
+            "minLength" : 1
+          }
+        },
+        "required" : [ "word" ]
+      },
+      "VocabAddedResult" : {
+        "type" : "object",
+        "default" : null,
+        "properties" : {
+          "added" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "skipped" : {
+            "type" : "integer",
+            "format" : "int32"
+          }
+        },
+        "required" : [ "added", "skipped" ]
+      },
+      "VocabCaptured" : {
+        "type" : "object",
+        "default" : null,
+        "properties" : {
+          "result" : {
+            "type" : "string",
+            "enum" : [ "ADDED", "EXISTS", "IGNORED" ]
+          },
+          "word" : {
+            "type" : "string"
+          }
+        },
+        "required" : [ "result", "word" ]
+      },
+      "VocabCardView" : {
+        "type" : "object",
+        "default" : null,
+        "properties" : {
+          "awlSublist" : {
+            "type" : [ "integer", "null" ],
+            "format" : "int32",
+            "default" : ""
+          },
+          "cefr" : {
+            "type" : [ "string", "null" ],
+            "default" : ""
+          },
+          "collocations" : {
+            "type" : "array",
+            "items" : {
+              "type" : "string"
+            }
+          },
+          "contextSentence" : {
+            "type" : [ "string", "null" ],
+            "default" : ""
+          },
+          "definition" : {
+            "type" : [ "string", "null" ],
+            "default" : ""
+          },
+          "dueAt" : {
+            "type" : "string",
+            "format" : "date-time"
+          },
+          "easeFactor" : {
+            "type" : "number",
+            "format" : "double"
+          },
+          "enrichmentStatus" : {
+            "type" : "string"
+          },
+          "examples" : {
+            "type" : "array",
+            "items" : {
+              "type" : "string"
+            }
+          },
+          "id" : {
+            "type" : "integer",
+            "format" : "int64"
+          },
+          "intervalDays" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "lapses" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "lastReviewedAt" : {
+            "type" : [ "string", "null" ],
+            "format" : "date-time",
+            "default" : ""
+          },
+          "partOfSpeech" : {
+            "type" : [ "string", "null" ],
+            "default" : ""
+          },
+          "previews" : {
+            "type" : "object",
+            "additionalProperties" : {
+              "type" : "string"
+            }
+          },
+          "repetitions" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "source" : {
+            "type" : "string"
+          },
+          "topic" : {
+            "type" : [ "string", "null" ],
+            "default" : ""
+          },
+          "word" : {
+            "type" : "string"
+          }
+        },
+        "required" : [ "awlSublist", "cefr", "collocations", "contextSentence", "definition", "dueAt", "easeFactor", "enrichmentStatus", "examples", "id", "intervalDays", "lapses", "lastReviewedAt", "partOfSpeech", "previews", "repetitions", "source", "topic", "word" ]
+      },
+      "VocabEditRequest" : {
+        "type" : "object",
+        "default" : null,
+        "properties" : {
+          "collocations" : {
+            "type" : "array",
+            "items" : {
+              "type" : "string"
+            }
+          },
+          "definition" : {
+            "type" : "string"
+          },
+          "examples" : {
+            "type" : "array",
+            "items" : {
+              "type" : "string"
+            }
+          },
+          "partOfSpeech" : {
+            "type" : "string"
+          }
+        }
+      },
+      "VocabOverview" : {
+        "type" : "object",
+        "default" : null,
+        "properties" : {
+          "awl" : {
+            "type" : "integer",
+            "format" : "int64"
+          },
+          "bySource" : {
+            "type" : "object",
+            "additionalProperties" : {
+              "type" : "integer",
+              "format" : "int64"
+            }
+          },
+          "due" : {
+            "type" : "integer",
+            "format" : "int64"
+          },
+          "fresh" : {
+            "type" : "integer",
+            "format" : "int64"
+          },
+          "learned" : {
+            "type" : "integer",
+            "format" : "int64"
+          },
+          "nextDue" : {
+            "type" : [ "string", "null" ],
+            "format" : "date-time",
+            "default" : ""
+          },
+          "reviewedToday" : {
+            "type" : "integer",
+            "format" : "int64"
+          },
+          "total" : {
+            "type" : "integer",
+            "format" : "int64"
+          }
+        },
+        "required" : [ "awl", "bySource", "due", "fresh", "learned", "nextDue", "reviewedToday", "total" ]
+      },
+      "VocabReviewRequest" : {
+        "type" : "object",
+        "default" : null,
+        "properties" : {
+          "grade" : {
+            "type" : "integer",
+            "format" : "int32"
+          }
+        }
+      },
       "VocabUpgrade" : {
         "type" : "object",
         "properties" : {
@@ -4238,6 +4775,85 @@
           }
         },
         "required" : [ "better", "example", "original" ]
+      },
+      "WordBankEntry" : {
+        "type" : "object",
+        "default" : null,
+        "properties" : {
+          "cefr" : {
+            "type" : "string"
+          },
+          "collocations" : {
+            "type" : "array",
+            "items" : {
+              "type" : "string"
+            }
+          },
+          "definition" : {
+            "type" : "string"
+          },
+          "example" : {
+            "type" : "string"
+          },
+          "part_of_speech" : {
+            "type" : "string"
+          },
+          "word" : {
+            "type" : "string"
+          }
+        },
+        "required" : [ "cefr", "collocations", "definition", "example", "part_of_speech", "word" ]
+      },
+      "WordBankSummary" : {
+        "type" : "object",
+        "default" : null,
+        "properties" : {
+          "inDeck" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "itemId" : {
+            "type" : "integer",
+            "format" : "int64"
+          },
+          "origin" : {
+            "type" : "string"
+          },
+          "topic" : {
+            "type" : "string"
+          },
+          "words" : {
+            "type" : "integer",
+            "format" : "int32"
+          }
+        },
+        "required" : [ "inDeck", "itemId", "origin", "topic", "words" ]
+      },
+      "WordBankView" : {
+        "type" : "object",
+        "default" : null,
+        "properties" : {
+          "inDeck" : {
+            "type" : "array",
+            "items" : {
+              "type" : "string"
+            }
+          },
+          "itemId" : {
+            "type" : "integer",
+            "format" : "int64"
+          },
+          "topic" : {
+            "type" : "string"
+          },
+          "words" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/components/schemas/WordBankEntry"
+            }
+          }
+        },
+        "required" : [ "inDeck", "itemId", "topic", "words" ]
       },
       "WritingAttemptView" : {
         "type" : "object",

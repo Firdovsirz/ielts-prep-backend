@@ -1,0 +1,83 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "vocab-enrich",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "cards"
+  ],
+  "properties": {
+    "cards": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "word",
+          "part_of_speech",
+          "definition",
+          "examples",
+          "collocations",
+          "cefr",
+          "topic"
+        ],
+        "properties": {
+          "word": {
+            "type": "string",
+            "description": "The headword exactly as given."
+          },
+          "part_of_speech": {
+            "type": "string"
+          },
+          "definition": {
+            "type": "string",
+            "description": "Learner-friendly definition for this sense (use the context sentence to pick the sense)."
+          },
+          "examples": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Exactly two IELTS-style example sentences (Task 2 argument or Speaking Part 3 register), British spelling."
+          },
+          "collocations": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "2–4 common collocations."
+          },
+          "cefr": {
+            "type": "string",
+            "enum": [
+              "A2",
+              "B1",
+              "B2",
+              "C1",
+              "C2"
+            ]
+          },
+          "topic": {
+            "type": "string",
+            "enum": [
+              "education",
+              "environment",
+              "technology",
+              "health",
+              "work",
+              "society",
+              "government",
+              "crime",
+              "culture",
+              "family",
+              "media",
+              "globalisation",
+              "transport",
+              "general"
+            ]
+          }
+        }
+      }
+    }
+  }
+}
