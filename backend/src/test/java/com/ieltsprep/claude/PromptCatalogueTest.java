@@ -50,7 +50,8 @@ class PromptCatalogueTest {
                 Map.of("generation", "claude-sonnet-5", "verification", "claude-sonnet-5", "grading", "claude-sonnet-5",
                         "coaching", "claude-sonnet-5", "examiner", "claude-sonnet-5", "fast", "claude-haiku-4-5"),
                 Map.of("generation", "medium"), Map.of("generation", 32000L), Map.of());
-        ClaudeService service = new ClaudeService(props, prompts, schemas, refs, mock(SpendGuard.class), mock(UsageLogger.class));
+        ClaudeService service = new ClaudeService(props, prompts, schemas, refs, mock(SpendGuard.class), mock(UsageLogger.class),
+                new ApiKeyStore("sk-test", java.nio.file.Path.of("target/no-saved-key")));
 
         PreparedRequest req = service.prepare(ClaudeCall.of("reading-generate", Map.of("passage_number", 2,
                 "question_plan", "- Questions 1–13: …", "feedback", ""), Object.class));

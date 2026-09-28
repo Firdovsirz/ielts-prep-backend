@@ -30,8 +30,10 @@ public class SpendGuard {
     private final ApiUsageRepository usage;
     private final ClaudeProperties props;
     private final Clock clock;
+    private final ApiKeyStore keys;
 
-    public SpendGuard(ApiUsageRepository usage, ClaudeProperties props, Clock clock) {
+    public SpendGuard(ApiUsageRepository usage, ClaudeProperties props, Clock clock, ApiKeyStore keys) {
+        this.keys = keys;
         this.usage = usage;
         this.props = props;
         this.clock = clock;
@@ -70,7 +72,7 @@ public class SpendGuard {
                 bg.setScale(2, RoundingMode.HALF_UP),
                 spent.compareTo(cap) >= 0,
                 spent.compareTo(bg) >= 0,
-                props.hasApiKey(),
+                keys.present(),
                 usage.sumCostSince(weekAgo).setScale(4, RoundingMode.HALF_UP),
                 usage.countSince(startOfToday()));
     }

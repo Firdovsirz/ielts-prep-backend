@@ -32,8 +32,9 @@ frontend/coverage/
 .DS_Store
 *.log
 
-# Generated at runtime
+# Generated at runtime (secrets)
 data/.jwt-secret
+data/.anthropic-api-key*
 data/descriptors/official/
 data/templates/official/
 

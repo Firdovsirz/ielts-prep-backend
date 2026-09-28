@@ -33,6 +33,6 @@ ENV IELTS_DATA_DIR=/data \
 USER ielts
 VOLUME /data
 EXPOSE 8090
-HEALTHCHECK --interval=15s --timeout=5s --start-period=60s --retries=5 \
+HEALTHCHECK --interval=15s --timeout=5s --start-period=180s --retries=5 \
     CMD bash -c 'exec 3<>/dev/tcp/127.0.0.1/8090 && printf "GET /api/system/health HTTP/1.0\r\n\r\n" >&3 && grep -q UP <&3'
 ENTRYPOINT ["java", "-jar", "/app/app.jar"]

@@ -99,42 +99,42 @@ docker compose up -d --build              # nginx on :3000, proxies /api to BACK
 
 ## Deploying on a server
 
-`deploy.sh` works the same on a Linux server. If 3000 or 8090 is already taken by another service, it moves to the
-next free port and saves the choice in `.env`.
+`deploy.sh` works the same on a Linux server. Ports come from `.env` (`FRONTEND_PORT`, `BACKEND_PORT`). If one is
+already used by another service or container, the script takes the next free port, saves it and prints it.
 
 The browser allows microphone recording and speech recognition only over **HTTPS** (or on `localhost`), so put the
-app behind a TLS reverse proxy with a domain name:
+app behind nginx with TLS. Ready-made configs for two domains are in the repositories. Replace the domain names if you
+use others:
 
-1. In `.env`, set `FRONTEND_BIND=127.0.0.1` so the app is reachable only through the proxy, then run `./deploy.sh`.
-   Note the port it prints (e.g. `3000`).
-2. Point a DNS record (e.g. `ielts.example.com`) at the server.
-3. Proxy the domain to that port. The whole app, including `/api`, is served from the one port.
+| Domain | Config file | Proxies to |
+|---|---|---|
+| `ielts.firdovsirzaev.online` — the app | `frontend/deploy/nginx/ielts.firdovsirzaev.online.conf` | the web container, `127.0.0.1:3300`; it forwards `/api` to the backend itself |
+| `api-ielts.firdovsirzaev.online` — the API | `deploy/nginx/api-ielts.firdovsirzaev.online.conf` | the backend, `127.0.0.1:8300` (REST API, Swagger UI, OpenAPI spec) |
 
-   **Caddy** (automatic HTTPS) — `/etc/caddy/Caddyfile`:
+Both configs set security headers, allow 60 MB uploads (Speaking recordings) and 300 s timeouts (grading), and limit
+login attempts to 10 per minute per IP. The app talks to its own domain (`/api`), so the browser needs no CORS; the API
+domain is for Swagger UI and direct API use.
 
-   ```
-   ielts.example.com {
-       reverse_proxy 127.0.0.1:3000
-   }
-   ```
+```bash
+cd ~/ielts-prep
+# 1. Pin the ports used in the nginx configs and keep the app off the public interface
+sed -i -e 's/^FRONTEND_PORT=.*/FRONTEND_PORT=3300/' -e 's/^BACKEND_PORT=.*/BACKEND_PORT=8300/' .env
+grep -q '^FRONTEND_BIND=' .env && sed -i 's/^FRONTEND_BIND=.*/FRONTEND_BIND=127.0.0.1/' .env || echo 'FRONTEND_BIND=127.0.0.1' >> .env
+./deploy.sh
 
-   **nginx** (with certbot for the certificate):
+# 2. nginx sites (both DNS A records must point at this server)
+cp deploy/nginx/api-ielts.firdovsirzaev.online.conf frontend/deploy/nginx/ielts.firdovsirzaev.online.conf /etc/nginx/sites-available/
+ln -sf /etc/nginx/sites-available/ielts.firdovsirzaev.online.conf /etc/nginx/sites-enabled/
+ln -sf /etc/nginx/sites-available/api-ielts.firdovsirzaev.online.conf /etc/nginx/sites-enabled/
+nginx -t && systemctl reload nginx
 
-   ```nginx
-   server {
-       server_name ielts.example.com;
-       client_max_body_size 60m;              # Speaking recordings
-       location / {
-           proxy_pass http://127.0.0.1:3000;
-           proxy_set_header Host $host;
-           proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
-           proxy_set_header X-Forwarded-Proto $scheme;
-           proxy_read_timeout 300s;           # grading and coach reports
-       }
-   }
-   ```
+# 3. HTTPS certificates (certbot rewrites both sites to HTTPS and redirects HTTP)
+certbot --nginx -d ielts.firdovsirzaev.online -d api-ielts.firdovsirzaev.online
+```
 
-   Then `sudo certbot --nginx -d ielts.example.com`.
+If `deploy.sh` reports that it had to use different ports, change `127.0.0.1:3300` / `127.0.0.1:8300` in the two
+config files to match. With Caddy instead of nginx, the whole setup is
+`ielts.example.com { reverse_proxy 127.0.0.1:3300 }`.
 
 ## Local development
 
@@ -176,7 +176,7 @@ All secrets and per-install settings live in `.env` (gitignored). `.env.example`
 
 | Variable | Default | Meaning |
 |---|---|---|
-| `ANTHROPIC_API_KEY` | — | Your Claude API key. Leave empty to run offline (see below). |
+| `ANTHROPIC_API_KEY` | — | Your Claude API key. Leave empty to run offline; it can also be entered in the app (Settings → Claude API), which overrides this value. |
 | `ADMIN_EMAIL`, `ADMIN_PASSWORD` | — | The login created on first start. The password is stored only as a BCrypt hash. Change it later under Settings; editing `.env` afterwards does not overwrite a changed password. |
 | `JWT_SECRET` | generated | Signs login tokens. If blank, one is generated and kept in `data/.jwt-secret`. Changing it signs everyone out. |
 | `JWT_TTL_HOURS` | `720` | How long a login lasts. |
@@ -202,9 +202,16 @@ The app is fully usable offline with its seed content:
 - **Needs the key:** Writing and Speaking grading, the conversational AI examiner, generating new passages, sections,
   tasks and drills, vocabulary enrichment, and AI-personalised plans and coach reports.
 
-**Add the key:** paste it after `ANTHROPIC_API_KEY=` in `.env` and restart the backend (`make backend`, or
-`docker compose up -d`). Anything that failed to grade can then be re-graded from its result page (**Grade now**).
-Settings → Claude API shows whether the key is detected and today's spend.
+**Add the key** (any one of these):
+
+- **In the app:** Settings → Claude API → paste the key → **Save key**. The key is checked with Anthropic, takes
+  effect immediately (no restart), is stored only on your server (`data/.anthropic-api-key`, owner-only permissions)
+  and overrides the one in `.env`.
+- **With the deploy script:** `./deploy.sh --api-key` asks for the key, saves it in `.env` and restarts the app.
+- **By hand:** set `ANTHROPIC_API_KEY=` in `.env`, then `./deploy.sh` (Docker) or restart the backend.
+
+Anything that failed to grade can then be re-graded from its result page (**Grade now**). Settings → Claude API shows
+where the key comes from and today's spend.
 
 ## Content: seed, generation and sources
 
@@ -357,7 +364,7 @@ cd frontend && npm test         # 34 Vitest tests (+ npm run typecheck, npm run 
 
 | Symptom | Fix |
 |---|---|
-| "No API key · seed content only" in the sidebar | Put the key in `.env` and restart the backend. |
+| "No API key" in the sidebar | Click it (or Settings → Claude API) and paste your key, or run `./deploy.sh --api-key`. |
 | Writing or Speaking stuck on "grading failed" | Check the key and Settings → Claude API; then **Grade now** on the result page. |
 | HTTP 429 "daily spend cap reached" | Wait until midnight (local `TZ`) or raise `CLAUDE_DAILY_SPEND_CAP_USD`. |
 | No voices or robotic voices in Listening | Use Chrome or Edge, or install more system voices; Speech rate is under Settings. |

@@ -41,6 +41,9 @@ spring:
 server:
   port: ${SERVER_PORT:8090}
   shutdown: graceful
+  # Behind nginx/Caddy with HTTPS: honour X-Forwarded-Proto/Host so generated URLs (Swagger UI) use https.
+  # The backend is only reachable through the proxies (bound to 127.0.0.1 / the compose network).
+  forward-headers-strategy: framework
   error:
     include-message: always
 

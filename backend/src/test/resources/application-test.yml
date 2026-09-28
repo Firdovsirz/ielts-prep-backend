@@ -17,4 +17,6 @@ ielts:
   security:
     jwt-secret: test-secret
 claude:
+  # Never touch a real key saved in data/ during tests.
+  api-key-file: ./target/test-api-key
   api-key: ""

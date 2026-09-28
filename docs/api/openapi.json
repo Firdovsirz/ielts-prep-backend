@@ -1397,6 +1397,66 @@
         "tags" : [ "Speaking" ]
       }
     },
+    "/api/system/api-key" : {
+      "delete" : {
+        "operationId" : "deleteApiKey",
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/ApiKeyStatus"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "tags" : [ "System" ]
+      },
+      "get" : {
+        "operationId" : "apiKeyStatus",
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/ApiKeyStatus"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "tags" : [ "System" ]
+      },
+      "put" : {
+        "operationId" : "saveApiKey",
+        "requestBody" : {
+          "content" : {
+            "application/json" : {
+              "schema" : {
+                "$ref" : "#/components/schemas/ApiKeyRequest"
+              }
+            }
+          },
+          "required" : true
+        },
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/ApiKeyStatus"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "tags" : [ "System" ]
+      }
+    },
     "/api/system/health" : {
       "get" : {
         "operationId" : "health",
@@ -2032,6 +2092,32 @@
           }
         },
         "required" : [ "apiSpendToday", "apiSpendWeek", "itemsCompleted", "last28Days", "longestStreak", "sessionsCompleted", "streakDays", "totalMinutes" ]
+      },
+      "ApiKeyRequest" : {
+        "type" : "object",
+        "default" : null,
+        "properties" : {
+          "apiKey" : {
+            "type" : "string"
+          }
+        }
+      },
+      "ApiKeyStatus" : {
+        "type" : "object",
+        "default" : null,
+        "properties" : {
+          "configured" : {
+            "type" : "boolean"
+          },
+          "hint" : {
+            "type" : [ "string", "null" ],
+            "default" : ""
+          },
+          "source" : {
+            "type" : "string"
+          }
+        },
+        "required" : [ "configured", "hint", "source" ]
       },
       "BandPoint" : {
         "type" : "object",
@@ -5094,6 +5180,13 @@
           "apiKeyConfigured" : {
             "type" : "boolean"
           },
+          "apiKeyHint" : {
+            "type" : [ "string", "null" ],
+            "default" : ""
+          },
+          "apiKeySource" : {
+            "type" : "string"
+          },
           "inventory" : {
             "type" : "array",
             "items" : {
@@ -5110,7 +5203,7 @@
             "$ref" : "#/components/schemas/SpendStatus"
           }
         },
-        "required" : [ "apiKeyConfigured", "inventory", "models", "spend" ]
+        "required" : [ "apiKeyConfigured", "apiKeyHint", "apiKeySource", "inventory", "models", "spend" ]
       },
       "TableSpec" : {
         "type" : "object",

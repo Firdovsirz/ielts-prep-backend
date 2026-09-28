@@ -7,53 +7,126 @@
 #   In this folder:
 #     ./deploy.sh            build and (re)start everything → http://localhost:3000
 #     ./deploy.sh --pull     update both repositories first, then rebuild
+#     ./deploy.sh --api-key  add or replace the Claude (Anthropic) API key, then restart
 #     ./deploy.sh --down     stop the app (the data volume is kept)
 #
 # The frontend lives in its own repository and is cloned into ./frontend on first run. On first run .env is created
-# from .env.example; set ADMIN_EMAIL / ADMIN_PASSWORD (and optionally ANTHROPIC_API_KEY) in the environment to skip
-# the prompts, e.g.  ADMIN_EMAIL=me@example.com ADMIN_PASSWORD='…' ./deploy.sh
+# from .env.example; set ADMIN_EMAIL / ADMIN_PASSWORD / ANTHROPIC_API_KEY in the environment to skip the questions.
+# Ports: FRONTEND_PORT / BACKEND_PORT in .env; if one is taken by another service the next free port is used.
+# The API key can also be entered in the app: Settings → Claude API.
 set -euo pipefail
 
-cd "$(dirname "$0")"
-FRONTEND_REPO="${FRONTEND_REPO:-https://github.com/Firdovsirz/ielts-prep-frontend.git}"
-PULL=false
-DOWN=false
-for arg in "$@"; do
-  case "$arg" in
-    --pull) PULL=true ;;
-    --down) DOWN=true ;;
-    -h|--help) sed -n '2,15p' "$0"; exit 0 ;;
-    *) echo "Unknown option: $arg (see --help)"; exit 2 ;;
-  esac
-done
+# Everything runs inside main() so the whole script is read before it starts: `--pull` may replace this file.
+main() {
+  cd "$(dirname "$0")"
+  local frontend_repo="${FRONTEND_REPO:-https://github.com/Firdovsirz/ielts-prep-frontend.git}"
+  local pull=false down=false set_key=false
+  for arg in "$@"; do
+    case "$arg" in
+      --pull) pull=true ;;
+      --down) down=true ;;
+      --api-key) set_key=true ;;
+      -h|--help) sed -n '2,17p' "$0"; exit 0 ;;
+      *) fail "Unknown option: $arg (see --help)" ;;
+    esac
+  done
+
+  # --- Docker ------------------------------------------------------------------------------------------------------
+  command -v docker >/dev/null || fail "Docker is not installed (https://docs.docker.com/get-docker/)."
+  docker info >/dev/null 2>&1 || fail "Docker is not running."
+  if docker compose version >/dev/null 2>&1; then COMPOSE=(docker compose); else
+    command -v docker-compose >/dev/null || fail "Docker Compose is not installed."
+    COMPOSE=(docker-compose)
+  fi
+
+  if $down; then "${COMPOSE[@]}" down; exit 0; fi
+
+  # --- Sources -----------------------------------------------------------------------------------------------------
+  if $pull; then
+    if [ -d .git ]; then
+      say "Updating ielts-prep-backend"
+      git pull --ff-only
+    fi
+    if [ -d frontend/.git ]; then
+      say "Updating ielts-prep-frontend"
+      git -C frontend pull --ff-only
+    fi
+    # Continue with the freshly pulled version of this script.
+    local rest=()
+    for arg in "$@"; do [ "$arg" = "--pull" ] || rest+=("$arg"); done
+    exec "./deploy.sh" ${rest[@]+"${rest[@]}"}
+  fi
+  if [ ! -f frontend/package.json ]; then
+    say "Cloning the frontend into ./frontend"
+    git clone --depth 1 "$frontend_repo" frontend
+  fi
+
+  # --- .env --------------------------------------------------------------------------------------------------------
+  if [ ! -f .env ]; then
+    say "Creating .env from .env.example"
+    cp .env.example .env
+    local email="${ADMIN_EMAIL:-}" password="${ADMIN_PASSWORD:-}" key="${ANTHROPIC_API_KEY:-}"
+    if [ -z "$email" ] || [ -z "$password" ]; then
+      [ -t 0 ] || fail "Set ADMIN_EMAIL and ADMIN_PASSWORD to create the login (no terminal to ask)."
+      [ -n "$email" ] || read -r -p "  Admin e-mail: " email
+      if [ -z "$password" ]; then read -r -s -p "  Admin password (8+ characters): " password; echo; fi
+    fi
+    [ ${#password} -ge 8 ] || fail "The admin password must be at least 8 characters."
+    if [ -z "$key" ] && [ -t 0 ]; then
+      read -r -s -p "  Claude API key (sk-ant-…, Enter to skip — you can add it later): " key; echo
+    fi
+    env_set ADMIN_EMAIL "$email"
+    env_set ADMIN_PASSWORD "$password"
+    env_set JWT_SECRET "$( (openssl rand -base64 48 2>/dev/null || head -c 48 /dev/urandom | base64) | tr -d '\n')"
+    [ -n "$key" ] && env_set ANTHROPIC_API_KEY "$(printf '%s' "$key" | tr -d '[:space:]')"
+    [ -n "${TZ:-}" ] && env_set TZ "$TZ"
+  elif $set_key; then
+    local key="${ANTHROPIC_API_KEY:-}"
+    if [ -z "$key" ]; then
+      [ -t 0 ] || fail "Set ANTHROPIC_API_KEY to change the key (no terminal to ask)."
+      read -r -s -p "  Claude API key (sk-ant-…): " key; echo
+    fi
+    key="$(printf '%s' "$key" | tr -d '[:space:]')"
+    case "$key" in sk-ant-*) ;; *) fail "That does not look like an Anthropic API key (it starts with sk-ant-)." ;; esac
+    env_set ANTHROPIC_API_KEY "$key"
+    say "API key saved in .env (ending …${key: -4})"
+  fi
+  [ "$(env_get ADMIN_PASSWORD)" = "change-me-please" ] && fail "Change ADMIN_PASSWORD in .env before deploying."
+  if [ -z "$(env_get ANTHROPIC_API_KEY)" ]; then
+    say "No Claude API key yet — add it in the app (Settings → Claude API) or run ./deploy.sh --api-key"
+  fi
+
+  # --- Ports -------------------------------------------------------------------------------------------------------
+  choose_port FRONTEND_PORT 3000
+  choose_port BACKEND_PORT 8090
+
+  # --- Build and start ---------------------------------------------------------------------------------------------
+  say "Building and starting (the first build takes a few minutes)"
+  "${COMPOSE[@]}" up -d --build
+
+  local port="$FRONTEND_PORT" bind
+  bind="${FRONTEND_BIND:-$(env_get FRONTEND_BIND)}"
+  say "Waiting for the app on http://localhost:$port (the backend needs up to a minute to start)"
+  for _ in $(seq 1 120); do
+    if curl -fsS "http://localhost:$port/api/system/health" 2>/dev/null | grep -q UP; then
+      printf '\n\033[1;32m✓ IELTS Prep is running: http://localhost:%s\033[0m  (API on 127.0.0.1:%s, sign in as %s)\n' \
+        "$port" "$BACKEND_PORT" "$(env_get ADMIN_EMAIL)"
+      if [ "$bind" = "127.0.0.1" ]; then
+        echo "  Listening on 127.0.0.1 only — point your HTTPS reverse proxy at 127.0.0.1:$port (web) and 127.0.0.1:$BACKEND_PORT (API)."
+      else
+        echo "  On a server, put it behind HTTPS (microphone recording needs it) — see README: Deploying on a server."
+      fi
+      exit 0
+    fi
+    sleep 2
+  done
+  "${COMPOSE[@]}" ps
+  fail "The app did not become healthy in 4 minutes — check: ${COMPOSE[*]} logs backend"
+}
 
 say() { printf '\033[1;31m▸\033[0m %s\n' "$*"; }
 fail() { printf '\033[1;31m✗ %s\033[0m\n' "$*" >&2; exit 1; }
 
-# --- Docker ----------------------------------------------------------------------------------------------------------
-command -v docker >/dev/null || fail "Docker is not installed (https://docs.docker.com/get-docker/)."
-docker info >/dev/null 2>&1 || fail "Docker is not running."
-if docker compose version >/dev/null 2>&1; then COMPOSE=(docker compose); else
-  command -v docker-compose >/dev/null || fail "Docker Compose is not installed."
-  COMPOSE=(docker-compose)
-fi
-
-if $DOWN; then "${COMPOSE[@]}" down; exit 0; fi
-
-# --- Sources ---------------------------------------------------------------------------------------------------------
-if $PULL && [ -d .git ]; then
-  say "Updating ielts-prep-backend"
-  git pull --ff-only
-fi
-if [ ! -f frontend/package.json ]; then
-  say "Cloning the frontend into ./frontend"
-  git clone --depth 1 "$FRONTEND_REPO" frontend
-elif $PULL && [ -d frontend/.git ]; then
-  say "Updating ielts-prep-frontend"
-  git -C frontend pull --ff-only
-fi
-
-# --- .env ------------------------------------------------------------------------------------------------------------
 env_get() { grep -E "^$1=" .env 2>/dev/null | tail -1 | cut -d= -f2- || true; }
 env_set() { # env_set KEY VALUE — replaces or appends, safe for any characters in VALUE
   K="$1" V="$2" awk 'BEGIN { k = ENVIRON["K"]; v = ENVIRON["V"] }
@@ -61,30 +134,14 @@ env_set() { # env_set KEY VALUE — replaces or appends, safe for any characters
     END { if (!done) print k "=" v }' .env > .env.tmp && mv .env.tmp .env
 }
 
-if [ ! -f .env ]; then
-  say "Creating .env from .env.example"
-  cp .env.example .env
-  email="${ADMIN_EMAIL:-}"
-  password="${ADMIN_PASSWORD:-}"
-  if [ -z "$email" ] || [ -z "$password" ]; then
-    [ -t 0 ] || fail "Set ADMIN_EMAIL and ADMIN_PASSWORD to create the login (no terminal to ask)."
-    [ -n "$email" ] || read -r -p "  Admin e-mail: " email
-    if [ -z "$password" ]; then read -r -s -p "  Admin password (8+ characters): " password; echo; fi
-  fi
-  [ ${#password} -ge 8 ] || fail "The admin password must be at least 8 characters."
-  env_set ADMIN_EMAIL "$email"
-  env_set ADMIN_PASSWORD "$password"
-  secret=$(openssl rand -base64 48 2>/dev/null || head -c 48 /dev/urandom | base64)
-  env_set JWT_SECRET "$(printf '%s' "$secret" | tr -d '\n')"
-  [ -n "${ANTHROPIC_API_KEY:-}" ] && env_set ANTHROPIC_API_KEY "$ANTHROPIC_API_KEY"
-  [ -n "${TZ:-}" ] && env_set TZ "$TZ"
-fi
-[ "$(env_get ADMIN_PASSWORD)" = "change-me-please" ] && fail "Change ADMIN_PASSWORD in .env before deploying."
-[ -z "$(env_get ANTHROPIC_API_KEY)" ] && say "No ANTHROPIC_API_KEY in .env — the app runs with seed content; add the key later and re-run."
-
-# --- Ports -----------------------------------------------------------------------------------------------------------
-# Another service may already use 3000/8090 (common on shared servers): pick the next free port and remember it.
+# A port is taken when something listens on it or another container publishes it (Docker may not run a listening
+# proxy process). Ports published by this app's own running containers are fine: that is a redeploy.
 port_busy() {
+  if docker ps --format '{{.Label "com.docker.compose.project"}}|{{.Ports}}' 2>/dev/null \
+      | grep -v '^ielts-prep|' | grep -qE "[:.]$1->"; then
+    return 0
+  fi
+  ours "$1" && return 1
   if command -v ss >/dev/null 2>&1; then
     ss -ltn 2>/dev/null | awk 'NR > 1 { print $4 }' | grep -qE "[:.]$1\$"
   elif command -v lsof >/dev/null 2>&1; then
@@ -93,42 +150,20 @@ port_busy() {
     (exec 3<>"/dev/tcp/127.0.0.1/$1") 2>/dev/null
   fi
 }
-ours() { # the port is published by this app's own running containers (a redeploy)
+ours() {
   docker ps --filter "label=com.docker.compose.project=ielts-prep" --format '{{.Ports}}' 2>/dev/null | grep -qE "[:.]$1->"
 }
-choose_port() { # choose_port VAR DEFAULT
-  local var="$1" port
+choose_port() { # choose_port VAR DEFAULT — keeps the configured port if free, otherwise the next free one
+  local var="$1" port wanted
   port="${!var:-$(env_get "$var")}"
   port="${port:-$2}"
-  if port_busy "$port" && ! ours "$port"; then
-    local wanted="$port"
-    while port_busy "$port" && ! ours "$port"; do port=$((port + 1)); done
+  wanted="$port"
+  while port_busy "$port"; do port=$((port + 1)); done
+  if [ "$port" != "$wanted" ]; then
     say "Port $wanted is already in use — using $port for $var (saved in .env)"
-    env_set "$var" "$port"
   fi
+  env_set "$var" "$port"
   export "$var=$port"
 }
-choose_port FRONTEND_PORT 3000
-choose_port BACKEND_PORT 8090
 
-# --- Build and start -------------------------------------------------------------------------------------------------
-say "Building and starting (the first build takes a few minutes)"
-"${COMPOSE[@]}" up -d --build
-
-port="$FRONTEND_PORT"
-bind="${FRONTEND_BIND:-$(env_get FRONTEND_BIND)}"
-say "Waiting for the app on http://localhost:$port"
-for _ in $(seq 1 90); do
-  if curl -fsS "http://localhost:$port/api/system/health" 2>/dev/null | grep -q UP; then
-    printf '\n\033[1;32m✓ IELTS Prep is running: http://localhost:%s\033[0m  (sign in as %s)\n' "$port" "$(env_get ADMIN_EMAIL)"
-    if [ "$bind" = "127.0.0.1" ]; then
-      echo "  Listening on 127.0.0.1 only — point your HTTPS reverse proxy at 127.0.0.1:$port (see README: Deploying on a server)."
-    else
-      echo "  On a server, put it behind HTTPS (microphone recording needs it) — see README: Deploying on a server."
-    fi
-    exit 0
-  fi
-  sleep 2
-done
-"${COMPOSE[@]}" ps
-fail "The app did not become healthy in 3 minutes — check: ${COMPOSE[*]} logs backend"
+main "$@"

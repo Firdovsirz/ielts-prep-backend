@@ -40,6 +40,8 @@ spring:
 server:
   port: ${SERVER_PORT:8090}
   shutdown: graceful
+  # Behind a reverse proxy with HTTPS: trust X-Forwarded-* so generated URLs use https.
+  forward-headers-strategy: framework
   error:
     include-message: always
 

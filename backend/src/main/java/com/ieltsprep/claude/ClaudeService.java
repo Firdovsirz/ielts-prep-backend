@@ -55,11 +55,14 @@ public class ClaudeService {
     private final SpendGuard spendGuard;
     private final UsageLogger usageLogger;
     private final RetryTemplate retry;
+    private final ApiKeyStore keys;
     private volatile AnthropicClient client;
+    private volatile long clientKeyVersion = -1;
 
     public ClaudeService(ClaudeProperties props, PromptRepository prompts, SchemaRepository schemas,
-            ReferenceLibrary references, SpendGuard spendGuard, UsageLogger usageLogger) {
+            ReferenceLibrary references, SpendGuard spendGuard, UsageLogger usageLogger, ApiKeyStore keys) {
         this.props = props;
+        this.keys = keys;
         this.prompts = prompts;
         this.schemas = schemas;
         this.references = references;
@@ -74,7 +77,24 @@ public class ClaudeService {
 
     /** True when an API key is configured. Features degrade gracefully (seed content, self-marking) when false. */
     public boolean isAvailable() {
-        return props.hasApiKey();
+        return keys.present();
+    }
+
+    /**
+     * Checks a key with Anthropic before it is saved (listing models is free). Throws ApiException with a readable
+     * message when the key is rejected or Anthropic cannot be reached.
+     */
+    public void verifyKey(String key) {
+        AnthropicClient probe = builder(key).build();
+        try {
+            probe.models().list(com.anthropic.models.models.ModelListParams.builder().limit(1L).build());
+        } catch (com.anthropic.errors.UnauthorizedException | com.anthropic.errors.PermissionDeniedException e) {
+            throw com.ieltsprep.common.ApiException.badRequest("Anthropic rejected this key — check that it is copied completely and still active.");
+        } catch (com.anthropic.errors.AnthropicIoException e) {
+            throw com.ieltsprep.common.ApiException.badRequest("Could not reach Anthropic to verify the key: " + e.getMessage());
+        } finally {
+            probe.close();
+        }
     }
 
     public <T> T call(ClaudeCall<T> call) {
@@ -209,25 +229,32 @@ public class ClaudeService {
                 .collect(Collectors.joining());
     }
 
-    /** SDK client for the batch gateway (same package). */
+    /** SDK client for the batch gateway (same package). Rebuilt when the API key changes. */
     AnthropicClient client() {
+        long v = keys.version();
         AnthropicClient c = client;
-        if (c == null) {
+        if (c == null || clientKeyVersion != v) {
             synchronized (this) {
-                if (client == null) {
-                    AnthropicOkHttpClient.Builder builder = AnthropicOkHttpClient.builder()
-                            .apiKey(props.apiKey().trim())
-                            .timeout(Duration.ofSeconds(props.timeoutSeconds()))
-                            .maxRetries(0); // retries are handled by the RetryTemplate above
-                    if (props.baseUrl() != null && !props.baseUrl().isBlank()) {
-                        builder.baseUrl(props.baseUrl().trim());
-                    }
-                    client = builder.build();
+                if (client == null || clientKeyVersion != v) {
+                    String key = keys.current().orElseThrow(ClaudeException::notConfigured);
+                    client = builder(key).build(); // the previous client is left to finish any call in flight
+                    clientKeyVersion = v;
                 }
                 c = client;
             }
         }
         return c;
+    }
+
+    private AnthropicOkHttpClient.Builder builder(String key) {
+        AnthropicOkHttpClient.Builder builder = AnthropicOkHttpClient.builder()
+                .apiKey(key.trim())
+                .timeout(Duration.ofSeconds(props.timeoutSeconds()))
+                .maxRetries(0); // retries are handled by the RetryTemplate above
+        if (props.baseUrl() != null && !props.baseUrl().isBlank()) {
+            builder.baseUrl(props.baseUrl().trim());
+        }
+        return builder;
     }
 
     private void logFailure(PreparedRequest request, ClaudeCall<?> call, Exception e, long started) {
