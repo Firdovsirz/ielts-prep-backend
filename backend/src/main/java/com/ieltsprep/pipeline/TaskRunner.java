@@ -1,5 +1,6 @@
 package com.ieltsprep.pipeline;
 
+import com.ieltsprep.auth.AuthService;
 import com.ieltsprep.content.ItemRepository;
 import com.ieltsprep.content.SeedLoader;
 import com.ieltsprep.content.TaskType;
@@ -26,6 +27,7 @@ import org.springframework.stereotype.Component;
  *   ./mvnw spring-boot:run -Dspring-boot.run.arguments="--task=buffer"          (top up every bucket now)
  *   ./mvnw spring-boot:run -Dspring-boot.run.arguments="--task=seed [--update]"
  *   ./mvnw spring-boot:run -Dspring-boot.run.arguments="--task=status"
+ *   printf '%s\n%s\n' EMAIL PASSWORD | java -jar app.jar --task=reset-admin      (set the admin login)
  * </pre>
  */
 @Component
@@ -48,10 +50,12 @@ public class TaskRunner implements ApplicationRunner, ExitCodeGenerator {
     private final ContentBuffer buffer;
     private final SeedLoader seeds;
     private final ItemRepository items;
+    private final AuthService auth;
     private int exitCode;
 
     public TaskRunner(FetchTemplatesTask fetchTemplates, FetchSourcesTask fetchSources, GenerationService generation,
-            BatchGenerationService batches, ContentBuffer buffer, SeedLoader seeds, ItemRepository items) {
+            BatchGenerationService batches, ContentBuffer buffer, SeedLoader seeds, ItemRepository items, AuthService auth) {
+        this.auth = auth;
         this.fetchTemplates = fetchTemplates;
         this.fetchSources = fetchSources;
         this.generation = generation;
@@ -89,8 +93,9 @@ public class TaskRunner implements ApplicationRunner, ExitCodeGenerator {
                             + ": " + b.unserved() + "/" + b.target() + " unseen"));
                     yield 0;
                 }
+                case "reset-admin" -> resetAdmin();
                 default -> {
-                    print("Unknown task '" + task + "'. Tasks: fetch-templates, fetch-sources, generate, buffer, seed, status");
+                    print("Unknown task '" + task + "'. Tasks: fetch-templates, fetch-sources, generate, buffer, seed, status, reset-admin");
                     yield 2;
                 }
             };
@@ -134,6 +139,22 @@ public class TaskRunner implements ApplicationRunner, ExitCodeGenerator {
         print("Waiting for batch results (generate → blind verify)… Ctrl+C is safe; a running backend continues the job.");
         batches.awaitAll(Duration.ofSeconds(30), TaskRunner::print);
         print("Done.");
+        return 0;
+    }
+
+    /**
+     * Sets the admin login. Reads the new e-mail and password from standard input (two lines), so the password never
+     * appears on a command line: printf '%s\n%s\n' "$EMAIL" "$PASSWORD" | java -jar app.jar --task=reset-admin
+     */
+    private int resetAdmin() throws java.io.IOException {
+        java.io.BufferedReader in = new java.io.BufferedReader(new java.io.InputStreamReader(System.in, java.nio.charset.StandardCharsets.UTF_8));
+        String email = in.readLine();
+        String password = in.readLine();
+        if (email == null || password == null) {
+            print("Pass the new e-mail and password on standard input, one per line.");
+            return 2;
+        }
+        print("Admin login updated: " + auth.resetAdmin(email.trim(), password));
         return 0;
     }
 

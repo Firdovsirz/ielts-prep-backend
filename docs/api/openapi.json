@@ -13,6 +13,34 @@
     "bearer" : [ ]
   } ],
   "paths" : {
+    "/api/auth/account" : {
+      "put" : {
+        "operationId" : "updateAccount",
+        "requestBody" : {
+          "content" : {
+            "application/json" : {
+              "schema" : {
+                "$ref" : "#/components/schemas/AccountUpdateRequest"
+              }
+            }
+          },
+          "required" : true
+        },
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/TokenResponse"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "tags" : [ "Auth" ]
+      }
+    },
     "/api/auth/login" : {
       "post" : {
         "operationId" : "login",
@@ -2052,6 +2080,22 @@
   },
   "components" : {
     "schemas" : {
+      "AccountUpdateRequest" : {
+        "type" : "object",
+        "properties" : {
+          "currentPassword" : {
+            "type" : "string",
+            "minLength" : 1
+          },
+          "email" : {
+            "type" : "string"
+          },
+          "newPassword" : {
+            "type" : "string"
+          }
+        },
+        "required" : [ "currentPassword" ]
+      },
       "Activity" : {
         "type" : "object",
         "default" : null,

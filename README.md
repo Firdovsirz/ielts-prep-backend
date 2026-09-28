@@ -73,6 +73,8 @@ the values in: `ADMIN_EMAIL=me@example.com ADMIN_PASSWORD='…' ANTHROPIC_API_KE
 |---|---|
 | `./deploy.sh` (or `make deploy`) | Build and (re)start everything — also applies `.env` changes such as a new API key |
 | `./deploy.sh --pull` | Update both repositories, then rebuild and restart |
+| `./deploy.sh --api-key` | Add or replace the Claude API key |
+| `./deploy.sh --reset-admin` | Set a new login e-mail and password (no old password needed) |
 | `./deploy.sh --down` | Stop the app (data is kept) |
 | `docker compose logs -f backend` | Follow the backend logs |
 | `docker compose down -v` | Stop and delete all data |
@@ -177,7 +179,7 @@ All secrets and per-install settings live in `.env` (gitignored). `.env.example`
 | Variable | Default | Meaning |
 |---|---|---|
 | `ANTHROPIC_API_KEY` | — | Your Claude API key. Leave empty to run offline; it can also be entered in the app (Settings → Claude API), which overrides this value. |
-| `ADMIN_EMAIL`, `ADMIN_PASSWORD` | — | The login created on first start. The password is stored only as a BCrypt hash. Change it later under Settings; editing `.env` afterwards does not overwrite a changed password. |
+| `ADMIN_EMAIL`, `ADMIN_PASSWORD` | — | The login created on the **first** start (stored only as a BCrypt hash). Editing them later does not change the account: use Settings → Account, or `./deploy.sh --reset-admin` if the login is lost. Avoid `$` in the password (Docker treats it as a variable). |
 | `JWT_SECRET` | generated | Signs login tokens. If blank, one is generated and kept in `data/.jwt-secret`. Changing it signs everyone out. |
 | `JWT_TTL_HOURS` | `720` | How long a login lasts. |
 | `CLAUDE_DAILY_SPEND_CAP_USD` | `3.00` | Hard daily limit on API spend. |
@@ -364,6 +366,7 @@ cd frontend && npm test         # 34 Vitest tests (+ npm run typecheck, npm run 
 
 | Symptom | Fix |
 |---|---|
+| Login says "Incorrect email or password" (401) | The account was created on the first start with the values `.env` had then. Run `./deploy.sh --reset-admin` on the server to set a new e-mail and password. |
 | "No API key" in the sidebar | Click it (or Settings → Claude API) and paste your key, or run `./deploy.sh --api-key`. |
 | Writing or Speaking stuck on "grading failed" | Check the key and Settings → Claude API; then **Grade now** on the result page. |
 | HTTP 429 "daily spend cap reached" | Wait until midnight (local `TZ`) or raise `CLAUDE_DAILY_SPEND_CAP_USD`. |

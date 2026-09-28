@@ -7,6 +7,7 @@ import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.security.oauth2.jwt.Jwt;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -22,6 +23,9 @@ public class AuthController {
 
     public record Me(String email, String role) {}
 
+    /** email and newPassword are optional; leave either out to keep it. */
+    public record AccountUpdateRequest(@NotBlank String currentPassword, String email, String newPassword) {}
+
     private final AuthService auth;
 
     public AuthController(AuthService auth) {
@@ -36,6 +40,12 @@ public class AuthController {
     @GetMapping("/me")
     public Me me(@AuthenticationPrincipal Jwt jwt) {
         return new Me(jwt.getSubject(), jwt.getClaimAsString("role"));
+    }
+
+    /** Changes the e-mail and/or password of the signed-in account; returns a new token. */
+    @PutMapping("/account")
+    public AuthService.TokenResponse updateAccount(@AuthenticationPrincipal Jwt jwt, @Valid @RequestBody AccountUpdateRequest req) {
+        return auth.updateAccount(jwt.getSubject(), req.currentPassword(), req.email(), req.newPassword());
     }
 
     @PostMapping("/password")

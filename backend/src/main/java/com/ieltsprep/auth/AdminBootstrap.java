@@ -13,8 +13,9 @@ import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
 
 /**
- * Creates the bootstrap admin from ADMIN_EMAIL / ADMIN_PASSWORD on first start. The password is stored only as a
- * BCrypt hash; changing ADMIN_PASSWORD later does not overwrite a password changed in the app.
+ * Creates the bootstrap admin from ADMIN_EMAIL / ADMIN_PASSWORD on first start (when no account exists). The password
+ * is stored only as a BCrypt hash. Later changes to those variables do not touch the account: change the login in
+ * Settings → Account, or reset it with ./deploy.sh --reset-admin.
  */
 @Component
 @Order(1)
@@ -44,7 +45,13 @@ public class AdminBootstrap implements ApplicationRunner {
             }
             return;
         }
-        if (users.findByEmailIgnoreCase(admin.email().trim()).isPresent()) {
+        if (users.count() > 0) {
+            // The login is created once. Editing ADMIN_EMAIL/ADMIN_PASSWORD later does not add or change accounts
+            // (that would leave a second admin behind); the operator resets it explicitly instead.
+            if (users.findByEmailIgnoreCase(admin.email().trim()).isEmpty()) {
+                log.info("ADMIN_EMAIL does not match the existing login. To change the login run ./deploy.sh --reset-admin "
+                        + "(or --task=reset-admin), or change it in Settings → Account.");
+            }
             return;
         }
         if (admin.password() == null || admin.password().isBlank()) {
