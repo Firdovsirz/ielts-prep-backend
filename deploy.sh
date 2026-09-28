@@ -82,16 +82,50 @@ fi
 [ "$(env_get ADMIN_PASSWORD)" = "change-me-please" ] && fail "Change ADMIN_PASSWORD in .env before deploying."
 [ -z "$(env_get ANTHROPIC_API_KEY)" ] && say "No ANTHROPIC_API_KEY in .env — the app runs with seed content; add the key later and re-run."
 
+# --- Ports -----------------------------------------------------------------------------------------------------------
+# Another service may already use 3000/8090 (common on shared servers): pick the next free port and remember it.
+port_busy() {
+  if command -v ss >/dev/null 2>&1; then
+    ss -ltn 2>/dev/null | awk 'NR > 1 { print $4 }' | grep -qE "[:.]$1\$"
+  elif command -v lsof >/dev/null 2>&1; then
+    lsof -nP -iTCP:"$1" -sTCP:LISTEN >/dev/null 2>&1
+  else
+    (exec 3<>"/dev/tcp/127.0.0.1/$1") 2>/dev/null
+  fi
+}
+ours() { # the port is published by this app's own running containers (a redeploy)
+  docker ps --filter "label=com.docker.compose.project=ielts-prep" --format '{{.Ports}}' 2>/dev/null | grep -qE "[:.]$1->"
+}
+choose_port() { # choose_port VAR DEFAULT
+  local var="$1" port
+  port="${!var:-$(env_get "$var")}"
+  port="${port:-$2}"
+  if port_busy "$port" && ! ours "$port"; then
+    local wanted="$port"
+    while port_busy "$port" && ! ours "$port"; do port=$((port + 1)); done
+    say "Port $wanted is already in use — using $port for $var (saved in .env)"
+    env_set "$var" "$port"
+  fi
+  export "$var=$port"
+}
+choose_port FRONTEND_PORT 3000
+choose_port BACKEND_PORT 8090
+
 # --- Build and start -------------------------------------------------------------------------------------------------
 say "Building and starting (the first build takes a few minutes)"
 "${COMPOSE[@]}" up -d --build
 
-port="${FRONTEND_PORT:-$(env_get FRONTEND_PORT)}"
-port="${port:-3000}"
+port="$FRONTEND_PORT"
+bind="${FRONTEND_BIND:-$(env_get FRONTEND_BIND)}"
 say "Waiting for the app on http://localhost:$port"
 for _ in $(seq 1 90); do
   if curl -fsS "http://localhost:$port/api/system/health" 2>/dev/null | grep -q UP; then
     printf '\n\033[1;32m✓ IELTS Prep is running: http://localhost:%s\033[0m  (sign in as %s)\n' "$port" "$(env_get ADMIN_EMAIL)"
+    if [ "$bind" = "127.0.0.1" ]; then
+      echo "  Listening on 127.0.0.1 only — point your HTTPS reverse proxy at 127.0.0.1:$port (see README: Deploying on a server)."
+    else
+      echo "  On a server, put it behind HTTPS (microphone recording needs it) — see README: Deploying on a server."
+    fi
     exit 0
   fi
   sleep 2

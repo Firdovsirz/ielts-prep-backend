@@ -14,6 +14,7 @@ Spring Boot 3 (Java 21) · H2 · Flyway · React 19 + TypeScript + Vite · TanSt
 - [What it does](#what-it-does)
 - [Repositories](#repositories)
 - [Quick start with Docker](#quick-start-with-docker)
+- [Deploying on a server](#deploying-on-a-server)
 - [Local development](#local-development)
 - [Configuration](#configuration)
 - [Working without an API key](#working-without-an-api-key)
@@ -95,6 +96,45 @@ docker compose up -d --build              # nginx on :3000, proxies /api to BACK
 
 > Microphone recording and speech recognition only work on `https://` or `http://localhost`. To use the app from
 > another device, put it behind a TLS reverse proxy (Caddy, Traefik, nginx).
+
+## Deploying on a server
+
+`deploy.sh` works the same on a Linux server. If 3000 or 8090 is already taken by another service, it moves to the
+next free port and saves the choice in `.env`.
+
+The browser allows microphone recording and speech recognition only over **HTTPS** (or on `localhost`), so put the
+app behind a TLS reverse proxy with a domain name:
+
+1. In `.env`, set `FRONTEND_BIND=127.0.0.1` so the app is reachable only through the proxy, then run `./deploy.sh`.
+   Note the port it prints (e.g. `3000`).
+2. Point a DNS record (e.g. `ielts.example.com`) at the server.
+3. Proxy the domain to that port. The whole app, including `/api`, is served from the one port.
+
+   **Caddy** (automatic HTTPS) — `/etc/caddy/Caddyfile`:
+
+   ```
+   ielts.example.com {
+       reverse_proxy 127.0.0.1:3000
+   }
+   ```
+
+   **nginx** (with certbot for the certificate):
+
+   ```nginx
+   server {
+       server_name ielts.example.com;
+       client_max_body_size 60m;              # Speaking recordings
+       location / {
+           proxy_pass http://127.0.0.1:3000;
+           proxy_set_header Host $host;
+           proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+           proxy_set_header X-Forwarded-Proto $scheme;
+           proxy_read_timeout 300s;           # grading and coach reports
+       }
+   }
+   ```
+
+   Then `sudo certbot --nginx -d ielts.example.com`.
 
 ## Local development
 
@@ -322,6 +362,6 @@ cd frontend && npm test         # 34 Vitest tests (+ npm run typecheck, npm run 
 | HTTP 429 "daily spend cap reached" | Wait until midnight (local `TZ`) or raise `CLAUDE_DAILY_SPEND_CAP_USD`. |
 | No voices or robotic voices in Listening | Use Chrome or Edge, or install more system voices; Speech rate is under Settings. |
 | Microphone blocked | Allow it in the browser; use `http://localhost` or HTTPS. |
-| Port already in use | Change `BACKEND_PORT` / `FRONTEND_PORT` in `.env` (Docker) or `SERVER_PORT` (local backend). |
+| "Bind for 0.0.0.0:8090 failed: port is already allocated" | Re-run `./deploy.sh` — it now picks free ports. Or set `BACKEND_PORT` / `FRONTEND_PORT` in `.env`; for a local backend, `SERVER_PORT`. |
 | `docker compose: unknown command` | Use `docker-compose` (standalone Compose); the Makefile detects either. |
 | "Database may be already in use" | An old backend process is still running from a different jar or directory; stop it. |

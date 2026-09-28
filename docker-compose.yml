@@ -27,7 +27,8 @@ services:
     environment:
       BACKEND_URL: http://backend:8090
     ports:
-      - "${FRONTEND_PORT:-3000}:80"
+      # FRONTEND_BIND=127.0.0.1 keeps it off the network when a reverse proxy (HTTPS) sits in front.
+      - "${FRONTEND_BIND:-0.0.0.0}:${FRONTEND_PORT:-3000}:80"
     depends_on:
       backend:
         condition: service_healthy
