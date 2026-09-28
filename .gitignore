@@ -36,3 +36,6 @@ frontend/coverage/
 data/.jwt-secret
 data/descriptors/official/
 data/templates/official/
+
+# The frontend is its own repository (ielts-prep-frontend); deploy.sh and make clone it here.
+/frontend/
