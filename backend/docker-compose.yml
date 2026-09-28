@@ -1,5 +1,5 @@
-# Backend on its own:   cd backend && docker compose up -d --build
-# Reads secrets from the repo-root .env (and backend/.env if present). Data lives in the "ielts-data" volume.
+# The API alone:   cd backend && docker compose up -d --build   (or docker-compose). The whole app: ../deploy.sh
+# Reads secrets from the repo-root .env (and backend/.env if present). Data lives in the "ielts-prep-data" volume.
 name: ielts-prep-backend
 
 services:

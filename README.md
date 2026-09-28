@@ -12,6 +12,7 @@ Spring Boot 3 (Java 21) · H2 · Flyway · React 19 + TypeScript + Vite · TanSt
 ## Contents
 
 - [What it does](#what-it-does)
+- [Repositories](#repositories)
 - [Quick start with Docker](#quick-start-with-docker)
 - [Local development](#local-development)
 - [Configuration](#configuration)
@@ -41,44 +42,69 @@ Spring Boot 3 (Java 21) · H2 · Flyway · React 19 + TypeScript + Vite · TanSt
 
 Every attempt is stored (sessions, answers, grades, errors), and you can export everything to JSON or CSV.
 
+## Repositories
+
+The app is split across two repositories. Each has its own Docker Compose file:
+
+| Repository | Contents | Docker Compose |
+|---|---|---|
+| [ielts-prep-backend](https://github.com/Firdovsirz/ielts-prep-backend) (this one) | Spring Boot API (`backend/`), prompts, seed data, docs, `deploy.sh` | `backend/docker-compose.yml` — the API alone · `docker-compose.yml` — the whole app |
+| [ielts-prep-frontend](https://github.com/Firdovsirz/ielts-prep-frontend) | React app, nginx image | `docker-compose.yml` — the web app alone, proxying `/api` to `BACKEND_URL` |
+
+For the whole app the frontend is cloned into `./frontend` inside this repository (`deploy.sh` and `make` do it
+automatically; the folder is gitignored here).
+
 ## Quick start with Docker
 
-Requirements: Docker with Compose (`docker compose` or the standalone `docker-compose`).
+Requirements: Docker with Compose (`docker compose` or the standalone `docker-compose`) and git.
+
+**One command, on a fresh machine:**
 
 ```bash
-cp .env.example .env        # then edit .env: ADMIN_EMAIL, ADMIN_PASSWORD, and ANTHROPIC_API_KEY when you have it
-docker compose up -d --build   # or: docker-compose up -d --build, or: make docker-up
+git clone https://github.com/Firdovsirz/ielts-prep-backend.git ielts-prep && ielts-prep/deploy.sh
 ```
 
-Open **http://localhost:3000** and sign in with `ADMIN_EMAIL` / `ADMIN_PASSWORD`.
+It clones the frontend, creates `.env` (asking for the admin e-mail and password, and generating the token secret),
+builds both images and starts them. Open **http://localhost:3000** when it prints the URL. To skip the questions, pass
+the values in: `ADMIN_EMAIL=me@example.com ADMIN_PASSWORD='…' ANTHROPIC_API_KEY=sk-ant-… ielts-prep/deploy.sh`.
+
+| Command (in the `ielts-prep` folder) | What it does |
+|---|---|
+| `./deploy.sh` (or `make deploy`) | Build and (re)start everything — also applies `.env` changes such as a new API key |
+| `./deploy.sh --pull` | Update both repositories, then rebuild and restart |
+| `./deploy.sh --down` | Stop the app (data is kept) |
+| `docker compose logs -f backend` | Follow the backend logs |
+| `docker compose down -v` | Stop and delete all data |
 
 - The backend image bakes in the prompts and the default data (templates, descriptors, seed content). On first start
   these are copied into the `ielts-prep-data` volume, the database is created and the 174 verified seed items are
   loaded.
 - The API and Swagger UI are also available on `http://localhost:8090` (bound to localhost only).
-- To add or change the API key later: edit `.env`, then run `docker compose up -d` again (the backend restarts).
-- `docker compose down` stops the app and keeps your data; `docker compose down -v` also deletes the data volume.
 
-Each part can also be deployed on its own:
+**Each part on its own** (for example the API on one server and the web app on another):
 
 ```bash
-cd backend  && docker compose up -d --build   # API on :8090; reads ../.env (and backend/.env if present)
-cd frontend && docker compose up -d --build   # nginx on :3000; proxies /api to BACKEND_URL from frontend/.env
-```
+# ielts-prep-backend
+cp .env.example .env                      # set ADMIN_EMAIL, ADMIN_PASSWORD, ANTHROPIC_API_KEY
+cd backend && docker compose up -d --build     # API on :8090 (reads ../.env and backend/.env)
 
-`frontend/.env` sets `BACKEND_URL` (default `http://host.docker.internal:8090`, a backend running on the Docker host).
+# ielts-prep-frontend
+cp .env.example .env                      # BACKEND_URL=http://<api-host>:8090
+docker compose up -d --build              # nginx on :3000, proxies /api to BACKEND_URL
+```
 
 > Microphone recording and speech recognition only work on `https://` or `http://localhost`. To use the app from
 > another device, put it behind a TLS reverse proxy (Caddy, Traefik, nginx).
 
 ## Local development
 
-Requirements: **JDK 21**, **Node.js 22 LTS** or newer, and `make` (optional, for shortcuts). No Maven installation is
-needed, because the Maven wrapper (`./mvnw`) downloads it.
+Requirements: **JDK 21**, **Node.js 22 LTS** or newer, git, and `make` (optional, for shortcuts). No Maven installation
+is needed, because the Maven wrapper (`./mvnw`) downloads it.
 
 ```bash
-cp .env.example .env
-cd frontend && npm ci && cd ..
+git clone https://github.com/Firdovsirz/ielts-prep-backend.git ielts-prep && cd ielts-prep
+cp .env.example .env         # set ADMIN_EMAIL and ADMIN_PASSWORD
+make install                 # clones the frontend into ./frontend and installs its packages
 make dev                     # backend on :8090 + Vite on :5173 → http://localhost:5173
 ```
 
@@ -86,7 +112,7 @@ Without `make`:
 
 ```bash
 cd backend && ./mvnw spring-boot:run      # terminal 1 — reads ../.env
-cd frontend && npm run dev                # terminal 2 — proxies /api to http://localhost:8090
+cd frontend && npm ci && npm run dev      # terminal 2 — proxies /api to http://localhost:8090
 ```
 
 The backend reads the repo-root `.env` (and `backend/.env`, which overrides it). Real environment variables override
@@ -101,7 +127,7 @@ Useful targets (`make help` lists them all):
 | `make gen-api` | Export `docs/api/openapi.json` and regenerate `frontend/src/api/schema.d.ts` |
 | `make generate MODULE=reading COUNT=10` | Generate and verify new content (Batches API) |
 | `make status` | Content inventory and buffer levels |
-| `make docker-up` / `make docker-down` | Docker stack |
+| `make deploy` / `make docker-down` | Docker stack |
 | `make reset CONFIRM=yes` | Delete the local database (see below) |
 
 ## Configuration
@@ -227,7 +253,7 @@ backend/            Spring Boot API (Java 21) — Dockerfile, docker-compose.yml
     grading/ errorlog/ marking/ band/                        grading dispatch, error log, answer marking, BandCalculator
     dashboard/ plan/ coach/ mock/ export/ settings/ auth/ system/ pipeline/
   src/main/resources/db/migration/   Flyway migrations
-frontend/           React + Vite + TypeScript — Dockerfile, nginx.conf.template, docker-compose.yml
+frontend/           ielts-prep-frontend, cloned here (gitignored in this repo) — React + Vite + TypeScript
   src/api/          typed client (schema.d.ts is generated from the OpenAPI spec)
   src/features/     one folder per page/module
   src/components/ src/lib/            shared UI and pure helpers (unit-tested)
@@ -235,7 +261,8 @@ data/               seed content, format templates, descriptors, AWL, source lis
 prompts/            one Markdown file per Claude call + JSON schemas
 docs/               prompts.md, api/openapi.json
 scripts/            validate-seed.mjs
-docker-compose.yml  whole app
+docker-compose.yml  whole app (backend + ./frontend)
+deploy.sh           one-command deploy
 Makefile            shortcuts
 ```
 

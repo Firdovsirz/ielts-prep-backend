@@ -12,14 +12,23 @@ TASK = $(MVN) -q spring-boot:run -Dspring-boot.run.arguments="$(1)"
 
 MODULE ?= reading
 COUNT ?= 5
+# The frontend is its own repository, cloned into ./frontend when missing.
+FRONTEND_REPO ?= https://github.com/Firdovsirz/ielts-prep-frontend.git
+FRONTEND := frontend/package.json
 
-.PHONY: help install dev backend frontend test test-backend test-frontend lint build gen-api \
+.PHONY: help deploy install dev backend frontend test test-backend test-frontend lint build gen-api \
         docker-up docker-down docker-logs generate generate-sync buffer seed status fetch-templates fetch-sources reset
 
 help: ## Show this help
 	@grep -E '^[a-zA-Z_-]+:.*?## ' $(MAKEFILE_LIST) | awk 'BEGIN {FS = ":.*?## "}; {printf "  \033[36m%-16s\033[0m %s\n", $$1, $$2}'
 
-install: ## Install frontend dependencies (the Maven wrapper fetches backend ones)
+deploy: ## Build and start everything with Docker in one command (clones the frontend if needed)
+	./deploy.sh
+
+$(FRONTEND):
+	git clone $(FRONTEND_REPO) frontend
+
+install: $(FRONTEND) ## Install frontend dependencies (the Maven wrapper fetches backend ones)
 	cd frontend && npm ci
 
 dev: ## Run backend (:8090) and frontend (:5173) together
@@ -28,7 +37,7 @@ dev: ## Run backend (:8090) and frontend (:5173) together
 backend: ## Run the Spring Boot backend on :8090
 	$(MVN) spring-boot:run
 
-frontend: ## Run the Vite dev server on :5173 (proxies /api to :8090)
+frontend: $(FRONTEND) ## Run the Vite dev server on :5173 (proxies /api to :8090)
 	cd frontend && npm run dev
 
 test: test-backend test-frontend ## Run all tests
@@ -36,21 +45,21 @@ test: test-backend test-frontend ## Run all tests
 test-backend: ## JUnit tests
 	$(MVN) test
 
-test-frontend: ## Vitest + typecheck + lint
+test-frontend: $(FRONTEND) ## Vitest + typecheck + lint
 	cd frontend && npm run typecheck && npm run lint && npm test
 
-lint: ## Lint and format-check the frontend
+lint: $(FRONTEND) ## Lint and format-check the frontend
 	cd frontend && npm run lint && npm run format:check
 
-build: ## Build the backend jar and the frontend bundle
+build: $(FRONTEND) ## Build the backend jar and the frontend bundle
 	$(MVN) -q package -DskipTests
 	cd frontend && npm run build
 
-gen-api: ## Export OpenAPI (docs/api/openapi.json) and regenerate frontend/src/api/schema.d.ts
+gen-api: $(FRONTEND) ## Export OpenAPI (docs/api/openapi.json) and regenerate frontend/src/api/schema.d.ts
 	$(MVN) -q test -Dtest=OpenApiExportTest
 	cd frontend && npm run gen:api
 
-docker-up: ## Build and start the whole app in Docker → http://localhost:3000
+docker-up: $(FRONTEND) ## Build and start the whole app in Docker → http://localhost:3000
 	$(COMPOSE) up -d --build
 
 docker-down: ## Stop the Docker stack (data volume is kept)
